@@ -1,1 +1,19 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Push Notification Test Setup</title>
+  <link rel="manifest" href="manifest.json">
+  <script src="mf_push_main.js"></script>
+</head>
+<body>
+  <h1>Push Notification Test</h1>
+  <p>This page must be accessed using HTTPS or via localhost.</p>
+
+  <script type="text/javascript">
+    // MarketFoxSdk.setUserDetails({
+    //   name: 'Sony Mathew'
+    // });
+    MarketFoxSdk.addToSegments('My Website Subs - May');
+  </script>
+</body>
+</html>
