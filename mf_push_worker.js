@@ -4,7 +4,8 @@
 'use strict';
 
 var WEBSITE_KEY = 'db6c4f9a68611314f08195e7a4da6052ef780ea5874fbe49e823778857b236d1',
-  MF_BASE_URL = 'https://staging.marketfox.co/',
+  // MF_BASE_URL = 'https://staging.marketfox.co/',
+  MF_BASE_URL = 'https://v2.marketfox.io/',
   // BASE_URL = 'https://app.marketfox.io/',
   MF_PUSH_API_CAMPAIGN_FETCH = MF_BASE_URL + 'push/campaign/get_campaign',
   MF_PUSH_API_CLICK_NOTIFICATION = MF_BASE_URL + 'push/campaign/click_notification';

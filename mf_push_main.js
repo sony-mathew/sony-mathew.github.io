@@ -33,7 +33,8 @@ Documentation :
   'use strict';
   
   var WEBSITE_KEY = 'db6c4f9a68611314f08195e7a4da6052ef780ea5874fbe49e823778857b236d1',
-    BASE_URL = 'https://staging.marketfox.co/';
+    BASE_URL = 'https://v2.marketfox.io/';
+    // BASE_URL = 'https://staging.marketfox.co/';
     // BASE_URL = 'http://localhost:3000/';
 
   var MarketFoxSdk = function(options) {
