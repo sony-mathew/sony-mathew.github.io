@@ -38,6 +38,7 @@ self.addEventListener('push', function(event) {
       .catch(function(error) {
         console.log('Error : ');
         console.log(error);
+        return true;
       });
     })
   );
@@ -86,10 +87,10 @@ self.addEventListener('notificationclick', function(event) {
   );
 
   //sending notification to server on click event
-  fetch(MF_PUSH_API_CLICK_NOTIFICATION, requestData).then(function(data) {
+  return fetch(MF_PUSH_API_CLICK_NOTIFICATION, requestData).then(function(data) {
     console.log('Click Notification send.');
+    return true;
   });
-
 });
 
 function showNotification(title, notificationOptions) {
