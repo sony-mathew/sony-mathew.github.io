@@ -38,9 +38,9 @@ self.addEventListener('push', function(event) {
       .catch(function(error) {
         console.log('Error : ');
         console.log(error);
-      });
+      })
     );
-  })
+  });
 });
 
 self.addEventListener('notificationclick', function(event) {
