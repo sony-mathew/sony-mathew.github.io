@@ -38,7 +38,6 @@ self.addEventListener('push', function(event) {
       .catch(function(error) {
         console.log('Error : ');
         console.log(error);
-        return true;
       });
     );
   })
