@@ -12,8 +12,8 @@ var WEBSITE_KEY = 'db6c4f9a68611314f08195e7a4da6052ef780ea5874fbe49e823778857b23
 
 self.addEventListener('push', function(event) {
   console.log('Push notification recieved.');
-  event.waitUntil(
-    self.registration.pushManager.getSubscription().then(function(subscription) {
+  return self.registration.pushManager.getSubscription().then(function(subscription) {
+    event.waitUntil(
       fetch(MF_PUSH_API_CAMPAIGN_FETCH + "?site_key=" + WEBSITE_KEY + "&device_id=" + getDeviceId(subscription))
       .then(function(response) { return response.json(); })
       .then(function(data) {
@@ -32,15 +32,16 @@ self.addEventListener('push', function(event) {
           }
         };
         console.log('Fetched data.');
-        msgPromises.push(showNotification(data.title, notificationOptions));
-        return Promise.all(msgPromises);
+        // msgPromises.push(showNotification(data.title, notificationOptions));
+        return self.registration.showNotification(title, notificationOptions);
+        // return Promise.all(msgPromises);
       })
       .catch(function(error) {
         console.log('Error : ');
         console.log(error);
-      });
-    })
-  );
+      })
+    );
+  })
 });
 
 self.addEventListener('notificationclick', function(event) {
@@ -82,28 +83,16 @@ self.addEventListener('notificationclick', function(event) {
       if (clients.openWindow) {
         return clients.openWindow(url);
       }
-    }).then(function(event) {
-      //sending notification to server on click event
-      return fetch(MF_PUSH_API_CLICK_NOTIFICATION, requestData).then(function(data) {
-        console.log('Click Notification send.');
-      });
     })
   );
+
+  fetch(MF_PUSH_API_CLICK_NOTIFICATION, requestData).then(function(data) {
+    console.log('Click Notification send.');
+  });
 });
 
 function showNotification(title, notificationOptions) {
   return self.registration.showNotification(title, notificationOptions);
-  // var showNotificationPromise = self.registration.showNotification(title, notificationOptions);
-  // if (notificationOptions.data.notificationTimeout) {
-  //   setTimeout(function() {
-  //       registration.getNotifications({ tag: notificationOptions.tag }).then(function(notifications) {
-  //       for (var i = 0; i < notifications.length; i++) {
-  //         notifications[i].close();
-  //       }
-  //       });
-  //     }, notificationOptions.data.notificationTimeout);﻿
-  // }
-  // return showNotificationPromise;
 }
 
 function getDeviceId(subscription) {
