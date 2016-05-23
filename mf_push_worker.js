@@ -10,11 +10,12 @@ var WEBSITE_KEY = 'db6c4f9a68611314f08195e7a4da6052ef780ea5874fbe49e823778857b23
   MF_PUSH_API_CAMPAIGN_FETCH = MF_BASE_URL + 'push/campaign/get_campaign',
   MF_PUSH_API_CLICK_NOTIFICATION = MF_BASE_URL + 'push/campaign/click_notification';
 
+
 self.addEventListener('push', function(event) {
   console.log('Push notification recieved.');
-  return self.registration.pushManager.getSubscription().then(function(subscription) {
-    event.waitUntil(
-      fetch(MF_PUSH_API_CAMPAIGN_FETCH + "?site_key=" + WEBSITE_KEY + "&device_id=" + getDeviceId(subscription))
+  event.waitUntil(
+    self.registration.pushManager.getSubscription().then(function(subscription) {
+      return fetch(MF_PUSH_API_CAMPAIGN_FETCH + "?site_key=" + WEBSITE_KEY + "&device_id=" + getDeviceId(subscription))
       .then(function(response) { return response.json(); })
       .then(function(data) {
         var msgPromises = [];
@@ -39,9 +40,9 @@ self.addEventListener('push', function(event) {
       .catch(function(error) {
         console.log('Error : ');
         console.log(error);
-      })
-    );
-  })
+      });
+    })
+  );
 });
 
 self.addEventListener('notificationclick', function(event) {
