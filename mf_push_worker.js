@@ -34,7 +34,7 @@ self.addEventListener('push', function(event) {
         };
         console.log('Fetched data.');
         // msgPromises.push(showNotification(data.title, notificationOptions));
-        return self.registration.showNotification(title, notificationOptions);
+        return self.registration.showNotification(data.title, notificationOptions);
         // return Promise.all(msgPromises);
       })
       .catch(function(error) {
