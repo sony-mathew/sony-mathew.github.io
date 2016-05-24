@@ -3,17 +3,22 @@
 <head>
   <title>Push Notification Test Setup</title>
   <link rel="manifest" href="manifest.json">
-  <script src="mf_push_main.js"></script>
+  <script src="https://cdn.marketfox.io/mf_sdk.js" async></script>
 </head>
 <body>
   <h1>Push Notification Test</h1>
   <p>This page must be accessed using HTTPS or via localhost.</p>
 
+
   <script type="text/javascript">
-    // MarketFoxSdk.setUserDetails({
-    //   name: 'Sony Mathew'
-    // });
-    MarketFoxSdk.addToSegments('My Website Subs - May');
+    var WEBSITE_KEY = 'db6c4f9a68611314f08195e7a4da6052ef780ea5874fbe49e823778857b236d1';
+    MarketFoxSdk.setUserDetails({
+      name: '2 - Johny Lenny',
+      phone: '+97287629810'
+    });
+    MarketFoxSdk.addToSegments('segment_2');
+    MarketFoxSdk.removeFromSegments('segment_3,segment_4,segment_1');
   </script>
+
 </body>
 </html>
