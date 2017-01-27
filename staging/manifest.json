@@ -1,0 +1,28 @@
+{
+  "version": "1.0",
+  "short_name": "Marketfox",
+  "name": "Push Notification App",
+  "start_url": "/",
+  "display": "standalone",
+  "launch_path": "/index.html",
+  "description": "Marketfox Push App enables web sites to send push notifications.",
+
+  "developer": {
+    "name": "Marketfox",
+    "url": "https://marketfox.io/"
+  },
+  "installs_allowed_from": [
+    "*"
+  ],
+  "default_locale": "en",
+  "permissions": {
+  },
+  "locales": {
+    "en": {
+      "name": "Marketfox Push App",
+      "description": "Web push"
+    }
+  },
+  "gcm_sender_id": "185421361820",
+  "gcm_user_visible_only": true
+}
