@@ -29,6 +29,15 @@
           return false;
         }
       });
+
+      if (window.MarketFoxSdk) {
+        pushStats(window.MarketFoxSdk.deviceId);
+      } else {
+        document.body.addEventListener('mf:sdkloaded', function () {
+          logger('sdk loaded');
+          pushStats(window.MarketFoxSdk.deviceId);
+        });
+      }
     });
 
     function validateEmail(email) {
@@ -48,15 +57,6 @@
       } else {
         jQuery('#push-subscription-details').html('Not Subscribed');
       }
-    }
-
-    if (window.MarketFoxSdk) {
-      pushStats(window.MarketFoxSdk.deviceId);
-    } else {
-      document.body.addEventListener('mf:sdkloaded', function () {
-        logger('sdk loaded');
-        pushStats(window.MarketFoxSdk.deviceId);
-      });
     }
     window.workerFile = '/staging/mf_worker.js';
   </script>
