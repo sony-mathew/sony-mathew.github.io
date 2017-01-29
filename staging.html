@@ -38,7 +38,11 @@
       } else {
         document.body.addEventListener('mf:sdkloaded', function () {
           logger('sdk loaded');
-          pushStats(window.MarketFoxSdk.deviceId);
+          pushStats();
+        });
+        document.body.addEventListener('mf:subscription', function () {
+          logger('subscribed');
+          pushStats(MarketFoxSdk.deviceId);
         });
       }
     });
@@ -54,7 +58,7 @@
       jQuery('.console-log').html(old + msg + "<br/>");
     }
 
-    function pushStats(id) {
+    function pushStats(id = false) {
       if (id) {
         jQuery('#push-subscription-details').html(id);
       } else {
