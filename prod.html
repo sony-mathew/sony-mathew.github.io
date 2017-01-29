@@ -14,9 +14,15 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
   <script type="text/javascript">
+    window.workerFile = '/prod_mf_worker.js';
+    // window.workerFile = 'https://sony-mathew.github.io/staging/mf_worker.js';
+
     $( document ).ready(function () {
       jQuery('body').on('click', '.custom-event-btn', function(e) {
         logger('Clicked on event submit button');
+        var event_name = jQuery('#custom_event_name').val();
+        var event_value = jQuery('#custom_event_value').val();
+        marketfox.track('custom_event', event_name, event_value);
       });
 
       jQuery('.signupform').on('submit', function (e) {
@@ -30,16 +36,18 @@
         }
       });
 
-
       if (window.MarketFoxSdk) {
         pushStats(window.MarketFoxSdk.deviceId);
       } else {
         document.body.addEventListener('mf:sdkloaded', function () {
           logger('sdk loaded');
-          pushStats(window.MarketFoxSdk.deviceId);
+          pushStats();
+        });
+        document.body.addEventListener('mf:subscription', function () {
+          logger('subscribed');
+          pushStats(MarketFoxSdk.deviceId);
         });
       }
-      
     });
 
     function validateEmail(email) {
@@ -53,17 +61,16 @@
       jQuery('.console-log').html(old + msg + "<br/>");
     }
 
-    function pushStats(id) {
+    function pushStats(id = false) {
       if (id) {
         jQuery('#push-subscription-details').html(id);
       } else {
         jQuery('#push-subscription-details').html('Not Subscribed');
       }
     }
-    window.workerFile = '/production/mf_worker.js';
   </script>
 
-  <!-- start Marketfox --> <script> function load_asyc(t,n){var e=document,o=e.createElement(t),s=e.getElementsByTagName("head")[0];for(i in n)o.setAttribute(i,n[i]);s.appendChild(o)}load_asyc("link",{rel:"manifest",href:"/production/manifest.json"}),load_asyc("script",{async:!0,src:"https://assets-marketfox-io.s3.amazonaws.com/subdomain/custom/698b0d2d80acdaa4197b0c7ed60dff9e7bb547f6336bf112e20d496628958e5c.js"}),marketfox={track:function(t,n,e,o,i){this.proxy(t,n,e,o,i)},register:function(t,n,e,o,i){this.proxy(t,n,e,o,i)},people:{set:function(t){marketfox.proxy("user",t)}},proxy:function(t,n,e,o,i){var s=this;"object"==typeof window.MarketFoxSdk?this.sdkSync(t,n,e,o,i):window.document.body.addEventListener("mf:sdkloaded",function(){s.sdkSync(t,n,e,o,i)},!1)},sdkSync:function(t,n,e){window.MarketFoxSdk[t](n,e)}}; </script> <!-- end Marketfox -->
+  <!-- start Marketfox --> <script> function load_asyc(t,n){var e=document,o=e.createElement(t),s=e.getElementsByTagName("head")[0];for(i in n)o.setAttribute(i,n[i]);s.appendChild(o)}load_asyc("link",{rel:"manifest",href:"/prod_manifest.json"}),load_asyc("script",{async:!0,src:"https://assets-marketfox-io.s3.amazonaws.com/subdomain/custom/698b0d2d80acdaa4197b0c7ed60dff9e7bb547f6336bf112e20d496628958e5c.js"}),marketfox={track:function(t,n,e,o,i){this.proxy(t,n,e,o,i)},register:function(t,n,e,o,i){this.proxy(t,n,e,o,i)},people:{set:function(t){marketfox.proxy("user",t)}},proxy:function(t,n,e,o,i){var s=this;"object"==typeof window.MarketFoxSdk?this.sdkSync(t,n,e,o,i):window.document.body.addEventListener("mf:sdkloaded",function(){s.sdkSync(t,n,e,o,i)},!1)},sdkSync:function(t,n,e){window.MarketFoxSdk[t](n,e)}}; </script> <!-- end Marketfox -->
 </head>
 <body>
 
@@ -150,11 +157,11 @@
       <div class="panel-body">
         <div class="form-group col-sm-4">
           <label> Name </label>
-          <input name="event_name" type="text" class="form-control" placeholder="Event Name">
+          <input name="event_name" type="text" class="form-control" placeholder="Event Name" id="custom_event_name">
         </div>
         <div class="form-group col-sm-4">
           <label> Value </label>
-          <input name="event_value" type="text" class="form-control" placeholder="Event Value">
+          <input name="event_value" type="text" class="form-control" placeholder="Event Value" id="custom_event_value">
         </div>
         <div class="form-group col-sm-4">
           <button type="submit" class="btn btn-default custom-event-btn">Submit</button>

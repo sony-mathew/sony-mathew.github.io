@@ -20,6 +20,9 @@
     $( document ).ready(function () {
       jQuery('body').on('click', '.custom-event-btn', function(e) {
         logger('Clicked on event submit button');
+        var event_name = jQuery('#custom_event_name').val();
+        var event_value = jQuery('#custom_event_value').val();
+        marketfox.track('custom_event', event_name, event_value);
       });
 
       jQuery('.signupform').on('submit', function (e) {
@@ -156,11 +159,11 @@
       <div class="panel-body">
         <div class="form-group col-sm-4">
           <label> Name </label>
-          <input name="event_name" type="text" class="form-control" placeholder="Event Name">
+          <input name="event_name" type="text" class="form-control" placeholder="Event Name" id="custom_event_name">
         </div>
         <div class="form-group col-sm-4">
           <label> Value </label>
-          <input name="event_value" type="text" class="form-control" placeholder="Event Value">
+          <input name="event_value" type="text" class="form-control" placeholder="Event Value" id="custom_event_value">
         </div>
         <div class="form-group col-sm-4">
           <button type="submit" class="btn btn-default custom-event-btn">Submit</button>
