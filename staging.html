@@ -13,6 +13,32 @@
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
+  <!-- Start of Async Drift Code -->
+<script>
+!function() {
+  var t;
+  if (t = window.driftt = window.drift = window.driftt || [], !t.init) return t.invoked ? void (window.console && console.error && console.error("Drift snippet included twice.")) : (t.invoked = !0, 
+  t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+  t.factory = function(e) {
+    return function() {
+      var n;
+      return n = Array.prototype.slice.call(arguments), n.unshift(e), t.push(n), t;
+    };
+  }, t.methods.forEach(function(e) {
+    t[e] = t.factory(e);
+  }), t.load = function(t) {
+    var e, n, o, i;
+    e = 3e5, i = Math.ceil(new Date() / e) * e, o = document.createElement("script"), 
+    o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + i + "/" + t + ".js", 
+    n = document.getElementsByTagName("script")[0], n.parentNode.insertBefore(o, n);
+  });
+}();
+drift.SNIPPET_VERSION = '0.3.1';
+drift.load('5w9d4gsypmt6');
+</script>
+<!-- End of Async Drift Code -->
+
+
   <script type="text/javascript">
     window.workerFile = '/staging_mf_worker.js';
     // window.workerFile = 'https://sony-mathew.github.io/staging/mf_worker.js';
@@ -106,7 +132,7 @@
       <h1>Valentino Rossi</h1>
       <p>Once the races begin it's more difficult and there is never that much time for testing.</p>
       <p><a class="btn btn-primary btn-lg" href="https://www.brainyquote.com/quotes/keywords/testing.html" role="button" target="_blank">Read more</a></p>
-      <p><a class="btn btn-primary btn-lg" onclick="marketfox.track('custom_event', 'Read More at ' + Date())" role="button" target="_blank">Read More - Event</a></p>
+      <p><a class="btn btn-primary btn-lg" onclick="marketfox.track('custom_event', 'Read More at ', Date())" role="button" target="_blank">Read More - Event</a></p>
     </div>
   </div><!-- /.container-fluid -->
 </nav>
