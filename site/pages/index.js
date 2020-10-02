@@ -23,8 +23,8 @@ export default function Home({ allPostsData }) {
       <section className={utilStyles.headingMd}>
         <p>I'm a Software Developer. Currently working remotely at BigBinary.</p>
         <p>
-          Started my career at Freshworks. Tried a hand at starting something of own with my startup Marketfox which was part of 
-          YCombinator (W17). Joined and worked at Furlenco for over an year.
+          Started career at Freshworks. Tried a hand at starting something of own with my startup Marketfox which was part of 
+          YCombinator (W17). Worked at Furlenco for over an year.
         </p>
 
         <h2 className={utilStyles.headingLg}>Blog</h2>
