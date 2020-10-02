@@ -3,7 +3,6 @@ import styles from "./layout.module.scss";
 import utilStyles from "../styles/utils.module.scss";
 import Link from "next/link";
 
-const name = "Sony Mathew";
 export const siteTitle = "The Usual Ramblings";
 
 export default function Layout({ children, home }) {
@@ -25,33 +24,23 @@ export default function Layout({ children, home }) {
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <header className={styles.header}>
-        {home ? (
-          <>
-            <img
-              src="/images/sony.jpeg"
-              className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
-              alt={name}
-            />
-            <h1 className={utilStyles.heading2Xl}>{name}</h1>
-          </>
-        ) : (
-          <>
+        <div className="grid grid-cols-6 flex-row border-solid border-0 border-b-2 m-1 mb-8">
+          <div className="col-start-1 col-span-2 flex flex-grow text-gray-700 text-center px-4 py-2 m-2 pl-0">
             <Link href="/">
-              <a>
-                <img
-                  src="/images/sony.jpeg"
-                  className={`${styles.headerImage} ${utilStyles.borderCircle}`}
-                  alt={name}
-                />
+              <a className="p-2 text-gray-600 hover:no-underline">
+                The Usual 🎙
               </a>
             </Link>
-            <h2 className={utilStyles.headingLg}>
-              <Link href="/">
-                <a className={utilStyles.colorInherit}>{name}</a>
-              </Link>
-            </h2>
-          </>
-        )}
+          </div>
+          <div className="col-start-3 col-span-2 flex flex-row gap-4 text-center px-4 py-2 m-2">
+            <Link href="/blog">
+              <a className="p-2 text-gray-600 hover:no-underline">Blog</a>
+            </Link>
+            <Link href="/projects">
+              <a className="p-2 text-gray-600 hover:no-underline">Projects</a>
+            </Link>
+          </div>
+        </div>
       </header>
       <main>{children}</main>
       {!home && (
