@@ -5,5 +5,9 @@ module.exports = {
     "./pages/**/*.js",
     "./components/**/*.js",
   ],
+  variants: {
+    borderColor: ["responsive", "hover", "focus", "active", "group-hover"],
+    // borderWidth: ["responsive", "hover", "focus"],
+  },
   // ...
 };

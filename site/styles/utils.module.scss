@@ -50,3 +50,14 @@
 .lightText {
   color: #999;
 }
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profileImage {
+  width: 6rem;
+  height: 6rem;
+}
