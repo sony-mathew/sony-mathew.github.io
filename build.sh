@@ -9,5 +9,7 @@ echo Building and Exporting..
 npm run export
 
 # copy out folder to docs folder
-echo Moving files to docs folder..
+echo Moving files to root folder..
+rm -rf ../_next
 cp -R ./out/* ../
+echo Done.
