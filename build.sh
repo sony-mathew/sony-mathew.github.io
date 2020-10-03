@@ -11,3 +11,4 @@ npm run export
 # copy out folder to docs folder
 echo Moving files to docs folder..
 cp -R ./out/* ../
+echo Done.

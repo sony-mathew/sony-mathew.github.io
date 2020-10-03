@@ -40,8 +40,8 @@ export default function Layout({ children, home }) {
               <a className="p-2 text-gray-600 hover:no-underline">Projects</a>
             </Link>
           </div>
-          <div className="col-span-1 flex flex-row gap-4 text-right px-4 py-2 m-2"></div>
-          <div className="col-span-1 col-end-6 flex flex-row gap-4 items-end place-items-end text-right px-4 py-2 m-2">
+          <div className="col-span-1 flex flex-row gap-4 px-4 py-2 m-2"></div>
+          <div className="col-span-1 flex flex-row gap-4 items-end place-items-end text-right px-4 py-2 m-2">
             <Link href="https://github.com/sony-mathew">
               <a target="_blank" class="py-2">
                 <img
