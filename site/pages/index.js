@@ -31,26 +31,22 @@ export default function Home({ allPostsData }) {
             />
           </a>
         </Link>
-        <h2 className={utilStyles.headingLg}>
-          <Link href="/">
-            <a className={utilStyles.colorInherit}>{name}</a>
-          </Link>
-        </h2>
+        <h2 className={utilStyles.headingLg}>{name}</h2>
       </section>
       <section className={utilStyles.headingMd}>
         <p className="text-center">
-          I'm a Software Developer. Working remotely 🏖 at &nbsp;
+          I'm a Software Developer. Working remotely 🏖 &nbsp;
           <Link href="https://www.bigbinary.com/">
-            <a target="_blank">BigBinary</a>
+            <a target="_blank">@BigBinary</a>
           </Link>
           .
         </p>
         <br></br>
 
-        <h2 className={utilStyles.headingLg}>Recent Ramblings</h2>
-        <ul className={utilStyles.list}>
+        <h3 className={utilStyles.headingLg}>Recent Ramblings</h3>
+        <ul>
           {allPostsData.slice(0, 3).map(({ id, date, title }) => (
-            <li className={utilStyles.listItem} key={id}>
+            <li key={id}>
               <Link href={`/posts/${id}`}>
                 <a>{title}</a>
               </Link>
@@ -61,12 +57,12 @@ export default function Home({ allPostsData }) {
             </li>
           ))}
         </ul>
-        <div>
-          <Link href="/blog">
-            <a>See All Articles</a>
-          </Link>
-        </div>
       </section>
+      <p>
+        <Link href="/blog">
+          <a>See All Articles →</a>
+        </Link>
+      </p>
     </Layout>
   );
 }
