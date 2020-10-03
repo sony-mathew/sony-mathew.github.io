@@ -9,3 +9,4 @@ git merge master
 git add .
 git commit -m "Deploy: $(ruby -e 'puts Time.now')"
 git push
+git checkout master
