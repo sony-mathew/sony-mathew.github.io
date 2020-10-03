@@ -41,7 +41,7 @@ export default function Home({ allPostsData }) {
         <p className="text-center">
           I'm a Software Developer. Working remotely 🏖 at &nbsp;
           <Link href="https://www.bigbinary.com/">
-            <a>BigBinary</a>
+            <a target="_blank">BigBinary</a>
           </Link>
           .
         </p>
