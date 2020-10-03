@@ -16,12 +16,10 @@ export default function CompareYml() {
         <article>
           <p>
             In most of the rails projects at one point in time, the problems
-            that comes with internationalization <code>I18n</code> is not of day
-            to day one, but rather a tedious and manual time consuming one. Most
-            of the time the developers add the keys in primary language
-            translation file
-            <code>(en.yml)</code> and leave the rest of language translations
-            stale.{" "}
+            that comes with internationalization <code>I18n</code> is not a day
+            to day one. When it comes it's rather a tedious and time consuming one with lot of manual work. Most
+            of the time the developers add the keys in primary language translation file
+            <code>(en.yml)</code> and leave the rest of language translations stale.
           </p>
           <br></br>
           <p>
@@ -34,8 +32,8 @@ export default function CompareYml() {
           </p>
           <br></br>
           <p>
-            Check this out in rubygems.org: <Link href="https://rubygems.org/gems/compare-yml/">
-              <a>compare-yml</a>
+            This ruby gem is published in rubygems.org: <Link href="https://rubygems.org/gems/compare-yml/">
+              <a target="_blank">compare-yml</a>
             </Link>
           </p>
         </article>
