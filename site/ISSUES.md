@@ -3,3 +3,4 @@
 * [Deploying static site to GitHub pages needs .nojekyll file](https://github.com/vercel/next.js/issues/2029)
 * PurgeCSS was causing isssues. So changed the broadmatcher in `postcss.config.js` to a custom matcher
 `const broadMatches = content.match(/(\w+)((-|:)\w+){0,4}/g) || [];`.
+* Adding GTM to this website: https://dev.to/ornio/add-google-analytics-through-gtm-google-tag-manager-on-next-js-5e4f

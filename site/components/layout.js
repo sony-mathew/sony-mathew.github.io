@@ -1,9 +1,7 @@
 import Head from "next/head";
 import styles from "./layout.module.scss";
-import utilStyles from "../styles/utils.module.scss";
 import Link from "next/link";
-
-export const siteTitle = "The Usual Ramblings";
+import DEFAULT_CONFIG from '../config/default_config'
 
 export default function Layout({ children, home }) {
   return (
@@ -17,33 +15,35 @@ export default function Layout({ children, home }) {
         <meta
           property="og:image"
           content={`https://og-image.now.sh/${encodeURI(
-            siteTitle
+            DEFAULT_CONFIG.siteTitle
           )}.png?theme=light&md=0&fontSize=75px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg`}
         />
-        <meta name="og:title" content={siteTitle} />
+        <meta name="og:title" content={DEFAULT_CONFIG.siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <header>
         <div className="grid grid-cols-6 flex-row mb-8">
-          <div className="col-start-1 col-span-2 flex flex-grow text-gray-700 text-center px-4 py-2 m-2 pl-0">
+          <div className="col-start-1 col-span-2 flex flex-grow text-gray-700 text-center pl-0">
             <Link href="/">
-              <a className="p-2 text-gray-600 hover:no-underline">
+              <a className="text-lg text-gray-600 hover:no-underline">
                 The Usual 🎙
               </a>
             </Link>
           </div>
-          <div className="col-start-3 col-span-2 flex flex-row gap-4 text-center px-4 py-2 m-2">
+          <div className="col-start-3 col-span-2 flex flex-row gap-x-4 text-center">
             <Link href="/blog">
-              <a className="p-2 text-gray-600 hover:no-underline">Blog</a>
+              <a className="text-lg text-gray-600 hover:no-underline">Blog</a>
             </Link>
             <Link href="/projects">
-              <a className="p-2 text-gray-600 hover:no-underline">Projects</a>
+              <a className="text-lg text-gray-600 hover:no-underline">
+                Projects
+              </a>
             </Link>
           </div>
-          <div className="col-span-1 flex flex-row gap-4 px-4 py-2 m-2"></div>
-          <div className="col-span-1 flex flex-row gap-4 items-end place-items-end text-right px-4 py-2 m-2">
+          <div className="col-span-1 flex flex-row"></div>
+          <div className="col-span-1 flex flex-row gap-x-4 m-2">
             <Link href="https://github.com/sony-mathew">
-              <a target="_blank" class="py-2">
+              <a target="_blank">
                 <img
                   src="/icons/github.svg"
                   className={`${styles.icon}`}
@@ -52,7 +52,7 @@ export default function Layout({ children, home }) {
               </a>
             </Link>
             <Link href="https://twitter.com/sonymathew_">
-              <a target="_blank" class="py-2">
+              <a target="_blank">
                 <img
                   src="/icons/twitter.svg"
                   className={`${styles.icon}`}
@@ -61,7 +61,7 @@ export default function Layout({ children, home }) {
               </a>
             </Link>
             <Link href="https://www.linkedin.com/in/sonymathew/">
-              <a target="_blank" class="py-2">
+              <a target="_blank">
                 <img
                   src="/icons/linkedin.svg"
                   className={`${styles.icon}`}
