@@ -2,13 +2,13 @@ import "../styles/tailwind.scss"
 import "../styles/global.scss"
 import { useEffect } from 'react'
 import { useRouter } from 'next/router'
-import { GTMPageView } from '../lib/gtm'
+import { GaPageView } from '../lib/gtag'
 
 export default function App({ Component, pageProps }) {
   const router = useRouter();
 
   useEffect(() => {
-      const handleRouteChange = (url) => GTMPageView(url);
+      const handleRouteChange = (url) => GaPageView(url);
       router.events.on('routeChangeComplete', handleRouteChange);
       return () => {
           router.events.off('routeChangeComplete', handleRouteChange);

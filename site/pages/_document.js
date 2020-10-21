@@ -13,16 +13,15 @@ class MyDocument extends Document {
       <Html>
         <Head>
           {/* <!-- Global site tag (gtag.js) - Google Analytics --> */}
-          <script async src={`https://www.googletagmanager.com/gtag/js?id=${DEFAULT_CONFIG.gtmId}`}></script>
+          <script async src={`https://www.googletagmanager.com/gtag/js?id=${DEFAULT_CONFIG.gaTrackingId}`}></script>
           <script
             dangerouslySetInnerHTML={{
               __html: `window.dataLayer = window.dataLayer || [];
                 function gtag(){dataLayer.push(arguments);}
                 gtag('js', new Date());
-                gtag('config', '${DEFAULT_CONFIG.gtmId}');`,
+                gtag('config', '${DEFAULT_CONFIG.gaTrackingId}');`,
             }}
           />
-
         </Head>
         <body>
           <Main />

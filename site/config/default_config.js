@@ -3,7 +3,7 @@ const DEFAULT_CONFIG = {
   siteTitle: "The Usual Ramblings",
 
   // analytics related
-  gtmId: "UA-51545020-1"
+  gaTrackingId: "UA-51545020-1"
 };
 
 export default DEFAULT_CONFIG;
