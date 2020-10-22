@@ -25,17 +25,17 @@ export default function Layout({ children, home }) {
         <div className="grid grid-cols-6 flex-row mb-8">
           <div className="col-start-1 col-span-2 flex flex-grow text-gray-700 text-center pl-0">
             <Link href="/">
-              <a className="text-lg text-gray-600 hover:no-underline">
+              <a className="text-lg text-gray-600 hover:no-underline py-1">
                 The Usual 🎙
               </a>
             </Link>
           </div>
           <div className="col-start-3 col-span-2 flex flex-row gap-x-4 text-center">
             <Link href="/blog">
-              <a className="text-lg text-gray-600 hover:no-underline">Blog</a>
+              <a className="nav-item text-lg text-gray-600 hover:no-underline px-4 py-1">Blog</a>
             </Link>
             <Link href="/projects">
-              <a className="text-lg text-gray-600 hover:no-underline">
+              <a className="nav-item text-lg text-gray-600 hover:no-underline px-4 py-1">
                 Projects
               </a>
             </Link>
