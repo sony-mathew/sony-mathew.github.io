@@ -1,5 +1,6 @@
 import Head from "next/head";
-import Layout, { siteTitle } from "../components/layout";
+import DEFAULT_CONFIG from '../config/default_config';
+import Layout from "../components/layout";
 import utilStyles from "../styles/utils.module.scss";
 import Link from "next/link";
 import Date from "../components/date";
@@ -8,7 +9,7 @@ export default function Home({ allPostsData }) {
   return (
     <Layout>
       <Head>
-        <title>{siteTitle}</title>
+        <title>{DEFAULT_CONFIG.siteTitle} # Projects</title>
       </Head>
       <section>
         <h2 className={utilStyles.headingLg}>Projects</h2>
