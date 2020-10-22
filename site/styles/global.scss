@@ -128,8 +128,17 @@ a {
   text-decoration: none;
 }
 a:hover {
-  opacity: 0.8;
+  color: var(--dark-gray-color);
   text-decoration: none;
+
+  &.nav-item {
+    background: var(--light-gray-color);
+    border-radius: 8%;
+  }
+
+  img {
+    opacity: 0.6;
+  }
 }
 h1,
 h2,

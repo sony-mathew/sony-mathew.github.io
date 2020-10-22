@@ -14,7 +14,7 @@ const purgecss = [
       //const broadMatches = content.match(/[^<>"'`\s]*[^<>"'`\s:]/g) || [];
 
       // this is a self written custom matcher, so handle with caution
-      const broadMatches = content.match(/(\w+)((-|:)\w+){0,4}/g) || [];
+      const broadMatches = content.match(/(\w+)((-|:|\/)\w+){0,4}/g) || [];
 
       // Capture classes within other delimiters like .block(class="w-1/2") in Pug
       const innerMatches =
