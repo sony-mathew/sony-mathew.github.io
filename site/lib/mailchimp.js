@@ -21,7 +21,7 @@ function SubscribeButton({ alreadySubscribed }) {
 export default function MailchimpSubscribe({ dateString }) {
   let alreadySubscribed = false;
 
-  // if (process.browser )
+  // if (process.browser ) {
   if (typeof document !== 'undefined') {
     alreadySubscribed = document.cookie.includes('MCPopupSubscribed=yes');
   }
