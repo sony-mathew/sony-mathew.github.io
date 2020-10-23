@@ -1,8 +1,10 @@
-import Layout from "../../components/layout";
 import Head from "next/head";
+import Link from "next/link";
+import Layout from "../../components/layout";
 import { getAllPostIds, getPostData } from "../../lib/posts";
 import Date from "../../components/date";
 import utilStyles from "../../styles/utils.module.scss";
+import Tags from "../../components/tags";
 
 export async function getStaticPaths() {
   const paths = getAllPostIds();
@@ -33,6 +35,17 @@ export default function Post({ postData }) {
           <Date dateString={postData.date} />
         </div>
         <div className="mt-5" dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+      
+      {/* 
+        <div className="mb-2">
+          <span>Read more in </span>
+          <Link href="/blog">
+            <a className="hover:no-underline">{postData.categories}</a>
+          </Link> category.
+        </div> */}
+        <Tags tags={postData.tags} />
+        
+        <div>{}</div>
       </article>
     </Layout>
   );
