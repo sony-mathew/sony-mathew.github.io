@@ -9,7 +9,18 @@ module.exports = {
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./lib/**/*.{js,ts,jsx,tsx}",
   ],
+  important: true,
   theme: {
+    screens: {
+      sm: '640px',
+      md: '768px',
+      lg: '1024px',
+      xl: '1280px',
+    },
+    fontFamily: {
+      display: ['Gilroy', 'sans-serif'],
+      body: ['Graphik', 'sans-serif'],
+    },
     extend: {
       colors: {
         "accent-1": "#333",
@@ -37,9 +48,13 @@ module.exports = {
     },
   },
   variants: {
+    appearance: ['responsive'],
+    opacity: ['responsive', 'hover'],
     borderColor: ["responsive", "hover", "focus", "active"],
     borderWidth: ["responsive", "hover", "focus"],
     gap: ["responsive", "hover", "focus"],
+    visibility: ['responsive', 'hover', 'focus'],
+    flexShrink: ['responsive', 'hover', 'focus'],
   },
   plugins: [],
 };
