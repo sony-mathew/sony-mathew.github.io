@@ -40,10 +40,9 @@ class MyDocument extends Document {
                 };
 
                 document.addEventListener("DOMContentLoaded", function(event) {
-                  // document.getElementById("open-mailchimp-subscribe-popup").onclick = function() {showMailingPopUp()};
                   document.addEventListener('click', event => {
-                    if (event.target.className === 'open-mailchimp-subscribe-popup') {
-                      console.log('Click!');
+                    if ((event.target.className || '').includes('open-mailchimp-subscribe-popup')) {
+                      console.log('Subscribe!');
                       showMailingPopUp();
                     }
                   });
