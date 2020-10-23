@@ -8,26 +8,25 @@ function DesktopLayout() {
   return (
     <>
       {/* For Desktop */}
-      <div className="grid grid-cols-6 flex-row mb-8">
-        <div className="col-start-1 col-span-2 flex flex-grow text-gray-700 text-center pl-0">
+      <div className="flex flex-row mb-10">
+        <div className="flex-none text-gray-700 pl-0">
           <Link href="/">
             <a className="text-lg text-gray-600 hover:no-underline">
               The Usual 🎙
             </a>
           </Link>
         </div>
-        <div className="col-start-3 col-span-2 flex flex-row gap-x-4 text-center">
+        <div className="flex flex-grow justify-center gap-x-4">
           <Link href="/blog">
-            <a className="nav-item text-lg text-gray-600 hover:no-underline px-3">Blog</a>
+            <a className="nav-item text-lg text-gray-600 hover:no-underline px-2 pb-1">Blog</a>
           </Link>
           <Link href="/projects">
-            <a className="nav-item text-lg text-gray-600 hover:no-underline px-3">
+            <a className="nav-item text-lg text-gray-600 hover:no-underline px-2 pb-1">
               Projects
             </a>
           </Link>
         </div>
-        <div className="col-span-1 flex flex-row"></div>
-        <div className="col-span-1 flex flex-row gap-x-4 py-1">
+        <div className="flex flex-row-reverse gap-x-4 mt-2">
           <SocialButtons />
         </div>
       </div>
@@ -100,7 +99,7 @@ function SocialButtons() {
   return (
     <>
       <Link href="https://github.com/sony-mathew">
-        <a target="_blank" className="md:flex-shrink-0">
+        <a target="_blank">
           <img
             src="/icons/github.svg"
             className={`${styles.icon}`}
