@@ -22,6 +22,35 @@ class MyDocument extends Document {
                 gtag('config', '${DEFAULT_CONFIG.gaTrackingId}');`,
             }}
           />
+
+          {/* <!-- For mailchimp newsletter popup --> */}
+          <script async defer type="text/javascript" src={"//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js"} data-dojo-config={"usePlainJson: true, isDebug: false"}></script>
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+                function showMailingPopUp() {
+                  require(["mojo/signup-forms/Loader"], function(L) { 
+                    L.start({
+                      "baseUrl":"${DEFAULT_CONFIG.mcBaseUrl}",
+                      "uuid":"${DEFAULT_CONFIG.mcUserId}",
+                      "lid":"${DEFAULT_CONFIG.mcListId}"
+                    });
+                  });
+                  document.cookie = 'MCEvilPopupClosed=;path=/;expires=Thu, 01 Jan 1970 00:00:00 UTC;';
+                };
+
+                document.addEventListener("DOMContentLoaded", function(event) {
+                  // document.getElementById("open-mailchimp-subscribe-popup").onclick = function() {showMailingPopUp()};
+                  document.addEventListener('click', event => {
+                    if (event.target.className === 'open-mailchimp-subscribe-popup') {
+                      console.log('Click!');
+                      showMailingPopUp();
+                    }
+                  });
+                });
+              `,
+            }}
+          />
         </Head>
         <body>
           <Main />

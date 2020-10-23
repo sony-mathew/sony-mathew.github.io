@@ -5,6 +5,7 @@ import utilStyles from "../styles/utils.module.scss";
 import { getSortedPostsData } from "../lib/posts";
 import Link from "next/link";
 import Date from "../components/date";
+import MailchimpSubscribe from "../lib/mailchimp"
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
@@ -64,6 +65,8 @@ export default function Home({ allPostsData }) {
           <a>See All Articles →</a>
         </Link>
       </p>
+
+      <MailchimpSubscribe />
     </Layout>
   );
 }
