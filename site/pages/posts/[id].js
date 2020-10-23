@@ -49,8 +49,8 @@ export default function Post({ postData }) {
           
           <div>{}</div>
         </article>
+        <MailchimpSubscribe />
       </Layout>
-      <MailchimpSubscribe />
     </>
   );
 }
