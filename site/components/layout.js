@@ -11,23 +11,23 @@ function DesktopLayout() {
       <div className="grid grid-cols-6 flex-row mb-8">
         <div className="col-start-1 col-span-2 flex flex-grow text-gray-700 text-center pl-0">
           <Link href="/">
-            <a className="text-lg text-gray-600 hover:no-underline py-1">
+            <a className="text-lg text-gray-600 hover:no-underline">
               The Usual 🎙
             </a>
           </Link>
         </div>
         <div className="col-start-3 col-span-2 flex flex-row gap-x-4 text-center">
           <Link href="/blog">
-            <a className="nav-item text-lg text-gray-600 hover:no-underline m-4 mx-4">Blog</a>
+            <a className="nav-item text-lg text-gray-600 hover:no-underline px-3">Blog</a>
           </Link>
           <Link href="/projects">
-            <a className="nav-item text-lg text-gray-600 hover:no-underline m-4 mx-4">
+            <a className="nav-item text-lg text-gray-600 hover:no-underline px-3">
               Projects
             </a>
           </Link>
         </div>
         <div className="col-span-1 flex flex-row"></div>
-        <div className="col-span-1 flex flex-row gap-x-4 m-2">
+        <div className="col-span-1 flex flex-row gap-x-4 py-1">
           <SocialButtons />
         </div>
       </div>
@@ -66,7 +66,7 @@ function MobileLayout() {
 
 function MobileNavMenuSidebar({ navMenuOpened, setNavMenuOpened }) {
   if (!navMenuOpened) {
-    return (<></>);
+    return null;
   }
 
   return (
