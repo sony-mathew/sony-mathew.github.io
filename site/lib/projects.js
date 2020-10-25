@@ -3,6 +3,7 @@ import path from "path";
 import matter from "gray-matter";
 import remark from "remark";
 import html from "remark-html";
+import remarkExternalLinks from "remark-external-links";
 
 const projectsDirectory = path.join(process.cwd(), "projects");
 
@@ -55,14 +56,14 @@ export function getAllProjectIds() {
   return fileNames.map((fileName) => {
     return {
       params: {
-        project: fileName.replace(/\.md$/, ""),
+        id: fileName.replace(/\.md$/, ""),
       },
     };
   });
 }
 
-export async function getProjectData(project) {
-  const fullPath = path.join(projectsDirectory, `${project}.md`);
+export async function getProjectData(id) {
+  const fullPath = path.join(projectsDirectory, `${id}.md`);
   const fileContents = fs.readFileSync(fullPath, "utf8");
 
   // Use gray-matter to parse the project metadata section
@@ -70,13 +71,14 @@ export async function getProjectData(project) {
 
   // Use remark to convert markdown into HTML string
   const processedContent = await remark()
+    .use(remarkExternalLinks, { target: "_blank", rel: ["nofollow"] })
     .use(html)
     .process(matterResult.content);
   const contentHtml = processedContent.toString();
 
   // Combine the data with the id and contentHtml
   return {
-    project,
+    id,
     contentHtml,
     ...matterResult.data,
   };

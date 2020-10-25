@@ -13,7 +13,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  const projectData = await getProjectData(params.project);
+  const projectData = await getProjectData(params.id);
   return {
     props: {
       projectData,
@@ -21,7 +21,7 @@ export async function getStaticProps({ params }) {
   };
 }
 
-export default function Post({ postData }) {
+export default function Project({ projectData }) {
   return (
     <Layout>
       <Head>
@@ -32,7 +32,7 @@ export default function Post({ postData }) {
         <div className={utilStyles.lightText}>
           <Date dateString={projectData.date} />
         </div>
-        <div dangerouslySetInnerHTML={{ __html: projectData.contentHtml }} />
+        <div className="mt-5" dangerouslySetInnerHTML={{ __html: projectData.contentHtml }} />
       </article>
     </Layout>
   );

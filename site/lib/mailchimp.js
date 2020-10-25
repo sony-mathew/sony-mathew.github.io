@@ -10,9 +10,9 @@ function SubscribeButton({ alreadySubscribed }) {
   }
 
   return (
-    <button className="open-mailchimp-subscribe-popup relative inline-flex rounded-md 
-      shadow-sm items-center px-4 py-2 border border-gray-600 rounded-md text-gray-200 
-      bg-gray-700 hover:bg-gray-700 hover:bg-opacity-50">
+    <button className="open-mailchimp-subscribe-popup relative inline-flex rounded 
+      items-center px-4 py-2 border border-gray-600 text-gray-200 bg-gray-700 
+      hover:bg-gray-700 hover:bg-opacity-50">
       Subscribe
     </button>
   );
@@ -29,7 +29,7 @@ export default function MailchimpSubscribe({ dateString }) {
   return (
     <>
       {/* <!-- Begin Mailchimp Signup Form --> */}
-      <div className="border border-gray-600 rounded flex flex-col justify-center place-items-center gap-6 p-8 mt-8">
+      <div className="border-t border-gray-600 flex flex-col justify-center place-items-center gap-6 p-8 mt-8">
         <div>
           I write about technology, career, travel and philosophy. I'm too lazy to spam you.
           Get notified on new posts.

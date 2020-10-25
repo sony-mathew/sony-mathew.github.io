@@ -19,7 +19,7 @@ export default function Home({ allPostsData }) {
   return (
     <Layout>
       <Head>
-        <title>{DEFAULT_CONFIG.siteTitle} # Blog</title>
+        <title>{DEFAULT_CONFIG.siteTitle} - Blog</title>
       </Head>
       <section>
         <h2 className={utilStyles.headingLg}>Ramblings</h2>
