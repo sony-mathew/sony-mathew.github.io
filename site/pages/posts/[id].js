@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Link from "next/link";
 import Layout from "../../components/layout";
 import { getAllPostIds, getPostData } from "../../lib/posts";
 import Date from "../../components/date";
@@ -38,16 +37,16 @@ export default function Post({ postData }) {
           </div>
           <div className="mt-5" dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
         
-        {/* 
-          <div className="mb-2">
-            <span>Read more in </span>
-            <Link href="/blog">
-              <a className="hover:no-underline">{postData.categories}</a>
-            </Link> category.
-          </div> */}
+          {/* 
+            <div className="mb-2">
+              <span>Read more in </span>
+              <Link href="/blog">
+                <a className="hover:no-underline">{postData.categories}</a>
+              </Link> category.
+            </div>
+          */}
+
           <Tags tags={postData.tags} />
-          
-          <div>{}</div>
         </article>
         <MailchimpSubscribe />
       </Layout>
