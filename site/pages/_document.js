@@ -1,6 +1,5 @@
-import Document, { Html, Head, Main, NextScript } from 'next/document'
-// import { gtmId, siteTitle } from '../config/default'
-import DEFAULT_CONFIG from '../config/default_config'
+import Document, { Html, Head, Main, NextScript } from 'next/document';
+import DEFAULT_CONFIG from '../config/default_config';
 
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
@@ -12,6 +11,8 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
+          <link rel="icon" href="/favicon.ico" />
+          <link href="/styles/custom.css" rel="stylesheet" />
           {/* <!-- Global site tag (gtag.js) - Google Analytics --> */}
           <script async src={`https://www.googletagmanager.com/gtag/js?id=${DEFAULT_CONFIG.gaTrackingId}`}></script>
           <script

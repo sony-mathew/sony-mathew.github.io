@@ -1,8 +1,7 @@
 import Head from "next/head";
-import styles from "./layout.module.scss";
 import Link from "next/link";
-import DEFAULT_CONFIG from '../config/default_config'
 import { useState } from 'react';
+import styles from "./layout.module.scss";
 
 function DesktopLayout() {
   return (
@@ -132,21 +131,6 @@ function SocialButtons() {
 export default function Layout({ children, home }) {
   return (
     <div className={styles.container}>
-      <Head>
-        <link rel="icon" href="/favicon.ico" />
-        <meta
-          name="description"
-          content="Portfolio Website and Personal Blog of Sony Mathew"
-        />
-        <meta
-          property="og:image"
-          content={`https://og-image.now.sh/${encodeURI(
-            DEFAULT_CONFIG.siteTitle
-          )}.png?theme=light&md=0&fontSize=75px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg`}
-        />
-        <meta name="og:title" content={DEFAULT_CONFIG.siteTitle} />
-        <meta name="twitter:card" content="summary_large_image" />
-      </Head>
       <header>
         <div className="hidden lg:block">
           <DesktopLayout />

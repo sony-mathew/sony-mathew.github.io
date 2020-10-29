@@ -1,4 +1,8 @@
 const DEFAULT_CONFIG = {
+  // default author
+  author: "Sony Mathew",
+  authorTwitterHandle: "sonymathew_",
+
   // meta
   siteTitle: "The Usual Ramblings",
 

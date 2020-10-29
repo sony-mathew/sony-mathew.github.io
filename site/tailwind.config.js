@@ -9,7 +9,7 @@ module.exports = {
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./lib/**/*.{js,ts,jsx,tsx}",
   ],
-  important: true,
+  // important: true,
   theme: {
     screens: {
       sm: '640px',

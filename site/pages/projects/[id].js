@@ -1,7 +1,8 @@
-import Layout from "../../components/layout";
 import Head from "next/head";
 import { getAllProjectIds, getProjectData } from "../../lib/projects";
-import Date from "../../components/date";
+import Layout from "../../components/layout";
+import { ArticleMeta } from "../../components/meta_data";
+import DateComponent from "../../components/date";
 import utilStyles from "../../styles/utils.module.scss";
 
 export async function getStaticPaths() {
@@ -25,12 +26,13 @@ export default function Project({ projectData }) {
   return (
     <Layout>
       <Head>
-        <title>{projectData.title}</title>
+        { ArticleMeta({ article: projectData }) }
       </Head>
       <article>
         <h1 className={utilStyles.headingXl}>{projectData.title}</h1>
         <div className={utilStyles.lightText}>
-          <Date dateString={projectData.date} />
+          <div>{projectData.author}</div>
+          <DateComponent dateString={projectData.date} /> • {projectData.readingTime} min read
         </div>
         <div className="mt-5" dangerouslySetInnerHTML={{ __html: projectData.contentHtml }} />
       </article>

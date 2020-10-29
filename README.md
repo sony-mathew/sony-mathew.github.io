@@ -1,3 +1,5 @@
+![CodeQL](https://github.com/sony-mathew/sony-mathew.github.io/workflows/CodeQL/badge.svg?branch=master)
+
 # sony-mathew.github.io
 Portfolio Website / Personal Blog  
 Visit: [https://sony-mathew.github.io/](https://sony-mathew.github.io/)

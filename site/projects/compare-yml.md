@@ -1,12 +1,14 @@
 ---
 title: 'RubyGem: Compare YML'
+description: 'A Ruby gem to compare YAML or JSON files to find the diff in the keys (with support extending to deeply nested key comparisons).'
 date: '2019-04-09'
 author: Sony Mathew
+readingTime: 3
 categories: ['Rubygem']
 tags: ['ruby-gem', 'compare-yml', 'compare-json', 'I18n', 'yml-diff', 'json-diff']
 ---
 
-This library can be used to compare two yml or json files to understand the differences in keys of both files. This library supports comparison of deeply nested keys also.
+This library is used to compare two YAML or JSON files to see the differences in keys of both files. This library extends the supports to the comparison of deeply nested keys too.
 
 # Motivation
 In most of the projects, the problems that comes with internationalization `I18n` is not a day to day one. When it  comes, it's a tedious and time consuming one with lot of manual work. Most of the time, developers add the keys in primary language translation file `(en.yml)` and leave the rest of language translations stale.
@@ -24,7 +26,11 @@ gem 'compare-yml'
 
 And then execute:
 
-    $ bundle && gem install compare-yml
+    bundle install
+
+Alternatively, you can just run the following in the terminal:
+
+    gem install compare-yml
 
 This should install compare-yml gem in your system.
 
@@ -32,7 +38,7 @@ This should install compare-yml gem in your system.
 
 The usage of this gem is pretty simple. You don't need to have this in your gemfile to use this. An executable is already included.
 
-So after doing `gem install compare-yml`, you can directly type in 
+So after doing installing the gem, you can directly type in 
 
 ```
 compare_yml source_file target_file
@@ -50,7 +56,7 @@ This will show you the keys which are missing from `en.yml` compared to `de.yml`
 An example usage for people using translation in react app would be :
 
 ```
-compare_yml public/static/locales/fr.json public/static/locales/en.json
+compare_yml locales/fr.json locales/en.json
 ```
 
 You can use this for comparing translation files, as well as for any yml or json files for that matter. Do not get fooled by the examples.

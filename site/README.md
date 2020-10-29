@@ -1,6 +1,7 @@
-## Portfolio Website/Blog
+## Portfolio Website with blog
 
-The current version of this website was started by following this tutorial app [Next.js](https://nextjs.org/learn).
-Initially, I had tried using [Middleman](https://middlemanapp.com/) for this, but did not stick.
+Initially, I tried [Middleman](https://middlemanapp.com/) to set up a personal website, but did not stick.   
 
-Visit: [https://sony-mathew.github.io/](https://sony-mathew.github.io/)
+The current version of this website was created by following this [tutorial app](https://nextjs.org/learn) `Next.js`.   
+
+Visit [https://sony-mathew.github.io/](https://sony-mathew.github.io/) to view this in action.
