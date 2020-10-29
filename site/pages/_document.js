@@ -12,6 +12,7 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
+          <link href="/styles/custom.css" rel="stylesheet" />
           {/* <!-- Global site tag (gtag.js) - Google Analytics --> */}
           <script async src={`https://www.googletagmanager.com/gtag/js?id=${DEFAULT_CONFIG.gaTrackingId}`}></script>
           <script

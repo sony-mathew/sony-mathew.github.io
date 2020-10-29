@@ -1,0 +1,14 @@
+code {
+  color: #51c4da;
+}
+
+article pre {
+  overflow-x: scroll;
+  background: #161c2d;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+article pre code {
+  color: #afafaf;
+}

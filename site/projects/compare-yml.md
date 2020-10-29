@@ -24,7 +24,7 @@ gem 'compare-yml'
 
 And then execute:
 
-    $ bundle && gem install compare-yml
+    bundle && gem install compare-yml
 
 This should install compare-yml gem in your system.
 
@@ -32,7 +32,7 @@ This should install compare-yml gem in your system.
 
 The usage of this gem is pretty simple. You don't need to have this in your gemfile to use this. An executable is already included.
 
-So after doing `gem install compare-yml`, you can directly type in 
+So after doing installing the gem, you can directly type in 
 
 ```
 compare_yml source_file target_file
@@ -50,7 +50,7 @@ This will show you the keys which are missing from `en.yml` compared to `de.yml`
 An example usage for people using translation in react app would be :
 
 ```
-compare_yml public/static/locales/fr.json public/static/locales/en.json
+compare_yml locales/fr.json locales/en.json
 ```
 
 You can use this for comparing translation files, as well as for any yml or json files for that matter. Do not get fooled by the examples.
