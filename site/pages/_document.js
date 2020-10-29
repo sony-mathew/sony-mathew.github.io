@@ -42,7 +42,7 @@ class MyDocument extends Document {
 
                 document.addEventListener("DOMContentLoaded", function(event) {
                   document.addEventListener('click', event => {
-                    if ((event.target.className || '').includes('open-mailchimp-subscribe-popup')) {
+                    if (typeof(event.target.className) === 'string' && event.target.className.includes('open-mailchimp-subscribe-popup')) {
                       console.log('Subscribe!');
                       showMailingPopUp();
                     }
