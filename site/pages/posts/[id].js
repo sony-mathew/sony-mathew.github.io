@@ -1,10 +1,11 @@
 import Head from "next/head";
-import Layout from "../../components/layout";
 import { getAllPostIds, getPostData } from "../../lib/posts";
-import Date from "../../components/date";
-import utilStyles from "../../styles/utils.module.scss";
+import MailchimpSubscribe from "../../lib/mailchimp";
+import Layout from "../../components/layout";
+import { ArticleMeta } from "../../components/meta_data";
+import DateComponent from "../../components/date";
 import Tags from "../../components/tags";
-import MailchimpSubscribe from "../../lib/mailchimp"
+import utilStyles from "../../styles/utils.module.scss";
 
 export async function getStaticPaths() {
   const paths = getAllPostIds();
@@ -28,12 +29,13 @@ export default function Post({ postData }) {
     <>
       <Layout>
         <Head>
-          <title>{postData.title}</title>
+          { ArticleMeta({ article: postData }) }
         </Head>
         <article>
           <h1 className={utilStyles.headingXl}>{postData.title}</h1>
           <div className={utilStyles.lightText}>
-            <Date dateString={postData.date} />
+            <div>{postData.author}</div>
+            <DateComponent dateString={postData.date} /> • {postData.readingTime} min read
           </div>
           <div className="mt-5" dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
         
