@@ -1,8 +1,8 @@
-import "../styles/tailwind.scss"
-import { useEffect } from 'react'
-import { useRouter } from 'next/router'
-import { GaPageView } from '../lib/gtag'
-import "../styles/global.scss"
+import { useEffect } from 'react';
+import { useRouter } from 'next/router';
+import { GaPageView } from '../lib/gtag';
+import "../styles/tailwind.scss";
+import "../styles/global.scss";
 
 export default function App({ Component, pageProps }) {
   const router = useRouter();

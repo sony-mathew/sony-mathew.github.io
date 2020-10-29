@@ -1,7 +1,9 @@
 ---
 title: 'When the tides stop and life drifts'
+description: 'A short philosophical take on boredom and the productivity that follows.'
 date: '2017-06-27'
 author: Sony Mathew
+readingTime: 4
 categories: ['Life']
 tags: ['node.js', 'rabbitmq', 'background-jobs', 'worker', 'message-queues', 'amqp']
 ---

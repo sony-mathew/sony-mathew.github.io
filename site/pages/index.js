@@ -1,11 +1,13 @@
 import Head from "next/head";
-import Layout from "../components/layout";
-import DEFAULT_CONFIG from '../config/default_config';
-import utilStyles from "../styles/utils.module.scss";
-import { getSortedPostsData } from "../lib/posts";
 import Link from "next/link";
-import Date from "../components/date";
+import DEFAULT_CONFIG from '../config/default_config';
+import { getSortedPostsData } from "../lib/posts";
 import MailchimpSubscribe from "../lib/mailchimp"
+import Layout from "../components/layout";
+import Date from "../components/date";
+import { MetaData } from "../components/meta_data";
+import utilStyles from "../styles/utils.module.scss";
+
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
@@ -21,7 +23,8 @@ export default function Home({ allPostsData }) {
   return (
     <Layout home>
       <Head>
-        <title>{DEFAULT_CONFIG.siteTitle}</title>
+        <title>{ DEFAULT_CONFIG.siteTitle } | by {DEFAULT_CONFIG.author}</title>
+        { MetaData() }
       </Head>
       <section className={utilStyles.profile}>
         <Link href="/">
