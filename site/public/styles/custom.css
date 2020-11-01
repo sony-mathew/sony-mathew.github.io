@@ -12,3 +12,8 @@ article pre {
 article pre code {
   color: #afafaf;
 }
+
+.youtube {
+  width: 100%;
+  height: 80vh;
+}
