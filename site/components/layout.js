@@ -115,7 +115,16 @@ function SocialButtons() {
           />
         </a>
       </Link>
-      <Link href="https://www.linkedin.com/in/sonymathew/">
+      <Link href="https://www.instagram.com/sonymathew_">
+        <a target="_blank">
+          <img
+            src="/icons/instagram.svg"
+            className={`${styles.icon}`}
+            alt="Instagram"
+          />
+        </a>
+      </Link>
+      <Link href="https://www.linkedin.com/in/sonymathew">
         <a target="_blank">
           <img
             src="/icons/linkedin.svg"
