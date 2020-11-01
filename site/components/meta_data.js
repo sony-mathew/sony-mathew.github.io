@@ -1,4 +1,4 @@
-import DEFAULT_CONFIG from '../config/default_config'
+import DEFAULT_CONFIG from '../config/default_config';
 
 export function MetaData() {
   const description = ` ${DEFAULT_CONFIG.siteTitle} by ${DEFAULT_CONFIG.author}`;
@@ -10,17 +10,15 @@ export function MetaData() {
       <meta name="twitter:creator" content={ `@${DEFAULT_CONFIG.authorTwitterHandle}` } />
       <meta
         property="og:image"
-        content={`https://og-image.now.sh/${encodeURI(
-          DEFAULT_CONFIG.siteTitle
-        )}.png?theme=light&md=0&fontSize=75px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg`}
+        content="https://sony-mathew.github.io/images/sony.jpeg"
       />
     </>
   )
 }
 
 export function ArticleMeta({ article }) {
-  const publishedDate = (new Date(article.date)).toISOString();
-  const extendedTitle = `${article.title} | by ${article.author} | ${publishedDate} | ${DEFAULT_CONFIG.siteTitle}`;
+  const publishedDate = (new Date(article.date)).toDateString();
+  const extendedTitle = `${article.title} by ${article.author} | ${publishedDate} | ${DEFAULT_CONFIG.siteTitle}`;
 
   return (
     <>
@@ -35,8 +33,8 @@ export function ArticleMeta({ article }) {
       <meta property="og:description" content={ article.description } />
       <meta property="twitter:description" content={ article.description } />
 
-      <meta property="og:image" content="/images/sony.jpeg" />
-      <meta property="twitter:image" content="/images/sony.jpeg" />
+      <meta property="og:image" content="https://sony-mathew.github.io/images/sony.jpeg" />
+      <meta property="twitter:image" content="https://sony-mathew.github.io/images/sony.jpeg" />
       <meta property="twitter:card" content="summary_large_image" />
 
       <meta property="article:published_time" content={ publishedDate } />
