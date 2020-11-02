@@ -12,7 +12,7 @@ tags: ['travel', 'video', 'diary', 'armenia', 'tbilisi', 'istanbul', 'nyc']
 
 Travel is tiring, but at the same time it is refreshing, with new people you meet, new cultures you experience, new cuisines you try out. It helps in seeing the bigger picture, helps to decide on what you want, maybe make you a bit more mature, bolder and compassionate. 🌌   
 
-Every part of the world has its own rules. Something that's righteous in one part is a wrong elsewhere. When you learn to adapt and navigate these, it broadens your perspectives. Stories are something that unites us and the power of art and music is transformational. 💫   
+Every part of the world has its own rules. Something righteous in one part is a wrong elsewhere. When you learn to adapt and navigate these, it broadens your perspectives. Stories are something that unites us and the power of art and music is transformational. 💫   
 
 For the years to come, I urge you to get out(maybe wait out till this Corona blows out), travel, tell stories, meet new people, practice the art of letting go, be kind, be honest, be brave, be compassionate, stay healthy, practise some art, enjoy music, stand for what you believe in and always try things that you believe in, that you want to do and try even harder when it slips.   
 
