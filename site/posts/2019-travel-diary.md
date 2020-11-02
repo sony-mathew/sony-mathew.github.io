@@ -20,7 +20,7 @@ For the years to come, I urge you to get out(maybe wait out till this Corona blo
 
 # 2019 Moments
 
-I have put together a video by compiling all the small clips shot on the phone during the travels.
+I have put together an experimental video compilation of all the small clips shot on the phone during the travels. This is a habit that I picked up and experimenting on from last year. (Pardon my videography skills)
 
 <iframe class="youtube" src="https://www.youtube.com/embed/RdHUVqQY0M0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <br/>
