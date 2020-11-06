@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { getAllPostIds, getPostData } from "../../lib/posts";
 import SubscribeNewsletter from "../../lib/subscribe_newsletter";
+import Share from "../../lib/share";
 import Layout from "../../components/layout";
 import { ArticleMeta } from "../../components/meta_data";
 import DateComponent from "../../components/date";
@@ -50,6 +51,7 @@ export default function Post({ postData }) {
 
           <Tags tags={postData.tags} />
         </article>
+        <Share />
         <SubscribeNewsletter />
       </Layout>
     </>
