@@ -2,16 +2,19 @@ import DEFAULT_CONFIG from '../config/default_config';
 
 export function MetaData() {
   const description = ` ${DEFAULT_CONFIG.siteTitle} by ${DEFAULT_CONFIG.author}`;
+  const imageUrl = `${DEFAULT_CONFIG.baseUrl}${DEFAULT_CONFIG.siteImageUrl}`;
 
   return (
     <>
       <meta name="description" content={ description } />
-      <meta property="og:title" content={ description } />
+      
+      <meta property="og:title" content={ DEFAULT_CONFIG.siteTitle } />
+      <meta property="og:description" content={ description } />
+      <meta property="og:image" content={ imageUrl } />
+      <meta property="og:url" content={ DEFAULT_CONFIG.baseUrl } />
+      <meta property="og:site_name" content={ DEFAULT_CONFIG.siteTitle } />
+
       <meta name="twitter:creator" content={ `@${DEFAULT_CONFIG.authorTwitterHandle}` } />
-      <meta
-        property="og:image"
-        content="https://sony-mathew.github.io/images/sony.jpeg"
-      />
     </>
   )
 }
@@ -19,32 +22,38 @@ export function MetaData() {
 export function ArticleMeta({ article }) {
   const publishedDate = (new Date(article.date)).toDateString();
   const extendedTitle = `${article.title} by ${article.author} | ${publishedDate} | ${DEFAULT_CONFIG.siteTitle}`;
+  const imageUrl = `${DEFAULT_CONFIG.baseUrl}${DEFAULT_CONFIG.siteImageUrl}`;
 
   return (
-    <>
-      <meta property="og:type" content="article" />
-        
+    <>  
       <title>{ extendedTitle }</title>
       <meta name="title" content={ extendedTitle } />
-      <meta property="og:title" content={ article.title } />
-      <meta property="twitter:title" content={ article.title } />
-
       <meta name="description" content={ article.description } />
+
+      <meta property="og:title" content={ article.title } />
       <meta property="og:description" content={ article.description } />
-      <meta property="twitter:description" content={ article.description } />
+      <meta property="og:image" content={ imageUrl } />
+      <meta property="og:url" content={ `${DEFAULT_CONFIG.baseUrl}/posts/${ article.id }` } />
+      <meta property="og:site_name" content={ DEFAULT_CONFIG.siteTitle } />
 
-      <meta property="og:image" content="https://sony-mathew.github.io/images/sony.jpeg" />
-      <meta property="twitter:image" content="https://sony-mathew.github.io/images/sony.jpeg" />
-      <meta property="twitter:card" content="summary_large_image" />
-
+      <meta property="og:type" content="article" />
       <meta property="article:published_time" content={ publishedDate } />
-      <meta name="article:author" content={ article.author } />
-      <meta name="twitter:creator" content={ `@${DEFAULT_CONFIG.authorTwitterHandle}`} />
+      <meta property="article:author" content={ article.author } />
+      <meta property="article:tag" content={ article.tags } />
 
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:title" content={ article.title } />
+      <meta name="twitter:description" content={ article.description } />
+      { 
+        //<meta name="twitter:site" content={ `@${DEFAULT_CONFIG.authorTwitterHandle}` } /> 
+      }
+      <meta name="twitter:creator" content={ `@${DEFAULT_CONFIG.authorTwitterHandle}` } />
+      <meta name="twitter:image" content={ imageUrl } />
+      <meta name="twitter:image:alt" content={ article.title } />
       <meta name="twitter:label1" value="Reading time" />
       <meta name="twitter:data1" value={ `${article.readingTime} min read` } />
 
-      <meta name="robots" content="index,follow,max-image-preview:large"></meta>
+      <meta name="robots" content="index,follow,max-image-preview:large" />
     </>
   );
 }
