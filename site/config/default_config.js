@@ -9,6 +9,10 @@ const DEFAULT_CONFIG = {
   // analytics related
   gaTrackingId: "UA-51545020-1",
 
+  // website dns
+  baseUrl: "https://sony-mathew.github.io",
+  siteImageUrl: "/images/sony.jpeg",
+
   //mailchimp - newsletter
   mcBaseUrl: "github.us2.list-manage.com",
   mcUserId: "93955534f06633e5437a0dfa3",
