@@ -30,17 +30,17 @@ function SubscribeBlock({  }) {
   if(subscribed) {
     return (
       <>
-        <div> Thank you for subscribing. </div>
-        <div> You did good today. 😼 </div>
+        <div className="text-center"> Thank you for subscribing. </div>
+        <div className="text-center"> You did good today. 😼 </div>
       </>
     );
   } else {
     return (
       <>
-        <div>
+        <div className="text-center">
           I write about technology, career, travel and philosophy.
         </div>
-        <div className="flex flex-row justify-center place-items-center gap-6">
+        <div className="flex flex-col lg:flex-row justify-center place-items-center gap-6">
           <input
             onChange={(e) => setNewEmail(e.target.value)}
             type="email"
