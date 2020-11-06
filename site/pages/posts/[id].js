@@ -1,6 +1,6 @@
 import Head from "next/head";
 import { getAllPostIds, getPostData } from "../../lib/posts";
-import MailchimpSubscribe from "../../lib/mailchimp";
+import SubscribeNewsletter from "../../lib/subscribe_newsletter";
 import Layout from "../../components/layout";
 import { ArticleMeta } from "../../components/meta_data";
 import DateComponent from "../../components/date";
@@ -50,7 +50,7 @@ export default function Post({ postData }) {
 
           <Tags tags={postData.tags} />
         </article>
-        <MailchimpSubscribe />
+        <SubscribeNewsletter />
       </Layout>
     </>
   );
