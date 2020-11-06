@@ -23,6 +23,8 @@ class MyDocument extends Document {
                 gtag('config', '${DEFAULT_CONFIG.gaTrackingId}');`,
             }}
           />
+          {/* <!-- For the article share buttons --> */}
+          <script async src={ "https://static.addtoany.com/menu/page.js" } />
         </Head>
         <body>
           <Main />

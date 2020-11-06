@@ -4,7 +4,7 @@ description: 'A Ruby gem to compare YAML or JSON files to find the diff in the k
 date: '2019-04-09'
 author: Sony Mathew
 readingTime: 3
-categories: ['Rubygem']
+categories: ['Technology']
 tags: ['ruby-gem', 'compare-yml', 'compare-json', 'I18n', 'yml-diff', 'json-diff']
 ---
 
