@@ -33,7 +33,7 @@ export function ArticleMeta({ article }) {
       <meta property="og:title" content={ article.title } />
       <meta property="og:description" content={ article.description } />
       <meta property="og:image" content={ imageUrl } />
-      <meta property="og:url" content={ `${DEFAULT_CONFIG.baseUrl}/posts/${ article.id }` } />
+      <meta property="og:url" content={ `${DEFAULT_CONFIG.baseUrl}/blog/${ article.id }` } />
       <meta property="og:site_name" content={ DEFAULT_CONFIG.siteTitle } />
 
       <meta property="og:type" content="article" />
