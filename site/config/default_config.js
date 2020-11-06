@@ -3,20 +3,19 @@ const DEFAULT_CONFIG = {
   author: "Sony Mathew",
   authorTwitterHandle: "sonymathew_",
 
-  // meta
+  // website meta
   siteTitle: "The Usual Ramblings",
+  baseUrl: "https://sony-mathew.github.io",
+  siteImageUrl: "/images/sony.jpeg",
 
   // analytics related
   gaTrackingId: "UA-51545020-1",
 
-  // website dns
-  baseUrl: "https://sony-mathew.github.io",
-  siteImageUrl: "/images/sony.jpeg",
+  //Google Sheets - newsletter
+  sheetsUrl: "https://script.google.com/macros/s/AKfycbzeSOUCqXt5Enlmtg34dKh77Qjd8KWCNrN7pkiq2gq_4LRCBkPg/exec",
 
-  //mailchimp - newsletter
-  mcBaseUrl: "github.us2.list-manage.com",
-  mcUserId: "93955534f06633e5437a0dfa3",
-  mcListId: "95e80555b5"
+  // feature toggling
+  disableNewsletter: false
 };
 
 export default DEFAULT_CONFIG;

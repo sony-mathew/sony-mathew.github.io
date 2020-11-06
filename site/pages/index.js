@@ -2,7 +2,7 @@ import Head from "next/head";
 import Link from "next/link";
 import DEFAULT_CONFIG from '../config/default_config';
 import { getSortedPostsData } from "../lib/posts";
-import MailchimpSubscribe from "../lib/mailchimp"
+import SubscribeNewsletter from "../lib/subscribe_newsletter";
 import Layout from "../components/layout";
 import Date from "../components/date";
 import { MetaData } from "../components/meta_data";
@@ -69,7 +69,7 @@ export default function Home({ allPostsData }) {
         </Link>
       </p>
 
-      <MailchimpSubscribe />
+      <SubscribeNewsletter />
     </Layout>
   );
 }

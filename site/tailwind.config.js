@@ -48,15 +48,22 @@ module.exports = {
     },
   },
   variants: {
-    appearance: ['responsive'],
-    opacity: ['responsive', 'hover'],
-    borderColor: ["responsive", "hover", "focus", "active"],
     textColor: ['responsive', 'hover', 'focus', 'active', 'group-hover'],
-    borderWidth: ["responsive", "hover", "focus"],
+    
     gap: ["responsive", "hover", "focus"],
+
+    opacity: ['responsive', 'hover'],
+    backgroundOpacity: ['responsive', 'hover'],
+    appearance: ['responsive'],
     visibility: ['responsive', 'hover', 'focus'],
+
     flexShrink: ['responsive', 'hover', 'focus'],
-    backgroundOpacity: ['responsive', 'hover']
+
+    borderColor: ["responsive", "hover", "focus", "active"],
+    borderWidth: ["responsive", "hover", "focus"],
+    borderStyle: ['responsive', 'hover', 'focus'],
+
+    outline: ['responsive', 'focus', 'hover', 'active']
   },
   plugins: [],
 };
