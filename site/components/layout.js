@@ -19,11 +19,6 @@ function DesktopLayout() {
           <Link href="/blog">
             <a className="nav-item text-lg text-gray-600 hover:no-underline px-2 pb-1">Blog</a>
           </Link>
-          <Link href="/projects">
-            <a className="nav-item text-lg text-gray-600 hover:no-underline px-2 pb-1">
-              Projects
-            </a>
-          </Link>
         </div>
         <div className="flex flex-row-reverse gap-x-4 mt-2">
           <SocialButtons />
@@ -79,11 +74,6 @@ function MobileNavMenuSidebar({ navMenuOpened, setNavMenuOpened }) {
         <Link href="/blog">
           <a className="text-lg text-gray-400 hover:no-underline px-2">
             Blog
-          </a>
-        </Link>
-        <Link href="/projects">
-          <a className="text-lg text-gray-400 hover:no-underline px-2">
-            Projects
           </a>
         </Link>
         <div className="flex flex-row gap-x-4 px-2">

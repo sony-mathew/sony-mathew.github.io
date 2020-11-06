@@ -52,7 +52,7 @@ export default function Home({ allPostsData }) {
         <ul>
           {allPostsData.slice(0, 3).map(({ id, date, title }) => (
             <li key={id}>
-              <Link href={`/posts/${id}`}>
+              <Link href={`/blog/${id}`}>
                 <a>{title}</a>
               </Link>
               <br />
