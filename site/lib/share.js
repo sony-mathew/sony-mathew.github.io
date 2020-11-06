@@ -2,7 +2,10 @@ import {  useEffect } from 'react';
 
 export default function Share() {
   useEffect(() => {
-    if (typeof(a2a) != undefined) {
+    // this is to init the share buttons if the JS is already loaded
+    // default behaviour is that it inits only on page load
+    // This is the way to init the AddToAny widget JS
+    if (typeof a2a != 'undefined') {
       a2a.init();
     }
   }, []);
@@ -15,8 +18,6 @@ export default function Share() {
         <a className="a2a_button_linkedin">&nbsp;</a>
         <a className="a2a_button_copy_link">&nbsp;</a>
       </div>
-      {/* <!-- Share buttons --> */}
-      <script async src={ "https://static.addtoany.com/menu/page.js" } />
     </>
   );
 }
