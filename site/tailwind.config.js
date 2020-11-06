@@ -58,12 +58,15 @@ module.exports = {
     visibility: ['responsive', 'hover', 'focus'],
 
     flexShrink: ['responsive', 'hover', 'focus'],
+    flexDirection: ['responsive', 'hover', 'focus'],
+
+    justifyContent: ['responsive', 'hover', 'focus'],
 
     borderColor: ["responsive", "hover", "focus", "active"],
     borderWidth: ["responsive", "hover", "focus"],
     borderStyle: ['responsive', 'hover', 'focus'],
 
-    outline: ['responsive', 'focus', 'hover', 'active']
+    outline: ['responsive', 'focus', 'hover', 'active'],
   },
   plugins: [],
 };
