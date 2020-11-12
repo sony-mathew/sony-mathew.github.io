@@ -1,7 +1,7 @@
 ---
 title: '2019 Travel Diary'
 description: 'Memoirs from travels done in 2019 with a video compilation covering the countries Armenia, Georgia, Turkey, USA and India.'
-date: '2020-11-01'
+date: '2020-04-19'
 author: Sony Mathew
 readingTime: 3
 categories: ['Travel']
