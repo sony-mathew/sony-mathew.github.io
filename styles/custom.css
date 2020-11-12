@@ -17,3 +17,8 @@ article pre code {
   width: 100%;
   height: 80vh;
 }
+
+article ol {
+  list-style: decimal;
+  padding-inline-start: 40px;
+}

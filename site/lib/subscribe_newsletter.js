@@ -40,7 +40,7 @@ function SubscribeBlock({  }) {
         <div className="text-center">
           I write about technology, career, travel and philosophy.
         </div>
-        <div className="flex flex-col lg:flex-row justify-center place-items-center gap-6">
+        <div className="flex flex-col lg:flex-row justify-center place-items-center gap-8">
           <input
             onChange={(e) => setNewEmail(e.target.value)}
             type="email"
@@ -72,7 +72,7 @@ export default function SubscribeNewsletter() {
     return (<></>);
   } else {
     return (
-      <div className="border-t border-gray-600 flex flex-col justify-center place-items-center gap-6 p-8 mt-8">
+      <div className="border-t border-gray-600 flex flex-col justify-center place-items-center gap-8 p-8 mt-8">
         <SubscribeBlock />
       </div>
     );

@@ -26,7 +26,7 @@ class MyDocument extends Document {
           {/* <!-- For the article share buttons --> */}
           <script async src={ "https://static.addtoany.com/menu/page.js" } />
         </Head>
-        <body>
+        <body className="antialiased">
           <Main />
           <NextScript />
         </body>
