@@ -39,13 +39,12 @@ export default function Home({ allPostsData }) {
         <h2 className={utilStyles.headingLg}>{name}</h2>
       </section>
       <section className={utilStyles.headingMd}>
-        <p className="text-center">
+        <div className="text-center">
           I'm a Software Developer, working remotely &nbsp;
           <Link href="https://www.bigbinary.com/">
             <a target="_blank">@BigBinary</a>
           </Link> 🏖
-          .
-        </p>
+        </div>
         <br></br>
 
         <h3 className={utilStyles.headingLg}>Recent Ramblings</h3>
