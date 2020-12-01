@@ -15,12 +15,12 @@ function DesktopLayout() {
             </a>
           </Link>
         </div>
-        <div className="flex flex-grow justify-center gap-x-4">
+        <div className="flex flex-grow justify-center space-x-4">
           <Link href="/blog">
             <a className="nav-item text-lg text-gray-600 hover:no-underline px-2 pb-1">Blog</a>
           </Link>
         </div>
-        <div className="flex flex-row-reverse gap-x-4 mt-2">
+        <div className="flex flex-row space-x-4 mt-2">
           <SocialButtons />
         </div>
       </div>
@@ -65,7 +65,7 @@ function MobileNavMenuSidebar({ navMenuOpened, setNavMenuOpened }) {
   return (
     <div className="w-full absolute top-0 left-0 z-10 m-0 bg-gray-700">
       <div className="absolute top-0 right-0 m-4" onClick={() => setNavMenuOpened(false)}>Close</div>
-      <div className="flex flex-col m-4 gap-4">
+      <div className="flex flex-col m-4 space-x-4">
         <Link href="/">
           <a className="text-lg text-gray-400 hover:no-underline px-2">
             Home
@@ -76,7 +76,7 @@ function MobileNavMenuSidebar({ navMenuOpened, setNavMenuOpened }) {
             Blog
           </a>
         </Link>
-        <div className="flex flex-row gap-x-4 px-2">
+        <div className="flex flex-row space-x-4 px-2">
           <SocialButtons />
         </div>
       </div>
