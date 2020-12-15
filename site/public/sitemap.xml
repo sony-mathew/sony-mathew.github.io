@@ -2,47 +2,47 @@
   <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
       <loc>https://sony-mathew.com/</loc>
-      <changefreq>monthly</changefreq>
+      <changefreq>weekly</changefreq>
     </url>
     <url>
       <loc>https://sony-mathew.com/blog</loc>
-      <lastmod>Thu, 12 Nov 2020 00:00:00 GMT</lastmod>
+      <lastmod>2020-11-12</lastmod>
       <changefreq>weekly</changefreq>
     </url>
     
   <url>
     <loc>https://sony-mathew.com/blog/sql-log-analyzer</loc>
-    <lastmod>Thu, 12 Nov 2020 00:00:00 GMT</lastmod>
+    <lastmod>2020-11-12</lastmod>
     <changefreq>never</changefreq>
   </url>
 
   <url>
     <loc>https://sony-mathew.com/blog/2019-travel-diary</loc>
-    <lastmod>Sun, 19 Apr 2020 00:00:00 GMT</lastmod>
+    <lastmod>2020-04-19</lastmod>
     <changefreq>never</changefreq>
   </url>
 
   <url>
     <loc>https://sony-mathew.com/blog/pros-and-cons-of-transitioning-to-a-remote-job</loc>
-    <lastmod>Fri, 13 Mar 2020 00:00:00 GMT</lastmod>
+    <lastmod>2020-03-13</lastmod>
     <changefreq>never</changefreq>
   </url>
 
   <url>
     <loc>https://sony-mathew.com/blog/compare-yml</loc>
-    <lastmod>Tue, 09 Apr 2019 00:00:00 GMT</lastmod>
+    <lastmod>2019-04-09</lastmod>
     <changefreq>never</changefreq>
   </url>
 
   <url>
     <loc>https://sony-mathew.com/blog/background-processing-in-node</loc>
-    <lastmod>Thu, 12 Apr 2018 00:00:00 GMT</lastmod>
+    <lastmod>2018-04-12</lastmod>
     <changefreq>never</changefreq>
   </url>
 
   <url>
     <loc>https://sony-mathew.com/blog/when-tides-stop-and-life-drifts</loc>
-    <lastmod>Tue, 27 Jun 2017 00:00:00 GMT</lastmod>
+    <lastmod>2017-06-27</lastmod>
     <changefreq>never</changefreq>
   </url>
 
