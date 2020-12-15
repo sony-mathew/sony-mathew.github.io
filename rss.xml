@@ -1,0 +1,60 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>Blog - The Usual Ramblings by Sony Mathew</title>
+      <link>https://sony-mathew.com/blog</link>
+      <description>Sony Mathew's personal blog and portfolio. He writes about technology, travel and philosophy.</description>
+      <language>en</language>
+      <lastBuildDate>Thu, 12 Nov 2020 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://sony-mathew.com/rss.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://sony-mathew.com/blog/sql-log-analyzer</guid>
+    <title>Standalone SQL Log Analyser</title>
+    <link>https://sony-mathew.com/blog/sql-log-analyzer</link>
+    <description>A standalone web app that parses the SQL queries from the log and categorises them by tables and query types.</description>
+    <pubDate>Thu, 12 Nov 2020 00:00:00 GMT</pubDate>
+  </item>
+
+  <item>
+    <guid>https://sony-mathew.com/blog/2019-travel-diary</guid>
+    <title>2019 Travel Diary</title>
+    <link>https://sony-mathew.com/blog/2019-travel-diary</link>
+    <description>Memoirs from travels done in 2019 with a video compilation covering the countries Armenia, Georgia, Turkey, USA and India.</description>
+    <pubDate>Sun, 19 Apr 2020 00:00:00 GMT</pubDate>
+  </item>
+
+  <item>
+    <guid>https://sony-mathew.com/blog/pros-and-cons-of-transitioning-to-a-remote-job</guid>
+    <title>Pros and cons of transitioning to a remote job</title>
+    <link>https://sony-mathew.com/blog/pros-and-cons-of-transitioning-to-a-remote-job</link>
+    <description>The good and the bad things when you transition from a regular office job to remote job like shrinking social circle, depression, freedom to travel etc</description>
+    <pubDate>Fri, 13 Mar 2020 00:00:00 GMT</pubDate>
+  </item>
+
+  <item>
+    <guid>https://sony-mathew.com/blog/compare-yml</guid>
+    <title>RubyGem: Compare YML</title>
+    <link>https://sony-mathew.com/blog/compare-yml</link>
+    <description>A Ruby gem to compare YAML or JSON files to find the diff in the keys (with support extending to deeply nested key comparisons).</description>
+    <pubDate>Tue, 09 Apr 2019 00:00:00 GMT</pubDate>
+  </item>
+
+  <item>
+    <guid>https://sony-mathew.com/blog/background-processing-in-node</guid>
+    <title>How To Run Background Process In Node.js Using RabbitMQ?</title>
+    <link>https://sony-mathew.com/blog/background-processing-in-node</link>
+    <description>Discuss on handling the background job processing using RabbitMQ in Node.js project with code examples.</description>
+    <pubDate>Thu, 12 Apr 2018 00:00:00 GMT</pubDate>
+  </item>
+
+  <item>
+    <guid>https://sony-mathew.com/blog/when-tides-stop-and-life-drifts</guid>
+    <title>When the tides stop and life drifts</title>
+    <link>https://sony-mathew.com/blog/when-tides-stop-and-life-drifts</link>
+    <description>A short philosophical take on boredom and the productivity that follows.</description>
+    <pubDate>Tue, 27 Jun 2017 00:00:00 GMT</pubDate>
+  </item>
+
+    </channel>
+  </rss>
