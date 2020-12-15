@@ -5,7 +5,7 @@ const DEFAULT_CONFIG = {
 
   // website meta
   siteTitle: "The Usual Ramblings",
-  baseUrl: "https://sony-mathew.github.io",
+  baseUrl: "https://sony-mathew.com",
   siteImageUrl: "/images/sony.jpeg",
 
   // analytics related

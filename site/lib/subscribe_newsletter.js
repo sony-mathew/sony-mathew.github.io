@@ -72,7 +72,7 @@ export default function SubscribeNewsletter() {
     return (<></>);
   } else {
     return (
-      <div className="border-t border-gray-600 flex flex-col justify-center place-items-center space-y-4 p-8 mt-8">
+      <div className="border-t border-gray-600 flex flex-col justify-center place-items-center space-y-4 p-8 pt-16 mt-16">
         <SubscribeBlock />
       </div>
     );
