@@ -13,6 +13,12 @@ class MyDocument extends Document {
         <Head>
           <link rel="icon" href="/favicon.ico" />
           <link href="/styles/custom.css" rel="stylesheet" />
+          <link
+            rel="alternate"
+            type="application/rss+xml"
+            title="RSS feed for blog posts"
+            href={`${DEFAULT_CONFIG.baseUrl}/rss.xml`}
+          />
           {/* <!-- Google Analytics --> */}
           <script async src={`https://www.googletagmanager.com/gtag/js?id=${DEFAULT_CONFIG.gaTrackingId}`} />
           <script
