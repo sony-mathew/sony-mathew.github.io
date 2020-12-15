@@ -1,7 +1,10 @@
+import fs from "fs";
 import Head from "next/head";
 import Link from "next/link";
 import DEFAULT_CONFIG from '../config/default_config';
 import { getSortedPostsData } from "../lib/posts";
+import generateRss from '../lib/rss';
+import generateSitemap from '../lib/sitemap';
 import Layout from "../components/layout";
 import DateComponent from "../components/date";
 import { MetaData } from "../components/meta_data";
@@ -9,6 +12,12 @@ import utilStyles from "../styles/utils.module.scss";
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
+  const rss = generateRss(allPostsData);
+  const sitemap = generateSitemap(allPostsData);
+
+  fs.writeFileSync('./public/rss.xml', rss);
+  fs.writeFileSync('./public/sitemap.xml', sitemap);
+
   return {
     props: {
       allPostsData,
