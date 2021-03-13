@@ -1,14 +1,14 @@
 import DEFAULT_CONFIG from '../config/default_config';
 
-const generateSitemapItem = (post) => `
+const generateSitemapItem = (item, base = 'blog') => `
   <url>
-    <loc>${DEFAULT_CONFIG.baseUrl}/blog/${post.id}</loc>
-    <lastmod>${new Date(post.date).toISOString().slice(0,10)}</lastmod>
+    <loc>${DEFAULT_CONFIG.baseUrl}/${base}/${item.id}</loc>
+    <lastmod>${new Date(item.date).toISOString().slice(0,10)}</lastmod>
     <changefreq>never</changefreq>
   </url>
 `;
 
-const generateSitemap = (posts) => `
+const generateSitemap = (posts, projects = []) => `
   <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
       <loc>${DEFAULT_CONFIG.baseUrl}/</loc>
@@ -19,7 +19,8 @@ const generateSitemap = (posts) => `
       <lastmod>${new Date(posts[0].date).toISOString().slice(0,10)}</lastmod>
       <changefreq>weekly</changefreq>
     </url>
-    ${posts.map(generateSitemapItem).join('')}
+    ${posts.map((item) => generateSitemapItem(item)).join('')}
+    ${projects.map((item) => generateSitemapItem(item, 'projects')).join('')}
   </urlset>
 `;
 
