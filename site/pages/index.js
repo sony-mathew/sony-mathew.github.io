@@ -40,10 +40,10 @@ export default function Home({ allPostsData }) {
       </section>
       <section className={utilStyles.headingMd}>
         <div className="text-center">
-          I'm a Software Developer, working remotely &nbsp;
-          <Link href="https://www.bigbinary.com/">
-            <a target="_blank">@BigBinary</a>
-          </Link> 🏖
+          I'm a Software Engineer, working remotely&nbsp;
+          <Link href="https://www.postman.com/">
+            <a target="_blank">@Postman</a>
+          </Link> 🚀
         </div>
         <br></br>
 
