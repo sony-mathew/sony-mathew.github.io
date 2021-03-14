@@ -119,7 +119,7 @@ export default function Home() {
           </ol>
         </div>
         
-        <div className="grid grid-cols-2 mt-10">
+        <div className="grid grid-rows-2 md:grid-cols-2 gap-8 mt-10">
 
           <div className="flex flex-col space-y-4">
 
@@ -157,19 +157,19 @@ export default function Home() {
           </div>
 
 
-          <div className="grid grid-rows-3 gap-4 pl-8">
+          <div className="grid grid-rows-3 gap-4">
             
-            <div className="col-span-1 bg-gray-900 border border-gray-800 rounded p-4 ml-4">
+            <div className="col-span-1 bg-gray-900 border border-gray-800 rounded p-4">
               <div className="text-3xl text-gray-600">Rs. {calc.totalInvestment}</div>
               <div>Total Investment</div>
             </div>
             
-            <div className="col-span-1 bg-gray-900 border border-gray-800 rounded p-4 ml-4">
+            <div className="col-span-1 bg-gray-900 border border-gray-800 rounded p-4">
               <div className="text-3xl text-gray-600">Rs. {calc.estimatedReturns}</div>
               <div>Estimated Returns</div>
             </div>
             
-            <div className="col-span-1 bg-gray-900 border border-gray-800 rounded p-4 ml-4">
+            <div className="col-span-1 bg-gray-900 border border-gray-800 rounded p-4">
               <div className="text-3xl text-gray-600">Rs. {calc.totalValue}</div>
               <div>Total Value</div>
             </div>
