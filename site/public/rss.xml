@@ -5,9 +5,17 @@
       <link>https://sony-mathew.com/blog</link>
       <description>Sony Mathew's personal blog and portfolio. He writes about technology, travel and philosophy.</description>
       <language>en</language>
-      <lastBuildDate>Thu, 12 Nov 2020 00:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Sun, 14 Mar 2021 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://sony-mathew.com/rss.xml" rel="self" type="application/rss+xml"/>
       
+  <item>
+    <guid>https://sony-mathew.com/blog/the-armenian-diaries</guid>
+    <title>The Armenian Diaries (ദി അർമേനിയൻ ഡയറീസ്)</title>
+    <link>https://sony-mathew.com/blog/the-armenian-diaries</link>
+    <description>Memoirs from the time spent in Armenia.</description>
+    <pubDate>Sun, 14 Mar 2021 00:00:00 GMT</pubDate>
+  </item>
+
   <item>
     <guid>https://sony-mathew.com/blog/sql-log-analyzer</guid>
     <title>Standalone SQL Log Analyser</title>

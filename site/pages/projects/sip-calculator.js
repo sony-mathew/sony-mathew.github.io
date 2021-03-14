@@ -25,16 +25,16 @@ class SIPCalculator {
     this.returns = 0;
     this.currentValue = 0;
 
-    for(let i = 1; i <= this.months; ++i) {
+    for(let i = this.months; i >= 1; --i) {
       const timeInvested = (i / 12.0);
       const returnPercentage = ((this.returnRate - this.inflationRate)/100);
       const totalValue = this.sipAmount * ((1 + returnPercentage) ** timeInvested);
 
       this.monthsData.push({
         month: i,
-        investment: this.sipAmount,
-        value: totalValue,
-        returns: totalValue - this.sipAmount
+        investment: this.toHumanReadable((this.sipAmount || 0).toFixed(0)),
+        value: this.toHumanReadable((totalValue || 0).toFixed(0)),
+        returns: this.toHumanReadable(((totalValue - this.sipAmount) || 0).toFixed(0))
       });
 
       this.investment = this.investment + this.sipAmount;
@@ -60,11 +60,27 @@ class SIPCalculator {
     return this.toHumanReadable((this.currentValue || 0).toFixed(0));
   }
 
+  get monthWiseData() {
+    return this.monthsData;
+  }
 
 }
 
 const getMetaData = () => {
   return projectsList.filter((p) => p.id === 'sip-calculator')[0] || {};
+}
+
+const createTableRowForMonth = (monthData) => {
+  const styles = monthData.month % 2 == 1 ? "bg-gray-800" : "";
+
+  return (
+    <tr key={monthData.month} className={styles}>
+      <td>{monthData.month}</td>
+      <td>{monthData.investment}</td>
+      <td>{monthData.returns}</td>
+      <td>{monthData.value}</td>
+    </tr>
+  );
 }
 
 export default function Home() {
@@ -118,8 +134,10 @@ export default function Home() {
             <li>Read on Systematic Investment Plans</li>
           </ol>
         </div>
+
+        <h3 className="pt-8">Calculator</h3>
         
-        <div className="grid grid-cols-2 mt-10">
+        <div className="grid grid-rows-2 md:grid-cols-2 md:grid-rows-none gap-8 mt-10">
 
           <div className="flex flex-col space-y-4">
 
@@ -157,19 +175,19 @@ export default function Home() {
           </div>
 
 
-          <div className="grid grid-rows-3 gap-4 pl-8">
+          <div className="grid grid-rows-3 gap-4">
             
-            <div className="col-span-1 bg-gray-900 border border-gray-800 rounded p-4 ml-4">
+            <div className="col-span-1 bg-gray-900 border border-gray-800 rounded p-4">
               <div className="text-3xl text-gray-600">Rs. {calc.totalInvestment}</div>
               <div>Total Investment</div>
             </div>
             
-            <div className="col-span-1 bg-gray-900 border border-gray-800 rounded p-4 ml-4">
+            <div className="col-span-1 bg-gray-900 border border-gray-800 rounded p-4">
               <div className="text-3xl text-gray-600">Rs. {calc.estimatedReturns}</div>
               <div>Estimated Returns</div>
             </div>
             
-            <div className="col-span-1 bg-gray-900 border border-gray-800 rounded p-4 ml-4">
+            <div className="col-span-1 bg-gray-900 border border-gray-800 rounded p-4">
               <div className="text-3xl text-gray-600">Rs. {calc.totalValue}</div>
               <div>Total Value</div>
             </div>
@@ -177,7 +195,23 @@ export default function Home() {
 
         </div>
 
-        {/** <div class="monthly breakdown"></div> **/}
+        <h3 className="pt-10">Monthly Breakdown</h3>
+
+        <div className="monthly-breakdown pt-4">
+          <table className="table-auto border-collapse border border-blue-800 w-full">
+            <thead>
+              <tr>
+                <th className="w-1/4 px-4 py-2 text-blue-600">month</th>
+                <th className="w-1/4 px-4 py-2 text-blue-600">investment</th>
+                <th className="w-1/4 px-4 py-2 text-blue-600">returns</th>
+                <th className="w-1/4 px-4 py-2 text-blue-600">value</th>
+              </tr>
+            </thead>
+            <tbody className="text-center text-blue-400 font-medium">
+              {calc.monthWiseData.map(createTableRowForMonth)}
+            </tbody>
+          </table>
+        </div>
       </article>
     </Layout>
   );
