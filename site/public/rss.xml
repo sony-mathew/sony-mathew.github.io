@@ -5,9 +5,17 @@
       <link>https://sony-mathew.com/blog</link>
       <description>Sony Mathew's personal blog and portfolio. He writes about technology, travel and philosophy.</description>
       <language>en</language>
-      <lastBuildDate>Sun, 14 Mar 2021 00:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Thu, 06 May 2021 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://sony-mathew.com/rss.xml" rel="self" type="application/rss+xml"/>
       
+  <item>
+    <guid>https://sony-mathew.com/blog/external-service-callbacks-made-easy-with-local-tunnel</guid>
+    <title>External service callbacks made easy with LocalTunnel</title>
+    <link>https://sony-mathew.com/blog/external-service-callbacks-made-easy-with-local-tunnel</link>
+    <description>Improve development experience with external service callbacks from Facebook, Twitter, Twilio etc., using LocalTunnel.</description>
+    <pubDate>Thu, 06 May 2021 00:00:00 GMT</pubDate>
+  </item>
+
   <item>
     <guid>https://sony-mathew.com/blog/the-armenian-diaries</guid>
     <title>The Armenian Diaries (ദി അർമേനിയൻ ഡയറീസ്)</title>
