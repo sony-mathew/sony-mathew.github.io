@@ -205,7 +205,7 @@ export default function Home() {
         </div>
 
         <div className="pt-10">
-          Capsule sized financial advice on investments:
+          This is my capsule sized financial advice on investments:
           <ol>
             <li>Compounding is powerful</li>
             <li>Start small</li>
