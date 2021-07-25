@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 import { useState } from "react";
 import DEFAULT_CONFIG from '../../config/default_config';
 import Layout from "../../components/layout";
@@ -31,7 +32,7 @@ class SIPCalculator {
       const totalValue = this.sipAmount * ((1 + returnPercentage) ** timeInvested);
 
       this.monthsData.push({
-        month: i,
+        month: (this.months - i + 1),
         investment: this.toHumanReadable((this.sipAmount || 0).toFixed(0)),
         value: this.toHumanReadable((totalValue || 0).toFixed(0)),
         returns: this.toHumanReadable(((totalValue - this.sipAmount) || 0).toFixed(0))
@@ -125,16 +126,6 @@ export default function Home() {
       <article>
         <h2 className={utilStyles.headingLg}>Systematic Investment Plan Calculator</h2>
 
-        <div>
-          Capsule sized financial advice on investments:
-          <ol>
-            <li>Compounding is powerful</li>
-            <li>Start small</li>
-            <li>Start now</li>
-            <li>Read on Systematic Investment Plans</li>
-          </ol>
-        </div>
-
         <h3 className="pt-8">Calculator</h3>
         
         <div className="grid grid-rows-2 md:grid-cols-2 md:grid-rows-none gap-8 mt-10">
@@ -212,6 +203,20 @@ export default function Home() {
             </tbody>
           </table>
         </div>
+
+        <div className="pt-10">
+          Capsule sized financial advice on investments:
+          <ol>
+            <li>Compounding is powerful</li>
+            <li>Start small</li>
+            <li>Start now</li>
+            <li>Read about Systematic Investment Plans</li>
+            <li>
+              Comprehensive reading material on <Link href="https://zerodha.com/varsity/module/personalfinance/"><a target="_blank">personal finance</a></Link>
+            </li>
+          </ol>
+        </div>
+
       </article>
     </Layout>
   );
