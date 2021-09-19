@@ -12,4 +12,8 @@ npm run export
 echo Moving files to root folder..
 rm -rf ../_next
 cp -R ./out/* ../
+
+echo Moving to root directory
+cd ..
+
 echo Done.
