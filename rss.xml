@@ -5,9 +5,17 @@
       <link>https://sony-mathew.com/blog</link>
       <description>Sony Mathew's personal blog and portfolio. He writes about technology, travel and philosophy.</description>
       <language>en</language>
-      <lastBuildDate>Sun, 25 Jul 2021 00:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Tue, 07 Sep 2021 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://sony-mathew.com/rss.xml" rel="self" type="application/rss+xml"/>
       
+  <item>
+    <guid>https://sony-mathew.com/blog/related-collections-in-postman</guid>
+    <title>Postman Now Recommends Related Collections in Requests</title>
+    <link>https://sony-mathew.com/blog/related-collections-in-postman</link>
+    <description>Postman now recommends related collections when you are working on a request, all to help you discover and work with public APIs quickly and effectively.</description>
+    <pubDate>Tue, 07 Sep 2021 00:00:00 GMT</pubDate>
+  </item>
+
   <item>
     <guid>https://sony-mathew.com/blog/building-personal-blog-using-nextjs-and-github-pages</guid>
     <title>Building a Personal Blog with Next.js and Github Pages</title>
@@ -70,14 +78,6 @@
     <link>https://sony-mathew.com/blog/compare-yml</link>
     <description>A Ruby gem to compare YAML or JSON files to find the diff in the keys (with support extending to deeply nested key comparisons).</description>
     <pubDate>Tue, 09 Apr 2019 00:00:00 GMT</pubDate>
-  </item>
-
-  <item>
-    <guid>https://sony-mathew.com/blog/related-collections-in-postman</guid>
-    <title>Postman Now Recommends Related Collections in Requests</title>
-    <link>https://sony-mathew.com/blog/related-collections-in-postman</link>
-    <description>Postman now recommends related collections when you are working on a request, all to help you discover and work with public APIs quickly and effectively.</description>
-    <pubDate>Fri, 07 Sep 2018 00:00:00 GMT</pubDate>
   </item>
 
   <item>
