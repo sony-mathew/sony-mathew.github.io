@@ -24,11 +24,31 @@ jobs:
       - uses: actions/checkout@v2
 
       # Runs a single command using the runners shell
-      - name: Run a one-line script
+      - name: Test echo World
         run: echo Hello, world!
+        
+      # Installing pre-requisites for next js project
+      - name: Installing Pre Requisites
+        run: |
+          echo "Installing nodejs ..."
+          sudo apt install nodejs
+          node -v
+          echo "Installing npm ..."
+          sudo apt install npm
+          npm -v
+          echo "Installing yarn ..."
+          npm install --global yarn
+          yarn -v
+          
+          
+      # installing package json dependencies
+      - name: Yarn Install
+        run: |
+          echo "Installing package.json dependencies..."
+          yarn install
 
       # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
+      - name: Deploy
         run: |
-          echo Starting Deploy...
+          echo "Starting Deploy..."
           ./deploy.sh
