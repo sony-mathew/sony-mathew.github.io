@@ -33,7 +33,7 @@ jobs:
         run: echo Hello, world!
         
       # Installing pre-requisites for next js project
-      - name: Installing Pre Requisites
+      - name: Installing Pre Requisites (node, npm)
         run: |
           echo "Installing nodejs ..."
           sudo apt install nodejs
@@ -41,18 +41,15 @@ jobs:
           echo "Installing npm ..."
           sudo apt install npm
           npm -v
-          echo "Installing yarn ..."
-          npm install --global yarn
-          yarn -v
           
           
       # installing package json dependencies
-      - name: Yarn Install
+      - name: NPM Install dependencies
         run: |
           echo "Installing package.json dependencies..."
           pwd
           cd ./site
-          yarn install
+          npm install
           cd ..
 
       # Runs a set of commands using the runners shell
