@@ -20,7 +20,11 @@
     "remark": "^14.0.1",
     "remark-external-links": "^9.0.1",
     "remark-html": "^14.0.1",
-    "sass": "^1.41.1",
+    "sass": "^1.41.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.3.4",
+    "postcss": "^8.3.6",
     "tailwindcss": "^2.2.15"
   }
 }
