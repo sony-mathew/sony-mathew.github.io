@@ -73,6 +73,14 @@
   </item>
 
   <item>
+    <guid>https://sony-mathew.com/blog/related-collections-in-postman</guid>
+    <title>Postman Now Recommends Related Collections in Requests</title>
+    <link>https://sony-mathew.com/blog/related-collections-in-postman</link>
+    <description>Postman now recommends related collections when you are working on a request, all to help you discover and work with public APIs quickly and effectively.</description>
+    <pubDate>Fri, 07 Sep 2018 00:00:00 GMT</pubDate>
+  </item>
+
+  <item>
     <guid>https://sony-mathew.com/blog/background-processing-in-node</guid>
     <title>How To Run Background Process In Node.js Using RabbitMQ?</title>
     <link>https://sony-mathew.com/blog/background-processing-in-node</link>
