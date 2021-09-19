@@ -40,14 +40,16 @@ export default function Home({ allPostsData }) {
       </section>
       <section className={utilStyles.headingMd}>
         <div className="text-center">
-          I'm currently doing engineering&nbsp;
+          Engineering&nbsp;
           <Link href="https://www.postman.com/">
             <a target="_blank">@Postman</a>
             
-          </Link>. <br/> I'm an alum of&nbsp;
-            <Link href="https://www.ycombinator.com/"><a target="_blank">YCombinator</a></Link>,&nbsp;
+          </Link>. Previously &nbsp;
             <Link href="https://www.freshworks.com/"><a target="_blank">Freshworks</a></Link>&nbsp;and&nbsp;
             <Link href="https://www.bigbinary.com/"><a target="_blank">BigBinary</a></Link>.
+            <br />
+              Co-founded Marketfox (<Link href="https://www.ycombinator.com/"><a target="_blank">YC W17</a></Link>)
+
         </div>
         <br></br>
 

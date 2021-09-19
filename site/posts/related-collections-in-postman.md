@@ -1,7 +1,7 @@
 ---
 title: 'Postman Now Recommends Related Collections in Requests'
 description: 'Postman now recommends related collections when you are working on a request, all to help you discover and work with public APIs quickly and effectively.'
-date: '2018-09-07'
+date: '2021-09-07'
 author: Sony Mathew
 readingTime: 2
 categories: ['Technology', 'Postman', 'Feature']
