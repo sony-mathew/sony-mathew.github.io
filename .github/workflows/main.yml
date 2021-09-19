@@ -25,6 +25,8 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
 
       # Runs a single command using the runners shell
       - name: Test echo World
@@ -57,5 +59,4 @@ jobs:
       - name: Deploy
         run: |
           echo "Starting Deploy..."
-          git fetch origin
           ./deploy.sh
