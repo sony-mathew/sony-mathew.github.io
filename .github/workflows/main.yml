@@ -45,7 +45,10 @@ jobs:
       - name: Yarn Install
         run: |
           echo "Installing package.json dependencies..."
+          pwd
+          cd ./site
           yarn install
+          cd ..
 
       # Runs a set of commands using the runners shell
       - name: Deploy
