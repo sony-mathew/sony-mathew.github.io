@@ -6,10 +6,16 @@
     </url>
     <url>
       <loc>https://sony-mathew.com/blog</loc>
-      <lastmod>2021-07-25</lastmod>
+      <lastmod>2021-09-07</lastmod>
       <changefreq>weekly</changefreq>
     </url>
     
+  <url>
+    <loc>https://sony-mathew.com/blog/related-collections-in-postman</loc>
+    <lastmod>2021-09-07</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+
   <url>
     <loc>https://sony-mathew.com/blog/building-personal-blog-using-nextjs-and-github-pages</loc>
     <lastmod>2021-07-25</lastmod>
