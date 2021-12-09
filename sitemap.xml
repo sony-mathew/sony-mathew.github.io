@@ -1,0 +1,86 @@
+
+  <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+      <loc>https://sony-mathew.com/</loc>
+      <changefreq>weekly</changefreq>
+    </url>
+    <url>
+      <loc>https://sony-mathew.com/blog</loc>
+      <lastmod>2021-09-07</lastmod>
+      <changefreq>weekly</changefreq>
+    </url>
+    
+  <url>
+    <loc>https://sony-mathew.com/blog/related-collections-in-postman</loc>
+    <lastmod>2021-09-07</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+
+  <url>
+    <loc>https://sony-mathew.com/blog/building-personal-blog-using-nextjs-and-github-pages</loc>
+    <lastmod>2021-07-25</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+
+  <url>
+    <loc>https://sony-mathew.com/blog/2020-travel-highlights</loc>
+    <lastmod>2021-07-03</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+
+  <url>
+    <loc>https://sony-mathew.com/blog/external-service-callbacks-made-easy-with-local-tunnel</loc>
+    <lastmod>2021-05-06</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+
+  <url>
+    <loc>https://sony-mathew.com/blog/the-armenian-diaries</loc>
+    <lastmod>2021-03-14</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+
+  <url>
+    <loc>https://sony-mathew.com/blog/sql-log-analyzer</loc>
+    <lastmod>2020-11-12</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+
+  <url>
+    <loc>https://sony-mathew.com/blog/2019-travel-diary</loc>
+    <lastmod>2020-04-19</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+
+  <url>
+    <loc>https://sony-mathew.com/blog/pros-and-cons-of-transitioning-to-a-remote-job</loc>
+    <lastmod>2020-03-13</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+
+  <url>
+    <loc>https://sony-mathew.com/blog/compare-yml</loc>
+    <lastmod>2019-04-09</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+
+  <url>
+    <loc>https://sony-mathew.com/blog/background-processing-in-node</loc>
+    <lastmod>2018-04-12</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+
+  <url>
+    <loc>https://sony-mathew.com/blog/when-tides-stop-and-life-drifts</loc>
+    <lastmod>2017-06-27</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+
+    
+  <url>
+    <loc>https://sony-mathew.com/projects/sip-calculator</loc>
+    <lastmod>2021-03-13</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+
+  </urlset>
