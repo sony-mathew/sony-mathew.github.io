@@ -22,3 +22,8 @@ article ol {
   list-style: decimal;
   padding-inline-start: 40px;
 }
+
+article ul {
+  list-style: disc;
+  padding-inline-start: 40px;
+}
