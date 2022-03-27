@@ -39,17 +39,16 @@ export default function Home({ allPostsData }) {
         <h2 className={utilStyles.headingLg}>{name}</h2>
       </section>
       <section className={utilStyles.headingMd}>
-        <div className="text-center">
-          Engineering&nbsp;
-          <Link href="https://www.postman.com/">
-            <a target="_blank">@Postman</a>
-            
-          </Link>. Previously &nbsp;
-            <Link href="https://www.freshworks.com/"><a target="_blank">Freshworks</a></Link>&nbsp;and&nbsp;
-            <Link href="https://www.bigbinary.com/"><a target="_blank">BigBinary</a></Link>.
-            <br />
-              Co-founded Marketfox (<Link href="https://www.ycombinator.com/"><a target="_blank">YC W17</a></Link>)
-
+        <div className="text-left">
+          I'm an engineer from Kochi, Kerala. I co-founded a startup, Marketfox, which was part of YCombinator W17 batch. 
+          Despite the fact that the startup failed, I loved the journey and learnt a lot along the way.
+          <br/><br/>
+          Working at <Link href="https://www.freshworks.com/"><a target="_blank">Freshworks</a></Link>&nbsp; in the early days gave insights into how a SaaS business operates and inspired to start something of my own.
+          <br/><br/>
+          Currently I'm working remotely at <Link href="https://www.postman.com/" target="_blank">Postman</Link> as an Engineering Manager.
+          <br/><br/>
+          I like to dabble about startups, philosophy, finance, economy, science, travel and career.  I'm interested in open source software and strive to <Link href="https://github.com/sony-mathew" target="_blank">contribute</Link> whenever I can.
+          <br/><br/>
         </div>
         <br></br>
 
