@@ -5,9 +5,17 @@
       <link>https://sony-mathew.com/blog</link>
       <description>Sony Mathew's personal blog and portfolio. He writes about technology, travel and philosophy.</description>
       <language>en</language>
-      <lastBuildDate>Tue, 07 Sep 2021 00:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Mon, 28 Mar 2022 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://sony-mathew.com/rss.xml" rel="self" type="application/rss+xml"/>
       
+  <item>
+    <guid>https://sony-mathew.com/blog/objectives-and-key-results-okrs-for-dummies</guid>
+    <title>Objectives and Key Results (OKRs) for Dummies </title>
+    <link>https://sony-mathew.com/blog/objectives-and-key-results-okrs-for-dummies</link>
+    <description>Objectives and Key Results(OKRs) is essentially a method for communicating at a high level what you want to achieve and then breaking it down into smaller milestones that must be met in order to achieve it. This is an excellent technique for goal setting</description>
+    <pubDate>Mon, 28 Mar 2022 00:00:00 GMT</pubDate>
+  </item>
+
   <item>
     <guid>https://sony-mathew.com/blog/related-collections-in-postman</guid>
     <title>Postman Now Recommends Related Collections in Requests</title>
