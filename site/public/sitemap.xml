@@ -6,10 +6,16 @@
     </url>
     <url>
       <loc>https://sony-mathew.com/blog</loc>
-      <lastmod>2021-09-07</lastmod>
+      <lastmod>2022-03-28</lastmod>
       <changefreq>weekly</changefreq>
     </url>
     
+  <url>
+    <loc>https://sony-mathew.com/blog/objectives-and-key-results-okrs-for-dummies</loc>
+    <lastmod>2022-03-28</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+
   <url>
     <loc>https://sony-mathew.com/blog/related-collections-in-postman</loc>
     <lastmod>2021-09-07</lastmod>
