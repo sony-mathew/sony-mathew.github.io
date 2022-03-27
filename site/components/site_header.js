@@ -10,7 +10,7 @@ function DesktopLayout() {
         <div className="flex-none text-gray-700 pl-0">
           <Link href="/">
             <a className="text-lg text-gray-600 hover:no-underline">
-              The Usual 🎙
+              The Usual Ramblings
             </a>
           </Link>
         </div>
@@ -49,7 +49,7 @@ function MobileLayout() {
         <li className="mx-4">
           <Link href="/">
             <a className="text-lg text-gray-600 hover:no-underline py-1">
-              The Usual 🎙
+              The Usual Ramblings
             </a>
           </Link>
         </li>
