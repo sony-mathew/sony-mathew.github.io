@@ -39,7 +39,7 @@ export default function Home({ allPostsData }) {
           {allPostsData.map(({ id, date, title, readingTime }) => (
             <li className={utilStyles.listItem} key={id}>
               <Link href={`/blog/${id}`}>
-                <a>{title}</a>
+                {title}
               </Link>
               <br />
               <small className={utilStyles.lightText}>

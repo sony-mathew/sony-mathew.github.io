@@ -43,8 +43,8 @@ export default function Post({ postData }) {
           {/* 
             <div className="mb-2">
               <span>Read more in </span>
-              <Link href="/blog">
-                <a className="hover:no-underline">{postData.categories}</a>
+              <Link href="/blog" className="hover:no-underline">
+                {postData.categories}
               </Link> category.
             </div>
           */}
