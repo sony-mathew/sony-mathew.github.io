@@ -8,10 +8,8 @@ function DesktopLayout() {
       {/* For Desktop */}
       <div className="flex flex-row mb-10">
         <div className="flex flex-row text-gray-700 pl-0 space-x-4">
-          <Link href="/sitemap.xml">
-            <a className="text-gray-600 hover:no-underline" target="_blank">
+          <Link href="/sitemap.xml" className="text-gray-600 hover:no-underline" target="_blank">
               Sitemap
-            </a>
           </Link>
         </div>
         <div className="flex flex-grow justify-center text-gray-600 space-x-4 mt-1">
@@ -30,10 +28,8 @@ function MobileLayout() {
     <>
       <div className="flex flex-col space-y-4">
         <div>
-          <Link href="/sitemap.xml">
-            <a className="text-gray-600 hover:no-underline" target="_blank">
+          <Link href="/sitemap.xml" className="text-gray-600 hover:no-underline" target="_blank">
               Sitemap
-            </a>
           </Link>
         </div>
         <div>

@@ -28,28 +28,27 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.profile}>
         <Link href="/">
-          <a>
             <img
               src="/images/sony.jpeg"
               className={`${utilStyles.profileImage} ${utilStyles.borderCircle}`}
               alt={name}
             />
-          </a>
         </Link>
         <h2 className={utilStyles.headingLg}>{name}</h2>
       </section>
       <section className={utilStyles.headingMd}>
+        
+
         <div className="text-left">
-          I'm an engineer from Kochi, Kerala. I co-founded a startup, Marketfox, which was part of YCombinator W17 batch. 
-          Despite the fact that the startup failed, I loved the journey and learnt a lot along the way.
-          <br/><br/>
-          Working at <Link href="https://www.freshworks.com/"><a target="_blank">Freshworks</a></Link>&nbsp; in the early days gave insights into how a SaaS business operates and inspired to start something of my own.
-          <br/><br/>
-          Currently I'm working remotely at <Link href="https://www.postman.com/" target="_blank">Postman</Link> as an Engineering Manager.
-          <br/><br/>
-          I like to dabble about startups, philosophy, finance, economy, science, travel and career.  I'm interested in open source software and strive to <Link href="https://github.com/sony-mathew" target="_blank">contribute</Link> whenever I can.
-          <br/><br/>
-        </div>
+        As an engineer hailing from Kerala, India my entrepreneurial journey took a significant leap when I co-founded Marketfox, a venture that earned the distinction of being part of the YCombinator W17 batch. 
+        The experience was profoundly enriching and packed with invaluable lessons.
+        <br/><br/>
+        My tenure at <Link href="https://www.freshworks.com/" target="_blank">Freshworks</Link>&nbsp; during its nascent stage provided me with a deep dive into the workings of a SaaS business. 
+        This experience was not just enlightening but also served as a catalyst for my entrepreneurial spirit, motivating me to embark on my own venture.
+Presently, I hold the position of Engineering Manager at Postman, where I continue to explore and contribute to the fascinating world of technology.
+<br/><br/>
+My interests are broad and varied, encompassing startups, philosophy, finance, economics, science, travel, and career development. I hold a special place in my heart for open-source software, and I seize every opportunity to <Link href="https://github.com/sony-mathew" target="_blank">contribute</Link> to this community.
+</div>
         <br></br>
 
         <h3 className={utilStyles.headingLg}>Recent Ramblings</h3>
@@ -57,7 +56,7 @@ export default function Home({ allPostsData }) {
           {allPostsData.slice(0, 3).map(({ id, date, title }) => (
             <li key={id}>
               <Link href={`/blog/${id}`}>
-                <a>{title}</a>
+                {title}
               </Link>
               <br />
               <small className={utilStyles.lightText}>
@@ -69,7 +68,7 @@ export default function Home({ allPostsData }) {
       </section>
       <p>
         <Link href="/blog">
-          <a>See All Articles →</a>
+          See All Articles →
         </Link>
       </p>
 

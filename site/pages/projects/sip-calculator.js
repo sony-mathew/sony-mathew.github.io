@@ -212,7 +212,8 @@ export default function Home() {
             <li>Start now</li>
             <li>Read about Systematic Investment Plans</li>
             <li>
-              Comprehensive reading material on <Link href="https://zerodha.com/varsity/module/personalfinance/"><a target="_blank">personal finance</a></Link>
+              Comprehensive reading material on 
+              <Link href="https://zerodha.com/varsity/module/personalfinance/" target="_blank">personal finance</Link>
             </li>
           </ol>
         </div>
