@@ -8,20 +8,18 @@ function DesktopLayout() {
       {/* For Desktop */}
       <div className="flex flex-row mb-10">
         <div className="flex-none text-gray-700 pl-0">
-          <Link href="/">
-            <a className="text-lg text-gray-600 hover:no-underline">
+          <Link href="/" className="text-lg text-gray-600 hover:no-underline">
               The Usual Ramblings
-            </a>
           </Link>
         </div>
         <div className="flex flex-grow justify-center space-x-4">
         </div>
         <div className="flex flex-row space-x-4 mt-2">
-          <Link href="/blog">
-            <a className="nav-item text-lg text-gray-600 hover:no-underline px-2 pb-1">Blog</a>
+          <Link href="/blog" className="nav-item text-lg text-gray-600 hover:no-underline px-2 pb-1">
+            Blog
           </Link>
-          <Link href="/projects">
-            <a className="nav-item text-lg text-gray-600 hover:no-underline px-2 pb-1">Projects</a>
+          <Link href="/projects" className="nav-item text-lg text-gray-600 hover:no-underline px-2 pb-1">
+            Projects
           </Link>
         </div>
       </div>
@@ -47,10 +45,8 @@ function MobileLayout() {
           </button>
         </li>
         <li className="mx-4">
-          <Link href="/">
-            <a className="text-lg text-gray-600 hover:no-underline py-1">
-              The Usual Ramblings
-            </a>
+          <Link href="/" className="text-lg text-gray-600 hover:no-underline py-1">
+            The Usual Ramblings
           </Link>
         </li>
       </ul>
@@ -67,20 +63,14 @@ function MobileNavMenuSidebar({ navMenuOpened, setNavMenuOpened }) {
     <div className="w-full absolute top-0 left-0 z-10 m-0 bg-gray-700">
       <div className="absolute top-0 right-0 m-4" onClick={() => setNavMenuOpened(false)}>Close</div>
       <div className="flex flex-col m-4 space-y-4">
-        <Link href="/">
-          <a className="text-lg text-gray-400 hover:no-underline px-2">
-            Home
-          </a>
+        <Link href="/" className="text-lg text-gray-400 hover:no-underline px-2">
+          Home
         </Link>
-        <Link href="/blog">
-          <a className="text-lg text-gray-400 hover:no-underline px-2">
-            Blog
-          </a>
+        <Link href="/blog" className="text-lg text-gray-400 hover:no-underline px-2">
+          Blog
         </Link>
-        <Link href="/projects">
-          <a className="text-lg text-gray-400 hover:no-underline px-2">
-            Projects
-          </a>
+        <Link href="/projects" className="text-lg text-gray-400 hover:no-underline px-2">
+          Projects
         </Link>
         <div className="flex flex-row space-x-4 px-2">
           <SocialButtons />
