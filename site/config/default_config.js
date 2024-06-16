@@ -9,7 +9,7 @@ const DEFAULT_CONFIG = {
   siteImageUrl: "/images/sony.jpeg",
 
   // analytics related
-  gaTrackingId: "UA-51545020-1",
+  gaTrackingId: "G-C709049M5H",
 
   //Google Sheets - newsletter
   sheetsUrl: "https://script.google.com/macros/s/AKfycbzeSOUCqXt5Enlmtg34dKh77Qjd8KWCNrN7pkiq2gq_4LRCBkPg/exec",

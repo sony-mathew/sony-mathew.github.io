@@ -35,6 +35,8 @@ jobs:
       # Installing pre-requisites for next js project
       - name: Installing Pre Requisites (node, npm)
         run: |
+          echo "apt-get update..."
+          sudo apt-get update --fix-missing
           echo "Installing nodejs ..."
           sudo apt install nodejs
           node -v
