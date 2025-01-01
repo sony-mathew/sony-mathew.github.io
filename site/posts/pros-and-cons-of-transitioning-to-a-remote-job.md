@@ -8,6 +8,6 @@ categories: ['Career']
 tags: ['remote-work', 'office-work', 'career']
 ---
 
-This article was originally published in [Medium](https://medium.com/).  
+This article was originally published on [Medium](https://medium.com/) on 13 March 2020.  
 --    
 Read it here: [Pros and cons of transitioning to a remote job](https://medium.com/@sonymathew/part-one-pros-and-cons-of-transitioning-to-a-remote-job-bc8fec46bb1c)
