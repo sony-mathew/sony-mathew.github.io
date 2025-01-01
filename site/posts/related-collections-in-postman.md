@@ -8,6 +8,6 @@ categories: ['Technology', 'Postman', 'Feature']
 tags: ['postman', 'collections', 'recommendations', 'search', 'feature']
 ---
 
-This article was originally published in [postman.com](https://blog.postman.com/).  
+This article was originally published on [Postman Blog](https://blog.postman.com/) on 07 September 2021.  
 --    
 Read it here: [Postman Now Recommends Related Collections in Requests](https://blog.postman.com/postman-now-recommends-collections-in-requests/)
