@@ -6,6 +6,7 @@ author: Sony Mathew
 readingTime: 3
 categories: ['Travel']
 tags: ['travel', 'video', 'diary', 'armenia', 'tbilisi', 'istanbul', 'nyc']
+toc: true
 ---
 
 2019 was one of the difficult years personally for me. Coincidentally it was the year I travelled so far and wide. I have only gratitude to all the friends I had, the new ones I made, people who stood by me even when I was at my worst. 🙏   

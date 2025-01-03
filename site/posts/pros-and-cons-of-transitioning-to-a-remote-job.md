@@ -6,6 +6,7 @@ author: Sony Mathew
 readingTime: 6
 categories: ['Career']
 tags: ['remote-work', 'office-work', 'career']
+toc: false
 ---
 
 This article was originally published on [Medium](https://medium.com/) on 13 March 2020.  
