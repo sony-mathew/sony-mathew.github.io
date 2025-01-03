@@ -6,6 +6,7 @@ author: Sony Mathew
 readingTime: 6
 categories: ['Process', 'Goal Setting', 'Management']
 tags: ['OKR', 'MBO', 'Objectives And Key Results', 'OKR Cycle']
+toc: true
 ---
 
 Following John Doerr's Measure What Matters, this is my take on OKRs.
@@ -16,7 +17,7 @@ The essence of healthy OKRs is ruthless intellectual honesty, disregard for self
 
 Now let’s try to understand more about OKR by looking into the "Objectives" and the "Key Results".
 
-**What are Objectives?**
+## What are Objectives?
 
 Objectives in general are the high level goals that we set. Objectives are the "Whats". This might be very vague in itself when we start the planning discussions.
 
@@ -24,7 +25,7 @@ The Objectives express the high level goals and intents and might seem aggressi
 
 It’s good to have a few well-chosen objectives at each level, at the business functions level, at the unit level, at the team level, etc. Despite the fact that this is at a high level, objectives send a clear message about what we say yes to and what we say no to and what is expected of you. It clearly states the focus area. The typical number of objectives varies from 3-5 per cycle (monthly, quarterly, half-yearly, and annually).
 
-**What are Key Results?**
+## What are Key Results?
 
 The Key Results are the "Hows". They:
 
@@ -32,7 +33,7 @@ The Key Results are the "Hows". They:
 - Must describe outcomes, not activities. If your KRs include words like "consult", "help", "analyze", or "participate" they describe activities. Instead, describe the end-user impact of these activities. Rather than "assess latency", write "publish average latency numbers"
 - Must include evidence of completion. This evidence must be available, credible, and easily discoverable. Examples of evidence include change lists, links to docs, notes, and published metrics reports.
 
-**Guidelines on Writing OKRs**
+## Guidelines on Writing OKRs
 
 Writing good OKRs isn’t easy, but it's not impossible. OKRs communicate a clear message about what we say YES to and what we say NO to. Well chosen objectives provide clarity and focus. It’s good to have 3-5 objectives per cycle with five or fewer key results tied to each objective. But this number varies depending on the style and takes a few cycles to take a steady state form.
 
@@ -53,7 +54,7 @@ Here are some of the mistakes that people generally make while writing OKRs:
 *  Low value objectives
 *  Insufficient KRs for committed Os.
 
-**Typical OKR Cycle**
+## Typical OKR Cycle
 
 Every organisation will take 4-5 cycles or even more to fully embrace this system and build a mature goal muscle.
 
@@ -80,6 +81,6 @@ Image courtesy - <a href="https://www.whatmatters.com/resources/a-typical-okr-cy
 <br/>
 
 
-### Conclusion
+## Conclusion
 
 In short, OKRs helps to focus and commit to priorities, track for accountability and align for teamwork.

@@ -6,6 +6,7 @@ author: Sony Mathew
 readingTime: 7
 categories: ['Technology']
 tags: ['sql', 'analyzer', 'performance', 'log', 'parser']
+toc: true
 ---
 
 This is a standalone web app that parses the SQL queries from the log and categorises them by tables and query types.

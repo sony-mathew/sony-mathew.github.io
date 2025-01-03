@@ -74,12 +74,20 @@ export async function getPostData(id) {
     .use(remarkExternalLinks, { target: "_blank", rel: ["nofollow"] })
     .use(html, { sanitize: false })
     .process(matterResult.content);
-  const contentHtml = processedContent.toString();
+  let contentHtml = processedContent.toString();
+
+  // replace the headings with the anchor links with h1-h6
+  
+  contentHtml = contentHtml.replace(/<h(\d)>(.*?)<\/h\d>/g, (match, p1, p2) => {
+    const id = p2.toLowerCase().replace(/[^\w\s-]/g, '').replace(/\s+/g, '-');
+    return `<h${p1} id="${id}">${p2}</h${p1}>`;
+  });
 
   // Combine the data with the id and contentHtml
   return {
     id,
     contentHtml,
+    content: matterResult.content,
     ...matterResult.data,
   };
 }

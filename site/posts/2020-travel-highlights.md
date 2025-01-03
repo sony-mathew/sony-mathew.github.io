@@ -6,6 +6,7 @@ author: Sony Mathew
 readingTime: 3
 categories: ['Travel']
 tags: ['travel', 'video', 'diary', 'nepal', 'kerala']
+toc: true
 ---
 
 2020 was the most challenging year for almost everyone. It was and still is truly an unprecedented time. Lockdowns all around the world. After the first wave came the second and the lockdowns changed the shapes and forms from nation to state to micro containment zones to what not. It was a hibernation period for all of us. We learned a lot about ourselves. We evolved in many ways. Even the coronavirus evolved faster than us!
