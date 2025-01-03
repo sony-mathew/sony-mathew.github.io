@@ -6,6 +6,7 @@ author: Sony Mathew
 readingTime: 8
 categories: ['Development']
 tags: ['software development', 'nextjs', 'github pages', 'blog']
+toc: true
 ---
 
 ## The Beginning

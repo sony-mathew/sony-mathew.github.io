@@ -7,6 +7,7 @@ readingTime: 7
 categories: ['Technology']
 tags: ['local-tunnel', 'external-service-callbacks', 'webhooks', 'facebook', 'twitter', 'app-development']
 cover: '/images/posts/external-service-callbacks-made-easy-with-local-tunnel/local-tunnel-ts.png'
+toc: false
 ---
 
 This article was originally published on [Chatwoot Blog](https://www.chatwoot.com/) on 06 May 2021.  

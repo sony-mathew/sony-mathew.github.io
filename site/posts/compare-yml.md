@@ -6,6 +6,7 @@ author: Sony Mathew
 readingTime: 3
 categories: ['Technology']
 tags: ['ruby-gem', 'compare-yml', 'compare-json', 'I18n', 'yml-diff', 'json-diff']
+toc: true
 ---
 
 This library is used to compare two YAML or JSON files to see the differences in keys of both files. This library extends the supports to the comparison of deeply nested keys too.

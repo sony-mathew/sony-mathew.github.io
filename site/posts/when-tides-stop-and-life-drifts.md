@@ -6,8 +6,9 @@ author: Sony Mathew
 readingTime: 4
 categories: ['Life']
 tags: ['node.js', 'rabbitmq', 'background-jobs', 'worker', 'message-queues', 'amqp']
+toc: false
 ---
 
 This article was originally published on [Medium](https://medium.com/) on 27 June 2017.
---    
+
 Read it here: [When the tides stop and life drifts](https://medium.com/@sonymathew/when-the-tides-stop-and-life-drifts-d509cd57a8f9)

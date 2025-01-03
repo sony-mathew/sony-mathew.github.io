@@ -6,6 +6,7 @@ author: Sony Mathew
 readingTime: 2
 categories: ['Technology', 'Postman', 'Feature']
 tags: ['postman', 'collections', 'recommendations', 'search', 'feature']
+toc: false
 ---
 
 This article was originally published on [Postman Blog](https://blog.postman.com/) on 07 September 2021.  

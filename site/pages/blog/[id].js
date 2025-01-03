@@ -7,6 +7,7 @@ import { ArticleMeta } from "../../components/meta_data";
 import DateComponent from "../../components/date";
 import Tags from "../../components/tags";
 import utilStyles from "../../styles/utils.module.scss";
+import { TableOfContents } from "../../components/table_of_contents";
 
 export async function getStaticPaths() {
   const paths = getAllPostIds();
@@ -38,6 +39,9 @@ export default function Post({ postData }) {
             <div>{postData.author}</div>
             <DateComponent dateString={postData.date} /> • {postData.readingTime} min read
           </div>
+
+          <TableOfContents article={postData} />
+          
           <div className="mt-5" dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
         
           {/* 
