@@ -6,10 +6,16 @@
     </url>
     <url>
       <loc>https://sony-mathew.com/blog</loc>
-      <lastmod>2022-03-28</lastmod>
+      <lastmod>2025-01-03</lastmod>
       <changefreq>weekly</changefreq>
     </url>
     
+  <url>
+    <loc>https://sony-mathew.com/blog/the-path-to-openai-a-history-of-ai-models-and-innovation</loc>
+    <lastmod>2025-01-03</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+
   <url>
     <loc>https://sony-mathew.com/blog/objectives-and-key-results-okrs-for-dummies</loc>
     <lastmod>2022-03-28</lastmod>
