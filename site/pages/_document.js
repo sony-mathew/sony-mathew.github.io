@@ -16,7 +16,7 @@ class MyDocument extends Document {
           <link
             rel="alternate"
             type="application/rss+xml"
-            title="RSS feed for blog posts"
+            title="RSS feed for The Usual Ramblings"
             href={`${DEFAULT_CONFIG.baseUrl}/rss.xml`}
           />
           {/* <!-- Google Analytics --> */}
