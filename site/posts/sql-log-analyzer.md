@@ -11,13 +11,13 @@ toc: true
 
 This is a standalone web app that parses the SQL queries from the log and categorises them by tables and query types.
 
-## Motivation
+# Motivation
 
 While I was working in Freshworks, during feature development, I was expected to optimize each and every query that was fired as part of the feature. And many times the existing queries had to be optimized to have better response times.
 
 In local development, it was very tiresome to look through the Rails server logs to find out the join queries, unexpected table's queries and unwanted load queries. In order to get a holistic and organised view of the queries from the Rails server logs, I wrote this tiny standalone app using angular.
 
-## Development
+# Development
 
 Learning Angular was one of the objectives of this hobby project. I experimented with angular for the first time while developing this (2014). I used the most primitive version of Angular for this. At that point in time, my style of learning things was to just get into it and do it. If you don't know something, search for it, learn it and do it.
 
@@ -25,7 +25,7 @@ The first plan of action for this to work was to find the SQL queries from the l
 
 Recently when I was going through this, I decided to use tailwind for CSS. The first version had a bunch of handwritten CSS styles and HTML packed with some Angular controllers. If you go through the older commits from 2014-15, you will see this. 
 
-## Working
+# Working
 
 This web app does not require a backend and can run in any browser. This app is used to categorise the queries by tables and by type from the log. (If you are running a Rails server, you can directly copy-paste the server logs as it will have the SQL queries.)
 
@@ -43,7 +43,7 @@ To get this working, follow the following steps:
     <img src="/images/posts/sql-log-analyzer/table_select.png" />
 5. As soon as you select the query type, all the queries of that type related to that table you selected will be listed below.
 
-## Optimizing Queries
+# Optimizing Queries
 
 With this, you have the list of tables and types of queries (`JOINS`, `GROUP BY`, `WHERE` conditions). Now the question is how do you take action on this. 
 
@@ -83,12 +83,12 @@ To fine-tune a query you have to go deeper and understand how each of the parts 
 
 Bonus reading on [How MySQL executes ORDER BY](http://s.petrunia.net/blog/?p=24).
 
-## Special Mention
+# Special Mention
 
 I have used a third party javascript library for parsing the SQL Queries.
 This libary is called [simpleSqlParser](https://github.com/dsferruzza/simpleSqlParser) and it's an awesome library, without which it would have been very difficult.
 
-## Links
+# Links
 
 [Live Demo](https://sony-mathew.com/sql-log-analyzer/)
 
