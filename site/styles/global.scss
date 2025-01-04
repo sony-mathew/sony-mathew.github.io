@@ -2,6 +2,7 @@
   --brand-color: #ff572f;
   --primary-text-color: #333;
   --secondary-text-color: #999;
+  --tirtiary-text-color: #0093E9;
   --white-color: #fff;
   --lighter-gray-color: #f6f6f6;
   --light-gray-color: #e6e6e6;
@@ -28,6 +29,7 @@
 .theme-dark:root {
   --primary-text-color: #e2e2e2;
   --secondary-text-color: #868686;
+  --tirtiary-text-color: #0093E9;
   --white-color: #282c35;
   --lighter-gray-color: #2f333c;
   --light-gray-color: #3b3e46;
@@ -110,6 +112,14 @@ body {
   padding: 0;
   margin: 0;
   background-color: var(--white-color);
+
+  // TODO : Background linear gradient
+  // Ref: https://cssgradient.io/gradient-backgrounds/
+
+  // background-color: #0093E9;
+  // background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+
   color: var(--primary-text-color);
   font-family: var(--font-base);
   // font-size: 1.5rem;
@@ -121,8 +131,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 a {
-  // color: var(--darker-gray-color);
-  color: #f88989;
+  color: var(--tirtiary-text-color);
+  opacity: 0.8;
   -webkit-transition: color 0.1s var(--animation-base);
   transition: color 0.1s var(--animation-base);
   text-decoration: none;

@@ -48,8 +48,8 @@
 }
 
 .lightText {
-  font-size: 0.95rem;
-  color: #999;
+  font-size: 0.9rem;
+  color: var(--mid-gray-color);
 }
 
 .profile {
@@ -59,14 +59,15 @@
 }
 
 .profileImage {
-  width: 6rem;
-  height: 6rem;
+  width: 12rem;
+  height: 12rem;
 }
 
 .tocHeader {
   font-size: 0.9rem;
   font-weight: 600;
   margin-bottom: 0.5rem;
+  color: var(--mid-gray-color);
 }
 
 .toc {
@@ -77,4 +78,5 @@
 .toc li {
   margin-left: 20px;
   list-style-type: none;
+  color: var(--mid-gray-color);
 }
