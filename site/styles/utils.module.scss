@@ -65,6 +65,8 @@
 
 .tocHeader {
   font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
 }
 
 .toc {
@@ -74,4 +76,5 @@
 
 .toc li {
   margin-left: 20px;
+  list-style-type: none;
 }
