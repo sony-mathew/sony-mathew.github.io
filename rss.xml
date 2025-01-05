@@ -5,9 +5,17 @@
       <link>https://sony-mathew.com/blog</link>
       <description>Sony Mathew's personal blog and portfolio. He writes about technology, travel and philosophy.</description>
       <language>en</language>
-      <lastBuildDate>Fri, 03 Jan 2025 00:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Mon, 06 Jan 2025 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://sony-mathew.com/rss.xml" rel="self" type="application/rss+xml"/>
       
+  <item>
+    <guid>https://sony-mathew.com/blog/how-to-manage-your-time-better-a-guide-for-managers</guid>
+    <title>How to Manage Your Time Better: A Guide for Managers</title>
+    <link>https://sony-mathew.com/blog/how-to-manage-your-time-better-a-guide-for-managers</link>
+    <description>Managing your time well as a manager comes down to organizing your tasks into important/urgent groups and setting aside specific times for different types of work, like planning ahead (40%), running current projects (30%), handling new things (20%), and office work (10%). The key is to block out your time with small breaks between tasks, have fewer but better meetings, check emails at set times instead of constantly, and help your team handle more things on their own.</description>
+    <pubDate>Mon, 06 Jan 2025 00:00:00 GMT</pubDate>
+  </item>
+
   <item>
     <guid>https://sony-mathew.com/blog/the-path-to-openai-a-history-of-ai-models-and-innovation</guid>
     <title>The Path to OpenAI: A History of AI Models and Innovation</title>
