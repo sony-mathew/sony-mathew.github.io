@@ -9,15 +9,13 @@ tags: ['time-management', 'productivity', 'efficiency', 'management']
 toc: true
 ---
 
-# How to Manage Your Time Better: A Guide for Managers
-
 As a manager, you have a lot to do and never enough time. This guide will help you make the most of your time and get more done with less stress.
 
-## Understanding How to Sort Your Work
+# Understanding How to Sort Your Work
 
 Before we dive into tips and tricks, let's understand the basic ways to think about your time.
 
-### The Four-Box Method (The Eisenhower Box)
+## The Four-Box Method (The Eisenhower Box)
 
 Think of your work as fitting into four boxes:
 
@@ -45,7 +43,7 @@ Tips to Make This Work:
 3. Cut down Box 4 activities by setting aside specific times for email
 4. For Box 1 tasks, have backup plans ready for common problems
 
-### The 40-30-20-10 Way
+## The 40-30-20-10 Way
 
 This is a simple way to split up your week:
 
@@ -67,9 +65,9 @@ Making This Work:
 3. Let your team handle routine decisions
 4. Keep track of your time for two weeks to see where it really goes
 
-## Practical Ways to Save Time
+# Practical Ways to Save Time
 
-### Block Your Time
+## Block Your Time
 
 Think of your day like building blocks. Maya, a project manager, sets up her Tuesday like this:
 - 8:30-10:00: Quiet work time (planning)
@@ -84,7 +82,7 @@ Think of your day like building blocks. Maya, a project manager, sets up her Tue
 
 The secret is leaving small gaps between tasks. When something unexpected happens, these gaps help keep your whole day from falling apart.
 
-### Better Meetings
+## Better Meetings
 
 We often have too many meetings that take too long. Here's how to fix that:
 
@@ -102,7 +100,7 @@ End every meeting by writing down:
 - When it needs to be done
 - Who's making sure it happens
 
-### Managing Your Computer and Phone
+## Managing Your Computer and Phone
 
 Our phones and computers can eat up our time if we're not careful. Here's how to stay in control:
 
@@ -119,7 +117,7 @@ Change your notification settings:
 
 Set clear work hours. Let your team know when you're available and when you're not. This helps everyone know when to expect answers from you.
 
-### Using Your Energy Wisely
+## Using Your Energy Wisely
 
 Think about when you work best during the day. Most people have more energy in the morning, so that's when they should do their hardest work.
 
@@ -130,7 +128,7 @@ Match your tasks to your energy:
 - Mid-Day (Medium Energy): Meet with team, review work, make decisions
 - Afternoon (Lower Energy): Answer emails, do paperwork, plan next day
 
-### Making Good Choices Quickly
+## Making Good Choices Quickly
 
 Good managers make lots of decisions every day. Here's how to make them better and faster:
 
@@ -149,7 +147,7 @@ Big Decisions (Things that are hard to undo):
 - Look at what could go wrong
 - Take more time, but set a deadline
 
-### Building Systems That Work
+## Building Systems That Work
 
 Create simple ways to handle common tasks. John, an IT manager, made a checklist for new team members. Now everyone knows what to do, and he doesn't need to explain it each time.
 
@@ -159,7 +157,7 @@ Good systems should:
 - Work without you there
 - Be written down
 
-### Getting Your Team to Help
+## Getting Your Team to Help
 
 Your job as a manager isn't to do everything - it's to help your team work well together.
 
@@ -171,7 +169,7 @@ Sarah taught her team to:
 
 This means Sarah can focus on bigger things while her team handles the day-to-day work.
 
-## Measuring Success
+# Measuring Success
 
 How do you know if you're managing time better? Look for these signs:
 - You have time to plan ahead
@@ -182,6 +180,6 @@ How do you know if you're managing time better? Look for these signs:
 
 Remember: Start small. Pick one thing to improve first. When that feels easy, add something else. Over time, these small changes add up to big improvements.
 
-## Final Thoughts
+# Final Thoughts
 
 Good time management isn't about doing more things - it's about doing the right things. Focus on what matters most, build good habits, and help your team grow. Don't try to be perfect. Just try to be a little better each week.
