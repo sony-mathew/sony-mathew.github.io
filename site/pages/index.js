@@ -22,7 +22,7 @@ export default function Home({ allPostsData }) {
   return (
     <Layout home>
       <Head>
-        <title>{ DEFAULT_CONFIG.siteTitle } | by {DEFAULT_CONFIG.author}</title>
+        <title>{ DEFAULT_CONFIG.siteTitle } by {DEFAULT_CONFIG.author}</title>
         { MetaData() }
       </Head>
       <div className="flex flex-row gap-8 items-center justify-center">
