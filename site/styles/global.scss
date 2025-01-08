@@ -239,3 +239,15 @@ h6 {
   font-weight: 500;
   margin: 0.75rem 0 0.5rem;
 }
+
+
+table {
+  border-color: var(--facebook-color);
+  border-width: 1px;
+}
+
+table th, table td {
+  border-color: var(--facebook-color);
+  border-width: 1px;
+  padding: 10px;
+}
