@@ -127,6 +127,20 @@ export default function Home() {
         <h2 className={utilStyles.headingLg}>Systematic Investment Plan Calculator</h2>
 
         <h3 className="pt-8">Calculator</h3>
+
+        <div className="pt-10">
+          This is my capsule sized financial advice on investments:
+          <ol>
+            <li>Compounding is powerful</li>
+            <li>Start small</li>
+            <li>Start now</li>
+            <li>Read about Systematic Investment Plans</li>
+            <li>
+              Comprehensive reading material on &nbsp;
+                <Link href="https://zerodha.com/varsity/module/personalfinance/" target="_blank">personal finance</Link>
+            </li>
+          </ol>
+        </div>
         
         <div className="grid grid-rows-2 md:grid-cols-2 md:grid-rows-none gap-8 mt-10">
 
@@ -202,20 +216,6 @@ export default function Home() {
               {calc.monthWiseData.map(createTableRowForMonth)}
             </tbody>
           </table>
-        </div>
-
-        <div className="pt-10">
-          This is my capsule sized financial advice on investments:
-          <ol>
-            <li>Compounding is powerful</li>
-            <li>Start small</li>
-            <li>Start now</li>
-            <li>Read about Systematic Investment Plans</li>
-            <li>
-              Comprehensive reading material on &nbsp;
-              <Link href="https://zerodha.com/varsity/module/personalfinance/" target="_blank">personal finance</Link>
-            </li>
-          </ol>
         </div>
 
       </article>
