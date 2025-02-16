@@ -251,3 +251,16 @@ table th, table td {
   border-width: 1px;
   padding: 10px;
 }
+
+.flex-container {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+}
+
+@media (min-width: 700px) {
+
+  .flex-container {
+    flex-flow: row;
+  }
+}
