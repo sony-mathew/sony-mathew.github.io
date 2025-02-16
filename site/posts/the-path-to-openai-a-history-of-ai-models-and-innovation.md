@@ -5,7 +5,7 @@ date: '2025-01-03'
 author: Sony Mathew
 readingTime: 20
 categories: ['AI', 'History', 'Open AI']
-tags: ['ai history', 'openai evolution', 'deeplearning milestones', 'neural networks', 'future of ai', 'ai assisted writing']
+tags: ['AI-History', 'OpenAI-Evolution', 'DeepLearning-Milestones', 'Neural-Networks', 'Future-Of-AI', 'AI-Assisted-Writing']
 toc: true
 ---
 

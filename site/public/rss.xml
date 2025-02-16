@@ -5,9 +5,17 @@
       <link>https://sony-mathew.com/blog</link>
       <description>Sony Mathew's personal blog and portfolio. He writes about technology, travel and philosophy.</description>
       <language>en</language>
-      <lastBuildDate>Thu, 09 Jan 2025 00:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Sun, 16 Feb 2025 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://sony-mathew.com/rss.xml" rel="self" type="application/rss+xml"/>
       
+  <item>
+    <guid>https://sony-mathew.com/blog/automating-management-tasks-from-scripts-to-no-code-solutions</guid>
+    <title>Automating Management Tasks: From Scripts to No-Code Solutions</title>
+    <link>https://sony-mathew.com/blog/automating-management-tasks-from-scripts-to-no-code-solutions</link>
+    <description>Follow my journey from writing custom scripts to embracing no-code solutions like Postman flows, and discover how automation transformed my daily management responsibilities. This evolution not only saved countless hours but also improved team efficiency, showing how modern automation tools can free managers from repetitive tasks to focus on strategic leadership.</description>
+    <pubDate>Sun, 16 Feb 2025 00:00:00 GMT</pubDate>
+  </item>
+
   <item>
     <guid>https://sony-mathew.com/blog/the-ultimate-guide-to-hiring-top-talent-through-effective-interviews</guid>
     <title>The Ultimate Guide to Hiring Top Talent Through Effective Interviews</title>
