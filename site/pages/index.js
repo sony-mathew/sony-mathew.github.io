@@ -25,7 +25,7 @@ export default function Home({ allPostsData }) {
         <title>{ DEFAULT_CONFIG.siteTitle } by {DEFAULT_CONFIG.author}</title>
         { MetaData() }
       </Head>
-      <div className="flex flex-row gap-8 items-center justify-center">
+      <div className="flex-container gap-8 items-center justify-center">
         <div className="flex-none flex-col items-center justify-center gap-4">
           <Link href="/">
               <img

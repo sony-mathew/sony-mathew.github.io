@@ -5,7 +5,7 @@ date: '2025-01-09'
 author: Sony Mathew
 readingTime: 17
 categories: ['Talent Acquisition']
-tags:  ['Interviewing', 'Hiring Best Practices', 'Candidate Experience', 'Recruiting Strategy', 'Team Building', 'Onboarding', 'Employee Retention']
+tags:  ['Interviewing', 'Hiring-Best-Practices', 'Candidate-Experience', 'Recruiting-Strategy', 'Team-Building', 'Onboarding', 'Employee-Retention']
 toc: true
 ---
 
