@@ -34,7 +34,11 @@ export default function Home({ allPostsData }) {
         { MetaData() }
       </Head>
       <section>
-        <h2 className={utilStyles.headingLg}>Ramblings</h2>
+        <div className="flex flex-row">
+          <h2 className={utilStyles.headingLg}>Ramblings</h2>
+          &nbsp;&nbsp;
+          <h2 className={utilStyles.lightText}>({allPostsData.length})</h2>
+        </div>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title, readingTime }) => (
             <li className={utilStyles.listItem} key={id}>
