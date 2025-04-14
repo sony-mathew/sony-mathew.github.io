@@ -5,9 +5,17 @@
       <link>https://sony-mathew.com/blog</link>
       <description>Sony Mathew's personal blog and portfolio. He writes about technology, travel and philosophy.</description>
       <language>en</language>
-      <lastBuildDate>Sun, 16 Feb 2025 00:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Mon, 14 Apr 2025 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://sony-mathew.com/rss.xml" rel="self" type="application/rss+xml"/>
       
+  <item>
+    <guid>https://sony-mathew.com/blog/architecting-resilient-node-js-microservices-with-worker-threads</guid>
+    <title>Architecting Resilient Node.js Microservices with Worker Threads</title>
+    <link>https://sony-mathew.com/blog/architecting-resilient-node-js-microservices-with-worker-threads</link>
+    <description>Discover how Node.js worker threads prevent Kubernetes pod crashes and API timeouts in CPU-heavy workloads. Learn to implement thread-based architecture that keeps your event loop responsive, even under intense computation. Essential reading for Java/Python/Go converts building resilient Node.js microservices – includes battle-tested code samples and Kubernetes survival strategies.</description>
+    <pubDate>Mon, 14 Apr 2025 00:00:00 GMT</pubDate>
+  </item>
+
   <item>
     <guid>https://sony-mathew.com/blog/automating-management-tasks-from-scripts-to-no-code-solutions</guid>
     <title>Automating Management Tasks: From Scripts to No-Code Solutions</title>
@@ -37,7 +45,7 @@
     <title>The Path to OpenAI: A History of AI Models and Innovation</title>
     <link>https://sony-mathew.com/blog/the-path-to-openai-a-history-of-ai-models-and-innovation</link>
     <description>This comprehensive exploration traces the evolution of artificial intelligence from early expert systems through the deep learning revolution, culminating in OpenAIs transformative impact on the field through innovations like ChatGPT and GPT-4. The article chronicles key technical breakthroughs, influential research labs, and pivotal moments that shaped AI development, while examining future directions in multi-modal learning, AI alignment, and interpretability that will define the next era of artificial intelligence.</description>
-    <pubDate>Fri, 03 Jan 2025 00:00:00 GMT</pubDate>
+    <pubDate>Mon, 30 Dec 2024 00:00:00 GMT</pubDate>
   </item>
 
   <item>

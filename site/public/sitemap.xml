@@ -6,10 +6,16 @@
     </url>
     <url>
       <loc>https://sony-mathew.com/blog</loc>
-      <lastmod>2025-02-16</lastmod>
+      <lastmod>2025-04-14</lastmod>
       <changefreq>weekly</changefreq>
     </url>
     
+  <url>
+    <loc>https://sony-mathew.com/blog/architecting-resilient-node-js-microservices-with-worker-threads</loc>
+    <lastmod>2025-04-14</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+
   <url>
     <loc>https://sony-mathew.com/blog/automating-management-tasks-from-scripts-to-no-code-solutions</loc>
     <lastmod>2025-02-16</lastmod>
@@ -30,7 +36,7 @@
 
   <url>
     <loc>https://sony-mathew.com/blog/the-path-to-openai-a-history-of-ai-models-and-innovation</loc>
-    <lastmod>2025-01-03</lastmod>
+    <lastmod>2024-12-30</lastmod>
     <changefreq>never</changefreq>
   </url>
 
