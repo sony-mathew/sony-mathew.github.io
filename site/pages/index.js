@@ -57,7 +57,7 @@ export default function Home({ allPostsData }) {
 
         <h3>Recent Ramblings</h3>
         <ul>
-          {allPostsData.slice(0, 3).map(({ id, date, title }) => (
+          {allPostsData.slice(0, 5).map(({ id, date, title }) => (
             <li key={id}>
               <Link href={`/blog/${id}`}>
                 {title}
