@@ -13,4 +13,4 @@ This article was originally published in [zeolearn.com](https://www.zeolearn.com
 <br/> <s> Read it here: [How To Run Background Process In Node.js Using RabbitMQ?](https://www.zeolearn.com/magazine/background-processing-in-node-js) </s>
 
 
-I have re-published the article on [Medium](https://medium.com/) on 01 Jan 2025. Read it here: [Pros and cons of transitioning to a remote job](https://medium.com/@sonymathew/background-processing-in-node-js-with-rabbitmq-a605ebba9b63)
+I have re-published the article on [Medium](https://medium.com/) on 01 Jan 2025. Read it here: [Background Processing in Node.js with RabbitMQ](https://medium.com/@sonymathew/background-processing-in-node-js-with-rabbitmq-a605ebba9b63)
