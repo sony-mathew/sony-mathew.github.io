@@ -1,15 +1,10 @@
-// tailwind.config.js
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-  future: {
-    removeDeprecatedGapUtilities: true,
-    purgeLayersByDefault: true,
-  },
-  purge: [
+  content: [
     "./components/**/*.{js,ts,jsx,tsx}",
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./lib/**/*.{js,ts,jsx,tsx}",
   ],
-  // important: true,
   theme: {
     screens: {
       sm: '640px',
@@ -25,12 +20,6 @@ module.exports = {
       colors: {
         "accent-1": "#333",
       },
-      // fontSize: {
-      //   sm: ["14px", "20px"],
-      //   base: ["16px", "24px"],
-      //   lg: ["20px", "28px"],
-      //   xl: ["24px", "32px"],
-      // },
       fontSize: {
         xs: ".75rem",
         sm: ".875rem",
@@ -46,27 +35,6 @@ module.exports = {
         "7xl": "5rem",
       },
     },
-  },
-  variants: {
-    textColor: ['responsive', 'hover', 'focus', 'active', 'group-hover'],
-    
-    gap: ["responsive", "hover", "focus"],
-
-    opacity: ['responsive', 'hover'],
-    backgroundOpacity: ['responsive', 'hover'],
-    appearance: ['responsive'],
-    visibility: ['responsive', 'hover', 'focus'],
-
-    flexShrink: ['responsive', 'hover', 'focus'],
-    flexDirection: ['responsive', 'hover', 'focus'],
-
-    justifyContent: ['responsive', 'hover', 'focus'],
-
-    borderColor: ["responsive", "hover", "focus", "active"],
-    borderWidth: ["responsive", "hover", "focus"],
-    borderStyle: ['responsive', 'hover', 'focus'],
-
-    outline: ['responsive', 'focus', 'hover', 'active'],
   },
   plugins: [],
 };
