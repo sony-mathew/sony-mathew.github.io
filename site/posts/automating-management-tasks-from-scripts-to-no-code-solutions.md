@@ -19,7 +19,7 @@ Every manager knows the drill: weekly SLA reviews, notifying on-call rotations, 
 
 # My Automation Journey
 
-### Phase 1: Custom Scripts and Servers
+## Phase 1: Custom Scripts and Servers
 Like many technically-inclined managers, I started my automation journey with what I knew best: writing custom scripts. In those early days, I'd spend evenings crafting Ruby, Python, Javascript or plain Bash scripts to handle repetitive tasks, either running them locally or even hosting them on my own servers. This could be simple integrations between different tools or scraping or sending emails etc. While it was gratifying to see my code in action, managing this setup became a job in itself. I found myself spending precious hours maintaining these and the quirks that came with it, debugging unexpected issues, and updating code when APIs changed. The solution worked, but it felt like building a house on shifting sand – effective but requiring constant attention to keep it from crumbling.
 
 ## Phase 2: Google Sheets and Apps Script

@@ -47,7 +47,9 @@ export function TableOfContents({ article }) {
   // Build table of contents HTML with section numbers
   const tocHtml = headings.map(heading => {
     return `<li style="margin-left: ${heading.level * 20}px">
-      <a href="#${heading.id}"><span class="section-number">${heading.sectionNumber.replace(/^0\./, '')}.</span> ${heading.text}</a>
+      <a href="#${heading.id}" style="line-height:1.5;">
+        <span class="section-number">${heading.sectionNumber.replace(/^0\./, '')}.</span> ${heading.text}
+      </a>
     </li>`;
   }).join('\n');
  
