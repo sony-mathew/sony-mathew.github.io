@@ -8,31 +8,52 @@ function sendSusbcribeRequest(email) {
 function SubscribeBlock({  }) {
   const [email, setNewEmail] = useState(null);
   const [errors, setErrors] = useState(false);
+  const [errorMessage, setErrorMessage] = useState('');
   const [subscribed, setSubscribed] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   
-  const onSave = async (emailId) => {
-    const sanitizedEmail = emailId.trim().toLowerCase();
+  const validateEmail = (email) => {
+    if (!email) {
+      setErrorMessage('Email is required');
+      return false;
+    }
+    
+    const sanitizedEmail = email.trim().toLowerCase();
     const emailRegex = /^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
-    if(emailRegex.test(sanitizedEmail)) {
-      setErrors(false);
-      setIsLoading(true);
-      try {
-        const resp = await sendSusbcribeRequest(sanitizedEmail);
-        console.log(resp);
-        if (resp.status == 200) {
-          setSubscribed(true);
-        } else {
-          setErrors(true);
-        }
-      } catch (error) {
-        setErrors(true);
-        console.error("Subscription error:", error);
-      } finally {
-        setIsLoading(false);
-      }
-    } else {
+    
+    if (!emailRegex.test(sanitizedEmail)) {
+      setErrorMessage('Please enter a valid email address');
+      return false;
+    }
+    
+    return true;
+  };
+  
+  const onSave = async (emailId) => {
+    if (!validateEmail(emailId)) {
       setErrors(true);
+      return;
+    }
+    
+    const sanitizedEmail = emailId.trim().toLowerCase();
+    setErrors(false);
+    setIsLoading(true);
+    
+    try {
+      const resp = await sendSusbcribeRequest(sanitizedEmail);
+      console.log(resp);
+      if (resp.status == 200) {
+        setSubscribed(true);
+      } else {
+        setErrors(true);
+        setErrorMessage('Subscription failed. Please try again later.');
+      }
+    } catch (error) {
+      setErrors(true);
+      setErrorMessage('An error occurred. Please try again later.');
+      console.error("Subscription error:", error);
+    } finally {
+      setIsLoading(false);
     }
   };
 
@@ -50,16 +71,22 @@ function SubscribeBlock({  }) {
           I write about technology, career, travel and philosophy.
         </div>
         <div className="flex flex-col lg:flex-row justify-center place-items-center lg:space-x-8 lg:space-y-0 space-y-8">
-          <input
-            onChange={(e) => setNewEmail(e.target.value)}
-            type="email"
-            className={ 
-              (errors ? 'border-red-600' : 'border-gray-600') + 
-              " rounded border focus:outline-none text-gray-600 px-4 py-2"
-            }
-            required
-            disabled={isLoading}
-          />
+          <div className="flex flex-col">
+            <input
+              onChange={(e) => setNewEmail(e.target.value)}
+              type="email"
+              className={ 
+                (errors ? 'border-red-600' : 'border-gray-600') + 
+                " rounded border focus:outline-none text-gray-600 px-4 py-2"
+              }
+              required
+              disabled={isLoading}
+              placeholder="Enter your email"
+            />
+            {errors && (
+              <div className="text-red-500 text-sm mt-1">{errorMessage}</div>
+            )}
+          </div>
           <button
             onClick={() => onSave(email)}
             className="relative inline-flex rounded 

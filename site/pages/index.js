@@ -45,7 +45,7 @@ export default function Home({ allPostsData }) {
           After an enriching stint at <Link href="https://www.freshworks.com/" target="_blank">Freshworks</Link>&nbsp; during its early days, where I gained deep insights 
           into building SaaS businesses, I channeled that experience into pursuing my own entrepreneurial ventures. 
           <br/><br/>
-          Now, as a Senior Engineering Manager at Postman, I continue to explore the fascinating world of technology while pursuing my 
+          Now, as a Senior Engineering Manager at <Link href="https://www.postman.com" target="_blank">Postman</Link>, I continue to explore the fascinating world of technology while pursuing my 
           diverse interests in startups, philosophy, economics, and open-source development. I'm particularly passionate about 
           contributing to the <Link href="https://github.com/sony-mathew" target="_blank">open-source</Link> community and sharing my experiences in technology, leadership, and entrepreneurship.
           </div>
