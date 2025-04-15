@@ -1,4 +1,10 @@
-![CodeQL](https://github.com/sony-mathew/sony-mathew.github.io/workflows/CodeQL/badge.svg?branch=master)
+<div align="center">
+  <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="32" height="32" alt="GitHub Pages" style="margin: 0 10px;">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg" width="32" height="32" alt="Tailwind CSS" style="margin: 0 10px;">
+  <img src="https://assets.vercel.com/image/upload/v1662130559/nextjs/Icon_light_background.png" width="32" height="32" alt="Next.js" style="margin: 0 10px;">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="32" height="32" alt="React" style="margin: 0 10px;">
+  <img src="https://www.gstatic.com/images/branding/product/1x/apps_script_48dp.png" width="32" height="32" alt="Google Apps Script" style="margin: 0 10px;">
+</div>
 
 # Personal Blog (sony-mathew.github.io)
 This is developed using [Next.js](https://nextjs.org/) and [Tailwind CSS](https://tailwindcss.com/). This is hosted using [GitHub Pages](https://pages.github.com/).
