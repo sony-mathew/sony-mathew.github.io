@@ -12,7 +12,7 @@ const DEFAULT_CONFIG = {
   gaTrackingId: "G-C709049M5H",
 
   //Google Sheets - newsletter
-  sheetsUrl: "https://script.google.com/macros/s/AKfycbzeSOUCqXt5Enlmtg34dKh77Qjd8KWCNrN7pkiq2gq_4LRCBkPg/exec",
+  sheetsUrl: "https://script.google.com/macros/s/AKfycbw2S9krtBe8Tq-ZGsIOrk7khfjkS3bqMokKV3W3fW_lY6j6ktbs6vSbaam017Vax0NmEA/exec",
 
   // feature toggling
   disableNewsletter: false
