@@ -1,9 +1,12 @@
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
-import { remark } from "remark";
-import html from "remark-html";
 import remarkExternalLinks from "remark-external-links";
+import remarkRehype from "remark-rehype";
+import rehypePrismPlus from "rehype-prism-plus";
+import rehypeStringify from "rehype-stringify";
+import { unified } from "unified";
+import remarkParse from "remark-parse";
 
 const postsDirectory = path.join(process.cwd(), "posts");
 
@@ -69,15 +72,20 @@ export async function getPostData(id) {
   // Use gray-matter to parse the post metadata section
   const matterResult = matter(fileContents);
 
-  // Use remark to convert markdown into HTML string
-  const processedContent = await remark()
-    .use(remarkExternalLinks, { target: "_blank", rel: ["nofollow"] })
-    .use(html, { sanitize: false })
+  // Use unified for all processing in a single pipeline
+  const processedContent = await unified()
+    .use(remarkParse) // Parse markdown
+    .use(remarkExternalLinks, { target: "_blank", rel: ["nofollow"] }) // Handle external links
+    .use(remarkRehype, { allowDangerousHtml: true }) // Convert to HTML AST, allowing HTML
+    .use(rehypePrismPlus, { 
+      ignoreMissing: true,
+      showLineNumbers: true 
+    }) // Syntax highlighting
+    .use(rehypeStringify, { allowDangerousHtml: true }) // Convert to HTML string
     .process(matterResult.content);
   let contentHtml = processedContent.toString();
 
   // replace the headings with the anchor links with h1-h6
-  
   contentHtml = contentHtml.replace(/<h(\d)>(.*?)<\/h\d>/g, (match, p1, p2) => {
     const id = p2.toLowerCase().replace(/[^\w\s-]/g, '').replace(/\s+/g, '-');
     return `<h${p1} id="${id}">${p2}</h${p1}>`;
