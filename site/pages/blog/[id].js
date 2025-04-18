@@ -40,6 +40,16 @@ export default function Post({ postData }) {
             <div>{postData.author}</div>
             <DateComponent dateString={postData.date} /> • {postData.readingTime} min read
           </div>
+          <br/>
+          {postData.bannerImage && (
+            <div style={{ position: "relative", left: "50%", right: "50%", marginLeft: "-50vw", marginRight: "-50vw", width: "100vw", overflow: "hidden" }}>
+              <img
+              src={postData.bannerImage}
+              alt="Banner"
+              style={{ width: "100%", height: "auto", display: "block" }}
+              />
+            </div>
+          )}
 
           <TableOfContents article={postData} />
           
