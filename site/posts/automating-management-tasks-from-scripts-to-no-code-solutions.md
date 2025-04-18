@@ -7,6 +7,7 @@ readingTime: 7
 categories: ['Technology And Leadership']
 tags:  [ 'No-Code', 'Automation-Tools', 'Productivity-Hacks', 'Tech-Management', 'Postman-Flows', 'Engineering-Management', 'Postman-Collection-Runner', 'Postman-API-Monitoring']
 toc: true
+bannerImage: /images/posts/automating-management-tasks-from-scripts-to-no-code-solutions/github-jira-customer-feedback-postman-flow.png
 ---
 
 Here is a brief glimpse of my journey from writing custom scripts to embracing no-code solutions like Postman flows and scheduled collection runner, and discover how automation transformed my daily management responsibilities. This evolution not only saved countless hours but also improved team efficiency, showing how modern automation tools can free managers from repetitive tasks to focus on strategic leadership.
