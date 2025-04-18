@@ -22,7 +22,12 @@ export function MetaData() {
 export function ArticleMeta({ article }) {
   const publishedDate = (new Date(article.date)).toDateString();
   const extendedTitle = `${article.title} by ${article.author} | ${publishedDate} | ${DEFAULT_CONFIG.siteTitle}`;
-  const imageUrl = `${DEFAULT_CONFIG.baseUrl}${DEFAULT_CONFIG.siteImageUrl}`;
+  let imageUrl = DEFAULT_CONFIG.baseUrl;
+  if(article.bannerImage) {
+    imageUrl = `${imageUrl}${article.bannerImage}`;
+  } else  {
+    imageUrl = `${imageUrl}${DEFAULT_CONFIG.siteImageUrl}`;
+  }
 
   return (
     <>  
