@@ -11,6 +11,10 @@ This is developed using [Next.js](https://nextjs.org/) and [Tailwind CSS](https:
 
 Hosted here: [https://sony-mathew.com/](https://sony-mathew.com/?utm_source=Github&utm_medium=dev)
 
+If you want to see the current state of this blog, switch to the branch named `deploy`. This is the branch that is served for GitHub Pages [[Learn More](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)]. 
+
+I wrote about build a blog using GitHub Pages and Next.js in my blog. You can read it [here](https://sony-mathew.com/posts/building-a-blog-using-github-pages-and-nextjs/).
+
 ## Workflow
 
 ### How to add a new blog post?
