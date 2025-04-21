@@ -7,6 +7,7 @@ readingTime: 8
 categories: ['Technology']
 tags:  [ 'Prompt Engineering', 'AI', 'LLM', 'Prompts', 'Generative AI', 'AI Best Practices', 'AI Prompt Design', 'AI Examples', 'AI assisted writing', 'Large Language Models']
 toc: false
+bannerImage: /images/posts/the-art-of-prompt-engineering/art-of-prompting.jpg
 ---
 
 Prompt engineering is quickly becoming the new digital literacy. If you’ve ever tried to get a language model to do something “just right” and found yourself tweaking your words over and over, you’ve already dipped your toes into this fascinating craft. After reading [Lee Boonstra’s book](https://drive.google.com/file/d/1AbaBYbEa_EbPelsT40-vj64L-2IwUJHy/view) on the subject, I realized that learning to prompt is much like learning a new language: you have to master its nuances, idioms, and even its quirks to get the best results.
