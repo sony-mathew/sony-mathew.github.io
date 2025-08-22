@@ -120,8 +120,6 @@ export default function Home() {
         <meta name="twitter:creator" content={ `@${DEFAULT_CONFIG.authorTwitterHandle}` } />
         <meta name="twitter:image" content={ meta.imageUrl } />
         <meta name="twitter:image:alt" content={ meta.title } />
-        <meta name="twitter:label1" value="Reading time" />
-        <meta name="twitter:data1" value={ `${meta.readingTime} min read` } />
       </Head>
       <article>
         <h2 className={utilStyles.headingLg}>Systematic Investment Plan Calculator</h2>
