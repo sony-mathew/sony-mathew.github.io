@@ -20,6 +20,17 @@ class SIPCalculator {
     this.process();
   }
 
+  // Add helper method to get month/year for a given month index
+  getMonthYear(monthIndex) {
+    const currentDate = new Date();
+    const targetDate = new Date(currentDate.getFullYear(), currentDate.getMonth() + monthIndex, 1);
+    const monthNames = [
+      'January', 'February', 'March', 'April', 'May', 'June',
+      'July', 'August', 'September', 'October', 'November', 'December'
+    ];
+    return `${monthNames[targetDate.getMonth()]} ${targetDate.getFullYear()}`;
+  }
+
   process() {
     this.monthsData = [];
     this.investment = 0;
@@ -30,9 +41,11 @@ class SIPCalculator {
       const timeInvested = (i / 12.0);
       const returnPercentage = ((this.returnRate - this.inflationRate)/100);
       const totalValue = this.sipAmount * ((1 + returnPercentage) ** timeInvested);
+      const monthIndex = this.months - i + 1;
 
       this.monthsData.push({
-        month: (this.months - i + 1),
+        month: monthIndex,
+        monthYear: this.getMonthYear(monthIndex),
         investment: this.toHumanReadable((this.sipAmount || 0).toFixed(0)),
         value: this.toHumanReadable((totalValue || 0).toFixed(0)),
         returns: this.toHumanReadable(((totalValue - this.sipAmount) || 0).toFixed(0))
@@ -77,6 +90,7 @@ const createTableRowForMonth = (monthData) => {
   return (
     <tr key={monthData.month} className={styles}>
       <td>{monthData.month}</td>
+      <td>{monthData.monthYear}</td>
       <td>{monthData.investment}</td>
       <td>{monthData.returns}</td>
       <td>{monthData.value}</td>
@@ -122,22 +136,11 @@ export default function Home() {
         <meta name="twitter:image:alt" content={ meta.title } />
       </Head>
       <article>
-        <h2 className={utilStyles.headingLg}>Systematic Investment Plan Calculator</h2>
-
-        <h3 className="pt-8">Calculator</h3>
-
-        <div className="pt-10">
-          This is my capsule sized financial advice on investments:
-          <ol>
-            <li>Compounding is powerful</li>
-            <li>Start small</li>
-            <li>Start now</li>
-            <li>Read about Systematic Investment Plans</li>
-            <li>
-              Comprehensive reading material on &nbsp;
-                <Link href="https://zerodha.com/varsity/module/personalfinance/" target="_blank">personal finance</Link>
-            </li>
-          </ol>
+        <h2 className={utilStyles.headingLg}>Systematic Investment Plan (SIP) Calculator</h2>
+        <div className="mt-4">
+          This is my capsule sized financial advice on investments: Compounding is powerful, Start small and Start now. 
+          Also read about SIPs (Systematic Investment Plans) and here is some reading material on &nbsp;
+                <Link href="https://zerodha.com/varsity/module/personalfinance/" target="_blank">personal finance</Link>.
         </div>
         
         <div className="grid grid-rows-2 md:grid-cols-2 md:grid-rows-none gap-8 mt-10">
@@ -204,10 +207,11 @@ export default function Home() {
           <table className="table-auto border-collapse border border-blue-800 w-full">
             <thead>
               <tr>
-                <th className="w-1/4 px-4 py-2 text-blue-600">month</th>
-                <th className="w-1/4 px-4 py-2 text-blue-600">investment</th>
-                <th className="w-1/4 px-4 py-2 text-blue-600">returns</th>
-                <th className="w-1/4 px-4 py-2 text-blue-600">value</th>
+                <th className="w-1/5 px-4 py-2 text-blue-600">month</th>
+                <th className="w-1/5 px-4 py-2 text-blue-600">month/year</th>
+                <th className="w-1/5 px-4 py-2 text-blue-600">investment</th>
+                <th className="w-1/5 px-4 py-2 text-blue-600">returns</th>
+                <th className="w-1/5 px-4 py-2 text-blue-600">value</th>
               </tr>
             </thead>
             <tbody className="text-center text-blue-400 font-medium">
