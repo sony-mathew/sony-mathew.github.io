@@ -12,4 +12,14 @@ export const projectsList = [
     readingTime: 2,
     imageUrl: defaultImageUrl
   },
+  {
+    id: 'simple-pomodoro-timer',
+    date: '2025-08-22',
+    title: 'Pomodoro Timer',
+    description: 'Pomodoro Timer is a tool to help you focus on your work and improve your productivity.',
+    author: 'Sony Mathew',
+    tags: ['pomodoro', 'timer', 'productivity'],
+    readingTime: 1,
+    imageUrl: defaultImageUrl
+  },
 ];
