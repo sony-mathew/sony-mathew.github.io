@@ -15,8 +15,8 @@ export default function SimplePomodoroTimerPage() {
   // Timer constants
   const WORK = "work";
   const BREAK = "break";
-  const WORK_DEFAULT = 0.5 * 60;   // 25 minutes in seconds
-  const BREAK_DEFAULT = 0.2 * 60;   // 5 minutes in seconds
+  const WORK_DEFAULT = 25 * 60;   // 25 minutes in seconds
+  const BREAK_DEFAULT = 5 * 60;   // 5 minutes in seconds
 
   // Independent state for each timer
   const [timeLeftWork, setTimeLeftWork]   = useState(WORK_DEFAULT);
