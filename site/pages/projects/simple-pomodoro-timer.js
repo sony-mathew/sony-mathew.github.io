@@ -324,7 +324,13 @@ export default function SimplePomodoroTimerPage() {
 
       <article>
         <h2 className={utilStyles.headingLg}>Pomodoro Timer</h2>
-
+        <div className="mb-6">
+        The Pomodoro Technique is a time-management method where you work in 25-minute intervals, or "pomodoros," 
+        followed by short 5-minute breaks. After completing four pomodoros, you take a longer 15-30 minute break 
+        to help improve focus, reduce procrastination, and prevent burnout. The technique, developed by 
+        Francesco Cirillo, uses a timer (originally a tomato-shaped kitchen timer) to structure work into manageable chunks
+          (<a href="https://en.wikipedia.org/wiki/Pomodoro_Technique" target="_blank" rel="noopener noreferrer">Wikipedia</a>).
+        </div>
         {/* Time display and textarea two-column container */}
         <div style={{ display: "flex", flexWrap: "wrap", gap: "4rem", alignItems: "flex-start" }}>
           {/* Left column: tabs, timer & controls */}
