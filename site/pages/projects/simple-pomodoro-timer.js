@@ -34,17 +34,29 @@ export default function SimplePomodoroTimerPage() {
   const startTimeRef = useRef(null);
   const targetEndTimeRef = useRef(null);
   const intervalRef = useRef(null);
+  const textareaRef = useRef(null); // Add ref for textarea
+
+  // Audio alarm functionality
+  const audioContextRef = useRef(null);
+  const [isAudioEnabled, setIsAudioEnabled] = useState(true);
 
   // LocalStorage key
   const LS_KEY = "pomodoro_notes";
+  const AUDIO_LS_KEY = "pomodoro_audio_enabled";
 
-  // Load notes on mount
+  // Load notes and audio preference on mount
   useEffect(() => {
     const stored = typeof window !== "undefined" ? localStorage.getItem(LS_KEY) : null;
     if (stored) {
       try {
         setNotes(JSON.parse(stored));
       } catch (_) {}
+    }
+
+    // Load audio preference
+    const audioStored = typeof window !== "undefined" ? localStorage.getItem(AUDIO_LS_KEY) : null;
+    if (audioStored !== null) {
+      setIsAudioEnabled(audioStored === 'true');
     }
   }, []);
 
@@ -55,8 +67,64 @@ export default function SimplePomodoroTimerPage() {
     }
   };
 
+  const persistAudioPreference = (enabled) => {
+    if (typeof window !== "undefined") {
+      localStorage.setItem(AUDIO_LS_KEY, enabled.toString());
+    }
+  };
+
+  const playAlarmSound = () => {
+    if (!isAudioEnabled || typeof window === "undefined") return;
+
+    try {
+      // Create audio context if it doesn't exist
+      if (!audioContextRef.current) {
+        audioContextRef.current = new (window.AudioContext || window.webkitAudioContext)();
+      }
+
+      const audioContext = audioContextRef.current;
+      
+      // Create oscillator for alarm sound
+      const oscillator = audioContext.createOscillator();
+      const gainNode = audioContext.createGain();
+      
+      // Connect nodes
+      oscillator.connect(gainNode);
+      gainNode.connect(audioContext.destination);
+      
+      // Configure alarm sound - 10 second duration with repeating pattern
+      oscillator.type = 'sine';
+      
+      // Create a repeating pattern for 10 seconds
+      const startTime = audioContext.currentTime;
+      const duration = 10; // 10 seconds
+      
+      // Play alternating frequencies every 0.5 seconds for 10 seconds
+      for (let i = 0; i < duration * 2; i++) {
+        const time = startTime + (i * 0.5);
+        const frequency = i % 2 === 0 ? 800 : 1000; // Alternate between 800Hz and 1000Hz
+        
+        oscillator.frequency.setValueAtTime(frequency, time);
+        
+        // Volume envelope for each beep
+        gainNode.gain.setValueAtTime(0, time);
+        gainNode.gain.linearRampToValueAtTime(0.2, time + 0.05);
+        gainNode.gain.linearRampToValueAtTime(0, time + 0.4);
+      }
+      
+      // Play the sound
+      oscillator.start(startTime);
+      oscillator.stop(startTime + duration);
+      
+    } catch (error) {
+      console.warn('Could not play alarm sound:', error);
+    }
+  };
+
   const saveCurrentNote = () => {
-    const text = noteInput.trim() === "" ? "No Notes." : noteInput.trim();
+    // Get the current value from the textarea ref to ensure we capture any pending input
+    const currentText = textareaRef.current ? textareaRef.current.value : noteInput;
+    const text = currentText.trim() === "" ? "No Notes." : currentText.trim();
     const entry = { ts: Date.now(), text };
     const updated = [entry, ...notes].slice(0, 100);
     setNoteInput("");
@@ -87,20 +155,26 @@ export default function SimplePomodoroTimerPage() {
       if (prevRunning === WORK) {
         if (remaining > 0) {
           setTimeLeftWork(remaining);
+          return prevRunning; // Keep the same running type
         } else {
-          setTimeLeftWork(0);
+          setTimeLeftWork(WORK_DEFAULT); // Reset to default instead of 0
           saveCurrentNote();
           clearExistingInterval();
-          setRunningType(null);
+          setIsPaused(false); // Ensure pause state is reset
+          playAlarmSound(); // Play alarm when work timer completes
+          return null; // Set running type to null
         }
       } else if (prevRunning === BREAK) {
         if (remaining > 0) {
           setTimeLeftBreak(remaining);
+          return prevRunning; // Keep the same running type
         } else {
-          setTimeLeftBreak(0);
+          setTimeLeftBreak(BREAK_DEFAULT); // Reset to default instead of 0
           saveCurrentNote();
           clearExistingInterval();
-          setRunningType(null);
+          setIsPaused(false); // Ensure pause state is reset
+          playAlarmSound(); // Play alarm when break timer completes
+          return null; // Set running type to null
         }
       }
       return prevRunning;
@@ -167,9 +241,20 @@ export default function SimplePomodoroTimerPage() {
     setIsPaused(false);
   };
 
+  const toggleAudio = () => {
+    const newValue = !isAudioEnabled;
+    setIsAudioEnabled(newValue);
+    persistAudioPreference(newValue);
+  };
+
   // Cleanup on unmount
   useEffect(() => {
-    return () => clearExistingInterval();
+    return () => {
+      clearExistingInterval();
+      if (audioContextRef.current) {
+        audioContextRef.current.close();
+      }
+    };
   }, []);
 
   // Handle page visibility changes to prevent drift when tab is inactive
@@ -276,12 +361,44 @@ export default function SimplePomodoroTimerPage() {
               fontSize: "5rem",
               fontWeight: "700",
               textAlign: "center",
-              margin: "2rem 0",
+              margin: "1rem 1rem",
               color: "#334155",
               textShadow: "0 2px 4px rgba(0, 0, 0, 0.1)",
               fontFamily: "monospace"
-            }}>
+            }} className="mt-0">
               {minutes}:{seconds}
+            </div>
+
+            {/* Subtle audio toggle button */}
+            <div style={{ 
+              marginBottom: "2rem",
+              textAlign: "center"
+            }}>
+              <button
+                onClick={toggleAudio}
+                style={{
+                  padding: "0.4rem 0.8rem",
+                  fontSize: "0.8rem",
+                  background: "transparent",
+                  color: isAudioEnabled ? "#10b981" : "#6b7280",
+                  border: `1px solid ${isAudioEnabled ? "#10b981" : "#6b7280"}`,
+                  borderRadius: "6px",
+                  cursor: "pointer",
+                  fontWeight: "400",
+                  transition: "all 0.2s ease",
+                  opacity: 0.8
+                }}
+                onMouseOver={(e) => {
+                  e.target.style.opacity = "1";
+                  e.target.style.transform = "scale(1.05)";
+                }}
+                onMouseOut={(e) => {
+                  e.target.style.opacity = "0.8";
+                  e.target.style.transform = "scale(1)";
+                }}
+              >
+                {isAudioEnabled ? "🔊 Sound On" : "🔇 Sound Off"}
+              </button>
             </div>
 
             {/* Control buttons */}
@@ -354,10 +471,10 @@ export default function SimplePomodoroTimerPage() {
           </div>
 
           {/* Right column: notes textarea */}
-          <div style={{ flex: "1 1 300px" }}>
+          <div style={{ flex: "1 1 200px" }} className="h-max">
             <div style={{ 
               background: "white", 
-              padding: "2rem", 
+              padding: "2rem 2rem 3rem 2rem", 
               borderRadius: "16px", 
               boxShadow: "0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)",
               border: "1px solid #e2e8f0"
@@ -376,6 +493,7 @@ export default function SimplePomodoroTimerPage() {
                 </span>
               </h3>
               <textarea
+                ref={textareaRef} // Add ref to textarea
                 value={noteInput}
                 onChange={(e) => setNoteInput(e.target.value)}
                 rows={6}
