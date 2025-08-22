@@ -3,16 +3,6 @@ const defaultImageUrl = `${DEFAULT_CONFIG.baseUrl}${DEFAULT_CONFIG.siteImageUrl}
 
 export const projectsList = [
   {
-    id: 'sip-calculator',
-    date: '2021-03-13',
-    title: 'SIP Calculator - Systematic Investment Plan Calculator',
-    description: 'SIP Calculator - Systematic Investment Plan calculator is a tool to calculate your returns over a period of time when you invest in instruments like mutual funds, equity, commodities or any financial instrument for that matter.',
-    author: 'Sony Mathew',
-    tags: ['sip', 'calculator', 'mutual-funds', 'personal-finance'],
-    readingTime: 2,
-    imageUrl: defaultImageUrl
-  },
-  {
     id: 'simple-pomodoro-timer',
     date: '2025-08-22',
     title: 'Pomodoro Timer',
@@ -20,6 +10,16 @@ export const projectsList = [
     author: 'Sony Mathew',
     tags: ['pomodoro', 'timer', 'productivity'],
     readingTime: 1,
+    imageUrl: defaultImageUrl
+  },
+  {
+    id: 'sip-calculator',
+    date: '2021-03-13',
+    title: 'SIP Calculator - Systematic Investment Plan Calculator',
+    description: 'SIP Calculator - Systematic Investment Plan calculator is a tool to calculate your returns over a period of time when you invest in instruments like mutual funds, equity, commodities or any financial instrument for that matter.',
+    author: 'Sony Mathew',
+    tags: ['sip', 'calculator', 'mutual-funds', 'personal-finance'],
+    readingTime: 2,
     imageUrl: defaultImageUrl
   },
 ];
