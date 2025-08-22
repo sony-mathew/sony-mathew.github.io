@@ -30,6 +30,11 @@ export default function SimplePomodoroTimerPage() {
   const [noteInput, setNoteInput] = useState("");
   const [notes, setNotes] = useState([]);
 
+  // Timer accuracy improvements
+  const startTimeRef = useRef(null);
+  const targetEndTimeRef = useRef(null);
+  const intervalRef = useRef(null);
+
   // LocalStorage key
   const LS_KEY = "pomodoro_notes";
 
@@ -58,8 +63,6 @@ export default function SimplePomodoroTimerPage() {
     persistNotes(updated);
   };
 
-  const intervalRef = useRef(null);
-
   // Derived helpers
   const timeLeft = activeTab === WORK ? timeLeftWork : timeLeftBreak;
   const minutes  = String(Math.floor(timeLeft / 60)).padStart(2, "0");
@@ -73,23 +76,32 @@ export default function SimplePomodoroTimerPage() {
   };
 
   const tick = () => {
+    if (!startTimeRef.current || !targetEndTimeRef.current) return;
+
+    const now = Date.now();
+    const elapsed = Math.floor((now - startTimeRef.current) / 1000);
+    const targetDuration = Math.floor((targetEndTimeRef.current - startTimeRef.current) / 1000);
+    const remaining = Math.max(0, targetDuration - elapsed);
+
     setRunningType(prevRunning => {
       if (prevRunning === WORK) {
-        setTimeLeftWork(prev => {
-          if (prev > 0) return prev - 1;
+        if (remaining > 0) {
+          setTimeLeftWork(remaining);
+        } else {
+          setTimeLeftWork(0);
           saveCurrentNote();
           clearExistingInterval();
           setRunningType(null);
-          return 0;
-        });
+        }
       } else if (prevRunning === BREAK) {
-        setTimeLeftBreak(prev => {
-          if (prev > 0) return prev - 1;
+        if (remaining > 0) {
+          setTimeLeftBreak(remaining);
+        } else {
+          setTimeLeftBreak(0);
           saveCurrentNote();
           clearExistingInterval();
           setRunningType(null);
-          return 0;
-        });
+        }
       }
       return prevRunning;
     });
@@ -108,16 +120,31 @@ export default function SimplePomodoroTimerPage() {
       }
     }
 
+    const duration = activeTab === WORK ? timeLeftWork : timeLeftBreak;
+    const now = Date.now();
+    
+    startTimeRef.current = now;
+    targetEndTimeRef.current = now + (duration * 1000);
+
     setIsPaused(false);
     setRunningType(activeTab);
-    intervalRef.current = setInterval(tick, 1000);
+    
+    // Use a more frequent interval for better accuracy, but calculate based on actual elapsed time
+    intervalRef.current = setInterval(tick, 100);
   };
 
   const pauseResume = () => {
     if (runningType !== activeTab) return; // safety
+    
     if (isPaused) {
-      // resume
-      intervalRef.current = setInterval(tick, 1000);
+      // resume - adjust the start time to account for the pause
+      const currentTimeLeft = activeTab === WORK ? timeLeftWork : timeLeftBreak;
+      const now = Date.now();
+      
+      startTimeRef.current = now - ((activeTab === WORK ? WORK_DEFAULT : BREAK_DEFAULT) - currentTimeLeft) * 1000;
+      targetEndTimeRef.current = startTimeRef.current + (activeTab === WORK ? WORK_DEFAULT : BREAK_DEFAULT) * 1000;
+      
+      intervalRef.current = setInterval(tick, 100);
       setIsPaused(false);
     } else {
       // pause
@@ -128,6 +155,9 @@ export default function SimplePomodoroTimerPage() {
 
   const cancelTimer = () => {
     clearExistingInterval();
+    startTimeRef.current = null;
+    targetEndTimeRef.current = null;
+    
     if (activeTab === WORK) {
       setTimeLeftWork(WORK_DEFAULT);
     } else {
@@ -141,6 +171,24 @@ export default function SimplePomodoroTimerPage() {
   useEffect(() => {
     return () => clearExistingInterval();
   }, []);
+
+  // Handle page visibility changes to prevent drift when tab is inactive
+  useEffect(() => {
+    const handleVisibilityChange = () => {
+      if (document.hidden && runningType) {
+        // Tab became hidden, but we don't need to do anything special
+        // The timer will continue to work correctly based on elapsed time
+      } else if (!document.hidden && runningType && !isPaused) {
+        // Tab became visible again, ensure timer is still running
+        if (!intervalRef.current) {
+          intervalRef.current = setInterval(tick, 100);
+        }
+      }
+    };
+
+    document.addEventListener('visibilitychange', handleVisibilityChange);
+    return () => document.removeEventListener('visibilitychange', handleVisibilityChange);
+  }, [runningType, isPaused]);
 
   const handleTabChange = (tab) => {
     setActiveTab(tab);
