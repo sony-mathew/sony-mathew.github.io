@@ -5,9 +5,17 @@
       <link>https://sony-mathew.com/blog</link>
       <description>Sony Mathew's personal blog and portfolio. He writes about technology, travel and philosophy.</description>
       <language>en</language>
-      <lastBuildDate>Mon, 14 Apr 2025 00:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Sat, 19 Apr 2025 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://sony-mathew.com/rss.xml" rel="self" type="application/rss+xml"/>
       
+  <item>
+    <guid>https://sony-mathew.com/blog/the-art-of-prompt-engineering</guid>
+    <title>The Art of Prompt Engineering</title>
+    <link>https://sony-mathew.com/blog/the-art-of-prompt-engineering</link>
+    <description>Unlock the secrets of prompt engineering with this practical guide inspired by Lee Boonstra’s book. Learn how crafting clear, targeted prompts can dramatically improve your interactions with AI—whether you’re summarizing text, generating code, or extracting information. This post explores essential techniques, configuration tips, real-world examples, and best practices to help you communicate with large language models more effectively and creatively. Perfect for anyone looking to master the language of AI and get the most out of today’s generative tools</description>
+    <pubDate>Sat, 19 Apr 2025 00:00:00 GMT</pubDate>
+  </item>
+
   <item>
     <guid>https://sony-mathew.com/blog/architecting-resilient-node-js-microservices-with-worker-threads</guid>
     <title>Architecting Resilient Node.js Microservices with Worker Threads</title>
