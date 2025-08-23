@@ -3,6 +3,16 @@ const defaultImageUrl = `${DEFAULT_CONFIG.baseUrl}${DEFAULT_CONFIG.siteImageUrl}
 
 export const projectsList = [
   {
+    id: 'typing-speed-test',
+    date: '2025-08-23',
+    title: 'Typing Speed Test',
+    description: 'Typing Speed Test is a tool to help you test your typing speed.',
+    author: 'Sony Mathew',
+    tags: ['typing', 'speed', 'test'],
+    readingTime: 3,
+    imageUrl: defaultImageUrl
+  },
+  {
     id: 'simple-pomodoro-timer',
     date: '2025-08-22',
     title: 'Pomodoro Timer',
