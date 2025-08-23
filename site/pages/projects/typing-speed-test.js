@@ -58,6 +58,7 @@ export default function TypingSpeedTestPage() {
   const [correctChars, setCorrectChars] = useState(0);
   const [incorrectChars, setIncorrectChars] = useState(0);
 
+
   // Timing refs
   const intervalRef = useRef(null);
   const startTimeRef = useRef(null);
@@ -279,11 +280,11 @@ export default function TypingSpeedTestPage() {
             }} />
           ));
         }
-        pieces.push(<span key={`w-${i}`} style={{ color: '#e5e7eb' }}>{chars}</span>);
+        pieces.push(<span key={`w-${i}`} className="text-gray-900 dark:text-gray-100">{chars}</span>);
       } else {
         // Upcoming words
         pieces.push(
-          <span key={`w-${i}`} style={{ color: '#94a3b8' }}>
+          <span key={`w-${i}`} className="text-gray-500 dark:text-gray-400">
             {word}
           </span>
         );
@@ -298,21 +299,14 @@ export default function TypingSpeedTestPage() {
   const ResultsPanel = () => {
     const r = computeResults();
     return (
-      <div style={{
-        background: 'linear-gradient(180deg, rgba(17,24,39,0.8), rgba(2,6,23,0.9))',
-        border: '1px solid #0ea5e9',
-        boxShadow: '0 20px 50px -20px rgba(14,165,233,0.35)',
-        borderRadius: 16,
-        padding: '1.5rem',
-        color: 'white'
-      }}>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, minmax(0, 1fr))', gap: '1rem' }}>
-          <MetricCard label="Overall WPM" value={r.overallWPM} accent="#10b981" />
-          <MetricCard label="Accuracy" value={`${r.accuracy}%`} accent="#60a5fa" />
-          <MetricCard label="Right Words" value={r.rightWords} accent="#a78bfa" />
-          <MetricCard label="Wrong Words" value={r.wrongWords} accent="#ef4444" />
+      <div className="rounded-2xl p-6 text-gray-900 dark:text-gray-100 border border-gray-200 dark:border-sky-500/60 shadow-sm dark:shadow-[0_20px_50px_-20px_rgba(14,165,233,0.35)] bg-white dark:bg-gradient-to-b dark:from-gray-900/80 dark:to-slate-950/90">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          <MetricCard icon="flag" label="Overall WPM" value={r.overallWPM} accent="from-emerald-500 to-emerald-600" />
+          <MetricCard icon="target" label="Accuracy" value={`${r.accuracy}%`} accent="from-sky-400 to-sky-500" />
+          <MetricCard icon="check" label="Right Words" value={r.rightWords} accent="from-violet-400 to-violet-500" />
+          <MetricCard icon="x" label="Wrong Words" value={r.wrongWords} accent="from-red-500 to-rose-500" />
         </div>
-        <div style={{ marginTop: '1rem', display: 'grid', gridTemplateColumns: 'repeat(3, minmax(0, 1fr))', gap: '1rem' }}>
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-4">
           <MiniMetric label="Correct Chars" value={r.correctChars} />
           <MiniMetric label="Incorrect Chars" value={r.incorrectChars} />
           <MiniMetric label="Typed Chars" value={r.typedChars} />
@@ -321,30 +315,86 @@ export default function TypingSpeedTestPage() {
     );
   };
 
-  const MetricCard = ({ label, value, accent }) => (
-    <div style={{
-      background: 'rgba(255,255,255,0.04)',
-      border: `1px solid ${accent}`,
-      borderRadius: 12,
-      padding: '1rem',
-      textAlign: 'center',
-      boxShadow: `0 10px 30px -12px ${accent}55`
-    }}>
-      <div style={{ fontSize: '2rem', fontWeight: 800, color: 'white' }}>{value}</div>
-      <div style={{ color: '#94a3b8' }}>{label}</div>
-    </div>
-  );
+  const Icon = ({ name, className }) => {
+    const cls = className || "h-5 w-5";
+    switch (name) {
+      case 'clock':
+        return (
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" className={cls}>
+            <circle cx="12" cy="12" r="9" />
+            <path d="M12 7v6l4 2" />
+          </svg>
+        );
+      case 'gauge':
+        return (
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" className={cls}>
+            <path d="M5 19a9 9 0 1 1 14 0" />
+            <path d="M12 13l4-4" />
+          </svg>
+        );
+      case 'flag':
+        return (
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" className={cls}>
+            <path d="M4 21V5" />
+            <path d="M4 5h10l-1.5 3H20l-1.5 3H4" />
+          </svg>
+        );
+      case 'target':
+        return (
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" className={cls}>
+            <circle cx="12" cy="12" r="8" />
+            <circle cx="12" cy="12" r="4" />
+            <circle cx="12" cy="12" r="1" />
+          </svg>
+        );
+      case 'check':
+        return (
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" className={cls}>
+            <circle cx="12" cy="12" r="9" />
+            <path d="M8 12l3 3 5-6" />
+          </svg>
+        );
+      case 'x':
+        return (
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" className={cls}>
+            <circle cx="12" cy="12" r="9" />
+            <path d="M9 9l6 6M15 9l-6 6" />
+          </svg>
+        );
+      default:
+        return null;
+    }
+  };
+
+  const MetricCard = ({ label, value, accent, icon }) => {
+    const hasAccent = !!accent;
+    const containerClass = hasAccent
+      ? `group rounded-xl p-4 text-center border border-transparent shadow-md hover:shadow-lg transition-shadow bg-gradient-to-br ${accent} transform-gpu transition-transform duration-200 ease-out hover:-translate-y-0.5 hover:scale-[1.01] hover:rotate-[0.5deg]`
+      : `group rounded-xl p-4 text-center border bg-white dark:bg-white/5 border-gray-200 dark:border-white/10 shadow-sm hover:shadow-md transition-shadow dark:shadow-[0_10px_30px_-12px_rgba(2,6,23,0.55)] transform-gpu transition-transform duration-200 ease-out hover:-translate-y-0.5 hover:scale-[1.01] hover:rotate-[0.5deg]`;
+    const valueClass = hasAccent
+      ? `text-3xl font-extrabold text-white`
+      : `text-3xl font-extrabold text-gray-900 dark:text-gray-100`;
+    const labelClass = hasAccent
+      ? `text-sm text-white/90 flex items-center justify-center gap-2`
+      : `text-sm text-gray-500 dark:text-gray-400 flex items-center justify-center gap-2`;
+    const iconClass = hasAccent
+      ? 'h-4 w-4 text-white/90 transition-transform duration-200 ease-out group-hover:scale-110 group-hover:-translate-y-0.5'
+      : 'h-4 w-4 text-gray-400 dark:text-gray-400 transition-transform duration-200 ease-out group-hover:scale-110 group-hover:-translate-y-0.5';
+    return (
+      <div className={containerClass}>
+        <div className={valueClass}>{value}</div>
+        <div className={labelClass}>
+          {icon ? <Icon name={icon} className={iconClass} /> : null}
+          {label}
+        </div>
+      </div>
+    );
+  };
 
   const MiniMetric = ({ label, value }) => (
-    <div style={{
-      background: 'rgba(255,255,255,0.03)',
-      border: '1px solid #1f2937',
-      borderRadius: 10,
-      padding: '0.75rem',
-      textAlign: 'center'
-    }}>
-      <div style={{ fontSize: '1.25rem', fontWeight: 700, color: 'white' }}>{value}</div>
-      <div style={{ color: '#94a3b8' }}>{label}</div>
+    <div className="rounded-lg p-3 text-center border border-gray-200 dark:border-white/10 bg-white dark:bg-white/5">
+      <div className="text-xl font-bold text-gray-900 dark:text-gray-100">{value}</div>
+      <div className="text-sm text-gray-500 dark:text-gray-400">{label}</div>
     </div>
   );
 
@@ -381,83 +431,41 @@ export default function TypingSpeedTestPage() {
         <h2 className={utilStyles.headingLg}>Typing Speed Test</h2>
 
         {/* Top metrics and controls */}
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, minmax(0, 1fr))', gap: '1rem', marginTop: '1rem' }}>
-          <MetricCard label="Time Left" value={`${timeLeft}s`} accent="#38bdf8" />
-          <MetricCard label="Realtime WPM" value={realTimeWPM} accent="#10b981" />
-          <MetricCard label="Overall WPM" value={completedWordCount} accent="#f59e0b" />
-          <MetricCard label="Accuracy" value={`${accuracy}%`} accent="#6366f1" />
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-4">
+          <MetricCard icon="clock" label="Time Left" value={`${timeLeft}s`} />
+          <MetricCard icon="gauge" label="Realtime WPM" value={realTimeWPM} />
+          <MetricCard icon="flag" label="Overall WPM" value={completedWordCount} />
+          <MetricCard icon="target" label="Accuracy" value={`${accuracy}%`} />
         </div>
 
         {/* Target text - windowed view (10 typed, 20 upcoming) */}
-        <div style={{
-          marginTop: '2rem',
-          padding: '1.5rem',
-          background: 'linear-gradient(135deg, rgba(15,23,42,0.9), rgba(2,6,23,0.9))',
-          borderRadius: 16,
-          border: '1px solid #1f2937',
-          boxShadow: '0 20px 60px -25px rgba(59,130,246,0.35)',
-          color: '#e5e7eb',
-          fontFamily: 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \'Liberation Mono\', \'Courier New\', monospace',
-          lineHeight: 1.9,
-          fontSize: '1.05rem'
-        }}>
+        <div className="mt-8 p-6 rounded-2xl border border-gray-800 bg-gradient-to-tr from-slate-900/90 to-slate-950/90 shadow-[0_20px_60px_-25px_rgba(59,130,246,0.35)] text-slate-200 font-mono leading-8 text-[1.05rem]">
           {renderWindowedTarget()}
         </div>
 
         {/* Input and actions */}
-        <div style={{ display: 'grid', gridTemplateColumns: 'minmax(0, 1fr)', gap: '1rem', marginTop: '1rem' }}>
+        <div className="grid grid-cols-1 gap-4 mt-4">
           <textarea
             value={typed}
             onChange={handleTyping}
             disabled={!started || finished}
             rows={5}
-            style={{
-              width: '100%',
-              padding: '1rem 1.25rem',
-              borderRadius: 12,
-              border: '1px solid #1f2937',
-              background: 'rgba(255,255,255,0.03)',
-              color: 'white',
-              fontSize: '1rem',
-              fontFamily: 'inherit',
-              outline: 'none',
-              boxShadow: 'inset 0 0 0 1px rgba(59,130,246,0.15)'
-            }}
+            className="w-full px-5 py-4 rounded-xl border border-gray-800 bg-white/5 dark:bg-white/5 text-gray-900 dark:text-gray-100 text-base outline-none focus:ring-2 focus:ring-sky-400/50"
             placeholder={started ? 'Start typing the text above…' : 'Click Start to begin a 60s test…'}
-            onFocus={(e) => e.target.style.boxShadow = 'inset 0 0 0 1px rgba(59,130,246,0.35)'}
-            onBlur={(e) => e.target.style.boxShadow = 'inset 0 0 0 1px rgba(59,130,246,0.15)'}
           />
 
-          <div style={{ display: 'flex', gap: '0.75rem', flexWrap: 'wrap' }}>
+          <div className="flex gap-3 flex-wrap">
             {!started && !finished && (
               <button
                 onClick={startTest}
-                style={{
-                  padding: '0.85rem 1.5rem',
-                  background: 'linear-gradient(135deg, #22c55e, #16a34a)',
-                  color: 'white',
-                  border: 'none',
-                  borderRadius: 12,
-                  cursor: 'pointer',
-                  fontWeight: 700,
-                  boxShadow: '0 12px 40px -12px rgba(34,197,94,0.5)'
-                }}
+                className="px-5 py-3 rounded-xl text-white font-bold shadow-[0_12px_40px_-12px_rgba(34,197,94,0.5)] bg-gradient-to-br from-emerald-500 to-emerald-600 hover:from-emerald-600 hover:to-emerald-700"
               >Start</button>
             )}
 
             {started && !finished && (
               <button
                 onClick={() => resetTest(false)}
-                style={{
-                  padding: '0.85rem 1.25rem',
-                  background: 'linear-gradient(135deg, #f59e0b, #d97706)',
-                  color: 'white',
-                  border: 'none',
-                  borderRadius: 12,
-                  cursor: 'pointer',
-                  fontWeight: 700,
-                  boxShadow: '0 12px 40px -12px rgba(245,158,11,0.45)'
-                }}
+                className="px-5 py-3 rounded-xl text-white font-bold shadow-[0_12px_40px_-12px_rgba(245,158,11,0.45)] bg-gradient-to-br from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700"
               >Restart</button>
             )}
 
@@ -465,29 +473,11 @@ export default function TypingSpeedTestPage() {
               <>
                 <button
                   onClick={() => resetTest(false)}
-                  style={{
-                    padding: '0.85rem 1.25rem',
-                    background: 'linear-gradient(135deg, #0ea5e9, #2563eb)',
-                    color: 'white',
-                    border: 'none',
-                    borderRadius: 12,
-                    cursor: 'pointer',
-                    fontWeight: 700,
-                    boxShadow: '0 12px 40px -12px rgba(14,165,233,0.5)'
-                  }}
+                  className="px-5 py-3 rounded-xl text-white font-bold shadow-[0_12px_40px_-12px_rgba(14,165,233,0.5)] bg-gradient-to-br from-sky-500 to-blue-600 hover:from-sky-600 hover:to-blue-700"
                 >Try Again</button>
                 <button
                   onClick={() => resetTest(true)}
-                  style={{
-                    padding: '0.85rem 1.25rem',
-                    background: 'linear-gradient(135deg, #a78bfa, #7c3aed)',
-                    color: 'white',
-                    border: 'none',
-                    borderRadius: 12,
-                    cursor: 'pointer',
-                    fontWeight: 700,
-                    boxShadow: '0 12px 40px -12px rgba(167,139,250,0.5)'
-                  }}
+                  className="px-5 py-3 rounded-xl text-white font-bold shadow-[0_12px_40px_-12px_rgba(167,139,250,0.5)] bg-gradient-to-br from-violet-400 to-violet-600 hover:from-violet-500 hover:to-violet-700"
                 >New Sample</button>
               </>
             )}
@@ -495,16 +485,7 @@ export default function TypingSpeedTestPage() {
             {!started && !finished && (
               <button
                 onClick={() => resetTest(true)}
-                style={{
-                  padding: '0.85rem 1.25rem',
-                  background: 'linear-gradient(135deg, #64748b, #334155)',
-                  color: 'white',
-                  border: 'none',
-                  borderRadius: 12,
-                  cursor: 'pointer',
-                  fontWeight: 700,
-                  boxShadow: '0 12px 40px -12px rgba(100,116,139,0.45)'
-                }}
+                className="px-5 py-3 rounded-xl text-white font-bold shadow-[0_12px_40px_-12px_rgba(100,116,139,0.45)] bg-gradient-to-br from-slate-500 to-slate-700 hover:from-slate-600 hover:to-slate-800"
               >Randomize</button>
             )}
           </div>
@@ -513,35 +494,23 @@ export default function TypingSpeedTestPage() {
         {/* Results */}
         {finished && (
           <div className="mt-8">
-            <h3 className="text-lg font-bold" style={{ color: 'white', marginBottom: '0.75rem' }}>Results</h3>
+            <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-3">Results</h3>
             <ResultsPanel />
           </div>
         )}
 
         {/* Session History */}
         <div className="mt-12">
-          <h3 className="text-lg font-bold" style={{ color: 'white', marginBottom: '0.75rem' }}>Session History</h3>
+          <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-3">Session History</h3>
           {sessions.length > 0 && (
-            <div style={{
-              background: 'rgba(255,255,255,0.04)',
-              border: '1px solid #1f2937',
-              borderRadius: 12,
-              overflow: 'hidden'
-            }}>
+            <div className="rounded-xl overflow-hidden border border-white/10 bg-white/5 dark:bg-white/5">
               {sessions.map((s, i) => (
-                <div key={s.ts} style={{
-                  display: 'grid',
-                  gridTemplateColumns: '140px 1fr 1fr 1fr 1fr',
-                  gap: '0.75rem',
-                  padding: '0.85rem 1rem',
-                  background: i % 2 === 0 ? 'rgba(2,6,23,0.65)' : 'transparent',
-                  borderBottom: '1px solid #0b1220'
-                }}>
-                  <div style={{ color: '#94a3b8' }}>{dateFormatter(s.ts)}</div>
-                  <div style={{ color: 'white', fontWeight: 600 }}>Overall WPM: {s.overallWPM != null ? s.overallWPM : s.wpm}</div>
-                  <div style={{ color: '#60a5fa' }}>Accuracy: {s.accuracy}%</div>
-                  <div style={{ color: '#a78bfa' }}>Right: {s.rightWords}</div>
-                  <div style={{ color: '#ef4444' }}>Wrong: {s.wrongWords}</div>
+                <div key={s.ts} className={`grid grid-cols-5 gap-3 px-4 py-3 border-b border-slate-900/60 ${i % 2 === 0 ? 'bg-slate-900/60' : 'bg-transparent'}`}>
+                  <div className={`${i % 2 === 0 ? 'text-gray-200' : 'text-gray-700'} dark:text-gray-400`}>{dateFormatter(s.ts)}</div>
+                  <div className="text-gray-900 dark:text-gray-100 font-semibold">Overall WPM: {s.overallWPM != null ? s.overallWPM : s.wpm}</div>
+                  <div className="text-sky-400">Accuracy: {s.accuracy}%</div>
+                  <div className="text-violet-300">Right: {s.rightWords}</div>
+                  <div className="text-rose-400">Wrong: {s.wrongWords}</div>
                 </div>
               ))}
             </div>
