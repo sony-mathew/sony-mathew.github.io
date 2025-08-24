@@ -3,6 +3,16 @@ const defaultImageUrl = `${DEFAULT_CONFIG.baseUrl}${DEFAULT_CONFIG.siteImageUrl}
 
 export const projectsList = [
   {
+    id: 'scientific-calculator',
+    date: '2025-08-24',
+    title: 'Scientific Calculator',
+    description: 'A powerful calculator with scientific functions, keyboard support, and DEG/RAD toggle.',
+    author: 'Sony Mathew',
+    tags: ['calculator', 'math', 'scientific'],
+    readingTime: 2,
+    imageUrl: defaultImageUrl
+  },
+  {
     id: 'typing-speed-test',
     date: '2025-08-23',
     title: 'Typing Speed Test',
