@@ -5,9 +5,17 @@
       <link>https://sony-mathew.com/blog</link>
       <description>Sony Mathew's personal blog and portfolio. He writes about technology, travel and philosophy.</description>
       <language>en</language>
-      <lastBuildDate>Sat, 19 Apr 2025 00:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Sat, 21 Feb 2026 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://sony-mathew.com/rss.xml" rel="self" type="application/rss+xml"/>
       
+  <item>
+    <guid>https://sony-mathew.com/blog/running-zeroclaw-on-raspberry-pi</guid>
+    <title>Running OpenClaw on a Raspberry Pi: Experiment in Minimal Hardware</title>
+    <link>https://sony-mathew.com/blog/running-zeroclaw-on-raspberry-pi</link>
+    <description>Curious about the OpenClaw hype, I decided to experiment by running it on an old Raspberry Pi 400 instead of buying new hardware. After setting up Raspberry Pi OS and installing Ollama, I managed to run lightweight local LLMs - but quickly ran into context window and timeout limitations with OpenClaw. Exploring alternatives like ZeroClaw revealed how much token overhead OpenClaw carries and why it demands massive context windows. In the end, I got a Telegram-connected local agent running on the Pi - slow, but functional - and walked away with a deeper appreciation for lightweight AI experimentation on minimal hardware.</description>
+    <pubDate>Sat, 21 Feb 2026 00:00:00 GMT</pubDate>
+  </item>
+
   <item>
     <guid>https://sony-mathew.com/blog/the-art-of-prompt-engineering</guid>
     <title>The Art of Prompt Engineering</title>
