@@ -6,10 +6,16 @@
     </url>
     <url>
       <loc>https://sony-mathew.com/blog</loc>
-      <lastmod>2025-04-19</lastmod>
+      <lastmod>2026-02-21</lastmod>
       <changefreq>weekly</changefreq>
     </url>
     
+  <url>
+    <loc>https://sony-mathew.com/blog/running-zeroclaw-on-raspberry-pi</loc>
+    <lastmod>2026-02-21</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+
   <url>
     <loc>https://sony-mathew.com/blog/the-art-of-prompt-engineering</loc>
     <lastmod>2025-04-19</lastmod>
@@ -119,6 +125,12 @@
   </url>
 
     
+  <url>
+    <loc>https://sony-mathew.com/projects/scientific-calculator</loc>
+    <lastmod>2025-08-24</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+
   <url>
     <loc>https://sony-mathew.com/projects/typing-speed-test</loc>
     <lastmod>2025-08-23</lastmod>
