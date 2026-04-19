@@ -1,0 +1,15 @@
+<rss xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <item>
+      <title>Launch Alpha</title>
+      <link>https://www.producthunt.com/posts/launch-alpha</link>
+      <description><![CDATA[<img src="https://ph-files.imgix.net/alpha.png" />The first launch tagline]]></description>
+      <media:content url="https://ph-files.imgix.net/alpha.png" />
+    </item>
+    <item>
+      <title>Launch Beta</title>
+      <link>https://www.producthunt.com/posts/launch-beta</link>
+      <description><![CDATA[The second launch tagline]]></description>
+    </item>
+  </channel>
+</rss>

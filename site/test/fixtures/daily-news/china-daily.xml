@@ -1,0 +1,16 @@
+<rss>
+  <channel>
+    <item>
+      <title><![CDATA[China Daily headline one]]></title>
+      <link>https://www.chinadaily.com.cn/a/202604/19/story-one.html</link>
+      <pubDate>Sun, 19 Apr 2026 02:00:00 GMT</pubDate>
+      <description><![CDATA[<img src="https://www.chinadaily.com.cn/images/story-one.jpg" />World story]]></description>
+    </item>
+    <item>
+      <title><![CDATA[China Daily headline two]]></title>
+      <link>https://www.chinadaily.com.cn/a/202604/19/story-two.html</link>
+      <pubDate>Sun, 19 Apr 2026 01:00:00 GMT</pubDate>
+      <description><![CDATA[World story two]]></description>
+    </item>
+  </channel>
+</rss>

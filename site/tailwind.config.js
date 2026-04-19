@@ -4,6 +4,8 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./lib/**/*.{js,ts,jsx,tsx}",
+    "./scripts/**/*.{js,mjs,ts,jsx,tsx}",
+    "./daily-news/**/*.md",
   ],
   theme: {
     screens: {
