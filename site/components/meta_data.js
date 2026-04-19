@@ -22,6 +22,7 @@ export function MetaData() {
 export function ArticleMeta({ article }) {
   const publishedDate = (new Date(article.date)).toDateString();
   const extendedTitle = `${article.title} by ${article.author} | ${publishedDate} | ${DEFAULT_CONFIG.siteTitle}`;
+  const routePrefix = article.routePrefix || "/blog";
   let imageUrl = DEFAULT_CONFIG.baseUrl;
   if(article.bannerImage) {
     imageUrl = `${imageUrl}${article.bannerImage}`;
@@ -38,7 +39,7 @@ export function ArticleMeta({ article }) {
       <meta property="og:title" content={ article.title } />
       <meta property="og:description" content={ article.description } />
       <meta property="og:image" content={ imageUrl } />
-      <meta property="og:url" content={ `${DEFAULT_CONFIG.baseUrl}/blog/${ article.id }` } />
+      <meta property="og:url" content={ `${DEFAULT_CONFIG.baseUrl}${routePrefix}/${ article.id }` } />
       <meta property="og:site_name" content={ DEFAULT_CONFIG.siteTitle } />
 
       <meta property="og:type" content="article" />

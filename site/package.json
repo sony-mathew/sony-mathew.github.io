@@ -6,7 +6,9 @@
     "dev": "next dev",
     "export": "next build && next export && touch ./out/.nojekyll",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "generate:daily-news": "node ./scripts/generate-daily-news.mjs",
+    "test": "node --test ./test/*.test.mjs"
   },
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^4.0.3",
