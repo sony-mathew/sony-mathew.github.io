@@ -28,6 +28,33 @@ $ ./deploy.sh
 
 *PS: God save y'all who push directly to `master`.*
 
+### How to generate a Daily News edition?
+* The Daily News generator lives in `site/scripts/generate-daily-news.mjs`.
+* Install dependencies in the site app first:
+```
+$ cd site
+$ npm ci
+```
+* Generate an edition for today in `Asia/Kolkata`:
+```
+$ npm run generate:daily-news
+```
+* Generate a specific edition date:
+```
+$ npm run generate:daily-news -- --date 2026-04-19
+```
+* Preview the generated markdown without writing files:
+```
+$ npm run generate:daily-news -- --date 2026-04-19 --dry-run
+```
+* Regenerate an existing edition:
+```
+$ npm run generate:daily-news -- --date 2026-04-19 --overwrite
+```
+* Generated markdown files are written to `site/daily-news/YYYY-MM-DD.md`.
+* Downloaded thumbnails, when available from the source feed/page, are written to `site/public/images/daily-news/YYYY-MM-DD/`.
+* The scheduled GitHub Actions workflow in `.github/workflows/daily-news.yml` runs daily at `02:00 UTC` and opens or updates a PR against `master` with the generated edition.
+
 ### How does this work?
 The deploy script will automatically checkout the `deploy` branch (This is set as branch to be served for GitHub Pages in the repo settings). It will then merge the `master` branch into `deploy` and build and export the static website to the root of the repo. After that it will  stage all the changes, commit automatically, push the commit to the remote and checkout `master` branch.
 

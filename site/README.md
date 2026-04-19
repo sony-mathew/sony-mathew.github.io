@@ -17,3 +17,31 @@ Visit [https://sony-mathew.github.io/](https://sony-mathew.github.io/) to view t
 ```
 $ ./deploy.sh
 ```
+
+### How to run the Daily News generator?
+* The generator entrypoint is `site/scripts/generate-daily-news.mjs`.
+* Install dependencies before running it:
+```bash
+cd site
+npm ci
+```
+* Generate the current day's edition using the default `Asia/Kolkata` timezone:
+```bash
+npm run generate:daily-news
+```
+* Generate a specific date:
+```bash
+npm run generate:daily-news -- --date 2026-04-19
+```
+* Run without writing any files and print the generated markdown in the JSON output:
+```bash
+npm run generate:daily-news -- --date 2026-04-19 --dry-run
+```
+* Replace an existing edition file for a date:
+```bash
+npm run generate:daily-news -- --date 2026-04-19 --overwrite
+```
+* Output locations:
+  * Markdown edition: `site/daily-news/YYYY-MM-DD.md`
+  * Downloaded thumbnails: `site/public/images/daily-news/YYYY-MM-DD/`
+* The scheduled automation is defined in `.github/workflows/daily-news.yml`. It generates the day's edition, runs a smoke-test build, and creates or updates a PR automatically.

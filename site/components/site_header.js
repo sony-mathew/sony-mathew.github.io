@@ -16,6 +16,12 @@ function DesktopLayout() {
         </div>
         <div className="flex flex-row space-x-2">
           <Link
+            href="/daily-news"
+            className="nav-item relative inline-flex items-center text-lg px-3 py-1.5 rounded-md text-gray-500 dark:text-gray-400 transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-100 hover:bg-gray-100 dark:hover:bg-gray-800/50 border-b-2 border-transparent hover:border-sky-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-sky-300/50"
+          >
+            Daily News
+          </Link>
+          <Link
             href="/blog"
             className="nav-item relative inline-flex items-center text-lg px-3 py-1.5 rounded-md text-gray-500 dark:text-gray-400 transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-100 hover:bg-gray-100 dark:hover:bg-gray-800/50 border-b-2 border-transparent hover:border-sky-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-sky-300/50"
           >
@@ -74,6 +80,9 @@ function MobileNavMenuSidebar({ navMenuOpened, setNavMenuOpened }) {
         </Link>
         <Link href="/blog" className="text-lg text-gray-400 hover:no-underline px-2">
           Blog
+        </Link>
+        <Link href="/daily-news" className="text-lg text-gray-400 hover:no-underline px-2">
+          Daily News
         </Link>
         <Link href="/projects" className="text-lg text-gray-400 hover:no-underline px-2">
           Projects

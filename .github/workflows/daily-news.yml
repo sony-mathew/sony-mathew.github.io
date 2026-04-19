@@ -1,0 +1,60 @@
+name: Daily News
+
+on:
+  schedule:
+    - cron: "0 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  generate-daily-news:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: site/package-lock.json
+
+      - name: Install dependencies
+        working-directory: ./site
+        run: npm ci
+
+      - name: Resolve edition date
+        id: edition-date
+        run: echo "edition_date=$(TZ=Asia/Kolkata date +%F)" >> "$GITHUB_OUTPUT"
+
+      - name: Generate daily news edition
+        working-directory: ./site
+        run: timeout 600s node ./scripts/generate-daily-news.mjs --date "${{ steps.edition-date.outputs.edition_date }}"
+
+      - name: Smoke test build
+        working-directory: ./site
+        run: npm run build
+
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@v8
+        with:
+          base: master
+          branch: automation/daily-news
+          delete-branch: false
+          commit-message: "Add daily news for ${{ steps.edition-date.outputs.edition_date }}"
+          title: "Add daily news for ${{ steps.edition-date.outputs.edition_date }}"
+          body: |
+            Automated Daily News edition for ${{ steps.edition-date.outputs.edition_date }}.
+
+            This PR was created by the scheduled Daily News workflow.
+          labels: |
+            automation
+            daily-news
