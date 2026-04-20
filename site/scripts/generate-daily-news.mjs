@@ -18,7 +18,7 @@ import {
 
 const ROOT_DIR = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const DAILY_NEWS_DIR = path.join(ROOT_DIR, "daily-news");
-const IMAGES_DIR = path.join(ROOT_DIR, "public", "images", "daily-news");
+const DAILY_NEWS_PAYLOAD_DIR = path.join(ROOT_DIR, "daily-news-data");
 
 function parseArgs(argv) {
   const args = {
@@ -243,6 +243,143 @@ function extractPublishedAtFromHtml(html, storyUrl = null) {
   }
 
   return extractPublishedAtFromUrl(storyUrl);
+}
+
+function extractMetaContent(html, keys = []) {
+  for (const key of keys) {
+    const escapedKey = key.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    const patterns = [
+      new RegExp(
+        `<meta[^>]+(?:property|name|itemprop)=["']${escapedKey}["'][^>]+content=["']([^"']+)["']`,
+        "i"
+      ),
+      new RegExp(
+        `<meta[^>]+content=["']([^"']+)["'][^>]+(?:property|name|itemprop)=["']${escapedKey}["']`,
+        "i"
+      ),
+    ];
+
+    for (const pattern of patterns) {
+      const match = html.match(pattern);
+      if (match?.[1]) {
+        return match[1];
+      }
+    }
+  }
+
+  return null;
+}
+
+function isGoogleNewsUrl(value = "") {
+  try {
+    const hostname = new URL(value).hostname.toLowerCase();
+    return hostname === "news.google.com" || hostname.endsWith(".news.google.com");
+  } catch (error) {
+    return false;
+  }
+}
+
+function isGoogleHostedImageUrl(value = "") {
+  try {
+    const hostname = new URL(value).hostname.toLowerCase();
+    return (
+      hostname === "news.google.com" ||
+      hostname.endsWith(".news.google.com") ||
+      hostname === "lh3.googleusercontent.com" ||
+      hostname.endsWith(".googleusercontent.com") ||
+      hostname.endsWith(".gstatic.com")
+    );
+  } catch (error) {
+    return false;
+  }
+}
+
+function sanitizeThumbnailUrl(value) {
+  if (!value || isGoogleHostedImageUrl(value)) {
+    return null;
+  }
+
+  return value;
+}
+
+function cleanSummaryText(value = "", title = "") {
+  const normalizedSummary = normalizeWhitespace(stripHtml(value))
+    .replace(/^Reuters\s*[-:]\s*/i, "")
+    .trim();
+
+  if (!normalizedSummary) {
+    return null;
+  }
+
+  if (title && normalizedSummary.toLowerCase() === normalizeWhitespace(title).toLowerCase()) {
+    return null;
+  }
+
+  if (
+    /google news/i.test(normalizedSummary) &&
+    /aggregated from sources all over the world/i.test(normalizedSummary)
+  ) {
+    return null;
+  }
+
+  return normalizedSummary;
+}
+
+function extractFirstMeaningfulParagraph(html, storyTitle = "") {
+  const paragraphMatches = [...html.matchAll(/<p\b[^>]*>([\s\S]*?)<\/p>/gi)];
+
+  for (const match of paragraphMatches) {
+    const text = normalizeWhitespace(stripHtml(match[1] || ""));
+
+    if (!text) {
+      continue;
+    }
+
+    if (storyTitle && text.toLowerCase() === normalizeWhitespace(storyTitle).toLowerCase()) {
+      continue;
+    }
+
+    if (/@[a-z0-9.-]+\.[a-z]{2,}/i.test(text)) {
+      continue;
+    }
+
+    if (/^\(?image credit[:)]?/i.test(text)) {
+      continue;
+    }
+
+    if (text.length < 40) {
+      continue;
+    }
+
+    return text;
+  }
+
+  return null;
+}
+
+function extractArticlePreviewFromHtml(html, storyUrl = null, storyTitle = "", options = {}) {
+  if (!html) {
+    return {
+      summary: null,
+      thumbnailUrl: null,
+    };
+  }
+
+  const thumbnailSource =
+    extractMetaContent(html, ["og:image", "twitter:image", "twitter:image:src"]) ||
+    html.match(/<img[^>]+src="([^"]+)"/i)?.[1] ||
+    null;
+
+  const summarySource =
+    extractMetaContent(html, ["og:description", "twitter:description", "description"]) ||
+    html.match(/"(?:description|summary)"\s*:\s*"([^"]+)"/i)?.[1] ||
+    (options.preferParagraphSummary ? extractFirstMeaningfulParagraph(html, storyTitle) : null) ||
+    null;
+
+  return {
+    summary: cleanSummaryText(summarySource, storyTitle),
+    thumbnailUrl: sanitizeThumbnailUrl(absoluteUrl(storyUrl, thumbnailSource)),
+  };
 }
 
 function escapeYamlString(value = "") {
@@ -508,9 +645,90 @@ function parseRssItems(xmlText, sourceConfig) {
       source: sourceConfig.label,
       region: sourceConfig.region,
       publishedAt,
-      thumbnailUrl: absoluteUrl(sourceConfig.url, mediaUrl),
+      summary: null,
+      thumbnailUrl: sanitizeThumbnailUrl(absoluteUrl(sourceConfig.url, mediaUrl)),
     };
   });
+}
+
+function extractNprThumbnailFromHtml(html = "") {
+  const imageMatches = [...html.matchAll(/<img[^>]+src=['"]([^'"]+)['"]/gi)];
+
+  for (const match of imageMatches) {
+    const candidate = match[1];
+
+    if (/tracking\/npr-rss-pixel\.png/i.test(candidate) || /media\.npr\.org\/include\/images\/tracking/i.test(candidate)) {
+      continue;
+    }
+
+    return candidate;
+  }
+
+  return null;
+}
+
+export function parseNprRssItems(
+  xmlText,
+  sourceConfig = NEWS_SOURCES.find((source) => source.id === "npr")
+) {
+  const itemMatches = [...xmlText.matchAll(/<item\b[\s\S]*?<\/item>/g)];
+
+  return itemMatches
+    .map((match) => {
+      const item = match[0];
+      const title = stripHtml(item.match(/<title>([\s\S]*?)<\/title>/i)?.[1] || "");
+      const url = stripHtml(item.match(/<link>([\s\S]*?)<\/link>/i)?.[1] || "");
+      const publishedAt = stripHtml(item.match(/<pubDate>([\s\S]*?)<\/pubDate>/i)?.[1] || "");
+      const description = item.match(/<description>([\s\S]*?)<\/description>/i)?.[1] || "";
+      const contentEncoded = item.match(/<content:encoded>([\s\S]*?)<\/content:encoded>/i)?.[1] || "";
+      const thumbnailSource =
+        extractNprThumbnailFromHtml(contentEncoded) ||
+        extractNprThumbnailFromHtml(description) ||
+        item.match(/<media:content[^>]+url="([^"]+)"/i)?.[1] ||
+        null;
+
+      return {
+        title,
+        url,
+        source: sourceConfig.label,
+        region: sourceConfig.region,
+        publishedAt,
+        summary: cleanSummaryText(description, title),
+        thumbnailUrl: sanitizeThumbnailUrl(absoluteUrl(sourceConfig.url, thumbnailSource)),
+      };
+    })
+    .filter((item) => item.title && item.url);
+}
+
+export function parseNewYorkTimesRssItems(
+  xmlText,
+  sourceConfig = NEWS_SOURCES.find((source) => source.id === "new-york-times")
+) {
+  const itemMatches = [...xmlText.matchAll(/<item\b[\s\S]*?<\/item>/g)];
+
+  return itemMatches
+    .map((match) => {
+      const item = match[0];
+      const title = stripHtml(item.match(/<title>([\s\S]*?)<\/title>/i)?.[1] || "");
+      const url = stripHtml(item.match(/<link>([\s\S]*?)<\/link>/i)?.[1] || "");
+      const publishedAt = stripHtml(item.match(/<pubDate>([\s\S]*?)<\/pubDate>/i)?.[1] || "");
+      const description = item.match(/<description>([\s\S]*?)<\/description>/i)?.[1] || "";
+      const thumbnailSource =
+        item.match(/<media:content[^>]+url="([^"]+)"/i)?.[1] ||
+        item.match(/<enclosure[^>]+url="([^"]+)"/i)?.[1] ||
+        null;
+
+      return {
+        title,
+        url,
+        source: sourceConfig.label,
+        region: sourceConfig.region,
+        publishedAt,
+        summary: cleanSummaryText(description, title),
+        thumbnailUrl: sanitizeThumbnailUrl(absoluteUrl(sourceConfig.baseUrl || sourceConfig.url, thumbnailSource)),
+      };
+    })
+    .filter((item) => item.title && item.url);
 }
 
 export function parseGoogleNewsReutersItems(
@@ -582,6 +800,7 @@ function parseHtmlCards(html, sourceConfig, storyMatcher) {
       source: sourceConfig.label,
       region: sourceConfig.region,
       publishedAt: null,
+      summary: null,
       thumbnailUrl: absoluteUrl(sourceConfig.baseUrl || sourceConfig.url, imageSource),
     };
 
@@ -605,6 +824,7 @@ function parseHtmlCards(html, sourceConfig, storyMatcher) {
       source: sourceConfig.label,
       region: sourceConfig.region,
       publishedAt: extractPublishedAtFromUrl(absoluteUrl(sourceConfig.baseUrl || sourceConfig.url, match[1])),
+      summary: null,
       thumbnailUrl: null,
     }))
     .filter(storyMatcher);
@@ -640,6 +860,81 @@ async function hydrateMissingPublishedAt(stories) {
   );
 
   return hydratedStories;
+}
+
+async function hydrateArticleMetadata(stories, options = {}) {
+  const { preferParagraphSummary = false } = options;
+
+  if (!stories.some((story) => (!story.publishedAt || !story.summary || !story.thumbnailUrl) && story.url)) {
+    return stories;
+  }
+
+  return Promise.all(
+    stories.map(async (story) => {
+      if (story.publishedAt && story.summary && story.thumbnailUrl) {
+        return story;
+      }
+
+      if (!story.url) {
+        return story;
+      }
+
+      try {
+        const articleHtml = await fetchText(story.url);
+        const preview = extractArticlePreviewFromHtml(articleHtml, story.url, story.title, {
+          preferParagraphSummary,
+        });
+        const publishedAt = story.publishedAt || extractPublishedAtFromHtml(articleHtml, story.url);
+
+        return {
+          ...story,
+          publishedAt,
+          summary: story.summary || preview.summary,
+          thumbnailUrl: story.thumbnailUrl || preview.thumbnailUrl,
+        };
+      } catch (error) {
+        return story;
+      }
+    })
+  );
+}
+
+async function hydrateReutersMetadata(stories) {
+  return Promise.all(
+    stories.map(async (story) => {
+      if (!story.url) {
+        return story;
+      }
+
+      if (isGoogleNewsUrl(story.url)) {
+        return {
+          ...story,
+          summary: null,
+          thumbnailUrl: sanitizeThumbnailUrl(story.thumbnailUrl),
+        };
+      }
+
+      const needsSummary = !story.summary;
+      const needsThumbnail = !story.thumbnailUrl;
+
+      if (!needsSummary && !needsThumbnail) {
+        return story;
+      }
+
+      try {
+        const articleHtml = await fetchText(story.url);
+        const preview = extractArticlePreviewFromHtml(articleHtml, story.url, story.title);
+
+        return {
+          ...story,
+          summary: story.summary || preview.summary,
+          thumbnailUrl: story.thumbnailUrl || preview.thumbnailUrl,
+        };
+      } catch (error) {
+        return story;
+      }
+    })
+  );
 }
 
 export function parseAlJazeeraHtml(html, sourceConfig = NEWS_SOURCES.find((source) => source.id === "al-jazeera")) {
@@ -914,8 +1209,18 @@ async function collectNewsSource(sourceConfig) {
     const items =
       sourceConfig.id === "reuters"
         ? parseGoogleNewsReutersItems(xml, sourceConfig)
+        : sourceConfig.id === "npr"
+          ? parseNprRssItems(xml, sourceConfig)
+        : sourceConfig.id === "new-york-times"
+          ? parseNewYorkTimesRssItems(xml, sourceConfig)
         : parseRssItems(xml, sourceConfig).filter((item) => item.title && item.url);
-    return dedupeByUrl(items).slice(0, 5);
+    const dedupedItems = dedupeByUrl(items).slice(0, 5);
+
+    if (sourceConfig.id === "reuters") {
+      return hydrateReutersMetadata(dedupedItems);
+    }
+
+    return dedupedItems;
   }
 
   if (sourceConfig.kind !== "html") {
@@ -929,11 +1234,12 @@ async function collectNewsSource(sourceConfig) {
   }
 
   if (sourceConfig.id === "china-daily") {
-    return hydrateMissingPublishedAt(dedupeByUrl(parseChinaDailyHtml(html, sourceConfig)).slice(0, 5));
+    const stories = await hydrateMissingPublishedAt(dedupeByUrl(parseChinaDailyHtml(html, sourceConfig)).slice(0, 5));
+    return hydrateArticleMetadata(stories, { preferParagraphSummary: true });
   }
 
   if (sourceConfig.id === "the-hindu") {
-    return hydrateMissingPublishedAt(dedupeByUrl(parseTheHinduHtml(html, sourceConfig)).slice(0, 5));
+    return hydrateArticleMetadata(dedupeByUrl(parseTheHinduHtml(html, sourceConfig)).slice(0, 5));
   }
 
   throw new Error(`Unsupported HTML source id: ${sourceConfig.id}`);
@@ -960,7 +1266,7 @@ async function collectGlobalHeadlines() {
   }
 
   return {
-    items: stories.slice(0, 25),
+    items: stories.slice(0, NEWS_SOURCES.length * 5),
     failures,
     successfulSources,
   };
@@ -1045,44 +1351,6 @@ async function ensureDir(directory) {
   await fs.mkdir(directory, { recursive: true });
 }
 
-async function downloadThumbnail(item, editionDate, index, section) {
-  if (!item.thumbnailUrl) {
-    return null;
-  }
-
-  try {
-    const response = await fetchWithTimeout(item.thumbnailUrl, { accept: "image/*" });
-    const arrayBuffer = await response.arrayBuffer();
-    const extension = getFileExtension(item.thumbnailUrl) || ".jpg";
-    const fileName = `${section}-${String(index + 1).padStart(2, "0")}-${createSlug(
-      item.title || item.name || "thumbnail"
-    )}${extension}`;
-    const editionDirectory = path.join(IMAGES_DIR, editionDate);
-
-    await ensureDir(editionDirectory);
-    await fs.writeFile(path.join(editionDirectory, fileName), Buffer.from(arrayBuffer));
-
-    return `/images/daily-news/${editionDate}/${fileName}`;
-  } catch (error) {
-    return null;
-  }
-}
-
-async function attachLocalThumbnails(items, editionDate, section) {
-  const updatedItems = [];
-
-  for (let index = 0; index < items.length; index += 1) {
-    const item = items[index];
-    const localThumbnail = await downloadThumbnail(item, editionDate, index, section);
-    updatedItems.push({
-      ...item,
-      localThumbnail,
-    });
-  }
-
-  return updatedItems;
-}
-
 function renderHeadlineSection(items, generatedAt) {
   const cards = items
     .map((item) => {
@@ -1095,9 +1363,9 @@ function renderHeadlineSection(items, generatedAt) {
       return `<article class="group overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm ring-1 ring-slate-100 transition duration-200 hover:-translate-y-0.5 hover:shadow-md">
         <div class="flex flex-col gap-4 p-4 md:flex-row md:items-start md:gap-5 md:p-5">
           ${
-            item.localThumbnail
+            item.thumbnailUrl
               ? `<a href="${escapeAttribute(item.url)}" ${getExternalLinkAttributes()} class="block overflow-hidden rounded-2xl border border-slate-100 md:w-64 md:shrink-0">
-                  <img src="${escapeAttribute(item.localThumbnail)}" alt="${escapeAttribute(
+                  <img src="${escapeAttribute(item.thumbnailUrl)}" alt="${escapeAttribute(
                     item.title
                   )}" class="h-44 w-full object-cover transition duration-300 group-hover:scale-[1.02] md:h-40" />
                 </a>`
@@ -1228,9 +1496,9 @@ function renderProductHuntSection(items, generatedAt) {
       return `<article class="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm ring-1 ring-slate-100 transition duration-200 hover:shadow-md">
         <div class="flex flex-col gap-3 p-4 md:flex-row md:items-start">
           ${
-            item.localThumbnail
+            item.thumbnailUrl
               ? `<a href="${escapeAttribute(item.url)}" ${getExternalLinkAttributes()} class="block overflow-hidden rounded-2xl border border-slate-100 md:w-32 md:shrink-0">
-                  <img src="${escapeAttribute(item.localThumbnail)}" alt="${escapeAttribute(
+                  <img src="${escapeAttribute(item.thumbnailUrl)}" alt="${escapeAttribute(
                     item.name
                   )}" class="h-28 w-full object-cover md:h-24" />
                 </a>`
@@ -1307,12 +1575,35 @@ function renderSourceNotes({ generatedAt, warnings, marketItems, successfulSourc
       </div>
     </section>`,
     marketSessionLabel,
+    payload: {
+      generatedAt,
+      timeZone: DEFAULT_TIME_ZONE,
+      successfulSources,
+      marketSessionLabel,
+      warnings,
+    },
   };
 }
 
 function estimateReadingTime(markdown) {
   const wordCount = stripHtml(markdown).split(/\s+/).filter(Boolean).length;
   return Math.max(1, Math.ceil(wordCount / 220));
+}
+
+function estimateReadingTimeFromPayload(payload) {
+  const textParts = [
+    ...(payload.headlines || []).flatMap((item) => [item.title, item.source, item.region]),
+    ...(payload.markets || []).flatMap((item) => [item.label, item.region, item.sessionDate]),
+    ...(payload.hackerNews || []).flatMap((item) => [item.title, item.url]),
+    ...(payload.productHunt || []).flatMap((item) => [item.name, item.tagline]),
+    ...(payload.sourceNotes?.warnings || []),
+    ...(payload.sourceNotes?.successfulSources || []),
+    payload.sourceNotes?.marketSessionLabel,
+  ]
+    .filter(Boolean)
+    .join(" ");
+
+  return estimateReadingTime(textParts);
 }
 
 function buildFrontmatter({
@@ -1322,6 +1613,7 @@ function buildFrontmatter({
   readingTime,
   newsSources,
   marketSessionLabel,
+  payloadFile,
 }) {
   const fields = [
     "---",
@@ -1336,6 +1628,7 @@ function buildFrontmatter({
     "toc: false",
     `newsSources: [${newsSources.map((source) => escapeYamlString(source)).join(", ")}]`,
     `marketSessionLabel: ${escapeYamlString(marketSessionLabel)}`,
+    `payloadFile: ${escapeYamlString(payloadFile)}`,
     "---",
     "",
   ];
@@ -1396,12 +1689,8 @@ export async function generateEdition({ editionDate, dryRun = false, overwrite =
     throw new Error("All sections failed; refusing to generate an empty edition");
   }
 
-  const enrichedHeadlines = dryRun
-    ? globalHeadlines.items
-    : await attachLocalThumbnails(globalHeadlines.items, editionDate, "headline");
-  const enrichedProductHunt = dryRun
-    ? productHuntItems
-    : await attachLocalThumbnails(productHuntItems, editionDate, "product");
+  const enrichedHeadlines = globalHeadlines.items;
+  const enrichedProductHunt = productHuntItems;
 
   const generatedAt = new Date().toISOString();
   const sourceNotes = renderSourceNotes({
@@ -1410,19 +1699,21 @@ export async function generateEdition({ editionDate, dryRun = false, overwrite =
     marketItems: markets.items,
     successfulSources: globalHeadlines.successfulSources,
   });
-
-  const body = normalizeHtmlBlock(`<div class="daily-news-body space-y-10">
-    ${renderHeadlineSection(enrichedHeadlines, generatedAt)}
-    ${renderMarketSection(markets.items)}
-    ${renderHackerNewsSection(hackerNews.items, generatedAt)}
-    ${renderProductHuntSection(enrichedProductHunt, generatedAt)}
-    ${sourceNotes.markdown}
-  </div>`);
+  const payloadFile = `${editionDate}.json`;
+  const payloadPath = path.join(DAILY_NEWS_PAYLOAD_DIR, payloadFile);
+  const payload = {
+    headlines: enrichedHeadlines,
+    markets: markets.items,
+    hackerNews: hackerNews.items,
+    productHunt: enrichedProductHunt,
+    sourceNotes: sourceNotes.payload,
+  };
+  const body = '<div data-daily-news-payload="true"></div>';
 
   const humanDate = formatHumanDate(editionDate);
   const title = `Daily Brief for ${humanDate}: Global Headlines, Markets, Hacker News, Product Hunt`;
   const description = `A daily brief for ${humanDate} covering global headlines, market closes, Hacker News, and Product Hunt.`;
-  const readingTime = estimateReadingTime(body);
+  const readingTime = estimateReadingTimeFromPayload(payload);
   const document = `${buildFrontmatter({
     title,
     description,
@@ -1430,11 +1721,14 @@ export async function generateEdition({ editionDate, dryRun = false, overwrite =
     readingTime,
     newsSources: globalHeadlines.successfulSources,
     marketSessionLabel: sourceNotes.marketSessionLabel,
+    payloadFile,
   })}${body}`;
 
   if (!dryRun) {
     await ensureDir(DAILY_NEWS_DIR);
+    await ensureDir(DAILY_NEWS_PAYLOAD_DIR);
     await fs.writeFile(targetPath, document, "utf8");
+    await fs.writeFile(payloadPath, JSON.stringify(payload, null, 2), "utf8");
   }
 
   return {
@@ -1454,6 +1748,9 @@ export async function generateEdition({ editionDate, dryRun = false, overwrite =
       hackerNews: hackerNews.items.length,
       productHunt: enrichedProductHunt.length,
     },
+    payload,
+    payloadFile,
+    payloadPath,
     document,
   };
 }

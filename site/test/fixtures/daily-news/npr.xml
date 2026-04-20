@@ -4,13 +4,22 @@
       <title><![CDATA[NPR headline one]]></title>
       <link>https://www.npr.org/2026/04/19/npr-one</link>
       <pubDate>Sun, 19 Apr 2026 04:30:00 GMT</pubDate>
-      <description><![CDATA[<img src="https://npr.brightspotcdn.com/headline-one.jpg" />Lead story]]></description>
+      <description><![CDATA[Lead story from the description field.]]></description>
+      <content:encoded><![CDATA[
+        <img src="https://npr.brightspotcdn.com/headline-one.jpg" />
+        <p>Lead story from the encoded field.</p>
+        <img src="https://media.npr.org/include/images/tracking/npr-rss-pixel.png?story=npr-one" />
+      ]]></content:encoded>
     </item>
     <item>
       <title><![CDATA[NPR headline two]]></title>
       <link>https://www.npr.org/2026/04/19/npr-two</link>
       <pubDate>Sun, 19 Apr 2026 03:15:00 GMT</pubDate>
-      <description><![CDATA[Lead story two]]></description>
+      <description><![CDATA[Lead story two without an image.]]></description>
+      <content:encoded><![CDATA[
+        <p>Lead story two body.</p>
+        <img src="https://media.npr.org/include/images/tracking/npr-rss-pixel.png?story=npr-two" />
+      ]]></content:encoded>
     </item>
   </channel>
 </rss>
