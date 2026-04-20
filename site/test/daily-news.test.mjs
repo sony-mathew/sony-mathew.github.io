@@ -6,6 +6,7 @@ import {
   generateEdition,
   parseAlJazeeraHtml,
   parseChinaDailyHtml,
+  parseNprRssItems,
   parseProductHuntHtml,
   parseProductHuntFeed,
   parseGoogleNewsReutersItems,
@@ -41,6 +42,18 @@ test("parses Reuters Google News feed items and prefers direct Reuters links whe
   assert.equal(items[1].title, "Exclusive direct Reuters headline");
   assert.equal(items[1].url, "https://www.reuters.com/world/europe/exclusive-direct-headline-2026-04-19/");
   assert.equal(items[0].publishedAt, "Sun, 19 Apr 2026 01:08:00 GMT");
+});
+
+test("parses NPR RSS items with summaries and non-tracking thumbnails", async () => {
+  const xml = await loadFixture("npr.xml");
+  const items = parseNprRssItems(xml);
+
+  assert.equal(items.length, 2);
+  assert.equal(items[0].title, "NPR headline one");
+  assert.equal(items[0].summary, "Lead story from the description field.");
+  assert.equal(items[0].thumbnailUrl, "https://npr.brightspotcdn.com/headline-one.jpg");
+  assert.equal(items[1].summary, "Lead story two without an image.");
+  assert.equal(items[1].thumbnailUrl, null);
 });
 
 test("parses China Daily article cards", async () => {
@@ -116,6 +129,14 @@ test("dry run emits markdown frontmatter and source notes", async () => {
     const urlString = String(url);
     requestedUrls.push(urlString);
 
+    if (urlString.startsWith("https://www.chinadaily.com.cn/a/")) {
+      const payload = await loadFixture("china-daily-article.html");
+      return new Response(payload, {
+        status: 200,
+        headers: { "content-type": "text/html" },
+      });
+    }
+
     if (urlString.startsWith("https://news.google.com/rss/articles/")) {
       const payload = await loadFixture("google-news-article.html");
       return new Response(payload, {
@@ -186,6 +207,17 @@ test("dry run emits markdown frontmatter and source notes", async () => {
     assert.equal(result.payload.sourceNotes.timeZone, "Asia/Kolkata");
     const reutersHeadlines = result.payload.headlines.filter((item) => item.source === "Reuters");
     assert.ok(reutersHeadlines.length >= 2);
+    const nprHeadline = result.payload.headlines.find((item) => item.source === "NPR");
+    assert.ok(nprHeadline);
+    assert.equal(nprHeadline.summary, "Lead story from the description field.");
+    assert.equal(nprHeadline.thumbnailUrl, "https://npr.brightspotcdn.com/headline-one.jpg");
+    const chinaDailyHeadline = result.payload.headlines.find((item) => item.source === "China Daily");
+    assert.ok(chinaDailyHeadline);
+    assert.equal(
+      chinaDailyHeadline.summary,
+      "China Daily article summary paragraph pulled from the article body when metadata descriptions are empty."
+    );
+    assert.equal(chinaDailyHeadline.thumbnailUrl, "https://www.chinadaily.com.cn/images/world-story-one.jpg");
     const unresolvedReutersHeadline = reutersHeadlines.find((item) => item.url.startsWith("https://news.google.com/"));
     const directReutersHeadline = reutersHeadlines.find((item) => item.url.startsWith("https://www.reuters.com/"));
     assert.ok(unresolvedReutersHeadline);
@@ -214,11 +246,11 @@ test("tailwind config scans generated daily news html sources", async () => {
   assert.match(tailwindConfig, /\.\/daily-news\/\*\*\/\*\.md/);
 });
 
-test("renderer prefers remote Al Jazeera thumbnails over stored local files", async () => {
+test("renderer uses only remote thumbnail URLs for daily news cards", async () => {
   const rendererSource = await fs.readFile(path.join(process.cwd(), "components", "daily_news_renderer.js"), "utf8");
 
-  assert.match(rendererSource, /item\.source === "Al Jazeera"/);
-  assert.match(rendererSource, /return item\.thumbnailUrl \|\| item\.localThumbnail \|\| null;/);
+  assert.match(rendererSource, /return item\.thumbnailUrl \|\| null;/);
+  assert.doesNotMatch(rendererSource, /localThumbnail/);
 });
 
 test("generated daily news markdown loads structured payload through the collection helper", async () => {
@@ -242,6 +274,14 @@ test("generated daily news markdown loads structured payload through the collect
 
   global.fetch = async (url) => {
     const urlString = String(url);
+
+    if (urlString.startsWith("https://www.chinadaily.com.cn/a/")) {
+      const payload = await loadFixture("china-daily-article.html");
+      return new Response(payload, {
+        status: 200,
+        headers: { "content-type": "text/html" },
+      });
+    }
 
     if (urlString.startsWith("https://www.aljazeera.com/wp-content/uploads/")) {
       return new Response(new Uint8Array([1, 2, 3, 4]), {
@@ -324,7 +364,16 @@ test("generated daily news markdown loads structured payload through the collect
     const alJazeeraHeadline = data.dailyNewsPayload.headlines.find((item) => item.source === "Al Jazeera");
     assert.ok(alJazeeraHeadline);
     assert.match(alJazeeraHeadline.thumbnailUrl, /^https:\/\/www\.aljazeera\.com\/wp-content\/uploads\//);
-    assert.equal(alJazeeraHeadline.localThumbnail, null);
+    assert.equal("localThumbnail" in alJazeeraHeadline, false);
+    const nprHeadline = data.dailyNewsPayload.headlines.find((item) => item.source === "NPR");
+    assert.equal(nprHeadline?.summary, "Lead story from the description field.");
+    assert.equal(nprHeadline?.thumbnailUrl, "https://npr.brightspotcdn.com/headline-one.jpg");
+    const chinaDailyHeadline = data.dailyNewsPayload.headlines.find((item) => item.source === "China Daily");
+    assert.equal(
+      chinaDailyHeadline?.summary,
+      "China Daily article summary paragraph pulled from the article body when metadata descriptions are empty."
+    );
+    assert.equal(chinaDailyHeadline?.thumbnailUrl, "https://www.chinadaily.com.cn/images/world-story-one.jpg");
     assert.deepEqual(data.dailyNewsPayload, payloadFromDisk);
   } finally {
     global.fetch = originalFetch;
@@ -400,6 +449,30 @@ test("continues generating when Product Hunt is unavailable", async () => {
 
   global.fetch = async (url) => {
     const urlString = String(url);
+
+    if (urlString.startsWith("https://www.chinadaily.com.cn/a/")) {
+      const payload = await loadFixture("china-daily-article.html");
+      return new Response(payload, {
+        status: 200,
+        headers: { "content-type": "text/html" },
+      });
+    }
+
+    if (urlString.startsWith("https://news.google.com/rss/articles/")) {
+      const payload = await loadFixture("google-news-article.html");
+      return new Response(payload, {
+        status: 200,
+        headers: { "content-type": "text/html" },
+      });
+    }
+
+    if (urlString.startsWith("https://www.reuters.com/")) {
+      const payload = await loadFixture("reuters.html");
+      return new Response(payload, {
+        status: 200,
+        headers: { "content-type": "text/html" },
+      });
+    }
 
     if (urlString === "https://www.producthunt.com/") {
       return new Response("upstream error", { status: 503 });

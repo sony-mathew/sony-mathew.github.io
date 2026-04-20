@@ -171,11 +171,7 @@ function resolveThumbnailSrc(item) {
     return null;
   }
 
-  if (item.source === "Al Jazeera") {
-    return item.thumbnailUrl || item.localThumbnail || null;
-  }
-
-  return item.localThumbnail || item.thumbnailUrl || null;
+  return item.thumbnailUrl || null;
 }
 
 function ListRowCard({

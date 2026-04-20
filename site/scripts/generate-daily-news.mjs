@@ -19,7 +19,6 @@ import {
 const ROOT_DIR = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const DAILY_NEWS_DIR = path.join(ROOT_DIR, "daily-news");
 const DAILY_NEWS_PAYLOAD_DIR = path.join(ROOT_DIR, "daily-news-data");
-const IMAGES_DIR = path.join(ROOT_DIR, "public", "images", "daily-news");
 
 function parseArgs(argv) {
   const args = {
@@ -326,7 +325,39 @@ function cleanSummaryText(value = "", title = "") {
   return normalizedSummary;
 }
 
-function extractArticlePreviewFromHtml(html, storyUrl = null, storyTitle = "") {
+function extractFirstMeaningfulParagraph(html, storyTitle = "") {
+  const paragraphMatches = [...html.matchAll(/<p\b[^>]*>([\s\S]*?)<\/p>/gi)];
+
+  for (const match of paragraphMatches) {
+    const text = normalizeWhitespace(stripHtml(match[1] || ""));
+
+    if (!text) {
+      continue;
+    }
+
+    if (storyTitle && text.toLowerCase() === normalizeWhitespace(storyTitle).toLowerCase()) {
+      continue;
+    }
+
+    if (/@[a-z0-9.-]+\.[a-z]{2,}/i.test(text)) {
+      continue;
+    }
+
+    if (/^\(?image credit[:)]?/i.test(text)) {
+      continue;
+    }
+
+    if (text.length < 40) {
+      continue;
+    }
+
+    return text;
+  }
+
+  return null;
+}
+
+function extractArticlePreviewFromHtml(html, storyUrl = null, storyTitle = "", options = {}) {
   if (!html) {
     return {
       summary: null,
@@ -342,6 +373,7 @@ function extractArticlePreviewFromHtml(html, storyUrl = null, storyTitle = "") {
   const summarySource =
     extractMetaContent(html, ["og:description", "twitter:description", "description"]) ||
     html.match(/"(?:description|summary)"\s*:\s*"([^"]+)"/i)?.[1] ||
+    (options.preferParagraphSummary ? extractFirstMeaningfulParagraph(html, storyTitle) : null) ||
     null;
 
   return {
@@ -619,6 +651,55 @@ function parseRssItems(xmlText, sourceConfig) {
   });
 }
 
+function extractNprThumbnailFromHtml(html = "") {
+  const imageMatches = [...html.matchAll(/<img[^>]+src=['"]([^'"]+)['"]/gi)];
+
+  for (const match of imageMatches) {
+    const candidate = match[1];
+
+    if (/tracking\/npr-rss-pixel\.png/i.test(candidate) || /media\.npr\.org\/include\/images\/tracking/i.test(candidate)) {
+      continue;
+    }
+
+    return candidate;
+  }
+
+  return null;
+}
+
+export function parseNprRssItems(
+  xmlText,
+  sourceConfig = NEWS_SOURCES.find((source) => source.id === "npr")
+) {
+  const itemMatches = [...xmlText.matchAll(/<item\b[\s\S]*?<\/item>/g)];
+
+  return itemMatches
+    .map((match) => {
+      const item = match[0];
+      const title = stripHtml(item.match(/<title>([\s\S]*?)<\/title>/i)?.[1] || "");
+      const url = stripHtml(item.match(/<link>([\s\S]*?)<\/link>/i)?.[1] || "");
+      const publishedAt = stripHtml(item.match(/<pubDate>([\s\S]*?)<\/pubDate>/i)?.[1] || "");
+      const description = item.match(/<description>([\s\S]*?)<\/description>/i)?.[1] || "";
+      const contentEncoded = item.match(/<content:encoded>([\s\S]*?)<\/content:encoded>/i)?.[1] || "";
+      const thumbnailSource =
+        extractNprThumbnailFromHtml(contentEncoded) ||
+        extractNprThumbnailFromHtml(description) ||
+        item.match(/<media:content[^>]+url="([^"]+)"/i)?.[1] ||
+        null;
+
+      return {
+        title,
+        url,
+        source: sourceConfig.label,
+        region: sourceConfig.region,
+        publishedAt,
+        summary: cleanSummaryText(description, title),
+        thumbnailUrl: sanitizeThumbnailUrl(absoluteUrl(sourceConfig.url, thumbnailSource)),
+      };
+    })
+    .filter((item) => item.title && item.url);
+}
+
 export function parseGoogleNewsReutersItems(
   xmlText,
   sourceConfig = NEWS_SOURCES.find((source) => source.id === "reuters")
@@ -688,6 +769,7 @@ function parseHtmlCards(html, sourceConfig, storyMatcher) {
       source: sourceConfig.label,
       region: sourceConfig.region,
       publishedAt: null,
+      summary: null,
       thumbnailUrl: absoluteUrl(sourceConfig.baseUrl || sourceConfig.url, imageSource),
     };
 
@@ -711,6 +793,7 @@ function parseHtmlCards(html, sourceConfig, storyMatcher) {
       source: sourceConfig.label,
       region: sourceConfig.region,
       publishedAt: extractPublishedAtFromUrl(absoluteUrl(sourceConfig.baseUrl || sourceConfig.url, match[1])),
+      summary: null,
       thumbnailUrl: null,
     }))
     .filter(storyMatcher);
@@ -746,6 +829,43 @@ async function hydrateMissingPublishedAt(stories) {
   );
 
   return hydratedStories;
+}
+
+async function hydrateArticleMetadata(stories, options = {}) {
+  const { preferParagraphSummary = false } = options;
+
+  if (!stories.some((story) => (!story.publishedAt || !story.summary || !story.thumbnailUrl) && story.url)) {
+    return stories;
+  }
+
+  return Promise.all(
+    stories.map(async (story) => {
+      if (story.publishedAt && story.summary && story.thumbnailUrl) {
+        return story;
+      }
+
+      if (!story.url) {
+        return story;
+      }
+
+      try {
+        const articleHtml = await fetchText(story.url);
+        const preview = extractArticlePreviewFromHtml(articleHtml, story.url, story.title, {
+          preferParagraphSummary,
+        });
+        const publishedAt = story.publishedAt || extractPublishedAtFromHtml(articleHtml, story.url);
+
+        return {
+          ...story,
+          publishedAt,
+          summary: story.summary || preview.summary,
+          thumbnailUrl: story.thumbnailUrl || preview.thumbnailUrl,
+        };
+      } catch (error) {
+        return story;
+      }
+    })
+  );
 }
 
 async function hydrateReutersMetadata(stories) {
@@ -1058,6 +1178,8 @@ async function collectNewsSource(sourceConfig) {
     const items =
       sourceConfig.id === "reuters"
         ? parseGoogleNewsReutersItems(xml, sourceConfig)
+        : sourceConfig.id === "npr"
+          ? parseNprRssItems(xml, sourceConfig)
         : parseRssItems(xml, sourceConfig).filter((item) => item.title && item.url);
     const dedupedItems = dedupeByUrl(items).slice(0, 5);
 
@@ -1079,7 +1201,8 @@ async function collectNewsSource(sourceConfig) {
   }
 
   if (sourceConfig.id === "china-daily") {
-    return hydrateMissingPublishedAt(dedupeByUrl(parseChinaDailyHtml(html, sourceConfig)).slice(0, 5));
+    const stories = await hydrateMissingPublishedAt(dedupeByUrl(parseChinaDailyHtml(html, sourceConfig)).slice(0, 5));
+    return hydrateArticleMetadata(stories, { preferParagraphSummary: true });
   }
 
   if (sourceConfig.id === "the-hindu") {
@@ -1195,58 +1318,6 @@ async function ensureDir(directory) {
   await fs.mkdir(directory, { recursive: true });
 }
 
-async function downloadThumbnail(item, editionDate, index, section) {
-  if (!item.thumbnailUrl) {
-    return null;
-  }
-
-  try {
-    const response = await fetchWithTimeout(item.thumbnailUrl, { accept: "image/*" });
-    const arrayBuffer = await response.arrayBuffer();
-    const extension = getFileExtension(item.thumbnailUrl) || ".jpg";
-    const fileName = `${section}-${String(index + 1).padStart(2, "0")}-${createSlug(
-      item.title || item.name || "thumbnail"
-    )}${extension}`;
-    const editionDirectory = path.join(IMAGES_DIR, editionDate);
-
-    await ensureDir(editionDirectory);
-    await fs.writeFile(path.join(editionDirectory, fileName), Buffer.from(arrayBuffer));
-
-    return `/images/daily-news/${editionDate}/${fileName}`;
-  } catch (error) {
-    return null;
-  }
-}
-
-function shouldPersistThumbnailLocally(item, section) {
-  if (!item?.thumbnailUrl) {
-    return false;
-  }
-
-  if (section === "headline" && item.source === "Al Jazeera") {
-    return false;
-  }
-
-  return true;
-}
-
-async function attachLocalThumbnails(items, editionDate, section) {
-  const updatedItems = [];
-
-  for (let index = 0; index < items.length; index += 1) {
-    const item = items[index];
-    const localThumbnail = shouldPersistThumbnailLocally(item, section)
-      ? await downloadThumbnail(item, editionDate, index, section)
-      : null;
-    updatedItems.push({
-      ...item,
-      localThumbnail,
-    });
-  }
-
-  return updatedItems;
-}
-
 function renderHeadlineSection(items, generatedAt) {
   const cards = items
     .map((item) => {
@@ -1259,9 +1330,9 @@ function renderHeadlineSection(items, generatedAt) {
       return `<article class="group overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm ring-1 ring-slate-100 transition duration-200 hover:-translate-y-0.5 hover:shadow-md">
         <div class="flex flex-col gap-4 p-4 md:flex-row md:items-start md:gap-5 md:p-5">
           ${
-            item.localThumbnail
+            item.thumbnailUrl
               ? `<a href="${escapeAttribute(item.url)}" ${getExternalLinkAttributes()} class="block overflow-hidden rounded-2xl border border-slate-100 md:w-64 md:shrink-0">
-                  <img src="${escapeAttribute(item.localThumbnail)}" alt="${escapeAttribute(
+                  <img src="${escapeAttribute(item.thumbnailUrl)}" alt="${escapeAttribute(
                     item.title
                   )}" class="h-44 w-full object-cover transition duration-300 group-hover:scale-[1.02] md:h-40" />
                 </a>`
@@ -1392,9 +1463,9 @@ function renderProductHuntSection(items, generatedAt) {
       return `<article class="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm ring-1 ring-slate-100 transition duration-200 hover:shadow-md">
         <div class="flex flex-col gap-3 p-4 md:flex-row md:items-start">
           ${
-            item.localThumbnail
+            item.thumbnailUrl
               ? `<a href="${escapeAttribute(item.url)}" ${getExternalLinkAttributes()} class="block overflow-hidden rounded-2xl border border-slate-100 md:w-32 md:shrink-0">
-                  <img src="${escapeAttribute(item.localThumbnail)}" alt="${escapeAttribute(
+                  <img src="${escapeAttribute(item.thumbnailUrl)}" alt="${escapeAttribute(
                     item.name
                   )}" class="h-28 w-full object-cover md:h-24" />
                 </a>`
@@ -1585,12 +1656,8 @@ export async function generateEdition({ editionDate, dryRun = false, overwrite =
     throw new Error("All sections failed; refusing to generate an empty edition");
   }
 
-  const enrichedHeadlines = dryRun
-    ? globalHeadlines.items
-    : await attachLocalThumbnails(globalHeadlines.items, editionDate, "headline");
-  const enrichedProductHunt = dryRun
-    ? productHuntItems
-    : await attachLocalThumbnails(productHuntItems, editionDate, "product");
+  const enrichedHeadlines = globalHeadlines.items;
+  const enrichedProductHunt = productHuntItems;
 
   const generatedAt = new Date().toISOString();
   const sourceNotes = renderSourceNotes({
