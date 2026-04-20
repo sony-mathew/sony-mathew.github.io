@@ -1206,7 +1206,7 @@ async function collectNewsSource(sourceConfig) {
   }
 
   if (sourceConfig.id === "the-hindu") {
-    return hydrateMissingPublishedAt(dedupeByUrl(parseTheHinduHtml(html, sourceConfig)).slice(0, 5));
+    return hydrateArticleMetadata(dedupeByUrl(parseTheHinduHtml(html, sourceConfig)).slice(0, 5));
   }
 
   throw new Error(`Unsupported HTML source id: ${sourceConfig.id}`);

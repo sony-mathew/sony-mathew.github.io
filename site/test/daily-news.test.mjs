@@ -137,6 +137,14 @@ test("dry run emits markdown frontmatter and source notes", async () => {
       });
     }
 
+    if (urlString.startsWith("https://www.thehindu.com/news/national/story-")) {
+      const payload = await loadFixture("the-hindu-article.html");
+      return new Response(payload, {
+        status: 200,
+        headers: { "content-type": "text/html" },
+      });
+    }
+
     if (urlString.startsWith("https://news.google.com/rss/articles/")) {
       const payload = await loadFixture("google-news-article.html");
       return new Response(payload, {
@@ -218,6 +226,16 @@ test("dry run emits markdown frontmatter and source notes", async () => {
       "China Daily article summary paragraph pulled from the article body when metadata descriptions are empty."
     );
     assert.equal(chinaDailyHeadline.thumbnailUrl, "https://www.chinadaily.com.cn/images/world-story-one.jpg");
+    const theHinduHeadline = result.payload.headlines.find((item) => item.source === "The Hindu");
+    assert.ok(theHinduHeadline);
+    assert.equal(
+      theHinduHeadline.summary,
+      "The Hindu article summary from article metadata that should appear under the headline in the daily news page."
+    );
+    assert.match(
+      theHinduHeadline.thumbnailUrl,
+      /^https:\/\/th-i\.thgim\.com\/public\/incoming\/(?:story-one|the-hindu-meta-image)\.jpg$/
+    );
     const unresolvedReutersHeadline = reutersHeadlines.find((item) => item.url.startsWith("https://news.google.com/"));
     const directReutersHeadline = reutersHeadlines.find((item) => item.url.startsWith("https://www.reuters.com/"));
     assert.ok(unresolvedReutersHeadline);
@@ -277,6 +295,14 @@ test("generated daily news markdown loads structured payload through the collect
 
     if (urlString.startsWith("https://www.chinadaily.com.cn/a/")) {
       const payload = await loadFixture("china-daily-article.html");
+      return new Response(payload, {
+        status: 200,
+        headers: { "content-type": "text/html" },
+      });
+    }
+
+    if (urlString.startsWith("https://www.thehindu.com/news/national/story-")) {
+      const payload = await loadFixture("the-hindu-article.html");
       return new Response(payload, {
         status: 200,
         headers: { "content-type": "text/html" },
@@ -374,6 +400,15 @@ test("generated daily news markdown loads structured payload through the collect
       "China Daily article summary paragraph pulled from the article body when metadata descriptions are empty."
     );
     assert.equal(chinaDailyHeadline?.thumbnailUrl, "https://www.chinadaily.com.cn/images/world-story-one.jpg");
+    const theHinduHeadline = data.dailyNewsPayload.headlines.find((item) => item.source === "The Hindu");
+    assert.equal(
+      theHinduHeadline?.summary,
+      "The Hindu article summary from article metadata that should appear under the headline in the daily news page."
+    );
+    assert.match(
+      theHinduHeadline?.thumbnailUrl || "",
+      /^https:\/\/th-i\.thgim\.com\/public\/incoming\/(?:story-one|the-hindu-meta-image)\.jpg$/
+    );
     assert.deepEqual(data.dailyNewsPayload, payloadFromDisk);
   } finally {
     global.fetch = originalFetch;
@@ -452,6 +487,14 @@ test("continues generating when Product Hunt is unavailable", async () => {
 
     if (urlString.startsWith("https://www.chinadaily.com.cn/a/")) {
       const payload = await loadFixture("china-daily-article.html");
+      return new Response(payload, {
+        status: 200,
+        headers: { "content-type": "text/html" },
+      });
+    }
+
+    if (urlString.startsWith("https://www.thehindu.com/news/national/story-")) {
+      const payload = await loadFixture("the-hindu-article.html");
       return new Response(payload, {
         status: 200,
         headers: { "content-type": "text/html" },

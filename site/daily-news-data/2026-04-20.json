@@ -46,6 +46,15 @@
       "thumbnailUrl": null
     },
     {
+      "title": "Iran war: What is happening on day 52 of the US-Israeli conflict?",
+      "url": "https://www.aljazeera.com/news/2026/4/20/iran-war-what-is-happening-on-day-52-of-the-us-israeli-conflict",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-04-20",
+      "summary": null,
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/04/AFP__20260419__A8BE2AG__v1__HighRes__IranUsIsraelWar-1776666792.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
       "title": "Pakistan ready for multi-day US-Iran talks, but Tehran unsure about joining",
       "url": "https://www.aljazeera.com/news/2026/4/20/pakistan-ready-for-multi-day-us-iran-talks-but-tehran-unsure-about-joining",
       "source": "Al Jazeera",
@@ -80,15 +89,6 @@
       "publishedAt": "2026-04-20",
       "summary": null,
       "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/04/2026-04-19T235055Z_816513121_RC2GSKA8INN4_RTRMADP_3_IRAN-CRISIS-TRUMP-SHIP-1776644636.jpg?resize=770%2C513&amp;quality=80"
-    },
-    {
-      "title": "Outrage after photo shows Israeli soldier smashing Jesus statue in Lebanon",
-      "url": "https://www.aljazeera.com/news/2026/4/19/outrage-after-photo-shows-israeli-soldier-smashing-jesus-statue-in-lebanon",
-      "source": "Al Jazeera",
-      "region": "Middle East",
-      "publishedAt": "2026-04-19",
-      "summary": null,
-      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/04/2026-04-16T185028Z_877059473_RC2FQKA0GOKB_RTRMADP_3_IRAN-CRISIS-ISRAEL-LEBANON-1776640901.jpg?resize=770%2C513&amp;quality=80"
     },
     {
       "title": "A humanoid robot sprints past the human half-marathon world record in Beijing race",
@@ -186,8 +186,8 @@
       "source": "The Hindu",
       "region": "India",
       "publishedAt": "2026-04-20T05:15:03.000Z",
-      "summary": null,
-      "thumbnailUrl": null
+      "summary": "Goa Police file FIR against right-wing activist Gautam Khattar for objectionable remarks about St. Francis Xavier, sparking controversy.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/vpcz47/article70883147.ece/alternates/LANDSCAPE_1200/u890by8t_400x400.jpg"
     },
     {
       "title": "Five deaths, no arrests as fresh violence grips Manipur",
@@ -195,8 +195,8 @@
       "source": "The Hindu",
       "region": "India",
       "publishedAt": "2026-04-19T17:30:03.000Z",
-      "summary": null,
-      "thumbnailUrl": null
+      "summary": "Fresh violence in Manipur results in five deaths and ongoing protests, with locals demanding justice and identifying attackers.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/p9iicw/article70882053.ece/alternates/LANDSCAPE_1200/PTI04_12_2026_000412A.jpg"
     },
     {
       "title": "Lenskart apologises after online backlash, releases new style guide welcoming religious symbols",
@@ -204,8 +204,8 @@
       "source": "The Hindu",
       "region": "India",
       "publishedAt": "2026-04-19T16:11:08.000Z",
-      "summary": null,
-      "thumbnailUrl": null
+      "summary": "Lenskart apologizes for past guidelines, releasing a new style guide that embraces religious symbols for employees.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/b3wmpm/article70881742.ece/alternates/LANDSCAPE_1200/2025-10-27T115539Z_676373817_RC26KHA35UAU_RTRMADP_3_LENSKART-IPO.JPG"
     },
     {
       "title": "‘Monumental setback’: Congress slams Modi govt over Pakistan’s role in U.S.-Iran peace moves",
@@ -213,8 +213,8 @@
       "source": "The Hindu",
       "region": "India",
       "publishedAt": "2026-04-20T05:39:29.000Z",
-      "summary": null,
-      "thumbnailUrl": null
+      "summary": "Congress criticizes Modi&#039;s foreign policy, citing Pakistan&#039;s influential role in U.S.-Iran peace talks as a significant diplomatic failure.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/mugygt/article70883315.ece/alternates/LANDSCAPE_1200/16_Jairam_Ramesh_03_04_Delhi.jpg"
     },
     {
       "title": "NSA Doval discusses bilateral relations, regional situation with Saudi leaders",
@@ -222,8 +222,8 @@
       "source": "The Hindu",
       "region": "India",
       "publishedAt": "2026-04-20T05:29:09.000Z",
-      "summary": null,
-      "thumbnailUrl": null
+      "summary": "NSA Ajit Doval meets Saudi leaders to discuss bilateral relations and regional issues amid ongoing U.S.-Iran talks.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/wbghf7/article70883283.ece/alternates/LANDSCAPE_1200/HGSXw65bYAAt4vv.jpg"
     }
   ],
   "markets": [],
@@ -269,55 +269,55 @@
       "publishedAt": "2026-04-19T15:48:40.000Z"
     },
     {
-      "title": "A cache-friendly IPv6 LPM with AVX-512 (linearized B+-tree, real BGP benchmarks)",
-      "url": "https://github.com/esutcu/planb-lpm",
-      "publishedAt": "2026-04-20T03:24:21.000Z"
-    },
-    {
       "title": "Changes in the system prompt between Claude Opus 4.6 and 4.7",
       "url": "https://simonwillison.net/2026/Apr/18/opus-system-prompt/",
       "publishedAt": "2026-04-19T10:36:29.000Z"
+    },
+    {
+      "title": "A cache-friendly IPv6 LPM with AVX-512 (linearized B+-tree, real BGP benchmarks)",
+      "url": "https://github.com/esutcu/planb-lpm",
+      "publishedAt": "2026-04-20T03:24:21.000Z"
     }
   ],
   "productHunt": [
+    {
+      "name": "Zombie Delete",
+      "tagline": "Docusign for provable deletion - anywhere, everywhere. Discussion | Link",
+      "url": "https://www.producthunt.com/products/together-alone-ventures",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-04-20T00:39:19-07:00"
+    },
+    {
+      "name": "Ona AI: Learning Assistive Technology",
+      "tagline": "Building digital sign language avatars & inclusive datasets. Discussion | Link",
+      "url": "https://www.producthunt.com/products/dumbail",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-04-20T00:39:18-07:00"
+    },
     {
       "name": "GalaxyBrain",
       "tagline": "An information operating system powered by local files Discussion | Link",
       "url": "https://www.producthunt.com/products/galaxybrain-com",
       "thumbnailUrl": null,
-      "publishedAt": "2026-04-20T00:25:48-07:00"
+      "publishedAt": "2026-04-20T00:39:18-07:00"
     },
     {
       "name": "Dune",
       "tagline": "Context-aware Mac keypad to automate workflows + meetings Discussion | Link",
       "url": "https://www.producthunt.com/products/dune-4",
       "thumbnailUrl": null,
-      "publishedAt": "2026-04-20T00:25:46-07:00"
+      "publishedAt": "2026-04-20T00:39:15-07:00"
     },
     {
-      "name": "Granter",
-      "tagline": "Your company's AI Grant Consultant Discussion | Link",
-      "url": "https://www.producthunt.com/products/granter-ai",
+      "name": "Grale",
+      "tagline": "The end of microplastics Discussion | Link",
+      "url": "https://www.producthunt.com/products/grale",
       "thumbnailUrl": null,
-      "publishedAt": "2026-04-20T00:25:46-07:00"
-    },
-    {
-      "name": "Vertai Technology",
-      "tagline": "(site is a launching-soon placeholder) Discussion | Link",
-      "url": "https://www.producthunt.com/products/vertai-technology",
-      "thumbnailUrl": null,
-      "publishedAt": "2026-04-20T00:25:54-07:00"
-    },
-    {
-      "name": "INPUT SOFT",
-      "tagline": "Management platform for airport operations Discussion | Link",
-      "url": "https://www.producthunt.com/products/input-soft",
-      "thumbnailUrl": null,
-      "publishedAt": "2026-04-20T00:25:46-07:00"
+      "publishedAt": "2026-04-20T00:39:19-07:00"
     }
   ],
   "sourceNotes": {
-    "generatedAt": "2026-04-20T07:26:47.976Z",
+    "generatedAt": "2026-04-20T07:39:25.051Z",
     "timeZone": "Asia/Kolkata",
     "successfulSources": [
       "Reuters",
