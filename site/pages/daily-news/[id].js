@@ -4,64 +4,13 @@ import Layout from "../../components/layout";
 import { ArticleMeta } from "../../components/meta_data";
 import DateComponent from "../../components/date";
 import Tags from "../../components/tags";
+import {
+  DailyNewsPayloadRenderer,
+  formatRelativeTimeLabel,
+} from "../../components/daily_news_renderer";
 import utilStyles from "../../styles/utils.module.scss";
 import dailyNewsStyles from "../../styles/daily-news.module.scss";
 import { getAllDailyNewsIds, getDailyNewsData } from "../../lib/daily_news";
-
-function isDateOnlyValue(value = "") {
-  return /^\d{4}-\d{2}-\d{2}$/.test(String(value).trim());
-}
-
-function getDateKeyInTimeZone(date) {
-  return new Intl.DateTimeFormat("en-CA", {
-    timeZone: "Asia/Kolkata",
-    year: "numeric",
-    month: "2-digit",
-    day: "2-digit",
-  }).format(date);
-}
-
-function getCalendarDayNumber(date) {
-  const [year, month, day] = getDateKeyInTimeZone(date).split("-").map(Number);
-  return Math.floor(Date.UTC(year, month - 1, day) / (24 * 60 * 60 * 1000));
-}
-
-function formatRelativeTimeLabel(isoValue, referenceDate = new Date(), granularity = "datetime") {
-  const date = new Date(isDateOnlyValue(isoValue) ? `${isoValue}T00:00:00+05:30` : isoValue);
-
-  if (Number.isNaN(date.getTime())) {
-    return "";
-  }
-
-  if (granularity === "date" || isDateOnlyValue(isoValue)) {
-    const days = Math.max(0, getCalendarDayNumber(referenceDate) - getCalendarDayNumber(date));
-
-    if (days === 0) {
-      return "today";
-    }
-
-    return `${days} day${days === 1 ? "" : "s"} ago`;
-  }
-
-  const diffMs = Math.max(0, referenceDate.getTime() - date.getTime());
-  const minutes = Math.floor(diffMs / (60 * 1000));
-
-  if (minutes < 1) {
-    return "just now";
-  }
-
-  if (minutes < 60) {
-    return `${minutes} minute${minutes === 1 ? "" : "s"} ago`;
-  }
-
-  const hours = Math.floor(minutes / 60);
-  if (hours < 24) {
-    return `${hours} hour${hours === 1 ? "" : "s"} ago`;
-  }
-
-  const days = Math.floor(hours / 24);
-  return `${days} day${days === 1 ? "" : "s"} ago`;
-}
 
 export async function getStaticPaths() {
   const paths = getAllDailyNewsIds();
@@ -161,11 +110,13 @@ export default function DailyNewsEdition({ editionData }) {
           </div>
         )}
 
-        <div
-          ref={contentRef}
-          className={dailyNewsStyles.content}
-          dangerouslySetInnerHTML={{ __html: editionData.contentHtml }}
-        />
+        <div ref={contentRef} className={dailyNewsStyles.content}>
+          {editionData.dailyNewsPayload ? (
+            <DailyNewsPayloadRenderer payload={editionData.dailyNewsPayload} />
+          ) : (
+            <div dangerouslySetInnerHTML={{ __html: editionData.contentHtml }} />
+          )}
+        </div>
 
         <Tags tags={editionData.tags} />
       </article>

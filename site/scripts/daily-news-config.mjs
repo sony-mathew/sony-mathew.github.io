@@ -1,11 +1,27 @@
 export const DEFAULT_TIME_ZONE = "Asia/Kolkata";
-export const SOURCE_REVISION = "2026-04-19-google-news-reuters-yahoo-chart-html-times-compact-cards";
+export const SOURCE_REVISION = "2026-04-20-google-news-reuters-yahoo-chart-html-times-compact-cards-nyt";
 export const REUTERS_MODE = "google-news-rss";
 export const MARKET_MODE = "yahoo-chart-api";
 export const REUTERS_FEED_URL =
   "https://news.google.com/rss/search?q=site%3Areuters.com/world&hl=en-US&gl=US&ceid=US%3Aen";
 
 export const NEWS_SOURCES = [
+  {
+    id: "new-york-times",
+    label: "New York Times",
+    region: "Global",
+    kind: "rss",
+    url: "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+    baseUrl: "https://www.nytimes.com",
+  },
+  {
+    id: "al-jazeera",
+    label: "Al Jazeera",
+    region: "Middle East",
+    kind: "html",
+    url: "https://www.aljazeera.com/news/",
+    baseUrl: "https://www.aljazeera.com",
+  },
   {
     id: "npr",
     label: "NPR",
@@ -22,12 +38,12 @@ export const NEWS_SOURCES = [
     baseUrl: "https://www.chinadaily.com.cn",
   },
   {
-    id: "al-jazeera",
-    label: "Al Jazeera",
-    region: "Middle East",
+    id: "the-hindu",
+    label: "The Hindu",
+    region: "India",
     kind: "html",
-    url: "https://www.aljazeera.com/news/",
-    baseUrl: "https://www.aljazeera.com",
+    url: "https://www.thehindu.com/news/national/",
+    baseUrl: "https://www.thehindu.com",
   },
   {
     id: "reuters",
@@ -36,14 +52,6 @@ export const NEWS_SOURCES = [
     kind: "rss",
     url: REUTERS_FEED_URL,
     baseUrl: "https://www.reuters.com",
-  },
-  {
-    id: "the-hindu",
-    label: "The Hindu",
-    region: "India",
-    kind: "html",
-    url: "https://www.thehindu.com/news/national/",
-    baseUrl: "https://www.thehindu.com",
   },
 ];
 
