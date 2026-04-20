@@ -18,7 +18,7 @@ self.__BUILD_MANIFEST = {
     "static/chunks/766c0d171e6e4d5e.js"
   ],
   "/daily-news/[id]": [
-    "static/chunks/0ddb7df4595c6af4.js"
+    "static/chunks/f6932acb0fa7b3b7.js"
   ],
   "/projects": [
     "static/chunks/913eed2df530e081.js"
