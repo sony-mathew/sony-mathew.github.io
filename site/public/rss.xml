@@ -10,7 +10,7 @@
       
   <item>
     <guid>https://sony-mathew.com/blog/running-zeroclaw-on-raspberry-pi</guid>
-    <title>Running OpenClaw on a Raspberry Pi: Experiment in Minimal Hardware</title>
+    <title>Running ZeroClaw on a Raspberry Pi: Experiment in Minimal Hardware</title>
     <link>https://sony-mathew.com/blog/running-zeroclaw-on-raspberry-pi</link>
     <description>Curious about the OpenClaw hype, I decided to experiment by running it on an old Raspberry Pi 400 instead of buying new hardware. After setting up Raspberry Pi OS and installing Ollama, I managed to run lightweight local LLMs - but quickly ran into context window and timeout limitations with OpenClaw. Exploring alternatives like ZeroClaw revealed how much token overhead OpenClaw carries and why it demands massive context windows. In the end, I got a Telegram-connected local agent running on the Pi - slow, but functional - and walked away with a deeper appreciation for lightweight AI experimentation on minimal hardware.</description>
     <pubDate>Sat, 21 Feb 2026 00:00:00 GMT</pubDate>
