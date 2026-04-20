@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:nyt="http://www.nytimes.com/namespaces/rss/2.0" version="2.0">
+  <channel>
+    <title>NYT &gt; World News</title>
+    <link>https://www.nytimes.com/section/world</link>
+    <item>
+      <title>NYT headline one</title>
+      <link>https://www.nytimes.com/2026/04/19/world/example-story-one.html</link>
+      <description>Lead story summary from the New York Times world feed.</description>
+      <dc:creator>The New York Times</dc:creator>
+      <pubDate>Mon, 20 Apr 2026 06:20:22 +0000</pubDate>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2026/04/19/world/story-one-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:description>Image caption one.</media:description>
+    </item>
+    <item>
+      <title>NYT headline two</title>
+      <link>https://www.nytimes.com/2026/04/19/world/example-story-two.html</link>
+      <description>Second story summary from the New York Times world feed.</description>
+      <dc:creator>Reporter Two</dc:creator>
+      <pubDate>Sun, 19 Apr 2026 21:54:21 +0000</pubDate>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2026/04/19/world/story-two-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:description>Image caption two.</media:description>
+    </item>
+  </channel>
+</rss>

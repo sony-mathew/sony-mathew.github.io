@@ -700,6 +700,37 @@ export function parseNprRssItems(
     .filter((item) => item.title && item.url);
 }
 
+export function parseNewYorkTimesRssItems(
+  xmlText,
+  sourceConfig = NEWS_SOURCES.find((source) => source.id === "new-york-times")
+) {
+  const itemMatches = [...xmlText.matchAll(/<item\b[\s\S]*?<\/item>/g)];
+
+  return itemMatches
+    .map((match) => {
+      const item = match[0];
+      const title = stripHtml(item.match(/<title>([\s\S]*?)<\/title>/i)?.[1] || "");
+      const url = stripHtml(item.match(/<link>([\s\S]*?)<\/link>/i)?.[1] || "");
+      const publishedAt = stripHtml(item.match(/<pubDate>([\s\S]*?)<\/pubDate>/i)?.[1] || "");
+      const description = item.match(/<description>([\s\S]*?)<\/description>/i)?.[1] || "";
+      const thumbnailSource =
+        item.match(/<media:content[^>]+url="([^"]+)"/i)?.[1] ||
+        item.match(/<enclosure[^>]+url="([^"]+)"/i)?.[1] ||
+        null;
+
+      return {
+        title,
+        url,
+        source: sourceConfig.label,
+        region: sourceConfig.region,
+        publishedAt,
+        summary: cleanSummaryText(description, title),
+        thumbnailUrl: sanitizeThumbnailUrl(absoluteUrl(sourceConfig.baseUrl || sourceConfig.url, thumbnailSource)),
+      };
+    })
+    .filter((item) => item.title && item.url);
+}
+
 export function parseGoogleNewsReutersItems(
   xmlText,
   sourceConfig = NEWS_SOURCES.find((source) => source.id === "reuters")
@@ -1180,6 +1211,8 @@ async function collectNewsSource(sourceConfig) {
         ? parseGoogleNewsReutersItems(xml, sourceConfig)
         : sourceConfig.id === "npr"
           ? parseNprRssItems(xml, sourceConfig)
+        : sourceConfig.id === "new-york-times"
+          ? parseNewYorkTimesRssItems(xml, sourceConfig)
         : parseRssItems(xml, sourceConfig).filter((item) => item.title && item.url);
     const dedupedItems = dedupeByUrl(items).slice(0, 5);
 
@@ -1233,7 +1266,7 @@ async function collectGlobalHeadlines() {
   }
 
   return {
-    items: stories.slice(0, 25),
+    items: stories.slice(0, NEWS_SOURCES.length * 5),
     failures,
     successfulSources,
   };

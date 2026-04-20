@@ -1,5 +1,5 @@
 export const DEFAULT_TIME_ZONE = "Asia/Kolkata";
-export const SOURCE_REVISION = "2026-04-19-google-news-reuters-yahoo-chart-html-times-compact-cards";
+export const SOURCE_REVISION = "2026-04-20-google-news-reuters-yahoo-chart-html-times-compact-cards-nyt";
 export const REUTERS_MODE = "google-news-rss";
 export const MARKET_MODE = "yahoo-chart-api";
 export const REUTERS_FEED_URL =
@@ -7,12 +7,12 @@ export const REUTERS_FEED_URL =
 
 export const NEWS_SOURCES = [
   {
-    id: "reuters",
-    label: "Reuters",
+    id: "new-york-times",
+    label: "New York Times",
     region: "Global",
     kind: "rss",
-    url: REUTERS_FEED_URL,
-    baseUrl: "https://www.reuters.com",
+    url: "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+    baseUrl: "https://www.nytimes.com",
   },
   {
     id: "al-jazeera",
@@ -44,6 +44,14 @@ export const NEWS_SOURCES = [
     kind: "html",
     url: "https://www.thehindu.com/news/national/",
     baseUrl: "https://www.thehindu.com",
+  },
+  {
+    id: "reuters",
+    label: "Reuters",
+    region: "Global",
+    kind: "rss",
+    url: REUTERS_FEED_URL,
+    baseUrl: "https://www.reuters.com",
   },
 ];
 

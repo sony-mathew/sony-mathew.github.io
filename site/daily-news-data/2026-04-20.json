@@ -136,6 +136,51 @@
       "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5616x3744+0+0/resize/5616x3744!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fcc%2F2b%2Fd73db6304b99bcd9046b975912b7%2Fap26109743422483.jpg"
     },
     {
+      "title": "U.S. Attacks Iranian Cargo Ship While Preparing for New Round of Talks",
+      "url": "https://www.nytimes.com/live/2026/04/19/world/iran-us-war-trump-hormuz",
+      "source": "New York Times",
+      "region": "Global",
+      "publishedAt": "Mon, 20 Apr 2026 06:20:22 +0000",
+      "summary": "President Trump said a Navy destroyer had attacked and seized an Iranian-flagged vessel in the Gulf of Oman. The White House said it is dispatching a high-level delegation, including Vice President JD Vance, to Pakistan for negotiations.",
+      "thumbnailUrl": "https://static01.nyt.com/images/2026/04/19/multimedia/19trump-400/live-blog-20260419-iran-us-war-trump-hormuz-header-kbgp-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "Hamas Officials Say Group Is Ready to Hand Over Some Weapons",
+      "url": "https://www.nytimes.com/2026/04/19/world/middleeast/hamas-weapons-israel.html",
+      "source": "New York Times",
+      "region": "Global",
+      "publishedAt": "Sun, 19 Apr 2026 21:54:21 +0000",
+      "summary": "Two senior Hamas officials in Gaza said the group was prepared to relinquish some automatic rifles and other arms, a concession that falls short of Israeli-U.S. demands.",
+      "thumbnailUrl": "https://static01.nyt.com/images/2026/04/19/multimedia/19int-hamas-proposal-001-vltp/19int-hamas-proposal-001-vltp-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "Iran Eases Some Internet Restrictions, as Wider Blackout Passes 50th Day",
+      "url": "https://www.nytimes.com/2026/04/19/world/middleeast/iran-internet-blackout-50th-day.html",
+      "source": "New York Times",
+      "region": "Global",
+      "publishedAt": "Sun, 19 Apr 2026 14:58:05 +0000",
+      "summary": "Critics say Iran may be creating a “tiered internet” model, where access is limited to the politically and economically privileged.",
+      "thumbnailUrl": "https://static01.nyt.com/images/2026/04/19/multimedia/19israel-iran-internet-01-jhkm/19israel-iran-internet-01-jhkm-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "Gen Z Looks to Nepal as a Test Case of Its Hopes",
+      "url": "https://www.nytimes.com/2026/04/19/world/asia/nepal-elections-gen-z-balen-shah.html",
+      "source": "New York Times",
+      "region": "Global",
+      "publishedAt": "Sun, 19 Apr 2026 11:24:35 +0000",
+      "summary": "Many youth-led protests around the world have failed to bring meaningful change. But in Nepal, a new government is promising to do things differently.",
+      "thumbnailUrl": "https://static01.nyt.com/images/2026/03/27/multimedia/00nepal-genz-01-mkfv/00nepal-genz-01-mkfv-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "In Qatar, Trapped Between the U.S. and Iran, War Forced a Reckoning",
+      "url": "https://www.nytimes.com/2026/04/19/world/middleeast/qatar-iran-us-war.html",
+      "source": "New York Times",
+      "region": "Global",
+      "publishedAt": "Sun, 19 Apr 2026 09:02:20 +0000",
+      "summary": "The gas-rich Gulf nation is in a state of “strategic shock” after the war dealt a serious blow to its economy, sending ripples around the world.",
+      "thumbnailUrl": "https://static01.nyt.com/images/2026/04/17/multimedia/17int-qatar-1-fgwh/17int-qatar-1-fgwh-mediumSquareAt3X.jpg"
+    },
+    {
       "title": "Brazil, Mexico and Spain pledge to boost Cuba aid",
       "url": "https://www.chinadaily.com.cn/a/202604/20/WS69e5938ba310d6866eb4460f.html",
       "source": "China Daily",
@@ -274,55 +319,56 @@
       "publishedAt": "2026-04-19T10:36:29.000Z"
     },
     {
-      "title": "A cache-friendly IPv6 LPM with AVX-512 (linearized B+-tree, real BGP benchmarks)",
-      "url": "https://github.com/esutcu/planb-lpm",
-      "publishedAt": "2026-04-20T03:24:21.000Z"
+      "title": "Swiss AI Initiative (2023)",
+      "url": "https://www.swiss-ai.org",
+      "publishedAt": "2026-04-19T22:58:35.000Z"
     }
   ],
   "productHunt": [
-    {
-      "name": "Zombie Delete",
-      "tagline": "Docusign for provable deletion - anywhere, everywhere. Discussion | Link",
-      "url": "https://www.producthunt.com/products/together-alone-ventures",
-      "thumbnailUrl": null,
-      "publishedAt": "2026-04-20T00:39:19-07:00"
-    },
-    {
-      "name": "Ona AI: Learning Assistive Technology",
-      "tagline": "Building digital sign language avatars & inclusive datasets. Discussion | Link",
-      "url": "https://www.producthunt.com/products/dumbail",
-      "thumbnailUrl": null,
-      "publishedAt": "2026-04-20T00:39:18-07:00"
-    },
     {
       "name": "GalaxyBrain",
       "tagline": "An information operating system powered by local files Discussion | Link",
       "url": "https://www.producthunt.com/products/galaxybrain-com",
       "thumbnailUrl": null,
-      "publishedAt": "2026-04-20T00:39:18-07:00"
+      "publishedAt": "2026-04-20T00:44:07-07:00"
     },
     {
-      "name": "Dune",
-      "tagline": "Context-aware Mac keypad to automate workflows + meetings Discussion | Link",
-      "url": "https://www.producthunt.com/products/dune-4",
+      "name": "intouch",
+      "tagline": "Daily AI phone conversations for seniors, 24/7 Discussion | Link",
+      "url": "https://www.producthunt.com/products/intouch-2",
       "thumbnailUrl": null,
-      "publishedAt": "2026-04-20T00:39:15-07:00"
+      "publishedAt": "2026-04-20T00:43:48-07:00"
     },
     {
-      "name": "Grale",
-      "tagline": "The end of microplastics Discussion | Link",
-      "url": "https://www.producthunt.com/products/grale",
+      "name": "Claude Desktop Buddy",
+      "tagline": "Bring Claude into the physical world with maker hardware Discussion | Link",
+      "url": "https://www.producthunt.com/products/claude",
       "thumbnailUrl": null,
-      "publishedAt": "2026-04-20T00:39:19-07:00"
+      "publishedAt": "2026-04-20T00:43:54-07:00"
+    },
+    {
+      "name": "Knowzilla",
+      "tagline": "Real-time AI for sales that guides every deal Discussion | Link",
+      "url": "https://www.producthunt.com/products/knowzilla",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-04-20T00:43:58-07:00"
+    },
+    {
+      "name": "PangeAI",
+      "tagline": "Instant, agent-driven spatial analysis and decision-making Discussion | Link",
+      "url": "https://www.producthunt.com/products/pangeai",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-04-20T00:43:57-07:00"
     }
   ],
   "sourceNotes": {
-    "generatedAt": "2026-04-20T07:39:25.051Z",
+    "generatedAt": "2026-04-20T07:44:49.586Z",
     "timeZone": "Asia/Kolkata",
     "successfulSources": [
       "Reuters",
       "Al Jazeera",
       "NPR",
+      "New York Times",
       "China Daily",
       "The Hindu"
     ],

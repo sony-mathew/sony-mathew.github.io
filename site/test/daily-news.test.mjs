@@ -6,6 +6,7 @@ import {
   generateEdition,
   parseAlJazeeraHtml,
   parseChinaDailyHtml,
+  parseNewYorkTimesRssItems,
   parseNprRssItems,
   parseProductHuntHtml,
   parseProductHuntFeed,
@@ -54,6 +55,20 @@ test("parses NPR RSS items with summaries and non-tracking thumbnails", async ()
   assert.equal(items[0].thumbnailUrl, "https://npr.brightspotcdn.com/headline-one.jpg");
   assert.equal(items[1].summary, "Lead story two without an image.");
   assert.equal(items[1].thumbnailUrl, null);
+});
+
+test("parses New York Times RSS items with summaries and thumbnails", async () => {
+  const xml = await loadFixture("nyt.xml");
+  const items = parseNewYorkTimesRssItems(xml);
+
+  assert.equal(items.length, 2);
+  assert.equal(items[0].title, "NYT headline one");
+  assert.equal(items[0].summary, "Lead story summary from the New York Times world feed.");
+  assert.equal(
+    items[0].thumbnailUrl,
+    "https://static01.nyt.com/images/2026/04/19/world/story-one-mediumSquareAt3X.jpg"
+  );
+  assert.equal(items[1].summary, "Second story summary from the New York Times world feed.");
 });
 
 test("parses China Daily article cards", async () => {
@@ -112,6 +127,7 @@ test("dry run emits markdown frontmatter and source notes", async () => {
   const requestedUrls = [];
   const fixtureMap = new Map([
     ["https://feeds.npr.org/1001/rss.xml", "npr.xml"],
+    ["https://rss.nytimes.com/services/xml/rss/nyt/World.xml", "nyt.xml"],
     ["https://www.chinadaily.com.cn/world/", "china-daily.html"],
     ["https://www.aljazeera.com/news/", "al-jazeera.html"],
     ["https://news.google.com/rss/search?q=site%3Areuters.com/world&hl=en-US&gl=US&ceid=US%3Aen", "reuters-google-news.xml"],
@@ -219,6 +235,13 @@ test("dry run emits markdown frontmatter and source notes", async () => {
     assert.ok(nprHeadline);
     assert.equal(nprHeadline.summary, "Lead story from the description field.");
     assert.equal(nprHeadline.thumbnailUrl, "https://npr.brightspotcdn.com/headline-one.jpg");
+    const nytHeadline = result.payload.headlines.find((item) => item.source === "New York Times");
+    assert.ok(nytHeadline);
+    assert.equal(nytHeadline.summary, "Lead story summary from the New York Times world feed.");
+    assert.equal(
+      nytHeadline.thumbnailUrl,
+      "https://static01.nyt.com/images/2026/04/19/world/story-one-mediumSquareAt3X.jpg"
+    );
     const chinaDailyHeadline = result.payload.headlines.find((item) => item.source === "China Daily");
     assert.ok(chinaDailyHeadline);
     assert.equal(
@@ -275,6 +298,7 @@ test("generated daily news markdown loads structured payload through the collect
   const originalFetch = global.fetch;
   const fixtureMap = new Map([
     ["https://feeds.npr.org/1001/rss.xml", "npr.xml"],
+    ["https://rss.nytimes.com/services/xml/rss/nyt/World.xml", "nyt.xml"],
     ["https://www.chinadaily.com.cn/world/", "china-daily.html"],
     ["https://www.aljazeera.com/news/", "al-jazeera.html"],
     ["https://news.google.com/rss/search?q=site%3Areuters.com/world&hl=en-US&gl=US&ceid=US%3Aen", "reuters-google-news.xml"],
@@ -394,6 +418,12 @@ test("generated daily news markdown loads structured payload through the collect
     const nprHeadline = data.dailyNewsPayload.headlines.find((item) => item.source === "NPR");
     assert.equal(nprHeadline?.summary, "Lead story from the description field.");
     assert.equal(nprHeadline?.thumbnailUrl, "https://npr.brightspotcdn.com/headline-one.jpg");
+    const nytHeadline = data.dailyNewsPayload.headlines.find((item) => item.source === "New York Times");
+    assert.equal(nytHeadline?.summary, "Lead story summary from the New York Times world feed.");
+    assert.equal(
+      nytHeadline?.thumbnailUrl,
+      "https://static01.nyt.com/images/2026/04/19/world/story-one-mediumSquareAt3X.jpg"
+    );
     const chinaDailyHeadline = data.dailyNewsPayload.headlines.find((item) => item.source === "China Daily");
     assert.equal(
       chinaDailyHeadline?.summary,
@@ -471,6 +501,7 @@ test("continues generating when Product Hunt is unavailable", async () => {
   const originalFetch = global.fetch;
   const fixtureMap = new Map([
     ["https://feeds.npr.org/1001/rss.xml", "npr.xml"],
+    ["https://rss.nytimes.com/services/xml/rss/nyt/World.xml", "nyt.xml"],
     ["https://www.chinadaily.com.cn/world/", "china-daily.html"],
     ["https://www.aljazeera.com/news/", "al-jazeera.html"],
     ["https://news.google.com/rss/search?q=site%3Areuters.com/world&hl=en-US&gl=US&ceid=US%3Aen", "reuters-google-news.xml"],

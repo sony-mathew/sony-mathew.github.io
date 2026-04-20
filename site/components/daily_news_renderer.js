@@ -5,7 +5,7 @@ const EXTERNAL_LINK_PROPS = {
   target: "_blank",
   rel: "nofollow noopener noreferrer",
 };
-const HEADLINE_SOURCE_ORDER = ["Reuters", "Al Jazeera", "NPR", "China Daily", "The Hindu"];
+const HEADLINE_SOURCE_ORDER = ["New York Times", "Al Jazeera", "NPR", "China Daily", "The Hindu", "Reuters"];
 
 export function isDateOnlyValue(value = "") {
   return /^\d{4}-\d{2}-\d{2}$/.test(String(value).trim());
