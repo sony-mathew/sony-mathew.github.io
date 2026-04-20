@@ -13,7 +13,7 @@
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^4.0.3",
     "date-fns": "^2.24.0",
-    "eslint-config-next": "^14.1.0",
+    "eslint-config-next": "^16.1.6",
     "gray-matter": "^4.0.3",
     "next": "^16.1.5",
     "postcss-flexbugs-fixes": "^5.0.2",
