@@ -13,6 +13,7 @@ import {
   parseYahooChartResponse,
 } from "../scripts/generate-daily-news.mjs";
 import { getCollectionEntryData } from "../lib/content.js";
+import { getDailyNewsData } from "../lib/daily_news.js";
 
 const FIXTURES_DIR = path.join(process.cwd(), "test", "fixtures", "daily-news");
 
@@ -151,24 +152,22 @@ test("dry run emits markdown frontmatter and source notes", async () => {
 
     assert.equal(result.status, "generated");
     assert.match(result.document, /title: "Daily Brief for April 19, 2026/);
-    assert.match(result.document, /<div class="daily-news-body space-y-10">/);
-    assert.match(result.document, /data-daily-news-section="headlines"/);
-    assert.match(result.document, /data-daily-news-section="headlines"[\s\S]*?<div class="space-y-4">/);
-    assert.match(result.document, /data-daily-news-section="markets"/);
-    assert.match(result.document, /data-daily-news-section="hacker-news"/);
-    assert.match(result.document, /data-daily-news-section="product-hunt"/);
-    assert.match(result.document, /data-daily-news-section="source-notes"/);
-    assert.match(result.document, /<table class="min-w-full border-collapse">/);
-    assert.match(result.document, /<time data-relative-time datetime="[^"]+" title="[^"]+"/);
-    assert.match(result.document, /data-relative-time-granularity="datetime"/);
-    assert.doesNotMatch(result.document, /Region:/);
-    assert.doesNotMatch(result.document, /Published:/);
-    assert.doesNotMatch(result.document, /20562 days ago/);
-    assert.doesNotMatch(result.document, /Jan 1, 1970/);
-    assert.doesNotMatch(result.document, /<div class="grid gap-5 md:grid-cols-2 xl:grid-cols-3">/);
+    assert.match(result.document, /payloadFile: "2026-04-19\.json"/);
+    assert.match(result.document, /<div data-daily-news-payload="true"><\/div>/);
+    assert.doesNotMatch(result.document, /data-daily-news-section="headlines"/);
+    assert.doesNotMatch(result.document, /<table class="min-w-full border-collapse">/);
     assert.equal(result.runtime.reutersMode, "google-news-rss");
     assert.equal(result.runtime.marketMode, "yahoo-chart-api");
     assert.match(result.runtime.reutersFeedUrl, /news\.google\.com\/rss\/search/);
+    assert.equal(result.payloadFile, "2026-04-19.json");
+    assert.equal(Array.isArray(result.payload.headlines), true);
+    assert.equal(Array.isArray(result.payload.markets), true);
+    assert.equal(Array.isArray(result.payload.hackerNews), true);
+    assert.equal(Array.isArray(result.payload.productHunt), true);
+    assert.equal(Array.isArray(result.payload.sourceNotes.warnings), true);
+    assert.ok(result.payload.headlines.length > 0);
+    assert.ok(result.payload.hackerNews.length > 0);
+    assert.equal(result.payload.sourceNotes.timeZone, "Asia/Kolkata");
     assert.ok(requestedUrls.includes("https://news.google.com/rss/search?q=site%3Areuters.com/world&hl=en-US&gl=US&ceid=US%3Aen"));
     assert.equal(requestedUrls.some((url) => url.includes("query1.finance.yahoo.com/v8/finance/chart/")), true);
     assert.equal(requestedUrls.includes("https://www.reuters.com/world/"), false);
@@ -186,7 +185,7 @@ test("tailwind config scans generated daily news html sources", async () => {
   assert.match(tailwindConfig, /\.\/daily-news\/\*\*\/\*\.md/);
 });
 
-test("generated daily news html stays as html through the markdown pipeline", async () => {
+test("generated daily news markdown loads structured payload through the collection helper", async () => {
   const originalFetch = global.fetch;
   const fixtureMap = new Map([
     ["https://feeds.npr.org/1001/rss.xml", "npr.xml"],
@@ -203,6 +202,7 @@ test("generated daily news html stays as html through the markdown pipeline", as
     ["https://hacker-news.firebaseio.com/v0/item/103.json", "hn-item-103.json"],
   ]);
   const tempId = "2099-01-02";
+  const tempPayloadPath = path.join(process.cwd(), "daily-news-data", `${tempId}.json`);
 
   global.fetch = async (url) => {
     const urlString = String(url);
@@ -241,14 +241,52 @@ test("generated daily news html stays as html through the markdown pipeline", as
       overwrite: true,
     });
 
-    const data = await getCollectionEntryData("daily-news", tempId);
+    const rawData = await getCollectionEntryData("daily-news", tempId);
+    const data = await getDailyNewsData(tempId);
+    const payloadFromDisk = JSON.parse(await fs.readFile(tempPayloadPath, "utf8"));
 
-    assert.match(data.contentHtml, /data-daily-news-section="headlines"/);
-    assert.doesNotMatch(data.contentHtml, /<pre><code class="code-highlight">/);
-    assert.doesNotMatch(data.contentHtml, /&#x3C;div class=/);
+    assert.match(rawData.contentHtml, /data-daily-news-payload="true"/);
+    assert.doesNotMatch(rawData.contentHtml, /data-daily-news-section="headlines"/);
+    assert.equal(data.payloadFile, `${tempId}.json`);
+    assert.equal(data.dailyNewsPayload.headlines.length > 0, true);
+    assert.equal(Array.isArray(data.dailyNewsPayload.hackerNews), true);
+    assert.deepEqual(data.dailyNewsPayload, payloadFromDisk);
   } finally {
     global.fetch = originalFetch;
     await fs.unlink(path.join(process.cwd(), "daily-news", `${tempId}.md`)).catch(() => {});
+    await fs.unlink(tempPayloadPath).catch(() => {});
+  }
+});
+
+test("daily news loader falls back cleanly for non-payload markdown editions", async () => {
+  const tempId = "2099-01-03";
+  const tempMarkdownPath = path.join(process.cwd(), "daily-news", `${tempId}.md`);
+
+  await fs.writeFile(
+    tempMarkdownPath,
+    `---
+title: "Legacy Daily News"
+description: "Legacy edition"
+date: "2099-01-03"
+editionDate: "2099-01-03"
+author: "Sony Mathew"
+readingTime: 1
+tags: ["daily-news"]
+routePrefix: "/daily-news"
+toc: false
+---
+Legacy fallback content.
+`,
+    "utf8"
+  );
+
+  try {
+    const data = await getDailyNewsData(tempId);
+
+    assert.equal(data.dailyNewsPayload, null);
+    assert.match(data.contentHtml, /Legacy fallback content/);
+  } finally {
+    await fs.unlink(tempMarkdownPath).catch(() => {});
   }
 });
 
@@ -328,8 +366,12 @@ test("continues generating when Product Hunt is unavailable", async () => {
 
     assert.equal(result.status, "generated");
     assert.equal(result.sectionCounts.productHunt, 0);
-    assert.match(result.document, /Product Hunt data was unavailable/);
-    assert.match(result.document, /Product Hunt: Missing fixture for https:\/\/www\.producthunt\.com\/feed/);
+    assert.match(result.document, /<div data-daily-news-payload="true"><\/div>/);
+    assert.deepEqual(result.payload.productHunt, []);
+    assert.match(
+      result.payload.sourceNotes.warnings.join("\n"),
+      /Product Hunt: Missing fixture for https:\/\/www\.producthunt\.com\/feed/
+    );
   } finally {
     global.fetch = originalFetch;
   }

@@ -18,6 +18,7 @@ import {
 
 const ROOT_DIR = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const DAILY_NEWS_DIR = path.join(ROOT_DIR, "daily-news");
+const DAILY_NEWS_PAYLOAD_DIR = path.join(ROOT_DIR, "daily-news-data");
 const IMAGES_DIR = path.join(ROOT_DIR, "public", "images", "daily-news");
 
 function parseArgs(argv) {
@@ -1307,12 +1308,35 @@ function renderSourceNotes({ generatedAt, warnings, marketItems, successfulSourc
       </div>
     </section>`,
     marketSessionLabel,
+    payload: {
+      generatedAt,
+      timeZone: DEFAULT_TIME_ZONE,
+      successfulSources,
+      marketSessionLabel,
+      warnings,
+    },
   };
 }
 
 function estimateReadingTime(markdown) {
   const wordCount = stripHtml(markdown).split(/\s+/).filter(Boolean).length;
   return Math.max(1, Math.ceil(wordCount / 220));
+}
+
+function estimateReadingTimeFromPayload(payload) {
+  const textParts = [
+    ...(payload.headlines || []).flatMap((item) => [item.title, item.source, item.region]),
+    ...(payload.markets || []).flatMap((item) => [item.label, item.region, item.sessionDate]),
+    ...(payload.hackerNews || []).flatMap((item) => [item.title, item.url]),
+    ...(payload.productHunt || []).flatMap((item) => [item.name, item.tagline]),
+    ...(payload.sourceNotes?.warnings || []),
+    ...(payload.sourceNotes?.successfulSources || []),
+    payload.sourceNotes?.marketSessionLabel,
+  ]
+    .filter(Boolean)
+    .join(" ");
+
+  return estimateReadingTime(textParts);
 }
 
 function buildFrontmatter({
@@ -1322,6 +1346,7 @@ function buildFrontmatter({
   readingTime,
   newsSources,
   marketSessionLabel,
+  payloadFile,
 }) {
   const fields = [
     "---",
@@ -1336,6 +1361,7 @@ function buildFrontmatter({
     "toc: false",
     `newsSources: [${newsSources.map((source) => escapeYamlString(source)).join(", ")}]`,
     `marketSessionLabel: ${escapeYamlString(marketSessionLabel)}`,
+    `payloadFile: ${escapeYamlString(payloadFile)}`,
     "---",
     "",
   ];
@@ -1410,19 +1436,21 @@ export async function generateEdition({ editionDate, dryRun = false, overwrite =
     marketItems: markets.items,
     successfulSources: globalHeadlines.successfulSources,
   });
-
-  const body = normalizeHtmlBlock(`<div class="daily-news-body space-y-10">
-    ${renderHeadlineSection(enrichedHeadlines, generatedAt)}
-    ${renderMarketSection(markets.items)}
-    ${renderHackerNewsSection(hackerNews.items, generatedAt)}
-    ${renderProductHuntSection(enrichedProductHunt, generatedAt)}
-    ${sourceNotes.markdown}
-  </div>`);
+  const payloadFile = `${editionDate}.json`;
+  const payloadPath = path.join(DAILY_NEWS_PAYLOAD_DIR, payloadFile);
+  const payload = {
+    headlines: enrichedHeadlines,
+    markets: markets.items,
+    hackerNews: hackerNews.items,
+    productHunt: enrichedProductHunt,
+    sourceNotes: sourceNotes.payload,
+  };
+  const body = '<div data-daily-news-payload="true"></div>';
 
   const humanDate = formatHumanDate(editionDate);
   const title = `Daily Brief for ${humanDate}: Global Headlines, Markets, Hacker News, Product Hunt`;
   const description = `A daily brief for ${humanDate} covering global headlines, market closes, Hacker News, and Product Hunt.`;
-  const readingTime = estimateReadingTime(body);
+  const readingTime = estimateReadingTimeFromPayload(payload);
   const document = `${buildFrontmatter({
     title,
     description,
@@ -1430,11 +1458,14 @@ export async function generateEdition({ editionDate, dryRun = false, overwrite =
     readingTime,
     newsSources: globalHeadlines.successfulSources,
     marketSessionLabel: sourceNotes.marketSessionLabel,
+    payloadFile,
   })}${body}`;
 
   if (!dryRun) {
     await ensureDir(DAILY_NEWS_DIR);
+    await ensureDir(DAILY_NEWS_PAYLOAD_DIR);
     await fs.writeFile(targetPath, document, "utf8");
+    await fs.writeFile(payloadPath, JSON.stringify(payload, null, 2), "utf8");
   }
 
   return {
@@ -1454,6 +1485,9 @@ export async function generateEdition({ editionDate, dryRun = false, overwrite =
       hackerNews: hackerNews.items.length,
       productHunt: enrichedProductHunt.length,
     },
+    payload,
+    payloadFile,
+    payloadPath,
     document,
   };
 }
