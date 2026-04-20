@@ -5,6 +5,7 @@ const EXTERNAL_LINK_PROPS = {
   target: "_blank",
   rel: "nofollow noopener noreferrer",
 };
+const HEADLINE_SOURCE_ORDER = ["Reuters", "Al Jazeera", "NPR", "China Daily", "The Hindu"];
 
 export function isDateOnlyValue(value = "") {
   return /^\d{4}-\d{2}-\d{2}$/.test(String(value).trim());
@@ -217,6 +218,21 @@ function HeadlineCard({ item }) {
   );
 }
 
+function sortHeadlineItems(items = []) {
+  return [...items].sort((left, right) => {
+    const leftPriority = HEADLINE_SOURCE_ORDER.indexOf(left.source);
+    const rightPriority = HEADLINE_SOURCE_ORDER.indexOf(right.source);
+    const normalizedLeftPriority = leftPriority === -1 ? HEADLINE_SOURCE_ORDER.length : leftPriority;
+    const normalizedRightPriority = rightPriority === -1 ? HEADLINE_SOURCE_ORDER.length : rightPriority;
+
+    if (normalizedLeftPriority !== normalizedRightPriority) {
+      return normalizedLeftPriority - normalizedRightPriority;
+    }
+
+    return 0;
+  });
+}
+
 function MarketSection({ items = [] }) {
   return (
     <section data-daily-news-section="markets" className="daily-news-section space-y-6">
@@ -397,7 +413,7 @@ export function DailyNewsPayloadRenderer({ payload }) {
           subtitle="Top stories across selected outlets, presented in a fast daily brief format."
         />
         <div className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm ring-1 ring-slate-100">
-          {payload.headlines?.map((item, index) => (
+          {sortHeadlineItems(payload.headlines).map((item, index) => (
             <HeadlineCard key={`${item.url || item.title}-${index}`} item={item} />
           ))}
         </div>

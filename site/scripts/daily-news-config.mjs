@@ -7,6 +7,22 @@ export const REUTERS_FEED_URL =
 
 export const NEWS_SOURCES = [
   {
+    id: "reuters",
+    label: "Reuters",
+    region: "Global",
+    kind: "rss",
+    url: REUTERS_FEED_URL,
+    baseUrl: "https://www.reuters.com",
+  },
+  {
+    id: "al-jazeera",
+    label: "Al Jazeera",
+    region: "Middle East",
+    kind: "html",
+    url: "https://www.aljazeera.com/news/",
+    baseUrl: "https://www.aljazeera.com",
+  },
+  {
     id: "npr",
     label: "NPR",
     region: "US",
@@ -20,22 +36,6 @@ export const NEWS_SOURCES = [
     kind: "html",
     url: "https://www.chinadaily.com.cn/world/",
     baseUrl: "https://www.chinadaily.com.cn",
-  },
-  {
-    id: "al-jazeera",
-    label: "Al Jazeera",
-    region: "Middle East",
-    kind: "html",
-    url: "https://www.aljazeera.com/news/",
-    baseUrl: "https://www.aljazeera.com",
-  },
-  {
-    id: "reuters",
-    label: "Reuters",
-    region: "Global",
-    kind: "rss",
-    url: REUTERS_FEED_URL,
-    baseUrl: "https://www.reuters.com",
   },
   {
     id: "the-hindu",
