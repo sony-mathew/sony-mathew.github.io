@@ -166,6 +166,18 @@ function MetaLine({ segments = [], timeValue = null }) {
   );
 }
 
+function resolveThumbnailSrc(item) {
+  if (!item) {
+    return null;
+  }
+
+  if (item.source === "Al Jazeera") {
+    return item.thumbnailUrl || item.localThumbnail || null;
+  }
+
+  return item.localThumbnail || item.thumbnailUrl || null;
+}
+
 function ListRowCard({
   href,
   title,
@@ -210,10 +222,11 @@ function HeadlineCard({ item }) {
     <ListRowCard
       href={item.url}
       title={item.title}
-      thumbnailSrc={item.localThumbnail}
+      thumbnailSrc={resolveThumbnailSrc(item)}
       thumbnailAlt={item.title}
       metaSegments={[item.source, item.region]}
       timeValue={item.publishedAt}
+      secondaryText={item.summary}
     />
   );
 }
@@ -336,14 +349,14 @@ function ProductHuntSection({ items = [] }) {
           {items.map((item, index) => (
             <ListRowCard
               key={`${item.url || item.name}-${index}`}
-            href={item.url}
-            title={item.name}
-            thumbnailSrc={item.localThumbnail}
-            thumbnailAlt={item.name}
-            metaSegments={["Product Hunt"]}
-            timeValue={item.publishedAt}
-            secondaryText={item.tagline}
-          />
+              href={item.url}
+              title={item.name}
+              thumbnailSrc={resolveThumbnailSrc(item)}
+              thumbnailAlt={item.name}
+              metaSegments={["Product Hunt"]}
+              timeValue={item.publishedAt}
+              secondaryText={item.tagline}
+            />
           ))}
         </div>
       )}

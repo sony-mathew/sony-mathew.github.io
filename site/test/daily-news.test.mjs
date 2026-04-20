@@ -116,6 +116,22 @@ test("dry run emits markdown frontmatter and source notes", async () => {
     const urlString = String(url);
     requestedUrls.push(urlString);
 
+    if (urlString.startsWith("https://news.google.com/rss/articles/")) {
+      const payload = await loadFixture("google-news-article.html");
+      return new Response(payload, {
+        status: 200,
+        headers: { "content-type": "text/html" },
+      });
+    }
+
+    if (urlString.startsWith("https://www.reuters.com/")) {
+      const payload = await loadFixture("reuters.html");
+      return new Response(payload, {
+        status: 200,
+        headers: { "content-type": "text/html" },
+      });
+    }
+
     if (urlString.startsWith("https://query1.finance.yahoo.com/v8/finance/chart/")) {
       const payload = await loadFixture("yahoo-chart.json");
       return new Response(payload, {
@@ -168,6 +184,19 @@ test("dry run emits markdown frontmatter and source notes", async () => {
     assert.ok(result.payload.headlines.length > 0);
     assert.ok(result.payload.hackerNews.length > 0);
     assert.equal(result.payload.sourceNotes.timeZone, "Asia/Kolkata");
+    const reutersHeadlines = result.payload.headlines.filter((item) => item.source === "Reuters");
+    assert.ok(reutersHeadlines.length >= 2);
+    const unresolvedReutersHeadline = reutersHeadlines.find((item) => item.url.startsWith("https://news.google.com/"));
+    const directReutersHeadline = reutersHeadlines.find((item) => item.url.startsWith("https://www.reuters.com/"));
+    assert.ok(unresolvedReutersHeadline);
+    assert.ok(directReutersHeadline);
+    assert.equal(unresolvedReutersHeadline.summary, null);
+    assert.equal(unresolvedReutersHeadline.thumbnailUrl, null);
+    assert.equal(
+      directReutersHeadline.summary,
+      "Reuters summary from article metadata that should appear under the headline in the daily news page."
+    );
+    assert.equal(directReutersHeadline.thumbnailUrl, "https://www.reuters.com/resizer/v2/reuters-meta.jpg");
     assert.ok(requestedUrls.includes("https://news.google.com/rss/search?q=site%3Areuters.com/world&hl=en-US&gl=US&ceid=US%3Aen"));
     assert.equal(requestedUrls.some((url) => url.includes("query1.finance.yahoo.com/v8/finance/chart/")), true);
     assert.equal(requestedUrls.includes("https://www.reuters.com/world/"), false);
@@ -183,6 +212,13 @@ test("tailwind config scans generated daily news html sources", async () => {
 
   assert.match(tailwindConfig, /\.\/scripts\/\*\*\/\*\.\{js,mjs,ts,jsx,tsx\}/);
   assert.match(tailwindConfig, /\.\/daily-news\/\*\*\/\*\.md/);
+});
+
+test("renderer prefers remote Al Jazeera thumbnails over stored local files", async () => {
+  const rendererSource = await fs.readFile(path.join(process.cwd(), "components", "daily_news_renderer.js"), "utf8");
+
+  assert.match(rendererSource, /item\.source === "Al Jazeera"/);
+  assert.match(rendererSource, /return item\.thumbnailUrl \|\| item\.localThumbnail \|\| null;/);
 });
 
 test("generated daily news markdown loads structured payload through the collection helper", async () => {
@@ -206,6 +242,29 @@ test("generated daily news markdown loads structured payload through the collect
 
   global.fetch = async (url) => {
     const urlString = String(url);
+
+    if (urlString.startsWith("https://www.aljazeera.com/wp-content/uploads/")) {
+      return new Response(new Uint8Array([1, 2, 3, 4]), {
+        status: 200,
+        headers: { "content-type": "image/jpeg" },
+      });
+    }
+
+    if (urlString.startsWith("https://news.google.com/rss/articles/")) {
+      const payload = await loadFixture("google-news-article.html");
+      return new Response(payload, {
+        status: 200,
+        headers: { "content-type": "text/html" },
+      });
+    }
+
+    if (urlString.startsWith("https://www.reuters.com/")) {
+      const payload = await loadFixture("reuters.html");
+      return new Response(payload, {
+        status: 200,
+        headers: { "content-type": "text/html" },
+      });
+    }
 
     if (urlString.startsWith("https://query1.finance.yahoo.com/v8/finance/chart/")) {
       const payload = await loadFixture("yahoo-chart.json");
@@ -250,6 +309,22 @@ test("generated daily news markdown loads structured payload through the collect
     assert.equal(data.payloadFile, `${tempId}.json`);
     assert.equal(data.dailyNewsPayload.headlines.length > 0, true);
     assert.equal(Array.isArray(data.dailyNewsPayload.hackerNews), true);
+    assert.equal(
+      data.dailyNewsPayload.headlines.find(
+        (item) => item.source === "Reuters" && item.url.startsWith("https://news.google.com/")
+      )?.thumbnailUrl,
+      null
+    );
+    assert.equal(
+      data.dailyNewsPayload.headlines.find(
+        (item) => item.source === "Reuters" && item.url.startsWith("https://www.reuters.com/")
+      )?.summary,
+      "Reuters summary from article metadata that should appear under the headline in the daily news page."
+    );
+    const alJazeeraHeadline = data.dailyNewsPayload.headlines.find((item) => item.source === "Al Jazeera");
+    assert.ok(alJazeeraHeadline);
+    assert.match(alJazeeraHeadline.thumbnailUrl, /^https:\/\/www\.aljazeera\.com\/wp-content\/uploads\//);
+    assert.equal(alJazeeraHeadline.localThumbnail, null);
     assert.deepEqual(data.dailyNewsPayload, payloadFromDisk);
   } finally {
     global.fetch = originalFetch;
