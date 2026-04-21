@@ -12,12 +12,16 @@ import {
   parseProductHuntFeed,
   parseGoogleNewsReutersItems,
   parseTheHinduHtml,
-  parseYahooChartResponse,
+  parseYahooWorldIndicesPage,
 } from "../scripts/generate-daily-news.mjs";
 import { getCollectionEntryData } from "../lib/content.js";
 import { getDailyNewsData } from "../lib/daily_news.js";
 
 const FIXTURES_DIR = path.join(process.cwd(), "test", "fixtures", "daily-news");
+const MARKET_FIXTURE_URLS = new Set([
+  "https://finance.yahoo.com/markets/world-indices/",
+  "https://finance.yahoo.com/world-indices/",
+]);
 
 async function loadFixture(fileName) {
   return fs.readFile(path.join(FIXTURES_DIR, fileName), "utf8");
@@ -108,18 +112,20 @@ test("parses Product Hunt RSS feed items", async () => {
   assert.match(items[0].url, /producthunt\.com\/posts\/launch-alpha/);
 });
 
-test("parses Yahoo chart response and keeps actual session date", async () => {
-  const payload = JSON.parse(await loadFixture("yahoo-chart.json"));
-  const market = parseYahooChartResponse(payload, {
-    id: "sp-500",
-    label: "S&P 500",
-    region: "US",
-    symbol: "^GSPC",
-  });
+test("parses Yahoo world indices page and keeps the requested markets", async () => {
+  const html = await loadFixture("yahoo-world-indices.html");
+  const result = parseYahooWorldIndicesPage(html, "2026-04-19");
 
-  assert.equal(market.sessionDate, "2026-04-18");
-  assert.equal(market.direction, "up");
-  assert.equal(market.change.toFixed(2), "40.30");
+  assert.equal(result.failures.length, 0);
+  assert.equal(result.items.length, 7);
+  assert.equal(result.items.find((item) => item.symbol === "^GSPC")?.sessionDate, "2026-04-19");
+  assert.equal(result.items.find((item) => item.symbol === "^GSPC")?.direction, "down");
+  assert.equal(result.items.find((item) => item.symbol === "^IXIC")?.label, "NASDAQ Composite");
+  assert.equal(
+    result.items.find((item) => item.symbol === "MOEX.ME")?.label,
+    "Public Joint-Stock Company Moscow Exchange MICEX-RTS"
+  );
+  assert.equal(result.items.find((item) => item.symbol === "^N225")?.change.toFixed(2), "524.27");
 });
 
 test("dry run emits markdown frontmatter and source notes", async () => {
@@ -177,11 +183,11 @@ test("dry run emits markdown frontmatter and source notes", async () => {
       });
     }
 
-    if (urlString.startsWith("https://query1.finance.yahoo.com/v8/finance/chart/")) {
-      const payload = await loadFixture("yahoo-chart.json");
+    if (MARKET_FIXTURE_URLS.has(urlString)) {
+      const payload = await loadFixture("yahoo-world-indices.html");
       return new Response(payload, {
         status: 200,
-        headers: { "content-type": "application/json" },
+        headers: { "content-type": "text/html" },
       });
     }
 
@@ -218,7 +224,7 @@ test("dry run emits markdown frontmatter and source notes", async () => {
     assert.doesNotMatch(result.document, /data-daily-news-section="headlines"/);
     assert.doesNotMatch(result.document, /<table class="min-w-full border-collapse">/);
     assert.equal(result.runtime.reutersMode, "google-news-rss");
-    assert.equal(result.runtime.marketMode, "yahoo-chart-api");
+    assert.equal(result.runtime.marketMode, "yahoo-world-indices-page");
     assert.match(result.runtime.reutersFeedUrl, /news\.google\.com\/rss\/search/);
     assert.equal(result.payloadFile, "2026-04-19.json");
     assert.equal(Array.isArray(result.payload.headlines), true);
@@ -227,6 +233,7 @@ test("dry run emits markdown frontmatter and source notes", async () => {
     assert.equal(Array.isArray(result.payload.productHunt), true);
     assert.equal(Array.isArray(result.payload.sourceNotes.warnings), true);
     assert.ok(result.payload.headlines.length > 0);
+    assert.equal(result.payload.markets.length, 7);
     assert.ok(result.payload.hackerNews.length > 0);
     assert.equal(result.payload.sourceNotes.timeZone, "Asia/Kolkata");
     const reutersHeadlines = result.payload.headlines.filter((item) => item.source === "Reuters");
@@ -271,10 +278,10 @@ test("dry run emits markdown frontmatter and source notes", async () => {
     );
     assert.equal(directReutersHeadline.thumbnailUrl, "https://www.reuters.com/resizer/v2/reuters-meta.jpg");
     assert.ok(requestedUrls.includes("https://news.google.com/rss/search?q=site%3Areuters.com/world&hl=en-US&gl=US&ceid=US%3Aen"));
-    assert.equal(requestedUrls.some((url) => url.includes("query1.finance.yahoo.com/v8/finance/chart/")), true);
+    assert.equal(requestedUrls.some((url) => MARKET_FIXTURE_URLS.has(url)), true);
     assert.equal(requestedUrls.includes("https://www.reuters.com/world/"), false);
     assert.equal(requestedUrls.some((url) => url.includes("sitemap_news_index.xml")), false);
-    assert.equal(requestedUrls.some((url) => url.includes("https://finance.yahoo.com/quote/")), false);
+    assert.equal(requestedUrls.some((url) => url.includes("query1.finance.yahoo.com")), false);
   } finally {
     global.fetch = originalFetch;
   }
@@ -356,11 +363,11 @@ test("generated daily news markdown loads structured payload through the collect
       });
     }
 
-    if (urlString.startsWith("https://query1.finance.yahoo.com/v8/finance/chart/")) {
-      const payload = await loadFixture("yahoo-chart.json");
+    if (MARKET_FIXTURE_URLS.has(urlString)) {
+      const payload = await loadFixture("yahoo-world-indices.html");
       return new Response(payload, {
         status: 200,
-        headers: { "content-type": "application/json" },
+        headers: { "content-type": "text/html" },
       });
     }
 
@@ -398,6 +405,7 @@ test("generated daily news markdown loads structured payload through the collect
     assert.doesNotMatch(rawData.contentHtml, /data-daily-news-section="headlines"/);
     assert.equal(data.payloadFile, `${tempId}.json`);
     assert.equal(data.dailyNewsPayload.headlines.length > 0, true);
+    assert.equal(data.dailyNewsPayload.markets.length, 7);
     assert.equal(Array.isArray(data.dailyNewsPayload.hackerNews), true);
     assert.equal(
       data.dailyNewsPayload.headlines.find(
@@ -552,11 +560,11 @@ test("continues generating when Product Hunt is unavailable", async () => {
       return new Response("upstream error", { status: 503 });
     }
 
-    if (urlString.startsWith("https://query1.finance.yahoo.com/v8/finance/chart/")) {
-      const payload = await loadFixture("yahoo-chart.json");
+    if (MARKET_FIXTURE_URLS.has(urlString)) {
+      const payload = await loadFixture("yahoo-world-indices.html");
       return new Response(payload, {
         status: 200,
-        headers: { "content-type": "application/json" },
+        headers: { "content-type": "text/html" },
       });
     }
 
