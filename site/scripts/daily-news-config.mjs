@@ -1,9 +1,13 @@
 export const DEFAULT_TIME_ZONE = "Asia/Kolkata";
-export const SOURCE_REVISION = "2026-04-20-google-news-reuters-yahoo-chart-html-times-compact-cards-nyt";
+export const SOURCE_REVISION = "2026-04-21-google-news-reuters-yahoo-world-indices-scrape";
 export const REUTERS_MODE = "google-news-rss";
-export const MARKET_MODE = "yahoo-chart-api";
+export const MARKET_MODE = "yahoo-world-indices-page";
 export const REUTERS_FEED_URL =
   "https://news.google.com/rss/search?q=site%3Areuters.com/world&hl=en-US&gl=US&ceid=US%3Aen";
+export const MARKET_SOURCE_URLS = [
+  "https://finance.yahoo.com/markets/world-indices/",
+  "https://finance.yahoo.com/world-indices/",
+];
 
 export const NEWS_SOURCES = [
   {
@@ -56,15 +60,18 @@ export const NEWS_SOURCES = [
 ];
 
 export const MARKET_INDEXES = [
-  { id: "nifty-50", label: "Nifty 50", region: "India", symbol: "^NSEI" },
-  { id: "sensex", label: "Sensex", region: "India", symbol: "^BSESN" },
   { id: "sp-500", label: "S&P 500", region: "US", symbol: "^GSPC" },
-  { id: "sp-100", label: "S&P 100", region: "US", symbol: "^OEX" },
+  { id: "nasdaq-composite", label: "NASDAQ Composite", region: "US", symbol: "^IXIC" },
+  { id: "euronext-100", label: "Euronext 100 Index", region: "Europe", symbol: "^N100" },
+  {
+    id: "moex",
+    label: "Public Joint-Stock Company Moscow Exchange MICEX-RTS",
+    region: "Europe",
+    symbol: "MOEX.ME",
+  },
+  { id: "hang-seng", label: "HANG SENG INDEX", region: "Asia", symbol: "^HSI" },
   { id: "nikkei-225", label: "Nikkei 225", region: "Asia", symbol: "^N225" },
-  { id: "hang-seng", label: "Hang Seng", region: "Asia", symbol: "^HSI" },
-  { id: "shanghai-composite", label: "Shanghai Composite", region: "Asia", symbol: "000001.SS" },
-  { id: "tasi", label: "Tadawul All Share Index", region: "Middle East", symbol: "^TASI.SR" },
-  { id: "egx-30", label: "EGX 30", region: "Africa", symbol: "^CASE30" },
+  { id: "sensex", label: "S&P BSE SENSEX", region: "India", symbol: "^BSESN" },
 ];
 
 export const HACKER_NEWS_URL = "https://hacker-news.firebaseio.com/v0";
