@@ -7,6 +7,7 @@ import {
   HACKER_NEWS_URL,
   MARKET_MODE,
   MARKET_INDEXES,
+  MARKET_SOURCE_URLS,
   NEWS_SOURCES,
   PRODUCT_HUNT_FEED_URL,
   PRODUCT_HUNT_URL,
@@ -593,6 +594,7 @@ async function fetchWithTimeout(url, options = {}) {
         "accept-language": "en-US,en;q=0.9",
         "cache-control": "no-cache",
         pragma: "no-cache",
+        ...(options.headers || {}),
       },
       signal: controller.signal,
     });
@@ -607,8 +609,11 @@ async function fetchWithTimeout(url, options = {}) {
   }
 }
 
-async function fetchText(url) {
-  const response = await fetchWithTimeout(url, { accept: "text/html,application/xml,text/xml;q=0.9,*/*;q=0.8" });
+async function fetchText(url, options = {}) {
+  const response = await fetchWithTimeout(url, {
+    accept: "text/html,application/xml,text/xml;q=0.9,*/*;q=0.8",
+    ...options,
+  });
   return response.text();
 }
 
@@ -620,8 +625,13 @@ async function fetchJson(url, options = {}) {
   return response.json();
 }
 
-function sleep(ms) {
-  return new Promise((resolve) => setTimeout(resolve, ms));
+function parseNumericText(value) {
+  const normalized = normalizeWhitespace(stripHtml(value))
+    .replace(/[,%()]/g, "")
+    .replace(/[−–]/g, "-")
+    .replace(/,/g, "");
+  const numericValue = Number(normalized);
+  return Number.isFinite(numericValue) ? numericValue : null;
 }
 
 function parseRssItems(xmlText, sourceConfig) {
@@ -1110,52 +1120,30 @@ export function parseProductHuntFeed(xmlText) {
     .slice(0, 5);
 }
 
-export function parseYahooChartResponse(payload, marketIndex) {
-  const chartResult = payload?.chart?.result?.[0];
-
-  if (!chartResult) {
-    throw new Error(`Missing chart result for ${marketIndex.label}`);
-  }
-
-  const timestamps = chartResult.timestamp || [];
-  const closes = chartResult.indicators?.quote?.[0]?.close || [];
-  const points = timestamps
-    .map((timestamp, index) => ({ timestamp, close: closes[index] }))
-    .filter((point) => Number.isFinite(point.close));
-
-  const latestPoint = points[points.length - 1] || null;
-  const previousPoint = points[points.length - 2] || null;
-  const value = chartResult.meta?.regularMarketPrice ?? latestPoint?.close ?? null;
-  const previousClose = chartResult.meta?.previousClose ?? chartResult.meta?.chartPreviousClose ?? previousPoint?.close ?? null;
-  const marketTime = chartResult.meta?.regularMarketTime ?? latestPoint?.timestamp ?? null;
-
+function buildMarketSnapshot({ marketIndex, value, change, percentChange }) {
   if (!Number.isFinite(value)) {
     throw new Error(`Missing current price for ${marketIndex.label}`);
   }
 
+  if (!Number.isFinite(change)) {
+    throw new Error(`Missing change for ${marketIndex.label}`);
+  }
+
+  if (!Number.isFinite(percentChange)) {
+    throw new Error(`Missing percent change for ${marketIndex.label}`);
+  }
+
+  const previousClose = value - change;
+
   if (!Number.isFinite(previousClose)) {
     throw new Error(`Missing previous close for ${marketIndex.label}`);
   }
-
-  if (!Number.isFinite(marketTime)) {
-    throw new Error(`Missing market time for ${marketIndex.label}`);
-  }
-
-  const change = value - previousClose;
-  const percentChange = (change / previousClose) * 100;
-  const sessionDate = new Intl.DateTimeFormat("en-CA", {
-    timeZone: DEFAULT_TIME_ZONE,
-    year: "numeric",
-    month: "2-digit",
-    day: "2-digit",
-  }).format(new Date(marketTime * 1000));
 
   return {
     id: marketIndex.id,
     label: marketIndex.label,
     region: marketIndex.region,
     symbol: marketIndex.symbol,
-    sessionDate,
     value,
     previousClose,
     change,
@@ -1164,30 +1152,100 @@ export function parseYahooChartResponse(payload, marketIndex) {
   };
 }
 
-async function fetchYahooChartMarket(marketIndex) {
-  const url = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(
-    marketIndex.symbol
-  )}?interval=1d&range=7d&includePrePost=false`;
-  let lastError = null;
+function extractYahooWorldIndicesBlock(html, marketIndex) {
+  const quoteHref = `href="/quote/${encodeURIComponent(marketIndex.symbol)}/`;
+  const quoteIndex = html.indexOf(quoteHref);
 
-  for (let attempt = 0; attempt < 3; attempt += 1) {
+  if (quoteIndex === -1) {
+    throw new Error(`Missing ${marketIndex.symbol} on Yahoo world indices page`);
+  }
+
+  const rowStart = html.lastIndexOf("<tr", quoteIndex);
+  const rowEnd = html.indexOf("</tr>", quoteIndex);
+
+  if (rowStart !== -1 && rowEnd !== -1 && rowEnd > rowStart) {
+    return html.slice(rowStart, rowEnd + "</tr>".length);
+  }
+
+  const cardStart = html.lastIndexOf('class="ticker-item', quoteIndex);
+  const cardEnd = html.indexOf('class="ticker-divider', quoteIndex);
+
+  if (cardStart !== -1 && cardEnd !== -1 && cardEnd > cardStart) {
+    return html.slice(cardStart, cardEnd);
+  }
+
+  return html.slice(Math.max(0, quoteIndex - 600), Math.min(html.length, quoteIndex + 5000));
+}
+
+function parseYahooWorldIndicesValue(block, marketIndex) {
+  const priceMatch =
+    block.match(/data-field="regularMarketPrice"[^>]+data-value="([^"]+)"/i)?.[1] ||
+    block.match(/data-testid-cell="intradayprice"[\s\S]*?<span[^>]+data-testid="change"[^>]*>([\s\S]*?)<\/span>/i)?.[1] ||
+    null;
+  const changeMatch =
+    block.match(/data-field="regularMarketChange"[^>]+data-value="([^"]+)"/i)?.[1] ||
+    block.match(/data-testid-cell="intradaypricechange"[\s\S]*?<span[^>]+data-testid="colorChange"[^>]*>([\s\S]*?)<\/span>/i)?.[1] ||
+    null;
+  const percentMatch =
+    block.match(/data-field="regularMarketChangePercent"[^>]+data-value="([^"]+)"/i)?.[1] ||
+    block.match(/data-testid-cell="percentchange"[\s\S]*?<span[^>]+data-testid="colorChange"[^>]*>([\s\S]*?)<\/span>/i)?.[1] ||
+    null;
+
+  return buildMarketSnapshot({
+    marketIndex,
+    value: parseNumericText(priceMatch),
+    change: parseNumericText(changeMatch),
+    percentChange: parseNumericText(percentMatch),
+  });
+}
+
+export function parseYahooWorldIndicesPage(html, editionDate, marketIndexes = MARKET_INDEXES) {
+  const items = [];
+  const failures = [];
+
+  for (const marketIndex of marketIndexes) {
     try {
-      const payload = await fetchJson(url, {
-        timeoutMs: 20000,
+      const block = extractYahooWorldIndicesBlock(html, marketIndex);
+      const snapshot = parseYahooWorldIndicesValue(block, marketIndex);
+      items.push({
+        ...snapshot,
+        sessionDate: editionDate,
       });
-      return parseYahooChartResponse(payload, marketIndex);
     } catch (error) {
-      lastError = error;
-
-      if (!String(error.message).includes("HTTP 429") || attempt === 2) {
-        break;
-      }
-
-      await sleep(400 * (attempt + 1));
+      failures.push(`${marketIndex.label} (${marketIndex.symbol}, ${MARKET_MODE}): ${error.message}`);
     }
   }
 
-  throw lastError;
+  return { items, failures };
+}
+
+async function fetchYahooWorldIndicesHtml() {
+  let lastError = null;
+
+  for (const url of MARKET_SOURCE_URLS) {
+    try {
+      const html = await fetchText(url, {
+        timeoutMs: 20000,
+        headers: {
+          referer: "https://finance.yahoo.com/",
+          "upgrade-insecure-requests": "1",
+        },
+      });
+
+      if (
+        /Too Many Requests/i.test(html) ||
+        (/Oops, something went wrong/i.test(html) && !/world-indices-datatable|ticker-symbol-link/i.test(html))
+      ) {
+        throw new Error("Yahoo world indices page returned an error state");
+      }
+
+      return html;
+    } catch (error) {
+      lastError = new Error(`${url}: ${error.message}`);
+    }
+  }
+
+  throw lastError || new Error("Unable to fetch Yahoo world indices page");
 }
 
 function dedupeByUrl(items) {
@@ -1272,19 +1330,9 @@ async function collectGlobalHeadlines() {
   };
 }
 
-async function collectMarkets() {
-  const failures = [];
-  const items = [];
-
-  for (const marketIndex of MARKET_INDEXES) {
-    try {
-      items.push(await fetchYahooChartMarket(marketIndex));
-    } catch (error) {
-      failures.push(`${marketIndex.label} (${marketIndex.symbol}, ${MARKET_MODE}): ${error.message}`);
-    }
-  }
-
-  return { items, failures };
+async function collectMarkets(editionDate) {
+  const html = await fetchYahooWorldIndicesHtml();
+  return parseYahooWorldIndicesPage(html, editionDate);
 }
 
 async function collectHackerNews(editionDate) {
@@ -1657,7 +1705,7 @@ export async function generateEdition({ editionDate, dryRun = false, overwrite =
   const globalHeadlines = await collectGlobalHeadlines();
   warnings.push(...globalHeadlines.failures);
 
-  const markets = await collectMarkets();
+  const markets = await collectMarkets(editionDate);
   warnings.push(...markets.failures);
 
   let hackerNews = { items: [], failures: [] };
