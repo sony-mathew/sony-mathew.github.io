@@ -1,0 +1,463 @@
+{
+  "headlines": [
+    {
+      "title": "Iran War Live Updates: Trump Extends Cease-Fire With Iran",
+      "url": "https://www.nytimes.com/live/2026/04/21/world/iran-us-war-trump-news",
+      "source": "New York Times",
+      "region": "Global",
+      "publishedAt": "Wed, 22 Apr 2026 02:02:04 +0000",
+      "summary": "The pause in hostilities had been set to expire within hours. The president said Pakistan, which is trying to mediate an end to the war, requested he hold off any attacks.",
+      "thumbnailUrl": "https://static01.nyt.com/images/2026/04/22/multimedia/21israel-iran-promo-900/21israel-iran-promo-900-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "How the Cole Disaster Drove the U.S. to Develop New Warship Defenses",
+      "url": "https://www.nytimes.com/2026/04/21/world/middleeast/us-navy-ship-defense-iran-hormuz.html",
+      "source": "New York Times",
+      "region": "Global",
+      "publishedAt": "Tue, 21 Apr 2026 09:01:30 +0000",
+      "summary": "The Navy destroyers enforcing a blockade of Iranian ports carry weapons fielded after an American warship was attacked and nearly sunk more than 25 years ago.",
+      "thumbnailUrl": "https://static01.nyt.com/images/2026/04/21/multimedia/21int-ship-defense-1-cvjp/21int-ship-defense-1-cvjp-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "Trump Is Said to Be in Talks to Send Afghans Who Aided U.S. Forces to Congo",
+      "url": "https://www.nytimes.com/2026/04/21/world/europe/afghan-refugees-congo-us.html",
+      "source": "New York Times",
+      "region": "Global",
+      "publishedAt": "Tue, 21 Apr 2026 21:36:32 +0000",
+      "summary": "A U.S. aid worker said that the Afghans, who were evacuated to Qatar, would face a choice between moving to the Democratic Republic of Congo and living under the Taliban.",
+      "thumbnailUrl": "https://static01.nyt.com/images/2026/04/21/multimedia/21int-afghan-deportees-new-zmlj/21int-afghan-deportees-new-zmlj-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "Fired U.K. Official Describes ‘Pressure’ to Expedite Envoy’s Appointment",
+      "url": "https://www.nytimes.com/2026/04/21/world/europe/starmer-mandelson-olly-robbins.html",
+      "source": "New York Times",
+      "region": "Global",
+      "publishedAt": "Tue, 21 Apr 2026 20:35:26 +0000",
+      "summary": "Prime Minister Keir Starmer’s office wanted Peter Mandelson, a Jeffrey Epstein associate, swiftly installed as ambassador to Washington, the official said.",
+      "thumbnailUrl": "https://static01.nyt.com/images/2026/04/21/multimedia/21int-uk-starmer-robbins-whvk/21int-uk-starmer-robbins-whvk-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "U.S. Turns Up Pressure on Iraq to Distance Itself From Iran",
+      "url": "https://www.nytimes.com/2026/04/21/world/middleeast/us-iraq-security-cooperation.html",
+      "source": "New York Times",
+      "region": "Global",
+      "publishedAt": "Tue, 21 Apr 2026 20:06:47 +0000",
+      "summary": "Washington is demanding that the Baghdad government dismantle Iran-backed Iraqi militias that have been attacking Americans and U.S. sites there recently.",
+      "thumbnailUrl": "https://static01.nyt.com/images/2026/04/21/multimedia/21iraq-US-01-jklt/21iraq-US-01-jklt-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "Tehran vows to ‘resist bullying’ as Trump extends Iran truce, blocks ports",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/4/22/iran-war-live-trump-says-ceasefire-extended-as-talks-with-tehran-in-limbo",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-04-22",
+      "summary": null,
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/04/2026-04-20T143625Z_839091749_RC2ZSKA012SO_RTRMADP_3_IRAN-CRISIS-1776765169.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Paraguay plans to accept 25 third-country migrant deportees from US",
+      "url": "https://www.aljazeera.com/news/2026/4/21/paraguay-plans-to-accept-25-third-country-migrant-deportees-from-us",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-04-21",
+      "summary": null,
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/04/AP25243812139636-1776808183.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Trump administration sues Southern Poverty Law Center on fraud charges",
+      "url": "https://www.aljazeera.com/news/2026/4/21/trump-administration-sues-southern-poverty-law-center-on-fraud-charges",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-04-21",
+      "summary": null,
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/04/ap_69e802f7d15c7-1776812791.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Peru’s election chief steps down amid frustration over long vote count",
+      "url": "https://www.aljazeera.com/news/2026/4/21/perus-election-chief-steps-down-amid-frustration-over-long-vote-count",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-04-21",
+      "summary": null,
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/04/afp-newsml.afp_.com_.20260420T182032Z.doc-a8fe2qc-1776799960.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Myanmar’s military government rebuffed on peace talks offer",
+      "url": "https://www.aljazeera.com/news/2026/4/21/myanmars-military-government-rebuffed-on-peace-talk-offer",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-04-21",
+      "summary": null,
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/04/AP26100199807690-1776801788.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Virginia voters OK a Democratic effort to redraw the state's congressional map",
+      "url": "https://www.npr.org/2026/04/21/nx-s1-5793878/virginia-redistricting-results-trump",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Tue, 21 Apr 2026 20:50:52 -0400",
+      "summary": "Virginia voters have delivered a significant win to Democrats, as the party aims to pick up four more U.S. House seats in the state.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5824x3883+0+0/resize/5824x3883!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F1c%2F47%2Fdbbabf1a4f20a4417fa5ce7bd45a%2Fap26111513688177.jpg"
+    },
+    {
+      "title": "Southern Poverty Law Center indicted on federal fraud charges",
+      "url": "https://www.npr.org/2026/04/21/g-s1-118275/southern-poverty-law-center-fraud-charges-paid-informants",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Tue, 21 Apr 2026 18:52:27 -0400",
+      "summary": "The Justice Department alleges that the SPLC improperly raised millions of dollars to pay informants to infiltrate the Ku Klux Klan and other extremist groups.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3580x2387+0+0/resize/3580x2387!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F98%2Fa5%2F753c8d3549178893aa77854ecfe1%2Fap26111793594415.jpg"
+    },
+    {
+      "title": "Instead of civil war, a naked mole rat colony changed queens peacefully",
+      "url": "https://www.npr.org/2026/04/21/nx-s1-5789030/naked-mole-rat-colony-queens-succession",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Tue, 21 Apr 2026 16:12:19 -0400",
+      "summary": "These matriarchal rodents often have bloody succession wars to replace their queen. But in a colony in California, Queen Tere ceded the throne to her daughter, Arwen, without violence.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2121x1414+0+0/resize/2121x1414!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F98%2Fc8%2Fcd8935534b5c996be17993fbe8f5%2Fgettyimages-2221388818.jpg"
+    },
+    {
+      "title": "As Pakistan seeks to broker U.S.–Iran peace, citizens watch for gains at home",
+      "url": "https://www.npr.org/2026/04/21/nx-s1-5791760/as-pakistan-seeks-to-broker-u-s-iran-peace-citizens-watch-for-gains-at-home",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Tue, 21 Apr 2026 16:10:44 -0400",
+      "summary": "As Pakistan works to broker peace between the U.S. and Iran, many Pakistanis are watching closely to see whether the diplomatic boost will translate into improvements at home.",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "Florida AG launches criminal investigation into ChatGPT over FSU shooting",
+      "url": "https://www.npr.org/2026/04/21/nx-s1-5793967/florida-openai-investigation-mass-shooting-fsu",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Tue, 21 Apr 2026 16:02:06 -0400",
+      "summary": "Florida's attorney general is launching a criminal investigation into the alleged role of ChatGPT in a mass shooting at Florida State University last year.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5000x3333+0+0/resize/5000x3333!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F2b%2F92%2Fb8d60d554b669b9070a5a7fb31e9%2Fgettyimages-2210117281.jpg"
+    },
+    {
+      "title": "Macron urges Israel to abandon 'territorial ambitions' in Lebanon",
+      "url": "https://www.chinadaily.com.cn/a/202604/22/WS69e825aca310d6866eb44cb0.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-04-22",
+      "summary": "PARIS - French President Emmanuel Macron said Tuesday that Israel must \"renounce its territorial ambitions\" in Lebanon, calling for a political settlement to ensure regional stability.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202604/22/69e825aca310d68600fc1a6e.png"
+    },
+    {
+      "title": "UN voices hope for US-Iran talks resumption",
+      "url": "https://www.chinadaily.com.cn/a/202604/22/WS69e8204da310d6866eb44c2d.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-04-22",
+      "summary": "UNITED NATIONS - The United Nations hopes for the resumption of talks between the United States and Iran and the extension of the current ceasefire, a UN spokesman said Tuesday.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202604/22/69e8204da310d68600fc17e3.jpeg"
+    },
+    {
+      "title": "US mayor's Shanghai visit renews cooperation",
+      "url": "https://www.chinadaily.com.cn/a/202604/21/WS69e6d8b5a310d6866eb44976.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-04-21",
+      "summary": "The mayor of San Francisco, Daniel Lurie, pledged to deepen the 46-year sister-city relationship with Shanghai during his two-day visit beginning on Sunday, his first international trip since taking office in January.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202604/21/69e6d8b5a310d68600fc09d4.png"
+    },
+    {
+      "title": "Trump extends US ceasefire with Iran",
+      "url": "https://www.chinadaily.com.cn/a/202604/22/WS69e7e52ca310d6866eb44b70.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-04-22",
+      "summary": "WASHINGTON - US President Donald Trump said Tuesday he will extend the ceasefire with Iran as the current two-week truce is set to expire on Wednesday night.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202604/22/69e81bb9a310d68600fc1694.jpeg"
+    },
+    {
+      "title": "China's aid role growing, Oxford researcher says",
+      "url": "https://www.chinadaily.com.cn/a/202604/21/WS69e7986ba310d6866eb44b55.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-04-21",
+      "summary": "China plays an increasingly important role in international humanitarian efforts as the global aid system undergoes a painful \"reset\" marked by shrinking resources and rising needs, a senior British researcher has said.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202604/21/69e7986ba310d68600fc136e.jpeg"
+    },
+    {
+      "title": "BJP seeks Election Commission action against Congress chief Kharge for remark on PM",
+      "url": "https://www.thehindu.com/news/national/bjp-seeks-election-commission-action-against-congress-chief-kharge-for-remark-on-pm/article70889542.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-04-21T16:57:02.000Z",
+      "summary": "BJP demands Election Commission action against Congress chief Kharge for calling PM Modi a \"terrorist\" during a press conference.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/hk08ro/article70890060.ece/alternates/LANDSCAPE_1200/DSC_0323.JPG"
+    },
+    {
+      "title": "Development initiatives, capacity building will be in focus at fourth India-Africa Forum Summit",
+      "url": "https://www.thehindu.com/news/national/development-initiatives-capacity-building-will-be-in-focus-at-fourth-india-africa-forum-summit/article70889843.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-04-21T17:04:47.000Z",
+      "summary": "The Fourth India-Africa Forum Summit will emphasize development, education, and diplomatic ties, fostering stronger India-Africa relations.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/kk5cp3/article70890073.ece/alternates/LANDSCAPE_1200/23_India_Africa_Summit_29_10_Del.jpg"
+    },
+    {
+      "title": "Supreme Court directs panel to formulate plan for disabled-friendly prisons",
+      "url": "https://www.thehindu.com/news/national/supreme-court-directs-panel-to-formulate-plan-for-disabled-friendly-prisons/article70889394.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-04-21T16:32:51.000Z",
+      "summary": "Supreme Court directs committee to create a plan for making prisons accessible and supportive for disabled inmates.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/news/national/p0g9w/article67415686.ece/alternates/LANDSCAPE_1200/IMG_IMG_SUPREMECOURT-NKV_2_1_2OBPIUSL.jpg"
+    },
+    {
+      "title": "Can we expect a believer to follow any age-old practice in the modern era, asks Supreme Court",
+      "url": "https://www.thehindu.com/news/national/can-we-expect-a-believer-to-follow-any-age-old-practice-in-the-modern-era-asks-supreme-court/article70889837.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-04-21T17:18:29.000Z",
+      "summary": "Supreme Court questions whether modern believers should adhere to age-old practices amidst evolving education and rationality in religion.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/e9t4bi/article70889909.ece/alternates/LANDSCAPE_1200/6663_16_11_2021_18_55_35_1_SABARIMALA01.JPG"
+    },
+    {
+      "title": "Yogi leads march against Opposition; Akhilesh predicts U.P. poll defeat",
+      "url": "https://www.thehindu.com/news/national/uttar-pradesh/yogi-leads-march-against-opposition-akhilesh-predicts-up-poll-defeat/article70889867.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-04-21T21:50:00.000Z",
+      "summary": "Yogi Adityanath leads a protest against opposition parties over women&#039;s quota bill defeat, while Akhilesh Yadav predicts governance shift in U.P.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/ea7k3x/article70890338.ece/alternates/LANDSCAPE_1200/20260421087L.jpg"
+    },
+    {
+      "title": "US will indefinitely extend ceasefire, unclear if Iran agrees",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWFZJOE9ma2lEV3F2d1E2Q1hrelFLSVBqQ1otM2dSSm9GRXRQbE84bl9sd3NhNVhPZzhsdF9WdXVwMVlXem51bmlKWnFJamttSG8wdnN2eTM1VHFMRmZFOWI4R3JPZ3dUSWQtd0pIRmZ3dTl5OTJpUDVpaUpFZkFwTzdhQWVRSVJiT3JMS05UOGNaWmttdUQxQ00yN2N0UzdpWi1vMmZySnBVRjZqb05DOXNVMTZlQQ?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Wed, 22 Apr 2026 01:29:00 GMT",
+      "summary": null,
+      "thumbnailUrl": null
+    },
+    {
+      "title": "Florida launches criminal probe into OpenAI and ChatGPT over deadly shooting",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSHBhZWNJTTg2V29MelhaU0RKSFVrZldSdXNwRUNISVBHMkk1TGF6eW1jV1hENzdCOHVJbWJOU0F4Zl9vWWVzY2FLRU55em92M3gtN3Bzel9TWENlRHM5dS0wR25jMklIaDl0WGRyMklxaDNOdHNHeWg5QnNNNV9RcFV2ZDJNaHRURktXNXZxRFVCZ2Q4blQ0M3Q0SkdZTk4xOVNFcTR1c0NyTndxcWluX2plWGlGT0RZ?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Tue, 21 Apr 2026 22:48:00 GMT",
+      "summary": null,
+      "thumbnailUrl": null
+    },
+    {
+      "title": "Exclusive: SpaceX says unproven AI space data centers may not be commercially viable, filing shows",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQQVQ3MHFteUExUWdrUFZyX1BIODRDYXUxeWVvUXF3ajdPbGhZT1kzcTdKRUtzSGtIZWRmR193dXZ5SDg2bHJvX2VKMFRLX1Z3RkNaMUtsZk9qbDYtcmdTTzRzX1dLYUNlTzVWWk4wMzlCcVVYYk9yc2oySllMc0FFSUFKUWV3M1Bpd0kydjNHRzUxaEd5amswODFURDlPN0diVHhDemk2dWVhUlNaQU1iYzdpQnlSYTJOSUg0YjV1NA?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Tue, 21 Apr 2026 21:25:47 GMT",
+      "summary": null,
+      "thumbnailUrl": null
+    },
+    {
+      "title": "US criminally charges Southern Poverty Law Center, Blanche says",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSlNsWkU5ajFZNFBvamJHckZBelRCOXZleElTdVJ4YzlJeG9lTDBjV0ItRWRYU2ctTGJZWE9iekIyNXVmWnQyQWJ5bldxSGFlUUVOZkV6NDlHNDVSQXQtZ0NoSTV5NFFpcHh6RHNTWlNiZjBLQnctaXpqeWhnMlJQZUVzSTlNaVV5dlpXTFBIeHNjdUpXV2FYQkpmV3BZNXpkWUwtZ0FTOA?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Tue, 21 Apr 2026 21:57:13 GMT",
+      "summary": null,
+      "thumbnailUrl": null
+    },
+    {
+      "title": "Military planners to discuss Hormuz reopening in London",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPTkNEVFR1dFd1aWxhZ1I3Y0RhQVczNjhpTnNKWVhxZzBEemU2YlBrcWxON1ZpelZldVNZTU1KVXJVazFLQ0FwcU95NnhlQXpEWjFTSkdUUkh6ai1sZXdNTEpsRGUwLTU1M2doR3hxMENWeHFCN3BadXFLYTRMMFA1ZzQzLVhwTWNSbEZ0ZXd0cEFfczAtZGc?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Tue, 21 Apr 2026 23:17:45 GMT",
+      "summary": null,
+      "thumbnailUrl": null
+    }
+  ],
+  "markets": [
+    {
+      "id": "sp-500",
+      "label": "S&P 500",
+      "region": "US",
+      "symbol": "^GSPC",
+      "value": 7064.01,
+      "previousClose": 7109.14037,
+      "change": -45.13037,
+      "percentChange": -0.6348218,
+      "direction": "down",
+      "sessionDate": "2026-04-22"
+    },
+    {
+      "id": "nasdaq-composite",
+      "label": "NASDAQ Composite",
+      "region": "US",
+      "symbol": "^IXIC",
+      "value": 24259.96,
+      "previousClose": 24404.38773,
+      "change": -144.42773,
+      "percentChange": -0.5918104,
+      "direction": "down",
+      "sessionDate": "2026-04-22"
+    },
+    {
+      "id": "euronext-100",
+      "label": "Euronext 100 Index",
+      "region": "Europe",
+      "symbol": "^N100",
+      "value": 1822.6,
+      "previousClose": 1838.6600589999998,
+      "change": -16.060059,
+      "percentChange": -0.87346536,
+      "direction": "down",
+      "sessionDate": "2026-04-22"
+    },
+    {
+      "id": "moex",
+      "label": "Public Joint-Stock Company Moscow Exchange MICEX-RTS",
+      "region": "Europe",
+      "symbol": "MOEX.ME",
+      "value": 85.2,
+      "previousClose": 85.31000061,
+      "change": -0.11000061,
+      "percentChange": -0.12894222,
+      "direction": "down",
+      "sessionDate": "2026-04-22"
+    },
+    {
+      "id": "hang-seng",
+      "label": "HANG SENG INDEX",
+      "region": "Asia",
+      "symbol": "^HSI",
+      "value": 26100.53,
+      "previousClose": 26487.48117,
+      "change": -386.95117,
+      "percentChange": -1.4608833,
+      "direction": "down",
+      "sessionDate": "2026-04-22"
+    },
+    {
+      "id": "nikkei-225",
+      "label": "Nikkei 225",
+      "region": "Asia",
+      "symbol": "^N225",
+      "value": 59653.56,
+      "previousClose": 59349.173279999995,
+      "change": 304.38672,
+      "percentChange": 0.5128744,
+      "direction": "up",
+      "sessionDate": "2026-04-22"
+    },
+    {
+      "id": "sensex",
+      "label": "S&P BSE SENSEX",
+      "region": "India",
+      "symbol": "^BSESN",
+      "value": 79273.33,
+      "previousClose": 78520.29875,
+      "change": 753.03125,
+      "percentChange": 0.9590275,
+      "direction": "up",
+      "sessionDate": "2026-04-22"
+    }
+  ],
+  "hackerNews": [
+    {
+      "title": "ChatGPT Images 2.0",
+      "url": "https://openai.com/index/introducing-chatgpt-images-2-0/",
+      "publishedAt": "2026-04-21T18:50:00.000Z"
+    },
+    {
+      "title": "SpaceX says it has agreement to acquire Cursor for $60B",
+      "url": "https://twitter.com/spacex/status/2046713419978453374",
+      "publishedAt": "2026-04-21T22:13:18.000Z"
+    },
+    {
+      "title": "The Vercel breach: OAuth attack exposes risk in platform environment variables",
+      "url": "https://www.trendmicro.com/en_us/research/26/d/vercel-breach-oauth-supply-chain.html",
+      "publishedAt": "2026-04-21T17:14:35.000Z"
+    },
+    {
+      "title": "San Diego rents declined more than 19 of 20 top US markets after surge in supply",
+      "url": "https://www.kpbs.org/news/economy/2026/03/27/san-diego-rents-declined-more-than-19-of-nations-top-20-markets-following-surge-in-supply",
+      "publishedAt": "2026-04-22T01:21:09.000Z"
+    },
+    {
+      "title": "CrabTrap: An LLM-as-a-judge HTTP proxy to secure agents in production",
+      "url": "https://www.brex.com/crabtrap",
+      "publishedAt": "2026-04-21T15:29:16.000Z"
+    },
+    {
+      "title": "Britannica11.org – a structured edition of the 1911 Encyclopædia Britannica",
+      "url": "https://britannica11.org/",
+      "publishedAt": "2026-04-21T17:33:50.000Z"
+    },
+    {
+      "title": "Laws of Software Engineering",
+      "url": "https://lawsofsoftwareengineering.com",
+      "publishedAt": "2026-04-21T11:04:56.000Z"
+    },
+    {
+      "title": "Framework Laptop 13 Pro",
+      "url": "https://frame.work/laptop13pro",
+      "publishedAt": "2026-04-21T18:00:34.000Z"
+    },
+    {
+      "title": "Drunk Post: Things I've Learned as a Senior Engineer",
+      "url": "https://luminousmen.substack.com/p/drunk-post-things-ive-learned-as",
+      "publishedAt": "2026-04-21T23:53:45.000Z"
+    },
+    {
+      "title": "Cal.diy: open-source community edition of cal.com",
+      "url": "https://github.com/calcom/cal.diy",
+      "publishedAt": "2026-04-21T17:58:21.000Z"
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "Magic Lane",
+      "tagline": "Sovereign navigation infrastructure for Europe Discussion | Link",
+      "url": "https://www.producthunt.com/products/magic-lane",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-04-21T20:02:25-07:00"
+    },
+    {
+      "name": "Magic Layers by Canva",
+      "tagline": "Turn any flat image into a fully editable design Discussion | Link",
+      "url": "https://www.producthunt.com/products/magic-layers-by-canva",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-04-21T20:02:24-07:00"
+    },
+    {
+      "name": "Pegkits",
+      "tagline": "Never lose your clipboard again Discussion | Link",
+      "url": "https://www.producthunt.com/products/pegkits",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-04-21T19:22:52-07:00"
+    },
+    {
+      "name": "Chronicle",
+      "tagline": "Build Codex memories from recent screen context. Discussion | Link",
+      "url": "https://www.producthunt.com/products/openai",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-04-21T20:02:23-07:00"
+    },
+    {
+      "name": "My Race Tracker",
+      "tagline": "Track your races. Not your ego. Discussion | Link",
+      "url": "https://www.producthunt.com/products/my-race-tracker",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-04-21T20:05:57-07:00"
+    }
+  ],
+  "sourceNotes": {
+    "generatedAt": "2026-04-22T03:09:47.575Z",
+    "timeZone": "Asia/Kolkata",
+    "successfulSources": [
+      "New York Times",
+      "Al Jazeera",
+      "NPR",
+      "China Daily",
+      "The Hindu",
+      "Reuters"
+    ],
+    "marketSessionLabel": "Latest market sessions as of 2026-04-22",
+    "warnings": []
+  }
+}
