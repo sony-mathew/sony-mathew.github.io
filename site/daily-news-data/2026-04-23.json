@@ -1,0 +1,463 @@
+{
+  "headlines": [
+    {
+      "title": "Iran War Live Updates: Reported Seizure of Ships Injects New Uncertainty Over Peace Talks",
+      "url": "https://www.nytimes.com/live/2026/04/22/world/iran-war-trump-ceasefire-talks",
+      "source": "New York Times",
+      "region": "Global",
+      "publishedAt": "Thu, 23 Apr 2026 02:46:59 +0000",
+      "summary": "Iran’s Revolutionary Guards said they had seized two ships near the Strait of Hormuz. A Trump spokeswoman said the president did not view those actions as violating the cease-fire.",
+      "thumbnailUrl": "https://static01.nyt.com/images/2026/04/22/multimedia/22israel-iran-promo9p-mjpw/22israel-iran-promo9p-mjpw-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "Threat of Evictions Darkens Russia’s Rosy Picture of Occupied Ukraine",
+      "url": "https://www.nytimes.com/2026/04/22/world/europe/russia-occupied-territories-mariupol.html",
+      "source": "New York Times",
+      "region": "Global",
+      "publishedAt": "Wed, 22 Apr 2026 09:00:22 +0000",
+      "summary": "A new law forces Ukrainians in the captured regions to get Russian title deeds or risk losing their homes.",
+      "thumbnailUrl": "https://static01.nyt.com/images/2026/04/22/multimedia/22int-russia-mariupol-03-pgzf/22int-russia-mariupol-03-pgzf-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "To Iran, Trump Blinked First by Extending the Cease-Fire",
+      "url": "https://www.nytimes.com/2026/04/22/world/middleeast/iran-trump-ceasefire.html",
+      "source": "New York Times",
+      "region": "Global",
+      "publishedAt": "Wed, 22 Apr 2026 19:00:11 +0000",
+      "summary": "Iran’s leaders believe that they can withstand an enduring standoff longer than President Trump. The strategy could be economically devastating for average Iranians.",
+      "thumbnailUrl": "https://static01.nyt.com/images/2026/04/22/multimedia/22iran-brinkmanship-assess-gwhb/22iran-brinkmanship-assess-gwhb-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "Pope Leo Is Skipping Some of Africa’s Biggest Catholic Nations",
+      "url": "https://www.nytimes.com/2026/04/22/world/africa/pope-leo-visit-snubbed.html",
+      "source": "New York Times",
+      "region": "Global",
+      "publishedAt": "Wed, 22 Apr 2026 18:57:10 +0000",
+      "summary": "As the pontiff arrives in the tiny authoritarian nation of Equatorial Guinea, some Catholics in Africa say they are excited about his visit but are feeling a little left out.",
+      "thumbnailUrl": "https://static01.nyt.com/images/2026/04/20/multimedia/20int-pope-africa-snubbed-1-cjhp/20int-pope-africa-snubbed-1-cjhp-mediumSquareAt3X-v2.jpg"
+    },
+    {
+      "title": "A Year After Terrorist Attack, a Kashmir Town Longs for Tourists",
+      "url": "https://www.nytimes.com/2026/04/22/world/asia/kashmir-attacks-kashmir-india.html",
+      "source": "New York Times",
+      "region": "Global",
+      "publishedAt": "Wed, 22 Apr 2026 04:00:09 +0000",
+      "summary": "Pahalgam, with steep ravines, grassy hillsides and pine forests, is a base for Hindu pilgrimages that business operators hope will revive visitors.",
+      "thumbnailUrl": "https://static01.nyt.com/images/2026/04/22/multimedia/22india-kashmir-01-klqp/22india-kashmir-01-klqp-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "‘Blockade and threats’: Iran blames US siege of ports for stalled talks",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/4/23/iran-war-live-israel-kills-lebanese-journalist-tehran-us-talks-stalled",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-04-23",
+      "summary": null,
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/04/AA-20260420-41161393-41161369-DISPLACED_LEBANESE_BEGIN_RETURNING_HOME_AFTER_CEASEFIRE-1776900162.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "South American migrants deported to DRC say facing pressure to return home",
+      "url": "https://www.aljazeera.com/news/2026/4/22/south-american-migrants-deported-to-drc-say-facing-pressure-to-return-home",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-04-22",
+      "summary": null,
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/04/AP25240512649654-1776895272.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Top ministers quit after Peru’s president postpones F-16 fighter jet deal",
+      "url": "https://www.aljazeera.com/news/2026/4/22/top-ministers-quit-after-perus-president-postpones-f-16-fighter-jet-deal",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-04-22",
+      "summary": null,
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/04/ap_69e94d1339079-1776897299.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Prediction market Kalshi docks three US candidates for betting on own races",
+      "url": "https://www.aljazeera.com/news/2026/4/22/prediction-market-kalshi-docks-three-us-candidates-for-betting-on-own-races",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-04-22",
+      "summary": null,
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/04/AP26062658565265-1776889705.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Turkiye making efforts to revive Russia-Ukraine talks, says Erdogan",
+      "url": "https://www.aljazeera.com/news/2026/4/22/turkiye-making-efforts-to-revive-russia-ukraine-talks-says-erdogan",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-04-22",
+      "summary": null,
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/04/afp_69e924c2e431-1776886978.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Chemical leak at a W.Va. plant kills 2 people, sends 30 more to hospitals, officials say",
+      "url": "https://www.npr.org/2026/04/22/g-s1-118416/chemical-leak-west-virginia-institute",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Wed, 22 Apr 2026 20:36:50 -0400",
+      "summary": "The leak occurred at the Catalyst Refiners plant, a silver recovery business. An emergency management official says workers were preparing to shut down at least part of the facility when the leak occurred, causing a chemical gas reaction.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4031x2688+0+0/resize/4031x2688!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F82%2Fc4%2Fe616acae4c8e8800af4a7ea06d15%2Fap26112701756235.jpg"
+    },
+    {
+      "title": "Pentagon says Navy secretary is leaving, the latest departure of a top defense leader",
+      "url": "https://www.npr.org/2026/04/22/g-s1-118406/navy-secretary-john-phelan-leaving-undersecretary-hung-cao",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Wed, 22 Apr 2026 19:30:41 -0400",
+      "summary": "Pentagon spokesman Sean Parnell said John Phelan, the Navy's top civilian official, was \"departing the administration, effective immediately.\" Navy Undersecretary Hung Cao will become acting secretary of the Navy.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3428x2285+0+0/resize/3428x2285!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F2e%2F22%2Fc31413a040bb87f67c23f09fd57c%2Fap26112779802872.jpg"
+    },
+    {
+      "title": "Tesla's making money. But it's planning to spend an awful lot more",
+      "url": "https://www.npr.org/2026/04/22/nx-s1-5791653/tesla-earnings-first-quarter-2026",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Wed, 22 Apr 2026 19:23:43 -0400",
+      "summary": "Tesla's profits were up from this time last year. But the company warned investors to prepare for expensive investments in next-generation technology like humanoid robots and AI.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8640x5760+0+0/resize/8640x5760!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fc3%2Fd0%2F958da01c47a79bd0d0b9699851b9%2Fap26106115433445.jpg"
+    },
+    {
+      "title": "The tariff refund process has begun for businesses. What about customers?",
+      "url": "https://www.npr.org/2026/04/22/nx-s1-5791663/the-tariff-refund-customers",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Wed, 22 Apr 2026 13:32:09 -0400",
+      "summary": "While shipping companies are pledging refunds for customers who directly paid tariff fees, the situation is much trickier for retailers.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/7327x4885+0+0/resize/7327x4885!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F20%2Fd7%2F93e17fa0451f84a31453f9adf367%2Fap26076097194483.jpg"
+    },
+    {
+      "title": "Inside Linda McMahon's effort to dismantle the Department of Education",
+      "url": "https://www.npr.org/2026/04/22/nx-s1-5794689/from-professional-wrestling-to-the-department-of-education-inside-linda-mcmahons-effort-to-dismantle-the-department-of-education",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Wed, 22 Apr 2026 11:21:52 -0400",
+      "summary": "A former pro-wrestling executive, McMahon is now the education secretary Trump tasked with abolishing the agency. New Yorker writer Zach Helfand explains how her WWE experience led her to this role.",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "Mutual gains via Five-Year Plan welcomed",
+      "url": "https://www.chinadaily.com.cn/a/202604/23/WS69e977d2a310d6866eb450bb.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-04-23",
+      "summary": "China and the US can create a better future for relations, Chinese Ambassador to the United States Xie Feng said on Monday, calling on the nations to seize the opportunities presented by China's 15th Five-Year Plan (2026-30).",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202604/23/69e977d2a310d68600fc2d84.png"
+    },
+    {
+      "title": "Shared future envisioned in outline",
+      "url": "https://www.chinadaily.com.cn/a/202604/22/WS69e8eb79a310d6866eb44f46.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-04-22",
+      "summary": "Fifty measures were unveiled on Wednesday at the third High-Level Conference of the Forum on Global Action for Shared Development, underscoring China's commitment to advancing global development.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202604/23/69e95609a310d68600fc29a9.jpeg"
+    },
+    {
+      "title": "UK inflation rises sharply as impact of Iran war felt",
+      "url": "https://www.chinadaily.com.cn/a/202604/23/WS69e92644a310d6866eb44f5d.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-04-23",
+      "summary": "The Iran war and resulting hike in the price of oil has caused a sharp increase in the United Kingdom's inflation rate, pushing it up from 3 percent in February to 3.3 percent in the year to March.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202604/23/69e92643a310d68600fc285a.jpeg"
+    },
+    {
+      "title": "Cambodian PM meets with Chinese foreign minister, defense minister",
+      "url": "https://www.chinadaily.com.cn/a/202604/23/WS69e96672a310d6866eb44fc5.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-04-23",
+      "summary": "PHNOM PENH - Cambodian Prime Minister Hun Manet met with Chinese Foreign Minister Wang Yi and Defense Minister Dong Jun on Wednesday here in Phnom Penh, capital of Cambodia, vowing to further deepen bilateral ties and cooperation.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202604/23/69e96672a310d68600fc2a60.jpeg"
+    },
+    {
+      "title": "Europe's defense vulnerable to US cloud providers",
+      "url": "https://www.chinadaily.com.cn/a/202604/23/WS69e928f1a310d6866eb44f61.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-04-23",
+      "summary": "Most European countries rely on United States-based cloud services for national defense, creating the strategic risk of a \"kill switch\" that could disable systems, a new analysis concludes.",
+      "thumbnailUrl": "https://www.chinadaily.com.cn/image_e/2020/logo21.jpg"
+    },
+    {
+      "title": "Shutdowns by ethnic groups disrupt normal life in most parts of Manipur",
+      "url": "https://www.thehindu.com/news/national/manipur/shutdowns-by-ethnic-groups-disrupt-normal-life-in-most-parts-of-manipur/article70894068.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-04-22T17:03:22.000Z",
+      "summary": "Shutdowns by ethnic groups in Manipur disrupt daily life amid ongoing protests over recent violence and government inaction.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/xeh5qg/article70894308.ece/alternates/LANDSCAPE_1200/20260422286L.jpg"
+    },
+    {
+      "title": "On Pahalgam attack anniversary, Army says ‘response is assured’ against acts of terror",
+      "url": "https://www.thehindu.com/news/national/on-pahalgam-attack-anniversary-army-says-response-is-assured-against-acts-of-terror/article70892488.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-04-22T10:51:18.000Z",
+      "summary": "On Pahalgam attack anniversary, Indian Army vows assured response to terrorism, emphasizing ongoing Operation Sindoor and high military readiness.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/i1wpla/article70892525.ece/alternates/LANDSCAPE_1200/PTI01_26_2026_000115B.jpg"
+    },
+    {
+      "title": "India will never bow before forces spreading hatred, fear: Rahul on Pahalgam attack anniversary",
+      "url": "https://www.thehindu.com/news/national/india-will-never-bow-before-forces-spreading-hatred-fear-rahul-on-pahalgam-attack-anniversary/article70891811.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-04-22T07:19:45.000Z",
+      "summary": "Congress emphasizes India&#039;s unity against terrorism on the Pahalgam attack anniversary, honoring victims and criticizing government foreign policy failures.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/ycqvzx/article70892735.ece/alternates/LANDSCAPE_1200/PTI04_22_2026_000137A.jpg"
+    },
+    {
+      "title": "Congress candidate moves SC against telecast of PM’s address",
+      "url": "https://www.thehindu.com/news/national/congress-candidate-moves-supreme-court-against-telecast-of-pm-modis-address/article70893967.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-04-22T17:28:34.000Z",
+      "summary": "Congress candidate T.N. Prathapan petitions Supreme Court against PM Modi&#039;s partisan address, alleging misuse of state media during elections.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/a9n8ia/article70894360.ece/alternates/LANDSCAPE_1200/PTI04_18_2026_000770A.jpg"
+    },
+    {
+      "title": "Pahalgam terror attack: Govt appoints Karambir Singh Nalwa as Special Public Prosecutor to lead trial",
+      "url": "https://www.thehindu.com/news/national/pahalgam-terror-attack-govt-appoints-karambir-singh-nalwa-as-special-public-prosecutor-to-lead-trial/article70894456.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-04-22T18:39:44.000Z",
+      "summary": "Government appoints Karambir Singh Nalwa as Special Public Prosecutor for trial in Pahalgam terror attack case involving Lashkar-e-Taiba.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/frs15k/article70894467.ece/alternates/LANDSCAPE_1200/12205_23_4_2025_13_44_18_4_56_MILITANT_ATTACK_SGR_23_04_2025.JPG"
+    },
+    {
+      "title": "US Navy Secretary Phelan fired, sources say",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQY1dJUkJxeF9xUm1RdzhPRjdwTk02dkV4MXFlcnA0ZjN3eXIyNTBEb1htMUhwbHdLOW90c3QxQmkyX3ZBVDBOb1hJY2hnMWx3djVMSVk4amRPbjRTV3RSYV9kQ3YtVTZad1lDb00xSEh4WWZnNFBiUFI1bTkxakw2Rnh5N05WVzNIX0xfNlktX2paN05ROXV1RERDalA?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Wed, 22 Apr 2026 22:10:00 GMT",
+      "summary": null,
+      "thumbnailUrl": null
+    },
+    {
+      "title": "Cause of death revealed for teen who authorites say was killed by D4vd",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQREpPTUt3Mm1xd2FTMUhOZFRCQzdYNXZMbmVtbDBzNVZCSFFENThpVVBCS1hDU2pVR2NRemNQcEdUQ3JzX0VxXzAycWJ4OVZXSUhURTFQNlJsak9sT3hOOXNneGNwLW41Rk1abGJtX2NNVWlIYkw5cW5xWnJmTG1jemVpVVV5clZfWEU5V2pfajlzZUZQNXdqejMzdmFfbVltTEdQRWljdlFOR3pq?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Wed, 22 Apr 2026 22:11:23 GMT",
+      "summary": null,
+      "thumbnailUrl": null
+    },
+    {
+      "title": "Trump envoy seeks to replace Iran with Italy in upcoming World Cup, FT reports",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQQm45aVJMRGdYRzVjRHdrOE9LNWc1ZnZSTTlSc3l5a1ZHQWMzQjVRX2JWYWRXNUVoanNUZ0lSMk9IT2RvVnBoS2hoMDFXSTBMTl8zcl9RZEMxRWE1SlVhMUh1MWhrT2hjVVZ4ckdVNUpER0lMczRVOWxCdk9oLUhETjZtLVdzSm14cEo0T0lfM3pyV0tmWWVCTWd3YmpPaXpkWEY0bm5oYmkxdHFLNTlOUzhjSnZNeVk?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Wed, 22 Apr 2026 21:48:22 GMT",
+      "summary": null,
+      "thumbnailUrl": null
+    },
+    {
+      "title": "US House Oversight members divided on Ghislaine Maxwell pardon, chairman says",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNDg3cDdiN3ZXUzRqeXhxb015OVhyZmM2R1NudEktY2UxbVNVaWwxYkpfWnFfenBtc2Yyc1czcE5BcGhiU0lfbV9CRzhUY1ZDcFRRZmN6YjFNOWp3TDQxSGZ5eUdiRldWOEhoWE5LMko4U3lRZnI3UDBFMFp4LUZtNkEyX0c4aVBQVzdNUVMtNjZ6WUlVMVloVUQzUUpFTk9nVF9fc2JidXE0MFpSRGxKRGJmdUs3d0FIUExLSWtyWTg?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Wed, 22 Apr 2026 21:31:00 GMT",
+      "summary": null,
+      "thumbnailUrl": null
+    },
+    {
+      "title": "Exclusive: US intercepts three Iranian oil tankers in Asian waters, sources say",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOY0dac0FOcTVjR1h4cW5PS0FxVVdkRUlsU3VfMWdZOVRialU3S3cxNl9ZOVZOOWtMekJsdWFnZ21aNENlaFA1Q3E5QlQ3NE5Ea0lYdDVteU5RWGNpNTU2OHhZMzZCZGJiRXZPTnFwWVluT20wUWxVMHA4Q2NfM21IWlB0OWxiblY0cTlzY29KWkpiQUpVcWtkVnNscjBKX2hKTjRESld1b3ZxY0NsOHFYV1RLbVpRdmN4OXc?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Wed, 22 Apr 2026 21:36:50 GMT",
+      "summary": null,
+      "thumbnailUrl": null
+    }
+  ],
+  "markets": [
+    {
+      "id": "sp-500",
+      "label": "S&P 500",
+      "region": "US",
+      "symbol": "^GSPC",
+      "value": 7137.9,
+      "previousClose": 7064.009859999999,
+      "change": 73.89014,
+      "percentChange": 1.0460085,
+      "direction": "up",
+      "sessionDate": "2026-04-23"
+    },
+    {
+      "id": "nasdaq-composite",
+      "label": "NASDAQ Composite",
+      "region": "US",
+      "symbol": "^IXIC",
+      "value": 24657.57,
+      "previousClose": 24259.96844,
+      "change": 397.60156,
+      "percentChange": 1.6389205,
+      "direction": "up",
+      "sessionDate": "2026-04-23"
+    },
+    {
+      "id": "euronext-100",
+      "label": "Euronext 100 Index",
+      "region": "Europe",
+      "symbol": "^N100",
+      "value": 1813.91,
+      "previousClose": 1822.5999410000002,
+      "change": -8.689941,
+      "percentChange": -0.4767882,
+      "direction": "down",
+      "sessionDate": "2026-04-23"
+    },
+    {
+      "id": "moex",
+      "label": "Public Joint-Stock Company Moscow Exchange MICEX-RTS",
+      "region": "Europe",
+      "symbol": "MOEX.ME",
+      "value": 85.2,
+      "previousClose": 85.31000061,
+      "change": -0.11000061,
+      "percentChange": -0.12894222,
+      "direction": "down",
+      "sessionDate": "2026-04-23"
+    },
+    {
+      "id": "hang-seng",
+      "label": "HANG SENG INDEX",
+      "region": "Asia",
+      "symbol": "^HSI",
+      "value": 25941.54,
+      "previousClose": 26163.24117,
+      "change": -221.70117,
+      "percentChange": -0.8473766,
+      "direction": "down",
+      "sessionDate": "2026-04-23"
+    },
+    {
+      "id": "nikkei-225",
+      "label": "Nikkei 225",
+      "region": "Asia",
+      "symbol": "^N225",
+      "value": 58952.11,
+      "previousClose": 59585.86,
+      "change": -633.75,
+      "percentChange": -1.0635912,
+      "direction": "down",
+      "sessionDate": "2026-04-23"
+    },
+    {
+      "id": "sensex",
+      "label": "S&P BSE SENSEX",
+      "region": "India",
+      "symbol": "^BSESN",
+      "value": 78516.49,
+      "previousClose": 79273.32594000001,
+      "change": -756.83594,
+      "percentChange": -0.954717,
+      "direction": "down",
+      "sessionDate": "2026-04-23"
+    }
+  ],
+  "hackerNews": [
+    {
+      "title": "Alberta startup sells no-tech tractors for half price",
+      "url": "https://wheelfront.com/this-alberta-startup-sells-no-tech-tractors-for-half-price/",
+      "publishedAt": "2026-04-22T16:29:25.000Z"
+    },
+    {
+      "title": "Apple fixes bug that cops used to extract deleted chat messages from iPhones",
+      "url": "https://techcrunch.com/2026/04/22/apple-fixes-bug-that-cops-used-to-extract-deleted-chat-messages-from-iphones/",
+      "publishedAt": "2026-04-22T20:27:31.000Z"
+    },
+    {
+      "title": "We found a stable Firefox identifier linking all your private Tor identities",
+      "url": "https://fingerprint.com/blog/firefox-tor-indexeddb-privacy-vulnerability/",
+      "publishedAt": "2026-04-22T17:35:03.000Z"
+    },
+    {
+      "title": "Qwen3.6-27B: Flagship-Level Coding in a 27B Dense Model",
+      "url": "https://qwen.ai/blog?id=qwen3.6-27b",
+      "publishedAt": "2026-04-22T13:19:58.000Z"
+    },
+    {
+      "title": "Tempest vs. Tempest: The Making and Remaking of Atari's Iconic Video Game",
+      "url": "https://tempest.homemade.systems",
+      "publishedAt": "2026-04-23T01:02:32.000Z"
+    },
+    {
+      "title": "Over-editing refers to a model modifying code beyond what is necessary",
+      "url": "https://nrehiew.github.io/blog/minimal_editing/",
+      "publishedAt": "2026-04-22T17:51:17.000Z"
+    },
+    {
+      "title": "Website streamed live directly from a model",
+      "url": "https://flipbook.page/",
+      "publishedAt": "2026-04-22T18:01:18.000Z"
+    },
+    {
+      "title": "OpenAI's response to the Axios developer tool compromise",
+      "url": "https://openai.com/index/axios-developer-tool-compromise/",
+      "publishedAt": "2026-04-23T00:45:01.000Z"
+    },
+    {
+      "title": "Technical, cognitive, and intent debt",
+      "url": "https://martinfowler.com/fragments/2026-04-02.html",
+      "publishedAt": "2026-04-22T16:11:23.000Z"
+    },
+    {
+      "title": "Our eighth generation TPUs: two chips for the agentic era",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/eighth-generation-tpu-agentic-era/",
+      "publishedAt": "2026-04-22T12:15:29.000Z"
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "Seeknal",
+      "tagline": "Data & AI/ML CLI for pipelines and NL queries Discussion | Link",
+      "url": "https://www.producthunt.com/products/seeknal",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-04-22T15:49:20-07:00"
+    },
+    {
+      "name": "Cavalry Studio",
+      "tagline": "Free Motion Design tool by Canva Discussion | Link",
+      "url": "https://www.producthunt.com/products/cavalry-2",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-04-22T20:02:25-07:00"
+    },
+    {
+      "name": "Portt",
+      "tagline": "Transform your photo into any era and any location Discussion | Link",
+      "url": "https://www.producthunt.com/products/portt-time-travel-for-ios",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-04-22T20:02:25-07:00"
+    },
+    {
+      "name": "Iris Studio",
+      "tagline": "The Swiss Army Knife for AI & Video Creators Discussion | Link",
+      "url": "https://www.producthunt.com/products/iris-studio",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-04-22T19:35:07-07:00"
+    },
+    {
+      "name": "Wrangle",
+      "tagline": "The markdown editor that understands CLAUDE.md Discussion | Link",
+      "url": "https://www.producthunt.com/products/wrangle-4",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-04-22T18:02:43-07:00"
+    }
+  ],
+  "sourceNotes": {
+    "generatedAt": "2026-04-23T03:09:48.129Z",
+    "timeZone": "Asia/Kolkata",
+    "successfulSources": [
+      "New York Times",
+      "Al Jazeera",
+      "NPR",
+      "China Daily",
+      "The Hindu",
+      "Reuters"
+    ],
+    "marketSessionLabel": "Latest market sessions as of 2026-04-23",
+    "warnings": []
+  }
+}
