@@ -1,0 +1,463 @@
+{
+  "headlines": [
+    {
+      "title": "The Generals Who Are Now Running Iran",
+      "url": "https://www.nytimes.com/2026/04/23/world/middleeast/iran-new-leadership-generals.html",
+      "source": "New York Times",
+      "region": "Global",
+      "publishedAt": "Thu, 23 Apr 2026 13:55:37 +0000",
+      "summary": "The killing of Ayatollah Ali Khamenei ushered in a new form of collective leadership in the country, with more power for the Revolutionary Guards.",
+      "thumbnailUrl": "https://static01.nyt.com/images/2026/04/23/multimedia/23int-iran-leaders-1-bmth/23int-iran-leaders-1-bmth-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "Iran War Live Updates: Trump Says Israel and Lebanon Agree to Extend Cease-Fire",
+      "url": "https://www.nytimes.com/live/2026/04/23/world/iran-war-trump-news",
+      "source": "New York Times",
+      "region": "Global",
+      "publishedAt": "Fri, 24 Apr 2026 01:47:53 +0000",
+      "summary": "The president said the truce in Lebanon would last three more weeks. Halting the war between Israel and Iranian-backed Hezbollah in Lebanon has been considered critical to advancing any peace agreement to end the war in Iran.",
+      "thumbnailUrl": "https://static01.nyt.com/images/2026/04/23/multimedia/23israel-iran-promo8p-btqj/23israel-iran-promo8p-btqj-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "$106 Billion Loan Reflects E.U.’s View That Peace in Ukraine Is Far Away",
+      "url": "https://www.nytimes.com/2026/04/23/world/europe/eu-loan-ukraine.html",
+      "source": "New York Times",
+      "region": "Global",
+      "publishedAt": "Thu, 23 Apr 2026 18:20:08 +0000",
+      "summary": "Unlike previous European assistance packages, this one is heavily weighted toward military spending, meant to put Ukraine on solid footing for a long fight.",
+      "thumbnailUrl": "https://static01.nyt.com/images/2026/04/23/multimedia/23int-ukraine-loan-03-mfpw/23int-ukraine-loan-03-mfpw-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "Touring Africa, Pope Leo Raised His Voice, but Didn’t Like the Echo",
+      "url": "https://www.nytimes.com/2026/04/23/world/europe/pope-leo-africa-trump.html",
+      "source": "New York Times",
+      "region": "Global",
+      "publishedAt": "Thu, 23 Apr 2026 18:49:09 +0000",
+      "summary": "On his recent trip abroad, Leo XIV made some of his most forthright comments since becoming pope last year, but grew uncomfortable at how that criticism was interpreted.",
+      "thumbnailUrl": "https://static01.nyt.com/images/2026/04/23/multimedia/23int-pope-wrap-1-hfmq/23int-pope-wrap-1-hfmq-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "Afghans Who Helped U.S. Forces Say They’re Being Pushed Back to the Taliban",
+      "url": "https://www.nytimes.com/2026/04/23/world/asia/afghans-qatar-refugees-congo.html",
+      "source": "New York Times",
+      "region": "Global",
+      "publishedAt": "Thu, 23 Apr 2026 19:57:31 +0000",
+      "summary": "Once promised a move to the United States, Afghan refugees who helped U.S. forces say they face ‘bad or worse’ options: resettlement to Congo or returning home to live under the Taliban.",
+      "thumbnailUrl": "https://static01.nyt.com/images/2026/04/23/multimedia/23int-Afghan-qatar-folo-gwbk/23int-Afghan-qatar-folo-gwbk-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "Lebanon truce extended; Trump says ‘clock is ticking’ for Iran to make deal",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/4/24/iran-war-live-lebanon-truce-extended-trump-says-time-not-on-tehrans-side",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-04-24",
+      "summary": null,
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/04/reuters_69eaaa87-1776986759.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "US professors sue university over arrest during pro-Palestine protest",
+      "url": "https://www.aljazeera.com/news/2026/4/23/us-professors-sue-university-over-arrest-during-pro-palestine-protest",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-04-23",
+      "summary": null,
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/04/AP26113693014717-1776981172.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Milei administration in Argentina blocks journalist access to Casa Rosada",
+      "url": "https://www.aljazeera.com/news/2026/4/23/milei-administration-in-argentina-blocks-journalist-access-to-casa-rosada",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-04-23",
+      "summary": null,
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/04/afp_69ea86a62657-1776977574.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "EU formally approves 90bn euro Ukraine loan and new sanctions on Russia",
+      "url": "https://www.aljazeera.com/news/2026/4/23/eu-formally-approves-90bn-euro-ukraine-loan-and-new-sanctions-on-russia",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-04-23",
+      "summary": null,
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2025/12/ap_69443d0ca490d-1766079756.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Pope decries migrants and refugees being treated ‘worse than house pets’",
+      "url": "https://www.aljazeera.com/news/2026/4/23/pope-decries-migrants-and-refugees-being-treated-worse-than-house-pets",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-04-23",
+      "summary": null,
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/04/2026-04-23T085508Z_371331930_RC2WUKA6II0O_RTRMADP_3_POPE-AFRICA-EQUATORIAL-1776975266.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "U.S. soldier charged with using classified information to bet on Maduro's removal",
+      "url": "https://www.npr.org/2026/04/23/nx-s1-5797957/maduro-raid-charges-polymarket-insider",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Thu, 23 Apr 2026 19:29:17 -0400",
+      "summary": "It's the first time suspected insider trading on Polymarket has led to criminal charges in the U.S.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5084x3389+0+0/resize/5084x3389!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F6f%2F6c%2Fb1f2d032468e92dcff1d72e8b54f%2Fgettyimages-2254470337.jpg"
+    },
+    {
+      "title": "French police probe suspected weather device tampering after odd Polymarket bet",
+      "url": "https://www.npr.org/2026/04/23/nx-s1-5797876/polymarket-paris-weather-bet",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Thu, 23 Apr 2026 18:22:38 -0400",
+      "summary": "The incident is the latest eyebrow-raising bet on Polymarket, as allegations of rigging and manipulation continue to haunt the popular prediction market site.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3799x2533+0+0/resize/3799x2533!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fe3%2Fe4%2F33ef19204c71b12671aa002d8114%2Fgettyimages-2270274138.jpg"
+    },
+    {
+      "title": "The FDA gives the green light to the first gene therapy for deafness",
+      "url": "https://www.npr.org/2026/04/23/nx-s1-5795526/deafness-gene-therapy-regeneron",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Thu, 23 Apr 2026 16:46:49 -0400",
+      "summary": "The treatment, developed by Regeneron Pharmaceuticals, is for a very rare form of deafness. But it represents a medical milestone.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3648x5472+0+0/resize/3648x5472!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F8f%2F1f%2F62dd01e8442295aa25a82f628b07%2Ftravis-sierra.jpeg"
+    },
+    {
+      "title": "Meta will lay off 10% of its staff",
+      "url": "https://www.npr.org/2026/04/23/nx-s1-5797855/meta-layoffs-10-percent-staff",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Thu, 23 Apr 2026 16:10:20 -0400",
+      "summary": "The cuts follow losses in two pivotal court cases and the company's push to invest in artificial intelligence.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3961x2225+0+0/resize/3961x2225!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F2c%2Fdc%2F1781883446b8bc793e95a8aa0d60%2Fap26085781053500.jpg"
+    },
+    {
+      "title": "Airlines in Europe slash thousands of flights as Iran war cuts jet fuel supplies",
+      "url": "https://www.npr.org/2026/04/23/nx-s1-5797307/europe-airlines-jet-fuel-costs",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Thu, 23 Apr 2026 15:29:06 -0400",
+      "summary": "The soaring cost of jet fuel is forcing European airlines to cancel tens of thousands of flights, while energy authorities warned of a possible jet fuel shortage if supplies aren't replenished soon.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1024x683+0+0/resize/1024x683!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fb5%2Fe2%2F569aecec4e7ca87431354996c3a0%2Fgettyimages-2267108015.jpg"
+    },
+    {
+      "title": "EU leaders to address Iran war fallout, mutual defense at Cyprus summit",
+      "url": "https://www.chinadaily.com.cn/a/202604/24/WS69eac3a5a310d6866eb453e2.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-04-24",
+      "summary": "AYIA NAPA, Cyprus - European Union (EU) leaders gathering in Cyprus on Thursday and Friday will discuss the economic and security fallout from Iran war, especially on soaring energy prices and mutual defense following a recent drone attack on the Mediterranean island.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202604/24/69eac3a5a310d68600fc3e5b.jpeg"
+    },
+    {
+      "title": "SE. Asia seeks domestic fuels amid energy crunch",
+      "url": "https://www.chinadaily.com.cn/a/202604/24/WS69eac58ca310d6866eb45430.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-04-24",
+      "summary": "Southeast Asian countries are leaning harder on homegrown energy sources — from coal to palm oil and sugarcane — as soaring costs and supply risks make Middle Eastern oil and gas imports less viable.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202604/24/69ead263a310d68600fc42e9.png"
+    },
+    {
+      "title": "Red Cross envoy applauds Beijing's humanitarian action",
+      "url": "https://www.chinadaily.com.cn/a/202604/24/WS69eac369a310d6866eb453d3.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-04-24",
+      "summary": "Balthasar Staehelin, personal envoy of the International Committee of the Red Cross president to China, has lauded China's increasing engagement in international humanitarian action, praising the country's consistent support for respect for international humanitarian law and its diplomatic efforts to promote the peaceful resolution of crises.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202604/24/69eac369a310d68600fc3e22.png"
+    },
+    {
+      "title": "Mutual gains via Five-Year Plan welcomed",
+      "url": "https://www.chinadaily.com.cn/a/202604/23/WS69e977d2a310d6866eb450bb.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-04-23",
+      "summary": "China and the US can create a better future for relations, Chinese Ambassador to the United States Xie Feng said on Monday, calling on the nations to seize the opportunities presented by China's 15th Five-Year Plan (2026-30).",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202604/23/69e977d2a310d68600fc2d84.png"
+    },
+    {
+      "title": "Economies to feel war heat across globe",
+      "url": "https://www.chinadaily.com.cn/a/202604/24/WS69eac864a310d6866eb4547e.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-04-24",
+      "summary": "The war in the Middle East will likely affect the global economy and the United States, whether it continues for a short or long term, because of disruptions in the oil market that could trigger inflation and spur a recession, warn experts, economists and the International Monetary Fund.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202604/24/69eac864a310d68600fc4035.png"
+    },
+    {
+      "title": "Respect all views except Whatsapp University: Supreme Court in Sabarimala case",
+      "url": "https://www.thehindu.com/news/national/respect-all-views-except-whatsapp-university-supreme-court-in-sabarimala-case/article70896405.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-04-23T07:32:53.000Z",
+      "summary": "Supreme Court emphasises respect for all views but dismisses &#039;WhatsApp University&#039; during Sabarimala discrimination case hearings.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/tm7g3h/article70896422.ece/alternates/LANDSCAPE_1200/Sabarimala-goldGTUFRJN6R.3.jpg.jpg"
+    },
+    {
+      "title": "U.P. govt. apprehends unrest on May 1, Yogi Adityanath tells officials to remain alert",
+      "url": "https://www.thehindu.com/news/national/uttar-pradesh/up-govt-apprehends-unrest-on-may-1-yogi-adityanath-tells-officials-to-remain-alert/article70897272.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-04-23T12:24:47.000Z",
+      "summary": "U.P. Chief Minister Yogi Adityanath warns of potential unrest on Labour Day, urging officials to stay vigilant and prevent disruptions.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/fisw9l/article70897409.ece/alternates/LANDSCAPE_1200/West%20Bengal%20Assembly%20elections%202026%20%2020.JPG"
+    },
+    {
+      "title": "‘Sadbhav Yatra’ has posed political challenge to BJP’s divisive politics, says Congress leader Brijendra Singh",
+      "url": "https://www.thehindu.com/news/national/haryana/sadbhav-yatra-has-posed-political-challenge-to-bjps-divisive-politics-says-congress-leader-brijendra-singh/article70897043.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-04-23T12:07:22.000Z",
+      "summary": "Congress leader Brijendra Singh claims ‘Sadbhav Yatra’ challenges BJP&#039;s divisive politics while reconnecting with grassroots and energizing party workers.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/news/165rq7/article70897500.ece/alternates/LANDSCAPE_1200/IMG_1239.jpg.jpeg"
+    },
+    {
+      "title": "Trump shares right-wing anchor’s rant against Indians, MEA terms it ‘inappropriate’",
+      "url": "https://www.thehindu.com/news/national/hellhole-on-the-planet-trump-reposts-critique-targeting-india-china-over-birthright-citizenship/article70896776.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-04-23T09:35:21.000Z",
+      "summary": "Trump&#039;s sharing of derogatory remarks about India sparks criticism, with India&#039;s MEA calling the comments \"inappropriate\" and \"uninformed.\"",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/lykig7/article70896808.ece/alternates/LANDSCAPE_1200/South_Africa_France__6195.jpg"
+    },
+    {
+      "title": "What Telangana’s survey shows about caste inequality",
+      "url": "https://www.thehindu.com/news/national/what-telanganas-survey-shows-about-caste-inequality/article70897704.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-04-24T03:00:00.000Z",
+      "summary": "Telangana&#039;s survey reveals profound caste inequality, showing SC and ST households are structurally marginalized despite economic growth.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/3s3s05/article70898967.ece/alternates/LANDSCAPE_1200/04hyngg_looming%20surge%20of%20Omicron%20%2007.jpg"
+    },
+    {
+      "title": "US soldier charged with making $400,000 on Maduro removal bets",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNaEdfdGw0X29Pd1FaS0JOWEo4RmZSaWVsQm43eEJXS3dqZE1sdDBESW1EckR3ZzVyUDNFSDJpSjFubGV6cjlSV3lwR2xhRnRFMTRsYS1xeDEydkFqZkNzNTBoSVR6VXhlZlNlcktjbzZwRm1BbThGd3ZCMGtNZk9DZW94TnVsTWxvN1pSNnoza3M1Y29wSExYSHNpaUI5NnJlX2g3NlpDemo1VUQ1NE10V2xVeUQ1Q2MwTTVPbWdIeDh2dw?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Thu, 23 Apr 2026 21:27:00 GMT",
+      "summary": null,
+      "thumbnailUrl": null
+    },
+    {
+      "title": "Trump says US will not use nuclear weapon in Iran war",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWU45T2l3LUNwR2dVRTk4QVdua0dNclhRV2RrY3pYSnF4Rk51QzV0cFZReEZwUUZoUjZ3TGxFVDBvblpjNnJlcjE2QnM4ZTRkbnFPWFlBSElUNFM1ZU9vSXplYUd1NXV5VEtEejVPZS12Vmx4TGh2OEJMRVMwN0NBS3VwTFNwWHBHSjlKT0RjRVBzWjczRkNEbXJ0UnlQYlRqakQwa0ROSS1VaU9qUUE?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Thu, 23 Apr 2026 23:22:14 GMT",
+      "summary": null,
+      "thumbnailUrl": null
+    },
+    {
+      "title": "Iran's Mehr says air defences heard 'engaging hostile targets' in Tehran",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOeUpzTlRZSk1uVnYyNFVfeEQzQjBuSV9yNXdyaUNMWlZ1WVdtakJGZk5tV0JrSE1uc3U2OTRwRmhNd29yNU5kLWg4Qkg5V2JmdDQ1ZS1kalpGQ0tieURhbHpFODRBOTJiYkNOazRSNEprc1VfenpvTE5rVlQ1NjlpT3VSTmppSlpLbXJsbTJNT0F4bG9ibE5VZGVzZ0FmamZKUzB5Z3pfSlRvY1UwUXhBRmQycjBmWkxCTEFvNXBR?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Thu, 23 Apr 2026 17:41:52 GMT",
+      "summary": null,
+      "thumbnailUrl": null
+    },
+    {
+      "title": "Iran fast-boat swarms add to Hormuz threats for shipping",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWUlMWGtuQjJnNndadUZGNlQwdlRWM2xyTUEtZUJoc202VzktYTR4QUpMWGVFNm5ZcTdnNHczcmNJNFNHdnNJQXJvQ3hYN0tLZ0ticDNhdWY0dmVINHFtNUg5NTkxUzJUdlhaeEZ3Z1o4azY0YWV1eTNrcV8tSWlOR2NDd09MOTRxUnQwYS1PTFRPODFYT0YycGxpcjZHVl9ieTQwSGNVRQ?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Thu, 23 Apr 2026 17:47:00 GMT",
+      "summary": null,
+      "thumbnailUrl": null
+    },
+    {
+      "title": "Pope condemns killing of protesters in Iran, reaffirms stance against war",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZFlpeHJMUzU4UEhJeHJnQTdaV2NkRktEcENrMC0tNXl0ZUl4NlFWWkxrQkRiNmtaOVp6X3lrNjB4cU85THBDTmpUbVhveGRCYTJtQ1UyTlVqUGpjMHhCN1Z3X1RSTzQybXNvOXhPMDNWMzJkamd1ZGZIa012UlVQTWF4S0dNVjZJWV84MkdiVm9rckxTalBDWjFLSWxNNTRaX1MxZkdLeUtldjRu?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Thu, 23 Apr 2026 21:30:10 GMT",
+      "summary": null,
+      "thumbnailUrl": null
+    }
+  ],
+  "markets": [
+    {
+      "id": "sp-500",
+      "label": "S&P 500",
+      "region": "US",
+      "symbol": "^GSPC",
+      "value": 7108.4,
+      "previousClose": 7137.9,
+      "change": -29.5,
+      "percentChange": -0.41328683,
+      "direction": "down",
+      "sessionDate": "2026-04-24"
+    },
+    {
+      "id": "nasdaq-composite",
+      "label": "NASDAQ Composite",
+      "region": "US",
+      "symbol": "^IXIC",
+      "value": 24438.5,
+      "previousClose": 24657.5625,
+      "change": -219.0625,
+      "percentChange": -0.888419,
+      "direction": "down",
+      "sessionDate": "2026-04-24"
+    },
+    {
+      "id": "euronext-100",
+      "label": "Euronext 100 Index",
+      "region": "Europe",
+      "symbol": "^N100",
+      "value": 1810.88,
+      "previousClose": 1813.9100293000001,
+      "change": -3.0300293,
+      "percentChange": -0.16704407,
+      "direction": "down",
+      "sessionDate": "2026-04-24"
+    },
+    {
+      "id": "moex",
+      "label": "Public Joint-Stock Company Moscow Exchange MICEX-RTS",
+      "region": "Europe",
+      "symbol": "MOEX.ME",
+      "value": 85.2,
+      "previousClose": 85.31000061,
+      "change": -0.11000061,
+      "percentChange": -0.12894222,
+      "direction": "down",
+      "sessionDate": "2026-04-24"
+    },
+    {
+      "id": "hang-seng",
+      "label": "HANG SENG INDEX",
+      "region": "Asia",
+      "symbol": "^HSI",
+      "value": 25764.62,
+      "previousClose": 25915.20008,
+      "change": -150.58008,
+      "percentChange": -0.58108133,
+      "direction": "down",
+      "sessionDate": "2026-04-24"
+    },
+    {
+      "id": "nikkei-225",
+      "label": "Nikkei 225",
+      "region": "Asia",
+      "symbol": "^N225",
+      "value": 59343.4,
+      "previousClose": 59140.23203,
+      "change": 203.16797,
+      "percentChange": 0.343536,
+      "direction": "up",
+      "sessionDate": "2026-04-24"
+    },
+    {
+      "id": "sensex",
+      "label": "S&P BSE SENSEX",
+      "region": "India",
+      "symbol": "^BSESN",
+      "value": 77664,
+      "previousClose": 78516.4922,
+      "change": -852.4922,
+      "percentChange": -1.0857491,
+      "direction": "down",
+      "sessionDate": "2026-04-24"
+    }
+  ],
+  "hackerNews": [
+    {
+      "title": "Why I Write (1946)",
+      "url": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/why-i-write/",
+      "publishedAt": "2026-04-24T02:26:23.000Z"
+    },
+    {
+      "title": "GPT-5.5",
+      "url": "https://openai.com/index/introducing-gpt-5-5/",
+      "publishedAt": "2026-04-23T18:01:39.000Z"
+    },
+    {
+      "title": "Bitwarden CLI compromised in ongoing Checkmarx supply chain campaign",
+      "url": "https://socket.dev/blog/bitwarden-cli-compromised",
+      "publishedAt": "2026-04-23T14:17:08.000Z"
+    },
+    {
+      "title": "Show HN: Tolaria – Open-source macOS app to manage Markdown knowledge bases",
+      "url": "https://github.com/refactoringhq/tolaria",
+      "publishedAt": "2026-04-23T22:01:59.000Z"
+    },
+    {
+      "title": "Meta tells staff it will cut 10% of jobs",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-23/meta-tells-staff-it-will-cut-10-of-jobs-in-push-for-efficiency",
+      "publishedAt": "2026-04-23T18:55:32.000Z"
+    },
+    {
+      "title": "MeshCore development team splits over trademark dispute and AI-generated code",
+      "url": "https://blog.meshcore.io/2026/04/23/the-split",
+      "publishedAt": "2026-04-23T16:55:13.000Z"
+    },
+    {
+      "title": "TorchTPU: Running PyTorch Natively on TPUs at Google Scale",
+      "url": "https://developers.googleblog.com/torchtpu-running-pytorch-natively-on-tpus-at-google-scale/",
+      "publishedAt": "2026-04-23T20:53:27.000Z"
+    },
+    {
+      "title": "I am building a cloud",
+      "url": "https://crawshaw.io/blog/building-a-cloud",
+      "publishedAt": "2026-04-23T04:44:19.000Z"
+    },
+    {
+      "title": "An update on recent Claude Code quality reports",
+      "url": "https://www.anthropic.com/engineering/april-23-postmortem",
+      "publishedAt": "2026-04-23T17:48:38.000Z"
+    },
+    {
+      "title": "My phone replaced a brass plug",
+      "url": "https://drobinin.com/posts/my-phone-replaced-a-brass-plug/",
+      "publishedAt": "2026-04-23T16:27:07.000Z"
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "Speakmac",
+      "tagline": "Private voice typing for Mac that works anywhere Discussion | Link",
+      "url": "https://www.producthunt.com/products/speakmac",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-04-23T17:01:50-07:00"
+    },
+    {
+      "name": "Vora Health",
+      "tagline": "Every wearable, every metric, one free AI-powered health app Discussion | Link",
+      "url": "https://www.producthunt.com/products/vora-health",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-04-23T20:09:31-07:00"
+    },
+    {
+      "name": "FocuSee 2.0",
+      "tagline": "Record screen to get polished demos & tutorials Discussion | Link",
+      "url": "https://www.producthunt.com/products/focusee",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-04-23T20:08:42-07:00"
+    },
+    {
+      "name": "Docsio",
+      "tagline": "Lovable for doc sites Discussion | Link",
+      "url": "https://www.producthunt.com/products/docsio",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-04-23T20:09:15-07:00"
+    },
+    {
+      "name": "ASI:One",
+      "tagline": "A personal AI with memory that plans and acts for you Discussion | Link",
+      "url": "https://www.producthunt.com/products/asi",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-04-23T20:08:52-07:00"
+    }
+  ],
+  "sourceNotes": {
+    "generatedAt": "2026-04-24T03:10:36.899Z",
+    "timeZone": "Asia/Kolkata",
+    "successfulSources": [
+      "New York Times",
+      "Al Jazeera",
+      "NPR",
+      "China Daily",
+      "The Hindu",
+      "Reuters"
+    ],
+    "marketSessionLabel": "Latest market sessions as of 2026-04-24",
+    "warnings": []
+  }
+}
