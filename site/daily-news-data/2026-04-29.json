@@ -1,0 +1,463 @@
+{
+  "headlines": [
+    {
+      "title": "UAE Says It Will Leave OPEC as Iran War Strains Oil Markets",
+      "url": "https://www.nytimes.com/2026/04/28/world/middleeast/uae-opec.html",
+      "source": "New York Times",
+      "region": "Global",
+      "publishedAt": "Tue, 28 Apr 2026 16:51:51 +0000",
+      "summary": "The Gulf government has long complained about the group’s quotas, which officials believe unfairly limited its exports. Its departure is expected to weaken OPEC’s influence.",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "Internet Restrictions Spur Russians to Openly Question Putin’s Moves",
+      "url": "https://www.nytimes.com/2026/04/28/world/europe/russia-internet-restrictions-putin.html",
+      "source": "New York Times",
+      "region": "Global",
+      "publishedAt": "Tue, 28 Apr 2026 09:03:20 +0000",
+      "summary": "From beauty influencers to the token political opposition, Russians are openly questioning President Vladimir V. Putin’s moves to hamstring access.",
+      "thumbnailUrl": "https://static01.nyt.com/images/2026/04/28/multimedia/28Russia-discontent-lbcp/28Russia-discontent-lbcp-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "The Small U.K. Agency That’s a 911 for Ships in the Strait of Hormuz",
+      "url": "https://www.nytimes.com/2026/04/28/world/europe/ukmto-shipping-strait-hormuz.html",
+      "source": "New York Times",
+      "region": "Global",
+      "publishedAt": "Tue, 28 Apr 2026 20:37:38 +0000",
+      "summary": "At a military base outside Portsmouth, England, a 24-hour service monitors the Persian Gulf, the Red Sea and part of the Indian Ocean, responding to distress calls.",
+      "thumbnailUrl": "https://static01.nyt.com/images/2026/04/28/multimedia/28int-uk-shipping-hormuz-1-fvzp/28int-uk-shipping-hormuz-1-fvzp-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "They Lost Their Homes in Cuba to the Communist Government. Will They Ever Get Them Back?",
+      "url": "https://www.nytimes.com/2026/04/28/world/americas/cuba-communist-government-confiscated-property.html",
+      "source": "New York Times",
+      "region": "Global",
+      "publishedAt": "Tue, 28 Apr 2026 18:52:17 +0000",
+      "summary": "With Cuba in dire economic crisis, people whose properties were seized by its government decades ago say it’s time to resolve thorny compensation claims.",
+      "thumbnailUrl": "https://static01.nyt.com/images/2026/04/23/multimedia/00int-cuba-property-fmbp/00int-cuba-property-fmbp-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "Amid Iran War and Tensions with Neighbors, U.A.E. Goes Its Own Way",
+      "url": "https://www.nytimes.com/2026/04/28/world/middleeast/united-arab-emirates-leaves-opec.html",
+      "source": "New York Times",
+      "region": "Global",
+      "publishedAt": "Tue, 28 Apr 2026 22:12:43 +0000",
+      "summary": "The United Arab Emirates’ decision to leave OPEC has rocked the region, underscoring how the country, at odds with Saudi Arabia, is increasingly charting its own course.",
+      "thumbnailUrl": "https://static01.nyt.com/images/2026/04/28/multimedia/28int-emirates-politics-1-wmbl/28int-emirates-politics-1-wmbl-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "US appeals court rejects Trump’s immigration detention policy",
+      "url": "https://www.aljazeera.com/news/2026/4/29/us-appeals-court-rejects-trumps-immigration-detention-policy",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-04-29",
+      "summary": null,
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/04/2026-03-31T222842Z_1389494783_RC2B7KA6SOSH_RTRMADP_3_USA-MIGRATION-WAREHOUSES-1777414146.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Trump says Iran requesting end to US blockade; Israel kills three medics",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/4/29/iran-war-live-trump-says-tehran-wants-end-to-blockade-israel-kills-medics",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-04-29",
+      "summary": null,
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/04/2026-04-28T161842Z_1021895574_RC29YKAD8PGX_RTRMADP_3_IRAN-CRISIS-LEBANON-ISRAEL-TYRE-1777418561.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Former FBI director Comey again indicted by US Justice Department",
+      "url": "https://www.aljazeera.com/news/2026/4/28/former-fbi-director-comey-again-indicted-by-us-justice-department",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-04-28",
+      "summary": null,
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/04/afp_69f11f440417-1777409860.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "King Charles calls for NATO unity, Ukraine support in US Congress speech",
+      "url": "https://www.aljazeera.com/news/2026/4/28/king-charles-calls-for-nato-unity-ukraine-support-in-us-congress-speech",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-04-28",
+      "summary": null,
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/04/afp_69f1072341b7-1777403683.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Northern Ireland makes arrest linked to suspected New IRA car bombing",
+      "url": "https://www.aljazeera.com/news/2026/4/28/northern-ireland-makes-arrest-linked-to-suspected-new-ira-car-bombing",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-04-28",
+      "summary": null,
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/04/ap_69f0f8005d7a1-1777399808.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Yomif Kejelcha broke the 2-hour marathon but got 2nd place. He's still happy",
+      "url": "https://www.npr.org/2026/04/28/nx-s1-5803016/marathon-world-record-yomif-kejelcha",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Tue, 28 Apr 2026 19:23:52 -0400",
+      "summary": "Ethiopia's Yomif Kejelcha ran the London Marathon in under two hours, but he only got second place. He told NPR he hopes to run his next marathon a minute faster.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4541x2953+0+0/resize/4541x2953!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fd3%2F0c%2F90a499e340ebbca589e3b75605df%2Fgettyimages-2273201990.jpg"
+    },
+    {
+      "title": "Scientists see Trump's firing of the National Science Board as an attack on research",
+      "url": "https://www.npr.org/2026/04/28/nx-s1-5801465/national-science-board-trump-firing",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Tue, 28 Apr 2026 18:32:07 -0400",
+      "summary": "The move follows an administration push for cuts to the NSF and raises concerns in the scientific community that it could jeopardize a tradition of independent decisions about federal science grants.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5834x3889+0+0/resize/5834x3889!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fbf%2F28%2F847f5c79426b94133a080daacc7a%2Fap26117616972461.jpg"
+    },
+    {
+      "title": "Linda McMahon punches back at senators questioning Education Department cuts",
+      "url": "https://www.npr.org/2026/04/28/nx-s1-5802968/education-secretary-linda-mcmahon-senate-hearing",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Tue, 28 Apr 2026 18:18:15 -0400",
+      "summary": "In her first appearance on Capitol Hill this year, lawmakers questioned Education Secretary Linda McMahon about students' civil rights and cuts to federal education spending.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4010x2673+0+0/resize/4010x2673!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F91%2Ff9%2Fd14f751446219d9762f8cb100879%2Fgettyimages-2264596788.jpg"
+    },
+    {
+      "title": "With no radical footprint, what drove suspect to try and assassinate Trump?",
+      "url": "https://www.npr.org/2026/04/28/nx-s1-5801467/cole-allen-suspect-washington-correspondents-dinner-shooting",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Tue, 28 Apr 2026 17:05:31 -0400",
+      "summary": "An attempted shooting at the White House Correspondents Dinner on Saturday has, again, highlighted the climate of political violence in the U.S. But there are still many questions about the motive.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5000x3333+0+0/resize/5000x3333!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F54%2F74%2F025712894d96933775b49f45047a%2Fgettyimages-2272612765.jpg"
+    },
+    {
+      "title": "FCC orders early license renewal for ABC stations following Kimmel's first lady joke",
+      "url": "https://www.npr.org/2026/04/28/nx-s1-5802997/fcc-abc-license-renewal-melania-trump-jimmy-kimmel",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Tue, 28 Apr 2026 16:52:22 -0400",
+      "summary": "The Federal Communications Commission has ordered Disney's ABC to seek early broadcast license renewals for the eight TV stations it owns amid backlash over Jimmy Kimmel's joke about Melania Trump.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/7392x4809+0+0/resize/7392x4809!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F2a%2Fee%2F38589a3a4ea79d7e6bf4e39c84cc%2Fgettyimages-2272595362.jpg"
+    },
+    {
+      "title": "Kenya's farm industry praises duty-free access",
+      "url": "https://www.chinadaily.com.cn/a/202604/29/WS69f16ad9a310d6866eb4624f.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-04-29",
+      "summary": "Stakeholders in Kenya's agricultural sector have welcomed China's zero-tariff policy, set to take effect on Friday, saying it will spur one of the country's key industries.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202604/29/69f16d61a310d68600fc8e7d.png"
+    },
+    {
+      "title": "Ukraine marks 40 years of Chernobyl disaster",
+      "url": "https://www.chinadaily.com.cn/a/202604/27/WS69eeb85ba310d6866eb45a72.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-04-27",
+      "summary": "SLAVUTYCH, Ukraine — People streamed into the central square of Slavutych in the early hours of Sunday, placing candles on a large radiation hazard symbol laid out on the ground as a midnight commemoration began for those killed in the Chernobyl disaster 40 years ago and the thousands who risked deadly radiation exposure to contain its aftermath.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202604/27/69eeb85ba310d68600fc66c2.png"
+    },
+    {
+      "title": "US shooting bares security vulnerabilities",
+      "url": "https://www.chinadaily.com.cn/a/202604/27/WS69ee9c8fa310d6866eb459d2.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-04-27",
+      "summary": "WASHINGTON — The shooting on Saturday night of a Secret Service agent at the White House Correspondents' Association dinner raises questions yet again about security at a time of increased political violence.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202604/27/69ee9c8fa310d68600fc641f.png"
+    },
+    {
+      "title": "China urges restraint on Middle East at UN",
+      "url": "https://www.chinadaily.com.cn/a/202604/29/WS69f16b9da310d6866eb46263.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-04-29",
+      "summary": "China's permanent representative to the United Nations said the Middle East is at a \"critical stage of transition from war to peace\", as fresh violence in Gaza and Lebanon and a widening energy shock underscored the fragility of the situation.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202604/29/69f16b9da310d68600fc8e0f.png"
+    },
+    {
+      "title": "Sino-European collaboration crucial for reshaping order",
+      "url": "https://www.chinadaily.com.cn/a/202604/29/WS69f160dda310d6866eb461e4.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-04-29",
+      "summary": "A reconfigured model of global co-governance is absolutely needed, with China and Europe bearing important responsibilities to work together in upholding a rule-based international order, former Italian prime minister Enrico Letta said in Shanghai on Friday.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202604/29/69f16182a310d68600fc8b81.jpeg"
+    },
+    {
+      "title": "Rajnath Singh calls for unified SCO action against terrorism, warns against double standards",
+      "url": "https://www.thehindu.com/news/national/sco-summit-in-bishkek-union-defence-minister-rajnath-singh-terrorism/article70915256.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-04-28T07:11:38.000Z",
+      "summary": "Rajnath Singh urges the SCO to combat state-sponsored terrorism without double standards, emphasising India&#039;s firm resolve against such threats.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/os4box/article70915636.ece/alternates/LANDSCAPE_1200/PTI04_28_2026_000129B.jpg"
+    },
+    {
+      "title": "44 illegal telecom hubs shut in 2 years: Centre tells Supreme Court",
+      "url": "https://www.thehindu.com/news/national/44-illegal-telecom-centres-dismantled-in-two-years-centre-to-sc/article70916104.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-04-28T12:21:52.000Z",
+      "summary": "Centre reports dismantling of 44 illegal telecom centres in two years, addressing cybercrime concerns in Supreme Court meeting.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/latest-news/l0apof/article70918071.ece/alternates/LANDSCAPE_1200/phishing.jpg"
+    },
+    {
+      "title": "Alleged drug trafficking kingpin deported from Türkiye to India",
+      "url": "https://www.thehindu.com/news/national/key-dawood-associate-and-drug-kingpin-salim-dola-deported-to-india-after-arrest-in-istanbul/article70915182.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-04-28T07:32:53.000Z",
+      "summary": "Salim Dola, a key associate of Dawood Ibrahim, deported to India after arrest in Istanbul, facing interrogation by authorities.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/news/national/opf7q9/article70916119.ece/alternates/LANDSCAPE_1200/Salim%20Dola.jpg"
+    },
+    {
+      "title": "Rahul meets Nicobarese community, promises to fight against infra project",
+      "url": "https://www.thehindu.com/news/national/andaman-and-nicobar-islands/rahul-gandhi-reaches-great-nicobar-says-he-made-it-despite-administrations-efforts-to-stop-him/article70916784.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-04-28T16:13:43.000Z",
+      "summary": "Rahul Gandhi visits Great Nicobar, meeting community leaders to address concerns over a controversial infrastructure project despite administrative hurdles.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/288j36/article70917154.ece/alternates/LANDSCAPE_1200/20260428329L.jpg"
+    },
+    {
+      "title": "‘Just peace’ can’t be found by joining organisations that charge fees: UNGA President defends UN system",
+      "url": "https://www.thehindu.com/news/national/just-peace-cant-be-found-by-joining-organisations-that-charge-fees-unga-president-defends-un-system/article70917765.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-04-28T18:52:26.000Z",
+      "summary": "UNGA President Annalena Baerbock asserts that &#039;just peace&#039; isn&#039;t attainable through fee-based organizations, emphasizing UN&#039;s inclusive approach.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/lv935k/article70918038.ece/alternates/LANDSCAPE_1200/18_Annalena_Baerbock_28_04_Delhi.jpg"
+    },
+    {
+      "title": "As Trump greets Charles, the White House calls them 'TWO KINGS'",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdGxoRFdKa0lRX2c4ZUNwcjhQOEVMSWhMMGx5b0lMNXUxVWFNdV90aERFaVZQc0IxZzdIV0dnaW40ZldGNXA0RlRWQ0RHcFFtQkxwdjBqVjlpSlducXZPSE54U0huMFhGZHkyVjZrWGVHQ25MTXBUQ0lLUlhBdm5yZ0x4QlhfRk5xUnNqbjBpSWluNm1lVXU5M2dQN2sxU20zWGw0Tg?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Wed, 29 Apr 2026 00:40:00 GMT",
+      "summary": null,
+      "thumbnailUrl": null
+    },
+    {
+      "title": "Exclusive: US spy agencies examine how Iran would react to Trump declaring victory",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNakxPaFJWcW50Y0lld2U3MmxqdFBLM1ZibW5QWTRwTlpSUzZBLXRTdlpJTVFSaHhTTHI4Q21UNjZEY0VXN0FCbE0tUWYweGwwM0U5ZWdMMGRTbHNURmotMHhLaTFTZTdGQzJ5SGFEd1diT2xaTUJoM1huTHd1T1VhNW95Q0tZdklQYkFjVHhOZzJFUVJDVnViRE9vUVlKVzZEYk9yRHI1T1RpYlVmWWJFQWlVWQ?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Tue, 28 Apr 2026 20:25:13 GMT",
+      "summary": null,
+      "thumbnailUrl": null
+    },
+    {
+      "title": "US ambassador to Ukraine to step down amid stalled talks to end Ukraine war",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSGZkMlBpdG9JRVQzTGhXejRqRDBfLVdvQi1SbWdpS0N4WGFtaUR3Z2JuS1Zob2VHLWxlbG5KTllaRGJxMXlpTm03MGhJdkpXcU5QczdLV0ZMSUZuR3FGMWNxeU1fMU9RN1hib2l2eXpLTXBkWXJUek5TXzRhNy1uX1lqTWI1V0VPODh1cEtTNXVGVXJJUUJWNzdXWEI5cUI5Z3lwQ1FFN1JNX0pEZFVrNXMxTlVoR09KUUlZ?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Tue, 28 Apr 2026 18:47:00 GMT",
+      "summary": null,
+      "thumbnailUrl": null
+    },
+    {
+      "title": "Trump's DOJ indicts former FBI director James Comey over '86 47' post",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOOXhNSkt0VTdibjdhYUNaOVNrX1BtMHp6aUh1LXM0MDRaYzlSLVpKbFBwU0MzZGdQai1saW9yMWVVM3ZtMEgwOFVOVjRJWlhFc2prOVZYMjRfR2syZmN5NGhVSDZlMWI3ZXFxRlRGeV9BNzN0elFuaDFmazRseEFCNUFyd0ZZNFU2MndRUWpad0VETlVFanFJM1hEdDhtSTVvWUtwUG9SMHVvTW45RXpvdDFMSTlzSUZtSzJmajYtVlFrQQ?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Tue, 28 Apr 2026 17:50:00 GMT",
+      "summary": null,
+      "thumbnailUrl": null
+    },
+    {
+      "title": "Exclusive: Trump approval sinks to new low as war with Iran drives cost-of-living concerns",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQalN2R2Rsay1qbGw4a0hHYWF5MlBmSUlMRERsajItcV9aYVBvTXJSQWNYblJ3VHVFSThrYXFaVl9lcUFjVEZOV3BhUlAzaUhORE5hYXZScWpQQkNBdXRjaWdBQ09nTC1nQ0tEb2RBM3JlTFpRTjhyZ0RDNWRCcDRvemU1NEFUTnpMd25vY3h3VER6NTF4bnRCbXB6WTFiaU1RdDdERWxobzAzejV0b0MtaGZra2pqZU1jNUNqd2R3?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Tue, 28 Apr 2026 21:04:07 GMT",
+      "summary": null,
+      "thumbnailUrl": null
+    }
+  ],
+  "markets": [
+    {
+      "id": "sp-500",
+      "label": "S&P 500",
+      "region": "US",
+      "symbol": "^GSPC",
+      "value": 7138.8,
+      "previousClose": 7173.91035,
+      "change": -35.11035,
+      "percentChange": -0.48941723,
+      "direction": "down",
+      "sessionDate": "2026-04-29"
+    },
+    {
+      "id": "nasdaq-composite",
+      "label": "NASDAQ Composite",
+      "region": "US",
+      "symbol": "^IXIC",
+      "value": 24663.8,
+      "previousClose": 24887.10078,
+      "change": -223.30078,
+      "percentChange": -0.8972551,
+      "direction": "down",
+      "sessionDate": "2026-04-29"
+    },
+    {
+      "id": "euronext-100",
+      "label": "Euronext 100 Index",
+      "region": "Europe",
+      "symbol": "^N100",
+      "value": 1786.05,
+      "previousClose": 1794.089917,
+      "change": -8.039917,
+      "percentChange": -0.44813344,
+      "direction": "down",
+      "sessionDate": "2026-04-29"
+    },
+    {
+      "id": "moex",
+      "label": "Public Joint-Stock Company Moscow Exchange MICEX-RTS",
+      "region": "Europe",
+      "symbol": "MOEX.ME",
+      "value": 85.2,
+      "previousClose": 85.31000061,
+      "change": -0.11000061,
+      "percentChange": -0.12894222,
+      "direction": "down",
+      "sessionDate": "2026-04-29"
+    },
+    {
+      "id": "hang-seng",
+      "label": "HANG SENG INDEX",
+      "region": "Asia",
+      "symbol": "^HSI",
+      "value": 25985.46,
+      "previousClose": 25679.77836,
+      "change": 305.68164,
+      "percentChange": 1.1903594,
+      "direction": "up",
+      "sessionDate": "2026-04-29"
+    },
+    {
+      "id": "nikkei-225",
+      "label": "Nikkei 225",
+      "region": "Asia",
+      "symbol": "^N225",
+      "value": 59917.46,
+      "previousClose": 60537.358439999996,
+      "change": -619.89844,
+      "percentChange": -1.0239931,
+      "direction": "down",
+      "sessionDate": "2026-04-29"
+    },
+    {
+      "id": "sensex",
+      "label": "S&P BSE SENSEX",
+      "region": "India",
+      "symbol": "^BSESN",
+      "value": 76886.91,
+      "previousClose": 77303.63656,
+      "change": -416.72656,
+      "percentChange": -0.5390776,
+      "direction": "down",
+      "sessionDate": "2026-04-29"
+    }
+  ],
+  "hackerNews": [
+    {
+      "title": "Ghostty is leaving GitHub",
+      "url": "https://mitchellh.com/writing/ghostty-leaving-github",
+      "publishedAt": "2026-04-28T19:44:52.000Z"
+    },
+    {
+      "title": "Claude system prompt bug wastes user money and bricks managed agents",
+      "url": "https://github.com/anthropics/claude-code/issues/49363",
+      "publishedAt": "2026-04-28T23:59:57.000Z"
+    },
+    {
+      "title": "How ChatGPT serves ads",
+      "url": "https://www.buchodi.com/how-chatgpt-serves-ads-heres-the-full-attribution-loop/",
+      "publishedAt": "2026-04-28T23:54:14.000Z"
+    },
+    {
+      "title": "Before GitHub",
+      "url": "https://lucumr.pocoo.org/2026/4/28/before-github/",
+      "publishedAt": "2026-04-28T21:17:40.000Z"
+    },
+    {
+      "title": "We decreased our LLM costs with Opus",
+      "url": "https://www.mendral.com/blog/frontier-model-lower-costs",
+      "publishedAt": "2026-04-29T00:57:12.000Z"
+    },
+    {
+      "title": "OpenAI models coming to Amazon Bedrock: Interview with OpenAI and AWS CEOs",
+      "url": "https://stratechery.com/2026/an-interview-with-openai-ceo-sam-altman-and-aws-ceo-matt-garman-about-bedrock-managed-agents/",
+      "publishedAt": "2026-04-28T19:24:43.000Z"
+    },
+    {
+      "title": "I won a championship that doesn't exist",
+      "url": "https://ron.stoner.com/How_I_Won_a_Championship_That_Doesnt_Exist/",
+      "publishedAt": "2026-04-28T20:38:21.000Z"
+    },
+    {
+      "title": "GitHub RCE Vulnerability: CVE-2026-3854 Breakdown",
+      "url": "https://www.wiz.io/blog/github-rce-vulnerability-cve-2026-3854",
+      "publishedAt": "2026-04-28T16:15:43.000Z"
+    },
+    {
+      "title": "Show HN: Auto-Architecture: Karpathy's Loop, Pointed at a CPU",
+      "url": "https://github.com/FeSens/auto-arch-tournament/blob/main/docs/auto-arch-tournament-blog-post.md",
+      "publishedAt": "2026-04-28T17:12:30.000Z"
+    },
+    {
+      "title": "Claude for Creative Work",
+      "url": "https://www.anthropic.com/news/claude-for-creative-work",
+      "publishedAt": "2026-04-28T23:46:56.000Z"
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "Blueprint",
+      "tagline": "One-shot bigger coding tasks Discussion | Link",
+      "url": "https://www.producthunt.com/products/imbue-7",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-04-28T18:18:19-07:00"
+    },
+    {
+      "name": "Curflow",
+      "tagline": "Draw a gesture for your Mac to execute Discussion | Link",
+      "url": "https://www.producthunt.com/products/curflow",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-04-28T20:08:05-07:00"
+    },
+    {
+      "name": "Social Fetch",
+      "tagline": "Pull real-time data from any social platform via API. Discussion | Link",
+      "url": "https://www.producthunt.com/products/social-fetch",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-04-28T20:07:58-07:00"
+    },
+    {
+      "name": "Lovable mobile app",
+      "tagline": "Your ideas don't wait for you to sit down at a desk Discussion | Link",
+      "url": "https://www.producthunt.com/products/lovable",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-04-28T20:02:39-07:00"
+    },
+    {
+      "name": "WUPHF by Nex.ai",
+      "tagline": "AI employees who build their own knowledge base Discussion | Link",
+      "url": "https://www.producthunt.com/products/wuphf-2",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-04-28T20:06:18-07:00"
+    }
+  ],
+  "sourceNotes": {
+    "generatedAt": "2026-04-29T03:11:44.828Z",
+    "timeZone": "Asia/Kolkata",
+    "successfulSources": [
+      "New York Times",
+      "Al Jazeera",
+      "NPR",
+      "China Daily",
+      "The Hindu",
+      "Reuters"
+    ],
+    "marketSessionLabel": "Latest market sessions as of 2026-04-29",
+    "warnings": []
+  }
+}
