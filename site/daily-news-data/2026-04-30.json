@@ -1,0 +1,463 @@
+{
+  "headlines": [
+    {
+      "title": "Epstein Obtained Objects From Islam’s Holiest Site for His Island ‘Mosque’",
+      "url": "https://www.nytimes.com/2026/04/29/world/americas/jeffrey-epstein-islam-mosque-island-kaaba-sex-offender-kiswa.html",
+      "source": "New York Times",
+      "region": "Global",
+      "publishedAt": "Wed, 29 Apr 2026 16:16:16 +0000",
+      "summary": "Jeffrey Epstein’s messages cast light on an unusual building on his private island and show how his connections helped him secure tapestries from Mecca for it.",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "Gallows Humor Provides Respite From Mideast Wars",
+      "url": "https://www.nytimes.com/2026/04/29/world/middleeast/mideast-war-humor.html",
+      "source": "New York Times",
+      "region": "Global",
+      "publishedAt": "Wed, 29 Apr 2026 16:17:50 +0000",
+      "summary": "Arab digital creators on social media are turning out edgy material to cope with the conflicts and bring levity to a pain that often feels too raw.",
+      "thumbnailUrl": "https://static01.nyt.com/images/2026/04/27/multimedia/00int-mideast-memes-lhzv/00int-mideast-memes-lhzv-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "U.S. Indictment Accuses Mexican Governor of Conspiring With Sinaloa Cartel",
+      "url": "https://www.nytimes.com/2026/04/29/world/americas/ruben-rocha-moya-indictment-mexico.html",
+      "source": "New York Times",
+      "region": "Global",
+      "publishedAt": "Wed, 29 Apr 2026 23:58:07 +0000",
+      "summary": "Prosecutors accused Rubén Rocha Moya, the governor of Sinaloa state, and other Mexican officials of a yearslong conspiracy to protect the powerful cartel.",
+      "thumbnailUrl": "https://static01.nyt.com/images/2026/04/29/multimedia/29int-mexico-indictment-mflq/29int-mexico-indictment-mflq-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "Paraguay Says It’s Not Abandoning Taiwan. China Has Other Plans.",
+      "url": "https://www.nytimes.com/2026/04/29/world/paraguay-taiwan-china-pena.html",
+      "source": "New York Times",
+      "region": "Global",
+      "publishedAt": "Thu, 30 Apr 2026 00:51:11 +0000",
+      "summary": "Beijing is trying to unravel an unlikely long-distance relationship that has endured for decades. Could Paraguay be tempted to stray?",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "Stabbing in Jewish Area in North London Treated as a Terrorist Incident, Police Say",
+      "url": "https://www.nytimes.com/2026/04/29/world/europe/london-stabbing-golders-green.html",
+      "source": "New York Times",
+      "region": "Global",
+      "publishedAt": "Wed, 29 Apr 2026 23:16:20 +0000",
+      "summary": "Two men who were stabbed in Golders Green on Wednesday were in stable condition, the police said. One man was arrested on suspicion of attempted murder.",
+      "thumbnailUrl": "https://static01.nyt.com/images/2026/04/29/multimedia/29int-UK-STABBING-wczk/29int-UK-STABBING-wczk-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "‘Junk advice’: Iran mocks US economic pressure campaign as oil prices surge",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/4/30/iran-war-live-trump-urges-tehran-to-just-give-up-as-oil-prices-surge",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-04-30",
+      "summary": null,
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/04/2026-04-29T174249Z_623993623_RC21ZKAPEPRK_RTRMADP_3_IRAN-CRISIS-1777505157.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Israeli forces raid Global Sumud Flotilla boats in international waters",
+      "url": "https://www.aljazeera.com/news/2026/4/29/israeli-military-speedboats-block-gaza-bound-aid-ship",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-04-29",
+      "summary": null,
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/04/CaptureSUMUD-1777510302.jpg?resize=570%2C345&amp;quality=80"
+    },
+    {
+      "title": "New Florida map boosts Republican seats amid national redistricting fight",
+      "url": "https://www.aljazeera.com/news/2026/4/29/new-florida-map-boosts-republican-seats-amid-national-redistricting-fight",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-04-29",
+      "summary": null,
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/04/reuters_69f26556-1777493334.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Ukraine asks Israel to seize ship carrying grain ‘stolen’ by Russia",
+      "url": "https://www.aljazeera.com/news/2026/4/29/ukraine-asks-israel-to-seize-ship-carrying-stolen-russian-grain",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-04-29",
+      "summary": null,
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/04/reuters_69f25c6e-1777491054.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Mali’s Tuareg rebels say Russian fighters must withdraw from country",
+      "url": "https://www.aljazeera.com/news/2026/4/29/malis-tuareg-rebels-say-russian-fighters-must-withdraw-from-country",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-04-29",
+      "summary": null,
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/04/2025-04-30T141436Z_1601862915_RC2ODBA5D91V_RTRMADP_3_MALI-SECURITY-HEALTH-1777493479.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Supreme Court appears to lean toward ending TPS for some migrants",
+      "url": "https://www.npr.org/2026/04/29/nx-s1-5804707/supreme-court-tps",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Wed, 29 Apr 2026 18:04:37 -0400",
+      "summary": "The U.S. Supreme Court appeared sympathetic to the Trump administration's move to end temporary protected status for Haitians and Syrians in the country.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8256x5504+0+0/resize/8256x5504!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Ff3%2F85%2F8c9b02b64ed491ae82dd76996ffd%2Fgettyimages-2268672920-1.jpg"
+    },
+    {
+      "title": "The Austrian nuns who fled their care home are now in Rome and visited the Vatican",
+      "url": "https://www.npr.org/2026/04/29/g-s1-119191/austria-nuns-vatican-rome",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Wed, 29 Apr 2026 17:48:17 -0400",
+      "summary": "The three octogenarian nuns, who made headlines last year after they broke back into their convent, joined others at St. Peter's Square for a general audience with Pope Leo XIV on Wednesday morning.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6248x4464+0+0/resize/6248x4464!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F73%2F97%2F2777f7754857b6d64fc54d86aa90%2Fgettyimages-2235988357.jpg"
+    },
+    {
+      "title": "House extends a controversial spy tool, but Senate path is unclear ahead of deadline",
+      "url": "https://www.npr.org/2026/04/29/g-s1-119094/congress-fisa-702",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Wed, 29 Apr 2026 17:30:34 -0400",
+      "summary": "The House has approved a three year extension of the surveillance program known as FISA Section 702. The bill now heads to the Senate, where it faces a difficult path to final passage.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5464x4128+0+0/resize/5464x4128!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F27%2Fb5%2Fd5fa59b948278d791aa462cedd1d%2Fgettyimages-2273580913.jpg"
+    },
+    {
+      "title": "Long a dream, it's now real: a fast and accurate TB test that doesn't need phlegm",
+      "url": "https://www.npr.org/2026/04/29/nx-s1-5802789/tb-tuberculosis-rapid-test",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Wed, 29 Apr 2026 17:01:46 -0400",
+      "summary": "TB tests use phlegm — not the easiest thing to get or work with. It takes time for results. And there can be false negatives and positives. A new test is more accurate and takes less than half an hour.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3760x3020+0+0/resize/3760x3020!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fb2%2F5c%2F1b873e4140bdbea9ee0ae6906329%2Ftb-1358937381.jpg"
+    },
+    {
+      "title": "DOD officials say Iran war has cost $25 billion so far during Congressional grilling",
+      "url": "https://www.npr.org/2026/04/29/nx-s1-5804516/dod-officials-say-iran-war-has-cost-25-billion-so-far-during-congressional-grilling",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Wed, 29 Apr 2026 16:58:39 -0400",
+      "summary": "The Pentagon says that the cost of the war with Iran is estimated to be some $25 billion. Defense officials were appearing on the Hill for budget discussions.",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "BP criticized over surging profits following Iran war",
+      "url": "https://www.chinadaily.com.cn/a/202604/30/WS69f25ae5a310d6866eb46555.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-04-30",
+      "summary": "The United Kingdom-based oil and gas giant BP is facing criticism after reporting its profits more than doubled in the first quarter of the year, following a spike in oil prices since the Iran war began.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202604/30/69f25ae5a310d68600fc9e9d.jpeg"
+    },
+    {
+      "title": "UAE exits oil groupings, eyes more output",
+      "url": "https://www.chinadaily.com.cn/a/202604/29/WS69f220c2a310d6866eb46533.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-04-29",
+      "summary": "The United Arab Emirates is set to substantially ramp up its oil production capacity after quitting the Organization of the Petroleum Exporting Countries and the broader OPEC+ alliance effective Friday, making a pivotal shift at a time when the war between the United States, Israel and Iran has triggered an energy crisis and roiled the global economy.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202604/30/69f23a3da310d68600fc9e80.jpeg"
+    },
+    {
+      "title": "UK lawmakers reject Mandelson inquiry",
+      "url": "https://www.chinadaily.com.cn/a/202604/30/WS69f25b27a310d6866eb46558.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-04-30",
+      "summary": "United Kingdom Prime Minister Keir Starmer has escaped having a parliamentary inquiry opened into his appointment of Peter Mandelson to be the country’s ambassador to the United States, as the controversy that has dominated domestic politics recently shows no sign of going away.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202604/30/69f2853fa310d68600fc9ec5.jpeg"
+    },
+    {
+      "title": "US Fed keeps interest rate unchanged amid high energy prices",
+      "url": "https://www.chinadaily.com.cn/a/202604/30/WS69f277aba310d6866eb4655b.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-04-30",
+      "summary": "WASHINGTON-- The US Federal Reserve on Wednesday decided to maintain its target range for the federal funds rate at 3.5-3.75 percent as high energy prices added inflation pressures.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202604/30/69f278baa310d68600fc9eb8.jpeg"
+    },
+    {
+      "title": "Beijing invites more to join Group of Friends of Global Governance",
+      "url": "https://www.chinadaily.com.cn/a/202604/30/WS69f2acc9a310d6866eb4660f.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-04-30",
+      "summary": "China on Wednesday called on other like-minded countries to join the Group of Friends of Global Governance, following the launch of the group's Vienna chapter a day earlier.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202604/30/69f2acc8a310d68600fca39d.png"
+    },
+    {
+      "title": "Rajnath Singh gave ‘clean chit’ to Pakistan in SCO speech, says Congress",
+      "url": "https://www.thehindu.com/news/national/congress-accuses-rajnath-singh-of-giving-clean-chit-to-pakistan-dubs-his-remarks-at-sco-anti-national/article70919228.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-04-29T06:16:33.000Z",
+      "summary": "Congress accuses Rajnath Singh of anti-national remarks at SCO, claiming he gave Pakistan a &#039;clean chit&#039; amid appeasement policies.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/6os0hc/article70919284.ece/alternates/LANDSCAPE_1200/20260428125L.jpg"
+    },
+    {
+      "title": "Court rejects autorickshaw permit plea of man acquitted in 26/11 terror case",
+      "url": "https://www.thehindu.com/news/national/maharashtra/court-rejects-autorickshaw-permit-plea-of-man-acquitted-in-2611-terror-case/article70921452.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-04-29T17:08:35.000Z",
+      "summary": "Bombay High Court denies autorickshaw permit to 26/11 acquitted man, upholding authorities&#039; security concerns over police clearance.",
+      "thumbnailUrl": "https://www.thehindu.com/theme/images/og-image.png"
+    },
+    {
+      "title": "Bombay High Court grants bail to Sharad Kalaskar in Narendra Dabholkar murder case",
+      "url": "https://www.thehindu.com/news/national/maharashtra/bombay-high-court-grants-bail-to-sharad-kalaskar-in-narendra-dabholkar-murder-case/article70921476.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-04-29T17:08:59.000Z",
+      "summary": "Bombay High Court grants bail to Sharad Kalaskar in the Narendra Dabholkar murder case, citing doubts over his identification.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/bscy5r/article70921937.ece/alternates/LANDSCAPE_1200/NorthIndia.1.FeGDMFCHPHC.3.jpg.jpg"
+    },
+    {
+      "title": "India–Sri Lanka maritime ties strengthened through IN–SLN DIVEX 2026",
+      "url": "https://www.thehindu.com/news/national/indiasri-lanka-maritime-ties-strengthened-through-insln-divex-2026/article70920948.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-04-29T15:26:01.000Z",
+      "summary": "India and Sri Lanka enhance maritime ties through IN–SLN DIVEX 2026, focusing on advanced deep-sea diving operations and collaboration.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/latest-news/74b8vo/article70922160.ece/alternates/LANDSCAPE_1200/DIVEX.jpeg"
+    },
+    {
+      "title": "Piprahwa relics of Buddha arrive in Leh, people gather in huge numbers to pay respect",
+      "url": "https://www.thehindu.com/news/national/piprahwa-relics-of-buddha-in-leh/article70923054.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-04-30T01:40:45.000Z",
+      "summary": "Piprahwa Buddha relics arrive in Leh for public veneration, attracting thousands to honor this significant spiritual occasion from May 2-10.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/6ki7y7/article70923062.ece/alternates/LANDSCAPE_1200/HHD04o1bMAAC6lf.jpg"
+    },
+    {
+      "title": "White House official to visit Venezuela to meet energy, mining executives",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdmMtQ3JDYjVuaTNOTTlvYWNjcmd6RWdzVkx3ZVJ5dVMwSm5QeFAzZHpsRjVoczJRem1FTXBCcDV3N3VvT1E0R1J4MkUxMzJMMnhMY2tUeGNPOUU2UTdpaWEzVUxFTUdxM0ZaWk9VNjkwdEdHb3ZEcC1tQzBIMkY2RFp3OS1SZktMWjBRemliUk1Gc1VhTldFdS05dnhDZmVpZi04YkdKSHdjT2dGVTE1Y0pmZWxibHBz?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Wed, 29 Apr 2026 22:34:54 GMT",
+      "summary": null,
+      "thumbnailUrl": null
+    },
+    {
+      "title": "Trump says the US is reviewing a potential reduction of its troops in Germany",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRS12VkljLVlMZnlMcTdzSWpBR1ZYa2xMcGlEWjdQSGZwem0ybl9WU0tfUkNndHdrXy1mN2xlUzEwSGhOd3BQTlFJaDhLelkyeXFCMElySVUyMGlVZ0daeEpPckxUUFhFS0ZFSzZKS1M1dFVBN0t3MHpoVko5alh2M2JiWldqX3BaaFFwQ19JLTRKVWtXNVRyWWhFbFlUOVU1aHZ3WEJ1ZlVGUWlCVGlz?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Wed, 29 Apr 2026 22:02:00 GMT",
+      "summary": null,
+      "thumbnailUrl": null
+    },
+    {
+      "title": "Qualcomm rises on smartphone rebound hopes, data-center chip push",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZGpONE1haEd0UUVsM194YnJ2amVZckQ4MFRuWnh3VndVRG5KWTc5QXlMS016bmJDZUV3b1NZV0tTZ2dpRG9rOFJXaUs0VlMwLUFYSE1Bc1M4M0xGUlQ2R3F5U2dtd1RRM2ZIcXdhSVUwS2kxMnZXM01pbk1NLW1oZ3ZkeFFzV0h0Rk94SkNtQjZCbEVsTHBJaF9uV2FVNWhXOVp2Uy1KZVUxTmhwdmxvRzcyYnpzdkVJU2phRUhJQW5jNGZhTjVv?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Wed, 29 Apr 2026 22:57:54 GMT",
+      "summary": null,
+      "thumbnailUrl": null
+    },
+    {
+      "title": "US accuses Mexican governor of alleged cartel ties, marking new front in drug war",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdzBBcWo2WURITzc2OTBYUzZ3STZVOTdiVVpZNUNYNmhIdVZLc2dGaGZkZ2RXS0ZCUXV3ZGVNMTk4VjV1VGM3U1JJdHBfZGVyWGJ6OW1wTWl0NTNCNFgzM2RWZ3ZXT1NOeGVCYU5DVjRwSm5YRVgwRDZVaXM0RFdRRm1MUHZldXBwNFRGdkUwYkdrMEh6dFFQX0JEd2xSRVVWMGNQV28wYw?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Wed, 29 Apr 2026 19:02:00 GMT",
+      "summary": null,
+      "thumbnailUrl": null
+    },
+    {
+      "title": "Trump says he discussed a Ukraine ceasefire with Putin",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOMGI0aXBrSFBUMUFQZFFEUjE4YUk3RzROVDVYTXlLRE1NVVg2X1lNMktxbkhpMFJEdldlWEo1Mk1vMERscEJWU3dXMk9NU21Vc1ZGUi1GVXF1blBxQ09FZC1DYUo0TTczd2FMMTZabnBiampub2NMNHZTbDhEUHAwVldtVG13UjUxUlcyM2FMWkRGOTd5UmVlQXFn?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Wed, 29 Apr 2026 19:57:15 GMT",
+      "summary": null,
+      "thumbnailUrl": null
+    }
+  ],
+  "markets": [
+    {
+      "id": "sp-500",
+      "label": "S&P 500",
+      "region": "US",
+      "symbol": "^GSPC",
+      "value": 7135.95,
+      "previousClose": 7138.7996094,
+      "change": -2.8496094,
+      "percentChange": -0.039917205,
+      "direction": "down",
+      "sessionDate": "2026-04-30"
+    },
+    {
+      "id": "nasdaq-composite",
+      "label": "NASDAQ Composite",
+      "region": "US",
+      "symbol": "^IXIC",
+      "value": 24673.24,
+      "previousClose": 24663.798594,
+      "change": 9.441406,
+      "percentChange": 0.038280424,
+      "direction": "up",
+      "sessionDate": "2026-04-30"
+    },
+    {
+      "id": "euronext-100",
+      "label": "Euronext 100 Index",
+      "region": "Europe",
+      "symbol": "^N100",
+      "value": 1781.87,
+      "previousClose": 1786.0500536999998,
+      "change": -4.1800537,
+      "percentChange": -0.23403901,
+      "direction": "down",
+      "sessionDate": "2026-04-30"
+    },
+    {
+      "id": "moex",
+      "label": "Public Joint-Stock Company Moscow Exchange MICEX-RTS",
+      "region": "Europe",
+      "symbol": "MOEX.ME",
+      "value": 85.2,
+      "previousClose": 85.31000061,
+      "change": -0.11000061,
+      "percentChange": -0.12894222,
+      "direction": "down",
+      "sessionDate": "2026-04-30"
+    },
+    {
+      "id": "hang-seng",
+      "label": "HANG SENG INDEX",
+      "region": "Asia",
+      "symbol": "^HSI",
+      "value": 25757.8,
+      "previousClose": 26111.83906,
+      "change": -354.03906,
+      "percentChange": -1.3558456,
+      "direction": "down",
+      "sessionDate": "2026-04-30"
+    },
+    {
+      "id": "nikkei-225",
+      "label": "Nikkei 225",
+      "region": "Asia",
+      "symbol": "^N225",
+      "value": 59304.62,
+      "previousClose": 59917.45984,
+      "change": -612.83984,
+      "percentChange": -1.0228068,
+      "direction": "down",
+      "sessionDate": "2026-04-30"
+    },
+    {
+      "id": "sensex",
+      "label": "S&P BSE SENSEX",
+      "region": "India",
+      "symbol": "^BSESN",
+      "value": 77496.36,
+      "previousClose": 76886.9069,
+      "change": 609.4531,
+      "percentChange": 0.7926618,
+      "direction": "up",
+      "sessionDate": "2026-04-30"
+    }
+  ],
+  "hackerNews": [
+    {
+      "title": "Craig Venter has died",
+      "url": "https://www.jcvi.org/media-center/j-craig-venter-genomics-pioneer-and-founder-jcvi-and-diploid-genomics-inc-dies-79",
+      "publishedAt": "2026-04-30T01:44:56.000Z"
+    },
+    {
+      "title": "Zed 1.0",
+      "url": "https://zed.dev/blog/zed-1-0",
+      "publishedAt": "2026-04-29T14:34:19.000Z"
+    },
+    {
+      "title": "Copy Fail",
+      "url": "https://copy.fail/",
+      "publishedAt": "2026-04-29T18:13:53.000Z"
+    },
+    {
+      "title": "Joby Kicks Off NYC Electric Air Taxi Demos with Historic JFK Flight",
+      "url": "https://www.flyingmag.com/joby-nyc-electric-air-taxi-jfk-airport/",
+      "publishedAt": "2026-04-30T01:01:55.000Z"
+    },
+    {
+      "title": "Cursor Camp",
+      "url": "https://neal.fun/cursor-camp/",
+      "publishedAt": "2026-04-29T15:39:43.000Z"
+    },
+    {
+      "title": "OpenTrafficMap",
+      "url": "https://opentrafficmap.org/",
+      "publishedAt": "2026-04-29T19:49:30.000Z"
+    },
+    {
+      "title": "FastCGI: 30 years old and still the better protocol for reverse proxies",
+      "url": "https://www.agwa.name/blog/post/fastcgi_is_the_better_protocol_for_reverse_proxies",
+      "publishedAt": "2026-04-29T16:16:39.000Z"
+    },
+    {
+      "title": "HERMES.md in commit messages causes requests to route to extra usage billing",
+      "url": "https://github.com/anthropics/claude-code/issues/53262",
+      "publishedAt": "2026-04-29T18:54:31.000Z"
+    },
+    {
+      "title": "Why I still reach for Lisp and Scheme instead of Haskell",
+      "url": "https://jointhefreeworld.org/blog/articles/lisps/why-i-still-reach-for-scheme-instead-of-haskell/index.html",
+      "publishedAt": "2026-04-29T08:43:17.000Z"
+    },
+    {
+      "title": "Laws of UX",
+      "url": "https://lawsofux.com/",
+      "publishedAt": "2026-04-29T16:58:13.000Z"
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "Plurai",
+      "tagline": "Vibe-train evals and guardrails tailored to your use case Discussion | Link",
+      "url": "https://www.producthunt.com/products/plurai",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-04-29T20:10:21-07:00"
+    },
+    {
+      "name": "Plannotator",
+      "tagline": "Annotate any doc, URL, or folder - send feedback to agents Discussion | Link",
+      "url": "https://www.producthunt.com/products/plannotator",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-04-29T20:03:29-07:00"
+    },
+    {
+      "name": "Gro v2",
+      "tagline": "Spot signals, trigger outreach - turn posts into pipeline Discussion | Link",
+      "url": "https://www.producthunt.com/products/gro-2",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-04-29T20:05:19-07:00"
+    },
+    {
+      "name": "Netlify Database",
+      "tagline": "Ship data-driven apps without breaking flow Discussion | Link",
+      "url": "https://www.producthunt.com/products/netlify",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-04-29T20:10:19-07:00"
+    },
+    {
+      "name": "CodeHealth MCP Server by CodeScene",
+      "tagline": "Keep AI-generated code healthy and maintainable Discussion | Link",
+      "url": "https://www.producthunt.com/products/codescene-codehealth-mcp-server",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-04-29T19:39:08-07:00"
+    }
+  ],
+  "sourceNotes": {
+    "generatedAt": "2026-04-30T03:12:04.989Z",
+    "timeZone": "Asia/Kolkata",
+    "successfulSources": [
+      "New York Times",
+      "Al Jazeera",
+      "NPR",
+      "China Daily",
+      "The Hindu",
+      "Reuters"
+    ],
+    "marketSessionLabel": "Latest market sessions as of 2026-04-30",
+    "warnings": []
+  }
+}
