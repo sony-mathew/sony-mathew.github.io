@@ -1,0 +1,463 @@
+{
+  "headlines": [
+    {
+      "title": "Iran War Live Updates: Attacks in Gulf Threaten to Reignite Conflict",
+      "url": "https://www.nytimes.com/live/2026/05/04/world/iran-hormuz-ships-navy",
+      "source": "New York Times",
+      "region": "Global",
+      "publishedAt": "Tue, 05 May 2026 02:03:09 +0000",
+      "summary": "U.S. warships shot down missiles and drones aimed at ships the Navy was guiding through the Strait of Hormuz, and the authorities in the United Arab Emirates blamed Iran for a drone attack.",
+      "thumbnailUrl": "https://static01.nyt.com/images/2026/05/04/multimedia/04mideast-live-promo-745p-qvmb/04mideast-live-promo-745p-qvmb-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "With World Distracted by Iran War, Israeli Settlers Intensify Attacks in West Bank",
+      "url": "https://www.nytimes.com/2026/05/04/world/middleeast/israel-palestinians-west-bank-settler-violence-iran-war.html",
+      "source": "New York Times",
+      "region": "Global",
+      "publishedAt": "Mon, 04 May 2026 09:08:33 +0000",
+      "summary": "Israel has failed to arrest a wave of violence against Palestinians, prompting military officials to urge the government to intervene.",
+      "thumbnailUrl": "https://static01.nyt.com/images/2026/05/01/multimedia/00int-israel-westbank-01-hvcb/00int-israel-westbank-01-hvcb-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "How the Kremlin Lures Africans Into Russia’s War in Ukraine",
+      "url": "https://www.nytimes.com/2026/05/04/world/africa/ukraine-russia-war-african-soldiers.html",
+      "source": "New York Times",
+      "region": "Global",
+      "publishedAt": "Mon, 04 May 2026 14:17:47 +0000",
+      "summary": "A growing number of men across the continent say they are being promised jobs in Russia, only to be forced into the war. Some go as mercenaries, but many more are drawn unwittingly.",
+      "thumbnailUrl": "https://static01.nyt.com/images/2026/05/03/multimedia/03int-africa-russia-ukraine-promo-tbch/03int-africa-russia-ukraine-promo-tbch-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "After the Hong Kong Fire Killed 3 Generations of His Family, A Son Searches for Justice",
+      "url": "https://www.nytimes.com/2026/05/04/world/asia/hong-kong-apartment-fire-family.html",
+      "source": "New York Times",
+      "region": "Global",
+      "publishedAt": "Mon, 04 May 2026 17:32:35 +0000",
+      "summary": "Lee Chun Ho lost four members of his household in last November’s apartment-tower blaze. He’s now telling an investigative committee what contractors ignored.",
+      "thumbnailUrl": "https://static01.nyt.com/images/2026/05/04/multimedia/04int-hongkong-fire-family-01-mvfl/04int-hongkong-fire-family-01-mvfl-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "Drone Hits a Moscow High-Rise Days Before a Major Military Parade",
+      "url": "https://www.nytimes.com/2026/05/04/world/europe/moscow-drone-attack.html",
+      "source": "New York Times",
+      "region": "Global",
+      "publishedAt": "Mon, 04 May 2026 18:03:03 +0000",
+      "summary": "Air defenses in the Russian capital were breached as Ukraine expands long-range strikes.",
+      "thumbnailUrl": "https://static01.nyt.com/images/2026/05/04/multimedia/04int-russia-attack-zgkl/04int-russia-attack-zgkl-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "US, Iran trade threats over Strait of Hormuz as attack on UAE condemned",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/5/5/iran-war-live-washington-tehran-trade-threats-over-strait-of-hormuz",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-05-05",
+      "summary": null,
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/05/AFP__20260503__A9N64QX__v2__HighRes__TopshotIranUsIsraelWarSchool-1777937623.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Amnesty accuses Congolese rebel group of ‘extensive brutality’",
+      "url": "https://www.aljazeera.com/news/2026/5/4/extensive-brutality-rebel-attacks-reap-hell-on-congolese-civilians",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-05-04",
+      "summary": null,
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2019/12/5d6a7fcbfc3e441482620057adb6db6a_18.jpeg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "For Christians in Israel and Jerusalem, intolerance is becoming normal",
+      "url": "https://www.aljazeera.com/news/2026/5/4/for-christians-israel-jerusalem-intolerance-becoming-normal",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-05-04",
+      "summary": null,
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2025/04/ap_67fcb64f4b40f-1744614991.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Brazil’s Lula to travel to US to meet with Trump later this week",
+      "url": "https://www.aljazeera.com/news/2026/5/4/brazils-lula-to-travel-to-us-to-meet-with-trump-later-this-week",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-05-04",
+      "summary": null,
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/05/afp_69f90572d3ce-1777927538.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Hormuz tensions push ceasefire to the brink as Trump threatens Iran",
+      "url": "https://www.aljazeera.com/news/2026/5/4/hormuz-tensions-push-ceasefire-to-the-brink-as-trump-threatens-iran",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-05-04",
+      "summary": null,
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/05/2026-05-04T131617Z_369764636_RC231LAJAV82_RTRMADP_3_IRAN-CRISIS-1777923575.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "See the looks from the 2026 Met Gala red carpet",
+      "url": "https://www.npr.org/sections/the-picture-show/2026/05/04/nx-s1-5803014/met-gala-red-carpet",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Mon, 04 May 2026 19:09:08 -0400",
+      "summary": "Extravagantly dressed celebrities and designers made their way up the famous Met staircase Monday evening. The fundraiser is one of the fashion industry's biggest nights.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5052x3555+0+0/resize/5052x3555!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F00%2Fb6%2Fabe1e6de4ce28e6da89e3ee6b135%2Fgettyimages-2274055544.jpg"
+    },
+    {
+      "title": "Hotels have a big World Cup problem: Bookings are running far below projections",
+      "url": "https://www.npr.org/2026/05/04/nx-s1-5810626/world-cup-hotels-tourism-bookings-visitors",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Mon, 04 May 2026 17:56:29 -0400",
+      "summary": "Nearly 80% of hotels surveyed by a body representing the industry reported bookings were running below projections — a worrisome sign with only weeks to go before the World Cup.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5272x3435+0+0/resize/5272x3435!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fc4%2F0a%2Fe84336e84f4b9f702d473d93a5a4%2Fgettyimages-2268319548.jpg"
+    },
+    {
+      "title": "Modi's party takes control of India's West Bengal in key state election",
+      "url": "https://www.npr.org/2026/05/04/g-s1-120053/modis-party-takes-control-of-indias-west-bengal-in-key-state-election",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Mon, 04 May 2026 16:18:30 -0400",
+      "summary": "The outcome is expected to strengthen Modi's political position midway through his third term.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6388x4259+0+0/resize/6388x4259!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F97%2Ff7%2Fef65beff4741a8dc8983030a959a%2Fap26124514700342.jpg"
+    },
+    {
+      "title": "Here are the 2026 Pulitzer Prize winners",
+      "url": "https://www.npr.org/2026/05/04/nx-s1-5803483/pulitzer-prize-winners-2026",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Mon, 04 May 2026 16:00:16 -0400",
+      "summary": "Award winners include authors Daniel Kraus, Jill Lepore and Yiyun Li, opinion writer M. Gessen and staffers and contributors at The Washington Post , Reuters and AP.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x2069+0+0/resize/3000x2069!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F68%2Fdb%2F53d14f2d43f6b24524256ebfa7f1%2Fgettyimages-491300440.jpg"
+    },
+    {
+      "title": "A United jet struck a light pole and a truck near Newark airport, police say",
+      "url": "https://www.npr.org/2026/05/04/nx-s1-5810477/united-jet-strikes-truck-newark-airport",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Mon, 04 May 2026 14:09:20 -0400",
+      "summary": "New Jersey State Police say a United Airlines passenger jet struck a light pole and damaged a truck as it was coming in for a landing at Newark Liberty International Airport on Sunday.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1024x683+0+0/resize/1024x683!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F22%2F59%2F690db4674263aa6b4f28fc75aedb%2Fgettyimages-2266700168.jpg"
+    },
+    {
+      "title": "Japanese PM reaffirms intention to revise Constitution",
+      "url": "https://www.chinadaily.com.cn/a/202605/03/WS69f71501a310d6866eb46c69.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-05-03",
+      "summary": "TOKYO -- Japanese Prime Minister Sanae Takaichi, on Sunday, the country's Constitution Memorial Day, reaffirmed her intention to revise the Constitution, local media reported.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202605/03/69f71501a310d68600fcc9ca.jpeg"
+    },
+    {
+      "title": "US May Day rallies draw tens of thousands nationwide",
+      "url": "https://www.chinadaily.com.cn/a/202605/02/WS69f5f424a310d6866eb46bb4.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-05-02",
+      "summary": "NEW YORK -- Tens of thousands of people took to the streets across the United States on Friday to join May Day rallies against the US-Israeli war on Iran and defend labor and immigrant rights.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202605/02/69f5f533a310d68600fcc4f3.png"
+    },
+    {
+      "title": "BP criticized over surging profits following Iran war",
+      "url": "https://www.chinadaily.com.cn/a/202604/30/WS69f25ae5a310d6866eb46555.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-04-30",
+      "summary": "The United Kingdom-based oil and gas giant BP is facing criticism after reporting its profits more than doubled in the first quarter of the year, following a spike in oil prices since the Iran war began.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202604/30/69f25ae5a310d68600fc9e9d.jpeg"
+    },
+    {
+      "title": "UAE exits oil groupings, eyes more output",
+      "url": "https://www.chinadaily.com.cn/a/202604/29/WS69f220c2a310d6866eb46533.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-04-29",
+      "summary": "The United Arab Emirates is set to substantially ramp up its oil production capacity after quitting the Organization of the Petroleum Exporting Countries and the broader OPEC+ alliance effective Friday, making a pivotal shift at a time when the war between the United States, Israel and Iran has triggered an energy crisis and roiled the global economy.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202604/30/69f2d663a310d68600fcac3a.jpeg"
+    },
+    {
+      "title": "7 OPEC+ countries to increase oil production",
+      "url": "https://www.chinadaily.com.cn/a/202605/03/WS69f72c81a310d6866eb46c7a.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-05-03",
+      "summary": "VIENNA -- OPEC said in a communique on Sunday that seven OPEC+ countries decided to increase their oil production cap by 188,000 barrels per day in June, in response to the withdrawal of the United Arab Emirates from the bloc.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202605/03/69f742ffa310d68600fcca3d.jpeg"
+    },
+    {
+      "title": "Assembly Election 2026 results LIVE: TN, Kerala, West Bengal head into Govt formation mode",
+      "url": "https://www.thehindu.com/news/national/assembly-election-2026-results-live-west-bengal-tamil-nadu-kerala-puducherry-assam-may-5-2026/article70941224.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-05-05T02:16:14.000Z",
+      "summary": "Follow live updates from The Hindu as fresh developments unfold following the historic 2026 Assembly elections results in Tamil Nadu, West Bengal, Kerala, Puducherry, and Assam",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/z5sdj5/article70941225.ece/alternates/LANDSCAPE_1200/PTI05_04_2026_000385A.jpg"
+    },
+    {
+      "title": "Das Adam Smith Problem: rethinking Smith’s moral and economic worlds",
+      "url": "https://www.thehindu.com/news/national/das-adam-smith-problem-rethinking-smiths-moral-and-economic-worlds/article70939059.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-05-05T03:00:00.000Z",
+      "summary": "Explore the Das Adam Smith Problem, revealing the coherence between Smith’s moral philosophy and economic theories amidst ongoing scholarly debate.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/news/national/eeb0wb/article70940198.ece/alternates/LANDSCAPE_1200/iStock-2162043940.jpg"
+    },
+    {
+      "title": "Did the Prime Minister’s broadcast violate MCC? | Explained",
+      "url": "https://www.thehindu.com/news/national/did-the-prime-ministers-broadcast-violate-mcc-explained/article70938623.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-05-05T03:00:00.000Z",
+      "summary": "Explore whether Prime Minister Modi&#039;s broadcast breached the Model Code of Conduct and the implications for electoral law.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/wnidzw/article70940165.ece/alternates/LANDSCAPE_1200/PTI04_18_2026_000774B.jpg"
+    },
+    {
+      "title": "What the winner must learn from the loser in Kerala: No leader is inevitable",
+      "url": "https://www.thehindu.com/news/national/what-the-winner-must-learn-from-the-loser-in-kerala-no-leader-is-inevitable/article70939973.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-05-04T19:43:00.000Z",
+      "summary": "The LDF’s campaign, like its government, was strikingly at odds with Left tradition and revolved around Pinarayi’s personality; the UDF must now resist the temptation to imitate this model",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/66jsbf/article70940396.ece/alternates/LANDSCAPE_1200/NH04UDF09.JPG"
+    },
+    {
+      "title": "SC seeks Centre’s response on Christian Michel James’ plea in AgustaWestland case",
+      "url": "https://www.thehindu.com/news/national/sc-seeks-centres-response-on-christian-michel-james-plea-in-agustawestland-case/article70938461.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-05-04T17:58:50.000Z",
+      "summary": "Supreme Court seeks Centre&#039;s response on Christian Michel James&#039; plea for release in AgustaWestland case due to maximum sentence claim.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/yb9a74/article70940300.ece/alternates/LANDSCAPE_1200/TH24-Ishita-DelG00F7B8IA.4.jpg.jpg"
+    },
+    {
+      "title": "US Supreme Court lets Voting Rights Act ruling take effect ahead of schedule",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQdURhVkJqeDZtNkxnWnpEQU1zZ29qdi1LSF9ZRnlBcV9BWENMMkpRaHRXbVdneElNMVFIcFpRNFUwTl9md0ZzZi12VjZKbjdfZ01vaHU2dk9qa1hGdlpQbTMzajRuNjQtRlFRUlNFQWdCNEVSUjMwY3NtTGFpMzZNeUdRUzU3LWRUbVdjdVFmU1BTVGxvTzR4M3JPR195S2hzZXppYzlSS2M0X2MyVHNCY2lpN3NUUQ?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Mon, 04 May 2026 23:11:00 GMT",
+      "summary": null,
+      "thumbnailUrl": null
+    },
+    {
+      "title": "Exclusive: US intelligence indicates limited new damage to Iran's nuclear program, sources say",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQNm9KaWowV3pqQVVxRjJSZE9ROFVxTlM3YjZiVEI5bGZjcUIwbE1JSl9nWi1tTF8tc2ZpbU80RXFCQWdFNThGa0JZZ0xyai1XSjJEeGVzU3ZtU2ZNNGZMOHpzd0pDYWdlRldLeFZjeEdoeDlidlZ6U3NhYVc5RXZ5Q2ZsMDNvWkNRZkhzckxjeXJITmhIUGV6cFNId3NRakhOckJtOVI2cnZRVnNMQmpYd2JPTm9GMkJHZmpCUktVZ1YtYUtfZlJfM0Z0Tnk?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Mon, 04 May 2026 20:36:00 GMT",
+      "summary": null,
+      "thumbnailUrl": null
+    },
+    {
+      "title": "Secret Service says it exchanged gunfire with armed suspect near White House",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOeksyX3Utb2dXLVNpaEJ1TkQ2QnZRWEVlQ215eWd4T3NpN055STRUN0JJeE9nU1pZWVB2OVpuZFNwbTEtT2VWQmgwbDVLd0JPWTlDOWRMd0V6LWx5aE00cDZ0WWd4TVNzSVVWa1Vwd2RpYWs2dGZ1Y1BGbXVQbGxDUnJleG92MS1xUC10REp6ZUlJdnF4N0tiU2ViX3B3OHVhZ1NmZnZhRmFsd21GQWV4c3h0OWpieUhYTTdyVjBwb0xaNW8?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Mon, 04 May 2026 20:19:00 GMT",
+      "summary": null,
+      "thumbnailUrl": null
+    },
+    {
+      "title": "Elon Musk settles SEC lawsuit over Twitter disclosures, $1.5 million fine imposed",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPT1JxZnFpTnV6VWtBdEdMLVMtU0R2NDMxSlpvMDNzbzcxdXB4bXUwLXM1bGxJcWtsV0xoZzA0bHhtb0JRWXo2QjVSQ1dkakFEaUp5STRvRXFYVUVhS2I4NXVGcWEyekZRS3IxU2llQkQ3Y1FzUGszUjhiMHZ1MjFwMFE1cF9tTi1RQmE3Q01wQXJ6TjdkSWhHaURZTFZaT3VuX19vQlR2Ynh5djJob1owb3ZHM1J5WFdzNWhIM0FVZw?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Mon, 04 May 2026 23:45:55 GMT",
+      "summary": null,
+      "thumbnailUrl": null
+    },
+    {
+      "title": "Reuters wins two Pulitzer Prizes for national and beat reporting",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNUUthU1ZGOW1CREtiRWJsR1RPRkNwVDRjRlBZcmNNQkdudU1EWTNEbEwtR3pzNFpGaEpRNVNuMGt6NEF2enUwM3FjbFZvSnlteVl1UE1rTDZXVWVNTmtGOGdrUkxlTll5UlRwT3Q0ZWwyZjR1NFh0Y19GN2ZsZVB5aWF2cUlrOUdXQ1gzLWRZcFBRRlVIYm1jeVRSSGNvaEk?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Mon, 04 May 2026 22:47:09 GMT",
+      "summary": null,
+      "thumbnailUrl": null
+    }
+  ],
+  "markets": [
+    {
+      "id": "sp-500",
+      "label": "S&P 500",
+      "region": "US",
+      "symbol": "^GSPC",
+      "value": 7200.75,
+      "previousClose": 7230.120117,
+      "change": -29.370117,
+      "percentChange": -0.40621895,
+      "direction": "down",
+      "sessionDate": "2026-05-05"
+    },
+    {
+      "id": "nasdaq-composite",
+      "label": "NASDAQ Composite",
+      "region": "US",
+      "symbol": "^IXIC",
+      "value": 25067.8,
+      "previousClose": 25114.44258,
+      "change": -46.64258,
+      "percentChange": -0.18572013,
+      "direction": "down",
+      "sessionDate": "2026-05-05"
+    },
+    {
+      "id": "euronext-100",
+      "label": "Euronext 100 Index",
+      "region": "Europe",
+      "symbol": "^N100",
+      "value": 1774.65,
+      "previousClose": 1799.8199220000001,
+      "change": -25.169922,
+      "percentChange": -1.3984689,
+      "direction": "down",
+      "sessionDate": "2026-05-05"
+    },
+    {
+      "id": "moex",
+      "label": "Public Joint-Stock Company Moscow Exchange MICEX-RTS",
+      "region": "Europe",
+      "symbol": "MOEX.ME",
+      "value": 85.2,
+      "previousClose": 85.31000061,
+      "change": -0.11000061,
+      "percentChange": -0.12894222,
+      "direction": "down",
+      "sessionDate": "2026-05-05"
+    },
+    {
+      "id": "hang-seng",
+      "label": "HANG SENG INDEX",
+      "region": "Asia",
+      "symbol": "^HSI",
+      "value": 25878.84,
+      "previousClose": 26095.88102,
+      "change": -217.04102,
+      "percentChange": -0.8317012,
+      "direction": "down",
+      "sessionDate": "2026-05-05"
+    },
+    {
+      "id": "nikkei-225",
+      "label": "Nikkei 225",
+      "region": "Asia",
+      "symbol": "^N225",
+      "value": 59513.12,
+      "previousClose": 59284.89734,
+      "change": 228.22266,
+      "percentChange": 0.38495916,
+      "direction": "up",
+      "sessionDate": "2026-05-05"
+    },
+    {
+      "id": "sensex",
+      "label": "S&P BSE SENSEX",
+      "region": "India",
+      "symbol": "^BSESN",
+      "value": 77269.4,
+      "previousClose": 76913.50155999999,
+      "change": 355.89844,
+      "percentChange": 0.46272558,
+      "direction": "up",
+      "sessionDate": "2026-05-05"
+    }
+  ],
+  "hackerNews": [
+    {
+      "title": "Bun is being ported from Zig to Rust",
+      "url": "https://github.com/oven-sh/bun/commit/46d3bc29f270fa881dd5730ef1549e88407701a5",
+      "publishedAt": "2026-05-05T01:08:17.000Z"
+    },
+    {
+      "title": "What I'm Hearing About Cognitive Debt (So Far)",
+      "url": "https://margaretstorey.com/blog/2026/02/18/cognitive-debt-revisited/",
+      "publishedAt": "2026-05-05T02:08:21.000Z"
+    },
+    {
+      "title": "How OpenAI delivers low-latency voice AI at scale",
+      "url": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale/",
+      "publishedAt": "2026-05-04T19:42:47.000Z"
+    },
+    {
+      "title": "Talking to strangers at the gym",
+      "url": "https://thienantran.com/talking-to-35-strangers-at-the-gym/",
+      "publishedAt": "2026-05-04T11:41:02.000Z"
+    },
+    {
+      "title": "Agent Skills",
+      "url": "https://addyosmani.com/blog/agent-skills/",
+      "publishedAt": "2026-05-04T21:40:42.000Z"
+    },
+    {
+      "title": "When Networking Doesn't Work",
+      "url": "https://www.os2museum.com/wp/when-networking-doesnt-work/",
+      "publishedAt": "2026-05-04T20:56:19.000Z"
+    },
+    {
+      "title": "Securing a DoD contractor: Finding a multi-tenant authorization vulnerability",
+      "url": "https://www.strix.ai/blog/how-strix-found-zero-auth-vulnerability-dod-backed-startup",
+      "publishedAt": "2026-05-04T17:46:32.000Z"
+    },
+    {
+      "title": "Does Employment Slow Cognitive Decline? Evidence from Labor Market Shocks",
+      "url": "https://www.nber.org/papers/w35117",
+      "publishedAt": "2026-05-04T15:32:46.000Z"
+    },
+    {
+      "title": "Redis array: short story of a long development process",
+      "url": "https://antirez.com/news/164",
+      "publishedAt": "2026-05-04T14:23:07.000Z"
+    },
+    {
+      "title": "Microsoft Edge stores all passwords in memory in clear text, even when unused",
+      "url": "https://twitter.com/L1v1ng0ffTh3L4N/status/2051308329880719730",
+      "publishedAt": "2026-05-04T18:22:42.000Z"
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "Dropy",
+      "tagline": "Track prices on stores like Amazon, eBay, & AliExpress Discussion | Link",
+      "url": "https://www.producthunt.com/products/dropy-price-tracker-price-history",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-05-04T19:38:24-07:00"
+    },
+    {
+      "name": "Mindra",
+      "tagline": "Agent Teams You Can Actually Delegate To Discussion | Link",
+      "url": "https://www.producthunt.com/products/mindra",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-05-04T19:57:01-07:00"
+    },
+    {
+      "name": "Manex",
+      "tagline": "Preserve useful answers, corrections, and context as memory Discussion | Link",
+      "url": "https://www.producthunt.com/products/manex",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-05-04T20:00:08-07:00"
+    },
+    {
+      "name": "Replyke V7",
+      "tagline": "Pre-Modeled Infra & Client SDKs for User-Powered Products. Discussion | Link",
+      "url": "https://www.producthunt.com/products/replyke",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-05-04T20:03:25-07:00"
+    },
+    {
+      "name": "Panels Store",
+      "tagline": "Buy DRM-free comics and read them instantly in Panels Discussion | Link",
+      "url": "https://www.producthunt.com/products/panels-store",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-05-04T20:03:21-07:00"
+    }
+  ],
+  "sourceNotes": {
+    "generatedAt": "2026-05-05T03:11:19.268Z",
+    "timeZone": "Asia/Kolkata",
+    "successfulSources": [
+      "New York Times",
+      "Al Jazeera",
+      "NPR",
+      "China Daily",
+      "The Hindu",
+      "Reuters"
+    ],
+    "marketSessionLabel": "Latest market sessions as of 2026-05-05",
+    "warnings": []
+  }
+}
