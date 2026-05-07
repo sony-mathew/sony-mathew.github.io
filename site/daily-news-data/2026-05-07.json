@@ -1,0 +1,463 @@
+{
+  "headlines": [
+    {
+      "title": "Iran War Updates: Tehran and U.S. Offer Conflicting Messages on State of Negotiations",
+      "url": "https://www.nytimes.com/live/2026/05/06/world/iran-us-hormuz-oil",
+      "source": "New York Times",
+      "region": "Global",
+      "publishedAt": "Thu, 07 May 2026 02:22:06 +0000",
+      "summary": "President Trump said his administration had had “very good talks” with Tehran in the last 24 hours. An Iranian official said an American plan to end the war was under review. Israel struck targets near Beirut.",
+      "thumbnailUrl": "https://static01.nyt.com/images/2026/05/06/multimedia/06mideast-trump-hkwt/06mideast-trump-hkwt-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "Hantavirus Patients Land in Amsterdam With More Cruise Ship Evacuations Planned",
+      "url": "https://www.nytimes.com/2026/05/06/world/hantavirus-cruise-ship.html",
+      "source": "New York Times",
+      "region": "Global",
+      "publishedAt": "Thu, 07 May 2026 00:26:14 +0000",
+      "summary": "Three people with possible symptoms of the disease were evacuated on Wednesday morning from the MV Hondius before it headed to the Canary Islands.",
+      "thumbnailUrl": "https://static01.nyt.com/images/2026/05/06/multimedia/06int-cruise-virus-01-zghb/06int-cruise-virus-01-zghb-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "World Cup Dynamic Ticket Pricing Drives Argentine Soccer Fans To Extremes",
+      "url": "https://www.nytimes.com/2026/05/06/world/americas/2026-world-cup-ticket-prices-argentina.html",
+      "source": "New York Times",
+      "region": "Global",
+      "publishedAt": "Wed, 06 May 2026 18:55:56 +0000",
+      "summary": "Dynamic ticket pricing has made this year’s tournament the most expensive in history, pushing Argentine fans to extremes.",
+      "thumbnailUrl": "https://static01.nyt.com/images/2026/05/06/multimedia/06int-worldcup-tickets-mgvh/06int-worldcup-tickets-mgvh-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "Iran’s Oil Sector and Economy Are Under Pressure as U.S. Blockade Bites",
+      "url": "https://www.nytimes.com/2026/05/06/world/middleeast/irans-oil-capacity-blockade.html",
+      "source": "New York Times",
+      "region": "Global",
+      "publishedAt": "Wed, 06 May 2026 17:41:14 +0000",
+      "summary": "Tehran says it can endure the pain, but its oil may soon have nowhere to go.",
+      "thumbnailUrl": "https://static01.nyt.com/images/2025/06/16/multimedia/05int-iran-economy-2/16iran-oil-print-ltkf-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "Reclaiming the Name of the Black Hero Who Inspired ‘Uncle Tom’s Cabin’",
+      "url": "https://www.nytimes.com/2026/05/06/world/canada/uncle-toms-cabin-ontario-josiah-henson.html",
+      "source": "New York Times",
+      "region": "Global",
+      "publishedAt": "Wed, 06 May 2026 09:00:27 +0000",
+      "summary": "After 42 years of slavery, Josiah Henson escaped to Canada, where he wrote a memoir, founded a school and led others to freedom. But his home long bore the name “Uncle Tom,” to the offense of many.",
+      "thumbnailUrl": "https://static01.nyt.com/images/2026/04/28/multimedia/00int-canada-uncletom-dispatch-promo/00int-canada-uncletom-dispatch-lbhv-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "North Korea says it is not bound by any treaty on nuclear non-proliferation",
+      "url": "https://www.aljazeera.com/news/2026/5/7/north-korea-says-it-is-not-bound-by-any-treaty-on-nuclear-non-proliferation",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-05-07",
+      "summary": null,
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/05/2026-04-17T044137Z_1991813264_RC29JCA55COE_RTRMADP_3_NORTHKOREA-NUCLEAR-SOUTHKOREA-USA-1778113350.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Trump says Iran agreement ‘very possible’; Israeli forces bomb Beirut",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/5/7/iran-war-live-trump-says-deal-with-tehran-possible-israel-bombs-beirut",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-05-07",
+      "summary": null,
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/05/AFP__20260506__B22M8WH__v1__HighRes__LebanonIsraelIranUsWar-1778092579.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Argentina investigates link to deadly hantavirus outbreak on cruise ship",
+      "url": "https://www.aljazeera.com/news/2026/5/6/argentina-investigates-link-to-deadly-hantavirus-outbreak-on-cruise-ship",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-05-06",
+      "summary": null,
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/05/afp_69fbb8dbbbf8-1778104539.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "In rare push, US lawmakers demand transparency on Israel nuclear capability",
+      "url": "https://www.aljazeera.com/news/2026/5/6/in-rare-push-us-lawmakers-demand-transparency-on-israel-nuclear-capability",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-05-06",
+      "summary": null,
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/05/AP25023646685318-1-1778100915.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Russia tells diplomats to leave Kyiv in case Moscow launches mass strikes",
+      "url": "https://www.aljazeera.com/news/2026/5/6/russia-tells-diplomats-to-leave-kyiv-in-case-moscow-launches-mass-strikes",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-05-06",
+      "summary": null,
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2025/12/reuters_694b0d38-1766526264.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Secretary Howard Lutnick is questioned by House lawmakers over his Epstein ties",
+      "url": "https://www.npr.org/2026/05/06/nx-s1-5814081/howard-lutnick-epstein-files-house-oversight-committee",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Wed, 06 May 2026 22:24:42 -0400",
+      "summary": "Lutnick said last year that he cut ties with Epstein, his former neighbor, in 2005. But the Epstein files indicate that the two kept in contact, including for a 2012 lunch on Epstein's private island.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/9148x6097+0+0/resize/9148x6097!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fb4%2F53%2Fca6f464b417da90c1b148b667388%2Fap26126541973850.jpg"
+    },
+    {
+      "title": "Antisemitism is a campaign issue in UK regional vote",
+      "url": "https://www.npr.org/2026/05/06/nx-s1-5812457/antisemitism-is-a-campaign-issue-in-uk-regional-vote",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Wed, 06 May 2026 16:42:30 -0400",
+      "summary": "After a spate of attacks on Jews in Britain, politicians there are accusing each other of antisemitism ahead of local elections.",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "CNN Anchor Christiane Amanpour remembers Ted Turner",
+      "url": "https://www.npr.org/2026/05/06/nx-s1-5813606/cnn-anchor-christiane-amanpour-remembers-ted-turner",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Wed, 06 May 2026 16:06:43 -0400",
+      "summary": "NPR's Ailsa Chang speaks with CNN's Christiane Amanpour about broadcaster Ted Turner's legacy.",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "These companies help parents try to pick their babies' traits. Experts are wary",
+      "url": "https://www.npr.org/2026/05/06/nx-s1-5704317/genetic-embryo-screening",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Wed, 06 May 2026 14:30:38 -0400",
+      "summary": "Prospective parents can now pick embryos based on risk predictions for thousands of diseases and odds for specific traits. But should they?",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x2055+0+0/resize/3000x2055!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F77%2F14%2F5cf359bb45848ffef8b755eb7345%2Fmedley-herasight-106090.jpg"
+    },
+    {
+      "title": "Republicans want to add $1 billion for Trump's ballroom security to ICE funding plan",
+      "url": "https://www.npr.org/2026/05/06/g-s1-120455/republicans-trump-ballroom-billion",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Wed, 06 May 2026 14:16:31 -0400",
+      "summary": "Republicans in Congress are proposing $1 billion in funding for security for President Trump's White House ballroom as part of their partisan plan to fund Immigration and Customs Enforcement.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6000x4000+0+0/resize/6000x4000!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F77%2F2a%2Fbd057f674bfcb5928e0dff8ab40e%2Fgettyimages-2271803977.jpg"
+    },
+    {
+      "title": "China ready to help restore peace, stability in Mideast",
+      "url": "https://www.chinadaily.com.cn/a/202605/06/WS69fb6180a310d6866eb47253.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-05-06",
+      "summary": "Foreign Minister Wang Yi said on Wednesday that China is ready to help create the conditions for starting peace talks and play a greater role in restoring peace and stability in the Middle East, as the region stands at a critical juncture between war and peace.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202605/07/69fbd096a310d68600fcee53.jpeg"
+    },
+    {
+      "title": "President flexes control in primary state elections",
+      "url": "https://www.chinadaily.com.cn/a/202605/07/WS69fbe567a310d6866eb47331.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-05-07",
+      "summary": "COLUMBUS, Indiana — Elections in the US states of Indiana, Michigan and Ohio on Tuesday made a picture increasingly clear — that President Donald Trump still dominates the Republican Party, and Democrats seem to have the momentum ahead of November's midterm elections.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202605/07/69fbe567a310d68600fcf05f.png"
+    },
+    {
+      "title": "'May the 4th be with you'",
+      "url": "https://www.chinadaily.com.cn/a/202605/07/WS69fbe528a310d6866eb47328.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-05-07",
+      "summary": "Copyright 1994 - // var oTime = new Date(); document.write(oTime.getFullYear()); // . All rights reserved. The content (including but not limited to text, photo, multimedia information, etc) published in this site belongs to China Daily Information Co (CDIC). Without written authorization from CDIC, such content shall not be republished or used in any form.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202605/07/69fbe527a310d68600fcf035.png"
+    },
+    {
+      "title": "Transition to EVs picks up pace in SE Asia amid concerns over surging oil prices",
+      "url": "https://www.chinadaily.com.cn/a/202605/07/WS69fbe3d5a310d6866eb47303.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-05-07",
+      "summary": "Southeast Asia's motorists are expected to accelerate a shift toward electric vehicles amid mounting concerns over fuel costs, as global oil prices surge amid the Middle East conflict.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202605/07/69fbe3d5a310d68600fcefa2.png"
+    },
+    {
+      "title": "Small ball, wide door: Ping-Pong Diplomacy lives on",
+      "url": "https://www.chinadaily.com.cn/a/202605/07/WS69fbcffba310d6866eb472ba.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-05-07",
+      "summary": "Fifty-five years after United States table tennis players made a historic visit to China, the spirit of Ping-Pong Diplomacy continues to live on as people-to-people exchanges remain a cornerstone in bilateral relations.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202605/07/69fbd480a310d68600fcee9e.jpeg"
+    },
+    {
+      "title": "Twin explosions in Punjab set off political slugfest",
+      "url": "https://www.thehindu.com/news/national/punjab/scooter-fire-near-bsf-headquarters-in-punjabs-jalandhar-caused-panic/article70945472.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-05-06T02:20:06.000Z",
+      "summary": "Explosions near BSF headquarters in Jalandhar and Army Cantonment in Amritsar raise security concerns; investigations underway.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/hmqa0b/article70945475.ece/alternates/LANDSCAPE_1200/20260505389L.jpg"
+    },
+    {
+      "title": "Suspected Pakistani boat found abandoned in creek off Kutch",
+      "url": "https://www.thehindu.com/news/national/suspected-pakistani-boat-found-abandoned-in-creek-off-kutch/article70947600.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-05-06T14:27:18.000Z",
+      "summary": "An abandoned boat suspected to be Pakistani was found in Kutch, prompting heightened security and ongoing investigations.",
+      "thumbnailUrl": "https://www.thehindu.com/theme/images/og-image.png"
+    },
+    {
+      "title": "Rajya Sabha Opposition benches set to see many changes after Assembly poll results",
+      "url": "https://www.thehindu.com/news/national/rajya-sabha-opposition-benches-set-to-see-many-changesafter-assembly-poll-results/article70948146.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-05-06T17:25:02.000Z",
+      "summary": "Rajya Sabha opposition benches will undergo significant changes post-Assembly polls, impacting multiple parties and benefiting Congress.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/slho3s/article70948356.ece/alternates/LANDSCAPE_1200/20260213227L.jpg"
+    },
+    {
+      "title": "Gram Sabhas that gave nod to Nicobar project did not have mandatory 50% quorum",
+      "url": "https://www.thehindu.com/news/national/andaman-and-nicobar-islands/gram-sabhas-that-gave-nod-to-nicobar-project-did-not-have-mandatory-50-quorum/article70947633.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-05-06T16:09:35.000Z",
+      "summary": "Gram Sabhas approving the Nicobar project lacked the required 50% quorum, with attendance only between 1% and 12%.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/uenw57/article70948206.ece/alternates/LANDSCAPE_1200/IMG_Andaman_and_Nicobar_2_1_CLDQC2EB.jpg"
+    },
+    {
+      "title": "Joint development of Rajasthan roads to improve connectivity of industrial areas",
+      "url": "https://www.thehindu.com/news/national/rajasthan/joint-development-of-rajasthan-roads-to-improve-connectivity-of-industrial-areas/article70947665.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-05-07T03:03:32.000Z",
+      "summary": "RIICO and PWD collaborate to enhance Rajasthan&#039;s industrial road connectivity, developing 38 roads for improved transportation efficiency.",
+      "thumbnailUrl": "https://www.thehindu.com/theme/images/og-image.png"
+    },
+    {
+      "title": "Brazil's billionaire Batista helped broker Lula–Trump meeting, source says",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQQ2Zka2JJSFVzTTRPTjVrWTI4ZE1zUUlFS2ppQnp5NGhNdG9lSzlIVjJFaXpaN2xpNlo3RU5QLUlzcXZyUDZnMzdrbHBSalBRRURiY1Voeng0Sko1NGkxeHFYdW9WNDdyTGh1SjFqdER4NUt5WWsteG12R2FMekpDSDRjRnZXNWItN3BXV2JtRXB3T2dIVUxFLTRIaHRySV9FQXYxalBhOUk3QTRYb2xvTGFTUkljSUIybW5lMFBoQQ?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Wed, 06 May 2026 19:09:17 GMT",
+      "summary": null,
+      "thumbnailUrl": null
+    },
+    {
+      "title": "Russia warns diplomatic missions to evacuate Kyiv staff if Moscow launches mass strike",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOMm10Si1mT0l5emR2cTZqQlcyWVB2X0NSdU9QSmZVa3Axd3ljaUxPRzVSazE4VjM5cHdKZ2tHa2NWT00yNk5oTkZKY05FQnZRdUdnZHVmVjYzV3hwcDhtTC13a3MyQ0FKT1NqSVFoS2Q2M1Z2SGZ4dGRPMlNJN0lTMTRjbEhjbE5VWGJXcDZFNkJEc09UT1BrZWZhSHJsalphR1I5cnVjVHdZV2FlYlhER0xDREdlT1FjV0hZa1RIam9OdzA?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Wed, 06 May 2026 19:38:41 GMT",
+      "summary": null,
+      "thumbnailUrl": null
+    },
+    {
+      "title": "Trump administration can keep 2020 election ballots seized from Georgia, judge rules",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNS2txOTJqUG9jOTZFYTh6Z2ZWQXFGZFAyUHpPbGc0SHRxMFRUa2tXQnFpTFJoVWdhdUNzNzdWcU4yTnVjSncxUmFYNjBNWnRwQ0xrSmhfZ0Y4NGdnWnI3UWdYc0h4WF95YlVLeWVtcmN6bW5vM1ozcTc2eGJsUy1PR0hJaHFWQXlodE9VMlJnb3lVZVBlXzdhTFhVcHpIeXhOc0U4czVCaUduYWhmbnJaUk1TdUFsRkVx?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Wed, 06 May 2026 23:01:00 GMT",
+      "summary": null,
+      "thumbnailUrl": null
+    },
+    {
+      "title": "Lutnick testifies he can't recall why his family lunched on Epstein's island",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPWVdlOVNUV2JCaEJUVU1ULVZxMVpYUHhKUV9iN01oSFpfRGRMM2lfYkR1Vjd0NlhCb1VLTi02TmlhNks4TWVOc3p2OUVPTHVwTXJZVU5RZGFqaDRCOUMtZTE4VTJwWnJOUmFKeHhzREhEUk9IQVRRRU52bngxM3Zta3VOOEVmVkZ1UTVoaWprOVJocE5tM2pWa2huN1lfa3JWcU1BRjA3NThQQkxLT09zdFJ2NXhNcDA?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Wed, 06 May 2026 20:35:31 GMT",
+      "summary": null,
+      "thumbnailUrl": null
+    },
+    {
+      "title": "The ports keeping the Gulf alive — for now",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPcUluOFhBU04yNzVVTDVtWm16TXdmMy14Y3loRWhvSFE4RjJCSjFJazZVNnhIdkF5RkdLVGJfcVdrUlVuNFR6VW9JRUZtaHhRaFRqeUxUd2lwM0tQYTk3cEItYXU4bnMtVldwWFRrVXNGVXlZTW5BNmZHZUhrT1EyOHNXTGtNWk02Z0E?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Wed, 06 May 2026 18:20:30 GMT",
+      "summary": null,
+      "thumbnailUrl": null
+    }
+  ],
+  "markets": [
+    {
+      "id": "sp-500",
+      "label": "S&P 500",
+      "region": "US",
+      "symbol": "^GSPC",
+      "value": 7365.12,
+      "previousClose": 7259.2201,
+      "change": 105.8999,
+      "percentChange": 1.458833,
+      "direction": "up",
+      "sessionDate": "2026-05-07"
+    },
+    {
+      "id": "nasdaq-composite",
+      "label": "NASDAQ Composite",
+      "region": "US",
+      "symbol": "^IXIC",
+      "value": 25838.94,
+      "previousClose": 25326.121639999998,
+      "change": 512.81836,
+      "percentChange": 2.0248592,
+      "direction": "up",
+      "sessionDate": "2026-05-07"
+    },
+    {
+      "id": "euronext-100",
+      "label": "Euronext 100 Index",
+      "region": "Europe",
+      "symbol": "^N100",
+      "value": 1845.28,
+      "previousClose": 1801.849946,
+      "change": 43.430054,
+      "percentChange": 2.4103036,
+      "direction": "up",
+      "sessionDate": "2026-05-07"
+    },
+    {
+      "id": "moex",
+      "label": "Public Joint-Stock Company Moscow Exchange MICEX-RTS",
+      "region": "Europe",
+      "symbol": "MOEX.ME",
+      "value": 85.2,
+      "previousClose": 85.31000061,
+      "change": -0.11000061,
+      "percentChange": -0.12894222,
+      "direction": "down",
+      "sessionDate": "2026-05-07"
+    },
+    {
+      "id": "hang-seng",
+      "label": "HANG SENG INDEX",
+      "region": "Asia",
+      "symbol": "^HSI",
+      "value": 26577.45,
+      "previousClose": 26213.78008,
+      "change": 363.66992,
+      "percentChange": 1.3873235,
+      "direction": "up",
+      "sessionDate": "2026-05-07"
+    },
+    {
+      "id": "nikkei-225",
+      "label": "Nikkei 225",
+      "region": "Asia",
+      "symbol": "^N225",
+      "value": 62915.87,
+      "previousClose": 59513.12,
+      "change": 3402.75,
+      "percentChange": 5.7176466,
+      "direction": "up",
+      "sessionDate": "2026-05-07"
+    },
+    {
+      "id": "sensex",
+      "label": "S&P BSE SENSEX",
+      "region": "India",
+      "symbol": "^BSESN",
+      "value": 77958.52,
+      "previousClose": 77017.7856,
+      "change": 940.7344,
+      "percentChange": 1.2214508,
+      "direction": "up",
+      "sessionDate": "2026-05-07"
+    }
+  ],
+  "hackerNews": [
+    {
+      "title": "Valve releases Steam Controller CAD files under Creative Commons license",
+      "url": "https://www.digitalfoundry.net/news/2026/05/valve-releases-steam-controller-cad-files-under-creative-commons-license",
+      "publishedAt": "2026-05-06T15:44:13.000Z"
+    },
+    {
+      "title": "The Vatican's Website in Latin",
+      "url": "https://www.vatican.va/latin/latin_index.html",
+      "publishedAt": "2026-05-07T01:26:03.000Z"
+    },
+    {
+      "title": "Appearing productive in the workplace",
+      "url": "https://nooneshappy.com/article/appearing-productive-in-the-workplace/",
+      "publishedAt": "2026-05-06T16:18:29.000Z"
+    },
+    {
+      "title": "Permacomputing Principles",
+      "url": "https://permacomputing.net/principles/",
+      "publishedAt": "2026-05-07T02:18:23.000Z"
+    },
+    {
+      "title": "Vibe coding and agentic engineering are getting closer than I'd like",
+      "url": "https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/",
+      "publishedAt": "2026-05-06T15:06:37.000Z"
+    },
+    {
+      "title": "From Supabase to Clerk to Better Auth",
+      "url": "https://blog.val.town/better-auth",
+      "publishedAt": "2026-05-06T17:19:34.000Z"
+    },
+    {
+      "title": "Google Cloud fraud defense, the next evolution of reCAPTCHA",
+      "url": "https://cloud.google.com/blog/products/identity-security/introducing-google-cloud-fraud-defense-the-next-evolution-of-recaptcha/",
+      "publishedAt": "2026-05-06T17:59:33.000Z"
+    },
+    {
+      "title": "SQLite Is a Library of Congress Recommended Storage Format",
+      "url": "https://sqlite.org/locrsf.html",
+      "publishedAt": "2026-05-06T21:58:43.000Z"
+    },
+    {
+      "title": "Show HN: Hallucinopedia",
+      "url": "http://halupedia.com/",
+      "publishedAt": "2026-05-06T16:37:52.000Z"
+    },
+    {
+      "title": "Learning the Integral of a Diffusion Model",
+      "url": "https://sander.ai/2026/05/06/flow-maps.html",
+      "publishedAt": "2026-05-06T18:46:27.000Z"
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "Superset 2.0",
+      "tagline": "Run 100s of coding agents on any machine from anywhere Discussion | Link",
+      "url": "https://www.producthunt.com/products/superset-5",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-05-06T20:11:43-07:00"
+    },
+    {
+      "name": "Realtime TTS-2",
+      "tagline": "Voice AI that feels as good as it sounds Discussion | Link",
+      "url": "https://www.producthunt.com/products/inworld-ai",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-05-06T20:08:30-07:00"
+    },
+    {
+      "name": "Ads in ChatGPT",
+      "tagline": "Create, manage, and measure your ChatGPT ad campaigns Discussion | Link",
+      "url": "https://www.producthunt.com/products/chatgpt",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-05-06T20:08:06-07:00"
+    },
+    {
+      "name": "Open Finance MCP",
+      "tagline": "Access your bank data in ChatGPT & Claude via Open Finance Discussion | Link",
+      "url": "https://www.producthunt.com/products/open-finance-mcp",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-05-06T19:59:37-07:00"
+    },
+    {
+      "name": "Magic",
+      "tagline": "Blend your content into real-world locations Discussion | Link",
+      "url": "https://www.producthunt.com/products/magic-13",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-05-06T19:59:35-07:00"
+    }
+  ],
+  "sourceNotes": {
+    "generatedAt": "2026-05-07T03:12:56.254Z",
+    "timeZone": "Asia/Kolkata",
+    "successfulSources": [
+      "New York Times",
+      "Al Jazeera",
+      "NPR",
+      "China Daily",
+      "The Hindu",
+      "Reuters"
+    ],
+    "marketSessionLabel": "Latest market sessions as of 2026-05-07",
+    "warnings": []
+  }
+}
