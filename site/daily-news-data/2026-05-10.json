@@ -1,0 +1,463 @@
+{
+  "headlines": [
+    {
+      "title": "How China’s Leader Lost Faith in His Generals",
+      "url": "https://www.nytimes.com/2026/05/09/world/asia/china-military-generals.html",
+      "source": "New York Times",
+      "region": "Global",
+      "publishedAt": "Sat, 09 May 2026 04:01:10 +0000",
+      "summary": "Xi Jinping spent 13 years building a military to rival that of the United States. But the stronger the Chinese forces grew, the less he trusted the generals he had handpicked to run them.",
+      "thumbnailUrl": "https://static01.nyt.com/images/2026/04/29/multimedia/00int-china-xi-military-01-lbcv/00int-china-xi-military-01-lbcv-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "Punch, the Lonely Monkey Who Drew Crowds to a Small Japan Zoo, Is Growing Up. He’s Still a Star.",
+      "url": "https://www.nytimes.com/2026/05/09/world/asia/punch-baby-monkey-japan-zoo.html",
+      "source": "New York Times",
+      "region": "Global",
+      "publishedAt": "Sat, 09 May 2026 04:01:23 +0000",
+      "summary": "The macaque, now 9 months old, has been attracting tens of thousands of visitors to a small Japanese zoo. He ignores the attention.",
+      "thumbnailUrl": "https://static01.nyt.com/images/2026/05/09/multimedia/09int-japan-monkey-promo/09int-japan-monkey-04-kfhm-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "Britain’s Electorate Is ‘Splintering.’ Can Its System Stand the Strain?",
+      "url": "https://www.nytimes.com/2026/05/09/world/europe/britain-elections-starmer-labour-reform.html",
+      "source": "New York Times",
+      "region": "Global",
+      "publishedAt": "Sat, 09 May 2026 12:26:01 +0000",
+      "summary": "Insurgent parties like Reform U.K. surged at the polls this week. But the British electoral system wasn’t built for multiparty democracy.",
+      "thumbnailUrl": "https://static01.nyt.com/images/2026/05/09/multimedia/09int-uk-elections-assess-qfkw/09int-uk-elections-assess-qfkw-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "A Scaled-Back Victory Day Parade Shows Putin’s Growing Vulnerability in Ukraine War",
+      "url": "https://www.nytimes.com/2026/05/09/world/europe/russia-victory-day-parade.html",
+      "source": "New York Times",
+      "region": "Global",
+      "publishedAt": "Sat, 09 May 2026 23:10:03 +0000",
+      "summary": "The event, shrunken because of security fears, adds to a sense that Moscow and other Russian cities can no longer be insulated from the war.",
+      "thumbnailUrl": "https://static01.nyt.com/images/2026/05/09/multimedia/09int-russia-victory-day-cpwv/09int-russia-victory-day-cpwv-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "Rhun ap Iorwerth Breaks Labour’s Dominance in Wales",
+      "url": "https://www.nytimes.com/2026/05/09/world/europe/uk-elections-wales-iorwerth.html",
+      "source": "New York Times",
+      "region": "Global",
+      "publishedAt": "Sat, 09 May 2026 12:18:15 +0000",
+      "summary": "Rhun ap Iorwerth, a former journalist, led his party to the most seats in the Welsh Parliament, ousting the Labour Party, which had long held sway, and beating Reform U.K.",
+      "thumbnailUrl": "https://static01.nyt.com/images/2026/05/08/multimedia/08-int-wales-plaid-tgqm/08-int-wales-plaid-tgqm-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "Iran warns US against attacks on tankers; Israel kills dozens in Lebanon",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/5/10/iran-war-live-irgc-warns-us-against-attacks-on-ships-israel-bombs-lebanon",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-05-10",
+      "summary": null,
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/05/AFP__20260509__B2CW8A6__v3__HighRes__TopshotLebanonIsraelIranUsWar-1778369162.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Brazil judge bars law that could reduce Bolsonaro’s 27-year prison sentence",
+      "url": "https://www.aljazeera.com/news/2026/5/9/brazil-judge-bars-law-that-could-reduce-bolsonaros-27-year-prison-sentence",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-05-09",
+      "summary": null,
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/05/ap_69ff9b1a110a0-1778359066.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "One killed in Gaza as Turkish FM talks peace efforts with Hamas official",
+      "url": "https://www.aljazeera.com/news/2026/5/9/one-killed-in-gaza-as-turkish-fm-talks-peace-efforts-with-hamas-official",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-05-09",
+      "summary": null,
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/05/2026-05-09T065708Z_1023592229_RC2H5LAAMYUG_RTRMADP_3_ISRAEL-PALESTINIANS-GAZA-1778358170.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Three police officers killed in car bomb attack in northwest Pakistan",
+      "url": "https://www.aljazeera.com/news/2026/5/9/three-police-officers-killed-in-car-bomb-attack-in-northwest-pakistan",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-05-09",
+      "summary": null,
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2013/07/201373121053486734_20.jpeg?resize=570%2C380&amp;quality=80"
+    },
+    {
+      "title": "Venezuela’s Delcy Rodriguez heads to The Hague for land dispute case",
+      "url": "https://www.aljazeera.com/news/2026/5/9/venezuelas-delcy-rodriguez-heads-to-the-hague-for-land-dispute-case",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-05-09",
+      "summary": null,
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/05/afp_69ff86d7d75e-1778353879.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Protests and boycotts rock prestigious Venice Biennale",
+      "url": "https://www.npr.org/2026/05/09/nx-s1-5817005/protests-and-boycotts-rock-prestigious-venice-biennale",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Sat, 09 May 2026 21:41:40 -0400",
+      "summary": "The 61st edition of the international art event launched on Saturday in an atmosphere marked by geopolitical strife.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5796x3864+0+0/resize/5796x3864!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fbf%2Fe1%2F84f44b844022be5828151d7f4a17%2Fap26127708072237.jpg"
+    },
+    {
+      "title": "'We're dry:' The new U.S. Wildland Fire Service prepares for extreme fire season",
+      "url": "https://www.npr.org/2026/05/09/nx-s1-5804693/prevention-wildfires-firefighters-vegetation-wildland-fire-service",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Sat, 09 May 2026 15:03:44 -0400",
+      "summary": "Brian Fennessy, new head of the U.S. Wildland Fire Service, says his agency is 'trying to bring on additional aircraft and bring them on early,' and dismisses criticism of prevention methods.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6000x3920+0+0/resize/6000x3920!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fa3%2F6e%2F623758354d7687e9772f72d6a2cc%2Fgettyimages-2271343202.jpg"
+    },
+    {
+      "title": "Bobby Cox, Hall of Fame manager of Atlanta Braves, dies at age 84",
+      "url": "https://www.npr.org/2026/05/09/g-s1-121311/bobby-cox-atlanta-braves-dies",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Sat, 09 May 2026 14:41:07 -0400",
+      "summary": "The Braves announced Cox's death on Saturday. He managed the team to prominence during the 1990s and the team's only championship in 1995, before retiring after the 2010 season.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2400x1892+0+0/resize/2400x1892!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F9e%2F21%2F432d98b94b81ae00a05f881ce8af%2Fap24189043323719.jpg"
+    },
+    {
+      "title": "CDC says threat of widespread outbreak of hantavirus remains low",
+      "url": "https://www.npr.org/2026/05/09/g-s1-121307/cdc-says-threat-of-widespread-outbreak-of-hantavirus-remains-low",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Sat, 09 May 2026 13:41:22 -0400",
+      "summary": "As hantavirus has dominated headlines, sparking fears of another debilitating pandemic, the CDC stressed that the risk of sweeping contagion was small.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1024x683+0+0/resize/1024x683!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fd2%2Fc2%2F1aa24d21407d8a06d28d5560babb%2Fgettyimages-2275298215.jpg"
+    },
+    {
+      "title": "Frontier Airlines plane strikes and kills pedestrian",
+      "url": "https://www.npr.org/2026/05/09/g-s1-121305/frontier-airlines-plane-strikes-and-kills-pedestrian",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Sat, 09 May 2026 11:04:01 -0400",
+      "summary": "Denver International Airport said the person had jumped a fence and dashed into the aircraft's path minutes before being struck.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5232x3488+0+0/resize/5232x3488!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fa2%2F52%2Fa718038044149a9f0ef46f672cf0%2Fap26071760343494.jpg"
+    },
+    {
+      "title": "Laura Fernandez sworn in as Costa Rica's president",
+      "url": "https://www.chinadaily.com.cn/a/202605/09/WS69fe8f53a310d6866eb47a2d.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-05-09",
+      "summary": "SAN JOSE - Laura Fernandez was sworn in on Friday as Costa Rica's president for a four-year term during a ceremony at the National Stadium in San Jose.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202605/09/69fe8f53a310d68600fd104f.jpeg"
+    },
+    {
+      "title": "Chinese brands 'display' tech at expo",
+      "url": "https://www.chinadaily.com.cn/a/202605/08/WS69fd1f86a310d6866eb47637.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-05-08",
+      "summary": "Major Chinese brands showcased a broad range of new products and next-generation applications at Display Week 2026 hosted by the Society for Information Display in Los Angeles, highlighting continued investment in innovation, research and development, and global industrial cooperation amid evolving global trade conditions.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202605/08/69fd1f85a310d68600fcff3a.png"
+    },
+    {
+      "title": "European airlines face crisis as fuel prices soar amid conflict",
+      "url": "https://www.chinadaily.com.cn/a/202605/08/WS69fd40c5a310d6866eb4776e.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-05-08",
+      "summary": "FRANKFURT — The European aviation sector is facing its most severe crisis since the 2020 pandemic, as the ongoing Middle East conflicts have pushed jet fuel prices to multiyear highs and forced major carriers to overhaul their strategies.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202605/08/69fd40c5a310d68600fd050d.png"
+    },
+    {
+      "title": "AI risks loom over Musk-OpenAI trial",
+      "url": "https://www.chinadaily.com.cn/a/202605/08/WS69fd398fa310d6866eb47705.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-05-08",
+      "summary": "OAKLAND — Concerns over the risks posed by artificial intelligence have loomed large over a US trial pitting Elon Musk against OpenAI chief executive Sam Altman, even as the court focuses on a business dispute rather than the technology itself.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202605/08/69fd398fa310d68600fd026e.png"
+    },
+    {
+      "title": "Russia, Ukraine agree to 3-day ceasefire, prisoner exchange",
+      "url": "https://www.chinadaily.com.cn/a/202605/09/WS69fe929aa310d6866eb47a63.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-05-09",
+      "summary": "MOSCOW/KIEV - Russia and Ukraine on Friday agreed to a three-day ceasefire and a swap of 1,000 prisoners.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202605/09/69fe929aa310d68600fd11c1.jpeg"
+    },
+    {
+      "title": "Subrata Gupta, ECI&#039;s special observer for SIR, appointed West Bengal CM&#039;s advisor",
+      "url": "https://www.thehindu.com/news/national/west-bengal/subrata-gupta-appointed-west-bengal-cms-advisor-eci-sir-observer/article70959136.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-05-09T13:04:58.000Z",
+      "summary": "Subrata Gupta appointed as advisor to West Bengal CM Suvendu Adhikari, alongside Shantanu Bala as private secretary.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/5kknxa/article70959284.ece/alternates/LANDSCAPE_1200/Subrata.jpg"
+    },
+    {
+      "title": "TCS case | Nida Khan subjected to a trial by media, says Owaisi",
+      "url": "https://www.thehindu.com/news/national/maharashtra/tcs-case-nida-khan-subjected-to-a-trial-by-media-says-owaisi/article70959140.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-05-09T14:36:46.000Z",
+      "summary": "Owaisi claims Nida Khan is a victim of media trial in the TCS case, urging justice through the judiciary, not public opinion.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/excs6p/article70959719.ece/alternates/LANDSCAPE_1200/20260505299L.jpg"
+    },
+    {
+      "title": "CBI facilitates return of fugitive from Portugal",
+      "url": "https://www.thehindu.com/news/national/cbi-facilitates-return-of-fugitive-from-portugal/article70959117.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-05-09T17:12:36.000Z",
+      "summary": "CBI successfully extradites fugitive Abhay Rana from Portugal, linked to organized crime and facing serious charges in India.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/news/national/1qloq3/article70960222.ece/alternates/LANDSCAPE_1200/cbi.jpg"
+    },
+    {
+      "title": "Muslim population in India may match that of Indonesia after Census: Kiren Rijiju",
+      "url": "https://www.thehindu.com/news/national/muslim-population-in-india-may-match-that-of-indonesia-after-census-kiren-rijiju/article70960464.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-05-09T23:08:24.000Z",
+      "summary": "Union Minister Kiren Rijiju predicts India&#039;s Muslim population may equal Indonesia&#039;s post-Census, dismissing fears of minority threats.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/i71xn0/article70960476.ece/alternates/LANDSCAPE_1200/PTI05_09_2026_000416B.jpg"
+    },
+    {
+      "title": "Aadhav Arjuna, ‘Bussy’ Anand, Sengottaiyan among 9 TVK Ministers to be sworn in with Vijay on May 10",
+      "url": "https://www.thehindu.com/news/national/tamil-nadu/tvk-aadhav-arjuna-bussy-anand-sengottaiyan-swearing-in-with-vijay-as-ministers-on-may-10-2026/article70960273.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-05-09T18:25:12.000Z",
+      "summary": "Nine TVK Ministers and Chief Minister Vijay to be sworn in on Sunday, May 10, 2026, in Chennai.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/6amejg/article70960304.ece/alternates/LANDSCAPE_1200/Jothi_DSC_9163.JPG"
+    },
+    {
+      "title": "Israel built and defended a secret base in Iraq for Iran war, WSJ reports",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPbDN2ZXlkLUdEWG9PSXE4NS1QclA5X0JTQ2x1dUZIXzJBTjVkNTJZWk1yLUJVMlpPNWFfV1dqU0ZCbnJpNzQ5MFJSRkctYmhBRm0yVl9wLWZWTU1xLXp5dDhscVJ6bm5lZDVBeDg1MWd0ZzBzVmpGNmdETE1xcVI0bjVhcjQzVzJsa3RxT0llVkk0d3BaSVFLLWlsWWl3NFdjS2JhNUFvcUx5ZzZsSUZ2VVQ2Yw?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Sat, 09 May 2026 21:13:36 GMT",
+      "summary": null,
+      "thumbnailUrl": null
+    },
+    {
+      "title": "At least 11 in Miami area injured by 'possible' boat explosion, officials say",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNN0x3WjNtR2FSc0N6SXJGX1pBRTRHTzI2SXlOaEF6SjNnaEpaSzRoTS1ydktXV0dnMm1oN244eDkwZTRvTFVQaGlXWDJBMjJTbW5pdmE4VGFlLUtSY0FDWVlZOVREdFlYOEVNSV9Xc29DX2g4TFhzWXNYQmpLRWZwanpiWmlxLWtGazI4ZU5fX2FvZDhHNjJMdjNSR3prQ240Qy1kNEE1TWdpaWtKbWRzUHdBbw?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Sat, 09 May 2026 22:00:50 GMT",
+      "summary": null,
+      "thumbnailUrl": null
+    },
+    {
+      "title": "Three Pakistani police officers killed in car bombing, more casualties feared",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxON0g0VEdVZjlDZ3UyZF9fN2pmM3pqSmhjZFUxSnRGd0wyb0Y5Z2xZVzdLNmY1Z3ByUUdfYVJFcFVBd20zUlNmYmFyQkE0ZHd6X19MNFJCaUs1YW8yU2ZxVWVhRFU2bkRVVmRUMmZoeXdoVlppVEtBem1IcDJ3a3pBSlJEamdGSkxYY1NBRzlSSUFMdDZ6cHZHRWpZMmpEODdqdEtRTnFoY0JnbnVrY0dGSjhxZ0I3cHlnV1hxZHlIOVFueXlObTJn?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Sat, 09 May 2026 19:35:26 GMT",
+      "summary": null,
+      "thumbnailUrl": null
+    },
+    {
+      "title": "Putin says he thinks Russia-Ukraine war is coming to an end",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSGVNdUpiMzFhcFNsS3JPMjdUaVhoazlMTS1FZXh1RXo1bnVlYUFsR1RTZ2swSGVxcjJWMWY5aTB2dHpUTnE1UUhfWHlPaUtKaTFpZDI1ekJ3YlZfYnR0MENmWU1hQ2pDMURadXo0cnFVZHZmZk5TMnBicjZYdndWdDBOOEYzdlMxNW1hUFVhLVVFQ2tuNm1IQzhkdFpjc3I2ZS1ZMXVn?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Sat, 09 May 2026 22:36:23 GMT",
+      "summary": null,
+      "thumbnailUrl": null
+    },
+    {
+      "title": "At least 69 killed in militia attack in Congo, AFP reports",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOQkJDVE9PTWZLTDVLN05vVXlPQ09naEgwUUszbUFEamxKWGtrdzRsYm5VdmdVaW80TGVPQzEyTXdVZVBCd3JGdm15SGRBcUtTLVdqX3BnVC1xTjloMGJuQmJScmtWTndDNGdRTzB4SEh4UkVDdVlvQjBQdnRuRkpsN0JKU1pQaFB5TXc0bmQzOHJ4akRjYkJLTU1wby12Zw?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Sat, 09 May 2026 20:35:26 GMT",
+      "summary": null,
+      "thumbnailUrl": null
+    }
+  ],
+  "markets": [
+    {
+      "id": "sp-500",
+      "label": "S&P 500",
+      "region": "US",
+      "symbol": "^GSPC",
+      "value": 7398.93,
+      "previousClose": 7337.1096880000005,
+      "change": 61.820312,
+      "percentChange": 0.84257036,
+      "direction": "up",
+      "sessionDate": "2026-05-10"
+    },
+    {
+      "id": "nasdaq-composite",
+      "label": "NASDAQ Composite",
+      "region": "US",
+      "symbol": "^IXIC",
+      "value": 26247.076,
+      "previousClose": 25806.19514,
+      "change": 440.88086,
+      "percentChange": 1.7084303,
+      "direction": "up",
+      "sessionDate": "2026-05-10"
+    },
+    {
+      "id": "euronext-100",
+      "label": "Euronext 100 Index",
+      "region": "Europe",
+      "symbol": "^N100",
+      "value": 1816.67,
+      "previousClose": 1825.009966,
+      "change": -8.339966,
+      "percentChange": -0.45698193,
+      "direction": "down",
+      "sessionDate": "2026-05-10"
+    },
+    {
+      "id": "moex",
+      "label": "Public Joint-Stock Company Moscow Exchange MICEX-RTS",
+      "region": "Europe",
+      "symbol": "MOEX.ME",
+      "value": 85.2,
+      "previousClose": 85.31000061,
+      "change": -0.11000061,
+      "percentChange": -0.12894222,
+      "direction": "down",
+      "sessionDate": "2026-05-10"
+    },
+    {
+      "id": "hang-seng",
+      "label": "HANG SENG INDEX",
+      "region": "Asia",
+      "symbol": "^HSI",
+      "value": 26393.71,
+      "previousClose": 26626.27836,
+      "change": -232.56836,
+      "percentChange": -0.8734542,
+      "direction": "down",
+      "sessionDate": "2026-05-10"
+    },
+    {
+      "id": "nikkei-225",
+      "label": "Nikkei 225",
+      "region": "Asia",
+      "symbol": "^N225",
+      "value": 62713.65,
+      "previousClose": 62833.84141,
+      "change": -120.19141,
+      "percentChange": -0.19128452,
+      "direction": "down",
+      "sessionDate": "2026-05-10"
+    },
+    {
+      "id": "sensex",
+      "label": "S&P BSE SENSEX",
+      "region": "India",
+      "symbol": "^BSESN",
+      "value": 77328.19,
+      "previousClose": 77844.52594,
+      "change": -516.33594,
+      "percentChange": -0.6632913,
+      "direction": "down",
+      "sessionDate": "2026-05-10"
+    }
+  ],
+  "hackerNews": [
+    {
+      "title": "Bun's experimental Rust rewrite hits 99.8% test compatibility on Linux x64 glibc",
+      "url": "https://twitter.com/jarredsumner/status/2053047748191232310",
+      "publishedAt": "2026-05-09T10:12:55.000Z"
+    },
+    {
+      "title": "Show HN: Building a web server in assembly to give my life (a lack of) meaning",
+      "url": "https://imtomt.github.io/ymawky/",
+      "publishedAt": "2026-05-10T03:01:44.000Z"
+    },
+    {
+      "title": "Internet Archive Switzerland",
+      "url": "https://blog.archive.org/2026/05/06/internet-archive-switzerland-expanding-a-global-mission-to-preserve-knowledge/",
+      "publishedAt": "2026-05-09T12:00:30.000Z"
+    },
+    {
+      "title": "Show HN: Rust but Lisp",
+      "url": "https://github.com/ThatXliner/rust-but-lisp",
+      "publishedAt": "2026-05-09T21:46:27.000Z"
+    },
+    {
+      "title": "I’ve banned query strings",
+      "url": "https://chrismorgan.info/no-query-strings",
+      "publishedAt": "2026-05-09T16:28:36.000Z"
+    },
+    {
+      "title": "Local privilege escalation via execve()",
+      "url": "https://www.freebsd.org/security/advisories/FreeBSD-SA-26:13.exec.asc",
+      "publishedAt": "2026-05-09T20:31:21.000Z"
+    },
+    {
+      "title": "Zed Editor Theme-Builder",
+      "url": "https://zed.dev/theme-builder",
+      "publishedAt": "2026-05-09T17:30:39.000Z"
+    },
+    {
+      "title": "Show HN: I made a Clojure-like language in Go, boots in 7ms",
+      "url": "https://github.com/nooga/let-go",
+      "publishedAt": "2026-05-09T17:52:13.000Z"
+    },
+    {
+      "title": "CPanel's Black Week: 3 New Vulnerabilities Patched After Attack on 44k Servers",
+      "url": "https://www.copahost.com/blog/cpanels-black-week-three-new-vulnerabilities-patched-after-ransomware-attack-on-44000-servers/",
+      "publishedAt": "2026-05-09T17:06:46.000Z"
+    },
+    {
+      "title": "Distributing Mac software is increasing my cortisol levels",
+      "url": "https://blog.kronis.dev/blog/apple-is-increasing-my-cortisol-levels",
+      "publishedAt": "2026-05-09T14:40:58.000Z"
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "nocal 4",
+      "tagline": "The calendar that thinks like a workspace Discussion | Link",
+      "url": "https://www.producthunt.com/products/nocal",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-05-09T19:06:41-07:00"
+    },
+    {
+      "name": "Ghost",
+      "tagline": "Open-source, self-hosted game servers Discussion | Link",
+      "url": "https://www.producthunt.com/products/ghost-8",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-05-09T20:00:46-07:00"
+    },
+    {
+      "name": "Manuscripts.app",
+      "tagline": "For academics who have outgrown the spreadsheet tracker Discussion | Link",
+      "url": "https://www.producthunt.com/products/manuscripts-app",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-05-09T20:02:53-07:00"
+    },
+    {
+      "name": "Glowix",
+      "tagline": "Keep your Mac display awake exactly when you need it Discussion | Link",
+      "url": "https://www.producthunt.com/products/glowix",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-05-09T20:02:54-07:00"
+    },
+    {
+      "name": "Omi A11Y",
+      "tagline": "Web Accessibility Scanner Extension Discussion | Link",
+      "url": "https://www.producthunt.com/products/omi-a11y-accessibility-scanner",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-05-09T20:04:29-07:00"
+    }
+  ],
+  "sourceNotes": {
+    "generatedAt": "2026-05-10T03:12:02.576Z",
+    "timeZone": "Asia/Kolkata",
+    "successfulSources": [
+      "New York Times",
+      "Al Jazeera",
+      "NPR",
+      "China Daily",
+      "The Hindu",
+      "Reuters"
+    ],
+    "marketSessionLabel": "Latest market sessions as of 2026-05-10",
+    "warnings": []
+  }
+}
