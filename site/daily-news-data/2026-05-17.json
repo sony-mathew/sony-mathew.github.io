@@ -1,0 +1,463 @@
+{
+  "headlines": [
+    {
+      "title": "Venezuela Extradites Billionaire Tycoon Alex Saab to U.S.",
+      "url": "https://www.nytimes.com/2026/05/16/world/americas/venezuela-extradites-tycoon-alex-saab.html",
+      "source": "New York Times",
+      "region": "Global",
+      "publishedAt": "Sun, 17 May 2026 01:26:02 +0000",
+      "summary": "The extradition of Alex Saab, who is tied to a huge graft scheme, is part of a purge of powerful figures who helped the deposed president, Nicolás Maduro, stay in power.",
+      "thumbnailUrl": "https://static01.nyt.com/images/2026/01/10/multimedia/16int-venezuela-saab/16int-venezuela-saab-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "How a Nature Cruise Turned Into a Nightmare",
+      "url": "https://www.nytimes.com/2026/05/16/world/europe/hantavirus-hondius-cruise.html",
+      "source": "New York Times",
+      "region": "Global",
+      "publishedAt": "Sun, 17 May 2026 02:32:50 +0000",
+      "summary": "The hantavirus outbreak on the MV Hondius set off alarms for a world still traumatized by Covid. For those on board, the danger was much closer.",
+      "thumbnailUrl": "https://static01.nyt.com/images/2026/05/13/multimedia/00int-hantavirus-cruise-top-mwgz/00int-hantavirus-cruise-top-mwgz-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "Fears Grow That Iran May Be Using Proxy Groups Beyond Mideast",
+      "url": "https://www.nytimes.com/2026/05/16/world/middleeast/iran-proxy-groups-us.html",
+      "source": "New York Times",
+      "region": "Global",
+      "publishedAt": "Sat, 16 May 2026 18:46:01 +0000",
+      "summary": "The charges against Mohammad al-Saadi in the United States have raised concerns that Iran could be working with its proxies to stage attacks outside the region.",
+      "thumbnailUrl": "https://static01.nyt.com/images/2026/05/16/multimedia/16int-iraq-militia-cmfw/16int-iraq-militia-cmfw-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "Car Plows Into Pedestrians in Northern Italian Town, Injuring at Least 8",
+      "url": "https://www.nytimes.com/2026/05/16/world/europe/car-crash-modena-italy.html",
+      "source": "New York Times",
+      "region": "Global",
+      "publishedAt": "Sun, 17 May 2026 03:01:20 +0000",
+      "summary": "Four of the injured were in serious condition, the mayor of Modena said, praising residents who rushed to stop the car’s driver from escaping on foot.",
+      "thumbnailUrl": "https://static01.nyt.com/images/2026/05/16/multimedia/16int-italy-car-ramming-qwpt/16int-italy-car-ramming-qwpt-mediumSquareAt3X.jpg"
+    },
+    {
+      "title": "Rival Protests Take Place in London, With a Major Security Effort",
+      "url": "https://www.nytimes.com/2026/05/16/world/europe/london-rival-protests.html",
+      "source": "New York Times",
+      "region": "Global",
+      "publishedAt": "Sun, 17 May 2026 02:58:44 +0000",
+      "summary": "The police have deployed thousands of officers, partly to keep far-right and pro-Palestinian marchers apart. The events drew tens of thousands to London.",
+      "thumbnailUrl": "https://static01.nyt.com/images/2026/05/16/multimedia/16int-uk-protest-ctbl/16int-uk-protest-ctbl-mediumSquareAt3X-v2.jpg"
+    },
+    {
+      "title": "Iran plans Hormuz tolls; Trump warns of ‘very bad time’ over stalled talks",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/5/17/iran-war-live-tehran-eyes-tolls-in-hormuz-trump-warns-of-very-bad-time",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-05-17",
+      "summary": null,
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/05/AFP__20260516__B32D3BB__v1__HighRes__LebanonIranIsraelUsWar-1778976559.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Two presidential campaign staffers killed in Colombia as elections near",
+      "url": "https://www.aljazeera.com/news/2026/5/16/two-presidential-campaign-staffers-killed-in-colombia-as-elections-near",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-05-16",
+      "summary": null,
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/05/afp_6a08d023126b-1778962467.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Poll shows Lula and Bolsonaro tied before Brazil’s presidential election",
+      "url": "https://www.aljazeera.com/news/2026/5/16/poll-shows-lula-and-bolsonaro-tied-before-brazils-presidential-election",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-05-16",
+      "summary": null,
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/05/reuters_6a08c7be-1778960318.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Eurovision final marred by protests as five countries boycott over Israel",
+      "url": "https://www.aljazeera.com/news/2026/5/16/thousands-protest-at-eurovision-final-as-five-countries-boycott-over-israel",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-05-16",
+      "summary": null,
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/05/getty_6a08c7c42c-1778960324.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "In response to Trump, Taiwan says it is ‘sovereign and independent’",
+      "url": "https://www.aljazeera.com/news/2026/5/16/in-response-to-trump-taiwan-says-it-is-sovereign-and-independent",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-05-16",
+      "summary": null,
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/05/afp_6a08b6763f2c-1778955894.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Louisiana Sen. Bill Cassidy loses in Republican primary, does not advance to runoff",
+      "url": "https://www.npr.org/2026/05/16/nx-s1-5824533/bill-cassidy-lost-louisiana-primary-letlow-trump",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Sat, 16 May 2026 23:02:34 -0400",
+      "summary": "Sen. Bill Cassidy is one of few remaining Republican senators who voted for President Trump's impeachment after the Jan. 6 attack on the Capitol. Trump endorsed his opponent, Rep. Julia Letlow.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4500x3002+0+0/resize/4500x3002!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fa4%2F37%2F8df223714defa965acb3d14db63c%2F20260505-af-521-final.jpg"
+    },
+    {
+      "title": "Napoleon Solo holds off Iron Honor to win the Preakness",
+      "url": "https://www.npr.org/2026/05/16/g-s1-122501/napoleon-solo-preakness-laurel-park",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Sat, 16 May 2026 20:52:20 -0400",
+      "summary": "It's the colt's first victory of the year. Kentucky Derby winner Golden Tempo's exit from the race left the field of 14 horses wide open to contest the middle jewel of the Triple Crown.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2535x1690+0+0/resize/2535x1690!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F64%2Ff5%2F2abb2bb2440bb10aec1ac65a34c2%2Fap26136842846144.jpg"
+    },
+    {
+      "title": "Bulgarian banger 'Bangaranga' bags country its 1st Eurovision win",
+      "url": "https://www.npr.org/2026/05/16/nx-s1-5824393/eurovision-winner-dara-bangaranga-bulgaria-vienna-austria",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Sat, 16 May 2026 20:48:27 -0400",
+      "summary": "Bulgaria was not among the favorites to win. But performer Dara's catchy, banging anthem bested 24 other nations at the 70th edition of the international singing extravaganza.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2812x1896+0+0/resize/2812x1896!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F7b%2Feb%2F27811bae4dee9e4308bee44b8606%2Fgettyimages-2275960091.jpg"
+    },
+    {
+      "title": "A new Ebola outbreak has already killed 87 people in Democratic Republic of Congo",
+      "url": "https://www.npr.org/2026/05/16/g-s1-122494/a-new-ebola-outbreak-has-already-killed-87-people",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Sat, 16 May 2026 14:37:36 -0400",
+      "summary": "Health officials are working to contain a new Ebola outbreak in the DRC of a virus strain with no known vaccine.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1000x564+0+0/resize/1000x564!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F93%2F5c%2F2e8bd7414ce39bed0a270690b07f%2Fap26136564576497.jpg"
+    },
+    {
+      "title": "North America poised for light display of aurora borealis",
+      "url": "https://www.npr.org/2026/05/16/g-s1-122492/north-america-poised-for-light-display-of-aurora-borealis",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Sat, 16 May 2026 14:07:59 -0400",
+      "summary": "The splashy nighttime phenomenon will be best observed on Saturday and Sunday nights",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5403x3602+0+0/resize/5403x3602!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fa3%2F99%2F821ec3b94cdd8416a884e4f35d7b%2Fap25317769111197.jpg"
+    },
+    {
+      "title": "In step, a partnership that delivers",
+      "url": "https://www.chinadaily.com.cn/a/202605/15/WS6a067589a310d6866eb48c36.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-05-15",
+      "summary": "When Portugal's Prime Minister Luis Montenegro became in September the first Portuguese head of government to visit China in nearly a decade, one remark he made in meetings with Chinese leaders cut through the familiar tone of diplomatic exchanges.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202605/15/6a067589a310d68600fd80e6.png"
+    },
+    {
+      "title": "UAE rejects Israeli visit claim",
+      "url": "https://www.chinadaily.com.cn/a/202605/15/WS6a06680ba310d6866eb48b93.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-05-15",
+      "summary": "The United Arab Emirates has flatly rejected an Israeli claim of a \"secret visit\" by Prime Minister Benjamin Netanyahu during the war with Iran, labeling it as \"baseless\".",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202605/15/6a066be7a310d68600fd7e69.jpeg"
+    },
+    {
+      "title": "Power outage hits eastern half of Cuba",
+      "url": "https://www.chinadaily.com.cn/a/202605/15/WS6a067305a310d6866eb48c02.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-05-15",
+      "summary": "HAVANA - A power outage knocked out electricity across several provinces in eastern Cuba early Thursday, from central Ciego de Avila to eastern Guantanamo, according to the state-run National Electric Union (UNE).",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202605/15/6a067305a310d68600fd7ff1.jpeg"
+    },
+    {
+      "title": "Nations' friendship still bouncing along",
+      "url": "https://www.chinadaily.com.cn/a/202605/14/WS6a050461a310d6866eb4874a.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-05-14",
+      "summary": "Deliah Autry, 30, is a member of the United States Women's National Flag Football Team, a three-time world champion, and a doctor of physical therapy specializing in pediatrics.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202605/14/6a050461a310d68600fd5966.png"
+    },
+    {
+      "title": "WWII legacy honors peace and friendship",
+      "url": "https://www.chinadaily.com.cn/a/202605/15/WS6a066e7fa310d6866eb48ba6.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-05-15",
+      "summary": "While the name Auschwitz echoes through history as a grim symbol of Nazi atrocities during World War II, another camp, half a world away in China's Shandong province, holds a story less known.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202605/15/6a066e7fa310d68600fd7eb3.jpeg"
+    },
+    {
+      "title": "PM Modi in Netherlands LIVE: India, Netherlands elevating ties to strategic partnership, says Modi",
+      "url": "https://www.thehindu.com/news/national/pm-modi-netherlands-visit-five-nation-tour-energy-trade-diplomatic-relations-live-updates-may-16-2026/article70986095.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-05-16T06:48:42.000Z",
+      "summary": "PM Modi Netherlands Visit highlights: Follow the latest updates of Narendra Modi&#039;s second leg of his five-nation tour, on May 16, 2026",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/kl8qlp/article70988344.ece/alternates/LANDSCAPE_1200/20260516528L.jpg"
+    },
+    {
+      "title": "First-ever consignment of Captagon drug worth ₹182 crore seized: Amit Shah",
+      "url": "https://www.thehindu.com/news/national/first-ever-consignment-of-captagon-drug-seized-says-amit-shah/article70986342.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-05-16T07:50:11.000Z",
+      "summary": "Amit Shah announces the seizure of ₹182 crore Captagon consignment, reinforcing the Modi government&#039;s commitment to a \"Drug-Free India.\"",
+      "thumbnailUrl": "https://th-i.thgim.com/public/news/qla6rq/article70987572.ece/alternates/LANDSCAPE_1200/Arrested%20Syrian%20national%20NCB%20drugs.jpeg"
+    },
+    {
+      "title": "India rejects Court of Arbitration’s pondage award on Indus Waters Treaty",
+      "url": "https://www.thehindu.com/news/national/india-rejects-court-of-arbitrations-pondage-award-on-indus-waters-treaty/article70987602.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-05-16T16:08:21.000Z",
+      "summary": "India rejects the Court of Arbitration&#039;s pondage award on the Indus Waters Treaty, asserting its decision remains in force.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/z5m844/article70988090.ece/alternates/LANDSCAPE_1200/PTI04_25_2025_000320B.jpg"
+    },
+    {
+      "title": "Chola-era Anaimangalam Plates, in possession of Leiden University since 1862, returned to India",
+      "url": "https://www.thehindu.com/news/national/chola-era-anaimangalam-plates-in-possession-of-leiden-university-since-1862-returned-to-india/article70987678.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-05-16T17:44:54.000Z",
+      "summary": "Chola-era Anaimangalam Plates returned from Leiden University to India, marking a significant cultural and historical milestone.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/8gdply/article70987927.ece/alternates/LANDSCAPE_1200/AP05_16_2026_000431A.jpg"
+    },
+    {
+      "title": "NEET paper leak row: Rahul Gandhi demands Dharmendra Pradhan’s removal",
+      "url": "https://www.thehindu.com/news/national/neet-paper-leak-row-rahul-gandhi-demands-dharmendra-pradhans-removal/article70987362.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-05-16T13:36:47.000Z",
+      "summary": "Rahul Gandhi demands Prime Minister Modi sack Education Minister Dharmendra Pradhan over NEET paper leak allegations and accountability issues.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/dhnegh/article70987418.ece/alternates/LANDSCAPE_1200/2315_20_4_2026_14_28_35_2_RAHUL3.JPG"
+    },
+    {
+      "title": "Venezuelan official Alex Saab, a Maduro ally, deported to US",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMXlpQzNXZTFuMHFnSmJGMThJVU1CV3dzelExNjRWN2hKZTBVczdXREotMVJxZUhxODVFdzMxdEpTcGNObmIyVDVFUUlkcFpyVUdMR3dIcGNKZHZqaGJTdGczNVlYM3VYYjcwVUpNYmV3dkx5VFJmalpVRERDLTlNUzlEMG1YanR4cjQ5WkhnVmFBY2R4RXZGTkcxcFVoNVFGWTBFMlBqTQ?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Sat, 16 May 2026 23:54:34 GMT",
+      "summary": null,
+      "thumbnailUrl": null
+    },
+    {
+      "title": "Iran's stock market to reopen on Tuesday, official says",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNTFgtcktkYW4zS3EwcS1KNnkzeFEybGFOLUtLWi1IQ0NQaWM3TGRvd0ExYVVNaFowQmo5d1JYZk5JQ3hpbWpSQ2xSelhjWWtyeXJJc1plazZjczJpWmFjT1RoUDRjYy1QbU5DNWNXbGFNQXlUMndDLVF5d1hFc0NxWTI3SmJyUHAxQ1NjTzZUUFd4ODJPUUZ5OVh2SXJ4SU92MEkw?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Sat, 16 May 2026 18:48:08 GMT",
+      "summary": null,
+      "thumbnailUrl": null
+    },
+    {
+      "title": "At least eight injured as car rams into pedestrians in Italian city of Modena",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTG5qWnN6TGc1TWRueTNoNDFkLXV0TjNhLUFVN3RsS05Yb3NMZHlzN3lub1NwZGpEWFZBQ1B2SENqSkJlZUFSb0xIa3BDaGN2aDIwaXgwUzFrSWpZOVdrZmw3bFJPenFITXA0TWZHaFdGanBLeTVBdnZVcFl4MkFtU1FSeWVibjJWczZPSG05NnlSeFVoQk93?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Sat, 16 May 2026 22:54:03 GMT",
+      "summary": null,
+      "thumbnailUrl": null
+    },
+    {
+      "title": "China signals tariff cuts, advances in farm market access after Trump-Xi summit",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPWHFhaW1sdDJhWU1HUVBLOGN3ZU53NEtZYlRYVTI4WldQb0tHdV9YNW1PT0Q0S1RIUFZGRmRadE9wNEU4UGpQMWJuMEU3b1l0M2lvNFJjbm5ybl9vWDNLanItb0N1WnJmcTVKME5icUp1SnZ3X0R6UWxIXzZPRF9tdUN6QlVCcUJNWmRQbUI2QXdGSHVneFBIZ2FPWl9sWkRkSmVXUFRjZ0ZnN3BRelo1N2RESTlKXzdVNTlwWl9FVko?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Sat, 16 May 2026 17:33:33 GMT",
+      "summary": null,
+      "thumbnailUrl": null
+    },
+    {
+      "title": "Tata Electronics and ASML partner on India's first semiconductor fab",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQaDhQbXFWbWV5WFRBX1FmOVRoT3NIeVVIR1FCVUdSTnE2QmVwWjRvRkZXUml6T1FtX0ZtU0lWN3I3cTQzVkJ5LWhZVGR3RjJpVmNUZ0pzaV9CLV9TOTJRQ3BDZm8yMXVWYUdkamFHY1FFWS03MGRQc3pYQTRoN2hibGdvSkpybGdCN0ZiQWpCeFNHVXRqMTVVNGRiRHZVTkNFY1hlQjhsa2VIQXo1?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Sat, 16 May 2026 18:45:07 GMT",
+      "summary": null,
+      "thumbnailUrl": null
+    }
+  ],
+  "markets": [
+    {
+      "id": "sp-500",
+      "label": "S&P 500",
+      "region": "US",
+      "symbol": "^GSPC",
+      "value": 7408.5,
+      "previousClose": 7501.240234,
+      "change": -92.740234,
+      "percentChange": -1.236332,
+      "direction": "down",
+      "sessionDate": "2026-05-17"
+    },
+    {
+      "id": "nasdaq-composite",
+      "label": "NASDAQ Composite",
+      "region": "US",
+      "symbol": "^IXIC",
+      "value": 26225.145,
+      "previousClose": 26635.22312,
+      "change": -410.07812,
+      "percentChange": -1.5396084,
+      "direction": "down",
+      "sessionDate": "2026-05-17"
+    },
+    {
+      "id": "euronext-100",
+      "label": "Euronext 100 Index",
+      "region": "Europe",
+      "symbol": "^N100",
+      "value": 1798.83,
+      "previousClose": 1827.5500929999998,
+      "change": -28.720093,
+      "percentChange": -1.5715078,
+      "direction": "down",
+      "sessionDate": "2026-05-17"
+    },
+    {
+      "id": "moex",
+      "label": "Public Joint-Stock Company Moscow Exchange MICEX-RTS",
+      "region": "Europe",
+      "symbol": "MOEX.ME",
+      "value": 85.2,
+      "previousClose": 85.31000061,
+      "change": -0.11000061,
+      "percentChange": -0.12894222,
+      "direction": "down",
+      "sessionDate": "2026-05-17"
+    },
+    {
+      "id": "hang-seng",
+      "label": "HANG SENG INDEX",
+      "region": "Asia",
+      "symbol": "^HSI",
+      "value": 25962.73,
+      "previousClose": 26388.99953,
+      "change": -426.26953,
+      "percentChange": -1.6153303,
+      "direction": "down",
+      "sessionDate": "2026-05-17"
+    },
+    {
+      "id": "nikkei-225",
+      "label": "Nikkei 225",
+      "region": "Asia",
+      "symbol": "^N225",
+      "value": 61409.29,
+      "previousClose": 62654.1025,
+      "change": -1244.8125,
+      "percentChange": -1.9868013,
+      "direction": "down",
+      "sessionDate": "2026-05-17"
+    },
+    {
+      "id": "sensex",
+      "label": "S&P BSE SENSEX",
+      "region": "India",
+      "symbol": "^BSESN",
+      "value": 75237.99,
+      "previousClose": 75398.70094000001,
+      "change": -160.71094,
+      "percentChange": -0.21314815,
+      "direction": "down",
+      "sessionDate": "2026-05-17"
+    }
+  ],
+  "hackerNews": [
+    {
+      "title": "Zerostack – A Unix-inspired coding agent written in pure Rust",
+      "url": "https://crates.io/crates/zerostack/1.0.0",
+      "publishedAt": "2026-05-16T22:23:50.000Z"
+    },
+    {
+      "title": "Hosting a website on an 8-bit microcontroller",
+      "url": "https://maurycyz.com/projects/mcusite/",
+      "publishedAt": "2026-05-17T01:25:26.000Z"
+    },
+    {
+      "title": "A nicer voltmeter clock",
+      "url": "https://lcamtuf.substack.com/p/a-nicer-voltmeter-clock",
+      "publishedAt": "2026-05-16T22:45:16.000Z"
+    },
+    {
+      "title": "OpenAI and Government of Malta partner to roll out ChatGPT Plus to all citizens",
+      "url": "https://openai.com/index/malta-chatgpt-plus-partnership/",
+      "publishedAt": "2026-05-16T20:14:06.000Z"
+    },
+    {
+      "title": "SANA-WM, a 2.6B open-source world model for 1-minute 720p video",
+      "url": "https://nvlabs.github.io/Sana/WM/",
+      "publishedAt": "2026-05-16T12:06:21.000Z"
+    },
+    {
+      "title": "MCP Hello Page",
+      "url": "https://www.hybridlogic.co.uk/blog/2026/05/mcp-hello-page",
+      "publishedAt": "2026-05-16T22:25:33.000Z"
+    },
+    {
+      "title": "Self-Distillation Enables Continual Learning [pdf]",
+      "url": "https://arxiv.org/abs/2601.19897",
+      "publishedAt": "2026-05-17T01:19:14.000Z"
+    },
+    {
+      "title": "Moving away from Tailwind, and learning to structure my CSS",
+      "url": "https://jvns.ca/blog/2026/05/15/moving-away-from-tailwind--and-learning-to-structure-my-css-/",
+      "publishedAt": "2026-05-16T09:14:26.000Z"
+    },
+    {
+      "title": "Accelerando (2005)",
+      "url": "https://www.antipope.org/charlie/blog-static/fiction/accelerando/accelerando.html",
+      "publishedAt": "2026-05-16T11:36:32.000Z"
+    },
+    {
+      "title": "Fisker went bankrupt and owners built an open source car company from the ashes",
+      "url": "https://electrek.co/2026/05/16/fisker-ocean-open-source-ev-story-after-bankruptcy/",
+      "publishedAt": "2026-05-16T23:59:47.000Z"
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "Raybeam",
+      "tagline": "A better way to screen share on macOS Discussion | Link",
+      "url": "https://www.producthunt.com/products/raybeam",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-05-16T20:05:53-07:00"
+    },
+    {
+      "name": "ChatGPT for Personal Finance",
+      "tagline": "Personal finance guidance powered by ChatGPT Discussion | Link",
+      "url": "https://www.producthunt.com/products/openai",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-05-16T20:05:56-07:00"
+    },
+    {
+      "name": "Agentmemory",
+      "tagline": "Persistent memory for Claude Code, Codex & coding agents Discussion | Link",
+      "url": "https://www.producthunt.com/products/agent-memory-dev",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-05-16T20:05:46-07:00"
+    },
+    {
+      "name": "Loova Agents",
+      "tagline": "Your AI director for creating cinematic videos with ease Discussion | Link",
+      "url": "https://www.producthunt.com/products/loova-agents",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-05-16T20:05:58-07:00"
+    },
+    {
+      "name": "Gemini 3.1 Flash-Lite",
+      "tagline": "Lightweight Gemini model for high-volume AI pipelines Discussion | Link",
+      "url": "https://www.producthunt.com/products/gemini-3-1-flash-lite-2",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-05-16T20:05:55-07:00"
+    }
+  ],
+  "sourceNotes": {
+    "generatedAt": "2026-05-17T03:12:56.617Z",
+    "timeZone": "Asia/Kolkata",
+    "successfulSources": [
+      "New York Times",
+      "Al Jazeera",
+      "NPR",
+      "China Daily",
+      "The Hindu",
+      "Reuters"
+    ],
+    "marketSessionLabel": "Latest market sessions as of 2026-05-17",
+    "warnings": []
+  }
+}
