@@ -29,6 +29,7 @@ npm ci
 ```bash
 npm run generate:daily-news
 ```
+* Optional AI metadata summaries use OpenRouter. Copy `../.env.example` to `../.env`, set `OPENROUTER_API_KEY`, and optionally set `OPENROUTER_MODEL`. If no key is present, the generator falls back to a deterministic title and expanded section summary.
 * Generate a specific date:
 ```bash
 npm run generate:daily-news -- --date 2026-04-19
@@ -44,4 +45,4 @@ npm run generate:daily-news -- --date 2026-04-19 --overwrite
 * Output locations:
   * Markdown edition: `site/daily-news/YYYY-MM-DD.md`
   * Downloaded thumbnails: `site/public/images/daily-news/YYYY-MM-DD/`
-* The scheduled automation is defined in `.github/workflows/daily-news.yml`. It generates the day's edition, runs a smoke-test build, and creates or updates a PR automatically.
+* The scheduled automation is defined in `.github/workflows/daily-news.yml`. It generates the day's edition, runs a smoke-test build, and creates or updates a PR automatically. Add `OPENROUTER_API_KEY` as a GitHub Actions secret to enable AI-written metadata during the build.

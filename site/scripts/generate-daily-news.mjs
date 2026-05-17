@@ -1,3 +1,4 @@
+import fsSync from "fs";
 import fs from "fs/promises";
 import path from "path";
 import process from "process";
@@ -20,6 +21,63 @@ import {
 const ROOT_DIR = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const DAILY_NEWS_DIR = path.join(ROOT_DIR, "daily-news");
 const DAILY_NEWS_PAYLOAD_DIR = path.join(ROOT_DIR, "daily-news-data");
+const OPENROUTER_DEFAULT_MODEL = "openai/gpt-4o-mini";
+const OPENROUTER_DEFAULT_BASE_URL = "https://openrouter.ai/api/v1";
+
+function parseEnvFileContent(content) {
+  const values = {};
+
+  for (const line of content.split(/\r?\n/)) {
+    const trimmed = line.trim();
+
+    if (!trimmed || trimmed.startsWith("#")) {
+      continue;
+    }
+
+    const separatorIndex = trimmed.indexOf("=");
+    if (separatorIndex === -1) {
+      continue;
+    }
+
+    const key = trimmed.slice(0, separatorIndex).trim();
+    let value = trimmed.slice(separatorIndex + 1).trim();
+
+    if (!key || !/^[A-Za-z_][A-Za-z0-9_]*$/.test(key)) {
+      continue;
+    }
+
+    if (
+      (value.startsWith('"') && value.endsWith('"')) ||
+      (value.startsWith("'") && value.endsWith("'"))
+    ) {
+      value = value.slice(1, -1);
+    }
+
+    values[key] = value;
+  }
+
+  return values;
+}
+
+function loadLocalEnvFiles() {
+  const envPaths = [path.resolve(ROOT_DIR, "..", ".env"), path.join(ROOT_DIR, ".env")];
+
+  for (const envPath of envPaths) {
+    if (!fsSync.existsSync(envPath)) {
+      continue;
+    }
+
+    const values = parseEnvFileContent(fsSync.readFileSync(envPath, "utf8"));
+
+    for (const [key, value] of Object.entries(values)) {
+      if (process.env[key] === undefined) {
+        process.env[key] = value;
+      }
+    }
+  }
+}
+
+loadLocalEnvFiles();
 
 function parseArgs(argv) {
   const args = {
@@ -105,6 +163,37 @@ function stripHtml(value = "") {
 
 function normalizeWhitespace(value = "") {
   return String(value).replace(/\u00a0/g, " ").replace(/\s+/g, " ").trim();
+}
+
+function truncateText(value = "", maxLength = 160) {
+  const normalized = normalizeWhitespace(value);
+
+  if (normalized.length <= maxLength) {
+    return normalized;
+  }
+
+  const clipped = normalized.slice(0, maxLength - 1);
+  const lastSpace = clipped.lastIndexOf(" ");
+
+  return `${clipped.slice(0, lastSpace > 60 ? lastSpace : clipped.length).trim()}...`;
+}
+
+function joinReadableList(items, conjunction = "and") {
+  const cleanItems = items.map((item) => normalizeWhitespace(item)).filter(Boolean);
+
+  if (cleanItems.length === 0) {
+    return "";
+  }
+
+  if (cleanItems.length === 1) {
+    return cleanItems[0];
+  }
+
+  if (cleanItems.length === 2) {
+    return `${cleanItems[0]} ${conjunction} ${cleanItems[1]}`;
+  }
+
+  return `${cleanItems.slice(0, -1).join(", ")}, ${conjunction} ${cleanItems[cleanItems.length - 1]}`;
 }
 
 function isDateOnlyValue(value = "") {
@@ -1654,6 +1743,219 @@ function estimateReadingTimeFromPayload(payload) {
   return estimateReadingTime(textParts);
 }
 
+function getMarketMoveLabel(item) {
+  if (!item) {
+    return null;
+  }
+
+  const direction = item.direction === "up" ? "up" : "down";
+  return `${item.label} ${direction} ${Math.abs(item.percentChange).toFixed(2)}%`;
+}
+
+function createFallbackEditionMetadata(payload, humanDate) {
+  const topHeadlineTitles = (payload.headlines || [])
+    .slice(0, 3)
+    .map((item) => truncateText(item.title, 96));
+  const topHackerNewsTitles = (payload.hackerNews || [])
+    .slice(0, 3)
+    .map((item) => truncateText(item.title, 88));
+  const topProductHuntNames = (payload.productHunt || [])
+    .slice(0, 3)
+    .map((item) => truncateText(item.name, 72));
+  const marketItems = payload.markets || [];
+  const upMarkets = marketItems.filter((item) => item.direction === "up").length;
+  const downMarkets = marketItems.filter((item) => item.direction === "down").length;
+  const biggestMarketMove = marketItems
+    .slice()
+    .sort((first, second) => Math.abs(second.percentChange) - Math.abs(first.percentChange))[0];
+
+  const fallbackTitleFocus =
+    topHeadlineTitles.length > 0
+      ? topHeadlineTitles.slice(0, 2).join("; ")
+      : joinReadableList(
+          [
+            marketItems.length > 0 ? "market moves" : null,
+            topHackerNewsTitles[0],
+            topProductHuntNames[0],
+          ].filter(Boolean)
+        );
+  const title = truncateText(`Daily Brief for ${humanDate}: ${fallbackTitleFocus}`, 150);
+  const sentences = [];
+
+  if (topHeadlineTitles.length > 0) {
+    sentences.push(`Global headlines lead with ${joinReadableList(topHeadlineTitles)}.`);
+  } else {
+    sentences.push("Global headline coverage was unavailable for this edition.");
+  }
+
+  if (marketItems.length > 0) {
+    const balance =
+      upMarkets === downMarkets
+        ? "split evenly"
+        : upMarkets > downMarkets
+          ? `leaned higher, with ${upMarkets} of ${marketItems.length} tracked indexes up`
+          : `leaned lower, with ${downMarkets} of ${marketItems.length} tracked indexes down`;
+    const moveLabel = getMarketMoveLabel(biggestMarketMove);
+    sentences.push(
+      `Markets ${balance}${moveLabel ? ` and ${moveLabel} as the largest move` : ""}.`
+    );
+  } else {
+    sentences.push("Market data was unavailable for the selected benchmark indexes.");
+  }
+
+  if (topHackerNewsTitles.length > 0) {
+    sentences.push(`Hacker News highlights include ${joinReadableList(topHackerNewsTitles)}.`);
+  } else {
+    sentences.push("Hacker News did not return recent qualifying links for the edition window.");
+  }
+
+  if (topProductHuntNames.length > 0) {
+    sentences.push(`Product Hunt features ${joinReadableList(topProductHuntNames)}.`);
+  } else {
+    sentences.push("Product Hunt listings were unavailable, so the edition notes that source gap.");
+  }
+
+  return {
+    title,
+    description: sentences.join(" "),
+    source: "fallback",
+  };
+}
+
+function buildMetadataSummaryPrompt(payload, humanDate, fallbackMetadata) {
+  const summaryInput = {
+    date: humanDate,
+    headlines: (payload.headlines || []).slice(0, 8).map((item) => ({
+      title: item.title,
+      source: item.source,
+      region: item.region,
+      summary: item.summary,
+    })),
+    markets: (payload.markets || []).map((item) => ({
+      label: item.label,
+      region: item.region,
+      sessionDate: item.sessionDate,
+      direction: item.direction,
+      percentChange: item.percentChange,
+    })),
+    hackerNews: (payload.hackerNews || []).slice(0, 8).map((item) => ({
+      title: item.title,
+      url: item.url,
+    })),
+    productHunt: (payload.productHunt || []).slice(0, 8).map((item) => ({
+      name: item.name,
+      tagline: item.tagline,
+    })),
+    fallbackDraft: fallbackMetadata,
+  };
+
+  return [
+    "Write metadata for a Daily News edition using only the supplied facts.",
+    "Return strict JSON with exactly two string keys: title and description.",
+    "Title: specific, headline-driven, natural, under 150 characters, and include the date.",
+    "Description: 4 to 6 complete sentences summarizing global headlines, markets, Hacker News, and Product Hunt. Mention a missing section briefly if it has no items.",
+    "Do not invent details, statistics, names, or causal claims beyond the JSON input.",
+    JSON.stringify(summaryInput, null, 2),
+  ].join("\n\n");
+}
+
+function parseJsonObjectFromText(value = "") {
+  const normalized = normalizeWhitespace(value.replace(/^```(?:json)?/i, "").replace(/```$/i, ""));
+
+  try {
+    return JSON.parse(normalized);
+  } catch (error) {
+    const jsonMatch = normalized.match(/\{[\s\S]*\}/);
+
+    if (!jsonMatch) {
+      throw error;
+    }
+
+    return JSON.parse(jsonMatch[0]);
+  }
+}
+
+function sanitizeGeneratedMetadata(metadata, fallbackMetadata) {
+  const title = truncateText(metadata?.title || fallbackMetadata.title, 150);
+  const description = truncateText(metadata?.description || fallbackMetadata.description, 950);
+
+  return {
+    title: title || fallbackMetadata.title,
+    description: description || fallbackMetadata.description,
+  };
+}
+
+async function fetchOpenRouterMetadata(payload, humanDate, fallbackMetadata) {
+  const apiKey = process.env.OPENROUTER_API_KEY;
+
+  if (!apiKey) {
+    return null;
+  }
+
+  const baseUrl = (process.env.OPENROUTER_BASE_URL || OPENROUTER_DEFAULT_BASE_URL).replace(/\/$/, "");
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), 45_000);
+
+  try {
+    const response = await fetch(`${baseUrl}/chat/completions`, {
+      method: "POST",
+      signal: controller.signal,
+      headers: {
+        Authorization: `Bearer ${apiKey}`,
+        "Content-Type": "application/json",
+        "HTTP-Referer": process.env.OPENROUTER_HTTP_REFERER || "https://sony-mathew.com",
+        "X-Title": process.env.OPENROUTER_APP_TITLE || "Sony Mathew Daily News",
+      },
+      body: JSON.stringify({
+        model: process.env.OPENROUTER_MODEL || OPENROUTER_DEFAULT_MODEL,
+        temperature: 0.2,
+        response_format: { type: "json_object" },
+        messages: [
+          {
+            role: "system",
+            content:
+              "You are a careful editor writing concise metadata for a personal daily news archive.",
+          },
+          {
+            role: "user",
+            content: buildMetadataSummaryPrompt(payload, humanDate, fallbackMetadata),
+          },
+        ],
+      }),
+    });
+
+    if (!response.ok) {
+      const errorBody = await response.text().catch(() => "");
+      throw new Error(`OpenRouter responded ${response.status}${errorBody ? `: ${truncateText(errorBody, 180)}` : ""}`);
+    }
+
+    const result = await response.json();
+    const content = result?.choices?.[0]?.message?.content;
+
+    if (!content) {
+      throw new Error("OpenRouter response did not include message content");
+    }
+
+    return {
+      ...sanitizeGeneratedMetadata(parseJsonObjectFromText(content), fallbackMetadata),
+      source: "openrouter",
+    };
+  } finally {
+    clearTimeout(timeout);
+  }
+}
+
+export async function createEditionMetadata(payload, humanDate, warnings) {
+  const fallbackMetadata = createFallbackEditionMetadata(payload, humanDate);
+
+  try {
+    return (await fetchOpenRouterMetadata(payload, humanDate, fallbackMetadata)) || fallbackMetadata;
+  } catch (error) {
+    warnings.push(`OpenRouter metadata summary: ${error.message}`);
+    return fallbackMetadata;
+  }
+}
+
 function buildFrontmatter({
   title,
   description,
@@ -1759,8 +2061,8 @@ export async function generateEdition({ editionDate, dryRun = false, overwrite =
   const body = '<div data-daily-news-payload="true"></div>';
 
   const humanDate = formatHumanDate(editionDate);
-  const title = `Daily Brief for ${humanDate}: Global Headlines, Markets, Hacker News, Product Hunt`;
-  const description = `A daily brief for ${humanDate} covering global headlines, market closes, Hacker News, and Product Hunt.`;
+  const metadata = await createEditionMetadata(payload, humanDate, warnings);
+  const { title, description } = metadata;
   const readingTime = estimateReadingTimeFromPayload(payload);
   const document = `${buildFrontmatter({
     title,
@@ -1789,6 +2091,7 @@ export async function generateEdition({ editionDate, dryRun = false, overwrite =
       reutersFeedUrl: REUTERS_FEED_URL,
       marketMode: MARKET_MODE,
       sourceRevision: SOURCE_REVISION,
+      metadataSource: metadata.source,
     },
     sectionCounts: {
       headlines: enrichedHeadlines.length,

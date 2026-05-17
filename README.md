@@ -39,6 +39,7 @@ $ npm ci
 ```
 $ npm run generate:daily-news
 ```
+* Optional AI metadata summaries use OpenRouter. Copy `.env.example` to `.env`, set `OPENROUTER_API_KEY`, and optionally set `OPENROUTER_MODEL`. If no key is present, the generator falls back to a deterministic title and expanded section summary.
 * Generate a specific edition date:
 ```
 $ npm run generate:daily-news -- --date 2026-04-19
@@ -53,7 +54,7 @@ $ npm run generate:daily-news -- --date 2026-04-19 --overwrite
 ```
 * Generated markdown files are written to `site/daily-news/YYYY-MM-DD.md`.
 * Downloaded thumbnails, when available from the source feed/page, are written to `site/public/images/daily-news/YYYY-MM-DD/`.
-* The scheduled GitHub Actions workflow in `.github/workflows/daily-news.yml` runs daily at `02:00 UTC` and opens or updates a PR against `master` with the generated edition.
+* The scheduled GitHub Actions workflow in `.github/workflows/daily-news.yml` runs daily at `02:00 UTC` and opens or updates a PR against `master` with the generated edition. Add `OPENROUTER_API_KEY` as a GitHub Actions secret to enable AI-written metadata during the build.
 
 ### How does this work?
 The deploy script will automatically checkout the `deploy` branch (This is set as branch to be served for GitHub Pages in the repo settings). It will then merge the `master` branch into `deploy` and build and export the static website to the root of the repo. After that it will  stage all the changes, commit automatically, push the commit to the remote and checkout `master` branch.

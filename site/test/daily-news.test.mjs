@@ -3,6 +3,7 @@ import assert from "node:assert/strict";
 import fs from "fs/promises";
 import path from "path";
 import {
+  createEditionMetadata,
   generateEdition,
   parseAlJazeeraHtml,
   parseChinaDailyHtml,
@@ -22,6 +23,25 @@ const MARKET_FIXTURE_URLS = new Set([
   "https://finance.yahoo.com/markets/world-indices/",
   "https://finance.yahoo.com/world-indices/",
 ]);
+const ORIGINAL_OPENROUTER_ENV = {
+  OPENROUTER_API_KEY: process.env.OPENROUTER_API_KEY,
+  OPENROUTER_MODEL: process.env.OPENROUTER_MODEL,
+  OPENROUTER_BASE_URL: process.env.OPENROUTER_BASE_URL,
+};
+
+delete process.env.OPENROUTER_API_KEY;
+delete process.env.OPENROUTER_MODEL;
+delete process.env.OPENROUTER_BASE_URL;
+
+test.after(() => {
+  for (const [key, value] of Object.entries(ORIGINAL_OPENROUTER_ENV)) {
+    if (value === undefined) {
+      delete process.env[key];
+    } else {
+      process.env[key] = value;
+    }
+  }
+});
 
 async function loadFixture(fileName) {
   return fs.readFile(path.join(FIXTURES_DIR, fileName), "utf8");
@@ -128,6 +148,91 @@ test("parses Yahoo world indices page and keeps the requested markets", async ()
   assert.equal(result.items.find((item) => item.symbol === "^N225")?.change.toFixed(2), "524.27");
 });
 
+test("uses OpenRouter metadata when a key is configured", async () => {
+  const originalFetch = global.fetch;
+  const requestedBodies = [];
+
+  process.env.OPENROUTER_API_KEY = "test-openrouter-key";
+  process.env.OPENROUTER_MODEL = "test/news-editor";
+  process.env.OPENROUTER_BASE_URL = "https://openrouter.test/api/v1";
+  global.fetch = async (url, options = {}) => {
+    requestedBodies.push(JSON.parse(options.body));
+
+    assert.equal(String(url), "https://openrouter.test/api/v1/chat/completions");
+    assert.equal(options.headers.Authorization, "Bearer test-openrouter-key");
+
+    return new Response(
+      JSON.stringify({
+        choices: [
+          {
+            message: {
+              content: JSON.stringify({
+                title: "Daily Brief for April 19, 2026: Markets Slip as Launch Alpha Trends",
+                description:
+                  "Global headlines focus on NYT headline one and NPR headline one. Markets lean lower, led by the S&P 500. Hacker News highlights HN story one. Product Hunt features Launch Alpha.",
+              }),
+            },
+          },
+        ],
+      }),
+      {
+        status: 200,
+        headers: { "content-type": "application/json" },
+      }
+    );
+  };
+
+  try {
+    const warnings = [];
+    const metadata = await createEditionMetadata(
+      {
+        headlines: [
+          {
+            title: "NYT headline one",
+            source: "New York Times",
+            region: "World",
+            summary: "Lead story summary.",
+          },
+          {
+            title: "NPR headline one",
+            source: "NPR",
+            region: "US",
+            summary: "Lead story from NPR.",
+          },
+        ],
+        markets: [
+          {
+            label: "S&P 500",
+            region: "United States",
+            sessionDate: "2026-04-19",
+            direction: "down",
+            percentChange: -0.67,
+          },
+        ],
+        hackerNews: [{ title: "HN story one", url: "https://example.com/hn" }],
+        productHunt: [{ name: "Launch Alpha", tagline: "The first launch tagline" }],
+      },
+      "April 19, 2026",
+      warnings
+    );
+
+    assert.equal(metadata.source, "openrouter");
+    assert.equal(
+      metadata.title,
+      "Daily Brief for April 19, 2026: Markets Slip as Launch Alpha Trends"
+    );
+    assert.match(metadata.description, /Product Hunt features Launch Alpha/);
+    assert.equal(warnings.length, 0);
+    assert.equal(requestedBodies[0].model, "test/news-editor");
+    assert.equal(requestedBodies[0].response_format.type, "json_object");
+  } finally {
+    global.fetch = originalFetch;
+    delete process.env.OPENROUTER_API_KEY;
+    delete process.env.OPENROUTER_MODEL;
+    delete process.env.OPENROUTER_BASE_URL;
+  }
+});
+
 test("dry run emits markdown frontmatter and source notes", async () => {
   const originalFetch = global.fetch;
   const requestedUrls = [];
@@ -218,7 +323,14 @@ test("dry run emits markdown frontmatter and source notes", async () => {
     });
 
     assert.equal(result.status, "generated");
-    assert.match(result.document, /title: "Daily Brief for April 19, 2026/);
+    assert.match(result.document, /title: "Daily Brief for April 19, 2026: /);
+    assert.doesNotMatch(
+      result.document,
+      /Daily Brief for April 19, 2026: Global Headlines, Markets, Hacker News, Product Hunt/
+    );
+    assert.match(result.document, /description: "Global headlines lead with /);
+    assert.match(result.document, /Hacker News highlights include /);
+    assert.match(result.document, /Product Hunt features /);
     assert.match(result.document, /payloadFile: "2026-04-19\.json"/);
     assert.match(result.document, /<div data-daily-news-payload="true"><\/div>/);
     assert.doesNotMatch(result.document, /data-daily-news-section="headlines"/);
