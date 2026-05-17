@@ -140,7 +140,7 @@ function createSlug(value) {
 }
 
 function stripHtml(value = "") {
-  let normalized = value;
+  let normalized = String(value ?? "");
 
   for (let pass = 0; pass < 2; pass += 1) {
     normalized = normalized
@@ -1752,16 +1752,31 @@ function getMarketMoveLabel(item) {
   return `${item.label} ${direction} ${Math.abs(item.percentChange).toFixed(2)}%`;
 }
 
+function getShortSummary(value = "", maxLength = 180) {
+  return truncateText(stripHtml(value), maxLength);
+}
+
 function createFallbackEditionMetadata(payload, humanDate) {
-  const topHeadlineTitles = (payload.headlines || [])
+  const headlineItems = payload.headlines || [];
+  const hackerNewsItems = payload.hackerNews || [];
+  const productHuntItems = payload.productHunt || [];
+  const topHeadlineTitles = headlineItems
     .slice(0, 3)
     .map((item) => truncateText(item.title, 96));
-  const topHackerNewsTitles = (payload.hackerNews || [])
+  const topHeadlineSummaries = headlineItems
+    .slice(0, 3)
+    .map((item) => getShortSummary(item.summary))
+    .filter(Boolean);
+  const topHackerNewsTitles = hackerNewsItems
     .slice(0, 3)
     .map((item) => truncateText(item.title, 88));
-  const topProductHuntNames = (payload.productHunt || [])
+  const topProductHuntNames = productHuntItems
     .slice(0, 3)
     .map((item) => truncateText(item.name, 72));
+  const topProductHuntTaglines = productHuntItems
+    .slice(0, 3)
+    .map((item) => getShortSummary(item.tagline, 140))
+    .filter(Boolean);
   const marketItems = payload.markets || [];
   const upMarkets = marketItems.filter((item) => item.direction === "up").length;
   const downMarkets = marketItems.filter((item) => item.direction === "down").length;
@@ -1784,6 +1799,14 @@ function createFallbackEditionMetadata(payload, humanDate) {
 
   if (topHeadlineTitles.length > 0) {
     sentences.push(`Global headlines lead with ${joinReadableList(topHeadlineTitles)}.`);
+    if (topHeadlineSummaries[0]) {
+      sentences.push(`The lead story context: ${topHeadlineSummaries[0]}.`);
+    }
+    if (topHeadlineSummaries.length > 1) {
+      sentences.push(
+        `Other headline notes include ${joinReadableList(topHeadlineSummaries.slice(1, 3))}.`
+      );
+    }
   } else {
     sentences.push("Global headline coverage was unavailable for this edition.");
   }
@@ -1799,18 +1822,29 @@ function createFallbackEditionMetadata(payload, humanDate) {
     sentences.push(
       `Markets ${balance}${moveLabel ? ` and ${moveLabel} as the largest move` : ""}.`
     );
+    sentences.push(
+      `The market table tracks ${joinReadableList(
+        marketItems.slice(0, 4).map((item) => item.label)
+      )}${marketItems.length > 4 ? ` plus ${marketItems.length - 4} more indexes` : ""}.`
+    );
   } else {
     sentences.push("Market data was unavailable for the selected benchmark indexes.");
   }
 
   if (topHackerNewsTitles.length > 0) {
     sentences.push(`Hacker News highlights include ${joinReadableList(topHackerNewsTitles)}.`);
+    sentences.push(
+      `The HN section keeps the focus on recent external links from the edition window.`
+    );
   } else {
     sentences.push("Hacker News did not return recent qualifying links for the edition window.");
   }
 
   if (topProductHuntNames.length > 0) {
     sentences.push(`Product Hunt features ${joinReadableList(topProductHuntNames)}.`);
+    if (topProductHuntTaglines.length > 0) {
+      sentences.push(`Product taglines frame the launches as ${joinReadableList(topProductHuntTaglines)}.`);
+    }
   } else {
     sentences.push("Product Hunt listings were unavailable, so the edition notes that source gap.");
   }
@@ -1853,7 +1887,7 @@ function buildMetadataSummaryPrompt(payload, humanDate, fallbackMetadata) {
     "Write metadata for a Daily News edition using only the supplied facts.",
     "Return strict JSON with exactly two string keys: title and description.",
     "Title: specific, headline-driven, natural, under 150 characters, and include the date.",
-    "Description: 4 to 6 complete sentences summarizing global headlines, markets, Hacker News, and Product Hunt. Mention a missing section briefly if it has no items.",
+    "Description: 7 to 9 complete sentences summarizing global headlines, markets, Hacker News, and Product Hunt. Cover the lead headline context, the broader headline mix, market direction, notable market movers, Hacker News themes, Product Hunt launches, and any missing section briefly if it has no items.",
     "Do not invent details, statistics, names, or causal claims beyond the JSON input.",
     JSON.stringify(summaryInput, null, 2),
   ].join("\n\n");
@@ -1877,7 +1911,7 @@ function parseJsonObjectFromText(value = "") {
 
 function sanitizeGeneratedMetadata(metadata, fallbackMetadata) {
   const title = truncateText(metadata?.title || fallbackMetadata.title, 150);
-  const description = truncateText(metadata?.description || fallbackMetadata.description, 950);
+  const description = truncateText(metadata?.description || fallbackMetadata.description, 1600);
 
   return {
     title: title || fallbackMetadata.title,

@@ -329,8 +329,13 @@ test("dry run emits markdown frontmatter and source notes", async () => {
       /Daily Brief for April 19, 2026: Global Headlines, Markets, Hacker News, Product Hunt/
     );
     assert.match(result.document, /description: "Global headlines lead with /);
+    assert.match(result.document, /The lead story context: /);
+    assert.match(result.document, /Other headline notes include /);
+    assert.match(result.document, /The market table tracks /);
     assert.match(result.document, /Hacker News highlights include /);
+    assert.match(result.document, /The HN section keeps the focus /);
     assert.match(result.document, /Product Hunt features /);
+    assert.match(result.document, /Product taglines frame the launches as /);
     assert.match(result.document, /payloadFile: "2026-04-19\.json"/);
     assert.match(result.document, /<div data-daily-news-payload="true"><\/div>/);
     assert.doesNotMatch(result.document, /data-daily-news-section="headlines"/);
