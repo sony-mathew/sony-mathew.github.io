@@ -19,10 +19,12 @@ export async function getStaticProps() {
 }
 
 export default function Home({ allPostsData }) {
+  const pageTitle = `${DEFAULT_CONFIG.siteTitle} by ${DEFAULT_CONFIG.author}`;
+
   return (
     <Layout home>
       <Head>
-        <title>{ DEFAULT_CONFIG.siteTitle } by {DEFAULT_CONFIG.author}</title>
+        <title>{pageTitle}</title>
         { MetaData() }
       </Head>
       <div className="flex-container gap-8 items-center justify-center">

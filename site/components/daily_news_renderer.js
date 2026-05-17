@@ -130,7 +130,7 @@ function RelativeTime({ value }) {
   return (
     <time
       data-relative-time
-      datetime={value}
+      dateTime={value}
       title={title}
       data-relative-time-granularity={granularity}
       className="whitespace-nowrap"

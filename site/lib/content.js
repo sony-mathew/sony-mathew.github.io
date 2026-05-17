@@ -24,22 +24,22 @@ function getCollectionFileNames(collectionName) {
     .filter((fileName) => fileName.endsWith(".md"));
 }
 
-function readCollectionEntry(collectionName, fileName) {
+function readCollectionEntry(collectionName, fileName, { includeContent = true } = {}) {
   const fullPath = path.join(getCollectionDirectory(collectionName), fileName);
   const fileContents = fs.readFileSync(fullPath, "utf8");
   const matterResult = matter(fileContents);
 
   return {
     id: fileName.replace(/\.md$/, ""),
-    content: matterResult.content,
+    ...(includeContent ? { content: matterResult.content } : {}),
     ...matterResult.data,
   };
 }
 
-export function getSortedCollectionData(collectionName) {
+export function getSortedCollectionData(collectionName, { includeContent = false } = {}) {
   const fileNames = getCollectionFileNames(collectionName);
   const allEntriesData = fileNames.map((fileName) =>
-    readCollectionEntry(collectionName, fileName)
+    readCollectionEntry(collectionName, fileName, { includeContent })
   );
 
   return allEntriesData.sort((a, b) => {

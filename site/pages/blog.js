@@ -27,10 +27,12 @@ export async function getStaticProps() {
 }
 
 export default function Home({ allPostsData }) {
+  const pageTitle = `Blog | ${DEFAULT_CONFIG.siteTitle} by ${DEFAULT_CONFIG.author}`;
+
   return (
     <Layout>
       <Head>
-        <title>Blog | { DEFAULT_CONFIG.siteTitle } by {DEFAULT_CONFIG.author} </title>
+        <title>{pageTitle}</title>
         { MetaData() }
       </Head>
       <section>

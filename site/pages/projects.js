@@ -8,10 +8,12 @@ import utilStyles from "../styles/utils.module.scss";
 import { projectsList } from "../config/projectsList";
 
 export default function Home({ allPostsData }) {
+  const pageTitle = `Projects | ${DEFAULT_CONFIG.siteTitle} by ${DEFAULT_CONFIG.author}`;
+
   return (
     <Layout>
       <Head>
-        <title>Projects | { DEFAULT_CONFIG.siteTitle } by {DEFAULT_CONFIG.author} </title>
+        <title>{pageTitle}</title>
         { MetaData() }
       </Head>
       <section>
