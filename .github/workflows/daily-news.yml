@@ -37,6 +37,11 @@ jobs:
 
       - name: Generate daily news edition
         working-directory: ./site
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          OPENROUTER_MODEL: ${{ vars.OPENROUTER_MODEL }}
+          OPENROUTER_HTTP_REFERER: https://sony-mathew.com
+          OPENROUTER_APP_TITLE: Sony Mathew Daily News
         run: timeout 600s node ./scripts/generate-daily-news.mjs --date "${{ steps.edition-date.outputs.edition_date }}"
 
       - name: Smoke test build
