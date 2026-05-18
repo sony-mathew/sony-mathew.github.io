@@ -409,7 +409,10 @@ test("dry run emits markdown frontmatter and source notes", async () => {
     const directReutersHeadline = reutersHeadlines.find((item) => item.url.startsWith("https://www.reuters.com/"));
     assert.ok(unresolvedReutersHeadline);
     assert.ok(directReutersHeadline);
-    assert.equal(unresolvedReutersHeadline.summary, null);
+    assert.equal(
+      unresolvedReutersHeadline.summary,
+      "Reuters: Bulgaria votes as pro-Russian former president leads the polls."
+    );
     assert.equal(unresolvedReutersHeadline.thumbnailUrl, null);
     assert.equal(
       directReutersHeadline.summary,
@@ -555,6 +558,12 @@ test("generated daily news markdown loads structured payload through the collect
     assert.equal(data.dailyNewsPayload.markets.length, 7);
     assert.equal(Array.isArray(data.dailyNewsPayload.hackerNews), true);
     assert.equal(data.dailyNewsPayload.summarySections.length, 2);
+    assert.equal(
+      data.dailyNewsPayload.headlines.find(
+        (item) => item.source === "Reuters" && item.url.startsWith("https://news.google.com/")
+      )?.summary,
+      "Reuters: Bulgaria votes as pro-Russian former president leads the polls."
+    );
     assert.equal(
       data.dailyNewsPayload.headlines.find(
         (item) => item.source === "Reuters" && item.url.startsWith("https://news.google.com/")

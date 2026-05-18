@@ -1046,6 +1046,105 @@ async function hydrateReutersMetadata(stories) {
   );
 }
 
+function createFallbackHeadlineSummary(story) {
+  if (!story?.title) {
+    return null;
+  }
+
+  return `${story.source || "Source"}: ${story.title}.`;
+}
+
+async function generateMissingReutersSummaries(stories, warnings) {
+  const missingReutersStories = stories
+    .map((story, index) => ({ story, index }))
+    .filter(({ story }) => story.source === "Reuters" && !story.summary && story.title);
+
+  if (missingReutersStories.length === 0) {
+    return stories;
+  }
+
+  if (!process.env.OPENROUTER_API_KEY) {
+    return stories.map((story) => ({
+      ...story,
+      summary: story.source === "Reuters" && !story.summary ? createFallbackHeadlineSummary(story) : story.summary,
+    }));
+  }
+
+  try {
+    const baseUrl = (process.env.OPENROUTER_BASE_URL || OPENROUTER_DEFAULT_BASE_URL).replace(/\/$/, "");
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 45_000);
+
+    try {
+      const response = await fetch(`${baseUrl}/chat/completions`, {
+        method: "POST",
+        signal: controller.signal,
+        headers: {
+          Authorization: `Bearer ${process.env.OPENROUTER_API_KEY}`,
+          "Content-Type": "application/json",
+          "HTTP-Referer": process.env.OPENROUTER_HTTP_REFERER || "https://sony-mathew.com",
+          "X-Title": process.env.OPENROUTER_APP_TITLE || "Sony Mathew Daily News",
+        },
+        body: JSON.stringify({
+          model: process.env.OPENROUTER_MODEL || OPENROUTER_DEFAULT_MODEL,
+          temperature: 0.1,
+          response_format: { type: "json_object" },
+          messages: [
+            {
+              role: "system",
+              content:
+                "You write cautious one-sentence news-card summaries from headlines only. Do not add facts that are not present in the headline.",
+            },
+            {
+              role: "user",
+              content: [
+                "Return strict JSON with one key, summaries, as an array of objects with index and summary.",
+                "Each summary must be 12 to 24 words, neutral, and based only on the supplied headline.",
+                JSON.stringify({
+                  headlines: missingReutersStories.map(({ story, index }) => ({
+                    index,
+                    title: story.title,
+                    source: story.source,
+                  })),
+                }),
+              ].join("\n\n"),
+            },
+          ],
+        }),
+      });
+
+      if (!response.ok) {
+        throw new Error(`OpenRouter responded ${response.status}`);
+      }
+
+      const result = await response.json();
+      const content = result?.choices?.[0]?.message?.content;
+      const summaries = parseJsonObjectFromText(content || "")?.summaries || [];
+      const summariesByIndex = new Map(
+        summaries
+          .filter((item) => Number.isInteger(item.index) && item.summary)
+          .map((item) => [item.index, truncateText(item.summary, 220)])
+      );
+
+      return stories.map((story, index) => ({
+        ...story,
+        summary:
+          story.source === "Reuters" && !story.summary
+            ? summariesByIndex.get(index) || createFallbackHeadlineSummary(story)
+            : story.summary,
+      }));
+    } finally {
+      clearTimeout(timeout);
+    }
+  } catch (error) {
+    warnings.push(`Reuters generated summaries: ${error.message}`);
+    return stories.map((story) => ({
+      ...story,
+      summary: story.source === "Reuters" && !story.summary ? createFallbackHeadlineSummary(story) : story.summary,
+    }));
+  }
+}
+
 export function parseAlJazeeraHtml(html, sourceConfig = NEWS_SOURCES.find((source) => source.id === "al-jazeera")) {
   return parseHtmlCards(html, sourceConfig, (story) => {
     if (!story.url || !story.title) {
@@ -2123,7 +2222,7 @@ export async function generateEdition({ editionDate, dryRun = false, overwrite =
     throw new Error("All sections failed; refusing to generate an empty edition");
   }
 
-  const enrichedHeadlines = globalHeadlines.items;
+  const enrichedHeadlines = await generateMissingReutersSummaries(globalHeadlines.items, warnings);
   const enrichedProductHunt = productHuntItems;
 
   const generatedAt = new Date().toISOString();
