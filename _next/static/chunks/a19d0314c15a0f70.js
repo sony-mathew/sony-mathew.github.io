@@ -5,6 +5,6 @@ __turbopack_load_page_chunks__("/solve-the-puzzle", [
   "static/chunks/204e2614e99eb52b.js",
   "static/chunks/aaaae769ffa866de.js",
   "static/chunks/03cbea769ec72539.js",
-  "static/chunks/74f288ec515b5fe4.css",
-  "static/chunks/turbopack-64457cf1db55f271.js"
+  "static/chunks/c4fd7f48797b054c.css",
+  "static/chunks/turbopack-39ad4f5f510173bf.js"
 ])
