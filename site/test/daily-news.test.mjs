@@ -427,6 +427,10 @@ test("dry run emits markdown frontmatter and source notes", async () => {
     );
     assert.equal(unresolvedReutersHeadline.thumbnailUrl, null);
     assert.equal(
+      unresolvedReutersHeadline.sourceIconUrl,
+      "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    );
+    assert.equal(
       directReutersHeadline.summary,
       "Reuters summary from article metadata that should appear under the headline in the daily news page."
     );
@@ -452,6 +456,7 @@ test("renderer uses only remote thumbnail URLs for daily news cards", async () =
   const rendererSource = await fs.readFile(path.join(process.cwd(), "components", "daily_news_renderer.js"), "utf8");
 
   assert.match(rendererSource, /return item\.thumbnailUrl \|\| null;/);
+  assert.match(rendererSource, /return item\.sourceIconUrl \|\| null;/);
   assert.doesNotMatch(rendererSource, /localThumbnail/);
 });
 
@@ -589,6 +594,12 @@ test("generated daily news markdown loads structured payload through the collect
         (item) => item.source === "Reuters" && item.url.startsWith("https://news.google.com/")
       )?.thumbnailUrl,
       null
+    );
+    assert.equal(
+      data.dailyNewsPayload.headlines.find(
+        (item) => item.source === "Reuters" && item.url.startsWith("https://news.google.com/")
+      )?.sourceIconUrl,
+      "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
     );
     assert.equal(
       data.dailyNewsPayload.headlines.find(

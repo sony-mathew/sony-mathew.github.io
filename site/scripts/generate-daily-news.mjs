@@ -23,6 +23,7 @@ const DAILY_NEWS_DIR = path.join(ROOT_DIR, "daily-news");
 const DAILY_NEWS_PAYLOAD_DIR = path.join(ROOT_DIR, "daily-news-data");
 const OPENROUTER_DEFAULT_MODEL = "openai/gpt-4o-mini";
 const OPENROUTER_DEFAULT_BASE_URL = "https://openrouter.ai/api/v1";
+const REUTERS_SOURCE_ICON_URL = "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128";
 
 function parseEnvFileContent(content) {
   const values = {};
@@ -1010,39 +1011,50 @@ async function hydrateArticleMetadata(stories, options = {}) {
   );
 }
 
+function attachReutersSourceIcon(story) {
+  if (story?.source !== "Reuters" || story.thumbnailUrl || story.sourceIconUrl) {
+    return story;
+  }
+
+  return {
+    ...story,
+    sourceIconUrl: REUTERS_SOURCE_ICON_URL,
+  };
+}
+
 async function hydrateReutersMetadata(stories) {
   return Promise.all(
     stories.map(async (story) => {
       if (!story.url) {
-        return story;
+        return attachReutersSourceIcon(story);
       }
 
       if (isGoogleNewsUrl(story.url)) {
-        return {
+        return attachReutersSourceIcon({
           ...story,
           summary: null,
           thumbnailUrl: sanitizeThumbnailUrl(story.thumbnailUrl),
-        };
+        });
       }
 
       const needsSummary = !story.summary;
       const needsThumbnail = !story.thumbnailUrl;
 
       if (!needsSummary && !needsThumbnail) {
-        return story;
+        return attachReutersSourceIcon(story);
       }
 
       try {
         const articleHtml = await fetchText(story.url);
         const preview = extractArticlePreviewFromHtml(articleHtml, story.url, story.title);
 
-        return {
+        return attachReutersSourceIcon({
           ...story,
           summary: story.summary || preview.summary,
           thumbnailUrl: story.thumbnailUrl || preview.thumbnailUrl,
-        };
+        });
       } catch (error) {
-        return story;
+        return attachReutersSourceIcon(story);
       }
     })
   );
@@ -1721,18 +1733,23 @@ function renderHeadlineSection(items, generatedAt) {
         escapeHtml(item.region),
         renderTimeElement(item.publishedAt, new Date(generatedAt)),
       ]);
+      const mediaBlock = item.thumbnailUrl
+        ? `<a href="${escapeAttribute(item.url)}" ${getExternalLinkAttributes()} class="block overflow-hidden rounded-2xl border border-slate-100 md:w-64 md:shrink-0">
+            <img src="${escapeAttribute(item.thumbnailUrl)}" alt="${escapeAttribute(
+              item.title
+            )}" class="h-44 w-full object-cover transition duration-300 group-hover:scale-[1.02] md:h-40" />
+          </a>`
+        : item.sourceIconUrl
+          ? `<a href="${escapeAttribute(item.url)}" ${getExternalLinkAttributes()} class="flex h-40 w-full items-center justify-center rounded-2xl border border-slate-100 bg-slate-50 md:w-64 md:shrink-0">
+              <img src="${escapeAttribute(item.sourceIconUrl)}" alt="${escapeAttribute(
+                `${item.source} icon`
+              )}" class="h-12 w-12 object-contain" />
+            </a>`
+          : "";
 
       return `<article class="group overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm ring-1 ring-slate-100 transition duration-200 hover:-translate-y-0.5 hover:shadow-md">
         <div class="flex flex-col gap-4 p-4 md:flex-row md:items-start md:gap-5 md:p-5">
-          ${
-            item.thumbnailUrl
-              ? `<a href="${escapeAttribute(item.url)}" ${getExternalLinkAttributes()} class="block overflow-hidden rounded-2xl border border-slate-100 md:w-64 md:shrink-0">
-                  <img src="${escapeAttribute(item.thumbnailUrl)}" alt="${escapeAttribute(
-                    item.title
-                  )}" class="h-44 w-full object-cover transition duration-300 group-hover:scale-[1.02] md:h-40" />
-                </a>`
-              : ""
-          }
+          ${mediaBlock}
           <div class="min-w-0 flex-1 space-y-2">
             <h3 class="text-lg font-semibold leading-snug text-slate-900 md:text-xl">
               <a href="${escapeAttribute(item.url)}" ${getExternalLinkAttributes()} class="transition hover:text-sky-700">${escapeHtml(
