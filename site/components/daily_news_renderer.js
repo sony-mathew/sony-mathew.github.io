@@ -321,6 +321,7 @@ function HackerNewsSection({ items = [] }) {
             title={item.title}
             metaSegments={[getHostnameLabel(item.url) || "External link"]}
             timeValue={item.publishedAt}
+            secondaryText={item.summary}
           />
         ))}
       </div>

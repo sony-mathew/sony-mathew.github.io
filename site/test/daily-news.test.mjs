@@ -260,6 +260,14 @@ test("dry run emits markdown frontmatter and source notes", async () => {
     const urlString = String(url);
     requestedUrls.push(urlString);
 
+    if (urlString.startsWith("https://example.com/hn-story-")) {
+      const payload = await loadFixture("hn-article.html");
+      return new Response(payload, {
+        status: 200,
+        headers: { "content-type": "text/html" },
+      });
+    }
+
     if (urlString.startsWith("https://www.chinadaily.com.cn/a/")) {
       const payload = await loadFixture("china-daily-article.html");
       return new Response(payload, {
@@ -345,7 +353,7 @@ test("dry run emits markdown frontmatter and source notes", async () => {
     assert.match(result.document, /Additional context: /);
     assert.match(result.document, /The market table tracks /);
     assert.match(result.document, /Hacker News highlights include /);
-    assert.match(result.document, /The HN section keeps the focus /);
+    assert.match(result.document, /HN link context includes /);
     assert.match(result.document, /Product Hunt features /);
     assert.match(result.document, /Product taglines frame the launches as /);
     assert.match(result.document, /payloadFile: "2026-04-19\.json"/);
@@ -368,6 +376,10 @@ test("dry run emits markdown frontmatter and source notes", async () => {
     assert.ok(result.payload.headlines.length > 0);
     assert.equal(result.payload.markets.length, 7);
     assert.ok(result.payload.hackerNews.length > 0);
+    assert.equal(
+      result.payload.hackerNews[0].summary,
+      "Hacker News article summary from page metadata that should appear under the technology link card."
+    );
     assert.equal(result.payload.sourceNotes.timeZone, "Asia/Kolkata");
     const reutersHeadlines = result.payload.headlines.filter((item) => item.source === "Reuters");
     assert.ok(reutersHeadlines.length >= 2);
@@ -465,6 +477,14 @@ test("generated daily news markdown loads structured payload through the collect
 
   global.fetch = async (url) => {
     const urlString = String(url);
+
+    if (urlString.startsWith("https://example.com/hn-story-")) {
+      const payload = await loadFixture("hn-article.html");
+      return new Response(payload, {
+        status: 200,
+        headers: { "content-type": "text/html" },
+      });
+    }
 
     if (urlString.startsWith("https://www.chinadaily.com.cn/a/")) {
       const payload = await loadFixture("china-daily-article.html");
@@ -684,6 +704,14 @@ test("continues generating when Product Hunt is unavailable", async () => {
 
   global.fetch = async (url) => {
     const urlString = String(url);
+
+    if (urlString.startsWith("https://example.com/hn-story-")) {
+      const payload = await loadFixture("hn-article.html");
+      return new Response(payload, {
+        status: 200,
+        headers: { "content-type": "text/html" },
+      });
+    }
 
     if (urlString.startsWith("https://www.chinadaily.com.cn/a/")) {
       const payload = await loadFixture("china-daily-article.html");

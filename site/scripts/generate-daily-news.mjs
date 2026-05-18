@@ -147,10 +147,12 @@ function stripHtml(value = "") {
       .replace(/&amp;/g, "&")
       .replace(/&quot;/g, '"')
       .replace(/&#39;/g, "'")
+      .replace(/&#039;/g, "'")
       .replace(/&apos;/g, "'")
       .replace(/&lt;/g, "<")
       .replace(/&gt;/g, ">")
       .replace(/&#x27;/gi, "'")
+      .replace(/&#8217;/g, "'")
       .replace(/&#x2F;/gi, "/");
   }
 
@@ -1145,6 +1147,112 @@ async function generateMissingReutersSummaries(stories, warnings) {
   }
 }
 
+function createFallbackHackerNewsSummary(story) {
+  if (!story?.title) {
+    return null;
+  }
+
+  const hostname = getHostnameLabel(story.url);
+  return `${hostname || "External link"}: ${story.title}.`;
+}
+
+async function generateMissingHackerNewsSummaries(stories, warnings) {
+  const missingStories = stories
+    .map((story, index) => ({ story, index }))
+    .filter(({ story }) => !story.summary && story.title);
+
+  if (missingStories.length === 0) {
+    return stories;
+  }
+
+  if (!process.env.OPENROUTER_API_KEY) {
+    return stories.map((story) => ({
+      ...story,
+      summary: !story.summary ? createFallbackHackerNewsSummary(story) : story.summary,
+    }));
+  }
+
+  try {
+    const baseUrl = (process.env.OPENROUTER_BASE_URL || OPENROUTER_DEFAULT_BASE_URL).replace(/\/$/, "");
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 45_000);
+
+    try {
+      const response = await fetch(`${baseUrl}/chat/completions`, {
+        method: "POST",
+        signal: controller.signal,
+        headers: {
+          Authorization: `Bearer ${process.env.OPENROUTER_API_KEY}`,
+          "Content-Type": "application/json",
+          "HTTP-Referer": process.env.OPENROUTER_HTTP_REFERER || "https://sony-mathew.com",
+          "X-Title": process.env.OPENROUTER_APP_TITLE || "Sony Mathew Daily News",
+        },
+        body: JSON.stringify({
+          model: process.env.OPENROUTER_MODEL || OPENROUTER_DEFAULT_MODEL,
+          temperature: 0.1,
+          response_format: { type: "json_object" },
+          messages: [
+            {
+              role: "system",
+              content:
+                "You write cautious one-sentence link-card summaries. Do not add facts that are not present in the supplied title, domain, or extracted page preview.",
+            },
+            {
+              role: "user",
+              content: [
+                "Return strict JSON with one key, summaries, as an array of objects with index and summary.",
+                "Each summary must be 12 to 24 words, neutral, and based only on the supplied fields.",
+                JSON.stringify({
+                  links: missingStories.map(({ story, index }) => ({
+                    index,
+                    title: story.title,
+                    url: story.url,
+                    site: getHostnameLabel(story.url),
+                  })),
+                }),
+              ].join("\n\n"),
+            },
+          ],
+        }),
+      });
+
+      if (!response.ok) {
+        throw new Error(`OpenRouter responded ${response.status}`);
+      }
+
+      const result = await response.json();
+      const content = result?.choices?.[0]?.message?.content;
+      const summaries = parseJsonObjectFromText(content || "")?.summaries || [];
+      const summariesByIndex = new Map(
+        summaries
+          .filter((item) => Number.isInteger(item.index) && item.summary)
+          .map((item) => [item.index, truncateText(item.summary, 220)])
+      );
+
+      return stories.map((story, index) => ({
+        ...story,
+        summary: story.summary || summariesByIndex.get(index) || createFallbackHackerNewsSummary(story),
+      }));
+    } finally {
+      clearTimeout(timeout);
+    }
+  } catch (error) {
+    warnings.push(`Hacker News generated summaries: ${error.message}`);
+    return stories.map((story) => ({
+      ...story,
+      summary: story.summary || createFallbackHackerNewsSummary(story),
+    }));
+  }
+}
+
+async function hydrateHackerNewsMetadata(stories, warnings) {
+  const hydratedStories = await hydrateArticleMetadata(stories, {
+    preferParagraphSummary: true,
+  });
+
+  return generateMissingHackerNewsSummaries(hydratedStories, warnings);
+}
+
 export function parseAlJazeeraHtml(html, sourceConfig = NEWS_SOURCES.find((source) => source.id === "al-jazeera")) {
   return parseHtmlCards(html, sourceConfig, (story) => {
     if (!story.url || !story.title) {
@@ -1576,7 +1684,7 @@ async function collectHackerNews(editionDate) {
     }
   }
 
-  return { items, failures };
+  return { items: await hydrateHackerNewsMetadata(items, failures), failures };
 }
 
 async function collectProductHunt() {
@@ -1716,6 +1824,7 @@ function renderHackerNewsSection(items, generatedAt) {
               )}</a>
             </h3>
             ${metaLine}
+            ${item.summary ? `<p class="text-sm leading-6 text-slate-600">${escapeHtml(item.summary)}</p>` : ""}
           </div>
         </div>
       </article>`;
@@ -1848,7 +1957,7 @@ function estimateReadingTimeFromPayload(payload) {
   const textParts = [
     ...(payload.headlines || []).flatMap((item) => [item.title, item.source, item.region]),
     ...(payload.markets || []).flatMap((item) => [item.label, item.region, item.sessionDate]),
-    ...(payload.hackerNews || []).flatMap((item) => [item.title, item.url]),
+    ...(payload.hackerNews || []).flatMap((item) => [item.title, item.url, item.summary]),
     ...(payload.productHunt || []).flatMap((item) => [item.name, item.tagline]),
     ...(payload.sourceNotes?.warnings || []),
     ...(payload.sourceNotes?.successfulSources || []),
@@ -1883,6 +1992,10 @@ function ensureSentence(value = "") {
   return /[.!?]$/.test(normalized) ? normalized : `${normalized}.`;
 }
 
+function trimTerminalPunctuation(value = "") {
+  return normalizeWhitespace(value).replace(/[.!?]+$/, "");
+}
+
 function createEditionSummarySections(payload) {
   const headlineItems = payload.headlines || [];
   const hackerNewsItems = payload.hackerNews || [];
@@ -1897,6 +2010,10 @@ function createEditionSummarySections(payload) {
   const topHackerNewsTitles = hackerNewsItems
     .slice(0, 3)
     .map((item) => truncateText(item.title, 88));
+  const topHackerNewsSummaries = hackerNewsItems
+    .slice(0, 3)
+    .map((item) => getShortSummary(item.summary, 140))
+    .filter(Boolean);
   const topProductHuntNames = productHuntItems
     .slice(0, 3)
     .map((item) => truncateText(item.name, 72));
@@ -1949,7 +2066,18 @@ function createEditionSummarySections(payload) {
 
   if (topHackerNewsTitles.length > 0) {
     builderSentences.push(ensureSentence(`Hacker News highlights include ${joinSemicolonList(topHackerNewsTitles)}`));
-    builderSentences.push("The HN section keeps the focus on recent external links from the edition window.");
+    if (topHackerNewsSummaries.length > 0) {
+      const hackerNewsContext = topHackerNewsSummaries
+        .slice(0, 3)
+        .map(trimTerminalPunctuation)
+        .filter(Boolean);
+
+      builderSentences.push(
+        ensureSentence(`HN link context includes ${joinReadableList(hackerNewsContext)}`)
+      );
+    } else {
+      builderSentences.push("The HN section keeps the focus on recent external links from the edition window.");
+    }
   } else {
     builderSentences.push("Hacker News did not return recent qualifying links for the edition window.");
   }
@@ -2024,6 +2152,7 @@ function buildMetadataSummaryPrompt(payload, humanDate, fallbackMetadata) {
     hackerNews: (payload.hackerNews || []).slice(0, 8).map((item) => ({
       title: item.title,
       url: item.url,
+      summary: item.summary,
     })),
     productHunt: (payload.productHunt || []).slice(0, 8).map((item) => ({
       name: item.name,
