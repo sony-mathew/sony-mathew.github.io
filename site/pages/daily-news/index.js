@@ -20,11 +20,12 @@ export async function getStaticProps() {
 
 export default function DailyNewsIndex({ allDailyNewsData }) {
   const [latestEdition, ...archiveEditions] = allDailyNewsData;
+  const pageTitle = `Daily News | ${DEFAULT_CONFIG.siteTitle}`;
 
   return (
     <Layout>
       <Head>
-        <title>Daily News | {DEFAULT_CONFIG.siteTitle}</title>
+        <title>{pageTitle}</title>
         {MetaData()}
       </Head>
 

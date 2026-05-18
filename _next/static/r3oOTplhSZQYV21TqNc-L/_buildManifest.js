@@ -1,6 +1,6 @@
 self.__BUILD_MANIFEST = {
   "/": [
-    "static/chunks/6474533986c577cb.js"
+    "static/chunks/384280eb910b31f1.js"
   ],
   "/404": [
     "static/chunks/a34a11c4f182047f.js"
@@ -9,19 +9,19 @@ self.__BUILD_MANIFEST = {
     "static/chunks/1b9454ca76f47029.js"
   ],
   "/blog": [
-    "static/chunks/2290d2812e6a8eab.js"
+    "static/chunks/d4e68992f74686ec.js"
   ],
   "/blog/[id]": [
     "static/chunks/6381839158a1ee43.js"
   ],
   "/daily-news": [
-    "static/chunks/766c0d171e6e4d5e.js"
+    "static/chunks/a158eb399df81204.js"
   ],
   "/daily-news/[id]": [
-    "static/chunks/f6932acb0fa7b3b7.js"
+    "static/chunks/196b93988e41bb1a.js"
   ],
   "/projects": [
-    "static/chunks/913eed2df530e081.js"
+    "static/chunks/549ef55515c366d7.js"
   ],
   "/projects/scientific-calculator": [
     "static/chunks/58b38326b447d8cf.js"
