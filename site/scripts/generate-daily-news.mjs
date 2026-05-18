@@ -1394,7 +1394,8 @@ async function collectNewsSource(sourceConfig) {
   const html = await fetchText(sourceConfig.url);
 
   if (sourceConfig.id === "al-jazeera") {
-    return hydrateMissingPublishedAt(dedupeByUrl(parseAlJazeeraHtml(html, sourceConfig)).slice(0, 5));
+    const stories = await hydrateMissingPublishedAt(dedupeByUrl(parseAlJazeeraHtml(html, sourceConfig)).slice(0, 5));
+    return hydrateArticleMetadata(stories);
   }
 
   if (sourceConfig.id === "china-daily") {

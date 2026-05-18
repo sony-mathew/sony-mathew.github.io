@@ -268,6 +268,14 @@ test("dry run emits markdown frontmatter and source notes", async () => {
       });
     }
 
+    if (urlString.startsWith("https://www.aljazeera.com/news/2026/04/19/story-")) {
+      const payload = await loadFixture("al-jazeera-article.html");
+      return new Response(payload, {
+        status: 200,
+        headers: { "content-type": "text/html" },
+      });
+    }
+
     if (urlString.startsWith("https://www.thehindu.com/news/national/story-")) {
       const payload = await loadFixture("the-hindu-article.html");
       return new Response(payload, {
@@ -391,6 +399,12 @@ test("dry run emits markdown frontmatter and source notes", async () => {
       theHinduHeadline.thumbnailUrl,
       /^https:\/\/th-i\.thgim\.com\/public\/incoming\/(?:story-one|the-hindu-meta-image)\.jpg$/
     );
+    const alJazeeraHeadline = result.payload.headlines.find((item) => item.source === "Al Jazeera");
+    assert.ok(alJazeeraHeadline);
+    assert.equal(
+      alJazeeraHeadline.summary,
+      "Al Jazeera article summary from metadata that should appear under the headline in the daily news page."
+    );
     const unresolvedReutersHeadline = reutersHeadlines.find((item) => item.url.startsWith("https://news.google.com/"));
     const directReutersHeadline = reutersHeadlines.find((item) => item.url.startsWith("https://www.reuters.com/"));
     assert.ok(unresolvedReutersHeadline);
@@ -451,6 +465,14 @@ test("generated daily news markdown loads structured payload through the collect
 
     if (urlString.startsWith("https://www.chinadaily.com.cn/a/")) {
       const payload = await loadFixture("china-daily-article.html");
+      return new Response(payload, {
+        status: 200,
+        headers: { "content-type": "text/html" },
+      });
+    }
+
+    if (urlString.startsWith("https://www.aljazeera.com/news/2026/04/19/story-")) {
+      const payload = await loadFixture("al-jazeera-article.html");
       return new Response(payload, {
         status: 200,
         headers: { "content-type": "text/html" },
@@ -548,6 +570,10 @@ test("generated daily news markdown loads structured payload through the collect
     const alJazeeraHeadline = data.dailyNewsPayload.headlines.find((item) => item.source === "Al Jazeera");
     assert.ok(alJazeeraHeadline);
     assert.match(alJazeeraHeadline.thumbnailUrl, /^https:\/\/www\.aljazeera\.com\/wp-content\/uploads\//);
+    assert.equal(
+      alJazeeraHeadline.summary,
+      "Al Jazeera article summary from metadata that should appear under the headline in the daily news page."
+    );
     assert.equal("localThumbnail" in alJazeeraHeadline, false);
     const nprHeadline = data.dailyNewsPayload.headlines.find((item) => item.source === "NPR");
     assert.equal(nprHeadline?.summary, "Lead story from the description field.");
@@ -652,6 +678,14 @@ test("continues generating when Product Hunt is unavailable", async () => {
 
     if (urlString.startsWith("https://www.chinadaily.com.cn/a/")) {
       const payload = await loadFixture("china-daily-article.html");
+      return new Response(payload, {
+        status: 200,
+        headers: { "content-type": "text/html" },
+      });
+    }
+
+    if (urlString.startsWith("https://www.aljazeera.com/news/2026/04/19/story-")) {
+      const payload = await loadFixture("al-jazeera-article.html");
       return new Response(payload, {
         status: 200,
         headers: { "content-type": "text/html" },
