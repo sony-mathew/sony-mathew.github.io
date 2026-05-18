@@ -5,7 +5,7 @@ const EXTERNAL_LINK_PROPS = {
   target: "_blank",
   rel: "nofollow noopener noreferrer",
 };
-const HEADLINE_SOURCE_ORDER = ["New York Times", "Al Jazeera", "NPR", "China Daily", "The Hindu", "Reuters"];
+const HEADLINE_SOURCE_ORDER = ["Washington Post", "Al Jazeera", "NPR", "China Daily", "The Hindu", "Reuters"];
 
 export function isDateOnlyValue(value = "") {
   return /^\d{4}-\d{2}-\d{2}$/.test(String(value).trim());
@@ -174,11 +174,21 @@ function resolveThumbnailSrc(item) {
   return item.thumbnailUrl || null;
 }
 
+function resolveSourceIconSrc(item) {
+  if (!item || item.thumbnailUrl) {
+    return null;
+  }
+
+  return item.sourceIconUrl || null;
+}
+
 function ListRowCard({
   href,
   title,
   thumbnailSrc = null,
+  sourceIconSrc = null,
   thumbnailAlt = "",
+  sourceIconAlt = "",
   metaSegments = [],
   timeValue = null,
   secondaryText = null,
@@ -196,6 +206,18 @@ function ListRowCard({
               src={thumbnailSrc}
               alt={thumbnailAlt || title}
               className="h-28 w-full object-cover transition duration-300 group-hover:scale-[1.02] md:h-24"
+            />
+          </a>
+        ) : sourceIconSrc ? (
+          <a
+            href={href}
+            {...EXTERNAL_LINK_PROPS}
+            className="flex h-24 w-full items-center justify-center rounded-xl border border-slate-100 bg-slate-50 md:w-40 md:shrink-0"
+          >
+            <img
+              src={sourceIconSrc}
+              alt={sourceIconAlt || thumbnailAlt || title}
+              className="h-10 w-10 object-contain"
             />
           </a>
         ) : null}
@@ -219,7 +241,9 @@ function HeadlineCard({ item }) {
       href={item.url}
       title={item.title}
       thumbnailSrc={resolveThumbnailSrc(item)}
+      sourceIconSrc={resolveSourceIconSrc(item)}
       thumbnailAlt={item.title}
+      sourceIconAlt={`${item.source} icon`}
       metaSegments={[item.source, item.region]}
       timeValue={item.publishedAt}
       secondaryText={item.summary}
@@ -321,6 +345,7 @@ function HackerNewsSection({ items = [] }) {
             title={item.title}
             metaSegments={[getHostnameLabel(item.url) || "External link"]}
             timeValue={item.publishedAt}
+            secondaryText={item.summary}
           />
         ))}
       </div>
