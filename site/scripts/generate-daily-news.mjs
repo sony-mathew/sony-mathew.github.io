@@ -23,6 +23,9 @@ const DAILY_NEWS_DIR = path.join(ROOT_DIR, "daily-news");
 const DAILY_NEWS_PAYLOAD_DIR = path.join(ROOT_DIR, "daily-news-data");
 const OPENROUTER_DEFAULT_MODEL = "openai/gpt-4o-mini";
 const OPENROUTER_DEFAULT_BASE_URL = "https://openrouter.ai/api/v1";
+const REUTERS_SOURCE_ICON_URL = "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128";
+const WASHINGTON_POST_SOURCE_ICON_URL =
+  "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128";
 
 function parseEnvFileContent(content) {
   const values = {};
@@ -147,10 +150,12 @@ function stripHtml(value = "") {
       .replace(/&amp;/g, "&")
       .replace(/&quot;/g, '"')
       .replace(/&#39;/g, "'")
+      .replace(/&#039;/g, "'")
       .replace(/&apos;/g, "'")
       .replace(/&lt;/g, "<")
       .replace(/&gt;/g, ">")
       .replace(/&#x27;/gi, "'")
+      .replace(/&#8217;/g, "'")
       .replace(/&#x2F;/gi, "/");
   }
 
@@ -194,6 +199,16 @@ function joinReadableList(items, conjunction = "and") {
   }
 
   return `${cleanItems.slice(0, -1).join(", ")}, ${conjunction} ${cleanItems[cleanItems.length - 1]}`;
+}
+
+function joinSemicolonList(items, conjunction = "and") {
+  const cleanItems = items.map((item) => normalizeWhitespace(item)).filter(Boolean);
+
+  if (cleanItems.length <= 2) {
+    return joinReadableList(cleanItems, conjunction);
+  }
+
+  return `${cleanItems.slice(0, -1).join("; ")}; ${conjunction} ${cleanItems[cleanItems.length - 1]}`;
 }
 
 function isDateOnlyValue(value = "") {
@@ -468,7 +483,7 @@ function extractArticlePreviewFromHtml(html, storyUrl = null, storyTitle = "", o
 
   return {
     summary: cleanSummaryText(summarySource, storyTitle),
-    thumbnailUrl: sanitizeThumbnailUrl(absoluteUrl(storyUrl, thumbnailSource)),
+    thumbnailUrl: sanitizeThumbnailUrl(absoluteUrl(storyUrl, stripHtml(thumbnailSource))),
   };
 }
 
@@ -799,9 +814,9 @@ export function parseNprRssItems(
     .filter((item) => item.title && item.url);
 }
 
-export function parseNewYorkTimesRssItems(
+export function parseWashingtonPostRssItems(
   xmlText,
-  sourceConfig = NEWS_SOURCES.find((source) => source.id === "new-york-times")
+  sourceConfig = NEWS_SOURCES.find((source) => source.id === "washington-post")
 ) {
   const itemMatches = [...xmlText.matchAll(/<item\b[\s\S]*?<\/item>/g)];
 
@@ -825,6 +840,40 @@ export function parseNewYorkTimesRssItems(
         publishedAt,
         summary: cleanSummaryText(description, title),
         thumbnailUrl: sanitizeThumbnailUrl(absoluteUrl(sourceConfig.baseUrl || sourceConfig.url, thumbnailSource)),
+      };
+    })
+    .filter((item) => item.title && item.url);
+}
+
+export function parseWashingtonPostWorldHtml(
+  html,
+  sourceConfig = NEWS_SOURCES.find((source) => source.id === "washington-post")
+) {
+  const headlineMatches = [
+    ...html.matchAll(
+      /<a\b[^>]*data-pb-local-content-field=["']web_headline["'][^>]*href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi
+    ),
+  ];
+
+  return headlineMatches
+    .map((match) => {
+      const href = match[1];
+      const block = match[2] || "";
+      const url = absoluteUrl(sourceConfig.baseUrl || sourceConfig.url, href);
+      const title = stripHtml(block.match(/<h[1-6][^>]*>([\s\S]*?)<\/h[1-6]>/i)?.[1] || "");
+      const summary = cleanSummaryText(block.match(/<p[^>]*>([\s\S]*?)<\/p>/i)?.[1] || "", title);
+      const searchStart = match.index || 0;
+      const thumbnailWindow = html.slice(searchStart, searchStart + 3000);
+      const imageSource = thumbnailWindow.match(/<img[^>]+src=["']([^"']+)["']/i)?.[1] || null;
+
+      return {
+        title,
+        url,
+        source: sourceConfig.label,
+        region: sourceConfig.region,
+        publishedAt: extractPublishedAtFromUrl(url),
+        summary,
+        thumbnailUrl: sanitizeThumbnailUrl(absoluteUrl(sourceConfig.baseUrl || sourceConfig.url, stripHtml(imageSource))),
       };
     })
     .filter((item) => item.title && item.url);
@@ -998,42 +1047,271 @@ async function hydrateArticleMetadata(stories, options = {}) {
   );
 }
 
+function attachSourceIcon(story, sourceLabel, sourceIconUrl) {
+  if (story?.source !== sourceLabel || story.thumbnailUrl || story.sourceIconUrl) {
+    return story;
+  }
+
+  return {
+    ...story,
+    sourceIconUrl,
+  };
+}
+
+function attachReutersSourceIcon(story) {
+  return attachSourceIcon(story, "Reuters", REUTERS_SOURCE_ICON_URL);
+}
+
+function attachWashingtonPostSourceIcon(story) {
+  return attachSourceIcon(story, "Washington Post", WASHINGTON_POST_SOURCE_ICON_URL);
+}
+
+async function hydrateWashingtonPostMetadata(stories) {
+  const hydratedStories = await hydrateArticleMetadata(stories);
+  return hydratedStories.map(attachWashingtonPostSourceIcon);
+}
+
 async function hydrateReutersMetadata(stories) {
   return Promise.all(
     stories.map(async (story) => {
       if (!story.url) {
-        return story;
+        return attachReutersSourceIcon(story);
       }
 
       if (isGoogleNewsUrl(story.url)) {
-        return {
+        return attachReutersSourceIcon({
           ...story,
           summary: null,
           thumbnailUrl: sanitizeThumbnailUrl(story.thumbnailUrl),
-        };
+        });
       }
 
       const needsSummary = !story.summary;
       const needsThumbnail = !story.thumbnailUrl;
 
       if (!needsSummary && !needsThumbnail) {
-        return story;
+        return attachReutersSourceIcon(story);
       }
 
       try {
         const articleHtml = await fetchText(story.url);
         const preview = extractArticlePreviewFromHtml(articleHtml, story.url, story.title);
 
-        return {
+        return attachReutersSourceIcon({
           ...story,
           summary: story.summary || preview.summary,
           thumbnailUrl: story.thumbnailUrl || preview.thumbnailUrl,
-        };
+        });
       } catch (error) {
-        return story;
+        return attachReutersSourceIcon(story);
       }
     })
   );
+}
+
+function createFallbackHeadlineSummary(story) {
+  if (!story?.title) {
+    return null;
+  }
+
+  return `${story.source || "Source"}: ${story.title}.`;
+}
+
+async function generateMissingReutersSummaries(stories, warnings) {
+  const missingReutersStories = stories
+    .map((story, index) => ({ story, index }))
+    .filter(({ story }) => story.source === "Reuters" && !story.summary && story.title);
+
+  if (missingReutersStories.length === 0) {
+    return stories;
+  }
+
+  if (!process.env.OPENROUTER_API_KEY) {
+    return stories.map((story) => ({
+      ...story,
+      summary: story.source === "Reuters" && !story.summary ? createFallbackHeadlineSummary(story) : story.summary,
+    }));
+  }
+
+  try {
+    const baseUrl = (process.env.OPENROUTER_BASE_URL || OPENROUTER_DEFAULT_BASE_URL).replace(/\/$/, "");
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 45_000);
+
+    try {
+      const response = await fetch(`${baseUrl}/chat/completions`, {
+        method: "POST",
+        signal: controller.signal,
+        headers: {
+          Authorization: `Bearer ${process.env.OPENROUTER_API_KEY}`,
+          "Content-Type": "application/json",
+          "HTTP-Referer": process.env.OPENROUTER_HTTP_REFERER || "https://sony-mathew.com",
+          "X-Title": process.env.OPENROUTER_APP_TITLE || "Sony Mathew Daily News",
+        },
+        body: JSON.stringify({
+          model: process.env.OPENROUTER_MODEL || OPENROUTER_DEFAULT_MODEL,
+          temperature: 0.1,
+          response_format: { type: "json_object" },
+          messages: [
+            {
+              role: "system",
+              content:
+                "You write cautious one-sentence news-card summaries from headlines only. Do not add facts that are not present in the headline.",
+            },
+            {
+              role: "user",
+              content: [
+                "Return strict JSON with one key, summaries, as an array of objects with index and summary.",
+                "Each summary must be 12 to 24 words, neutral, and based only on the supplied headline.",
+                JSON.stringify({
+                  headlines: missingReutersStories.map(({ story, index }) => ({
+                    index,
+                    title: story.title,
+                    source: story.source,
+                  })),
+                }),
+              ].join("\n\n"),
+            },
+          ],
+        }),
+      });
+
+      if (!response.ok) {
+        throw new Error(`OpenRouter responded ${response.status}`);
+      }
+
+      const result = await response.json();
+      const content = result?.choices?.[0]?.message?.content;
+      const summaries = parseJsonObjectFromText(content || "")?.summaries || [];
+      const summariesByIndex = new Map(
+        summaries
+          .filter((item) => Number.isInteger(item.index) && item.summary)
+          .map((item) => [item.index, truncateText(item.summary, 220)])
+      );
+
+      return stories.map((story, index) => ({
+        ...story,
+        summary:
+          story.source === "Reuters" && !story.summary
+            ? summariesByIndex.get(index) || createFallbackHeadlineSummary(story)
+            : story.summary,
+      }));
+    } finally {
+      clearTimeout(timeout);
+    }
+  } catch (error) {
+    warnings.push(`Reuters generated summaries: ${error.message}`);
+    return stories.map((story) => ({
+      ...story,
+      summary: story.source === "Reuters" && !story.summary ? createFallbackHeadlineSummary(story) : story.summary,
+    }));
+  }
+}
+
+function createFallbackHackerNewsSummary(story) {
+  if (!story?.title) {
+    return null;
+  }
+
+  const hostname = getHostnameLabel(story.url);
+  return `${hostname || "External link"}: ${story.title}.`;
+}
+
+async function generateMissingHackerNewsSummaries(stories, warnings) {
+  const missingStories = stories
+    .map((story, index) => ({ story, index }))
+    .filter(({ story }) => !story.summary && story.title);
+
+  if (missingStories.length === 0) {
+    return stories;
+  }
+
+  if (!process.env.OPENROUTER_API_KEY) {
+    return stories.map((story) => ({
+      ...story,
+      summary: !story.summary ? createFallbackHackerNewsSummary(story) : story.summary,
+    }));
+  }
+
+  try {
+    const baseUrl = (process.env.OPENROUTER_BASE_URL || OPENROUTER_DEFAULT_BASE_URL).replace(/\/$/, "");
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 45_000);
+
+    try {
+      const response = await fetch(`${baseUrl}/chat/completions`, {
+        method: "POST",
+        signal: controller.signal,
+        headers: {
+          Authorization: `Bearer ${process.env.OPENROUTER_API_KEY}`,
+          "Content-Type": "application/json",
+          "HTTP-Referer": process.env.OPENROUTER_HTTP_REFERER || "https://sony-mathew.com",
+          "X-Title": process.env.OPENROUTER_APP_TITLE || "Sony Mathew Daily News",
+        },
+        body: JSON.stringify({
+          model: process.env.OPENROUTER_MODEL || OPENROUTER_DEFAULT_MODEL,
+          temperature: 0.1,
+          response_format: { type: "json_object" },
+          messages: [
+            {
+              role: "system",
+              content:
+                "You write cautious one-sentence link-card summaries. Do not add facts that are not present in the supplied title, domain, or extracted page preview.",
+            },
+            {
+              role: "user",
+              content: [
+                "Return strict JSON with one key, summaries, as an array of objects with index and summary.",
+                "Each summary must be 12 to 24 words, neutral, and based only on the supplied fields.",
+                JSON.stringify({
+                  links: missingStories.map(({ story, index }) => ({
+                    index,
+                    title: story.title,
+                    url: story.url,
+                    site: getHostnameLabel(story.url),
+                  })),
+                }),
+              ].join("\n\n"),
+            },
+          ],
+        }),
+      });
+
+      if (!response.ok) {
+        throw new Error(`OpenRouter responded ${response.status}`);
+      }
+
+      const result = await response.json();
+      const content = result?.choices?.[0]?.message?.content;
+      const summaries = parseJsonObjectFromText(content || "")?.summaries || [];
+      const summariesByIndex = new Map(
+        summaries
+          .filter((item) => Number.isInteger(item.index) && item.summary)
+          .map((item) => [item.index, truncateText(item.summary, 220)])
+      );
+
+      return stories.map((story, index) => ({
+        ...story,
+        summary: story.summary || summariesByIndex.get(index) || createFallbackHackerNewsSummary(story),
+      }));
+    } finally {
+      clearTimeout(timeout);
+    }
+  } catch (error) {
+    warnings.push(`Hacker News generated summaries: ${error.message}`);
+    return stories.map((story) => ({
+      ...story,
+      summary: story.summary || createFallbackHackerNewsSummary(story),
+    }));
+  }
+}
+
+async function hydrateHackerNewsMetadata(stories, warnings) {
+  const hydratedStories = await hydrateArticleMetadata(stories, {
+    preferParagraphSummary: true,
+  });
+
+  return generateMissingHackerNewsSummaries(hydratedStories, warnings);
 }
 
 export function parseAlJazeeraHtml(html, sourceConfig = NEWS_SOURCES.find((source) => source.id === "al-jazeera")) {
@@ -1101,7 +1379,7 @@ export function parseProductHuntHtml(html) {
 
       return {
         name: stripHtml(title),
-        tagline: stripHtml(tagline),
+        tagline: cleanProductHuntTagline(tagline),
         url: absoluteUrl(PRODUCT_HUNT_URL, href),
         thumbnailUrl: absoluteUrl(PRODUCT_HUNT_URL, imageSource),
         publishedAt,
@@ -1127,8 +1405,8 @@ export function parseProductHuntHtml(html) {
     const matchIndex = match.index || 0;
     const neighborhood = html.slice(Math.max(0, matchIndex - 200), Math.min(html.length, matchIndex + 1200));
     const tagline =
-      stripHtml(neighborhood.match(/<p[^>]*>([\s\S]*?)<\/p>/i)?.[1] || "") ||
-      stripHtml(neighborhood.match(/<span[^>]*>([\s\S]*?)<\/span>/i)?.[1] || "");
+      cleanProductHuntTagline(neighborhood.match(/<p[^>]*>([\s\S]*?)<\/p>/i)?.[1] || "") ||
+      cleanProductHuntTagline(neighborhood.match(/<span[^>]*>([\s\S]*?)<\/span>/i)?.[1] || "");
     const imageSource =
       neighborhood.match(/<img[^>]+src="([^"]+)"/i)?.[1] ||
       neighborhood.match(/<img[^>]+data-src="([^"]+)"/i)?.[1] ||
@@ -1150,6 +1428,13 @@ export function parseProductHuntHtml(html) {
   return dedupeByUrl(items).slice(0, 5);
 }
 
+function cleanProductHuntTagline(value = "") {
+  return normalizeWhitespace(stripHtml(value)).replace(
+    /\s*(?:Discussion\s*\|\s*Link|Discussion\s+Link)\s*$/i,
+    ""
+  );
+}
+
 export function parseProductHuntFeed(xmlText) {
   const rssItems = [...xmlText.matchAll(/<item\b[\s\S]*?<\/item>/gi)].map((match) => {
     const block = match[0];
@@ -1164,7 +1449,7 @@ export function parseProductHuntFeed(xmlText) {
       stripHtml(block.match(/<pubDate>([\s\S]*?)<\/pubDate>/i)?.[1] || "") ||
       stripHtml(block.match(/<published>([\s\S]*?)<\/published>/i)?.[1] || "") ||
       null;
-    const tagline = stripHtml(description.replace(/<img[^>]*>/gi, ""));
+    const tagline = cleanProductHuntTagline(description.replace(/<img[^>]*>/gi, ""));
 
     return {
       name: title,
@@ -1193,7 +1478,7 @@ export function parseProductHuntFeed(xmlText) {
       stripHtml(block.match(/<updated[^>]*>([\s\S]*?)<\/updated>/i)?.[1] || "") ||
       stripHtml(block.match(/<published[^>]*>([\s\S]*?)<\/published>/i)?.[1] || "") ||
       null;
-    const tagline = stripHtml(summary.replace(/<img[^>]*>/gi, ""));
+    const tagline = cleanProductHuntTagline(summary.replace(/<img[^>]*>/gi, ""));
 
     return {
       name: title,
@@ -1350,16 +1635,30 @@ function dedupeByUrl(items) {
   });
 }
 
+async function collectWashingtonPostSource(sourceConfig, feedXml) {
+  let items = parseWashingtonPostRssItems(feedXml, sourceConfig);
+
+  if (items.length < 5 && sourceConfig.pageUrl) {
+    const pageHtml = await fetchText(sourceConfig.pageUrl);
+    items = [...items, ...parseWashingtonPostWorldHtml(pageHtml, sourceConfig)];
+  }
+
+  return hydrateWashingtonPostMetadata(dedupeByUrl(items).slice(0, 5));
+}
+
 async function collectNewsSource(sourceConfig) {
   if (sourceConfig.kind === "rss") {
     const xml = await fetchText(sourceConfig.url);
+
+    if (sourceConfig.id === "washington-post") {
+      return collectWashingtonPostSource(sourceConfig, xml);
+    }
+
     const items =
       sourceConfig.id === "reuters"
         ? parseGoogleNewsReutersItems(xml, sourceConfig)
         : sourceConfig.id === "npr"
           ? parseNprRssItems(xml, sourceConfig)
-        : sourceConfig.id === "new-york-times"
-          ? parseNewYorkTimesRssItems(xml, sourceConfig)
         : parseRssItems(xml, sourceConfig).filter((item) => item.title && item.url);
     const dedupedItems = dedupeByUrl(items).slice(0, 5);
 
@@ -1377,7 +1676,8 @@ async function collectNewsSource(sourceConfig) {
   const html = await fetchText(sourceConfig.url);
 
   if (sourceConfig.id === "al-jazeera") {
-    return hydrateMissingPublishedAt(dedupeByUrl(parseAlJazeeraHtml(html, sourceConfig)).slice(0, 5));
+    const stories = await hydrateMissingPublishedAt(dedupeByUrl(parseAlJazeeraHtml(html, sourceConfig)).slice(0, 5));
+    return hydrateArticleMetadata(stories);
   }
 
   if (sourceConfig.id === "china-daily") {
@@ -1459,7 +1759,7 @@ async function collectHackerNews(editionDate) {
     }
   }
 
-  return { items, failures };
+  return { items: await hydrateHackerNewsMetadata(items, failures), failures };
 }
 
 async function collectProductHunt() {
@@ -1496,18 +1796,23 @@ function renderHeadlineSection(items, generatedAt) {
         escapeHtml(item.region),
         renderTimeElement(item.publishedAt, new Date(generatedAt)),
       ]);
+      const mediaBlock = item.thumbnailUrl
+        ? `<a href="${escapeAttribute(item.url)}" ${getExternalLinkAttributes()} class="block overflow-hidden rounded-2xl border border-slate-100 md:w-64 md:shrink-0">
+            <img src="${escapeAttribute(item.thumbnailUrl)}" alt="${escapeAttribute(
+              item.title
+            )}" class="h-44 w-full object-cover transition duration-300 group-hover:scale-[1.02] md:h-40" />
+          </a>`
+        : item.sourceIconUrl
+          ? `<a href="${escapeAttribute(item.url)}" ${getExternalLinkAttributes()} class="flex h-40 w-full items-center justify-center rounded-2xl border border-slate-100 bg-slate-50 md:w-64 md:shrink-0">
+              <img src="${escapeAttribute(item.sourceIconUrl)}" alt="${escapeAttribute(
+                `${item.source} icon`
+              )}" class="h-12 w-12 object-contain" />
+            </a>`
+          : "";
 
       return `<article class="group overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm ring-1 ring-slate-100 transition duration-200 hover:-translate-y-0.5 hover:shadow-md">
         <div class="flex flex-col gap-4 p-4 md:flex-row md:items-start md:gap-5 md:p-5">
-          ${
-            item.thumbnailUrl
-              ? `<a href="${escapeAttribute(item.url)}" ${getExternalLinkAttributes()} class="block overflow-hidden rounded-2xl border border-slate-100 md:w-64 md:shrink-0">
-                  <img src="${escapeAttribute(item.thumbnailUrl)}" alt="${escapeAttribute(
-                    item.title
-                  )}" class="h-44 w-full object-cover transition duration-300 group-hover:scale-[1.02] md:h-40" />
-                </a>`
-              : ""
-          }
+          ${mediaBlock}
           <div class="min-w-0 flex-1 space-y-2">
             <h3 class="text-lg font-semibold leading-snug text-slate-900 md:text-xl">
               <a href="${escapeAttribute(item.url)}" ${getExternalLinkAttributes()} class="transition hover:text-sky-700">${escapeHtml(
@@ -1599,6 +1904,7 @@ function renderHackerNewsSection(items, generatedAt) {
               )}</a>
             </h3>
             ${metaLine}
+            ${item.summary ? `<p class="text-sm leading-6 text-slate-600">${escapeHtml(item.summary)}</p>` : ""}
           </div>
         </div>
       </article>`;
@@ -1731,7 +2037,7 @@ function estimateReadingTimeFromPayload(payload) {
   const textParts = [
     ...(payload.headlines || []).flatMap((item) => [item.title, item.source, item.region]),
     ...(payload.markets || []).flatMap((item) => [item.label, item.region, item.sessionDate]),
-    ...(payload.hackerNews || []).flatMap((item) => [item.title, item.url]),
+    ...(payload.hackerNews || []).flatMap((item) => [item.title, item.url, item.summary]),
     ...(payload.productHunt || []).flatMap((item) => [item.name, item.tagline]),
     ...(payload.sourceNotes?.warnings || []),
     ...(payload.sourceNotes?.successfulSources || []),
@@ -1756,7 +2062,21 @@ function getShortSummary(value = "", maxLength = 180) {
   return truncateText(stripHtml(value), maxLength);
 }
 
-function createFallbackEditionMetadata(payload, humanDate) {
+function ensureSentence(value = "") {
+  const normalized = normalizeWhitespace(value);
+
+  if (!normalized) {
+    return "";
+  }
+
+  return /[.!?]$/.test(normalized) ? normalized : `${normalized}.`;
+}
+
+function trimTerminalPunctuation(value = "") {
+  return normalizeWhitespace(value).replace(/[.!?]+$/, "");
+}
+
+function createEditionSummarySections(payload) {
   const headlineItems = payload.headlines || [];
   const hackerNewsItems = payload.hackerNews || [];
   const productHuntItems = payload.productHunt || [];
@@ -1770,6 +2090,10 @@ function createFallbackEditionMetadata(payload, humanDate) {
   const topHackerNewsTitles = hackerNewsItems
     .slice(0, 3)
     .map((item) => truncateText(item.title, 88));
+  const topHackerNewsSummaries = hackerNewsItems
+    .slice(0, 3)
+    .map((item) => getShortSummary(item.summary, 140))
+    .filter(Boolean);
   const topProductHuntNames = productHuntItems
     .slice(0, 3)
     .map((item) => truncateText(item.name, 72));
@@ -1783,7 +2107,92 @@ function createFallbackEditionMetadata(payload, humanDate) {
   const biggestMarketMove = marketItems
     .slice()
     .sort((first, second) => Math.abs(second.percentChange) - Math.abs(first.percentChange))[0];
+  const newsSentences = [];
+  const builderSentences = [];
 
+  if (topHeadlineTitles.length > 0) {
+    newsSentences.push(ensureSentence(`Global headlines include ${joinSemicolonList(topHeadlineTitles)}`));
+    if (topHeadlineSummaries[0]) {
+      newsSentences.push(ensureSentence(`The lead story context: ${topHeadlineSummaries[0]}`));
+    }
+    if (topHeadlineSummaries.length > 1) {
+      topHeadlineSummaries.slice(1, 3).forEach((summary) => {
+        newsSentences.push(ensureSentence(`Additional context: ${summary}`));
+      });
+    }
+  } else {
+    newsSentences.push("Global headline coverage was unavailable for this edition.");
+  }
+
+  if (marketItems.length > 0) {
+    const balance =
+      upMarkets === downMarkets
+        ? "split evenly"
+        : upMarkets > downMarkets
+          ? `leaned higher, with ${upMarkets} of ${marketItems.length} tracked indexes up`
+          : `leaned lower, with ${downMarkets} of ${marketItems.length} tracked indexes down`;
+    const moveLabel = getMarketMoveLabel(biggestMarketMove);
+    newsSentences.push(
+      ensureSentence(`Markets ${balance}${moveLabel ? ` and ${moveLabel} as the largest move` : ""}`)
+    );
+    newsSentences.push(
+      ensureSentence(`The market table tracks ${joinReadableList(
+        marketItems.slice(0, 4).map((item) => item.label)
+      )}${marketItems.length > 4 ? ` plus ${marketItems.length - 4} more indexes` : ""}`)
+    );
+  } else {
+    newsSentences.push("Market data was unavailable for the selected benchmark indexes.");
+  }
+
+  if (topHackerNewsTitles.length > 0) {
+    builderSentences.push(ensureSentence(`Hacker News highlights include ${joinSemicolonList(topHackerNewsTitles)}`));
+    if (topHackerNewsSummaries.length > 0) {
+      const hackerNewsContext = topHackerNewsSummaries
+        .slice(0, 3)
+        .map(trimTerminalPunctuation)
+        .filter(Boolean);
+
+      builderSentences.push(
+        ensureSentence(`HN link context includes ${joinReadableList(hackerNewsContext)}`)
+      );
+    } else {
+      builderSentences.push("The HN section keeps the focus on recent external links from the edition window.");
+    }
+  } else {
+    builderSentences.push("Hacker News did not return recent qualifying links for the edition window.");
+  }
+
+  if (topProductHuntNames.length > 0) {
+    builderSentences.push(ensureSentence(`Product Hunt features ${joinReadableList(topProductHuntNames)}`));
+    if (topProductHuntTaglines.length > 0) {
+      builderSentences.push(
+        ensureSentence(`Product taglines frame the launches as ${joinReadableList(topProductHuntTaglines)}`)
+      );
+    }
+  } else {
+    builderSentences.push("Product Hunt listings were unavailable, so the edition notes that source gap.");
+  }
+
+  return [
+    { title: "News and markets", sentences: newsSentences },
+    { title: "Hacker News and Product Hunt", sentences: builderSentences },
+  ].filter((section) => section.sentences.length > 0);
+}
+
+function createFallbackEditionMetadata(payload, humanDate) {
+  const headlineItems = payload.headlines || [];
+  const hackerNewsItems = payload.hackerNews || [];
+  const productHuntItems = payload.productHunt || [];
+  const topHeadlineTitles = headlineItems
+    .slice(0, 3)
+    .map((item) => truncateText(item.title, 96));
+  const topHackerNewsTitles = hackerNewsItems
+    .slice(0, 3)
+    .map((item) => truncateText(item.title, 88));
+  const topProductHuntNames = productHuntItems
+    .slice(0, 3)
+    .map((item) => truncateText(item.name, 72));
+  const marketItems = payload.markets || [];
   const fallbackTitleFocus =
     topHeadlineTitles.length > 0
       ? topHeadlineTitles.slice(0, 2).join("; ")
@@ -1795,63 +2204,11 @@ function createFallbackEditionMetadata(payload, humanDate) {
           ].filter(Boolean)
         );
   const title = truncateText(`Daily Brief for ${humanDate}: ${fallbackTitleFocus}`, 150);
-  const sentences = [];
-
-  if (topHeadlineTitles.length > 0) {
-    sentences.push(`Global headlines lead with ${joinReadableList(topHeadlineTitles)}.`);
-    if (topHeadlineSummaries[0]) {
-      sentences.push(`The lead story context: ${topHeadlineSummaries[0]}.`);
-    }
-    if (topHeadlineSummaries.length > 1) {
-      sentences.push(
-        `Other headline notes include ${joinReadableList(topHeadlineSummaries.slice(1, 3))}.`
-      );
-    }
-  } else {
-    sentences.push("Global headline coverage was unavailable for this edition.");
-  }
-
-  if (marketItems.length > 0) {
-    const balance =
-      upMarkets === downMarkets
-        ? "split evenly"
-        : upMarkets > downMarkets
-          ? `leaned higher, with ${upMarkets} of ${marketItems.length} tracked indexes up`
-          : `leaned lower, with ${downMarkets} of ${marketItems.length} tracked indexes down`;
-    const moveLabel = getMarketMoveLabel(biggestMarketMove);
-    sentences.push(
-      `Markets ${balance}${moveLabel ? ` and ${moveLabel} as the largest move` : ""}.`
-    );
-    sentences.push(
-      `The market table tracks ${joinReadableList(
-        marketItems.slice(0, 4).map((item) => item.label)
-      )}${marketItems.length > 4 ? ` plus ${marketItems.length - 4} more indexes` : ""}.`
-    );
-  } else {
-    sentences.push("Market data was unavailable for the selected benchmark indexes.");
-  }
-
-  if (topHackerNewsTitles.length > 0) {
-    sentences.push(`Hacker News highlights include ${joinReadableList(topHackerNewsTitles)}.`);
-    sentences.push(
-      `The HN section keeps the focus on recent external links from the edition window.`
-    );
-  } else {
-    sentences.push("Hacker News did not return recent qualifying links for the edition window.");
-  }
-
-  if (topProductHuntNames.length > 0) {
-    sentences.push(`Product Hunt features ${joinReadableList(topProductHuntNames)}.`);
-    if (topProductHuntTaglines.length > 0) {
-      sentences.push(`Product taglines frame the launches as ${joinReadableList(topProductHuntTaglines)}.`);
-    }
-  } else {
-    sentences.push("Product Hunt listings were unavailable, so the edition notes that source gap.");
-  }
+  const summarySections = createEditionSummarySections(payload);
 
   return {
     title,
-    description: sentences.join(" "),
+    description: summarySections.flatMap((section) => section.sentences).join(" "),
     source: "fallback",
   };
 }
@@ -1875,6 +2232,7 @@ function buildMetadataSummaryPrompt(payload, humanDate, fallbackMetadata) {
     hackerNews: (payload.hackerNews || []).slice(0, 8).map((item) => ({
       title: item.title,
       url: item.url,
+      summary: item.summary,
     })),
     productHunt: (payload.productHunt || []).slice(0, 8).map((item) => ({
       name: item.name,
@@ -2073,7 +2431,7 @@ export async function generateEdition({ editionDate, dryRun = false, overwrite =
     throw new Error("All sections failed; refusing to generate an empty edition");
   }
 
-  const enrichedHeadlines = globalHeadlines.items;
+  const enrichedHeadlines = await generateMissingReutersSummaries(globalHeadlines.items, warnings);
   const enrichedProductHunt = productHuntItems;
 
   const generatedAt = new Date().toISOString();
@@ -2090,6 +2448,12 @@ export async function generateEdition({ editionDate, dryRun = false, overwrite =
     markets: markets.items,
     hackerNews: hackerNews.items,
     productHunt: enrichedProductHunt,
+    summarySections: createEditionSummarySections({
+      headlines: enrichedHeadlines,
+      markets: markets.items,
+      hackerNews: hackerNews.items,
+      productHunt: enrichedProductHunt,
+    }),
     sourceNotes: sourceNotes.payload,
   };
   const body = '<div data-daily-news-payload="true"></div>';

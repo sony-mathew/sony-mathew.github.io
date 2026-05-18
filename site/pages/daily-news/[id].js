@@ -33,6 +33,7 @@ export async function getStaticProps({ params }) {
 
 export default function DailyNewsEdition({ editionData }) {
   const contentRef = useRef(null);
+  const summarySections = editionData.dailyNewsPayload?.summarySections || [];
 
   useEffect(() => {
     const root = contentRef.current;
@@ -73,7 +74,22 @@ export default function DailyNewsEdition({ editionData }) {
         <section className={dailyNewsStyles.hero}>
           <div className={dailyNewsStyles.heroLabel}>Daily News Edition</div>
           <h1 className={dailyNewsStyles.heroTitle}>{editionData.title}</h1>
-          <p className={dailyNewsStyles.heroDescription}>{editionData.description}</p>
+          {summarySections.length > 0 ? (
+            <div className={dailyNewsStyles.summarySections}>
+              {summarySections.map((section) => (
+                <section className={dailyNewsStyles.summarySection} key={section.title}>
+                  <h2 className={dailyNewsStyles.summaryTitle}>{section.title}</h2>
+                  <ul className={dailyNewsStyles.summaryList}>
+                    {section.sentences.map((sentence) => (
+                      <li key={sentence}>{sentence}</li>
+                    ))}
+                  </ul>
+                </section>
+              ))}
+            </div>
+          ) : (
+            <p className={dailyNewsStyles.heroDescription}>{editionData.description}</p>
+          )}
           <div className={dailyNewsStyles.metaRow}>
             <span className={dailyNewsStyles.metaBadge}>
               <DateComponent dateString={editionData.date} />

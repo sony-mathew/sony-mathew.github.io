@@ -3,13 +3,18 @@
     <item>
       <title>Launch Alpha</title>
       <link>https://www.producthunt.com/posts/launch-alpha</link>
-      <description><![CDATA[<img src="https://ph-files.imgix.net/alpha.png" />The first launch tagline]]></description>
+      <description><![CDATA[<img src="https://ph-files.imgix.net/alpha.png" />The first launch tagline Discussion | Link]]></description>
       <media:content url="https://ph-files.imgix.net/alpha.png" />
     </item>
     <item>
       <title>Launch Beta</title>
       <link>https://www.producthunt.com/posts/launch-beta</link>
-      <description><![CDATA[The second launch tagline]]></description>
+      <description><![CDATA[The second launch tagline Discussion | Link]]></description>
     </item>
   </channel>
+  <entry>
+    <title>Launch Gamma</title>
+    <link href="https://www.producthunt.com/products/launch-gamma" />
+    <summary><![CDATA[The third launch tagline Discussion | Link]]></summary>
+  </entry>
 </rss>

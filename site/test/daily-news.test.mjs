@@ -7,7 +7,8 @@ import {
   generateEdition,
   parseAlJazeeraHtml,
   parseChinaDailyHtml,
-  parseNewYorkTimesRssItems,
+  parseWashingtonPostRssItems,
+  parseWashingtonPostWorldHtml,
   parseNprRssItems,
   parseProductHuntHtml,
   parseProductHuntFeed,
@@ -81,18 +82,25 @@ test("parses NPR RSS items with summaries and non-tracking thumbnails", async ()
   assert.equal(items[1].thumbnailUrl, null);
 });
 
-test("parses New York Times RSS items with summaries and thumbnails", async () => {
-  const xml = await loadFixture("nyt.xml");
-  const items = parseNewYorkTimesRssItems(xml);
+test("parses Washington Post RSS items with summaries", async () => {
+  const xml = await loadFixture("washington-post.xml");
+  const items = parseWashingtonPostRssItems(xml);
 
-  assert.equal(items.length, 2);
-  assert.equal(items[0].title, "NYT headline one");
-  assert.equal(items[0].summary, "Lead story summary from the New York Times world feed.");
-  assert.equal(
-    items[0].thumbnailUrl,
-    "https://static01.nyt.com/images/2026/04/19/world/story-one-mediumSquareAt3X.jpg"
-  );
-  assert.equal(items[1].summary, "Second story summary from the New York Times world feed.");
+  assert.equal(items.length, 3);
+  assert.equal(items[0].title, "Washington Post headline one");
+  assert.equal(items[0].summary, "Lead story summary from the Washington Post world feed.");
+  assert.equal(items[0].thumbnailUrl, null);
+  assert.equal(items[1].summary, "Second story summary from the Washington Post world feed.");
+});
+
+test("parses Washington Post world page cards with thumbnails", async () => {
+  const html = await loadFixture("washington-post-world.html");
+  const items = parseWashingtonPostWorldHtml(html);
+
+  assert.equal(items.length, 3);
+  assert.equal(items[1].title, "Washington Post headline four");
+  assert.equal(items[1].summary, "Fourth story summary from the Washington Post world page.");
+  assert.equal(items[1].thumbnailUrl, "https://www.washingtonpost.com/resizer/example-story-four.jpg");
 });
 
 test("parses China Daily article cards", async () => {
@@ -121,14 +129,18 @@ test("parses Product Hunt product cards", async () => {
   assert.equal(items.length, 2);
   assert.equal(items[0].name, "Launch Alpha");
   assert.equal(items[0].tagline, "The first launch tagline");
+  assert.equal(items[1].tagline, "The second launch tagline");
 });
 
 test("parses Product Hunt RSS feed items", async () => {
   const xml = await loadFixture("product-hunt-feed.xml");
   const items = parseProductHuntFeed(xml);
 
-  assert.equal(items.length, 2);
+  assert.equal(items.length, 3);
   assert.equal(items[0].name, "Launch Alpha");
+  assert.equal(items[0].tagline, "The first launch tagline");
+  assert.equal(items[1].tagline, "The second launch tagline");
+  assert.equal(items[2].tagline, "The third launch tagline");
   assert.match(items[0].url, /producthunt\.com\/posts\/launch-alpha/);
 });
 
@@ -169,7 +181,7 @@ test("uses OpenRouter metadata when a key is configured", async () => {
               content: JSON.stringify({
                 title: "Daily Brief for April 19, 2026: Markets Slip as Launch Alpha Trends",
                 description:
-                  "Global headlines focus on NYT headline one and NPR headline one. Markets lean lower, led by the S&P 500. Hacker News highlights HN story one. Product Hunt features Launch Alpha.",
+                  "Global headlines focus on Washington Post headline one and NPR headline one. Markets lean lower, led by the S&P 500. Hacker News highlights HN story one. Product Hunt features Launch Alpha.",
               }),
             },
           },
@@ -188,8 +200,8 @@ test("uses OpenRouter metadata when a key is configured", async () => {
       {
         headlines: [
           {
-            title: "NYT headline one",
-            source: "New York Times",
+            title: "Washington Post headline one",
+            source: "Washington Post",
             region: "World",
             summary: "Lead story summary.",
           },
@@ -238,7 +250,8 @@ test("dry run emits markdown frontmatter and source notes", async () => {
   const requestedUrls = [];
   const fixtureMap = new Map([
     ["https://feeds.npr.org/1001/rss.xml", "npr.xml"],
-    ["https://rss.nytimes.com/services/xml/rss/nyt/World.xml", "nyt.xml"],
+    ["https://feeds.washingtonpost.com/rss/world", "washington-post.xml"],
+    ["https://www.washingtonpost.com/world/", "washington-post-world.html"],
     ["https://www.chinadaily.com.cn/world/", "china-daily.html"],
     ["https://www.aljazeera.com/news/", "al-jazeera.html"],
     ["https://news.google.com/rss/search?q=site%3Areuters.com/world&hl=en-US&gl=US&ceid=US%3Aen", "reuters-google-news.xml"],
@@ -256,8 +269,32 @@ test("dry run emits markdown frontmatter and source notes", async () => {
     const urlString = String(url);
     requestedUrls.push(urlString);
 
+    if (urlString.startsWith("https://example.com/hn-story-")) {
+      const payload = await loadFixture("hn-article.html");
+      return new Response(payload, {
+        status: 200,
+        headers: { "content-type": "text/html" },
+      });
+    }
+
+    if (urlString.startsWith("https://www.washingtonpost.com/world/2026/04/19/")) {
+      const payload = await loadFixture("washington-post-article.html");
+      return new Response(payload, {
+        status: 200,
+        headers: { "content-type": "text/html" },
+      });
+    }
+
     if (urlString.startsWith("https://www.chinadaily.com.cn/a/")) {
       const payload = await loadFixture("china-daily-article.html");
+      return new Response(payload, {
+        status: 200,
+        headers: { "content-type": "text/html" },
+      });
+    }
+
+    if (urlString.startsWith("https://www.aljazeera.com/news/2026/04/19/story-")) {
+      const payload = await loadFixture("al-jazeera-article.html");
       return new Response(payload, {
         status: 200,
         headers: { "content-type": "text/html" },
@@ -328,12 +365,12 @@ test("dry run emits markdown frontmatter and source notes", async () => {
       result.document,
       /Daily Brief for April 19, 2026: Global Headlines, Markets, Hacker News, Product Hunt/
     );
-    assert.match(result.document, /description: "Global headlines lead with /);
+    assert.match(result.document, /description: "Global headlines include /);
     assert.match(result.document, /The lead story context: /);
-    assert.match(result.document, /Other headline notes include /);
+    assert.match(result.document, /Additional context: /);
     assert.match(result.document, /The market table tracks /);
     assert.match(result.document, /Hacker News highlights include /);
-    assert.match(result.document, /The HN section keeps the focus /);
+    assert.match(result.document, /HN link context includes /);
     assert.match(result.document, /Product Hunt features /);
     assert.match(result.document, /Product taglines frame the launches as /);
     assert.match(result.document, /payloadFile: "2026-04-19\.json"/);
@@ -348,10 +385,18 @@ test("dry run emits markdown frontmatter and source notes", async () => {
     assert.equal(Array.isArray(result.payload.markets), true);
     assert.equal(Array.isArray(result.payload.hackerNews), true);
     assert.equal(Array.isArray(result.payload.productHunt), true);
+    assert.equal(Array.isArray(result.payload.summarySections), true);
+    assert.equal(result.payload.summarySections.length, 2);
+    assert.equal(result.payload.summarySections[0].title, "News and markets");
+    assert.equal(result.payload.summarySections[1].title, "Hacker News and Product Hunt");
     assert.equal(Array.isArray(result.payload.sourceNotes.warnings), true);
     assert.ok(result.payload.headlines.length > 0);
     assert.equal(result.payload.markets.length, 7);
     assert.ok(result.payload.hackerNews.length > 0);
+    assert.equal(
+      result.payload.hackerNews[0].summary,
+      "Hacker News article summary from page metadata that should appear under the technology link card."
+    );
     assert.equal(result.payload.sourceNotes.timeZone, "Asia/Kolkata");
     const reutersHeadlines = result.payload.headlines.filter((item) => item.source === "Reuters");
     assert.ok(reutersHeadlines.length >= 2);
@@ -359,12 +404,13 @@ test("dry run emits markdown frontmatter and source notes", async () => {
     assert.ok(nprHeadline);
     assert.equal(nprHeadline.summary, "Lead story from the description field.");
     assert.equal(nprHeadline.thumbnailUrl, "https://npr.brightspotcdn.com/headline-one.jpg");
-    const nytHeadline = result.payload.headlines.find((item) => item.source === "New York Times");
-    assert.ok(nytHeadline);
-    assert.equal(nytHeadline.summary, "Lead story summary from the New York Times world feed.");
+    const washingtonPostHeadline = result.payload.headlines.find((item) => item.source === "Washington Post");
+    assert.ok(washingtonPostHeadline);
+    assert.equal(result.payload.headlines.filter((item) => item.source === "Washington Post").length, 5);
+    assert.equal(washingtonPostHeadline.summary, "Lead story summary from the Washington Post world feed.");
     assert.equal(
-      nytHeadline.thumbnailUrl,
-      "https://static01.nyt.com/images/2026/04/19/world/story-one-mediumSquareAt3X.jpg"
+      washingtonPostHeadline.thumbnailUrl,
+      "https://www.washingtonpost.com/resizer/washington-post-meta-image.jpg&w=1440"
     );
     const chinaDailyHeadline = result.payload.headlines.find((item) => item.source === "China Daily");
     assert.ok(chinaDailyHeadline);
@@ -383,12 +429,25 @@ test("dry run emits markdown frontmatter and source notes", async () => {
       theHinduHeadline.thumbnailUrl,
       /^https:\/\/th-i\.thgim\.com\/public\/incoming\/(?:story-one|the-hindu-meta-image)\.jpg$/
     );
+    const alJazeeraHeadline = result.payload.headlines.find((item) => item.source === "Al Jazeera");
+    assert.ok(alJazeeraHeadline);
+    assert.equal(
+      alJazeeraHeadline.summary,
+      "Al Jazeera article summary from metadata that should appear under the headline in the daily news page."
+    );
     const unresolvedReutersHeadline = reutersHeadlines.find((item) => item.url.startsWith("https://news.google.com/"));
     const directReutersHeadline = reutersHeadlines.find((item) => item.url.startsWith("https://www.reuters.com/"));
     assert.ok(unresolvedReutersHeadline);
     assert.ok(directReutersHeadline);
-    assert.equal(unresolvedReutersHeadline.summary, null);
+    assert.equal(
+      unresolvedReutersHeadline.summary,
+      "Reuters: Bulgaria votes as pro-Russian former president leads the polls."
+    );
     assert.equal(unresolvedReutersHeadline.thumbnailUrl, null);
+    assert.equal(
+      unresolvedReutersHeadline.sourceIconUrl,
+      "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    );
     assert.equal(
       directReutersHeadline.summary,
       "Reuters summary from article metadata that should appear under the headline in the daily news page."
@@ -415,6 +474,7 @@ test("renderer uses only remote thumbnail URLs for daily news cards", async () =
   const rendererSource = await fs.readFile(path.join(process.cwd(), "components", "daily_news_renderer.js"), "utf8");
 
   assert.match(rendererSource, /return item\.thumbnailUrl \|\| null;/);
+  assert.match(rendererSource, /return item\.sourceIconUrl \|\| null;/);
   assert.doesNotMatch(rendererSource, /localThumbnail/);
 });
 
@@ -422,7 +482,8 @@ test("generated daily news markdown loads structured payload through the collect
   const originalFetch = global.fetch;
   const fixtureMap = new Map([
     ["https://feeds.npr.org/1001/rss.xml", "npr.xml"],
-    ["https://rss.nytimes.com/services/xml/rss/nyt/World.xml", "nyt.xml"],
+    ["https://feeds.washingtonpost.com/rss/world", "washington-post.xml"],
+    ["https://www.washingtonpost.com/world/", "washington-post-world.html"],
     ["https://www.chinadaily.com.cn/world/", "china-daily.html"],
     ["https://www.aljazeera.com/news/", "al-jazeera.html"],
     ["https://news.google.com/rss/search?q=site%3Areuters.com/world&hl=en-US&gl=US&ceid=US%3Aen", "reuters-google-news.xml"],
@@ -441,8 +502,32 @@ test("generated daily news markdown loads structured payload through the collect
   global.fetch = async (url) => {
     const urlString = String(url);
 
+    if (urlString.startsWith("https://example.com/hn-story-")) {
+      const payload = await loadFixture("hn-article.html");
+      return new Response(payload, {
+        status: 200,
+        headers: { "content-type": "text/html" },
+      });
+    }
+
+    if (urlString.startsWith("https://www.washingtonpost.com/world/2026/04/19/")) {
+      const payload = await loadFixture("washington-post-article.html");
+      return new Response(payload, {
+        status: 200,
+        headers: { "content-type": "text/html" },
+      });
+    }
+
     if (urlString.startsWith("https://www.chinadaily.com.cn/a/")) {
       const payload = await loadFixture("china-daily-article.html");
+      return new Response(payload, {
+        status: 200,
+        headers: { "content-type": "text/html" },
+      });
+    }
+
+    if (urlString.startsWith("https://www.aljazeera.com/news/2026/04/19/story-")) {
+      const payload = await loadFixture("al-jazeera-article.html");
       return new Response(payload, {
         status: 200,
         headers: { "content-type": "text/html" },
@@ -524,11 +609,24 @@ test("generated daily news markdown loads structured payload through the collect
     assert.equal(data.dailyNewsPayload.headlines.length > 0, true);
     assert.equal(data.dailyNewsPayload.markets.length, 7);
     assert.equal(Array.isArray(data.dailyNewsPayload.hackerNews), true);
+    assert.equal(data.dailyNewsPayload.summarySections.length, 2);
+    assert.equal(
+      data.dailyNewsPayload.headlines.find(
+        (item) => item.source === "Reuters" && item.url.startsWith("https://news.google.com/")
+      )?.summary,
+      "Reuters: Bulgaria votes as pro-Russian former president leads the polls."
+    );
     assert.equal(
       data.dailyNewsPayload.headlines.find(
         (item) => item.source === "Reuters" && item.url.startsWith("https://news.google.com/")
       )?.thumbnailUrl,
       null
+    );
+    assert.equal(
+      data.dailyNewsPayload.headlines.find(
+        (item) => item.source === "Reuters" && item.url.startsWith("https://news.google.com/")
+      )?.sourceIconUrl,
+      "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
     );
     assert.equal(
       data.dailyNewsPayload.headlines.find(
@@ -539,15 +637,20 @@ test("generated daily news markdown loads structured payload through the collect
     const alJazeeraHeadline = data.dailyNewsPayload.headlines.find((item) => item.source === "Al Jazeera");
     assert.ok(alJazeeraHeadline);
     assert.match(alJazeeraHeadline.thumbnailUrl, /^https:\/\/www\.aljazeera\.com\/wp-content\/uploads\//);
+    assert.equal(
+      alJazeeraHeadline.summary,
+      "Al Jazeera article summary from metadata that should appear under the headline in the daily news page."
+    );
     assert.equal("localThumbnail" in alJazeeraHeadline, false);
     const nprHeadline = data.dailyNewsPayload.headlines.find((item) => item.source === "NPR");
     assert.equal(nprHeadline?.summary, "Lead story from the description field.");
     assert.equal(nprHeadline?.thumbnailUrl, "https://npr.brightspotcdn.com/headline-one.jpg");
-    const nytHeadline = data.dailyNewsPayload.headlines.find((item) => item.source === "New York Times");
-    assert.equal(nytHeadline?.summary, "Lead story summary from the New York Times world feed.");
+    const washingtonPostHeadline = data.dailyNewsPayload.headlines.find((item) => item.source === "Washington Post");
+    assert.equal(data.dailyNewsPayload.headlines.filter((item) => item.source === "Washington Post").length, 5);
+    assert.equal(washingtonPostHeadline?.summary, "Lead story summary from the Washington Post world feed.");
     assert.equal(
-      nytHeadline?.thumbnailUrl,
-      "https://static01.nyt.com/images/2026/04/19/world/story-one-mediumSquareAt3X.jpg"
+      washingtonPostHeadline?.thumbnailUrl,
+      "https://www.washingtonpost.com/resizer/washington-post-meta-image.jpg&w=1440"
     );
     const chinaDailyHeadline = data.dailyNewsPayload.headlines.find((item) => item.source === "China Daily");
     assert.equal(
@@ -626,7 +729,8 @@ test("continues generating when Product Hunt is unavailable", async () => {
   const originalFetch = global.fetch;
   const fixtureMap = new Map([
     ["https://feeds.npr.org/1001/rss.xml", "npr.xml"],
-    ["https://rss.nytimes.com/services/xml/rss/nyt/World.xml", "nyt.xml"],
+    ["https://feeds.washingtonpost.com/rss/world", "washington-post.xml"],
+    ["https://www.washingtonpost.com/world/", "washington-post-world.html"],
     ["https://www.chinadaily.com.cn/world/", "china-daily.html"],
     ["https://www.aljazeera.com/news/", "al-jazeera.html"],
     ["https://news.google.com/rss/search?q=site%3Areuters.com/world&hl=en-US&gl=US&ceid=US%3Aen", "reuters-google-news.xml"],
@@ -641,8 +745,32 @@ test("continues generating when Product Hunt is unavailable", async () => {
   global.fetch = async (url) => {
     const urlString = String(url);
 
+    if (urlString.startsWith("https://example.com/hn-story-")) {
+      const payload = await loadFixture("hn-article.html");
+      return new Response(payload, {
+        status: 200,
+        headers: { "content-type": "text/html" },
+      });
+    }
+
+    if (urlString.startsWith("https://www.washingtonpost.com/world/2026/04/19/")) {
+      const payload = await loadFixture("washington-post-article.html");
+      return new Response(payload, {
+        status: 200,
+        headers: { "content-type": "text/html" },
+      });
+    }
+
     if (urlString.startsWith("https://www.chinadaily.com.cn/a/")) {
       const payload = await loadFixture("china-daily-article.html");
+      return new Response(payload, {
+        status: 200,
+        headers: { "content-type": "text/html" },
+      });
+    }
+
+    if (urlString.startsWith("https://www.aljazeera.com/news/2026/04/19/story-")) {
+      const payload = await loadFixture("al-jazeera-article.html");
       return new Response(payload, {
         status: 200,
         headers: { "content-type": "text/html" },
