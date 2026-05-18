@@ -1101,7 +1101,7 @@ export function parseProductHuntHtml(html) {
 
       return {
         name: stripHtml(title),
-        tagline: stripHtml(tagline),
+        tagline: cleanProductHuntTagline(tagline),
         url: absoluteUrl(PRODUCT_HUNT_URL, href),
         thumbnailUrl: absoluteUrl(PRODUCT_HUNT_URL, imageSource),
         publishedAt,
@@ -1127,8 +1127,8 @@ export function parseProductHuntHtml(html) {
     const matchIndex = match.index || 0;
     const neighborhood = html.slice(Math.max(0, matchIndex - 200), Math.min(html.length, matchIndex + 1200));
     const tagline =
-      stripHtml(neighborhood.match(/<p[^>]*>([\s\S]*?)<\/p>/i)?.[1] || "") ||
-      stripHtml(neighborhood.match(/<span[^>]*>([\s\S]*?)<\/span>/i)?.[1] || "");
+      cleanProductHuntTagline(neighborhood.match(/<p[^>]*>([\s\S]*?)<\/p>/i)?.[1] || "") ||
+      cleanProductHuntTagline(neighborhood.match(/<span[^>]*>([\s\S]*?)<\/span>/i)?.[1] || "");
     const imageSource =
       neighborhood.match(/<img[^>]+src="([^"]+)"/i)?.[1] ||
       neighborhood.match(/<img[^>]+data-src="([^"]+)"/i)?.[1] ||
@@ -1150,6 +1150,13 @@ export function parseProductHuntHtml(html) {
   return dedupeByUrl(items).slice(0, 5);
 }
 
+function cleanProductHuntTagline(value = "") {
+  return normalizeWhitespace(stripHtml(value)).replace(
+    /\s*(?:Discussion\s*\|\s*Link|Discussion\s+Link)\s*$/i,
+    ""
+  );
+}
+
 export function parseProductHuntFeed(xmlText) {
   const rssItems = [...xmlText.matchAll(/<item\b[\s\S]*?<\/item>/gi)].map((match) => {
     const block = match[0];
@@ -1164,7 +1171,7 @@ export function parseProductHuntFeed(xmlText) {
       stripHtml(block.match(/<pubDate>([\s\S]*?)<\/pubDate>/i)?.[1] || "") ||
       stripHtml(block.match(/<published>([\s\S]*?)<\/published>/i)?.[1] || "") ||
       null;
-    const tagline = stripHtml(description.replace(/<img[^>]*>/gi, ""));
+    const tagline = cleanProductHuntTagline(description.replace(/<img[^>]*>/gi, ""));
 
     return {
       name: title,
@@ -1193,7 +1200,7 @@ export function parseProductHuntFeed(xmlText) {
       stripHtml(block.match(/<updated[^>]*>([\s\S]*?)<\/updated>/i)?.[1] || "") ||
       stripHtml(block.match(/<published[^>]*>([\s\S]*?)<\/published>/i)?.[1] || "") ||
       null;
-    const tagline = stripHtml(summary.replace(/<img[^>]*>/gi, ""));
+    const tagline = cleanProductHuntTagline(summary.replace(/<img[^>]*>/gi, ""));
 
     return {
       name: title,

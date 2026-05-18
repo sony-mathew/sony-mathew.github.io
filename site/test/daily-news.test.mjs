@@ -121,14 +121,18 @@ test("parses Product Hunt product cards", async () => {
   assert.equal(items.length, 2);
   assert.equal(items[0].name, "Launch Alpha");
   assert.equal(items[0].tagline, "The first launch tagline");
+  assert.equal(items[1].tagline, "The second launch tagline");
 });
 
 test("parses Product Hunt RSS feed items", async () => {
   const xml = await loadFixture("product-hunt-feed.xml");
   const items = parseProductHuntFeed(xml);
 
-  assert.equal(items.length, 2);
+  assert.equal(items.length, 3);
   assert.equal(items[0].name, "Launch Alpha");
+  assert.equal(items[0].tagline, "The first launch tagline");
+  assert.equal(items[1].tagline, "The second launch tagline");
+  assert.equal(items[2].tagline, "The third launch tagline");
   assert.match(items[0].url, /producthunt\.com\/posts\/launch-alpha/);
 });
 
