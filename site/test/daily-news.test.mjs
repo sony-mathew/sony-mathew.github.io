@@ -8,6 +8,7 @@ import {
   parseAlJazeeraHtml,
   parseChinaDailyHtml,
   parseWashingtonPostRssItems,
+  parseWashingtonPostWorldHtml,
   parseNprRssItems,
   parseProductHuntHtml,
   parseProductHuntFeed,
@@ -81,18 +82,25 @@ test("parses NPR RSS items with summaries and non-tracking thumbnails", async ()
   assert.equal(items[1].thumbnailUrl, null);
 });
 
-test("parses Washington Post RSS items with summaries and thumbnails", async () => {
+test("parses Washington Post RSS items with summaries", async () => {
   const xml = await loadFixture("washington-post.xml");
   const items = parseWashingtonPostRssItems(xml);
 
-  assert.equal(items.length, 2);
+  assert.equal(items.length, 3);
   assert.equal(items[0].title, "Washington Post headline one");
   assert.equal(items[0].summary, "Lead story summary from the Washington Post world feed.");
-  assert.equal(
-    items[0].thumbnailUrl,
-    "https://www.washingtonpost.com/resizer/example-story-one.jpg"
-  );
+  assert.equal(items[0].thumbnailUrl, null);
   assert.equal(items[1].summary, "Second story summary from the Washington Post world feed.");
+});
+
+test("parses Washington Post world page cards with thumbnails", async () => {
+  const html = await loadFixture("washington-post-world.html");
+  const items = parseWashingtonPostWorldHtml(html);
+
+  assert.equal(items.length, 3);
+  assert.equal(items[1].title, "Washington Post headline four");
+  assert.equal(items[1].summary, "Fourth story summary from the Washington Post world page.");
+  assert.equal(items[1].thumbnailUrl, "https://www.washingtonpost.com/resizer/example-story-four.jpg");
 });
 
 test("parses China Daily article cards", async () => {
@@ -243,6 +251,7 @@ test("dry run emits markdown frontmatter and source notes", async () => {
   const fixtureMap = new Map([
     ["https://feeds.npr.org/1001/rss.xml", "npr.xml"],
     ["https://feeds.washingtonpost.com/rss/world", "washington-post.xml"],
+    ["https://www.washingtonpost.com/world/", "washington-post-world.html"],
     ["https://www.chinadaily.com.cn/world/", "china-daily.html"],
     ["https://www.aljazeera.com/news/", "al-jazeera.html"],
     ["https://news.google.com/rss/search?q=site%3Areuters.com/world&hl=en-US&gl=US&ceid=US%3Aen", "reuters-google-news.xml"],
@@ -262,6 +271,14 @@ test("dry run emits markdown frontmatter and source notes", async () => {
 
     if (urlString.startsWith("https://example.com/hn-story-")) {
       const payload = await loadFixture("hn-article.html");
+      return new Response(payload, {
+        status: 200,
+        headers: { "content-type": "text/html" },
+      });
+    }
+
+    if (urlString.startsWith("https://www.washingtonpost.com/world/2026/04/19/")) {
+      const payload = await loadFixture("washington-post-article.html");
       return new Response(payload, {
         status: 200,
         headers: { "content-type": "text/html" },
@@ -389,10 +406,11 @@ test("dry run emits markdown frontmatter and source notes", async () => {
     assert.equal(nprHeadline.thumbnailUrl, "https://npr.brightspotcdn.com/headline-one.jpg");
     const washingtonPostHeadline = result.payload.headlines.find((item) => item.source === "Washington Post");
     assert.ok(washingtonPostHeadline);
+    assert.equal(result.payload.headlines.filter((item) => item.source === "Washington Post").length, 5);
     assert.equal(washingtonPostHeadline.summary, "Lead story summary from the Washington Post world feed.");
     assert.equal(
       washingtonPostHeadline.thumbnailUrl,
-      "https://www.washingtonpost.com/resizer/example-story-one.jpg"
+      "https://www.washingtonpost.com/resizer/washington-post-meta-image.jpg&w=1440"
     );
     const chinaDailyHeadline = result.payload.headlines.find((item) => item.source === "China Daily");
     assert.ok(chinaDailyHeadline);
@@ -465,6 +483,7 @@ test("generated daily news markdown loads structured payload through the collect
   const fixtureMap = new Map([
     ["https://feeds.npr.org/1001/rss.xml", "npr.xml"],
     ["https://feeds.washingtonpost.com/rss/world", "washington-post.xml"],
+    ["https://www.washingtonpost.com/world/", "washington-post-world.html"],
     ["https://www.chinadaily.com.cn/world/", "china-daily.html"],
     ["https://www.aljazeera.com/news/", "al-jazeera.html"],
     ["https://news.google.com/rss/search?q=site%3Areuters.com/world&hl=en-US&gl=US&ceid=US%3Aen", "reuters-google-news.xml"],
@@ -485,6 +504,14 @@ test("generated daily news markdown loads structured payload through the collect
 
     if (urlString.startsWith("https://example.com/hn-story-")) {
       const payload = await loadFixture("hn-article.html");
+      return new Response(payload, {
+        status: 200,
+        headers: { "content-type": "text/html" },
+      });
+    }
+
+    if (urlString.startsWith("https://www.washingtonpost.com/world/2026/04/19/")) {
+      const payload = await loadFixture("washington-post-article.html");
       return new Response(payload, {
         status: 200,
         headers: { "content-type": "text/html" },
@@ -619,10 +646,11 @@ test("generated daily news markdown loads structured payload through the collect
     assert.equal(nprHeadline?.summary, "Lead story from the description field.");
     assert.equal(nprHeadline?.thumbnailUrl, "https://npr.brightspotcdn.com/headline-one.jpg");
     const washingtonPostHeadline = data.dailyNewsPayload.headlines.find((item) => item.source === "Washington Post");
+    assert.equal(data.dailyNewsPayload.headlines.filter((item) => item.source === "Washington Post").length, 5);
     assert.equal(washingtonPostHeadline?.summary, "Lead story summary from the Washington Post world feed.");
     assert.equal(
       washingtonPostHeadline?.thumbnailUrl,
-      "https://www.washingtonpost.com/resizer/example-story-one.jpg"
+      "https://www.washingtonpost.com/resizer/washington-post-meta-image.jpg&w=1440"
     );
     const chinaDailyHeadline = data.dailyNewsPayload.headlines.find((item) => item.source === "China Daily");
     assert.equal(
@@ -702,6 +730,7 @@ test("continues generating when Product Hunt is unavailable", async () => {
   const fixtureMap = new Map([
     ["https://feeds.npr.org/1001/rss.xml", "npr.xml"],
     ["https://feeds.washingtonpost.com/rss/world", "washington-post.xml"],
+    ["https://www.washingtonpost.com/world/", "washington-post-world.html"],
     ["https://www.chinadaily.com.cn/world/", "china-daily.html"],
     ["https://www.aljazeera.com/news/", "al-jazeera.html"],
     ["https://news.google.com/rss/search?q=site%3Areuters.com/world&hl=en-US&gl=US&ceid=US%3Aen", "reuters-google-news.xml"],
@@ -718,6 +747,14 @@ test("continues generating when Product Hunt is unavailable", async () => {
 
     if (urlString.startsWith("https://example.com/hn-story-")) {
       const payload = await loadFixture("hn-article.html");
+      return new Response(payload, {
+        status: 200,
+        headers: { "content-type": "text/html" },
+      });
+    }
+
+    if (urlString.startsWith("https://www.washingtonpost.com/world/2026/04/19/")) {
+      const payload = await loadFixture("washington-post-article.html");
       return new Response(payload, {
         status: 200,
         headers: { "content-type": "text/html" },

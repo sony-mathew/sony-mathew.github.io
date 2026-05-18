@@ -24,6 +24,8 @@ const DAILY_NEWS_PAYLOAD_DIR = path.join(ROOT_DIR, "daily-news-data");
 const OPENROUTER_DEFAULT_MODEL = "openai/gpt-4o-mini";
 const OPENROUTER_DEFAULT_BASE_URL = "https://openrouter.ai/api/v1";
 const REUTERS_SOURCE_ICON_URL = "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128";
+const WASHINGTON_POST_SOURCE_ICON_URL =
+  "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128";
 
 function parseEnvFileContent(content) {
   const values = {};
@@ -481,7 +483,7 @@ function extractArticlePreviewFromHtml(html, storyUrl = null, storyTitle = "", o
 
   return {
     summary: cleanSummaryText(summarySource, storyTitle),
-    thumbnailUrl: sanitizeThumbnailUrl(absoluteUrl(storyUrl, thumbnailSource)),
+    thumbnailUrl: sanitizeThumbnailUrl(absoluteUrl(storyUrl, stripHtml(thumbnailSource))),
   };
 }
 
@@ -843,6 +845,40 @@ export function parseWashingtonPostRssItems(
     .filter((item) => item.title && item.url);
 }
 
+export function parseWashingtonPostWorldHtml(
+  html,
+  sourceConfig = NEWS_SOURCES.find((source) => source.id === "washington-post")
+) {
+  const headlineMatches = [
+    ...html.matchAll(
+      /<a\b[^>]*data-pb-local-content-field=["']web_headline["'][^>]*href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi
+    ),
+  ];
+
+  return headlineMatches
+    .map((match) => {
+      const href = match[1];
+      const block = match[2] || "";
+      const url = absoluteUrl(sourceConfig.baseUrl || sourceConfig.url, href);
+      const title = stripHtml(block.match(/<h[1-6][^>]*>([\s\S]*?)<\/h[1-6]>/i)?.[1] || "");
+      const summary = cleanSummaryText(block.match(/<p[^>]*>([\s\S]*?)<\/p>/i)?.[1] || "", title);
+      const searchStart = match.index || 0;
+      const thumbnailWindow = html.slice(searchStart, searchStart + 3000);
+      const imageSource = thumbnailWindow.match(/<img[^>]+src=["']([^"']+)["']/i)?.[1] || null;
+
+      return {
+        title,
+        url,
+        source: sourceConfig.label,
+        region: sourceConfig.region,
+        publishedAt: extractPublishedAtFromUrl(url),
+        summary,
+        thumbnailUrl: sanitizeThumbnailUrl(absoluteUrl(sourceConfig.baseUrl || sourceConfig.url, stripHtml(imageSource))),
+      };
+    })
+    .filter((item) => item.title && item.url);
+}
+
 export function parseGoogleNewsReutersItems(
   xmlText,
   sourceConfig = NEWS_SOURCES.find((source) => source.id === "reuters")
@@ -1011,15 +1047,28 @@ async function hydrateArticleMetadata(stories, options = {}) {
   );
 }
 
-function attachReutersSourceIcon(story) {
-  if (story?.source !== "Reuters" || story.thumbnailUrl || story.sourceIconUrl) {
+function attachSourceIcon(story, sourceLabel, sourceIconUrl) {
+  if (story?.source !== sourceLabel || story.thumbnailUrl || story.sourceIconUrl) {
     return story;
   }
 
   return {
     ...story,
-    sourceIconUrl: REUTERS_SOURCE_ICON_URL,
+    sourceIconUrl,
   };
+}
+
+function attachReutersSourceIcon(story) {
+  return attachSourceIcon(story, "Reuters", REUTERS_SOURCE_ICON_URL);
+}
+
+function attachWashingtonPostSourceIcon(story) {
+  return attachSourceIcon(story, "Washington Post", WASHINGTON_POST_SOURCE_ICON_URL);
+}
+
+async function hydrateWashingtonPostMetadata(stories) {
+  const hydratedStories = await hydrateArticleMetadata(stories);
+  return hydratedStories.map(attachWashingtonPostSourceIcon);
 }
 
 async function hydrateReutersMetadata(stories) {
@@ -1586,16 +1635,30 @@ function dedupeByUrl(items) {
   });
 }
 
+async function collectWashingtonPostSource(sourceConfig, feedXml) {
+  let items = parseWashingtonPostRssItems(feedXml, sourceConfig);
+
+  if (items.length < 5 && sourceConfig.pageUrl) {
+    const pageHtml = await fetchText(sourceConfig.pageUrl);
+    items = [...items, ...parseWashingtonPostWorldHtml(pageHtml, sourceConfig)];
+  }
+
+  return hydrateWashingtonPostMetadata(dedupeByUrl(items).slice(0, 5));
+}
+
 async function collectNewsSource(sourceConfig) {
   if (sourceConfig.kind === "rss") {
     const xml = await fetchText(sourceConfig.url);
+
+    if (sourceConfig.id === "washington-post") {
+      return collectWashingtonPostSource(sourceConfig, xml);
+    }
+
     const items =
       sourceConfig.id === "reuters"
         ? parseGoogleNewsReutersItems(xml, sourceConfig)
         : sourceConfig.id === "npr"
           ? parseNprRssItems(xml, sourceConfig)
-        : sourceConfig.id === "washington-post"
-          ? parseWashingtonPostRssItems(xml, sourceConfig)
         : parseRssItems(xml, sourceConfig).filter((item) => item.title && item.url);
     const dedupedItems = dedupeByUrl(items).slice(0, 5);
 

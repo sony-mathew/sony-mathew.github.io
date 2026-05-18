@@ -1,5 +1,5 @@
 export const DEFAULT_TIME_ZONE = "Asia/Kolkata";
-export const SOURCE_REVISION = "2026-05-19-washington-post-hn-summaries";
+export const SOURCE_REVISION = "2026-05-19-washington-post-top-up-images";
 export const REUTERS_MODE = "google-news-rss";
 export const MARKET_MODE = "yahoo-world-indices-page";
 export const REUTERS_FEED_URL =
@@ -16,6 +16,7 @@ export const NEWS_SOURCES = [
     region: "Global",
     kind: "rss",
     url: "https://feeds.washingtonpost.com/rss/world",
+    pageUrl: "https://www.washingtonpost.com/world/",
     baseUrl: "https://www.washingtonpost.com",
   },
   {
