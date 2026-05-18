@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+  <channel>
+    <title>Washington Post: World</title>
+    <link>https://www.washingtonpost.com/world/</link>
+    <item>
+      <title>Washington Post headline one</title>
+      <link>https://www.washingtonpost.com/world/2026/04/19/example-story-one/</link>
+      <description>Lead story summary from the Washington Post world feed.</description>
+      <dc:creator>The Washington Post</dc:creator>
+      <pubDate>Mon, 20 Apr 2026 06:20:22 +0000</pubDate>
+      <media:content height="1800" medium="image" url="https://www.washingtonpost.com/resizer/example-story-one.jpg" width="1800"></media:content>
+    </item>
+    <item>
+      <title>Washington Post headline two</title>
+      <link>https://www.washingtonpost.com/world/2026/04/19/example-story-two/</link>
+      <description>Second story summary from the Washington Post world feed.</description>
+      <dc:creator>Reporter Two</dc:creator>
+      <pubDate>Sun, 19 Apr 2026 21:54:21 +0000</pubDate>
+      <media:content height="1800" medium="image" url="https://www.washingtonpost.com/resizer/example-story-two.jpg" width="1800"></media:content>
+    </item>
+  </channel>
+</rss>

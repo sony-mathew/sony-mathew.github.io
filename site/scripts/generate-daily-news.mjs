@@ -811,9 +811,9 @@ export function parseNprRssItems(
     .filter((item) => item.title && item.url);
 }
 
-export function parseNewYorkTimesRssItems(
+export function parseWashingtonPostRssItems(
   xmlText,
-  sourceConfig = NEWS_SOURCES.find((source) => source.id === "new-york-times")
+  sourceConfig = NEWS_SOURCES.find((source) => source.id === "washington-post")
 ) {
   const itemMatches = [...xmlText.matchAll(/<item\b[\s\S]*?<\/item>/g)];
 
@@ -1582,8 +1582,8 @@ async function collectNewsSource(sourceConfig) {
         ? parseGoogleNewsReutersItems(xml, sourceConfig)
         : sourceConfig.id === "npr"
           ? parseNprRssItems(xml, sourceConfig)
-        : sourceConfig.id === "new-york-times"
-          ? parseNewYorkTimesRssItems(xml, sourceConfig)
+        : sourceConfig.id === "washington-post"
+          ? parseWashingtonPostRssItems(xml, sourceConfig)
         : parseRssItems(xml, sourceConfig).filter((item) => item.title && item.url);
     const dedupedItems = dedupeByUrl(items).slice(0, 5);
 
