@@ -332,9 +332,9 @@ test("dry run emits markdown frontmatter and source notes", async () => {
       result.document,
       /Daily Brief for April 19, 2026: Global Headlines, Markets, Hacker News, Product Hunt/
     );
-    assert.match(result.document, /description: "Global headlines lead with /);
+    assert.match(result.document, /description: "Global headlines include /);
     assert.match(result.document, /The lead story context: /);
-    assert.match(result.document, /Other headline notes include /);
+    assert.match(result.document, /Additional context: /);
     assert.match(result.document, /The market table tracks /);
     assert.match(result.document, /Hacker News highlights include /);
     assert.match(result.document, /The HN section keeps the focus /);
@@ -352,6 +352,10 @@ test("dry run emits markdown frontmatter and source notes", async () => {
     assert.equal(Array.isArray(result.payload.markets), true);
     assert.equal(Array.isArray(result.payload.hackerNews), true);
     assert.equal(Array.isArray(result.payload.productHunt), true);
+    assert.equal(Array.isArray(result.payload.summarySections), true);
+    assert.equal(result.payload.summarySections.length, 2);
+    assert.equal(result.payload.summarySections[0].title, "News and markets");
+    assert.equal(result.payload.summarySections[1].title, "Hacker News and Product Hunt");
     assert.equal(Array.isArray(result.payload.sourceNotes.warnings), true);
     assert.ok(result.payload.headlines.length > 0);
     assert.equal(result.payload.markets.length, 7);
@@ -528,6 +532,7 @@ test("generated daily news markdown loads structured payload through the collect
     assert.equal(data.dailyNewsPayload.headlines.length > 0, true);
     assert.equal(data.dailyNewsPayload.markets.length, 7);
     assert.equal(Array.isArray(data.dailyNewsPayload.hackerNews), true);
+    assert.equal(data.dailyNewsPayload.summarySections.length, 2);
     assert.equal(
       data.dailyNewsPayload.headlines.find(
         (item) => item.source === "Reuters" && item.url.startsWith("https://news.google.com/")

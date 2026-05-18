@@ -196,6 +196,16 @@ function joinReadableList(items, conjunction = "and") {
   return `${cleanItems.slice(0, -1).join(", ")}, ${conjunction} ${cleanItems[cleanItems.length - 1]}`;
 }
 
+function joinSemicolonList(items, conjunction = "and") {
+  const cleanItems = items.map((item) => normalizeWhitespace(item)).filter(Boolean);
+
+  if (cleanItems.length <= 2) {
+    return joinReadableList(cleanItems, conjunction);
+  }
+
+  return `${cleanItems.slice(0, -1).join("; ")}; ${conjunction} ${cleanItems[cleanItems.length - 1]}`;
+}
+
 function isDateOnlyValue(value = "") {
   return /^\d{4}-\d{2}-\d{2}$/.test(String(value).trim());
 }
@@ -1763,7 +1773,17 @@ function getShortSummary(value = "", maxLength = 180) {
   return truncateText(stripHtml(value), maxLength);
 }
 
-function createFallbackEditionMetadata(payload, humanDate) {
+function ensureSentence(value = "") {
+  const normalized = normalizeWhitespace(value);
+
+  if (!normalized) {
+    return "";
+  }
+
+  return /[.!?]$/.test(normalized) ? normalized : `${normalized}.`;
+}
+
+function createEditionSummarySections(payload) {
   const headlineItems = payload.headlines || [];
   const hackerNewsItems = payload.hackerNews || [];
   const productHuntItems = payload.productHunt || [];
@@ -1790,7 +1810,81 @@ function createFallbackEditionMetadata(payload, humanDate) {
   const biggestMarketMove = marketItems
     .slice()
     .sort((first, second) => Math.abs(second.percentChange) - Math.abs(first.percentChange))[0];
+  const newsSentences = [];
+  const builderSentences = [];
 
+  if (topHeadlineTitles.length > 0) {
+    newsSentences.push(ensureSentence(`Global headlines include ${joinSemicolonList(topHeadlineTitles)}`));
+    if (topHeadlineSummaries[0]) {
+      newsSentences.push(ensureSentence(`The lead story context: ${topHeadlineSummaries[0]}`));
+    }
+    if (topHeadlineSummaries.length > 1) {
+      topHeadlineSummaries.slice(1, 3).forEach((summary) => {
+        newsSentences.push(ensureSentence(`Additional context: ${summary}`));
+      });
+    }
+  } else {
+    newsSentences.push("Global headline coverage was unavailable for this edition.");
+  }
+
+  if (marketItems.length > 0) {
+    const balance =
+      upMarkets === downMarkets
+        ? "split evenly"
+        : upMarkets > downMarkets
+          ? `leaned higher, with ${upMarkets} of ${marketItems.length} tracked indexes up`
+          : `leaned lower, with ${downMarkets} of ${marketItems.length} tracked indexes down`;
+    const moveLabel = getMarketMoveLabel(biggestMarketMove);
+    newsSentences.push(
+      ensureSentence(`Markets ${balance}${moveLabel ? ` and ${moveLabel} as the largest move` : ""}`)
+    );
+    newsSentences.push(
+      ensureSentence(`The market table tracks ${joinReadableList(
+        marketItems.slice(0, 4).map((item) => item.label)
+      )}${marketItems.length > 4 ? ` plus ${marketItems.length - 4} more indexes` : ""}`)
+    );
+  } else {
+    newsSentences.push("Market data was unavailable for the selected benchmark indexes.");
+  }
+
+  if (topHackerNewsTitles.length > 0) {
+    builderSentences.push(ensureSentence(`Hacker News highlights include ${joinSemicolonList(topHackerNewsTitles)}`));
+    builderSentences.push("The HN section keeps the focus on recent external links from the edition window.");
+  } else {
+    builderSentences.push("Hacker News did not return recent qualifying links for the edition window.");
+  }
+
+  if (topProductHuntNames.length > 0) {
+    builderSentences.push(ensureSentence(`Product Hunt features ${joinReadableList(topProductHuntNames)}`));
+    if (topProductHuntTaglines.length > 0) {
+      builderSentences.push(
+        ensureSentence(`Product taglines frame the launches as ${joinReadableList(topProductHuntTaglines)}`)
+      );
+    }
+  } else {
+    builderSentences.push("Product Hunt listings were unavailable, so the edition notes that source gap.");
+  }
+
+  return [
+    { title: "News and markets", sentences: newsSentences },
+    { title: "Hacker News and Product Hunt", sentences: builderSentences },
+  ].filter((section) => section.sentences.length > 0);
+}
+
+function createFallbackEditionMetadata(payload, humanDate) {
+  const headlineItems = payload.headlines || [];
+  const hackerNewsItems = payload.hackerNews || [];
+  const productHuntItems = payload.productHunt || [];
+  const topHeadlineTitles = headlineItems
+    .slice(0, 3)
+    .map((item) => truncateText(item.title, 96));
+  const topHackerNewsTitles = hackerNewsItems
+    .slice(0, 3)
+    .map((item) => truncateText(item.title, 88));
+  const topProductHuntNames = productHuntItems
+    .slice(0, 3)
+    .map((item) => truncateText(item.name, 72));
+  const marketItems = payload.markets || [];
   const fallbackTitleFocus =
     topHeadlineTitles.length > 0
       ? topHeadlineTitles.slice(0, 2).join("; ")
@@ -1802,63 +1896,11 @@ function createFallbackEditionMetadata(payload, humanDate) {
           ].filter(Boolean)
         );
   const title = truncateText(`Daily Brief for ${humanDate}: ${fallbackTitleFocus}`, 150);
-  const sentences = [];
-
-  if (topHeadlineTitles.length > 0) {
-    sentences.push(`Global headlines lead with ${joinReadableList(topHeadlineTitles)}.`);
-    if (topHeadlineSummaries[0]) {
-      sentences.push(`The lead story context: ${topHeadlineSummaries[0]}.`);
-    }
-    if (topHeadlineSummaries.length > 1) {
-      sentences.push(
-        `Other headline notes include ${joinReadableList(topHeadlineSummaries.slice(1, 3))}.`
-      );
-    }
-  } else {
-    sentences.push("Global headline coverage was unavailable for this edition.");
-  }
-
-  if (marketItems.length > 0) {
-    const balance =
-      upMarkets === downMarkets
-        ? "split evenly"
-        : upMarkets > downMarkets
-          ? `leaned higher, with ${upMarkets} of ${marketItems.length} tracked indexes up`
-          : `leaned lower, with ${downMarkets} of ${marketItems.length} tracked indexes down`;
-    const moveLabel = getMarketMoveLabel(biggestMarketMove);
-    sentences.push(
-      `Markets ${balance}${moveLabel ? ` and ${moveLabel} as the largest move` : ""}.`
-    );
-    sentences.push(
-      `The market table tracks ${joinReadableList(
-        marketItems.slice(0, 4).map((item) => item.label)
-      )}${marketItems.length > 4 ? ` plus ${marketItems.length - 4} more indexes` : ""}.`
-    );
-  } else {
-    sentences.push("Market data was unavailable for the selected benchmark indexes.");
-  }
-
-  if (topHackerNewsTitles.length > 0) {
-    sentences.push(`Hacker News highlights include ${joinReadableList(topHackerNewsTitles)}.`);
-    sentences.push(
-      `The HN section keeps the focus on recent external links from the edition window.`
-    );
-  } else {
-    sentences.push("Hacker News did not return recent qualifying links for the edition window.");
-  }
-
-  if (topProductHuntNames.length > 0) {
-    sentences.push(`Product Hunt features ${joinReadableList(topProductHuntNames)}.`);
-    if (topProductHuntTaglines.length > 0) {
-      sentences.push(`Product taglines frame the launches as ${joinReadableList(topProductHuntTaglines)}.`);
-    }
-  } else {
-    sentences.push("Product Hunt listings were unavailable, so the edition notes that source gap.");
-  }
+  const summarySections = createEditionSummarySections(payload);
 
   return {
     title,
-    description: sentences.join(" "),
+    description: summarySections.flatMap((section) => section.sentences).join(" "),
     source: "fallback",
   };
 }
@@ -2097,6 +2139,12 @@ export async function generateEdition({ editionDate, dryRun = false, overwrite =
     markets: markets.items,
     hackerNews: hackerNews.items,
     productHunt: enrichedProductHunt,
+    summarySections: createEditionSummarySections({
+      headlines: enrichedHeadlines,
+      markets: markets.items,
+      hackerNews: hackerNews.items,
+      productHunt: enrichedProductHunt,
+    }),
     sourceNotes: sourceNotes.payload,
   };
   const body = '<div data-daily-news-payload="true"></div>';
