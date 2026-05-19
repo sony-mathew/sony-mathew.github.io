@@ -1,0 +1,509 @@
+{
+  "headlines": [
+    {
+      "title": "Ukrainian drones hit Moscow and surrounding area, killing 3",
+      "url": "https://www.washingtonpost.com/world/2026/05/17/ukrainian-drones-hit-moscow-russias-capital-region-killing-three/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Sun, 17 May 2026 20:46:52 +0000",
+      "summary": "The attack, the largest and most deadly to target the Russian capital region since the invasion of Ukraine in 2022, showed Kyiv’s increasing ability to carry out long-range strikes.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/7Y346YOMAGGI56XE7BLJAFZ42Y.JPG&w=1440"
+    },
+    {
+      "title": "Xi, in summit victory, projected stability and conceded nothing to Trump",
+      "url": "https://www.washingtonpost.com/world/2026/05/17/chinas-xi-got-what-he-wanted-out-summit-with-trump-beijing/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Sun, 17 May 2026 09:00:00 +0000",
+      "summary": "There were no big breakthroughs but also no blunders, and the summit positioned Xi Jinping as a leader at the height of his power seeking global stability.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/YQCQA3QQ25ZCVZQIDGU4OWG4TI.JPG&w=1440"
+    },
+    {
+      "title": "Trump says he’s called off an attack on Iran to give talks more time",
+      "url": "https://www.washingtonpost.com/politics/2026/05/18/trump-says-hes-called-off-attack-iran/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "2026-05-18",
+      "summary": "The president said he postponed a planned strike at the urging of Middle Eastern leaders.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/PYCEKNHO3YN3EMRH7DWIGBDUHU.jpg&w=860"
+    },
+    {
+      "title": "Americans may have been exposed in Congo Ebola outbreak",
+      "url": "https://www.washingtonpost.com/health/2026/05/17/cdc-readies-team-respond-ebola-outbreak-africa/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "2026-05-17",
+      "summary": "The WHO declared the outbreak in the Democratic Republic of Congo and Uganda a public health emergency of international concern.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/7Y346YOMAGGI56XE7BLJAFZ42Y.JPG&w=300&h=169"
+    },
+    {
+      "title": "Lula is trying to show the left how to deal with Trump",
+      "url": "https://www.washingtonpost.com/world/2026/05/17/lula-interview-if-i-can-make-trump-laugh-i-can-achieve-more-brazil/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "2026-05-17",
+      "summary": "The lion of the Latin American left wants to prove he can work with the global right without surrendering to it.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/PXBOZCJOVWNNNAB2ZUVY57IRNI.jpg&w=300"
+    },
+    {
+      "title": "Trump says Iran attack on ‘hold’; Israel kills 3,000 in Lebanon since March",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/5/19/iran-war-live-trump-says-iran-attack-postponed-at-request-of-gulf-allies",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-05-19",
+      "summary": "Al Jazeera's correspondent in Tehran says Iran's leaders are 'projecting defiance' and rejecting 'pressure' from the US.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/05/2026-05-18T124628Z_126736026_RC2OBLALZFE0_RTRMADP_3_IRAN-CRISIS-LEBANON-ISRAEL-1779147232.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "US suspends joint defence effort with Canada dating back to World War II",
+      "url": "https://www.aljazeera.com/news/2026/5/18/us-suspends-joint-defence-effort-with-canada-dating-back-to-world-war-ii",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-05-18",
+      "summary": "The Trump administration has frequently accused US allies of failing to live up to mutual defence obligations.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/05/reuters_6a0b93ea-1779143658.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "A packed race for governor: What to know about Oregon’s primary elections",
+      "url": "https://www.aljazeera.com/news/2026/5/18/a-packed-race-for-governor-what-to-know-about-oregons-primary-elections",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-05-18",
+      "summary": "The primaries should winnow down the nearly two dozen candidates seeking to challenge incumbent Governor Tina Kotek.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/05/AP24281824811913-1779134962.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "A redistricting re-do? What to know about Alabama’s primary elections",
+      "url": "https://www.aljazeera.com/news/2026/5/18/a-redistricting-re-do-what-to-know-about-alabamas-primary-elections",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-05-18",
+      "summary": "Voters may have to return to the polls in August as state seeks to implement a previously blocked redistricting push.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/05/reuters_6a0b3b9b-1779121051.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Clashes as Morales-allied protesters march on Bolivian capital",
+      "url": "https://www.aljazeera.com/news/2026/5/18/clashes-as-morales-allied-protesters-march-on-bolivian-capital",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-05-18",
+      "summary": "South American country suffers huge protests as economic crisis fuels unrest against President Paz's government.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/05/afp_6a0b737d45f0-1779135357.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Why you should care about 2 power companies merging. Hint: affordability",
+      "url": "https://www.npr.org/2026/05/18/nx-s1-5825871/electricity-prices-nextera-dominion-merger-utilities",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Mon, 18 May 2026 18:00:12 -0400",
+      "summary": "NextEra Energy plans to acquire Dominion Energy to create the largest electricity producer in the United States.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5388x3592+0+0/resize/5388x3592!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F61%2F95%2F2244179b479380cbf26a0afdd015%2Fgettyimages-2276418005.jpg"
+    },
+    {
+      "title": "Tuesday is a big primary day. Here's what you need to know",
+      "url": "https://www.npr.org/2026/05/18/g-s1-122235/primary-day-alabama-georgia-idaho-kentucky-oregon-pennsylvania",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Mon, 18 May 2026 16:58:00 -0400",
+      "summary": "Six states are holding primaries May 19 that could help to decide the balance of power in Congress and in key state governments.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6000x4000+0+0/resize/6000x4000!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F1f%2F8f%2F459baac543159275e861a7377cdd%2Fgettyimages-2265310983.jpg"
+    },
+    {
+      "title": "Is Kennedy heir Jack Schlossberg ready to lead?",
+      "url": "https://www.npr.org/2026/05/18/nx-s1-5823879/is-kennedy-heir-jack-schlossberg-ready-to-lead",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Mon, 18 May 2026 16:30:59 -0400",
+      "summary": "NPR's Juana Summers speaks with Jack Schlossberg, Democratic candidate for New York's 12th Congressional District and the grandson of President John F. Kennedy.",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "This Ebola outbreak raises questions about when it all began — and the U.S. response",
+      "url": "https://www.npr.org/2026/05/18/g-s1-122655/ebola-outbreak-democratic-republic-congo-uganda",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Mon, 18 May 2026 16:10:41 -0400",
+      "summary": "The sheer number of cases and deaths are a sign that the outbreak might have been smoldering before the virus was identified.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5620x3747+0+0/resize/5620x3747!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F7d%2F23%2F1fc0eb494899b1b2b7027daaa4b4%2Febola-2276381440.jpg"
+    },
+    {
+      "title": "Jury dismisses all claims in Elon Musk's lawsuit against OpenAI CEO Sam Altman",
+      "url": "https://www.npr.org/2026/05/18/nx-s1-5822366/musk-altman-openai-jury-verdict-claims-dismissed",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Mon, 18 May 2026 14:03:34 -0400",
+      "summary": "Musk had sought to oust Altman from his leadership position over claims that he and others breached their duty to OpenAI's original nonprofit mission and unjustly enriched themselves.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4870x3247+0+0/resize/4870x3247!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fc7%2Fb2%2F9a0d3c1148ae8088b5599d164174%2Fap26120551910145.jpg"
+    },
+    {
+      "title": "Summit charts course for China-US relations",
+      "url": "https://www.chinadaily.com.cn/a/202605/19/WS6a0ba7b5a310d6866eb494fe.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-05-19",
+      "summary": "President Xi Jinping and US President Donald Trump have agreed on a new vision of building a constructive bilateral relationship of strategic stability.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202605/19/6a0ba7b5a310d68600fdb744.jpeg"
+    },
+    {
+      "title": "Outstanding Diplomat Medal presented",
+      "url": "https://www.chinadaily.com.cn/a/202605/19/WS6a0b9be3a310d6866eb494e3.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-05-19",
+      "summary": "China held the inaugural presentation ceremony of the Outstanding Diplomat Medal on Monday, honoring eight current and former ambassadors to China for their contributions to advancing friendship and cooperation between China and the world.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202605/19/6a0b9be3a310d68600fdb6e0.jpeg"
+    },
+    {
+      "title": "Cambridge innovation hub sets ambitious growth plan",
+      "url": "https://www.chinadaily.com.cn/a/202605/19/WS6a0b4affa310d6866eb49492.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-05-19",
+      "summary": "Cambridge Science Park, the United Kingdom's oldest and largest hub for science and technology innovation, is planning a 30-year expansion that would triple its capacity for research-focused companies.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202605/19/6a0b4afea310d68600fdb50d.png"
+    },
+    {
+      "title": "At least 5 killed in shooting at US San Diego Islamic center",
+      "url": "https://www.chinadaily.com.cn/a/202605/19/WS6a0b81b7a310d6866eb49496.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-05-19",
+      "summary": "LOS ANGELES -- At least five people were killed Monday in a shooting at the Islamic Center of San Diego (ICSD) in southern California, including three victims and two suspected shooters, according to police authorities.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202605/19/6a0b8fbca310d68600fdb58d.jpeg"
+    },
+    {
+      "title": "Putin says Russian-Chinese ties reach 'truly unprecedented level'",
+      "url": "https://www.chinadaily.com.cn/a/202605/19/WS6a0ba96fa310d6866eb49504.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-05-19",
+      "summary": "MOSCOW -- Russia-China relations have reached \"a truly unprecedented level,\" Russian President Vladimir Putin said on Tuesday in a video address delivered before his state visit to China.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202605/19/6a0bd45ca310d68600fdc043.jpeg"
+    },
+    {
+      "title": "Parliamentary Standing Committee to review the reforms of National Testing Agency",
+      "url": "https://www.thehindu.com/news/national/parliamentary-panel-summons-nta-chief-to-review-reforms-neet-ug-paper-leak-case-on-may-21/article70993693.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-05-18T11:09:14.000Z",
+      "summary": "Parliamentary panel summons NTA chief on May 21 to review reforms and NEET-UG paper leak investigation.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/4h7wm9/article70993751.ece/alternates/LANDSCAPE_1200/PTI05_16_2026_000238B.jpg"
+    },
+    {
+      "title": "FIR against government officials for not doing Census work",
+      "url": "https://www.thehindu.com/news/national/fir-against-government-officials-for-not-doing-census-work/article70995244.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-05-18T17:20:38.000Z",
+      "summary": "Gurugram Police file FIR against 10 officials for failing to perform Census duties despite repeated warnings.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/8nhw1k/article70881073.ece/alternates/LANDSCAPE_1200/IMG_vbk-HANDCUFF-arrest_2_1_46C98QUC.jpg"
+    },
+    {
+      "title": "Supreme Court asks CBI to furnish classified documents to former R&AW officer in Official Secrets Act case",
+      "url": "https://www.thehindu.com/news/national/supreme-court-asks-cbi-to-furnish-classified-documents-to-former-raw-officer-in-official-secrets-act-case/article70994202.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-05-18T16:09:05.000Z",
+      "summary": "Supreme Court orders CBI to provide sensitive documents to Major General V.K. Singh in his Official Secrets Act trial.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/w0lekn/article70995191.ece/alternates/LANDSCAPE_1200/Nearby_Shape-wiGR7FV5KAC.3.jpg.jpg"
+    },
+    {
+      "title": "Petrol, diesel prices hiked by 90 paise per litre",
+      "url": "https://www.thehindu.com/news/national/petrol-diesel-price-hike-fuel-rise-may-19-2026/article70996398.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-05-19T01:06:52.000Z",
+      "summary": "Petrol and diesel prices increase by 90 paise per litre, marking the second hike in less than a week.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/hg0ia3/article70996402.ece/alternates/LANDSCAPE_1200/DSC_4978.JPG"
+    },
+    {
+      "title": "Church bodies offer to broker Kuki-Naga peace in Manipur",
+      "url": "https://www.thehindu.com/news/national/manipur/church-bodies-offer-to-broker-kuki-naga-peace-in-manipur/article70995024.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-05-18T16:34:51.000Z",
+      "summary": "Church leaders in Manipur seek to mediate peace between Kukis and Nagas amid ongoing ethnic conflict and humanitarian crisis.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/news/national/gpxlt7/article70995262.ece/alternates/LANDSCAPE_1200/Manipur.jpg"
+    },
+    {
+      "title": "Exclusive: Trump official helped secure US visa for fugitive Polish minister",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNa21RbkEwdEVWNzcyWkdwMXJqX0l1aFg2S1pwei1QZHJkZ1JUeHlOZ2U1c3VyV3NOT3VnRDBFdE45Tm5PMUZVQXJFcS05OHl1WVQ0Q2Z1eXFSeW1kMnl0M3NVaGNOWFg0T2dKQklNZGxpZ096U3Y4N3dWODBYR29xT2Y5ZlRzZzlyOXVUUjdNWm1Eb2Q1d2xfbVA2WFVUc1FPWXpRWE41bmZFUmdHYmM4?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Mon, 18 May 2026 20:01:09 GMT",
+      "summary": "Reuters: Exclusive: Trump official helped secure US visa for fugitive Polish minister.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "Exclusive: Meta lays out details of May 20 restructuring in internal document",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOeU9uWEUtam15N0pKQzdxSGZBOGVhZG84V3BETV9USHJsSjhmSThFSE5Cd3FfeGMzeUZneWxyemRqNjF4Sjc4clRPeDdMUzBud19OYzBnWENaLVQwRnBiNUZTYUlNU01qd1NYdFNqZk5MZW1QTXRCdWwxLTdndTdyTm1lR2dCRmtrYl9ybEVacXV4dDRhQ1kwcUdqeXBxeEkwYVNKWjJlSkRMWVBscnhpQndJUQ?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Mon, 18 May 2026 22:43:02 GMT",
+      "summary": "Reuters: Exclusive: Meta lays out details of May 20 restructuring in internal document.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "Five dead, including two teen suspects, after shooting at San Diego mosque",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNby1wWmVhVWF2QTNBYmN0aFlhVEoxTURyUTBvSjFmS2FyYVNNb0tKa0lmbXJ1c0pDdlNSTHpUMk9CM0JYZk9qYl90OEZNNjhsSGhZZTdaVUF6elAzOE0xY0RoUmRjTnNLcUNzbDJHTVVvLUktZHByWElFc3dKUkc2alpRdWVlanp0WlgyYk5sdlJSdEpYVWNfeUEtb21Fd0FoVWZGSE1WdURVclI2?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Mon, 18 May 2026 19:36:00 GMT",
+      "summary": "Reuters: Five dead, including two teen suspects, after shooting at San Diego mosque.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "US targets Cuban political, military leaders with new sanctions",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOVFNEOE5EWkhBMWJLS19sV01ISnBiXzh0cGJWQkRKWm9rOExMZmViU0N3OVMyQnVteUhqdFVsaGZBMFBSVTZJd09OV21HTHpzaFV2NU5wVVd3U2RUYlNwQkNlNGpFNkRBLWhSRHk0SE5ZZU5jSmxvUUZwc3ZCaE5zZnUzd3A1cVpSLU9DZVEtaVZVS2RObmpWd1RzMlZnWDJTalRfSjdEbDlnVExIb3djU0xlcw?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Mon, 18 May 2026 22:13:44 GMT",
+      "summary": "Reuters: US targets Cuban political, military leaders with new sanctions.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "Nvidia CEO says he believes China market will open over time",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdnVDbVBRcmJCcE5ZVGZXRVA0ejdJM3dBN2l5VUFvT3cyS3Bnbk5pZ0FCWHJ1aDEzTEh1QVJ5d0lMeERrMnlCWndmSlJJeld5bGNqTEhMaHo0VlMyaC1fak1VdXpkRXU3cFl2TzFTR3FhVWNSTG9Ed3VGekNyUU80Q2F0ZjB0QlJONzMzWmxmZHk1RlRKcmw4WWVPMU1Gb21Jd1NYMDl1dGVFWmdP?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Mon, 18 May 2026 18:56:27 GMT",
+      "summary": "Reuters: Nvidia CEO says he believes China market will open over time.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    }
+  ],
+  "markets": [
+    {
+      "id": "sp-500",
+      "label": "S&P 500",
+      "region": "US",
+      "symbol": "^GSPC",
+      "value": 7403.05,
+      "previousClose": 7408.5001953,
+      "change": -5.4501953,
+      "percentChange": -0.07356679,
+      "direction": "down",
+      "sessionDate": "2026-05-19"
+    },
+    {
+      "id": "nasdaq-composite",
+      "label": "NASDAQ Composite",
+      "region": "US",
+      "symbol": "^IXIC",
+      "value": 26090.73,
+      "previousClose": 26225.14016,
+      "change": -134.41016,
+      "percentChange": -0.512524,
+      "direction": "down",
+      "sessionDate": "2026-05-19"
+    },
+    {
+      "id": "euronext-100",
+      "label": "Euronext 100 Index",
+      "region": "Europe",
+      "symbol": "^N100",
+      "value": 1798.04,
+      "previousClose": 1798.829917,
+      "change": -0.789917,
+      "percentChange": -0.04391282,
+      "direction": "down",
+      "sessionDate": "2026-05-19"
+    },
+    {
+      "id": "moex",
+      "label": "Public Joint-Stock Company Moscow Exchange MICEX-RTS",
+      "region": "Europe",
+      "symbol": "MOEX.ME",
+      "value": 85.2,
+      "previousClose": 85.31000061,
+      "change": -0.11000061,
+      "percentChange": -0.12894222,
+      "direction": "down",
+      "sessionDate": "2026-05-19"
+    },
+    {
+      "id": "hang-seng",
+      "label": "HANG SENG INDEX",
+      "region": "Asia",
+      "symbol": "^HSI",
+      "value": 25776.87,
+      "previousClose": 25675.180549999997,
+      "change": 101.68945,
+      "percentChange": 0.3960764,
+      "direction": "up",
+      "sessionDate": "2026-05-19"
+    },
+    {
+      "id": "nikkei-225",
+      "label": "Nikkei 225",
+      "region": "Asia",
+      "symbol": "^N225",
+      "value": 60429.76,
+      "previousClose": 60815.9475,
+      "change": -386.1875,
+      "percentChange": -0.63501024,
+      "direction": "down",
+      "sessionDate": "2026-05-19"
+    },
+    {
+      "id": "sensex",
+      "label": "S&P BSE SENSEX",
+      "region": "India",
+      "symbol": "^BSESN",
+      "value": 75315.04,
+      "previousClose": 75237.993125,
+      "change": 77.046875,
+      "percentChange": 0.102404214,
+      "direction": "up",
+      "sessionDate": "2026-05-19"
+    }
+  ],
+  "hackerNews": [
+    {
+      "title": "Click (2016)",
+      "url": "https://clickclickclick.click/",
+      "publishedAt": "2026-05-18T23:03:02.000Z",
+      "summary": "A browser-based game on online profiling.",
+      "thumbnailUrl": "https://s3-eu-west-1.amazonaws.com/clickclickclick.click/images/OG.png"
+    },
+    {
+      "title": "Anthropic co-founder to present AI encyclical alongside Pope Leo XIV",
+      "url": "https://www.vaticannews.va/en/pope/news/2026-05/pope-leo-xiv-first-encyclical-magnifica-humanitas.html",
+      "publishedAt": "2026-05-18T23:18:10.000Z",
+      "summary": "Pope Leo XIV’s first encyclical, Magnifica humanitas, on preserving the human person in the age of artificial intelligence, will be released on May ...",
+      "thumbnailUrl": "https://www.vaticannews.va/content/dam/vaticannews/agenzie/images/srv/2026/05/06/2026-05-06-udienza-generale/1778056864955.JPG/_jcr_content/renditions/cq5dam.thumbnail.cropped.1500.844.jpeg"
+    },
+    {
+      "title": "Anthropic acquires Stainless",
+      "url": "https://www.anthropic.com/news/anthropic-acquires-stainless",
+      "publishedAt": "2026-05-18T17:01:21.000Z",
+      "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+      "thumbnailUrl": "https://www.anthropic.com/api/opengraph-illustration?name=Node%20Shapes&backgroundColor=coral"
+    },
+    {
+      "title": "Peter Salus has died",
+      "url": "https://www.tuhs.org/pipermail/tuhs/2026-May/033750.html",
+      "publishedAt": "2026-05-19T02:56:42.000Z",
+      "summary": "tuhs.org: Peter Salus has died.",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "We stopped AI bot spam in our GitHub repo using Git's –author flag",
+      "url": "https://archestra.ai/blog/only-responsible-ai",
+      "publishedAt": "2026-05-18T15:24:19.000Z",
+      "summary": "Is it the end of open source we know and love?",
+      "thumbnailUrl": "https://archestra.ai/blog/2026-04-07-only-responsible-ai.webp"
+    },
+    {
+      "title": "Hyperpolyglot Lisp: Common Lisp, Racket, Clojure, Emacs Lisp",
+      "url": "https://hyperpolyglot.org/lisp",
+      "publishedAt": "2026-05-18T19:27:25.000Z",
+      "summary": "grammar and execution | variables and expressions | arithmetic and logic | strings | regular expressions | dates and time | lists | fixed-length arrays | dictionaries | user-defined types | functions | execution control | exceptions | streams | emacs buffers | files | directories | processes and environment | libraries and namespaces | objects | lisp macros | reflection | java interop",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "We let AIs run radio stations",
+      "url": "https://andonlabs.com/blog/andon-fm",
+      "publishedAt": "2026-05-18T18:12:18.000Z",
+      "summary": "Four AI models run radio stations 24/7. Five months later, one became a protest broadcaster, one collapsed into ritual chant, one developed corporate jargon, and one wrote quiet poetry.",
+      "thumbnailUrl": "https://andonlabs.com/andon-fm-blog-og.webp"
+    },
+    {
+      "title": "The last six months in LLMs in five minutes",
+      "url": "https://simonwillison.net/2026/May/19/5-minute-llms/",
+      "publishedAt": "2026-05-19T01:30:42.000Z",
+      "summary": "I put together these annotated slides from my five minute lightning talk at PyCon US 2026, using the latest iteration of my annotated presentation tool. # I presented this lightning …",
+      "thumbnailUrl": "https://static.simonwillison.net/static/2026/5-minutes-llms/5-minutes-llms.001.jpeg"
+    },
+    {
+      "title": "Show HN: Files.md – Open-source alternative to Obsidian",
+      "url": "https://github.com/zakirullin/files.md",
+      "publishedAt": "2026-05-18T13:33:33.000Z",
+      "summary": "🌱 Your life in plain .md files. Contribute to zakirullin/files.md development by creating an account on GitHub.",
+      "thumbnailUrl": "https://opengraph.githubassets.com/ac7b80a1028ed85b877654aa98932ac2758738b591c9d6eff32102d4ea48c88a/zakirullin/files.md"
+    },
+    {
+      "title": "Data Center Waste Heat as an Emerging Urban Thermal Hazard",
+      "url": "https://asmedigitalcollection.asme.org/sustainablebuildings/article/doi/10.1115/1.4071922/1233035/Data-center-waste-heat-as-an-emerging-urban",
+      "publishedAt": "2026-05-19T00:20:42.000Z",
+      "summary": "asmedigitalcollection.asme.org: Data Center Waste Heat as an Emerging Urban Thermal Hazard."
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "LandingHero AI",
+      "tagline": "24/7 Salesperson on Your Website",
+      "url": "https://www.producthunt.com/products/landinghero-ai-2",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-05-18T20:01:12-07:00"
+    },
+    {
+      "name": "Draft",
+      "tagline": "Capture AI chats into your knowledge base",
+      "url": "https://www.producthunt.com/products/draft-12",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-05-18T20:03:25-07:00"
+    },
+    {
+      "name": "M1 by Montage",
+      "tagline": "Agentic UI that scales on demand",
+      "url": "https://www.producthunt.com/products/montage-3",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-05-18T20:01:21-07:00"
+    },
+    {
+      "name": "Krea 2",
+      "tagline": "An image model built for style control and moodboards",
+      "url": "https://www.producthunt.com/products/krea",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-05-18T20:00:01-07:00"
+    },
+    {
+      "name": "Origio",
+      "tagline": "A personalized way to discover where to live",
+      "url": "https://www.producthunt.com/products/origio",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-05-18T20:04:11-07:00"
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "News and markets",
+      "sentences": [
+        "Global headlines include Ukrainian drones hit Moscow and surrounding area, killing 3; Xi, in summit victory, projected stability and conceded nothing to Trump; and Trump says he’s called off an attack on Iran to give talks more time.",
+        "The lead story context: The attack, the largest and most deadly to target the Russian capital region since the invasion of Ukraine in 2022, showed Kyiv’s increasing ability to carry out long-range...",
+        "Additional context: There were no big breakthroughs but also no blunders, and the summit positioned Xi Jinping as a leader at the height of his power seeking global stability.",
+        "Additional context: The president said he postponed a planned strike at the urging of Middle Eastern leaders.",
+        "Markets leaned lower, with 5 of 7 tracked indexes down and Nikkei 225 down 0.64% as the largest move.",
+        "The market table tracks S&P 500, NASDAQ Composite, Euronext 100 Index, and Public Joint-Stock Company Moscow Exchange MICEX-RTS plus 3 more indexes."
+      ]
+    },
+    {
+      "title": "Hacker News and Product Hunt",
+      "sentences": [
+        "Hacker News highlights include Click (2016); Anthropic co-founder to present AI encyclical alongside Pope Leo XIV; and Anthropic acquires Stainless.",
+        "HN link context includes A browser-based game on online profiling, Pope Leo XIV’s first encyclical, Magnifica humanitas, on preserving the human person in the age of artificial intelligence, will be, and Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+        "Product Hunt features LandingHero AI, Draft, and M1 by Montage.",
+        "Product taglines frame the launches as 24/7 Salesperson on Your Website, Capture AI chats into your knowledge base, and Agentic UI that scales on demand."
+      ]
+    }
+  ],
+  "sourceNotes": {
+    "generatedAt": "2026-05-19T03:13:30.206Z",
+    "timeZone": "Asia/Kolkata",
+    "successfulSources": [
+      "Washington Post",
+      "Al Jazeera",
+      "NPR",
+      "China Daily",
+      "The Hindu",
+      "Reuters"
+    ],
+    "marketSessionLabel": "Latest market sessions as of 2026-05-19",
+    "warnings": []
+  }
+}
