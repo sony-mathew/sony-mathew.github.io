@@ -383,14 +383,20 @@ test("dry run emits markdown frontmatter and source notes", async () => {
       result.document,
       /Daily Brief for April 19, 2026: Global Headlines, Markets, Hacker News, Product Hunt/
     );
-    assert.match(result.document, /description: "Global headlines include /);
-    assert.match(result.document, /The lead story context: /);
-    assert.match(result.document, /Additional context: /);
-    assert.match(result.document, /The market table tracks /);
-    assert.match(result.document, /Hacker News highlights include /);
-    assert.match(result.document, /HN link context includes /);
+    assert.match(result.document, /description: "Global headlines: /);
+    assert.match(result.document, /Washington Post headline one \(Lead story summary from the Washington Post world feed\)/);
+    assert.match(result.document, /Benchmarks tracked: /);
+    assert.match(result.document, /Hacker News: /);
+    assert.match(
+      result.document,
+      /HN story one \(Hacker News article summary from page metadata that should appear under the technology/
+    );
     assert.match(result.document, /Product Hunt features /);
-    assert.match(result.document, /Product taglines frame the launches as /);
+    assert.match(result.document, /Launch Alpha \(The first launch tagline\)/);
+    assert.doesNotMatch(result.document, /The lead story context: /);
+    assert.doesNotMatch(result.document, /Additional context: /);
+    assert.doesNotMatch(result.document, /HN link context includes /);
+    assert.doesNotMatch(result.document, /Product taglines frame the launches as /);
     assert.match(result.document, /payloadFile: "2026-04-19\.json"/);
     assert.match(result.document, /<div data-daily-news-payload="true"><\/div>/);
     assert.doesNotMatch(result.document, /data-daily-news-section="headlines"/);
