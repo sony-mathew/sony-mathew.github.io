@@ -2179,30 +2179,34 @@ function trimTerminalPunctuation(value = "") {
   return normalizeWhitespace(value).replace(/[.!?]+$/, "");
 }
 
-function createEditionSummarySections(payload) {
+function getSummaryFragment(value = "", maxLength = 160) {
+  const summary = getShortSummary(value, maxLength);
+
+  return summary.endsWith("...") ? summary : trimTerminalPunctuation(summary);
+}
+
+function formatSummaryItem(label, summary, labelMaxLength, summaryMaxLength) {
+  const cleanLabel = truncateText(label, labelMaxLength);
+  const cleanSummary = getSummaryFragment(summary, summaryMaxLength);
+
+  return cleanSummary ? `${cleanLabel} (${cleanSummary})` : cleanLabel;
+}
+
+export function createEditionSummarySections(payload) {
   const headlineItems = payload.headlines || [];
   const hackerNewsItems = payload.hackerNews || [];
   const productHuntItems = payload.productHunt || [];
-  const topHeadlineTitles = headlineItems
-    .slice(0, 3)
-    .map((item) => truncateText(item.title, 96));
   const topHeadlineSummaries = headlineItems
     .slice(0, 3)
-    .map((item) => getShortSummary(item.summary))
+    .map((item) => formatSummaryItem(item.title, item.summary, 96, 220))
     .filter(Boolean);
-  const topHackerNewsTitles = hackerNewsItems
-    .slice(0, 3)
-    .map((item) => truncateText(item.title, 88));
   const topHackerNewsSummaries = hackerNewsItems
     .slice(0, 3)
-    .map((item) => getShortSummary(item.summary, 140))
+    .map((item) => formatSummaryItem(item.title, item.summary, 88, 140))
     .filter(Boolean);
   const topProductHuntNames = productHuntItems
     .slice(0, 3)
-    .map((item) => truncateText(item.name, 72));
-  const topProductHuntTaglines = productHuntItems
-    .slice(0, 3)
-    .map((item) => getShortSummary(item.tagline, 140))
+    .map((item) => formatSummaryItem(item.name, item.tagline, 72, 90))
     .filter(Boolean);
   const marketItems = payload.markets || [];
   const upMarkets = marketItems.filter((item) => item.direction === "up").length;
@@ -2213,16 +2217,8 @@ function createEditionSummarySections(payload) {
   const newsSentences = [];
   const builderSentences = [];
 
-  if (topHeadlineTitles.length > 0) {
-    newsSentences.push(ensureSentence(`Global headlines include ${joinSemicolonList(topHeadlineTitles)}`));
-    if (topHeadlineSummaries[0]) {
-      newsSentences.push(ensureSentence(`The lead story context: ${topHeadlineSummaries[0]}`));
-    }
-    if (topHeadlineSummaries.length > 1) {
-      topHeadlineSummaries.slice(1, 3).forEach((summary) => {
-        newsSentences.push(ensureSentence(`Additional context: ${summary}`));
-      });
-    }
+  if (topHeadlineSummaries.length > 0) {
+    newsSentences.push(ensureSentence(`Global headlines: ${joinSemicolonList(topHeadlineSummaries)}`));
   } else {
     newsSentences.push("Global headline coverage was unavailable for this edition.");
   }
@@ -2236,10 +2232,10 @@ function createEditionSummarySections(payload) {
           : `leaned lower, with ${downMarkets} of ${marketItems.length} tracked indexes down`;
     const moveLabel = getMarketMoveLabel(biggestMarketMove);
     newsSentences.push(
-      ensureSentence(`Markets ${balance}${moveLabel ? ` and ${moveLabel} as the largest move` : ""}`)
+      ensureSentence(`Markets ${balance}${moveLabel ? `; ${moveLabel} was the largest move` : ""}`)
     );
     newsSentences.push(
-      ensureSentence(`The market table tracks ${joinReadableList(
+      ensureSentence(`Benchmarks tracked: ${joinReadableList(
         marketItems.slice(0, 4).map((item) => item.label)
       )}${marketItems.length > 4 ? ` plus ${marketItems.length - 4} more indexes` : ""}`)
     );
@@ -2247,31 +2243,14 @@ function createEditionSummarySections(payload) {
     newsSentences.push("Market data was unavailable for the selected benchmark indexes.");
   }
 
-  if (topHackerNewsTitles.length > 0) {
-    builderSentences.push(ensureSentence(`Hacker News highlights include ${joinSemicolonList(topHackerNewsTitles)}`));
-    if (topHackerNewsSummaries.length > 0) {
-      const hackerNewsContext = topHackerNewsSummaries
-        .slice(0, 3)
-        .map(trimTerminalPunctuation)
-        .filter(Boolean);
-
-      builderSentences.push(
-        ensureSentence(`HN link context includes ${joinReadableList(hackerNewsContext)}`)
-      );
-    } else {
-      builderSentences.push("The HN section keeps the focus on recent external links from the edition window.");
-    }
+  if (topHackerNewsSummaries.length > 0) {
+    builderSentences.push(ensureSentence(`Hacker News: ${joinSemicolonList(topHackerNewsSummaries)}`));
   } else {
     builderSentences.push("Hacker News did not return recent qualifying links for the edition window.");
   }
 
   if (topProductHuntNames.length > 0) {
     builderSentences.push(ensureSentence(`Product Hunt features ${joinReadableList(topProductHuntNames)}`));
-    if (topProductHuntTaglines.length > 0) {
-      builderSentences.push(
-        ensureSentence(`Product taglines frame the launches as ${joinReadableList(topProductHuntTaglines)}`)
-      );
-    }
   } else {
     builderSentences.push("Product Hunt listings were unavailable, so the edition notes that source gap.");
   }
