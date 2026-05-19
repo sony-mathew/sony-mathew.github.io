@@ -1,9 +1,11 @@
 export const DEFAULT_TIME_ZONE = "Asia/Kolkata";
-export const SOURCE_REVISION = "2026-05-19-washington-post-top-up-images";
+export const SOURCE_REVISION = "2026-05-19-reuters-search-thumbnails";
 export const REUTERS_MODE = "google-news-rss";
 export const MARKET_MODE = "yahoo-world-indices-page";
 export const REUTERS_FEED_URL =
   "https://news.google.com/rss/search?q=site%3Areuters.com/world&hl=en-US&gl=US&ceid=US%3Aen";
+export const REUTERS_SEARCH_URL =
+  "https://news.google.com/search?q=site%3Areuters.com%2Fworld%20Reuters&hl=en-US&gl=US&ceid=US%3Aen";
 export const MARKET_SOURCE_URLS = [
   "https://finance.yahoo.com/markets/world-indices/",
   "https://finance.yahoo.com/world-indices/",
@@ -56,6 +58,7 @@ export const NEWS_SOURCES = [
     region: "Global",
     kind: "rss",
     url: REUTERS_FEED_URL,
+    searchUrl: REUTERS_SEARCH_URL,
     baseUrl: "https://www.reuters.com",
   },
 ];

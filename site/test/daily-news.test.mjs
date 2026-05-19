@@ -13,6 +13,7 @@ import {
   parseProductHuntHtml,
   parseProductHuntFeed,
   parseGoogleNewsReutersItems,
+  parseGoogleNewsReutersSearchMetadata,
   parseTheHinduHtml,
   parseYahooWorldIndicesPage,
 } from "../scripts/generate-daily-news.mjs";
@@ -68,6 +69,22 @@ test("parses Reuters Google News feed items and prefers direct Reuters links whe
   assert.equal(items[1].title, "Exclusive direct Reuters headline");
   assert.equal(items[1].url, "https://www.reuters.com/world/europe/exclusive-direct-headline-2026-04-19/");
   assert.equal(items[0].publishedAt, "Sun, 19 Apr 2026 01:08:00 GMT");
+});
+
+test("parses Reuters thumbnails from Google News search metadata", async () => {
+  const html = await loadFixture("reuters-google-news-search.html");
+  const items = parseGoogleNewsReutersSearchMetadata(html);
+
+  assert.equal(items.length, 2);
+  assert.equal(items[0].title, "Bulgaria votes as pro-Russian former president leads the polls");
+  assert.equal(
+    items[0].url,
+    "https://www.reuters.com/world/europe/bulgaria-votes-pro-russian-former-president-leads-polls-2026-04-19/"
+  );
+  assert.equal(
+    items[0].thumbnailUrl,
+    "https://www.reuters.com/resizer/v2/reuters-search-one.jpg?auth=abc123&width=1920&quality=80"
+  );
 });
 
 test("parses NPR RSS items with summaries and non-tracking thumbnails", async () => {
@@ -255,6 +272,7 @@ test("dry run emits markdown frontmatter and source notes", async () => {
     ["https://www.chinadaily.com.cn/world/", "china-daily.html"],
     ["https://www.aljazeera.com/news/", "al-jazeera.html"],
     ["https://news.google.com/rss/search?q=site%3Areuters.com/world&hl=en-US&gl=US&ceid=US%3Aen", "reuters-google-news.xml"],
+    ["https://news.google.com/search?q=site%3Areuters.com%2Fworld%20Reuters&hl=en-US&gl=US&ceid=US%3Aen", "reuters-google-news-search.html"],
     ["https://www.thehindu.com/news/", "the-hindu.html"],
     ["https://www.thehindu.com/news/national/", "the-hindu.html"],
     ["https://www.producthunt.com/", "product-hunt.html"],
@@ -435,25 +453,35 @@ test("dry run emits markdown frontmatter and source notes", async () => {
       alJazeeraHeadline.summary,
       "Al Jazeera article summary from metadata that should appear under the headline in the daily news page."
     );
-    const unresolvedReutersHeadline = reutersHeadlines.find((item) => item.url.startsWith("https://news.google.com/"));
-    const directReutersHeadline = reutersHeadlines.find((item) => item.url.startsWith("https://www.reuters.com/"));
-    assert.ok(unresolvedReutersHeadline);
+    const resolvedReutersHeadline = reutersHeadlines.find((item) =>
+      item.title.includes("Bulgaria votes as pro-Russian former president")
+    );
+    const directReutersHeadline = reutersHeadlines.find((item) => item.title === "Exclusive direct Reuters headline");
+    assert.ok(resolvedReutersHeadline);
     assert.ok(directReutersHeadline);
     assert.equal(
-      unresolvedReutersHeadline.summary,
-      "Reuters: Bulgaria votes as pro-Russian former president leads the polls."
+      resolvedReutersHeadline.url,
+      "https://www.reuters.com/world/europe/bulgaria-votes-pro-russian-former-president-leads-polls-2026-04-19/"
     );
-    assert.equal(unresolvedReutersHeadline.thumbnailUrl, null);
     assert.equal(
-      unresolvedReutersHeadline.sourceIconUrl,
-      "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+      resolvedReutersHeadline.summary,
+      "Reuters summary from article metadata that should appear under the headline in the daily news page."
     );
+    assert.equal(
+      resolvedReutersHeadline.thumbnailUrl,
+      "https://www.reuters.com/resizer/v2/reuters-search-one.jpg?auth=abc123&width=1920&quality=80"
+    );
+    assert.equal(resolvedReutersHeadline.sourceIconUrl, undefined);
     assert.equal(
       directReutersHeadline.summary,
       "Reuters summary from article metadata that should appear under the headline in the daily news page."
     );
-    assert.equal(directReutersHeadline.thumbnailUrl, "https://www.reuters.com/resizer/v2/reuters-meta.jpg");
+    assert.equal(
+      directReutersHeadline.thumbnailUrl,
+      "https://www.reuters.com/resizer/v2/reuters-search-two.jpg?auth=def456&width=1920&quality=80"
+    );
     assert.ok(requestedUrls.includes("https://news.google.com/rss/search?q=site%3Areuters.com/world&hl=en-US&gl=US&ceid=US%3Aen"));
+    assert.ok(requestedUrls.includes("https://news.google.com/search?q=site%3Areuters.com%2Fworld%20Reuters&hl=en-US&gl=US&ceid=US%3Aen"));
     assert.equal(requestedUrls.some((url) => MARKET_FIXTURE_URLS.has(url)), true);
     assert.equal(requestedUrls.includes("https://www.reuters.com/world/"), false);
     assert.equal(requestedUrls.some((url) => url.includes("sitemap_news_index.xml")), false);
@@ -487,6 +515,7 @@ test("generated daily news markdown loads structured payload through the collect
     ["https://www.chinadaily.com.cn/world/", "china-daily.html"],
     ["https://www.aljazeera.com/news/", "al-jazeera.html"],
     ["https://news.google.com/rss/search?q=site%3Areuters.com/world&hl=en-US&gl=US&ceid=US%3Aen", "reuters-google-news.xml"],
+    ["https://news.google.com/search?q=site%3Areuters.com%2Fworld%20Reuters&hl=en-US&gl=US&ceid=US%3Aen", "reuters-google-news-search.html"],
     ["https://www.thehindu.com/news/", "the-hindu.html"],
     ["https://www.thehindu.com/news/national/", "the-hindu.html"],
     ["https://www.producthunt.com/", "product-hunt.html"],
@@ -612,27 +641,39 @@ test("generated daily news markdown loads structured payload through the collect
     assert.equal(data.dailyNewsPayload.summarySections.length, 2);
     assert.equal(
       data.dailyNewsPayload.headlines.find(
-        (item) => item.source === "Reuters" && item.url.startsWith("https://news.google.com/")
-      )?.summary,
-      "Reuters: Bulgaria votes as pro-Russian former president leads the polls."
-    );
-    assert.equal(
-      data.dailyNewsPayload.headlines.find(
-        (item) => item.source === "Reuters" && item.url.startsWith("https://news.google.com/")
-      )?.thumbnailUrl,
-      null
-    );
-    assert.equal(
-      data.dailyNewsPayload.headlines.find(
-        (item) => item.source === "Reuters" && item.url.startsWith("https://news.google.com/")
-      )?.sourceIconUrl,
-      "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
-    );
-    assert.equal(
-      data.dailyNewsPayload.headlines.find(
-        (item) => item.source === "Reuters" && item.url.startsWith("https://www.reuters.com/")
+        (item) => item.source === "Reuters" && item.title.includes("Bulgaria votes as pro-Russian former president")
       )?.summary,
       "Reuters summary from article metadata that should appear under the headline in the daily news page."
+    );
+    assert.equal(
+      data.dailyNewsPayload.headlines.find(
+        (item) => item.source === "Reuters" && item.title.includes("Bulgaria votes as pro-Russian former president")
+      )?.url,
+      "https://www.reuters.com/world/europe/bulgaria-votes-pro-russian-former-president-leads-polls-2026-04-19/"
+    );
+    assert.equal(
+      data.dailyNewsPayload.headlines.find(
+        (item) => item.source === "Reuters" && item.title.includes("Bulgaria votes as pro-Russian former president")
+      )?.thumbnailUrl,
+      "https://www.reuters.com/resizer/v2/reuters-search-one.jpg?auth=abc123&width=1920&quality=80"
+    );
+    assert.equal(
+      data.dailyNewsPayload.headlines.find(
+        (item) => item.source === "Reuters" && item.title.includes("Bulgaria votes as pro-Russian former president")
+      )?.sourceIconUrl,
+      undefined
+    );
+    assert.equal(
+      data.dailyNewsPayload.headlines.find(
+        (item) => item.source === "Reuters" && item.title === "Exclusive direct Reuters headline"
+      )?.summary,
+      "Reuters summary from article metadata that should appear under the headline in the daily news page."
+    );
+    assert.equal(
+      data.dailyNewsPayload.headlines.find(
+        (item) => item.source === "Reuters" && item.title === "Exclusive direct Reuters headline"
+      )?.thumbnailUrl,
+      "https://www.reuters.com/resizer/v2/reuters-search-two.jpg?auth=def456&width=1920&quality=80"
     );
     const alJazeeraHeadline = data.dailyNewsPayload.headlines.find((item) => item.source === "Al Jazeera");
     assert.ok(alJazeeraHeadline);
@@ -734,6 +775,7 @@ test("continues generating when Product Hunt is unavailable", async () => {
     ["https://www.chinadaily.com.cn/world/", "china-daily.html"],
     ["https://www.aljazeera.com/news/", "al-jazeera.html"],
     ["https://news.google.com/rss/search?q=site%3Areuters.com/world&hl=en-US&gl=US&ceid=US%3Aen", "reuters-google-news.xml"],
+    ["https://news.google.com/search?q=site%3Areuters.com%2Fworld%20Reuters&hl=en-US&gl=US&ceid=US%3Aen", "reuters-google-news-search.html"],
     ["https://www.thehindu.com/news/", "the-hindu.html"],
     ["https://www.thehindu.com/news/national/", "the-hindu.html"],
     ["https://hacker-news.firebaseio.com/v0/topstories.json", "hn-topstories.json"],
