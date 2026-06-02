@@ -1,0 +1,500 @@
+{
+  "headlines": [
+    {
+      "title": "Hardening views on migrants push Europe toward Trump-like tactics",
+      "url": "https://www.washingtonpost.com/world/2026/06/01/eu-gets-tougher-migration-wealthy-nations-question-asylum-claims/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Mon, 01 Jun 2026 19:59:55 +0000",
+      "summary": "New rules were driven by high numbers of asylum seekers from “safe countries” and the fatigue of voters after waves of migration, European officials say.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/UYZPESAKX4FZ5VY5F5URZRDBDI.JPG&w=1440"
+    },
+    {
+      "title": "Iran says it is breaking off ceasefire talks over Israeli attacks on Lebanon",
+      "url": "https://www.washingtonpost.com/world/2026/06/01/iran-us-trade-strikes-deal-end-war-remains-elusive/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Mon, 01 Jun 2026 19:13:13 +0000",
+      "summary": "Negotiations were suspended because of Israel’s escalating military attacks in Lebanon and U.S. strikes, an Iranian official told The Post.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/IMQ43BLJGWPB2YKK37E4F44O3Y.JPG&w=1440"
+    },
+    {
+      "title": "Kenyans protest U.S. plan for Ebola field hospital to treat Americans",
+      "url": "https://www.washingtonpost.com/world/2026/06/01/kenyans-protest-us-plan-ebola-field-hospital-air-base/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Mon, 01 Jun 2026 17:17:25 +0000",
+      "summary": "Angry residents, who said their lives were in danger, set fires and clashed with police as they protested the facility intended to treat Americans.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/VGASUJJ2A6L4NUC5XLTXY5NZPE_size-normalized.jpg&w=1440"
+    },
+    {
+      "title": "Ukraine turns real-life kills into video game thrills for drone pilots",
+      "url": "https://www.washingtonpost.com/world/2026/05/31/ukrainian-drone-operators-compete-kill-russian-invaders/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Sun, 31 May 2026 09:00:00 +0000",
+      "summary": "Kyiv says the Army of Drones Bonus system, in which points may be redeemed for weapons, is the first of its kind anywhere.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/OSN4SPB4ABSE63XIVIUED4UGYU_size-normalized.jpg&w=1440"
+    },
+    {
+      "title": "Some Iranians abroad say they’d fight for the regime. Others want to topple it.",
+      "url": "https://www.washingtonpost.com/world/2026/05/30/some-iranians-abroad-say-theyd-fight-regime-others-want-topple-it/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "2026-05-30",
+      "summary": "Members of the diaspora in Iraq, from Sunni Muslim Kurds in the north to Shiite Persians in the south, are as divided over the war as Iranians back home.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/J2PIHWBE2YHP52UGLK7LKJQ3KA.jpg&w=300"
+    },
+    {
+      "title": "Celebration, shock and scepticism follow Colombia’s presidential election",
+      "url": "https://www.aljazeera.com/news/2026/6/2/celebration-shock-and-scepticism-follow-colombias-presidential-election",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-06-02",
+      "summary": "Far-right lawyer Abelardo de la Espriella beat left-wing Senator Ivan Cepeda in the first round, upending expectations.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/06/reuters_6a1e20c8-1780359368.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Trump talks to Hezbollah, Israel’s Netanyahu as Lebanon fighting surges",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/6/2/iran-war-live-trump-talks-to-hezbollah-israel-as-lebanon-fighting-surges",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-06-02",
+      "summary": "Israeli National Security Minister Ben-Gvir says 'time' to say 'no' to Trump and continue striking Hezbollah in Lebanon.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/06/AP26152576900536-1780357099.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "US court upholds injunction against Trump policy banning transgender troops",
+      "url": "https://www.aljazeera.com/news/2026/6/1/us-court-upholds-injunction-against-trump-policy-banning-transgender-troops",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-06-01",
+      "summary": "The decision was split, allowing the Trump administration to continue barring transgender people from enlisting.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/06/ap_6a1e12cc5d853-1780355788.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Denmark gets new government as Greenland crisis persists",
+      "url": "https://www.aljazeera.com/news/2026/6/1/denmark-gets-new-government-as-greenland-crisis-persists",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-06-01",
+      "summary": "End of election deadlock will see PM Frederiksen continue her stewardship of response to Trump's Greenland lust.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/06/epa_6a1debe7ed11-1780345832.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Protesters call on Kenyan government to halt femicide crisis",
+      "url": "https://www.aljazeera.com/news/2026/6/1/protesters-call-on-kenyan-government-to-halt-femicide-crisis",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-06-01",
+      "summary": "Advocacy groups have given the government 40 days to intervene to deal with the plague of gender-based violence.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/06/afp_6a1dc7d6e4ac-1780336598.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Iran halts talks with U.S. over Israeli actions in Lebanon, Gaza",
+      "url": "https://www.npr.org/2026/06/01/g-s1-125285/iran-israel-us-lebanon-gaza",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Mon, 01 Jun 2026 17:28:48 -0400",
+      "summary": "Trumps says Israel and Hezbollah will stop fighting after Iran stops talks with U.S. over Israeli operations in southern Lebanon, Gaza",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5911x4000+0+0/resize/5911x4000!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F7a%2Fca%2Faec229a248479ee72925669b076e%2Fap26152617004490.jpg"
+    },
+    {
+      "title": "Justice Department says it will abide by court order pausing its 'anti-weaponization' fund",
+      "url": "https://www.npr.org/2026/06/01/g-s1-125268/justice-department-trump-anti-weaponization-fund-pause",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Mon, 01 Jun 2026 16:35:45 -0400",
+      "summary": "The Justice Department said it 'strongly disagrees' with the court's ruling that paused a $1.776 fund for victims of government \"weaponization,\" but would still abide by it.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3744x2496+0+0/resize/3744x2496!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F8f%2F7d%2F78910b5d4a7687cc0bb7152608f4%2Fgettyimages-2277130390.jpg"
+    },
+    {
+      "title": "Florida sues OpenAI and Sam Altman over alleged safety lapses",
+      "url": "https://www.npr.org/2026/06/01/nx-s1-5843132/openai-florida-lawsuit-safety-chatgpt",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Mon, 01 Jun 2026 15:52:02 -0400",
+      "summary": "The lawsuit accuses the company of failing to warn users that ChatGPT could be dangerous and instead marketing it as safe and reliable.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5298x3586+0+0/resize/5298x3586!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F0e%2F0f%2Fbd20addc4893acc541b85e517cd0%2Fgettyimages-2218344211-1.jpg"
+    },
+    {
+      "title": "AI giant Anthropic prepares to sell stock to the public; files preliminary IPO paperwork",
+      "url": "https://www.npr.org/2026/06/01/nx-s1-5843199/anthropic-ipo-filing-ai-large",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Mon, 01 Jun 2026 14:27:28 -0400",
+      "summary": "The Anthropic IPO, and those of other AI-related firms like OpenAI, could be among the biggest in U.S. history.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3967x2645+0+0/resize/3967x2645!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F4d%2F35%2Fa9ed46de4d5ab74fc927988ee2ea%2Fgettyimages-2227254922.jpg"
+    },
+    {
+      "title": "Serena Williams returns to tennis, announcing 'next chapter'",
+      "url": "https://www.npr.org/2026/06/01/nx-s1-5843168/serena-williams-returns-hsbc-championships",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Mon, 01 Jun 2026 14:20:02 -0400",
+      "summary": "A tennis legend at 44, Serena Williams is returning to pro tennis this month, announcing plans to play in the HSBC Championships in London. Williams, a mother of two, retired nearly four years ago.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5571x3714+0+0/resize/5571x3714!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Ffa%2Fab%2F057514d54b13a0d01ec8a267c32f%2Fgettyimages-2275328348.jpg"
+    },
+    {
+      "title": "German voters expect more far-right success",
+      "url": "https://www.chinadaily.com.cn/a/202606/02/WS6a1e3614a310d6866eb4bf16.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-06-02",
+      "summary": "An opinion poll conducted for German weekly newspaper Bild am Sonntag shows the vast majority of people questioned think it is a formality that the far-right Alternative for Germany party, or AfD, will secure power in at least one of the three state elections taking place in the fall.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202606/02/6a1e3614a310d68600fe9e9e.jpeg"
+    },
+    {
+      "title": "Partnership empowers Lao women",
+      "url": "https://www.chinadaily.com.cn/a/202606/02/WS6a1e2dcca310d6866eb4beac.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-06-02",
+      "summary": "For the first time in her life, Khanpovan Phanthadasomchith from Laos got to taste Chinese meat floss balls, or rousongxiaobei, during a study trip to South China's Guangdong province in early May.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202606/02/6a1e2dcca310d68600fe9d8c.png"
+    },
+    {
+      "title": "Two injured in Russian attacks on Kyiv, explosions heard across city",
+      "url": "https://www.chinadaily.com.cn/a/202606/02/WS6a1e2974a310d6866eb4be62.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-06-02",
+      "summary": "KYIV - Initial reports showed that two people were injured in Russian attacks on Kyiv early Tuesday, local media reported, citing Kyiv Mayor Vitali Klitschko.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202606/02/6a1e2973a310d68600fe9c26.png"
+    },
+    {
+      "title": "Rhythm of relations",
+      "url": "https://www.chinadaily.com.cn/a/202606/01/WS6a1cd8a0a310d6866eb4bb13.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-06-01",
+      "summary": "The African diplomatic community in Beijing launched the 2026 Africa Day Cultural Festival during an opening ceremony held at the Jintai Art Museum in Chaoyang Park on May 23 ahead of Africa Day on May 25.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202606/01/6a1cd89fa310d68600fe8b80.png"
+    },
+    {
+      "title": "Trump says talks with Iran continue; Israel, Hezbollah agree to halt fire",
+      "url": "https://www.chinadaily.com.cn/a/202606/02/WS6a1e2bbca310d6866eb4be8d.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-06-02",
+      "summary": "WASHINGTON - US President Donald Trump said Monday that the US-Iran talks \"are continuing, at a rapid pace,\" following his announcement that Israel and Hezbollah have agreed to halt fire.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202606/02/6a1e2c84a310d68600fe9d1a.png"
+    },
+    {
+      "title": "BSF, BGB to hold Director General-level talks next week",
+      "url": "https://www.thehindu.com/news/national/bsf-bgb-to-hold-director-general-level-talks-next-week/article71049246.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-06-01T16:44:19.000Z",
+      "summary": "BSF and BGB to hold crucial Director General-level talks in Delhi from June 8-11, addressing border security and migration issues.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/oe29l6/article71049828.ece/alternates/LANDSCAPE_1200/PTI08_05_2025_000294B.jpg"
+    },
+    {
+      "title": "Supreme Court declines plea to hold NEET re-test in computer-based mode",
+      "url": "https://www.thehindu.com/news/national/supreme-court-refuses-to-accept-plea-to-conduct-neet-ug-retest-in-cbt-mode/article71047856.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-06-01T10:15:20.000Z",
+      "summary": "Supreme Court denies plea for NEET-UG retest in CBT mode, citing National Testing Agency's ongoing issues after recent exam cancellation.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/u2qwcc/article71047918.ece/alternates/LANDSCAPE_1200/NEET%20PROTEST%20DELHI%203.JPG"
+    },
+    {
+      "title": "Centre backtracking on draft agreed on May 22: Sonam Wangchuk",
+      "url": "https://www.thehindu.com/news/national/centre-backtracking-on-draft-agreed-on-may-22-sonam-wangchuk/article71048989.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-06-01T16:49:46.000Z",
+      "summary": "Centre accused of backtracking on May 22 agreement granting elected representatives power over bureaucracy in Ladakh, says Sonam Wangchuk.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/bqy5y2/article71049865.ece/alternates/LANDSCAPE_1200/Sonam%20Wangchuk%2026.JPG"
+    },
+    {
+      "title": "CJI Surya Kant to administer oath to five new Supreme Court judges",
+      "url": "https://www.thehindu.com/news/national/chief-justice-of-india-surya-kant-new-judges-to-supreme-court/article71050982.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-06-02T02:36:43.000Z",
+      "summary": "CJI Surya Kant will administer the oath to five new Supreme Court judges in a special ceremony on June 2, 2026.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/jtvoa/article71050986.ece/alternates/LANDSCAPE_1200/DSC_8328A.JPG"
+    },
+    {
+      "title": "Government notifies changes in Immigration and Foreigners Rules, 2025",
+      "url": "https://www.thehindu.com/news/national/government-notifies-changes-in-immigration-and-foreigners-rules-2025/article71050961.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-06-02T02:01:50.000Z",
+      "summary": "The government updates Immigration and Foreigners Rules, easing registration deadlines for visa holders in India.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/news/national/pdl06i/article65536433.ece/alternates/LANDSCAPE_1200/NKV-MHA1.jpg"
+    },
+    {
+      "title": "Five dead, dozens wounded as Russia launches major attack across Ukraine, authorities say",
+      "url": "https://www.reuters.com/world/large-pillar-smoke-seen-kyiv-after-air-raid-alert-issued-reuters-witness-reports-2026-06-01/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Mon, 01 Jun 2026 23:18:00 GMT",
+      "summary": "Reuters: Five dead, dozens wounded as Russia launches major attack across Ukraine, authorities say.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/5B7HZBDHVJLQTKTQJ43UFYCDHM.jpg?auth=f9d35ff2c8ccbc9c5d8cede02e772ccdec7eb89628aef035824b9bd06b7ea1a5&width=1080&quality=80"
+    },
+    {
+      "title": "Asia stocks skittish as Middle East anxiety offsets AI optimism",
+      "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-06-02/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Tue, 02 Jun 2026 00:38:00 GMT",
+      "summary": "Reuters: Asia stocks skittish as Middle East anxiety offsets AI optimism.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/2PN5HAVPRJJ75HWHFV4DPIQS6I.jpg?auth=718661a6c418a79e88382913855082a6f498ed1afc1ad3e42b6b47f7a0e62f3c&width=1920&quality=80"
+    },
+    {
+      "title": "Denmark's Frederiksen secures third term as prime minister",
+      "url": "https://www.reuters.com/world/denmarks-frederiksen-secures-third-term-prime-minister-2026-06-01/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Mon, 01 Jun 2026 20:31:41 GMT",
+      "summary": "Reuters: Denmark's Frederiksen secures third term as prime minister.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/YXVVY5XQJRMM3HBBRHGTPUQGNE.jpg?auth=367c8adf19899aabee6b0815edef88ee708feede4b09bc02d4361acde179732d&width=1080&quality=80"
+    },
+    {
+      "title": "Trump says he spoke to Lebanon's Hezbollah through intermediaries",
+      "url": "https://www.reuters.com/world/middle-east/trump-says-no-israeli-troops-will-go-beirut-after-call-with-netanyahu-2026-06-01/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Mon, 01 Jun 2026 18:40:09 GMT",
+      "summary": "Reuters: Trump says he spoke to Lebanon's Hezbollah through intermediaries.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/GQKVCHBF2JP6PBNWL7TO5GOEUY.jpg?auth=2f855b02c78f174ef2f4893f58ee6e8b967bf5d8c29afcd23aa991f7b2e49490&width=1080&quality=80"
+    },
+    {
+      "title": "Two explosions hit cargo vessel in Gulf off Iraq, officials say",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOd2lJSVY2enVaVm9LN3VvTzJYR1cwMlUtNkNyQ2dadl95SkVGM3J6Szg3X0VOb2ZQbldQWDRmbkFuYkJpRXFLLVVOSThxRFBDY1ZPU2d5ekdncVFTblc4V3ZkN2RXZEJRM09kVFRPU2EzZk9vUU54amxoWWtTNG1yNjhtQ0VicDhjbnRYZm9VV2RXSmt1UjI5QW9BTngwQzNLNUNYZ2JETUhaSU9KMzUzY2ZUcw?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Mon, 01 Jun 2026 18:19:00 GMT",
+      "summary": "Reuters: Two explosions hit cargo vessel in Gulf off Iraq, officials say.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    }
+  ],
+  "markets": [
+    {
+      "id": "sp-500",
+      "label": "S&P 500",
+      "region": "US",
+      "symbol": "^GSPC",
+      "value": 7599.96,
+      "previousClose": 7580.060098,
+      "change": 19.899902,
+      "percentChange": 0.2625296,
+      "direction": "up",
+      "sessionDate": "2026-06-02"
+    },
+    {
+      "id": "nasdaq-composite",
+      "label": "NASDAQ Composite",
+      "region": "US",
+      "symbol": "^IXIC",
+      "value": 27086.81,
+      "previousClose": 26972.62055,
+      "change": 114.18945,
+      "percentChange": 0.42335322,
+      "direction": "up",
+      "sessionDate": "2026-06-02"
+    },
+    {
+      "id": "euronext-100",
+      "label": "Euronext 100 Index",
+      "region": "Europe",
+      "symbol": "^N100",
+      "value": 1840.67,
+      "previousClose": 1844.2299365000001,
+      "change": -3.5599365,
+      "percentChange": -0.19303106,
+      "direction": "down",
+      "sessionDate": "2026-06-02"
+    },
+    {
+      "id": "moex",
+      "label": "Public Joint-Stock Company Moscow Exchange MICEX-RTS",
+      "region": "Europe",
+      "symbol": "MOEX.ME",
+      "value": 85.2,
+      "previousClose": 85.31000061,
+      "change": -0.11000061,
+      "percentChange": -0.12894222,
+      "direction": "down",
+      "sessionDate": "2026-06-02"
+    },
+    {
+      "id": "hang-seng",
+      "label": "HANG SENG INDEX",
+      "region": "Asia",
+      "symbol": "^HSI",
+      "value": 25756.13,
+      "previousClose": 25398.17883,
+      "change": 357.95117,
+      "percentChange": 1.4093575,
+      "direction": "up",
+      "sessionDate": "2026-06-02"
+    },
+    {
+      "id": "nikkei-225",
+      "label": "Nikkei 225",
+      "region": "Asia",
+      "symbol": "^N225",
+      "value": 65833.49,
+      "previousClose": 66934.32590000001,
+      "change": -1100.8359,
+      "percentChange": -1.6446508,
+      "direction": "down",
+      "sessionDate": "2026-06-02"
+    },
+    {
+      "id": "sensex",
+      "label": "S&P BSE SENSEX",
+      "region": "India",
+      "symbol": "^BSESN",
+      "value": 74267.34,
+      "previousClose": 74775.73844,
+      "change": -508.39844,
+      "percentChange": -0.67989755,
+      "direction": "down",
+      "sessionDate": "2026-06-02"
+    }
+  ],
+  "hackerNews": [
+    {
+      "title": "The newest Instagram “exploit” is the goofiest I've seen",
+      "url": "https://www.0xsid.com/blog/meta-account-takeover-fiasco",
+      "publishedAt": "2026-06-01T16:31:42.000Z",
+      "summary": "Yesterday, a slew of Instagram accounts, including some high profile ones like the Obama White House account, seemingly got hacked.",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "macOS needs its grid back",
+      "url": "https://blog.hopefullyuseful.com/blog/macos-needs-its-grid-back/",
+      "publishedAt": "2026-06-02T01:28:34.000Z",
+      "summary": "Two decades ago I had a better Mac desktop experience than I have today. I only had a single low res (by todays standards) screen, yet I felt like Hugh Jackman in Swordfish - deftly navigating more than nine displays without thinking, muscle and spatial memory working seamlessly together. TLDR; I built an app to return macOS spaces to its Pre-Lion Grid-enabled Glory. Read on for the increasingly rare experience of an actual human dropping a bit of nostalgia, the thinking behind why make this and some issues encountered along the way.",
+      "thumbnailUrl": "https://blog.hopefullyuseful.com/blog/macos-needs-its-grid-back/picker32.jpg"
+    },
+    {
+      "title": "Can the stockmarket swallow Anthropic, SpaceX and OpenAI?",
+      "url": "https://www.economist.com/finance-and-economics/2026/06/01/can-the-stockmarket-swallow-anthropic-spacex-and-openai",
+      "publishedAt": "2026-06-01T23:45:46.000Z",
+      "summary": "economist.com: Can the stockmarket swallow Anthropic, SpaceX and OpenAI?."
+    },
+    {
+      "title": "OpenAI frontier models and Codex are now available on AWS",
+      "url": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws/",
+      "publishedAt": "2026-06-01T21:50:02.000Z",
+      "summary": "OpenAI frontier models and Codex are now generally available on AWS, giving enterprises a new path to build with OpenAI through the AWS environments, controls, and procurement workflows they already use. Customers can get started with OpenAI on AWS and move faster from evaluation to production.",
+      "thumbnailUrl": "https://images.ctfassets.net/kftzwdyauwt9/2Tbsus4QAtPDAlsIM3vYO2/87f4c6894832d7937e54ecb3c245fdbe/OAI_AWS_Partnership_16x9_Art_Card.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "title": "How is Groq raising more money?",
+      "url": "https://www.zach.be/p/how-the-hell-is-groq-raising-more",
+      "publishedAt": "2026-06-02T01:05:29.000Z",
+      "summary": "Somehow, Palpatine returned.",
+      "thumbnailUrl": "https://substackcdn.com/image/fetch/$s_!-5t_!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fzachbe.substack.com%2Ftwitter%2Fsubscribe-card.jpg%3Fv%3D2073874919%26version%3D9"
+    },
+    {
+      "title": "Chipotlai Max",
+      "url": "https://github.com/cyberpapiii/chipotlai-max",
+      "publishedAt": "2026-06-01T23:06:35.000Z",
+      "summary": "The AI coding agent that runs on stolen Chipotle compute 🌯 Fork of OpenCode with Pepper AI as default model. Community project to add providers from Home Depot, Lowes, Target, Starbucks & more....",
+      "thumbnailUrl": "https://opengraph.githubassets.com/ee1d86c3d845708cb5f893d4cf99f4b6103eb77d07adc80f3d18cee1d4edbf94/cyberpapiii/chipotlai-max"
+    },
+    {
+      "title": "U.S. Midterms Have a Cyber Problem, but It's Not at the Ballot Box",
+      "url": "https://blog.checkpoint.com/exposure-management/the-2026-u-s-midterms-have-a-cyber-problem-but-its-not-at-the-ballot-box/",
+      "publishedAt": "2026-06-02T02:28:24.000Z",
+      "summary": "As the U.S. approaches the 2026 elections in November, the greatest threat to voting integrity will likely not be from hackers targeting voting machines %Check Point research reveals 2026 U.S. midterm cyber risks driven by phishing, fake news sites, domain abuse, and AI-powered disinformation targeting voter trust—not ballots.",
+      "thumbnailUrl": "https://blog.checkpoint.com/wp-content/uploads/2024/11/election-blog.jpg"
+    },
+    {
+      "title": "Debug Project",
+      "url": "https://debug.com/",
+      "publishedAt": "2026-06-01T20:40:13.000Z",
+      "summary": "Mosquitoes kill more people than every other animal combined. One species, Aedes aegypti , carries diseases such as dengue, Zika, yellow fever, and chikungunya which make hundreds of millions of people sick every year. And these diseases are spreading faster than ever.",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "AI Agent Guidelines for CS336 at Stanford",
+      "url": "https://github.com/stanford-cs336/assignment1-basics/blob/main/CLAUDE.md",
+      "publishedAt": "2026-06-01T16:41:49.000Z",
+      "summary": "Student version of Assignment 1 for Stanford CS336 - Language Modeling From Scratch - stanford-cs336/assignment1-basics",
+      "thumbnailUrl": "https://opengraph.githubassets.com/926079ae04231195c4f99f558c5bdfa0dfafd07739f6fca58b796662dcbbd6c2/stanford-cs336/assignment1-basics"
+    },
+    {
+      "title": "Crystal Nights (2008)",
+      "url": "https://www.gregegan.net/MISC/CRYSTAL/Crystal.html",
+      "publishedAt": "2026-06-02T01:22:42.000Z",
+      "summary": "Crystal Nights by Greg Egan",
+      "thumbnailUrl": null
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "Dune Keypad",
+      "tagline": "Context-aware Mac keypad, w/ Claude + community extensions",
+      "url": "https://www.producthunt.com/products/dune-4",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-06-01T20:14:46-07:00"
+    },
+    {
+      "name": "Joanium",
+      "tagline": "Local AI workspace to build and work with your computer",
+      "url": "https://www.producthunt.com/products/joanium-2",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-06-01T20:01:42-07:00"
+    },
+    {
+      "name": "R0Y OMNI 1.0",
+      "tagline": "Generate more accurate investment dashboards and reports",
+      "url": "https://www.producthunt.com/products/r0y-ai-financial-studio",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-06-01T19:33:52-07:00"
+    },
+    {
+      "name": "Databox MCP",
+      "tagline": "Chat with your business data inside Claude, ChatGPT and more",
+      "url": "https://www.producthunt.com/products/databox",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-06-01T20:10:54-07:00"
+    },
+    {
+      "name": "folk",
+      "tagline": "the AI in your texts that gets stuff done",
+      "url": "https://www.producthunt.com/products/folk-3",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-06-01T20:14:40-07:00"
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "News and markets",
+      "sentences": [
+        "Global headlines: Hardening views on migrants push Europe toward Trump-like tactics (New rules were driven by high numbers of asylum seekers from “safe countries” and the fatigue of voters after waves of migration, European officials say); Iran says it is breaking off ceasefire talks over Israeli attacks on Lebanon (Negotiations were suspended because of Israel’s escalating military attacks in Lebanon and U.S. strikes, an Iranian official told The Post); and Kenyans protest U.S. plan for Ebola field hospital to treat Americans (Angry residents, who said their lives were in danger, set fires and clashed with police as they protested the facility intended to treat Americans).",
+        "Markets leaned lower, with 4 of 7 tracked indexes down; Nikkei 225 down 1.64% was the largest move.",
+        "Benchmarks tracked: S&P 500, NASDAQ Composite, Euronext 100 Index, and Public Joint-Stock Company Moscow Exchange MICEX-RTS plus 3 more indexes."
+      ]
+    },
+    {
+      "title": "Hacker News and Product Hunt",
+      "sentences": [
+        "Hacker News: The newest Instagram “exploit” is the goofiest I've seen (Yesterday, a slew of Instagram accounts, including some high profile ones like the Obama White House account, seemingly got hacked); macOS needs its grid back (Two decades ago I had a better Mac desktop experience than I have today. I only had a single low res (by todays standards) screen, yet I...); and Can the stockmarket swallow Anthropic, SpaceX and OpenAI? (economist.com: Can the stockmarket swallow Anthropic, SpaceX and OpenAI).",
+        "Product Hunt features Dune Keypad (Context-aware Mac keypad, w/ Claude + community extensions), Joanium (Local AI workspace to build and work with your computer), and R0Y OMNI 1.0 (Generate more accurate investment dashboards and reports)."
+      ]
+    }
+  ],
+  "sourceNotes": {
+    "generatedAt": "2026-06-02T03:16:34.999Z",
+    "timeZone": "Asia/Kolkata",
+    "successfulSources": [
+      "Washington Post",
+      "Al Jazeera",
+      "NPR",
+      "China Daily",
+      "The Hindu",
+      "Reuters"
+    ],
+    "marketSessionLabel": "Latest market sessions as of 2026-06-02",
+    "warnings": []
+  }
+}
