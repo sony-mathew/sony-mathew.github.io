@@ -3,6 +3,16 @@ const defaultImageUrl = `${DEFAULT_CONFIG.baseUrl}${DEFAULT_CONFIG.siteImageUrl}
 
 export const projectsList = [
   {
+    id: 'password-generator',
+    date: '2026-06-14',
+    title: 'Password Generator',
+    description: 'A secure browser-based password generator with length presets, custom length, character controls, and hex digest output.',
+    author: 'Sony Mathew',
+    tags: ['password', 'generator', 'security'],
+    readingTime: 2,
+    imageUrl: defaultImageUrl
+  },
+  {
     id: 'scientific-calculator',
     date: '2025-08-24',
     title: 'Scientific Calculator',
