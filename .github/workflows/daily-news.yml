@@ -49,11 +49,12 @@ jobs:
         run: npm run build
 
       - name: Create pull request
+        id: create-pull-request
         uses: peter-evans/create-pull-request@v8
         with:
           base: master
-          branch: automation/daily-news
-          delete-branch: false
+          branch: automation/daily-news-${{ steps.edition-date.outputs.edition_date }}
+          delete-branch: true
           commit-message: "Add daily news for ${{ steps.edition-date.outputs.edition_date }}"
           title: "Add daily news for ${{ steps.edition-date.outputs.edition_date }}"
           body: |
@@ -63,3 +64,9 @@ jobs:
           labels: |
             automation
             daily-news
+
+      - name: Merge pull request
+        if: steps.create-pull-request.outputs.pull-request-number
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh pr merge "${{ steps.create-pull-request.outputs.pull-request-number }}" --squash --delete-branch
