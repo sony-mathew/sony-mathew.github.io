@@ -6,6 +6,10 @@ const EXTERNAL_LINK_PROPS = {
   rel: "nofollow noopener noreferrer",
 };
 const HEADLINE_SOURCE_ORDER = ["Washington Post", "Al Jazeera", "NPR", "China Daily", "The Hindu", "Reuters"];
+const LIST_PANEL_CLASS_NAME =
+  "overflow-hidden rounded-lg border border-slate-200 bg-white shadow-sm ring-1 ring-slate-100 dark:border-white/10 dark:bg-slate-900/80 dark:shadow-[0_18px_60px_-30px_rgba(0,0,0,0.65)] dark:ring-white/5";
+const NOTE_PANEL_CLASS_NAME =
+  "rounded-lg border border-slate-200 bg-slate-50 p-5 shadow-sm ring-1 ring-slate-100 dark:border-white/10 dark:bg-slate-900/70 dark:ring-white/5";
 
 export function isDateOnlyValue(value = "") {
   return /^\d{4}-\d{2}-\d{2}$/.test(String(value).trim());
@@ -104,11 +108,13 @@ function getHostnameLabel(url) {
 function SectionHeader({ id, title, subtitle }) {
   return (
     <div className="space-y-2">
-      <h2 id={id} className="text-2xl font-semibold tracking-tight text-slate-900 md:text-3xl">
+      <h2 id={id} className="mb-0 text-2xl font-semibold text-slate-950 dark:text-slate-50 md:text-3xl">
         {title}
       </h2>
       {subtitle ? (
-        <p className="max-w-3xl text-sm leading-6 text-slate-500 md:text-base">{subtitle}</p>
+        <p className="my-0 max-w-3xl text-sm leading-6 text-slate-600 dark:text-slate-400 md:text-base">
+          {subtitle}
+        </p>
       ) : null}
     </div>
   );
@@ -151,11 +157,11 @@ function MetaLine({ segments = [], timeValue = null }) {
   }
 
   return (
-    <div className="flex flex-wrap items-center gap-x-2 gap-y-0.5 text-[11px] text-slate-500 md:text-xs">
+    <div className="flex flex-wrap items-center gap-x-2 gap-y-0.5 text-xs text-slate-500 dark:text-slate-400">
       {entries.map((entry, index) => (
         <Fragment key={`${entry.type}-${entry.value}-${index}`}>
           {index > 0 ? (
-            <span className="text-slate-300" aria-hidden="true">
+            <span className="text-slate-300 dark:text-slate-600" aria-hidden="true">
               &bull;
             </span>
           ) : null}
@@ -194,13 +200,13 @@ function ListRowCard({
   secondaryText = null,
 }) {
   return (
-    <article className="group border-t border-slate-200 first:border-t-0 transition duration-150 hover:bg-slate-50/80">
-      <div className="flex flex-col gap-2.5 px-3 py-2.5 md:flex-row md:items-start md:gap-4 md:px-4 md:py-2">
+    <article className="group border-t border-slate-200 first:border-t-0 transition duration-150 hover:bg-slate-50/80 dark:border-white/10 dark:hover:bg-white/[0.04]">
+      <div className="flex flex-col gap-3 px-4 py-4 md:flex-row md:items-start md:gap-4 md:px-5">
         {thumbnailSrc ? (
           <a
             href={href}
             {...EXTERNAL_LINK_PROPS}
-            className="block overflow-hidden rounded-xl border border-slate-100 md:w-40 md:shrink-0"
+            className="block overflow-hidden rounded-md border border-slate-200 bg-slate-100 opacity-100 md:w-40 md:shrink-0 dark:border-white/10 dark:bg-slate-800"
           >
             <img
               src={thumbnailSrc}
@@ -212,7 +218,7 @@ function ListRowCard({
           <a
             href={href}
             {...EXTERNAL_LINK_PROPS}
-            className="flex h-24 w-full items-center justify-center rounded-xl border border-slate-100 bg-slate-50 md:w-40 md:shrink-0"
+            className="flex h-24 w-full items-center justify-center rounded-md border border-slate-200 bg-slate-50 opacity-100 md:w-40 md:shrink-0 dark:border-white/10 dark:bg-slate-800"
           >
             <img
               src={sourceIconSrc}
@@ -221,14 +227,20 @@ function ListRowCard({
             />
           </a>
         ) : null}
-        <div className="min-w-0 flex-1 space-y-0">
-          <h3 className="text-base font-semibold leading-snug text-slate-900 md:text-lg mt-2 mb-0">
-            <a href={href} {...EXTERNAL_LINK_PROPS} className="transition hover:text-sky-700">
+        <div className="min-w-0 flex-1 space-y-1">
+          <h3 className="mb-0 mt-0 text-base font-semibold leading-snug text-slate-950 md:text-lg">
+            <a
+              href={href}
+              {...EXTERNAL_LINK_PROPS}
+              className="text-sky-700 opacity-100 transition hover:text-slate-950 dark:text-sky-300 dark:hover:text-white"
+            >
               {title}
             </a>
           </h3>
           <MetaLine segments={metaSegments} timeValue={timeValue} />
-          {secondaryText ? <p className="text-sm leading-[1.35] text-slate-600">{secondaryText}</p> : null}
+          {secondaryText ? (
+            <p className="my-0 text-sm leading-6 text-slate-600 dark:text-slate-300">{secondaryText}</p>
+          ) : null}
         </div>
       </div>
     </article>
@@ -274,45 +286,48 @@ function MarketSection({ items = [] }) {
         title="Market Snapshot"
         subtitle="Latest completed sessions across the selected benchmark indexes."
       />
-      <div className="overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm ring-1 ring-slate-100">
+      <div className={LIST_PANEL_CLASS_NAME}>
         <div className="overflow-x-auto">
-          <table className="min-w-full border-collapse">
-            <thead className="bg-slate-950 text-left text-xs font-semibold uppercase tracking-[0.14em] text-slate-100">
+          <table className="daily-news-market-table min-w-[760px] border-separate border-spacing-0">
+            <thead className="bg-slate-100 text-left text-xs font-semibold uppercase text-slate-600 dark:bg-slate-950/70 dark:text-slate-300">
               <tr>
                 <th className="px-4 py-3">Index</th>
-                <th className="px-4 py-3">Region</th>
-                <th className="px-4 py-3">Session Date</th>
-                <th className="px-4 py-3 text-right">Value</th>
-                <th className="px-4 py-3 text-right">Change</th>
-                <th className="px-4 py-3 text-right">Direction</th>
+                <th className="w-24 whitespace-nowrap px-4 py-3">Region</th>
+                <th className="w-36 whitespace-nowrap px-4 py-3">Session Date</th>
+                <th className="w-28 whitespace-nowrap px-4 py-3 text-right">Value</th>
+                <th className="w-40 whitespace-nowrap px-4 py-3 text-right">Change</th>
+                <th className="w-24 whitespace-nowrap px-4 py-3 text-right">Direction</th>
               </tr>
             </thead>
-            <tbody className="bg-white">
+            <tbody className="bg-white dark:bg-transparent">
               {items.map((item) => {
                 const isUp = item.direction === "up";
                 return (
-                  <tr key={item.id} className="border-t border-slate-100">
+                  <tr
+                    key={item.id}
+                    className="border-t border-slate-100 transition-colors first:border-t-0 hover:bg-slate-50/80 dark:border-white/10 dark:hover:bg-white/[0.04]"
+                  >
                     <td className="px-4 py-4 align-top">
-                      <div className="font-semibold text-slate-900">{item.label}</div>
+                      <div className="font-semibold text-slate-950 dark:text-slate-100">{item.label}</div>
                     </td>
-                    <td className="px-4 py-4 text-sm text-slate-500">{item.region}</td>
-                    <td className="px-4 py-4 text-sm text-slate-500">{item.sessionDate}</td>
-                    <td className="px-4 py-4 text-right text-sm font-medium text-slate-900">
+                    <td className="whitespace-nowrap px-4 py-4 text-sm text-slate-500 dark:text-slate-400">{item.region}</td>
+                    <td className="whitespace-nowrap px-4 py-4 text-sm text-slate-500 dark:text-slate-400">{item.sessionDate}</td>
+                    <td className="whitespace-nowrap px-4 py-4 text-right text-sm font-medium tabular-nums text-slate-950 dark:text-slate-100">
                       {Number(item.value).toFixed(2)}
                     </td>
                     <td
-                      className={`px-4 py-4 text-right text-sm font-semibold ${
-                        isUp ? "text-emerald-600" : "text-rose-600"
+                      className={`whitespace-nowrap px-4 py-4 text-right text-sm font-semibold tabular-nums ${
+                        isUp ? "text-emerald-600 dark:text-emerald-300" : "text-rose-600 dark:text-rose-300"
                       }`}
                     >
                       {`${Number(item.change).toFixed(2)} (${Number(item.percentChange).toFixed(2)}%)`}
                     </td>
-                    <td className="px-4 py-4 text-right">
+                    <td className="whitespace-nowrap px-4 py-4 text-right">
                       <span
                         className={`inline-flex rounded-full px-2.5 py-1 text-xs font-semibold ring-1 ring-inset ${
                           isUp
-                            ? "bg-emerald-50 text-emerald-700 ring-emerald-200"
-                            : "bg-rose-50 text-rose-700 ring-rose-200"
+                            ? "bg-emerald-50 text-emerald-700 ring-emerald-200 dark:bg-emerald-400/10 dark:text-emerald-200 dark:ring-emerald-300/25"
+                            : "bg-rose-50 text-rose-700 ring-rose-200 dark:bg-rose-400/10 dark:text-rose-200 dark:ring-rose-300/25"
                         }`}
                       >
                         {isUp ? "Up" : "Down"}
@@ -337,7 +352,7 @@ function HackerNewsSection({ items = [] }) {
         title="Hacker News"
         subtitle="Ten notable links from the last day in the Hacker News ecosystem."
       />
-      <div className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm ring-1 ring-slate-100">
+      <div className={LIST_PANEL_CLASS_NAME}>
         {items.map((item, index) => (
           <ListRowCard
             key={`${item.url}-${index}`}
@@ -362,11 +377,11 @@ function ProductHuntSection({ items = [] }) {
         subtitle="Featured products from the latest public Product Hunt listings."
       />
       {items.length === 0 ? (
-        <div className="rounded-3xl border border-dashed border-slate-300 bg-slate-50 p-6 text-sm text-slate-500">
+        <div className="rounded-lg border border-dashed border-slate-300 bg-slate-50 p-6 text-sm text-slate-500 dark:border-white/15 dark:bg-slate-900/60 dark:text-slate-400">
           Product Hunt data was unavailable for this edition.
         </div>
       ) : (
-        <div className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm ring-1 ring-slate-100">
+        <div className={LIST_PANEL_CLASS_NAME}>
           {items.map((item, index) => (
             <ListRowCard
               key={`${item.url || item.name}-${index}`}
@@ -393,35 +408,35 @@ function SourceNotesSection({ sourceNotes = {} }) {
         title="Source Notes"
         subtitle="Generation details, data coverage, and any partial-source warnings for this edition."
       />
-      <div className="rounded-3xl border border-slate-200 bg-slate-50 p-5 shadow-sm ring-1 ring-slate-100">
+      <div className={NOTE_PANEL_CLASS_NAME}>
         <div className="grid gap-4 md:grid-cols-2">
           <div className="space-y-1">
-            <div className="text-xs font-semibold uppercase tracking-[0.14em] text-slate-400">Generated At</div>
-            <div className="text-sm text-slate-700">
+            <div className="text-xs font-semibold uppercase text-slate-500 dark:text-slate-400">Generated At</div>
+            <div className="text-sm text-slate-700 dark:text-slate-200">
               {formatAbsoluteTimestamp(sourceNotes.generatedAt) || sourceNotes.generatedAt}
             </div>
           </div>
           <div className="space-y-1">
-            <div className="text-xs font-semibold uppercase tracking-[0.14em] text-slate-400">Time Zone</div>
-            <div className="text-sm text-slate-700">{sourceNotes.timeZone || DAILY_NEWS_TIME_ZONE}</div>
+            <div className="text-xs font-semibold uppercase text-slate-500 dark:text-slate-400">Time Zone</div>
+            <div className="text-sm text-slate-700 dark:text-slate-200">{sourceNotes.timeZone || DAILY_NEWS_TIME_ZONE}</div>
           </div>
           <div className="space-y-1">
-            <div className="text-xs font-semibold uppercase tracking-[0.14em] text-slate-400">
+            <div className="text-xs font-semibold uppercase text-slate-500 dark:text-slate-400">
               News Sources With Data
             </div>
-            <div className="text-sm text-slate-700">
+            <div className="text-sm text-slate-700 dark:text-slate-200">
               {sourceNotes.successfulSources?.join(", ") || "None"}
             </div>
           </div>
           <div className="space-y-1">
-            <div className="text-xs font-semibold uppercase tracking-[0.14em] text-slate-400">Market Session Label</div>
-            <div className="text-sm text-slate-700">{sourceNotes.marketSessionLabel || "No market data available"}</div>
+            <div className="text-xs font-semibold uppercase text-slate-500 dark:text-slate-400">Market Session Label</div>
+            <div className="text-sm text-slate-700 dark:text-slate-200">{sourceNotes.marketSessionLabel || "No market data available"}</div>
           </div>
         </div>
         {sourceNotes.warnings?.length ? (
-          <div className="mt-5 rounded-2xl border border-amber-200 bg-amber-50 p-4">
-            <div className="text-xs font-semibold uppercase tracking-[0.14em] text-amber-700">Warnings</div>
-            <ul className="mt-3 space-y-2 text-sm text-amber-900">
+          <div className="mt-5 rounded-lg border border-amber-200 bg-amber-50 p-4 dark:border-amber-300/20 dark:bg-amber-300/10">
+            <div className="text-xs font-semibold uppercase text-amber-700 dark:text-amber-200">Warnings</div>
+            <ul className="mt-3 space-y-2 text-sm text-amber-900 dark:text-amber-100">
               {sourceNotes.warnings.map((warning, index) => (
                 <li key={`${warning}-${index}`}>{warning}</li>
               ))}
@@ -446,16 +461,16 @@ export function DailyNewsPayloadRenderer({ payload }) {
           title="Global Headlines"
           subtitle="Top stories across selected outlets, presented in a fast daily brief format."
         />
-        <div className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm ring-1 ring-slate-100">
+        <div className={LIST_PANEL_CLASS_NAME}>
           {sortHeadlineItems(payload.headlines).map((item, index) => (
             <HeadlineCard key={`${item.url || item.title}-${index}`} item={item} />
           ))}
         </div>
       </section>
 
+      <MarketSection items={payload.markets} />
       <HackerNewsSection items={payload.hackerNews} />
       <ProductHuntSection items={payload.productHunt} />
-      <MarketSection items={payload.markets} />
       <SourceNotesSection sourceNotes={payload.sourceNotes} />
     </div>
   );
