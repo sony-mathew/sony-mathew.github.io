@@ -21,6 +21,9 @@ export async function getStaticProps() {
 export default function DailyNewsIndex({ allDailyNewsData }) {
   const [latestEdition, ...archiveEditions] = allDailyNewsData;
   const pageTitle = `Daily News | ${DEFAULT_CONFIG.siteTitle}`;
+  const latestSources = latestEdition?.newsSources || [];
+  const visibleSources = latestSources.slice(0, 5);
+  const hiddenSourceCount = Math.max(latestSources.length - visibleSources.length, 0);
 
   return (
     <Layout>
@@ -29,39 +32,93 @@ export default function DailyNewsIndex({ allDailyNewsData }) {
         {MetaData()}
       </Head>
 
-      <section>
+      <section className={dailyNewsStyles.indexPage}>
         <div className={dailyNewsStyles.indexHero}>
-          <div className={utilStyles.lightText}>Daily News</div>
-          <h2 className={utilStyles.heading2Xl}>Global headlines, markets, builder chatter</h2>
-          <p>
-            A compact daily brief collected from public sources across major news outlets, market
-            snapshots, Hacker News, and Product Hunt.
-          </p>
-          <small className={utilStyles.lightText}>{allDailyNewsData.length} published editions</small>
+          <div className={dailyNewsStyles.indexHeroHeader}>
+            <span className={dailyNewsStyles.indexEyebrow}>Daily News</span>
+            {latestEdition && (
+              <span className={dailyNewsStyles.indexFreshness}>
+                Updated <DateComponent dateString={latestEdition.date} />
+              </span>
+            )}
+          </div>
+
+          <div className={dailyNewsStyles.indexHeroBody}>
+            <div className={dailyNewsStyles.indexHeroCopy}>
+              <h1 className={dailyNewsStyles.indexTitle}>
+                Global headlines, markets, builder chatter
+              </h1>
+              <p className={dailyNewsStyles.indexDescription}>
+                A compact daily brief collected from public sources across major news outlets,
+                market snapshots, Hacker News, and Product Hunt.
+              </p>
+            </div>
+
+            <dl className={dailyNewsStyles.indexStats}>
+              <div>
+                <dt>Editions</dt>
+                <dd>{allDailyNewsData.length}</dd>
+              </div>
+              {latestEdition && (
+                <div>
+                  <dt>Latest</dt>
+                  <dd>
+                    <DateComponent dateString={latestEdition.date} />
+                  </dd>
+                </div>
+              )}
+              {latestSources.length > 0 && (
+                <div>
+                  <dt>Sources</dt>
+                  <dd>{latestSources.length}</dd>
+                </div>
+              )}
+            </dl>
+          </div>
+
+          {visibleSources.length > 0 && (
+            <div className={dailyNewsStyles.sourceRail} aria-label="Latest edition sources">
+              {visibleSources.map((source) => (
+                <span key={source}>{source}</span>
+              ))}
+              {hiddenSourceCount > 0 && <span>{hiddenSourceCount} more</span>}
+            </div>
+          )}
         </div>
 
         {latestEdition ? (
           <>
-            <div className={utilStyles.archiveCallout}>
-              <div className={utilStyles.archiveLabel}>Latest Edition</div>
-              <h3 className={utilStyles.headingLg}>
+            <section className={dailyNewsStyles.latestEdition} aria-labelledby="latest-edition">
+              <div className={dailyNewsStyles.latestLabel}>Latest Edition</div>
+              <h2 className={dailyNewsStyles.latestTitle} id="latest-edition">
                 <Link href={`/daily-news/${latestEdition.id}`}>{latestEdition.title}</Link>
-              </h3>
-              <p>{latestEdition.description}</p>
-              <small className={utilStyles.lightText}>
-                <DateComponent dateString={latestEdition.date} /> • {latestEdition.readingTime} min read
-              </small>
-            </div>
+              </h2>
+              <p className={dailyNewsStyles.latestDescription}>{latestEdition.description}</p>
+              <div className={dailyNewsStyles.latestMeta}>
+                <span>
+                  <DateComponent dateString={latestEdition.date} />
+                </span>
+                <span>{latestEdition.readingTime} min read</span>
+                {latestEdition.marketSessionLabel && <span>{latestEdition.marketSessionLabel}</span>}
+              </div>
+            </section>
 
-            <h3 className={utilStyles.headingMd}>Archive</h3>
+            <div className={dailyNewsStyles.archiveHeader}>
+              <h2>Archive</h2>
+              <span>{archiveEditions.length} older briefs</span>
+            </div>
             <ul className={`${utilStyles.list} ${dailyNewsStyles.archiveGrid}`}>
               {archiveEditions.map(({ id, date, title, readingTime }) => (
                 <li className={`${utilStyles.listItem} ${dailyNewsStyles.archiveCard}`} key={id}>
-                  <Link href={`/daily-news/${id}`}>{title}</Link>
-                  <br />
-                  <small className={utilStyles.lightText}>
-                    <DateComponent dateString={date} /> • {readingTime} min read
-                  </small>
+                  <Link className={dailyNewsStyles.archiveLink} href={`/daily-news/${id}`}>
+                    {title}
+                  </Link>
+                  <div className={dailyNewsStyles.archiveMeta}>
+                    <span>
+                      <DateComponent dateString={date} />
+                    </span>
+                    <span>{readingTime} min read</span>
+                  </div>
                 </li>
               ))}
             </ul>
