@@ -13,6 +13,16 @@ export const projectsList = [
     imageUrl: defaultImageUrl
   },
   {
+    id: 'base64-encoder-decoder',
+    date: '2026-06-14',
+    title: 'Base64 Encoder Decoder',
+    description: 'A two-way Base64 text tool for encoding and decoding UTF-8 content in the browser.',
+    author: 'Sony Mathew',
+    tags: ['base64', 'encoder', 'decoder', 'developer-tools'],
+    readingTime: 1,
+    imageUrl: defaultImageUrl
+  },
+  {
     id: 'scientific-calculator',
     date: '2025-08-24',
     title: 'Scientific Calculator',
