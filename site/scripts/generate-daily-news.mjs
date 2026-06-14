@@ -204,6 +204,35 @@ function truncateText(value = "", maxLength = 160) {
   return `${clipped.slice(0, lastSpace > 60 ? lastSpace : clipped.length).trim()}...`;
 }
 
+function escapeRegExp(value = "") {
+  return String(value).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function normalizeEditionTitle(value = "", humanDate) {
+  const normalizedHumanDate = normalizeWhitespace(humanDate);
+  let title = normalizeWhitespace(value).replace(/^Daily Brief for\s+/i, "");
+
+  if (!normalizedHumanDate) {
+    return title;
+  }
+
+  title = title.replace(
+    new RegExp(`^${escapeRegExp(normalizedHumanDate)}\\s*[-–—]\\s*`, "i"),
+    `${normalizedHumanDate}: `
+  );
+
+  if (!title.toLowerCase().startsWith(`${normalizedHumanDate.toLowerCase()}:`)) {
+    const titleWithoutDate = title.replace(
+      new RegExp(`^${escapeRegExp(normalizedHumanDate)}\\s*:?\\s*`, "i"),
+      ""
+    );
+
+    return `${normalizedHumanDate}: ${titleWithoutDate || "Global Headlines, Markets, Hacker News, Product Hunt"}`;
+  }
+
+  return title;
+}
+
 function joinReadableList(items, conjunction = "and") {
   const cleanItems = items.map((item) => normalizeWhitespace(item)).filter(Boolean);
 
@@ -2285,7 +2314,7 @@ function createFallbackEditionMetadata(payload, humanDate) {
             topProductHuntNames[0],
           ].filter(Boolean)
         );
-  const title = truncateText(`Daily Brief for ${humanDate}: ${fallbackTitleFocus}`, 150);
+  const title = truncateText(`${humanDate}: ${fallbackTitleFocus}`, 150);
   const summarySections = createEditionSummarySections(payload);
 
   return {
@@ -2326,7 +2355,7 @@ function buildMetadataSummaryPrompt(payload, humanDate, fallbackMetadata) {
   return [
     "Write metadata for a Daily News edition using only the supplied facts.",
     "Return strict JSON with exactly two string keys: title and description.",
-    "Title: specific, headline-driven, natural, under 150 characters, and include the date.",
+    `Title: specific, headline-driven, natural, under 150 characters, and start exactly with "${humanDate}: ".`,
     "Description: 7 to 9 complete sentences summarizing global headlines, markets, Hacker News, and Product Hunt. Cover the lead headline context, the broader headline mix, market direction, notable market movers, Hacker News themes, Product Hunt launches, and any missing section briefly if it has no items.",
     "Do not invent details, statistics, names, or causal claims beyond the JSON input.",
     JSON.stringify(summaryInput, null, 2),
@@ -2349,8 +2378,11 @@ function parseJsonObjectFromText(value = "") {
   }
 }
 
-function sanitizeGeneratedMetadata(metadata, fallbackMetadata) {
-  const title = truncateText(metadata?.title || fallbackMetadata.title, 150);
+function sanitizeGeneratedMetadata(metadata, fallbackMetadata, humanDate) {
+  const title = truncateText(
+    normalizeEditionTitle(metadata?.title || fallbackMetadata.title, humanDate),
+    150
+  );
   const description = truncateText(metadata?.description || fallbackMetadata.description, 1600);
 
   return {
@@ -2411,7 +2443,7 @@ async function fetchOpenRouterMetadata(payload, humanDate, fallbackMetadata) {
     }
 
     return {
-      ...sanitizeGeneratedMetadata(parseJsonObjectFromText(content), fallbackMetadata),
+      ...sanitizeGeneratedMetadata(parseJsonObjectFromText(content), fallbackMetadata, humanDate),
       source: "openrouter",
     };
   } finally {

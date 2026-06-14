@@ -248,7 +248,7 @@ test("uses OpenRouter metadata when a key is configured", async () => {
     assert.equal(metadata.source, "openrouter");
     assert.equal(
       metadata.title,
-      "Daily Brief for April 19, 2026: Markets Slip as Launch Alpha Trends"
+      "April 19, 2026: Markets Slip as Launch Alpha Trends"
     );
     assert.match(metadata.description, /Product Hunt features Launch Alpha/);
     assert.equal(warnings.length, 0);
@@ -378,11 +378,12 @@ test("dry run emits markdown frontmatter and source notes", async () => {
     });
 
     assert.equal(result.status, "generated");
-    assert.match(result.document, /title: "Daily Brief for April 19, 2026: /);
+    assert.match(result.document, /title: "April 19, 2026: /);
     assert.doesNotMatch(
       result.document,
-      /Daily Brief for April 19, 2026: Global Headlines, Markets, Hacker News, Product Hunt/
+      /April 19, 2026: Global Headlines, Markets, Hacker News, Product Hunt/
     );
+    assert.doesNotMatch(result.document, /Daily Brief for April 19, 2026/);
     assert.match(result.document, /description: "Global headlines: /);
     assert.match(result.document, /Washington Post headline one \(Lead story summary from the Washington Post world feed\)/);
     assert.match(result.document, /Benchmarks tracked: /);
