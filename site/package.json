@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "export": "next build && next export && touch ./out/.nojekyll",
-    "build": "next build",
+    "export": "next build --webpack && touch ./out/.nojekyll",
+    "build": "next build --webpack",
     "start": "next start",
     "generate:daily-news": "node ./scripts/generate-daily-news.mjs",
     "test": "node --test ./test/*.test.mjs"
