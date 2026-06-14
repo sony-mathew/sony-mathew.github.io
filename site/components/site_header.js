@@ -49,7 +49,7 @@ function MobileLayout() {
 
       <ul className="inline-flex m-0">
         <li>
-          <button className="py-2 text-gray-600 appearance-none focus:outline-none" onClick={() => setNavMenuOpened(true)}>
+          <button className="py-2 text-gray-600 dark:text-gray-300 appearance-none focus:outline-none" onClick={() => setNavMenuOpened(true)}>
             <svg className="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
               <title>Menu</title>
               <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
@@ -57,7 +57,7 @@ function MobileLayout() {
           </button>
         </li>
         <li className="mx-4">
-          <Link href="/" className="text-lg text-gray-600 hover:no-underline py-1">
+          <Link href="/" className="text-lg text-gray-600 dark:text-gray-300 hover:no-underline py-1">
             The Usual Ramblings
           </Link>
         </li>

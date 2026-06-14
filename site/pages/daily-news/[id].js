@@ -8,7 +8,6 @@ import {
   DailyNewsPayloadRenderer,
   formatRelativeTimeLabel,
 } from "../../components/daily_news_renderer";
-import utilStyles from "../../styles/utils.module.scss";
 import dailyNewsStyles from "../../styles/daily-news.module.scss";
 import { getAllDailyNewsIds, getDailyNewsData } from "../../lib/daily_news";
 
@@ -102,10 +101,9 @@ export default function DailyNewsEdition({ editionData }) {
           </div>
         </section>
 
-        <div className={utilStyles.lightText}>
-          <div>Edition: {editionData.editionDate || editionData.date}</div>
+        <div className={dailyNewsStyles.editionLine}>
+          Edition {editionData.editionDate || editionData.date}
         </div>
-        <br />
         {editionData.bannerImage && (
           <div
             style={{
