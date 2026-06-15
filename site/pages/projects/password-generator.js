@@ -3,6 +3,7 @@ import { useEffect, useMemo, useState } from "react";
 import DEFAULT_CONFIG from '../../config/default_config';
 import Layout from "../../components/layout";
 import utilStyles from "../../styles/utils.module.scss";
+import styles from "../../styles/password-generator.module.scss";
 import { projectsList } from "../../config/projectsList";
 
 const LENGTH_PRESETS = [8, 16, 32, 64];
@@ -184,63 +185,66 @@ export default function PasswordGeneratorPage() {
         <meta name="twitter:image:alt" content={ meta.title } />
       </Head>
 
-      <article>
-        <h2 className={utilStyles.headingLg}>Password Generator</h2>
+      <article className={styles.page}>
+        <h2 className={`${utilStyles.headingLg} ${styles.title}`}>Password Generator</h2>
 
-        <div className="mt-6 rounded-lg border border-gray-800 bg-gray-950/40 p-5">
-          <label className="block text-sm font-semibold text-gray-300" htmlFor="generated-password">
-            Generated password
-          </label>
-          <div className="mt-3 grid gap-3 md:grid-cols-[1fr_auto_auto]">
+        <section className={`${styles.panel} ${styles.outputPanel}`}>
+          <div className={styles.outputHeader}>
+            <label className={styles.panelLabel} htmlFor="generated-password">
+              Generated password
+            </label>
+            <div className={styles.actions}>
+              <button
+                type="button"
+                onClick={copyPassword}
+                className={`${styles.actionButton} ${styles.secondaryAction}`}
+              >
+                {copyState}
+              </button>
+              <button
+                type="button"
+                onClick={regenerate}
+                className={`${styles.actionButton} ${styles.primaryAction}`}
+              >
+                Generate
+              </button>
+            </div>
+          </div>
+
+          <div className={styles.passwordField}>
             <textarea
               id="generated-password"
               value={password}
               readOnly
               rows={4}
-              className="min-h-[120px] w-full resize-y rounded-lg border border-gray-800 bg-gray-900 px-4 py-3 font-mono text-lg text-sky-200 outline-none focus:ring-2 focus:ring-sky-400/50"
+              className={styles.passwordTextarea}
             />
-            <button
-              type="button"
-              onClick={copyPassword}
-              className="h-12 rounded-lg bg-sky-600 px-5 text-sm font-semibold text-white transition-colors hover:bg-sky-500 focus:outline-none focus:ring-2 focus:ring-sky-300"
-            >
-              {copyState}
-            </button>
-            <button
-              type="button"
-              onClick={regenerate}
-              className="h-12 rounded-lg bg-emerald-600 px-5 text-sm font-semibold text-white transition-colors hover:bg-emerald-500 focus:outline-none focus:ring-2 focus:ring-emerald-300"
-            >
-              Generate
-            </button>
           </div>
 
           {error && (
-            <div className="mt-3 rounded-md border border-rose-900 bg-rose-950/40 px-3 py-2 text-sm text-rose-300">
+            <div className={styles.errorMessage}>
               {error}
             </div>
           )}
 
-          <div className="mt-3 flex flex-wrap gap-3 text-sm text-gray-400">
-            <span>Length: {length}</span>
-            <span>Entropy: {entropyBits} bits</span>
-            {useHexDigest && <span>Hex digest</span>}
+          <div className={styles.metaBar}>
+            <span className={styles.metaPill}>Length: {length}</span>
+            <span className={styles.metaPill}>Entropy: {entropyBits} bits</span>
+            {useHexDigest && <span className={styles.metaPill}>Hex digest</span>}
           </div>
-        </div>
+        </section>
 
-        <div className="mt-6 grid gap-6 md:grid-cols-2">
-          <section className="rounded-lg border border-gray-800 bg-gray-950/40 p-5">
-            <h3 className="text-lg font-semibold text-gray-100">Length</h3>
-            <div className="mt-4 grid grid-cols-4 gap-2">
+        <div className={styles.controlGrid}>
+          <section className={styles.panel}>
+            <h3 className={styles.sectionTitle}>Length</h3>
+            <div className={styles.presetGrid}>
               {LENGTH_PRESETS.map((preset) => (
                 <button
                   type="button"
                   key={preset}
                   onClick={() => selectPreset(preset)}
-                  className={`rounded-lg border px-3 py-2 text-sm font-semibold transition-colors ${
-                    activePreset === preset
-                      ? "border-sky-400 bg-sky-600 text-white"
-                      : "border-gray-700 bg-gray-900 text-gray-300 hover:border-gray-500"
+                  className={`${styles.presetButton} ${
+                    activePreset === preset ? styles.presetActive : ""
                   }`}
                 >
                   {preset}
@@ -248,7 +252,7 @@ export default function PasswordGeneratorPage() {
               ))}
             </div>
 
-            <label className="mt-5 block text-sm font-semibold text-gray-300" htmlFor="custom-length">
+            <label className={styles.fieldLabel} htmlFor="custom-length">
               Custom length
             </label>
             <input
@@ -258,13 +262,13 @@ export default function PasswordGeneratorPage() {
               max={MAX_LENGTH}
               value={customLength}
               onChange={(event) => updateCustomLength(event.target.value)}
-              className="mt-2 w-full rounded-lg border border-gray-800 bg-gray-900 px-4 py-3 text-lg text-gray-100 outline-none focus:ring-2 focus:ring-sky-400/50"
+              className={styles.numberInput}
             />
           </section>
 
-          <section className="rounded-lg border border-gray-800 bg-gray-950/40 p-5">
-            <h3 className="text-lg font-semibold text-gray-100">Characters</h3>
-            <div className="mt-4 grid gap-3">
+          <section className={styles.panel}>
+            <h3 className={styles.sectionTitle}>Characters</h3>
+            <div className={styles.optionStack}>
               {[
                 ["uppercase", "Uppercase"],
                 ["lowercase", "Lowercase"],
@@ -273,27 +277,29 @@ export default function PasswordGeneratorPage() {
               ].map(([key, label]) => (
                 <label
                   key={key}
-                  className="flex items-center justify-between rounded-lg border border-gray-800 bg-gray-900 px-4 py-3"
+                  className={`${styles.optionRow} ${
+                    useHexDigest ? styles.optionDisabled : ""
+                  }`}
                 >
-                  <span className="text-sm font-semibold text-gray-200">{label}</span>
+                  <span className={styles.optionLabel}>{label}</span>
                   <input
                     type="checkbox"
                     checked={options[key]}
                     disabled={useHexDigest}
                     onChange={() => toggleOption(key)}
-                    className="h-5 w-5 accent-sky-500"
+                    className={styles.checkbox}
                   />
                 </label>
               ))}
             </div>
 
-            <label className="mt-5 flex items-center justify-between rounded-lg border border-emerald-900 bg-emerald-950/30 px-4 py-3">
-              <span className="text-sm font-semibold text-emerald-100">Hex digest</span>
+            <label className={`${styles.optionRow} ${styles.hexRow}`}>
+              <span className={styles.optionLabel}>Hex digest</span>
               <input
                 type="checkbox"
                 checked={useHexDigest}
                 onChange={() => setUseHexDigest((current) => !current)}
-                className="h-5 w-5 accent-emerald-500"
+                className={`${styles.checkbox} ${styles.hexCheckbox}`}
               />
             </label>
           </section>
