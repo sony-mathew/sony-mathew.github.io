@@ -11,6 +11,22 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `(() => {
+                try {
+                  const storedTheme = window.localStorage.getItem('theme');
+                  const theme = storedTheme === 'dark' || storedTheme === 'light'
+                    ? storedTheme
+                    : (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+                  const root = document.documentElement;
+                  root.classList.remove('theme-dark', 'theme-light');
+                  root.classList.add('theme-' + theme);
+                  root.style.colorScheme = theme;
+                } catch (_) {}
+              })();`,
+            }}
+          />
           <link rel="icon" href="/favicon.ico" />
           <link href="/styles/custom.css" rel="stylesheet" />
           <link
