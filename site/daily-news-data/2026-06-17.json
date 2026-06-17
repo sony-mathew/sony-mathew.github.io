@@ -1,0 +1,498 @@
+{
+  "headlines": [
+    {
+      "title": "Israelis denounce Trump’s deal with Iran",
+      "url": "https://www.washingtonpost.com/world/2026/06/15/israelis-denounce-trumps-deal-with-iran/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Mon, 15 Jun 2026 20:45:56 +0000",
+      "summary": "Israeli officials disparaged the peace deal and said Israel’s fight against Hezbollah in Lebanon would go on.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/ICDHX26T6EW6PDTXK4W74IUIYU_size-normalized.jpg&w=1440"
+    },
+    {
+      "title": "After news of Iran peace deal, Lebanese return home to assess wreckage",
+      "url": "https://www.washingtonpost.com/world/2026/06/15/after-news-iran-peace-deal-lebanese-return-home-assess-wreckage/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Mon, 15 Jun 2026 15:28:34 +0000",
+      "summary": "Some war-weary residents displaced from the south found relative quiet, with guarded optimism that Trump will pressure Israel to adhere to a truce.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/SGHQCTFTT5JQ6EECHEFOBYJNF4_size-normalized.jpg&w=1440"
+    },
+    {
+      "title": "In Mideast and worldwide, cautious relief over deal to end damaging war",
+      "url": "https://www.washingtonpost.com/world/2026/06/15/mideast-worldwide-cautious-relief-over-deal-end-iran-war/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Mon, 15 Jun 2026 12:25:07 +0000",
+      "summary": "Some world leaders hailed the deal, but many in the Middle East were cautious, saying important details remain to be settled and warning the accord could easily fall apart.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/5AVAWOEHRQEIQM6QXLHO7Z4G6A_size-normalized.jpg&w=1440"
+    },
+    {
+      "title": "Britain announces sweeping ban on most social media for children under 16",
+      "url": "https://www.washingtonpost.com/world/2026/06/15/britain-announces-sweeping-ban-most-social-media-children-under-16/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Mon, 15 Jun 2026 11:45:22 +0000",
+      "summary": "The U.K. prohibition is set to go further than those of other governments that are lining up against platforms engineered to maximize the time children spend on them",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/LSAGAS6VECCBVODBZEKE3SHRLY_size-normalized.jpg&w=1440"
+    },
+    {
+      "title": "Russian attack kills at least five and damages historic monastery in Kyiv",
+      "url": "https://www.washingtonpost.com/world/2026/06/15/russian-attack-kyiv-damages-historic-monastery-kills-least-5/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Mon, 15 Jun 2026 11:42:04 +0000",
+      "summary": "UNESCO, the U.N.’s world heritage agency, condemned the attack, which damaged the Kyiv Pechersk Lavra monastery. Russia said it bombed military targets.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/6ETJXU3ZOJMLBWEFWZ6P4FRKYM_size-normalized.jpg&w=1440"
+    },
+    {
+      "title": "Ghosts of empire: A quarantine centre and Laikipia’s colonial past",
+      "url": "https://www.aljazeera.com/news/2026/6/17/ghosts-of-empire-a-quarantine-centre-and-laikipias-colonial-past",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-06-17",
+      "summary": "A US Ebola quarantine centre has sparked protests in Laikipia, Kenya, over land and sovereignty concerns.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/06/AFP__20260609__B6HA2XG__v2__HighRes__TopshotKenyaDrcongoUgandaHealthVirusEbolaDemo-1781017004.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Iran warns Israel over deadly Lebanon attacks as Trump criticises Netanyahu",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/6/17/iran-war-live-israel-kills-four-in-lebanon-as-trump-criticises-netanyahu",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-06-17",
+      "summary": "Warning comes as Trump criticises Netanyahu over Israel's attacks on Lebanon.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/06/AP26167315283506-1781653667.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Brazilian court convicts Eduardo Bolsonaro of courting US interference",
+      "url": "https://www.aljazeera.com/news/2026/6/16/brazilian-court-convicts-eduardo-bolsonaro-of-courting-us-interference",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-06-16",
+      "summary": "US placed tariffs on Brazilian goods and sanctioned judicial officials involved in trial of the father for coup plot.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/06/ap_6a31b80209b14-1781643266.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "US Justice Department accuses 15 Minnesota activists of ‘antifa’ activities",
+      "url": "https://www.aljazeera.com/news/2026/6/16/us-justice-department-accuses-15-minnesota-activists-of-antifa-activities",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-06-16",
+      "summary": "Prosecutors have accused the activists of seeking 'to interfere with lawful immigration enforcement operations'.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/06/ap_6a31aefe45a0a-1781640958.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Ebola outbreak in DR Congo could become worst in history, Africa CDC warns",
+      "url": "https://www.aljazeera.com/news/2026/6/16/ebola-outbreak-in-dr-congo-could-become-worst-in-history-africa-cdc-warns",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-06-16",
+      "summary": "The ⁠number of confirmed cases in ⁠the country has ​increased to 837, including 196 deaths.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/06/afp_6a31969feb7b-1781634719.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Rain along Gulf Coast could become the first named storm of Atlantic hurricane season",
+      "url": "https://www.npr.org/2026/06/16/nx-s1-5860962/rain-along-gulf-coast-could-become-the-first-named-storm-of-atlantic-hurricane-season",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Tue, 16 Jun 2026 22:04:27 -0400",
+      "summary": "The National Hurricane Center in Miami says the system is expected to bring intense rain to southern states including Texas and Louisiana this week.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4000x2667+0+0/resize/4000x2667!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F63%2F0c%2F3fd318f7407f99ef53a96c75ad7a%2Fap26167592799499.jpg"
+    },
+    {
+      "title": "Haitian immigrants ask Supreme Court to toss case in light of new evidence",
+      "url": "https://www.npr.org/2026/06/16/nx-s1-5860947/supreme-court-haiti-tps-immigrants",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Tue, 16 Jun 2026 21:09:27 -0400",
+      "summary": "The lawyers argue that the court does not have a full record of how the Trump administration decided to end temporary protective status for Haitians in the U.S.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1024x689+0+0/resize/1024x689!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F31%2F3a%2F6d233b17497e9042cffef3a64682%2Fgettyimages-2273115715.jpg"
+    },
+    {
+      "title": "Georgia results: Collins will face Sen. Ossoff; Trump's pick loses governor runoff",
+      "url": "https://www.npr.org/2026/06/16/nx-s1-5860795/georgia-election-senate-governor-results-trump",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Tue, 16 Jun 2026 20:38:01 -0400",
+      "summary": "In an upset, Georgia Republican voters rejected President Trump's preferred nominee for the competitive open governor's race. They also picked Rep. Mike Collins to face Sen. Jon Ossoff.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5000x3335+0+0/resize/5000x3335!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F33%2Fd2%2F80beb1bb4bdfa3c7e6bf331b29f3%2Fgettyimages-2276618430.jpg"
+    },
+    {
+      "title": "Iraqi soccer fans celebrate end of 40-year World Cup drought",
+      "url": "https://www.npr.org/2026/06/16/nx-s1-5855456/world-cup-soccer-iraq-fans-dearborn-michigan",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Tue, 16 Jun 2026 16:21:51 -0400",
+      "summary": "The Iraq national men's team hasn't played a World Cup in 40 years; a drought that ends Tuesday night, to the excitement of soccer fans in Dearborn, Michigan, home to a large Iraqi diaspora.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6933x4622+0+0/resize/6933x4622!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fc9%2F39%2F9927b2d348bda2baed5891fb917a%2Fnh-20260610-0478.JPG"
+    },
+    {
+      "title": "In Albania, anger grows against the government for supporting a Kushner-linked luxury resort",
+      "url": "https://www.npr.org/2026/06/16/g-s1-128162/albania-resort-protests-kushner-trump",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Tue, 16 Jun 2026 13:10:17 -0400",
+      "summary": "Albania's government has given preliminary approval to plans for the luxury resort along a stretch of coastline, prompting daily protests and legal challenges by environmental groups.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6156x3642+0+0/resize/6156x3642!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fd8%2Fe5%2F9321b62a4da396b26bfe50d2bff0%2Fgettyimages-2280367678.jpg"
+    },
+    {
+      "title": "Key role for agriculture in relations",
+      "url": "https://www.chinadaily.com.cn/a/202606/17/WS6a31daffa310986e2b4605ee.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-06-17",
+      "summary": "After a tour of central China's Henan province — a food production pioneer in the country that enjoys great agricultural cooperation with the United States — agricultural sector insiders from the US said it has been proven that \"agriculture is more than just trade and business\".",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202606/17/6a31daffa310986e1017d49e.jpeg"
+    },
+    {
+      "title": "Trans-Atlantic rifts cast shadow over G7",
+      "url": "https://www.chinadaily.com.cn/a/202606/17/WS6a31cb7ea310986e2b4605a5.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-06-17",
+      "summary": "Compared with previous G7 summits, this year's gathering in France is marked by increasingly visible rifts between the United States and Europe, which could undermine the bloc's global influence and weaken its ability to shape international affairs, experts say.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202606/17/6a31dc83a310986e1017d4b5.png"
+    },
+    {
+      "title": "EU revises cabin luggage, flight compensation rules",
+      "url": "https://www.chinadaily.com.cn/a/202606/17/WS6a31946fa310986e2b4605a3.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-06-17",
+      "summary": "A legislative wrangle lasting more than a decade has finally been settled after the European Council and the European Parliament agreed to revise rules over air passenger delay compensation and free cabin luggage.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202606/17/6a319835a310986e1017d2aa.jpeg"
+    },
+    {
+      "title": "Spain gets deluge of migrant applications",
+      "url": "https://www.chinadaily.com.cn/a/202606/17/WS6a31944ca310986e2b4605a1.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-06-17",
+      "summary": "Spain has been overwhelmed with applications from undocumented migrants wanting to take advantage of an amnesty that allows irregular arrivals to become legal residents with work visas.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202606/17/6a319644a310986e1017d2a0.jpeg"
+    },
+    {
+      "title": "Angkor's treasures shine in China",
+      "url": "https://www.chinadaily.com.cn/a/202606/17/WS6a32004ea310986e2b460713.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-06-17",
+      "summary": "For centuries, the stone faces of Angkor have gazed across Cambodia's tropical plains. Now, some of the civilization's finest treasures have traveled thousands of kilometers to North China, offering visitors a rare glimpse into one of Southeast Asia's greatest ancient kingdoms.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202606/17/6a32004da310986e1017d962.png"
+    },
+    {
+      "title": "Mamata files petition in Calcutta HC challenging Bhabanipur election results",
+      "url": "https://www.thehindu.com/news/national/west-bengal/mamata-files-plea-in-calcutta-hc-challenging-poll-result-bhabanipur-seat/article71108642.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-06-16T10:18:38.000Z",
+      "summary": "Mamata Banerjee challenges Bhabanipur Assembly election results in Calcutta HC after losing to BJP's Suvendu Adhikari by 15,105 votes.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/pw0tvb/article71108675.ece/alternates/LANDSCAPE_1200/PTI06_09_2026_000256A.jpg"
+    },
+    {
+      "title": "Congress calls for time-bound judicial probe into Ram Mandir ‘missing donations’ row",
+      "url": "https://www.thehindu.com/news/national/uttar-pradesh/congress-calls-for-time-bound-judicial-probe-into-ram-mandir-missing-donations-row/article71109859.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-06-16T16:32:25.000Z",
+      "summary": "Congress demands a time-bound judicial probe into alleged missing donations from the Ram Mandir trust, accusing BJP-RSS of corruption.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/g1euao/article71110403.ece/alternates/LANDSCAPE_1200/CONGRESS%20PC%20RAM%20MANDIR%20DELHI%202026_16_06_11.jpg"
+    },
+    {
+      "title": "Senior BJP leaders hold meeting, discuss organisational restructuring",
+      "url": "https://www.thehindu.com/news/national/bjp-weighs-organisational-restructuring-amid-rapid-expansion/article71108530.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-06-16T10:19:57.000Z",
+      "summary": "BJP considers organisational restructuring and expansion of office-bearers amid rapid growth and upcoming national team changes.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/news/national/336khs/article71108624.ece/alternates/LANDSCAPE_1200/0001BJP.jpg"
+    },
+    {
+      "title": "CBI court sets June 20 for Nimbalkar murder case verdict",
+      "url": "https://www.thehindu.com/news/national/maharashtra/cbi-court-sets-june-20-for-nimbalkar-murder-case-verdict/article71109405.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-06-16T15:11:25.000Z",
+      "summary": "A CBI court will announce the verdict in the Pawanraje Nimbalkar murder case on June 20, after 15 years of trial.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/t68vqe/article71109617.ece/alternates/LANDSCAPE_1200/20260616181L.jpg"
+    },
+    {
+      "title": "Delhi Police bust Pakistan-backed terror syndicate, seven held",
+      "url": "https://www.thehindu.com/news/national/delhi-police-arrest-seven-bust-pakistan-backed-terror-syndicate/article71110399.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-06-16T17:22:05.000Z",
+      "summary": "Delhi Police arrest seven in a Pakistan-backed terror syndicate, thwarting planned attacks and illegal arms trafficking.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/latest-news/z9hy66/article71110818.ece/alternates/LANDSCAPE_1200/DelhiPoliceTerrorSyndicate.jpg"
+    },
+    {
+      "title": "Exclusive: US holds off blacklisting China's DeepSeek, more than 100 firms deemed security risks, sources say",
+      "url": "https://www.reuters.com/world/china/us-holds-off-blacklisting-chinas-deepseek-more-than-100-firms-deemed-security-2026-06-17/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Wed, 17 Jun 2026 00:02:00 GMT",
+      "summary": "Reuters: Exclusive: US holds off blacklisting China's DeepSeek, more than 100 firms deemed security risks, sources say.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/NSKWY2FN25PERMXDWNZB73IJ2M.jpg?auth=e8eac65ba6152edde32d15335c3c32be1c845a69969d437e1b038483a22aa1e1&width=1920&quality=80"
+    },
+    {
+      "title": "Oil slides on Iran supply prospects as traders wait on Warsh",
+      "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-06-17/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Wed, 17 Jun 2026 01:50:00 GMT",
+      "summary": "Reuters: Oil slides on Iran supply prospects as traders wait on Warsh.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/4WJZSSV3ZFLDPKZ24LXGE2PFWA.jpg?auth=ff90cdae990d786450e06d470fbe4467598993642eb7ec06b10eba5941ef9cd0&width=1920&quality=80"
+    },
+    {
+      "title": "Brazilian court convicts Eduardo Bolsonaro of seeking US help in father's legal battle",
+      "url": "https://www.reuters.com/world/americas/brazil-top-court-votes-convict-eduardo-bolsonaro-seeking-us-help-his-fathers-2026-06-16/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Tue, 16 Jun 2026 22:50:29 GMT",
+      "summary": "Reuters: Brazilian court convicts Eduardo Bolsonaro of seeking US help in father's legal battle.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/IP6BWBBNBRNFHMMDO56I42UGI4.jpg?auth=6e80777ae53eff684c260df42db1c8d2670edcfeb8287a5b6778517205103128&width=1080&quality=80"
+    },
+    {
+      "title": "Lawmakers in the dark on Iran deal as Trump says he will send it to Congress",
+      "url": "https://www.reuters.com/world/lawmakers-dark-iran-deal-trump-says-he-will-send-it-congress-2026-06-16/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Tue, 16 Jun 2026 19:56:54 GMT",
+      "summary": "Reuters: Lawmakers in the dark on Iran deal as Trump says he will send it to Congress.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/G6P2INZKQVJFLM72EOP7QWGX3U.jpg?auth=f4b12d06c891994d6e332bac233ed5932583783304b9e1683ab830b1d2aaf470&width=1080&quality=80"
+    },
+    {
+      "title": "Trump invokes Defense Production Act for munitions, supply chains",
+      "url": "https://www.reuters.com/world/us/trump-invokes-defense-production-act-munitions-supply-chains-2026-06-16/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Tue, 16 Jun 2026 21:21:19 GMT",
+      "summary": "Reuters: Trump invokes Defense Production Act for munitions, supply chains.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/WURK4FK7Q5OOVESFUCGRIY6NIA.jpg?auth=c9863a8c71cf3db0466a876f4954e218c29e63176518ee832730d19710d4a4d2&width=1920&quality=80"
+    }
+  ],
+  "markets": [
+    {
+      "id": "sp-500",
+      "label": "S&P 500",
+      "region": "US",
+      "symbol": "^GSPC",
+      "value": 7511.35,
+      "previousClose": 7554.289940000001,
+      "change": -42.93994,
+      "percentChange": -0.56841797,
+      "direction": "down",
+      "sessionDate": "2026-06-17"
+    },
+    {
+      "id": "nasdaq-composite",
+      "label": "NASDAQ Composite",
+      "region": "US",
+      "symbol": "^IXIC",
+      "value": 26376.34,
+      "previousClose": 26683.93766,
+      "change": -307.59766,
+      "percentChange": -1.1527444,
+      "direction": "down",
+      "sessionDate": "2026-06-17"
+    },
+    {
+      "id": "euronext-100",
+      "label": "Euronext 100 Index",
+      "region": "Europe",
+      "symbol": "^N100",
+      "value": 1917.89,
+      "previousClose": 1912.3299414,
+      "change": 5.5600586,
+      "percentChange": 0.29074788,
+      "direction": "up",
+      "sessionDate": "2026-06-17"
+    },
+    {
+      "id": "moex",
+      "label": "Public Joint-Stock Company Moscow Exchange MICEX-RTS",
+      "region": "Europe",
+      "symbol": "MOEX.ME",
+      "value": 85.2,
+      "previousClose": 85.31000061,
+      "change": -0.11000061,
+      "percentChange": -0.12894222,
+      "direction": "down",
+      "sessionDate": "2026-06-17"
+    },
+    {
+      "id": "hang-seng",
+      "label": "HANG SENG INDEX",
+      "region": "Asia",
+      "symbol": "^HSI",
+      "value": 24311.43,
+      "previousClose": 24493.94953,
+      "change": -182.51953,
+      "percentChange": -0.7451617,
+      "direction": "down",
+      "sessionDate": "2026-06-17"
+    },
+    {
+      "id": "nikkei-225",
+      "label": "Nikkei 225",
+      "region": "Asia",
+      "symbol": "^N225",
+      "value": 69926.08,
+      "previousClose": 69404.5019,
+      "change": 521.5781,
+      "percentChange": 0.7515048,
+      "direction": "up",
+      "sessionDate": "2026-06-17"
+    },
+    {
+      "id": "sensex",
+      "label": "S&P BSE SENSEX",
+      "region": "India",
+      "symbol": "^BSESN",
+      "value": 76808.48,
+      "previousClose": 76264.33155999999,
+      "change": 544.14844,
+      "percentChange": 0.71350324,
+      "direction": "up",
+      "sessionDate": "2026-06-17"
+    }
+  ],
+  "hackerNews": [
+    {
+      "title": "GrapheneOS has been ported to Android 17",
+      "url": "https://discuss.grapheneos.org/d/36469-grapheneos-has-been-ported-to-android-17-and-official-releases-are-coming-soon",
+      "publishedAt": "2026-06-16T20:34:35.000Z",
+      "summary": "GrapheneOS discussion forum",
+      "thumbnailUrl": "https://discuss.grapheneos.org/opengraph.png"
+    },
+    {
+      "title": "Running local models is good now",
+      "url": "https://vickiboykis.com/2026/06/15/running-local-models-is-good-now/",
+      "publishedAt": "2026-06-16T14:36:57.000Z",
+      "summary": "Local agentic coding has gotten great over the past few months",
+      "thumbnailUrl": "https://vickiboykis.com/images/refactor_gemma.png"
+    },
+    {
+      "title": "Humiliating IIS servers for fun and jail time",
+      "url": "https://mll.sh/humiliating-iis-servers-for-fun-and-jail-time/",
+      "publishedAt": "2026-06-16T22:53:34.000Z",
+      "summary": "A friend of mine once told me: If you ever spot an IIS blue screen, don’t stop there; there must be something.",
+      "thumbnailUrl": "https://mll.sh/assets/img/iis-shortname-github.png"
+    },
+    {
+      "title": "SpaceX to buy Cursor for $60B",
+      "url": "https://www.reuters.com/legal/transactional/spacex-buy-anysphere-60-billion-2026-06-16/",
+      "publishedAt": "2026-06-16T10:44:24.000Z",
+      "summary": "reuters.com: SpaceX to buy Cursor for $60B."
+    },
+    {
+      "title": "Wolfram Language and Mathematica Version 15, AI Assistant, Symbolic Music, More",
+      "url": "https://writings.stephenwolfram.com/2026/06/launching-version-15-of-wolfram-language-mathematica-built-in-useful-ai-lots-of-new-core-functionality/",
+      "publishedAt": "2026-06-16T23:15:44.000Z",
+      "summary": "AI-related upgrades like the built-in AI Assistant, extended computation-augmented generation and the Wolfram Agent Tools framework. Advances in TimeSeries & Tabular. New categorical data, ModelFit automated model selection, symbolic music. Efficient handling of gigabyte-sized notebooks. Gains in the already-robust visualization functionality. New functions for algebra, matrices, PDE modeling.",
+      "thumbnailUrl": "https://content.wolfram.com/sites/43/2026/06/v15-tile-wolframblog.png"
+    },
+    {
+      "title": "TIL: You can make HTTP requests without curl using Bash /dev/TCP",
+      "url": "https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/",
+      "publishedAt": "2026-06-16T16:40:58.000Z",
+      "summary": "Minimal container images often ship without curl, wget, or any HTTP client at all. Bash can open a TCP socket through /dev/tcp, which is enough to write a tiny HTTP/1.1 request by hand for quick checks.",
+      "thumbnailUrl": "https://mareksuppa.com/og/bash-dev-tcp-http-without-curl.png"
+    },
+    {
+      "title": "Calvin and Hobbes and the price of integrity",
+      "url": "https://therepublicofletters.substack.com/p/calvin-and-hobbes-and-the-price-of",
+      "publishedAt": "2026-06-16T15:44:44.000Z",
+      "summary": "therepublicofletters.substack.com: Calvin and Hobbes and the price of integrity."
+    },
+    {
+      "title": "GPT‑NL: a sovereign language model for the Netherlands",
+      "url": "https://www.tno.nl/en/digital/artificial-intelligence/gpt-nl/",
+      "publishedAt": "2026-06-16T17:54:02.000Z",
+      "summary": "With GPT‑NL, TNO - together with SURF and the Netherlands Forensic Institute (NFI) is building an independent Dutch language model and ecosystem. This strengthens the digital autonomy of the Netherlands and Europe, and provides a solid foundation for responsible AI applications.",
+      "thumbnailUrl": "https://www.tno.nl/publish/pages/14621/genai.jpg"
+    },
+    {
+      "title": "Stop Using JWTs",
+      "url": "https://gist.github.com/samsch/0d1f3d3b4745d778f78b230cf6061452",
+      "publishedAt": "2026-06-16T16:49:46.000Z",
+      "summary": "Stop using JWTs. GitHub Gist: instantly share code, notes, and snippets.",
+      "thumbnailUrl": "https://github.githubassets.com/assets/gist-og-image-54fd7dc0713e.png"
+    },
+    {
+      "title": "Has AI already killed self-help nonfiction books?",
+      "url": "https://tim.blog/2026/06/12/has-ai-already-killed-nonfiction/",
+      "publishedAt": "2026-06-16T17:11:05.000Z",
+      "summary": "My head has been spinning after getting a spreadsheet roughly a week ago. Before we dive into my dirty laundry, let’s state the obvious: millions of people have a vague sense that AI is changing things. And LLMs sure are convenient for getting answers quickly. My team and I use Claude and other tools daily. [&hellip;]",
+      "thumbnailUrl": "https://tim.blog/wp-content/uploads/2020/09/socialmedia_timFerriss_200114_005.jpg"
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "looquee",
+      "tagline": "Copilot for college applications",
+      "url": "https://www.producthunt.com/products/looquee",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-06-16T19:02:25-07:00"
+    },
+    {
+      "name": "Ledgerly",
+      "tagline": "Available on the App Store",
+      "url": "https://www.producthunt.com/products/github-224",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-06-16T15:02:48-07:00"
+    },
+    {
+      "name": "Fluxmail",
+      "tagline": "AI email inbox and assistant",
+      "url": "https://www.producthunt.com/products/fluxmail",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-06-16T20:02:30-07:00"
+    },
+    {
+      "name": "Athena Desktop",
+      "tagline": "A local command room for AI coding agents.",
+      "url": "https://www.producthunt.com/products/athena-desktop",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-06-16T19:02:26-07:00"
+    },
+    {
+      "name": "Obotiq",
+      "tagline": "Autonomous care robots that give caregivers time back",
+      "url": "https://www.producthunt.com/products/obotiq",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-06-16T16:39:40-07:00"
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "News and markets",
+      "sentences": [
+        "Global headlines: Israelis denounce Trump’s deal with Iran (Israeli officials disparaged the peace deal and said Israel’s fight against Hezbollah in Lebanon would go on); After news of Iran peace deal, Lebanese return home to assess wreckage (Some war-weary residents displaced from the south found relative quiet, with guarded optimism that Trump will pressure Israel to adhere to a truce); and In Mideast and worldwide, cautious relief over deal to end damaging war (Some world leaders hailed the deal, but many in the Middle East were cautious, saying important details remain to be settled and warning the accord could easily fall apart).",
+        "Markets leaned lower, with 4 of 7 tracked indexes down; NASDAQ Composite down 1.15% was the largest move.",
+        "Benchmarks tracked: S&P 500, NASDAQ Composite, Euronext 100 Index, and Public Joint-Stock Company Moscow Exchange MICEX-RTS plus 3 more indexes."
+      ]
+    },
+    {
+      "title": "Hacker News and Product Hunt",
+      "sentences": [
+        "Hacker News: GrapheneOS has been ported to Android 17 (GrapheneOS discussion forum); Running local models is good now (Local agentic coding has gotten great over the past few months); and Humiliating IIS servers for fun and jail time (A friend of mine once told me: If you ever spot an IIS blue screen, don’t stop there; there must be something).",
+        "Product Hunt features looquee (Copilot for college applications), Ledgerly (Available on the App Store), and Fluxmail (AI email inbox and assistant)."
+      ]
+    }
+  ],
+  "sourceNotes": {
+    "generatedAt": "2026-06-17T03:14:41.622Z",
+    "timeZone": "Asia/Kolkata",
+    "successfulSources": [
+      "Washington Post",
+      "Al Jazeera",
+      "NPR",
+      "China Daily",
+      "The Hindu",
+      "Reuters"
+    ],
+    "marketSessionLabel": "Latest market sessions as of 2026-06-17",
+    "warnings": []
+  }
+}
