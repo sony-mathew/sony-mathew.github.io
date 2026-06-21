@@ -1,0 +1,499 @@
+{
+  "headlines": [
+    {
+      "title": "Chaotic run-up to U.S.-Iran talks signals steep hurdles ahead",
+      "url": "https://www.washingtonpost.com/world/2026/06/20/diplomats-expect-hurdles-us-iran-talks-which-are-already-delayed/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Sat, 20 Jun 2026 21:10:10 +0000",
+      "summary": "Neither Washington nor Tehran wants the peace process to collapse completely, but diplomats say they expect a process full of challenges and distrust.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/522LIJDLABN4EJA2NAK3M4LGPI.jpg&w=1440"
+    },
+    {
+      "title": "Trump said Italy’s prime minister ‘begged’ for a photo. She says that’s false.",
+      "url": "https://www.washingtonpost.com/world/2026/06/19/trump-said-italys-prime-minister-begged-photo-she-says-thats-false/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Sat, 20 Jun 2026 15:00:15 +0000",
+      "summary": "Italy’s right-wing prime minister, Giorgia Meloni, was labeled Europe’s “Trump whisperer,” but the war in Iran turned their friendship into a liability for her.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/YXSGJDTJUEI7DAYOCM6SBSW5FA_size-normalized.jpg&w=1440"
+    },
+    {
+      "title": "War-weary Iranians see glimmers of relief as Trump deal takes shape",
+      "url": "https://www.washingtonpost.com/world/2026/06/20/war-weary-iranians-see-glimmers-relief-trump-deal-takes-shape/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Sat, 20 Jun 2026 09:00:00 +0000",
+      "summary": "As details emerged of an initial agreement between Washington and Tehran, Iranians voiced muted hopes for peace and prosperity.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/QOISNKQ2SNCOOTSUWPLDC7HBRE.JPG&w=1440"
+    },
+    {
+      "title": "Shut out of the World Cup again, China roots for a referee",
+      "url": "https://www.washingtonpost.com/world/2026/06/20/shut-out-world-cup-again-china-roots-referee/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Sat, 20 Jun 2026 09:00:00 +0000",
+      "summary": "On-field officials typically strive for anonymity. Ma Ning — or Card Master back home — has taken a different approach.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/VLP2L6I7TIUAMZUE6BF227J4UI_size-normalized.jpg&w=1440"
+    },
+    {
+      "title": "After 4 Israeli soldiers’ deaths, Israel and Hezbollah agree to renew ceasefire",
+      "url": "https://www.washingtonpost.com/world/2026/06/19/four-israeli-soldiers-killed-combat-lebanon-imperils-us-iran-deal/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Fri, 19 Jun 2026 22:36:55 +0000",
+      "summary": "Clashes in Lebanon seemed to imperil the U.S.-Iran peace deal, and U.S. and Iranian officials postponed negotiations planned in Switzerland before the agreement.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/2VS5ECQOJZAAHE6LSCE7YZURGM_size-normalized.jpg&w=1440"
+    },
+    {
+      "title": "US, Iran set to hold talks in Switzerland; Israel kills 16 in Lebanon",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/6/21/iran-war-live-vance-heads-to-switzerland-israel-kills-16-in-lebanon",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-06-21",
+      "summary": "Talks come as Iran says it is closing the Strait of Hormuz over Israel's deadly attacks on Lebanon.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/06/2026-06-20T190125Z_128840624_RC2PXLAFPVRR_RTRMADP_3_IRAN-CRISIS-LEBANON-SOUTH-AFTERMATH-1781998275.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Trump vows Iran will not charge Strait of Hormuz tolls, but says US might",
+      "url": "https://www.aljazeera.com/news/2026/6/20/trump-vows-iran-will-not-charge-strait-of-hormuz-tolls-but-says-us-might",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-06-20",
+      "summary": "The US-Iran memorandum of understanding does not rule out future tolls in the strait after an initial 60-day period.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/06/ap_6a36fa8d028c3-1781987981.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Ukraine says Russian attack kills five people in Zaporizhzhia",
+      "url": "https://www.aljazeera.com/news/2026/6/20/ukraine-says-russian-attack-kills-five-people-in-zaporizhzhia",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-06-20",
+      "summary": "During nightly address, Ukrainian President Volodymyr Zelenskyy warns that Russia is preparing for 'massive' attack.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/06/reuters_6a36e35a-1781982042.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Al Jazeera cameraman Ahmed Wishah killed in Israeli attack in Gaza",
+      "url": "https://www.aljazeera.com/news/2026/6/20/al-jazeera-cameraman-ahmad-wishah-killed-in-israeli-attack-in-gaza",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-06-20",
+      "summary": "Al Jazeera condemned Israel's 'deliberate' targeting of Wishah, the network's 12th media worker killed during Gaza war.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/06/Ahmed-Wishah-1781977869.webp?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Iran closes Strait of Hormuz as Pakistan says new talks with US due Sunday",
+      "url": "https://www.aljazeera.com/news/2026/6/20/us-iran-talks-to-kick-off-sunday-in-switzerland-says",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-06-20",
+      "summary": "Planned negotiations come amid tensions over Israeli attacks in Lebanon and Iran’s announced closure of Hormuz again.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/06/afp_6a36802fb2ca-1781956655.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "DOJ memo stokes fear among disability advocates of a return to institutionalization",
+      "url": "https://www.npr.org/2026/06/20/nx-s1-5865100/doj-memo-trump-disability-civil-rights-institutionalization",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Sat, 20 Jun 2026 16:33:14 -0400",
+      "summary": "The Justice Department's opinion challenges civil rights protections that have long treated the institutionalization of disabled Americans as a last resort.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5641x3761+0+0/resize/5641x3761!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Ffe%2Fb7%2Ffdb2ef9149a3b53c1d7eec75587b%2Fap23303842581609.jpg"
+    },
+    {
+      "title": "Opinion: Algae doesn't care about our party lines",
+      "url": "https://www.npr.org/2026/06/20/nx-s1-5854977/opinion-algae-doesnt-care-about-our-party-lines",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Sat, 20 Jun 2026 08:00:00 -0400",
+      "summary": "President Trump's beautification project of the Lincoln Memorial Reflecting Pool has become plagued with a robust algae bloom, despite a $14 million investment and a coating of \"American flag blue.\"",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5440x3626+0+0/resize/5440x3626!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F47%2F6e%2Fefe490f04f378f1d5ce838e7354f%2Fap26170531261489.jpg"
+    },
+    {
+      "title": "These nuns spent a lifetime helping others. In their last years, who will help them?",
+      "url": "https://www.npr.org/2026/06/20/g-s1-128632/nuns-convent-africa-hospice",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Sat, 20 Jun 2026 06:45:09 -0400",
+      "summary": "The sisters of Uganda are teachers, health-care advocates and more. Those who are in their twilight of their life need help. Who will come to their aid?",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6720x4480+0+0/resize/6720x4480!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F3c%2Ffa%2F12e7a45e48b09c4055e36b556cf0%2Fuganda-nuns-4464.jpg"
+    },
+    {
+      "title": "Iran says Strait of Hormuz shut as U.S.-Iran talks set for Sunday in Switzerland",
+      "url": "https://www.npr.org/2026/06/20/nx-s1-5865006/fighting-lebanon-despite-ceasefire",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Sat, 20 Jun 2026 06:02:05 -0400",
+      "summary": "U.S. and Iranian teams are set to hold \"technical-level\" talks, according to Pakistan's foreign ministry. But fighting in Lebanon and claims over the Strait of Hormuz threaten a tentative agreement.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8640x5760+0+0/resize/8640x5760!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F10%2F46%2F63c042e047b8a9013f7ec391aba6%2Fap26169534881738.jpg"
+    },
+    {
+      "title": "Palestinian-American kids find inspiration, and escape, on the soccer pitch",
+      "url": "https://www.npr.org/2026/06/20/nx-s1-5854466/palestinian-american-kids-find-inspiration-and-escape-on-the-soccer-pitch",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Sat, 20 Jun 2026 06:00:00 -0400",
+      "summary": "A dozen miles away from the World Cup games in New York/ New Jersey Stadium, Palestinian-American kids turn to soccer as an escape from the realities of war.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6753x4504+0+0/resize/6753x4504!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fc1%2F76%2F42db58d0451dbc408116d3085795%2F260606-npr-palestinianyouthsoccer-josealvaradojr-0413.JPG"
+    },
+    {
+      "title": "Nepal looks to strengthen collaboration with China",
+      "url": "https://www.chinadaily.com.cn/a/202606/18/WS6a335658a310986e2b460b19.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-06-18",
+      "summary": "Nepal's new government is looking to strengthen political engagement with China and expand cooperation in areas including connectivity, technology, governance and people-to-people exchanges, Foreign Minister Shisir Khanal says.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202606/18/6a335658a310986e1017f20c.jpeg"
+    },
+    {
+      "title": "US Fed holds interest rate steady",
+      "url": "https://www.chinadaily.com.cn/a/202606/18/WS6a332986a310986e2b4609b9.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-06-18",
+      "summary": "WASHINGTON - The US Federal Reserve on Wednesday kept the target range for the federal funds rate unchanged at 3.5-3.75 percent.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202606/18/6a332986a310986e1017ec3e.jpeg"
+    },
+    {
+      "title": "France ends contract with US tech giant",
+      "url": "https://www.chinadaily.com.cn/a/202606/18/WS6a330f2ea310986e2b46099e.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-06-18",
+      "summary": "As part of a European push to curb reliance on United States technology companies, France's domestic intelligence service has dropped US giant Palantir in favor of French rival ChapsVision, said France's Prime Minister Sebastien Lecornu on Tuesday.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202606/18/6a330f2ea310986e1017eac5.jpeg"
+    },
+    {
+      "title": "Accord to end war on 'all fronts'",
+      "url": "https://www.chinadaily.com.cn/a/202606/18/WS6a334a14a310986e2b460aa9.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-06-18",
+      "summary": "Ahead of a widely publicized official signing of a memorandum of understanding between Iran and the United States, both sides indicated they would reveal more about the agreed-upon conditions, which include ending the war on \"all fronts\".",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202606/18/6a334a13a310986e1017f00d.png"
+    },
+    {
+      "title": "Japan slammed over slow probe into embassy attack",
+      "url": "https://www.chinadaily.com.cn/a/202606/18/WS6a3357f7a310986e2b460b1f.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-06-18",
+      "summary": "China has criticized the lack of progress in Japan's investigation into and handling of a case involving a Self-Defense Forces officer who allegedly entered the Chinese embassy in Tokyo armed with a knife, urging Japan to take full responsibility for the incident.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202606/18/6a3357f7a310986e1017f21a.jpeg"
+    },
+    {
+      "title": "EU lifts restrictive travel advisory for Assam",
+      "url": "https://www.thehindu.com/news/national/assam/eu-lifts-restrictive-travel-advisory-for-assam/article71126797.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-06-20T17:27:08.000Z",
+      "summary": "The EU has lifted its travel advisory for Assam, boosting tourism and encouraging economic growth, says Chief Minister Himanta Biswa Sarma.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/c2qa35/article71127044.ece/alternates/LANDSCAPE_1200/PTI06_13_2026_000118B.jpg"
+    },
+    {
+      "title": "Modi’s 12 years in office just a start: Amit Shah",
+      "url": "https://www.thehindu.com/news/national/modis-12-years-in-office-just-a-start-amit-shah/article71126744.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-06-20T17:36:55.000Z",
+      "summary": "Amit Shah praises Modi's tenure, asserting it's just the beginning for BJP's future rule and highlighting significant national advancements.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/b36umg/article71126814.ece/alternates/LANDSCAPE_1200/20260620539L.jpg"
+    },
+    {
+      "title": "₹47,000 crore push for Odisha as PM Modi signals strong tribal outreach",
+      "url": "https://www.thehindu.com/news/national/odisha/47000-crore-push-for-odisha-as-pm-modi-signals-strong-tribal-outreach/article71126553.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-06-20T17:20:42.000Z",
+      "summary": "PM Modi announces ₹47,000 crore development projects in Odisha, emphasizing tribal empowerment and eastern India's progress.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/6na0yq/article71127041.ece/alternates/LANDSCAPE_1200/20260620564L.jpg"
+    },
+    {
+      "title": "International Yoga Day 2026 LIVE: Yoga brings people together, says PM Modi",
+      "url": "https://www.thehindu.com/news/national/international-yoga-day-2026-yoga-for-healthy-ageing-pm-modi-yoga-day-in-kolkata-live-updates-june-21-2026/article71128379.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-06-21T01:26:24.000Z",
+      "summary": "Follow The Hindu LIVE for the latest updates on International Yoga Day 2026, as this year's theme is \"Yoga for Healthy Ageing.\"",
+      "thumbnailUrl": "https://th-i.thgim.com/public/sport/football/jae7rz/article71128448.ece/alternates/LANDSCAPE_1200/Modi-Suvendu.jpg"
+    },
+    {
+      "title": "CJP presses for Pradhan’s resignation at second Jantar Mantar protest",
+      "url": "https://www.thehindu.com/news/national/cjp-presses-for-pradhans-resignation-at-second-jantar-mantar-protest/article71126853.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-06-20T17:08:46.000Z",
+      "summary": "CJP founder Abhijeet Dipke demands Education Minister Dharmendra Pradhan's resignation during a second protest at Jantar Mantar.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/qhyzw6/article71127005.ece/alternates/LANDSCAPE_1200/PTI06_20_2026_000643B.jpg"
+    },
+    {
+      "title": "US disputes Iranian claims about closing Strait of Hormuz as negotiators head to Switzerland",
+      "url": "https://www.reuters.com/world/asia-pacific/us-disputes-iranian-claims-about-closing-strait-hormuz-negotiators-head-2026-06-20/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Sat, 20 Jun 2026 23:49:00 GMT",
+      "summary": "Reuters: US disputes Iranian claims about closing Strait of Hormuz as negotiators head to Switzerland.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/VQL4PUPUBNNKTDO3GJYCYQ3TW4.jpg?auth=2d15545769661d6c7186680edd31bb935fd7b76c0432ff95b79ee848b4d1918e&width=1080&quality=80"
+    },
+    {
+      "title": "Report says UK PM Starmer ready to quit, but source says he is still focused on the job",
+      "url": "https://www.reuters.com/world/uk/uk-pm-starmer-expected-resign-monday-set-out-orderly-exit-observer-newspaper-2026-06-20/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Sat, 20 Jun 2026 23:06:29 GMT",
+      "summary": "Reuters: Report says UK PM Starmer ready to quit, but source says he is still focused on the job.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/WLYJLQLDGJKA7LGWEY55EAE6A4.jpg?auth=1d7c3b2d3a0baa0938a2b171d62cb3035026da3c282c2e4594adc4746bcd25af&height=1920&width=1920&quality=80&smart=true"
+    },
+    {
+      "title": "Zelenskiy warns of impending massive Russian attack on Ukraine",
+      "url": "https://www.reuters.com/world/europe/zelenskiy-warns-impending-massive-russian-attack-ukraine-2026-06-20/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Sat, 20 Jun 2026 23:11:43 GMT",
+      "summary": "Reuters: Zelenskiy warns of impending massive Russian attack on Ukraine.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/YBD6YEX3TFMWBI3OCV74UIYWZA.jpg?auth=2d15b6a8fb6a2058224b240d8456c3f576c24d4463f72c3161a050eb6b3d3665&width=1080&quality=80"
+    },
+    {
+      "title": "US forces monitoring Strait of Hormuz to ensure it stays open",
+      "url": "https://www.reuters.com/world/middle-east/us-forces-monitoring-strait-hormuz-ensure-it-stays-open-2026-06-20/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Sat, 20 Jun 2026 16:55:11 GMT",
+      "summary": "Reuters: US forces monitoring Strait of Hormuz to ensure it stays open.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/FWNTUO4FVJPWXJOW7OFNWUCDGY.jpg?auth=df0ad974219f12dd5feed83a635a1132878d59e805f739d9b674f3a5083bff81&width=1920&quality=80"
+    },
+    {
+      "title": "France bans alcohol consumption at music festivals under red heatwave alert",
+      "url": "https://www.reuters.com/world/france-bans-alcohol-consumption-music-festivals-under-red-heatwave-alert-2026-06-20/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Sat, 20 Jun 2026 17:23:44 GMT",
+      "summary": "Reuters: France bans alcohol consumption at music festivals under red heatwave alert.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/G6SFZV6LK5KWZPORSJCPHOYBLM.jpg?auth=45dec2af192d1a598aa417fac10472b5ca96a6e1da04ea8d8e177380877eee73&width=1080&quality=80"
+    }
+  ],
+  "markets": [
+    {
+      "id": "sp-500",
+      "label": "S&P 500",
+      "region": "US",
+      "symbol": "^GSPC",
+      "value": 7500.58,
+      "previousClose": 7420.10002,
+      "change": 80.47998,
+      "percentChange": 1.0846212,
+      "direction": "up",
+      "sessionDate": "2026-06-21"
+    },
+    {
+      "id": "nasdaq-composite",
+      "label": "NASDAQ Composite",
+      "region": "US",
+      "symbol": "^IXIC",
+      "value": 26517.932,
+      "previousClose": 26021.656600000002,
+      "change": 496.2754,
+      "percentChange": 1.9071629,
+      "direction": "up",
+      "sessionDate": "2026-06-21"
+    },
+    {
+      "id": "euronext-100",
+      "label": "Euronext 100 Index",
+      "region": "Europe",
+      "symbol": "^N100",
+      "value": 1926.73,
+      "previousClose": 1930.8399854,
+      "change": -4.1099854,
+      "percentChange": -0.21285997,
+      "direction": "down",
+      "sessionDate": "2026-06-21"
+    },
+    {
+      "id": "moex",
+      "label": "Public Joint-Stock Company Moscow Exchange MICEX-RTS",
+      "region": "Europe",
+      "symbol": "MOEX.ME",
+      "value": 85.2,
+      "previousClose": 85.31000061,
+      "change": -0.11000061,
+      "percentChange": -0.12894222,
+      "direction": "down",
+      "sessionDate": "2026-06-21"
+    },
+    {
+      "id": "hang-seng",
+      "label": "HANG SENG INDEX",
+      "region": "Asia",
+      "symbol": "^HSI",
+      "value": 23924.81,
+      "previousClose": 24312.159600000003,
+      "change": -387.3496,
+      "percentChange": -1.5932341,
+      "direction": "down",
+      "sessionDate": "2026-06-21"
+    },
+    {
+      "id": "nikkei-225",
+      "label": "Nikkei 225",
+      "region": "Asia",
+      "symbol": "^N225",
+      "value": 71250.06,
+      "previousClose": 71053.48969,
+      "change": 196.57031,
+      "percentChange": 0.27665117,
+      "direction": "up",
+      "sessionDate": "2026-06-21"
+    },
+    {
+      "id": "sensex",
+      "label": "S&P BSE SENSEX",
+      "region": "India",
+      "symbol": "^BSESN",
+      "value": 76802.9,
+      "previousClose": 77409.9781,
+      "change": -607.0781,
+      "percentChange": -0.78423756,
+      "direction": "down",
+      "sessionDate": "2026-06-21"
+    }
+  ],
+  "hackerNews": [
+    {
+      "title": "Renting a sewing machine from the library",
+      "url": "https://www.bbc.com/future/article/20260618-the-weird-and-wonderful-libraries-of-finland",
+      "publishedAt": "2026-06-20T22:54:11.000Z",
+      "summary": "Finland's libraries are increasingly being valued not by how many books they lend, but how they help societies function.",
+      "thumbnailUrl": "https://ychef.files.bbci.co.uk/624x351/p0nssr23.jpg"
+    },
+    {
+      "title": "Epoll vs. io_uring in Linux",
+      "url": "https://sibexi.co/posts/epoll-vs-io_uring/",
+      "publishedAt": "2026-06-20T23:07:09.000Z",
+      "summary": "First, I want to tell you how exactly I got to this point and why I started researching different options for handling asynchronous I/O on Linux&hellip; Last year, my students and I built a reverse proxy server called TinyGate. It was super simple, worker-based, and it basically worked well. Of course, I didn&rsquo;t expect it to be very fast, but it was an educational project, and since we&rsquo;d made a real, kind of production-ready tool, I was really proud of it. But my students weren&rsquo;t as happy as I was - they wanted to build something genuinely useful, and they were really disappointed that our &ldquo;product&rdquo; had strong architectural limits and couldn&rsquo;t outperform titans like nginx and haproxy. So they literally forced me to research together how those tools work under the hood and how to handle asynchronous I/O to cut down on the heavy overhead&hellip; Long story short, we made a second version of TinyGate, based on epoll. It still lost to nginx/haproxy in benchmarks, but it had a dramatic performance boost compared to the first version. But epoll isn&rsquo;t perfect either (as I&rsquo;ll explain below), and we eventually switched to io_uring, which led to a full rewrite of our project from scratch, again&hellip; So it&rsquo;s a really interesting topic, and today I&rsquo;ll share an overview of the two queueing systems Linux gives you for asynchronous I/O.",
+      "thumbnailUrl": "https://sibexi.co/support.svg"
+    },
+    {
+      "title": "Show HN: TownSquare, a tiny presence layer for websites",
+      "url": "https://townsquare.cauenapier.com/",
+      "publishedAt": "2026-06-20T11:55:03.000Z",
+      "summary": "TownSquare adds a small shared place to your website where visitors can see each other, walk around, and chat.",
+      "thumbnailUrl": "https://townsquare.cauenapier.com/screenshots/2.png"
+    },
+    {
+      "title": "Loupe – A iOS app that raises awareness about what native apps can see",
+      "url": "https://github.com/mysk-research/loupe",
+      "publishedAt": "2026-06-20T12:08:23.000Z",
+      "summary": "A privacy-focused iOS app that raises awareness about what native apps can see - mysk-research/loupe",
+      "thumbnailUrl": "https://opengraph.githubassets.com/028bfb2253ceb1841de12dc593db3f5f09c8c78195c5e6426959e04af0242435/mysk-research/loupe"
+    },
+    {
+      "title": "Slow breathing modulates brain function and risk behavior",
+      "url": "https://www.cell.com/neuron/fulltext/S0896-6273(26)00339-9",
+      "publishedAt": "2026-06-20T22:22:52.000Z",
+      "summary": "cell.com: Slow breathing modulates brain function and risk behavior."
+    },
+    {
+      "title": "Developers don't understand CORS (2019)",
+      "url": "https://fosterelli.co/developers-dont-understand-cors",
+      "publishedAt": "2026-06-21T01:35:40.000Z",
+      "summary": "The recent Zoom vulnerability is just one of many examples which show us that many developers do not understand how CORS works",
+      "thumbnailUrl": "https://fosterelli.co/image/social.jpg"
+    },
+    {
+      "title": "Project Fetch: Phase Two",
+      "url": "https://www.anthropic.com/research/project-fetch-phase-two",
+      "publishedAt": "2026-06-21T00:00:25.000Z",
+      "summary": "We report results from our latest test of whether Claude can help Anthropic employees perform sophisticated robotics tasks. We found that Claude Opus 4.7, operating without human assistance, was about 20 times faster than the fastest human team at all tasks completed by participants less than a year ago.",
+      "thumbnailUrl": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Knobs&backgroundColor=cactus"
+    },
+    {
+      "title": "When I reject AI code even if it works",
+      "url": "https://vinibrasil.com/when-i-reject-ai-code-even-if-it-works/",
+      "publishedAt": "2026-06-21T00:58:13.000Z",
+      "summary": "AI can make implementation cheap while making review and judgment more expensive.",
+      "thumbnailUrl": "https://vinibrasil.com/og/when-i-reject-ai-code-even-if-it-works.png"
+    },
+    {
+      "title": "SMPTE Makes Its Standards Freely Accessible",
+      "url": "https://www.smpte.org/blog/smpte-makes-its-standards-freely-accessible-openingstandards-library-to-the-global-media-technology-community",
+      "publishedAt": "2026-06-20T17:01:36.000Z",
+      "summary": "WHITE PLAINS, N.Y. — June 17, 2026 — SMPTE®, the home of media professionals, technologists and engineers, has announced that its entire Standards catalog is now freely available to the global media technology community.",
+      "thumbnailUrl": "https://www.smpte.org/hubfs/1920%20x%201080.jpg"
+    },
+    {
+      "title": "UHF X11: X11 Built for VisionOS and Apple Vision Pro",
+      "url": "https://www.lispm.net/apps/uhf-x11/",
+      "publishedAt": "2026-06-20T17:04:24.000Z",
+      "summary": "UHF X11 is a native X11 server for Apple Vision Pro. Run classic Unix and workstation software in spatial windows on visionOS.",
+      "thumbnailUrl": "https://www.lispm.net/apps/uhf-x11/screenshot_1.jpeg"
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "pumaDB",
+      "tagline": "a small hosted memory layer for AI agents",
+      "url": "https://www.producthunt.com/products/pumadb",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-06-20T19:59:49-07:00"
+    },
+    {
+      "name": "Are you in the Weights?",
+      "tagline": "Find out if you live forever in the brain of the LLMs",
+      "url": "https://www.producthunt.com/products/are-you-in-the-weights",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-06-20T20:09:05-07:00"
+    },
+    {
+      "name": "Pixlie",
+      "tagline": "AI video studio: text & image to video, with real control",
+      "url": "https://www.producthunt.com/products/pixlie",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-06-20T20:03:14-07:00"
+    },
+    {
+      "name": "ReleaseDock",
+      "tagline": "AI support agent, help center & changelogs in a single inbox",
+      "url": "https://www.producthunt.com/products/releasedock",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-06-20T20:03:14-07:00"
+    },
+    {
+      "name": "Basedash Access Controls",
+      "tagline": "Control exactly who can access your company data",
+      "url": "https://www.producthunt.com/products/basedash",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-06-20T20:03:14-07:00"
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "News and markets",
+      "sentences": [
+        "Global headlines: Chaotic run-up to U.S.-Iran talks signals steep hurdles ahead (Neither Washington nor Tehran wants the peace process to collapse completely, but diplomats say they expect a process full of challenges and distrust); Trump said Italy’s prime minister ‘begged’ for a photo. She says that’s false. (Italy’s right-wing prime minister, Giorgia Meloni, was labeled Europe’s “Trump whisperer,” but the war in Iran turned their friendship into a liability for her); and War-weary Iranians see glimmers of relief as Trump deal takes shape (As details emerged of an initial agreement between Washington and Tehran, Iranians voiced muted hopes for peace and prosperity).",
+        "Markets leaned lower, with 4 of 7 tracked indexes down; NASDAQ Composite up 1.91% was the largest move.",
+        "Benchmarks tracked: S&P 500, NASDAQ Composite, Euronext 100 Index, and Public Joint-Stock Company Moscow Exchange MICEX-RTS plus 3 more indexes."
+      ]
+    },
+    {
+      "title": "Hacker News and Product Hunt",
+      "sentences": [
+        "Hacker News: Renting a sewing machine from the library (Finland's libraries are increasingly being valued not by how many books they lend, but how they help societies function); Epoll vs. io_uring in Linux (First, I want to tell you how exactly I got to this point and why I started researching different options for handling asynchronous I/O on...); and Show HN: TownSquare, a tiny presence layer for websites (TownSquare adds a small shared place to your website where visitors can see each other, walk around, and chat).",
+        "Product Hunt features pumaDB (a small hosted memory layer for AI agents), Are you in the Weights? (Find out if you live forever in the brain of the LLMs), and Pixlie (AI video studio: text & image to video, with real control)."
+      ]
+    }
+  ],
+  "sourceNotes": {
+    "generatedAt": "2026-06-21T03:15:49.560Z",
+    "timeZone": "Asia/Kolkata",
+    "successfulSources": [
+      "Washington Post",
+      "Al Jazeera",
+      "NPR",
+      "China Daily",
+      "The Hindu",
+      "Reuters"
+    ],
+    "marketSessionLabel": "Latest market sessions as of 2026-06-21",
+    "warnings": []
+  }
+}
