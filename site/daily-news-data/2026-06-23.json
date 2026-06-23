@@ -1,0 +1,500 @@
+{
+  "headlines": [
+    {
+      "title": "Who is Andy Burnham, U.K.’s ‘King of the North’ and likely next prime minister?",
+      "url": "https://www.washingtonpost.com/world/2026/06/22/who-is-andy-burnham-uks-king-north-likely-next-prime-minister/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Mon, 22 Jun 2026 20:25:16 +0000",
+      "summary": "The runaway favorite to succeed Prime Minister Keir Starmer is a longtime mayor equally comfortable in the corridors of Westminster and in working-class northern England.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/V2MGPLDFJQI7DPOUQBPLXGNGSM_size-normalized.jpg&w=1440"
+    },
+    {
+      "title": "U.K. Prime Minister Starmer to resign as Labour Party seeks reboot",
+      "url": "https://www.washingtonpost.com/world/2026/06/22/uk-prime-minister-starmer-resigns-labour-government-seeks-reboot/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Mon, 22 Jun 2026 12:40:30 +0000",
+      "summary": "The party’s crushing losses in local elections had triggered a mutiny against Starmer. Andy Burnham, the mayor of Greater Manchester, emerged as a heavy favorite to be the next PM.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/FQNXM4DOFII7DBZQ476Q4KTEAQ_size-normalized.jpg&w=1440"
+    },
+    {
+      "title": "Read Keir Starmer’s resignation speech",
+      "url": "https://www.washingtonpost.com/world/2026/06/22/read-keir-starmers-resignation-speech/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Mon, 22 Jun 2026 10:10:05 +0000",
+      "summary": "Here is the text of the British prime minister's resignation speech outside 10 Downing Street on Monday. It set the stage for a new Labour Party leader to become government leader by September.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/HT4IP45L3KARUUOK4F3LYF3FTM_size-normalized.jpg&w=1440"
+    },
+    {
+      "title": "High-level U.S.-Iran talks conclude with a road map for peace, mediators say",
+      "url": "https://www.washingtonpost.com/world/2026/06/21/us-iranian-meet-switzerland-hash-out-peace-plan/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Mon, 22 Jun 2026 09:31:52 +0000",
+      "summary": "The negotiations were shaken by President Donald Trump’s threats of fresh attacks, but Pakistan and Qatar hailed “encouraging progress.”",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/PMFHXLTRMBQNOPCVXCSRIDHDMI_size-normalized.jpg&w=1440"
+    },
+    {
+      "title": "For cash-strapped farmers, deal to end Iran fighting comes too late",
+      "url": "https://www.washingtonpost.com/business/2026/06/21/cash-strapped-farmers-iran-wars-end-comes-too-late/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Sun, 21 Jun 2026 09:00:00 +0000",
+      "summary": "Some of the president’s strongest supporters are hurting as midterm elections approach.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/7KBIJJVZHO5BDX5CQMCORD5RVU_size-normalized.jpg&w=1440"
+    },
+    {
+      "title": "The women peacekeepers reforming gang violence in northeastern Nigeria",
+      "url": "https://www.aljazeera.com/news/2026/6/23/how-women-steer-youths-away-from-gang-violence-in-northeastern-nigeria",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-06-23",
+      "summary": "Women-led campaigns are helping curb gang violence by changing young people's mindsets in conflict-scarred communities.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/06/s2-1781934583.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Iran says US to release $12bn in frozen Iranian funds, waive oil sanctions",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/6/23/iran-war-live-tehran-to-access-billions-in-frozen-funds",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-06-23",
+      "summary": "US says the decisions follow Iran's commitment to allow international nuclear inspections.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/06/afp_6a39ba41959b-1782168129.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Hungary’s PM launches drive to free country from Orban’s ‘mafia’",
+      "url": "https://www.aljazeera.com/news/2026/6/22/hungarys-pm-launches-drive-to-free-country-from-orbans-mafia",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-06-22",
+      "summary": "The raft of proposed changes includes a new constitution and anti-corruption office, and the ousting of the president.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/06/afp-newsml.afp_.com_.20260615T154909Z.doc-b76y3gn-1782158522.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Czech public media staff strike, citing government threat to independence",
+      "url": "https://www.aljazeera.com/news/2026/6/22/czech-public-media-staff-strike-citing-government-threat-to-independence",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-06-22",
+      "summary": "Plan to put funding under direct control has sparked widespread opposition, with critics fearing political interference.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/06/reuters_6a399f28-1782161192.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "US judge blocks Trump administration subpoena against Minnesota officials",
+      "url": "https://www.aljazeera.com/news/2026/6/22/us-judge-blocks-trump-administration-subpoena-against-minnesota-officials",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-06-22",
+      "summary": "Ruling represents setback for investigation that targeted state Democratic officials who criticised immigration raids.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/06/AP26173619751521-1782157589.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "A federal judge finds a Trump data system to verify voters is unlawful",
+      "url": "https://www.npr.org/2026/06/22/nx-s1-5866719/save-voter-data-trump-judge-unlawful",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Mon, 22 Jun 2026 18:25:21 -0400",
+      "summary": "Tens of millions of voters have had their data run through the Trump administration's revamped SAVE tool. A judge just found it unlawful.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6000x4000+0+0/resize/6000x4000!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fa2%2F0a%2F6a990ab2475caa7aecb4806fb14d%2Fgettyimages-2280126932.jpg"
+    },
+    {
+      "title": "Supreme Court declines to hear Texas man's intellectual disability case in capital case",
+      "url": "https://www.npr.org/2026/06/22/nx-s1-5866741/supreme-court-texas-death-penalty",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Mon, 22 Jun 2026 16:13:51 -0400",
+      "summary": "The court's action means Victor Saldaño is likely to be executed even though both defense and state experts determined he was not eligible for execution under the law.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5566x3711+0+0/resize/5566x3711!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fcb%2F7a%2F267199e84a2bacce17ca346b8a70%2Fgettyimages-2157829281-2.jpg"
+    },
+    {
+      "title": "Magnificent Messi makes history, breaks all-time World Cup scoring record",
+      "url": "https://www.npr.org/2026/06/22/nx-s1-5866649/2026-world-cup-fifa-lionel-messi-argentina-scoring-record",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Mon, 22 Jun 2026 15:22:45 -0400",
+      "summary": "Messi scored a record-setting 17th World Cup goal in Argentina's game against Austria. And, then, he netted another goal, making him the all-time leader in World Cup tournaments (men and women).",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3637x2373+0+0/resize/3637x2373!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F50%2Ff5%2Fda982d7f4e7d9977ced24127dfa3%2Fgettyimages-2282792109.jpg"
+    },
+    {
+      "title": "Did you know? Alan Greenspan and Ayn Rand were close friends",
+      "url": "https://www.npr.org/2026/06/22/nx-s1-5866558/alan-greenspan-dead-ayn-rand",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Mon, 22 Jun 2026 13:05:12 -0400",
+      "summary": "One of the most intellectually important relationships in the life of the late Fed chair Alan Greenspan was with his close friend, the formidable novelist and libertarian thinker Ayn Rand.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/699x644+779+663/resize/699x644!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F87%2F8d%2Fd44780c94a7480f3d16a9f647493%2Fgettyimages-89752403.jpg"
+    },
+    {
+      "title": "2 students in custody after shooting at high school in Philippines kills 3",
+      "url": "https://www.npr.org/2026/06/22/g-s1-129323/2-students-in-custody-after-shooting-at-high-school-in-philippines-kills-3",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Mon, 22 Jun 2026 10:10:55 -0400",
+      "summary": "An investigation is underway to determine the cause. Police said the suspects claimed they were bullied at school.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5000x3333+0+0/resize/5000x3333!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F52%2F80%2F76ee748f407ab07b21706772d56f%2Fap26173259068174.jpg"
+    },
+    {
+      "title": "Iran to let in inspectors, can sell its oil",
+      "url": "https://www.chinadaily.com.cn/a/202606/23/WS6a39f278a310986e2b461669.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-06-23",
+      "summary": "Iran's chief negotiator, Mohammad Bagher Ghalibaf, told Iranian media on Monday that the Strait of Hormuz would be administered by Iran.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202606/23/6a39f4c5a310986e10182ee2.jpeg"
+    },
+    {
+      "title": "British public reacts to Keir Starmer's resignation",
+      "url": "https://www.chinadaily.com.cn/a/202606/23/WS6a395e6aa310986e2b461455.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-06-23",
+      "summary": "UK Prime Minister Keir Starmer announced his resignation on Monday and added to a decade in which the country has seen six PMs step down. The decision sparked mixed reactions among people near 10 Downing Street in London, with many focused on whether the next leader can bring real change.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202606/23/6a39bc3aa310986e10182435.jpeg"
+    },
+    {
+      "title": "First round of US-Iran talks 'encouraging'",
+      "url": "https://www.chinadaily.com.cn/a/202606/22/WS6a394612a310986e2b46144a.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-06-22",
+      "summary": "The first round of Pakistan- and Qatar-mediated in-person talks between the United States and Iran in Switzerland has wrapped up with \"encouraging progress\", all parties acknowledged, with a road map to a final deal agreed to be reached within 60 days.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202606/23/6a39ce09a310986e101826fc.png"
+    },
+    {
+      "title": "Starmer quits, Burnham strong contender for post",
+      "url": "https://www.chinadaily.com.cn/a/202606/22/WS6a3945bca310986e2b461447.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-06-22",
+      "summary": "British Prime Minister Keir Starmer ended all speculation about his future on Monday by announcing his resignation, less than two years after guiding the Labour Party to a landslide victory in the 2024 general election.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202606/22/6a3947cda310986e101823b3.jpeg"
+    },
+    {
+      "title": "China, Africa forge deeper ties",
+      "url": "https://www.chinadaily.com.cn/a/202606/23/WS6a39db34a310986e2b461527.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-06-23",
+      "summary": "From supporting Africa's liberation movements to becoming the continent's major trading and development partner, China's relationship with Africa has undergone a profound transformation over the past several decades.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202606/23/6a39db33a310986e1018281b.jpeg"
+    },
+    {
+      "title": "Three injured in clash during highway blockade in Manipur",
+      "url": "https://www.thehindu.com/news/national/manipur/three-injured-in-clash-during-highway-blockade-in-manipur/article71133879.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-06-22T16:57:37.000Z",
+      "summary": "Three injured in Manipur clash as Kuki protesters block highway to oppose alleged security operations targeting their communities.",
+      "thumbnailUrl": "https://www.thehindu.com/theme/images/og-image.png"
+    },
+    {
+      "title": "Trinamool rebels remove Mamata as the party chairperson",
+      "url": "https://www.thehindu.com/news/national/west-bengal/trinamool-rebels-remove-mamata-as-the-party-chairperson/article71134179.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-06-22T18:24:01.000Z",
+      "summary": "Trinamool rebels oust Mamata Banerjee as chairperson, electing Arup Roy amid claims of support from 65 MLAs.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/kc53gi/article71134761.ece/alternates/LANDSCAPE_1200/PTI06_02_2026_000235A.jpg"
+    },
+    {
+      "title": "NSA Doval meets counterparts from BRICS grouping, discusses West Asia and India-China ties",
+      "url": "https://www.thehindu.com/news/national/nsa-doval-meets-counterparts-from-brics-grouping-discusses-west-asia-and-india-china-ties/article71134378.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-06-22T16:39:46.000Z",
+      "summary": "NSA Ajit Doval discusses West Asia, BRICS cooperation, and India-China ties with counterparts at a two-day meeting in New Delhi.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/33gcgz/article71134508.ece/alternates/LANDSCAPE_1200/PTI06_22_2026_000162B.jpg"
+    },
+    {
+      "title": "Faultlines surface in Punjab Congress as Manish Tewari is kept out of consultations",
+      "url": "https://www.thehindu.com/news/national/faultlines-surface-in-punjab-congress-as-manish-tewari-is-kept-out-of-consultations/article71134429.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-06-22T17:35:36.000Z",
+      "summary": "Factionalism in Punjab Congress intensifies as Manish Tewari is excluded from key consultations, raising concerns ahead of elections.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/ma8ais/article71134604.ece/alternates/LANDSCAPE_1200/20260323240L.jpg"
+    },
+    {
+      "title": "Facial recognition cameras at airports, vital sites to be linked to data fusion centre: CISF DG",
+      "url": "https://www.thehindu.com/news/national/facial-recognition-cameras-at-airports-vital-sites-to-be-linked-to-data-fusion-centre-cisf-dg/article71134417.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-06-22T17:49:03.000Z",
+      "summary": "Facial recognition cameras at airports will be linked to a data fusion centre for improved security and real-time monitoring.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/sg8rzc/article71134670.ece/alternates/LANDSCAPE_1200/20260622102L_g7EYMSQ.jpg"
+    },
+    {
+      "title": "Asia shares slip as markets reprice Fed expectations, oil gains",
+      "url": "https://www.reuters.com/world/asia-pacific/global-markets-global-markets-2026-06-23/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Tue, 23 Jun 2026 01:30:00 GMT",
+      "summary": "Reuters: Asia shares slip as markets reprice Fed expectations, oil gains.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/4WJZSSV3ZFLDPKZ24LXGE2PFWA.jpg?auth=ff90cdae990d786450e06d470fbe4467598993642eb7ec06b10eba5941ef9cd0&width=1920&quality=80"
+    },
+    {
+      "title": "Trump: 'I will do what I have to do' if Iran does not stick to deal",
+      "url": "https://www.reuters.com/world/trump-i-will-do-what-i-have-do-if-iran-does-not-stick-deal-2026-06-22/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Mon, 22 Jun 2026 21:51:31 GMT",
+      "summary": "Reuters: Trump: 'I will do what I have to do' if Iran does not stick to deal.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/CEKWISJO6VIS7KGUBTWLLVIJUA.jpg?auth=897607d20cd5c47c8943bede9b566212cfb8fa70f0c439f837770e938b996051&width=1920&quality=80"
+    },
+    {
+      "title": "Vimeo owner Bending Spoons seeks $1.62 billion US IPO, sources say",
+      "url": "https://www.reuters.com/world/vimeo-owner-bending-spoons-seeks-162-billion-us-ipo-sources-say-2026-06-22/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Mon, 22 Jun 2026 17:36:10 GMT",
+      "summary": "Reuters: Vimeo owner Bending Spoons seeks $1.62 billion US IPO, sources say.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/M3DOTEDYPRMWFBQW7EEP75L4K4.jpg?auth=f1645f2470bcd685e20ae1eba25705173797611a2dc7ebdb54189389e538238c&width=1920&quality=80"
+    },
+    {
+      "title": "US judge shuts down DOJ immigration probe into Walz, Minnesota officials",
+      "url": "https://www.reuters.com/world/us-judge-blocks-subpoenas-minnesota-officials-doj-immigration-probe-2026-06-22/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Mon, 22 Jun 2026 16:52:00 GMT",
+      "summary": "Reuters: US judge shuts down DOJ immigration probe into Walz, Minnesota officials.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/HKO6BSCGN5ONRDASANERJ4X3KE.jpg?auth=894e161684b8b9c5fb3443b8d56e983c4bebae47352f5e338a0984a55109c4f2&width=1080&quality=80"
+    },
+    {
+      "title": "Judge blocks Trump's use of revamped immigration database for voter checks",
+      "url": "https://www.reuters.com/world/judge-blocks-trumps-use-revamped-immigration-database-voter-checks-2026-06-22/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Mon, 22 Jun 2026 20:56:58 GMT",
+      "summary": "Reuters: Judge blocks Trump's use of revamped immigration database for voter checks.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/NED4NXTHMNIDHOOAY45B7JISWM.jpg?auth=3565cf0f8a3b18fc05b7a9483f052f2a69b243bf50e8bfb4ffacfa2a12795df8&width=1920&quality=80"
+    }
+  ],
+  "markets": [
+    {
+      "id": "sp-500",
+      "label": "S&P 500",
+      "region": "US",
+      "symbol": "^GSPC",
+      "value": 7472.79,
+      "previousClose": 7500.58004,
+      "change": -27.79004,
+      "percentChange": -0.37050518,
+      "direction": "down",
+      "sessionDate": "2026-06-23"
+    },
+    {
+      "id": "nasdaq-composite",
+      "label": "NASDAQ Composite",
+      "region": "US",
+      "symbol": "^IXIC",
+      "value": 26166.6,
+      "previousClose": 26517.93008,
+      "change": -351.33008,
+      "percentChange": -1.3248774,
+      "direction": "down",
+      "sessionDate": "2026-06-23"
+    },
+    {
+      "id": "euronext-100",
+      "label": "Euronext 100 Index",
+      "region": "Europe",
+      "symbol": "^N100",
+      "value": 1925.87,
+      "previousClose": 1926.7299853499999,
+      "change": -0.85998535,
+      "percentChange": -0.04463445,
+      "direction": "down",
+      "sessionDate": "2026-06-23"
+    },
+    {
+      "id": "moex",
+      "label": "Public Joint-Stock Company Moscow Exchange MICEX-RTS",
+      "region": "Europe",
+      "symbol": "MOEX.ME",
+      "value": 85.2,
+      "previousClose": 85.31000061,
+      "change": -0.11000061,
+      "percentChange": -0.12894222,
+      "direction": "down",
+      "sessionDate": "2026-06-23"
+    },
+    {
+      "id": "hang-seng",
+      "label": "HANG SENG INDEX",
+      "region": "Asia",
+      "symbol": "^HSI",
+      "value": 23615.49,
+      "previousClose": 23768.5193,
+      "change": -153.0293,
+      "percentChange": -0.6438576,
+      "direction": "down",
+      "sessionDate": "2026-06-23"
+    },
+    {
+      "id": "nikkei-225",
+      "label": "Nikkei 225",
+      "region": "Asia",
+      "symbol": "^N225",
+      "value": 71711.67,
+      "previousClose": 72353.95906,
+      "change": -642.28906,
+      "percentChange": -0.8877041,
+      "direction": "down",
+      "sessionDate": "2026-06-23"
+    },
+    {
+      "id": "sensex",
+      "label": "S&P BSE SENSEX",
+      "region": "India",
+      "symbol": "^BSESN",
+      "value": 77094.07,
+      "previousClose": 76802.89812000001,
+      "change": 291.17188,
+      "percentChange": 0.37911573,
+      "direction": "up",
+      "sessionDate": "2026-06-23"
+    }
+  ],
+  "hackerNews": [
+    {
+      "title": "1,700 Free Online Courses from Top Universities",
+      "url": "https://www.openculture.com/freeonlinecourses",
+      "publishedAt": "2026-06-23T01:54:38.000Z",
+      "summary": "Take online courses from the world’s top universities for free. Below, you will find 1,700 free online courses from universities like Yale, MIT, Harvard, Oxford and more. Note: This page includes a lot of Massive Open Online Courses (MOOCs).",
+      "thumbnailUrl": "https://www.openculture.com/wp-content/themes/openculture_v4c/images/open_culture_white.jpg"
+    },
+    {
+      "title": "Steam Machine launches today",
+      "url": "https://store.steampowered.com/news/group/45479024/view/685257114654870245",
+      "publishedAt": "2026-06-22T17:09:51.000Z",
+      "summary": "All the details on how to sign up, plus some background on how we got here.",
+      "thumbnailUrl": "https://clan.fastly.steamstatic.com/images/45479024/7d1bda5486460ba7efc032efb727a61d638420a0.png"
+    },
+    {
+      "title": "Runing GLM-5.2 on local hardware",
+      "url": "https://unsloth.ai/docs/models/glm-5.2",
+      "publishedAt": "2026-06-22T21:21:01.000Z",
+      "summary": "Run the new GLM-5.2 model by Z.ai on local hardware!",
+      "thumbnailUrl": "https://unsloth.ai/docs/~gitbook/image?url=https%3A%2F%2F2815821428-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Forganizations%252FHpyELzcNe0topgVLGCZY%252Fsites%252Fsite_mXXTe%252Fsocialpreview%252FOeFDVbzp4cgwaId7PbvL%252Funsloth%2520docs%2520pic.png%3Falt%3Dmedia%26token%3Df34a6bcc-db15-449a-bc2d-e0e8f52fe953&width=1200&height=630&sign=b1ca68fa&sv=2"
+    },
+    {
+      "title": "In Praise of Memcached",
+      "url": "https://jchri.st/blog/in-praise-of-memcached/",
+      "publishedAt": "2026-06-23T01:15:05.000Z",
+      "summary": "If you happen to find yourself in a sysadmin position, or a position where you just so happen to maintain someone&rsquo;s infrastructure , chances are that at some point in time the topic &ldquo;we need a cache&rdquo; comes up.",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "Polymarket's viral videos showed people winning big, but the bets were fake",
+      "url": "https://arstechnica.com/tech-policy/2026/06/polymarkets-viral-videos-showed-people-winning-big-but-the-bets-were-fake/",
+      "publishedAt": "2026-06-23T00:47:32.000Z",
+      "summary": "Winning\" bets were made on cloned website and would have lost money, WSJ finds.",
+      "thumbnailUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/polymarket-1152x648.jpg"
+    },
+    {
+      "title": "Optocam Zero: a Pi Zero based digital camera made using off the shelf components",
+      "url": "https://github.com/dorukkumkumoglu/optocamzero",
+      "publishedAt": "2026-06-22T19:19:55.000Z",
+      "summary": "Optocam Zero is a Raspberry Pi Zero based compact digital camera made using off the shelf components. - dorukkumkumoglu/optocamzero",
+      "thumbnailUrl": "https://repository-images.githubusercontent.com/1193634026/80071535-dcd7-4805-9957-acaf49143c50"
+    },
+    {
+      "title": "VibeThinker: 3B param model that beats Opus 4.5 on reasoning with novel SFT+GRPO",
+      "url": "https://arxiv.org/abs/2606.16140",
+      "publishedAt": "2026-06-23T02:01:25.000Z",
+      "summary": "This technical report introduces VibeThinker-3B, a compact dense model with 3B parameters developed to investigate how far verifiable reasoning can be pushed within a strictly small-model regime. Building upon the Spectrum-to-Signal post-training paradigm, we systematically enhance the model through an optimized pipeline that includes curriculum-based supervised fine-tuning, multi-domain reinforcement learning, and offline self-distillation. Experimental evaluations demonstrate that VibeThinker-3B achieves frontier-level performance on highly demanding verifiable tasks. Specifically, it attains a score of 94.3 on AIME26 (improving to 97.1 with claim-level test-time scaling), an 80.2 Pass@1 on LiveCodeBench v6, and exhibits strong out-of-distribution generalization with a 96.1\\% acceptance rate on recent unseen LeetCode contests. This effectively places it in the performance band of first-tier reasoning systems, matching or exceeding flagship models that are orders of magnitude larger, such as DeepSeek V3.2, GLM-5, and Gemini 3 Pro. Furthermore, a score of 93.4 on IFEval confirms that this extreme reasoning enhancement does not compromise strict instruction controllability. Extending our previous 1.5B work, these findings motivate the Parametric Compression-Coverage Hypothesis, which views verifiable reasoning as compressible into compact reasoning cores, while open-domain knowledge and general-purpose competence require broad parameter coverage over facts, concepts, and long-tail scenarios. This perspective suggests that compact models are not merely deployment-efficient substitutes, but a complementary path toward frontier-level performance in parameter-dense capability regimes.",
+      "thumbnailUrl": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    },
+    {
+      "title": "British Columbia, Time Zones, and Postgres",
+      "url": "https://www.crunchydata.com/blog/british-columbia-and-time-zone-changes",
+      "publishedAt": "2026-06-22T19:21:00.000Z",
+      "summary": "This year, British Column has moved to year-round Pacific Time. How does that affect date data?",
+      "thumbnailUrl": "https://imagedelivery.net/lPM0ntuwQfh8VQgJRu0mFg/20d3ec66-0a11-4da9-51c6-2fba2b821900/public"
+    },
+    {
+      "title": "Japanese symbols that speak without words",
+      "url": "https://arun.is/blog/japan-symbols/",
+      "publishedAt": "2026-06-22T19:22:37.000Z",
+      "summary": "I look at the Japanese symbols that carry meaning entirely on their own.",
+      "thumbnailUrl": "https://arun.is/_astro/social.bcNmzcHo.jpg"
+    },
+    {
+      "title": "Moebius: 0.2B image inpainting model with 10B-level performance",
+      "url": "https://hustvl.github.io/Moebius/",
+      "publishedAt": "2026-06-22T13:53:02.000Z",
+      "summary": "Moebius: 0.2B Lightweight Image Inpainting Framework with 10B-Level Performance",
+      "thumbnailUrl": "https://hustvl.github.io/Moebius/image_assets/logo_dynamic_woWaterMark.gif"
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "AlgoFly AI",
+      "tagline": "The all-in-one place to build and deploy vision AI",
+      "url": "https://www.producthunt.com/products/algofly-ai",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-06-22T20:05:27-07:00"
+    },
+    {
+      "name": "HAQQ Legal AI on Mobile",
+      "tagline": "Bringing legal understanding to anyone with a phone",
+      "url": "https://www.producthunt.com/products/haqq-mobile-app",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-06-22T20:12:08-07:00"
+    },
+    {
+      "name": "Skybridge",
+      "tagline": "The full-stack open source React framework for MCP Apps",
+      "url": "https://www.producthunt.com/products/skybridge",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-06-22T20:11:55-07:00"
+    },
+    {
+      "name": "AgentX",
+      "tagline": "Evaluate AI agent, pinpoint issues, and fix with one click.",
+      "url": "https://www.producthunt.com/products/agentx",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-06-22T20:11:33-07:00"
+    },
+    {
+      "name": "Alai 2.0",
+      "tagline": "AI design partner for presentations, social posts, and more",
+      "url": "https://www.producthunt.com/products/alai",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-06-22T20:05:19-07:00"
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "News and markets",
+      "sentences": [
+        "Global headlines: Who is Andy Burnham, U.K.’s ‘King of the North’ and likely next prime minister? (The runaway favorite to succeed Prime Minister Keir Starmer is a longtime mayor equally comfortable in the corridors of Westminster and in working-class northern England); U.K. Prime Minister Starmer to resign as Labour Party seeks reboot (The party’s crushing losses in local elections had triggered a mutiny against Starmer. Andy Burnham, the mayor of Greater Manchester, emerged as a heavy favorite to be the next PM); and Read Keir Starmer’s resignation speech (Here is the text of the British prime minister's resignation speech outside 10 Downing Street on Monday. It set the stage for a new Labour Party leader to become government leader by September).",
+        "Markets leaned lower, with 6 of 7 tracked indexes down; NASDAQ Composite down 1.32% was the largest move.",
+        "Benchmarks tracked: S&P 500, NASDAQ Composite, Euronext 100 Index, and Public Joint-Stock Company Moscow Exchange MICEX-RTS plus 3 more indexes."
+      ]
+    },
+    {
+      "title": "Hacker News and Product Hunt",
+      "sentences": [
+        "Hacker News: 1,700 Free Online Courses from Top Universities (Take online courses from the world’s top universities for free. Below, you will find 1,700 free online courses from universities like...); Steam Machine launches today (All the details on how to sign up, plus some background on how we got here); and Runing GLM-5.2 on local hardware (Run the new GLM-5.2 model by Z.ai on local hardware).",
+        "Product Hunt features AlgoFly AI (The all-in-one place to build and deploy vision AI), HAQQ Legal AI on Mobile (Bringing legal understanding to anyone with a phone), and Skybridge (The full-stack open source React framework for MCP Apps)."
+      ]
+    }
+  ],
+  "sourceNotes": {
+    "generatedAt": "2026-06-23T03:12:42.716Z",
+    "timeZone": "Asia/Kolkata",
+    "successfulSources": [
+      "Washington Post",
+      "Al Jazeera",
+      "NPR",
+      "China Daily",
+      "The Hindu",
+      "Reuters"
+    ],
+    "marketSessionLabel": "Latest market sessions as of 2026-06-23",
+    "warnings": []
+  }
+}
