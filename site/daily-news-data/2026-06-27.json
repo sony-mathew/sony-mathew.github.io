@@ -1,0 +1,504 @@
+{
+  "headlines": [
+    {
+      "title": "Ukrainian drones drive Russia to declare emergency in occupied Crimea",
+      "url": "https://www.washingtonpost.com/world/2026/06/26/ukrainian-drones-drive-russia-declare-emergency-occupied-crimea/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Fri, 26 Jun 2026 19:22:50 +0000",
+      "summary": "Weeks of punishing strikes have disrupted water, fuel and electricity supplies across the peninsula, which Ukraine’s president has vowed to reclaim.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "When it comes to soccer, there is no such thing as a United Kingdom",
+      "url": "https://www.washingtonpost.com/sports/2026/06/27/scotlands-second-favorite-world-cup-team-anyone-playing-england/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Fri, 26 Jun 2026 09:48:13 +0000",
+      "summary": "In this year's World Cup, Scotland’s second favorite team is anyone playing England.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "In AI race vs. U.S., China eyes a come-from-behind victory",
+      "url": "https://www.washingtonpost.com/world/2026/06/26/ai-race-china-aims-be-tortoise-with-come-from-behind-win-over-us/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Fri, 26 Jun 2026 09:29:29 +0000",
+      "summary": "U.S. AI companies seem to be in the lead, but that could be short-lived as Chinese competitors offer cheaper products with more commercial appeal worldwide.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "From foes to ‘great friends’? Quakes test new U.S.-Venezuela relationship.",
+      "url": "https://www.washingtonpost.com/world/2026/06/26/quakes-give-us-opportunity-transform-venezuela-foe-friend/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Fri, 26 Jun 2026 09:00:00 +0000",
+      "summary": "The country once rejected U.S. aid after a natural disaster. This time, it’s different.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "King Charles reveals his personal tax bill. Spoiler alert: He’s very rich.",
+      "url": "https://www.washingtonpost.com/world/2026/06/25/king-charles-reveals-his-personal-tax-bill-spoiler-alert-hes-very-rich/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Thu, 25 Jun 2026 21:00:00 +0000",
+      "summary": "The first-ever tax disclosure by a British monarch was partly intended to contain the damage from revelations about the finances of the king’s disgraced brother, Andrew.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "US strikes Iran after attack on ship in Strait of Hormuz",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/6/27/iran-war-live-us-strikes-iran-after-fire-on-vessel-in-strait-of-hormuz",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-06-27",
+      "summary": "Iran's IRGC says it targeted US military in region after Trump administration launched attack on the country.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/06/ap_6a3f06f440a94-1782515444.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "US judge holds prosecutor in contempt in Charlie Kirk murder case",
+      "url": "https://www.aljazeera.com/news/2026/6/26/us-judge-holds-prosecutor-in-contempt-in-charlie-kirk-murder-case",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-06-26",
+      "summary": "Judge says comments to the media by prosecutors about defendant violate rules of what can be said outside of court.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/06/AP26163585794816-1782511601.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Venezuela shaken by magnitude 4.9 tremor days after major earthquakes",
+      "url": "https://www.aljazeera.com/news/2026/6/26/4-9-earthquake-detected-in-venezuela-just-days-after-major-quakes",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-06-26",
+      "summary": "The country is still reeling from devastating pair of earthquakes that killed hundreds of people earlier this week.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/06/getty_6a3f048668-1782514822-rotated.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "What is the framework agreement signed by Israel and Lebanon?",
+      "url": "https://www.aljazeera.com/news/2026/6/26/what-is-the-framework-agreement-signed-by-israel-and-lebanon",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-06-26",
+      "summary": "Deal comes after months of US-brokered direct talks, but Israel continues to occupy Lebanese land.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/06/reuters_6a3ee4fe-1782506750.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Burkina Faso cuts diplomatic ties with former colonial ruler France",
+      "url": "https://www.aljazeera.com/news/2026/6/26/burkina-faso-cuts-diplomatic-ties-with-former-colonial-ruler-france",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-06-26",
+      "summary": "The military government, in power since 2022 coup, accused France of having 'neo-colonial ambitions'.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/01/2025-05-10T172924Z_1143640870_RC25FEAZRM7N_RTRMADP_3_RUSSIA-BURKINA-FASO-1769721657.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Pete Buttigieg and his kids subject to CPS, police investigation after false report",
+      "url": "https://www.npr.org/2026/06/26/nx-s1-5872821/pete-buttigieg-cps-police-swatting",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Fri, 26 Jun 2026 20:26:52 -0400",
+      "summary": "Buttigieg, a potential 2028 Democratic presidential contender, shared his family's experience when police and Child Protective Services came to his home investigating an anonymous tip that was false.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4624x3083+0+0/resize/4624x3083!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Ffb%2F72%2F88e8246f4ae5b1521ea3cdc26a78%2Fgettyimages-1251392831.jpg"
+    },
+    {
+      "title": "5 million have dropped ACA insurance after Trump and the GOP let prices skyrocket",
+      "url": "https://www.npr.org/2026/06/26/nx-s1-5860746/aca-health-insurance-subsidies-rates-premiums",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Fri, 26 Jun 2026 18:54:23 -0400",
+      "summary": "The number of people who signed up for a health plan and then didn't pay their premium fell much more sharply than it has in years past. Trump officials blame fraud. Health policy experts blame costs.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5242x3494+0+0/resize/5242x3494!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fa9%2Fec%2F669c7aa84729b876bae40d030fa1%2Fap26147783547753.jpg"
+    },
+    {
+      "title": "A day after Alito's testy response to Sotomayor's dissent, court says it was a 'misunderstanding'",
+      "url": "https://www.npr.org/2026/06/26/nx-s1-5872721/supreme-court-alito-sotomayor",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Fri, 26 Jun 2026 17:18:04 -0400",
+      "summary": "During Supreme Court opinions Thursday, Justice Samuel Alito, who wrote the majority opinion in an asylum case, appeared to rebut Justice Sonia Sotomayor, who wrote the dissent. The move was highly unusual — and on Friday there was a coda.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4647x3098+0+0/resize/4647x3098!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fe5%2Fbb%2F6c17aacd425f8f19111f91c16bc1%2Fgettyimages-1431365270.jpg"
+    },
+    {
+      "title": "It's not just Cape Verde: African soccer is having a World Cup moment",
+      "url": "https://www.npr.org/2026/06/26/nx-s1-5867404/2026-world-cup-fifa-africa-cape-verde-senegal-morocco-congo",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Fri, 26 Jun 2026 16:49:57 -0400",
+      "summary": "The soccer greats — Brazil, England, Spain — have been giving uneven performances out on the pitch during this World Cup. Meanwhile, teams from Africa have been relentless.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2358x1573+0+0/resize/2358x1573!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F75%2Fb0%2Ff414ec2b438e8e49294277443ff7%2F8a5a0913.jpg"
+    },
+    {
+      "title": "She posted about ICE. Five months later, DHS agents told her to take her post down",
+      "url": "https://www.npr.org/2026/06/26/nx-s1-5871369/new-york-ice-instagram-immigration-dhs-paigelynne-gonyea",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Fri, 26 Jun 2026 16:21:35 -0400",
+      "summary": "In January, Paigelynne Gonyea posted about the immigration surge in Minneapolis. This week, she was visited by ICE officials who claimed one of her posts had doxxed a federal agent.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2187x1230+0+0/resize/2187x1230!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F21%2Fec%2F97ee09a648d1a8f234130afb75b1%2Fpolling-station-screenshot-2.jpg"
+    },
+    {
+      "title": "Wang Yi highlights Austria's role in China-Europe links",
+      "url": "https://www.chinadaily.com.cn/a/202606/26/WS6a3dd71ba310986e2b462054.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-06-26",
+      "summary": "China's Foreign Minister has called on Austria to continue playing a constructive role in China-European Union ties, saying the two sides should regard each other as partners rather than rivals, and that Europe should view China's development as an opportunity, not a challenge.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202606/26/6a3e20dea310986e10186966.jpeg"
+    },
+    {
+      "title": "Australian wool sector rides evolving market trends",
+      "url": "https://www.chinadaily.com.cn/a/202606/26/WS6a3de02aa310986e2b462095.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-06-26",
+      "summary": "Australia's pillar wool sector is reaping the rewards from record-high prices as it rides on consumption upgrades and other strengths in its biggest market, China, according to latest figures.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202606/26/6a3de02aa310986e101862ab.jpeg"
+    },
+    {
+      "title": "White paper charts path for governance reform",
+      "url": "https://www.chinadaily.com.cn/a/202606/26/WS6a3de3e1a310986e2b4620ab.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-06-26",
+      "summary": "International affairs experts view China's newly released white paper as a significant and timely contribution to discussions on reforming the global governance system amid mounting challenges such as geopolitical tensions, economic fragmentation and development deficits.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202606/26/6a3de3e1a310986e10186352.jpeg"
+    },
+    {
+      "title": "Rescue underway after deadly quakes hit Venezuela",
+      "url": "https://www.chinadaily.com.cn/a/202606/26/WS6a3db490a310986e2b461f43.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-06-26",
+      "summary": "Venezuela's health ministry raised the death toll to at least 235 on Thursday evening after two powerful earthquakes struck the country a day earlier.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202606/26/6a3deb86a310986e101865ed.png"
+    },
+    {
+      "title": "Kenya ruling party lauds CPC development vision",
+      "url": "https://www.chinadaily.com.cn/a/202606/26/WS6a3ddc84a310986e2b462080.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-06-26",
+      "summary": "As the Communist Party of China marks its 105th anniversary on July 1, Hassan Omar, secretary-general of Kenya's ruling party United Democratic Alliance, hailed the CPC's longtime governance as a testament to strong organization, ideological clarity and people-centered philosophy, saying its experience offers valuable lessons for political parties across Africa.",
+      "thumbnailUrl": "https://www.chinadaily.com.cn/image_e/2020/logo21.jpg"
+    },
+    {
+      "title": "Congress demands Supreme Court-monitored probe into alleged Ram Temple donation embezzlement case",
+      "url": "https://www.thehindu.com/news/national/congress-demands-supreme-court-monitored-probe-into-alleged-ram-temple-donation-embezzlement-case/article71149936.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-06-26T09:21:42.000Z",
+      "summary": "Congress calls for a Supreme Court probe into alleged embezzlement of Ram Temple donations, demanding disbandment of the temple trust.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/lwomwa/article71149958.ece/alternates/LANDSCAPE_1200/India_Hindu_Temple_28921.jpg"
+    },
+    {
+      "title": "Congress ‘surrendered’ Katchatheevu to Sri Lanka without consulting stakeholders: BJP",
+      "url": "https://www.thehindu.com/news/national/congress-surrendered-katchatheevu-to-sri-lanka-without-consulting-stakeholders-bjp/article71150578.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-06-26T15:43:58.000Z",
+      "summary": "BJP criticizes Congress for \"surrendering\" Katchatheevu to Sri Lanka in 1974, claiming it ignored stakeholder consultations.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/o0ua38/article71151628.ece/alternates/LANDSCAPE_1200/33_%20Sudhanshu_Trivedi_PC_19_06_Delhi.jpg"
+    },
+    {
+      "title": "UCC to be implemented in Bengal through proper procedure, says Suvendu",
+      "url": "https://www.thehindu.com/news/national/west-bengal/ucc-to-be-implemented-in-bengal-by-following-all-procedures-suvendu/article71149912.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-06-26T07:29:00.000Z",
+      "summary": "West Bengal Chief Minister Suvendu Adhikari announces UCC implementation, following legal procedures, ahead of the 2026 assembly elections.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/nzgxxi/article71149967.ece/alternates/LANDSCAPE_1200/PTI06_24_2026_000524B.jpg"
+    },
+    {
+      "title": "Sukhu reiterates Himachal’s claim to Chandigarh share, seeks Governor’s intervention",
+      "url": "https://www.thehindu.com/news/national/himachal-pradesh/sukhu-reiterates-himachals-claim-to-chandigarh-share-seeks-governors-intervention/article71150883.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-06-26T14:26:24.000Z",
+      "summary": "Himachal Chief Minister Sukhu urges Governor's aid for Chandigarh share, BBMB dues, and Shanan project restitution.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/news/national/6ggvth/article71151125.ece/alternates/LANDSCAPE_1200/WhatsApp%20Image%202026-06-26%20at%2019.38.37.jpeg"
+    },
+    {
+      "title": "Myanmar replaces Afghanistan as key opium source, impact seen on India’s eastern border: NCB",
+      "url": "https://www.thehindu.com/news/national/myanmar-replaces-afghanistan-as-key-opium-source-impact-seen-on-indias-eastern-border-ncb/article71151299.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-06-26T16:00:16.000Z",
+      "summary": "Myanmar's rise as a key opium source impacts India's eastern border, with increased drug trafficking through porous routes.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/dgjueb/article71151676.ece/alternates/LANDSCAPE_1200/20260626435L.jpg"
+    },
+    {
+      "title": "Iran's Revolutionary Guards say it targeted US positions in the region in response to attack",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOVC1oeUhDR095WDJqeFZzTHByY052ZVM3V0NYN3NIbUlpU2pMd05mclEzejVObDZnWkhQWjF6d2dvY2VXT2JiUjkxZW1sVkk2czBCeWlqMjk2T19SdHM4bzFPRlVGZV9UQkZudENpNUNYbGplWDM1NG54RnZ0SXVJdFlLZ1lfRUN4aExqZkxuUFdBcnpydGtoN2RPeXBiLWJxWlBDcDVMMEdZQTJpd0MxcWl2QU5sSkFPemVKVEhQRVpBSmpod1haYjF0Zy0?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Fri, 26 Jun 2026 23:03:48 GMT",
+      "summary": "Reuters: Iran's Revolutionary Guards say it targeted US positions in the region in response to attack.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "US bans imports of more Chinese technology goods",
+      "url": "https://www.reuters.com/world/asia-pacific/us-launches-new-chinese-tech-crackdown-will-ban-some-imports-2026-06-26/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Fri, 26 Jun 2026 22:34:27 GMT",
+      "summary": "Reuters: US bans imports of more Chinese technology goods.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/CHWACCFA5NMPXDXGXVS4TWI4D4.jpg?auth=cb2b3f8974bd1585036e2074e210e37a28f8a27e6fb4faf59f6e546900631494&width=1920&quality=80"
+    },
+    {
+      "title": "Burkina Faso breaks off diplomatic relations with France",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPOTNqVzNhVDYyNGRvOXF5RmdvQkc4TEFpdkRORkVHQUpvRl9qclJRRERDODhuVWc1SFJjYXUyTnVTQ0gtYWVDakJnOVNvd1NKTUh1T2w3Wnp3a28wMXJIMFVfaXAzVWJVQk9yVVNwcndlcUstUmhfWmtpOVlrX1NVeFdZR3FDcGRDakQyR05zbXZsZ1d1VzZ2M2hWWXdGOEF6S2NmTkdHdms?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Fri, 26 Jun 2026 19:52:08 GMT",
+      "summary": "Reuters: Burkina Faso breaks off diplomatic relations with France.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "Trump threatens 100% tariff on any country that imposes digital services tax",
+      "url": "https://www.reuters.com/world/us/trump-threatens-100-tariff-any-country-that-imposes-digital-services-tax-2026-06-26/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Fri, 26 Jun 2026 18:16:01 GMT",
+      "summary": "Reuters: Trump threatens 100% tariff on any country that imposes digital services tax.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/YCBIX4CFNBI3JCB2UW2TA7LAFE.jpg?auth=64f5242d7c003889ead4afc5366c31cf627638e0d4ddec115a86755c800aacb1&width=1920&quality=80"
+    },
+    {
+      "title": "Congressional panel investigating Epstein subpoenas Leon Black",
+      "url": "https://www.reuters.com/world/leon-black-tells-congress-that-epstein-duped-deceived-him-2026-06-26/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Fri, 26 Jun 2026 17:26:28 GMT",
+      "summary": "Reuters: Congressional panel investigating Epstein subpoenas Leon Black.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/RJUGE62S2ZOUBELIHTX62EDVKE.jpg?auth=44dfae8fd15900a684ca2d51721f4b9a6ceda2e5c6ffc0b147f5f90d786cc34a&width=1920&quality=80"
+    }
+  ],
+  "markets": [
+    {
+      "id": "sp-500",
+      "label": "S&P 500",
+      "region": "US",
+      "symbol": "^GSPC",
+      "value": 7354.02,
+      "previousClose": 7357.4902148,
+      "change": -3.4702148,
+      "percentChange": -0.04716574,
+      "direction": "down",
+      "sessionDate": "2026-06-27"
+    },
+    {
+      "id": "nasdaq-composite",
+      "label": "NASDAQ Composite",
+      "region": "US",
+      "symbol": "^IXIC",
+      "value": 25297.617,
+      "previousClose": 25358.603329999998,
+      "change": -60.98633,
+      "percentChange": -0.2404956,
+      "direction": "down",
+      "sessionDate": "2026-06-27"
+    },
+    {
+      "id": "euronext-100",
+      "label": "Euronext 100 Index",
+      "region": "Europe",
+      "symbol": "^N100",
+      "value": 1897.41,
+      "previousClose": 1909.4799460000002,
+      "change": -12.069946,
+      "percentChange": -0.6321065,
+      "direction": "down",
+      "sessionDate": "2026-06-27"
+    },
+    {
+      "id": "moex",
+      "label": "Public Joint-Stock Company Moscow Exchange MICEX-RTS",
+      "region": "Europe",
+      "symbol": "MOEX.ME",
+      "value": 85.2,
+      "previousClose": 85.31000061,
+      "change": -0.11000061,
+      "percentChange": -0.12894222,
+      "direction": "down",
+      "sessionDate": "2026-06-27"
+    },
+    {
+      "id": "hang-seng",
+      "label": "HANG SENG INDEX",
+      "region": "Asia",
+      "symbol": "^HSI",
+      "value": 22671.86,
+      "previousClose": 23076.910780000002,
+      "change": -405.05078,
+      "percentChange": -1.755221,
+      "direction": "down",
+      "sessionDate": "2026-06-27"
+    },
+    {
+      "id": "nikkei-225",
+      "label": "Nikkei 225",
+      "region": "Asia",
+      "symbol": "^N225",
+      "value": 69360.88,
+      "previousClose": 72366.341,
+      "change": -3005.461,
+      "percentChange": -4.1531196,
+      "direction": "down",
+      "sessionDate": "2026-06-27"
+    },
+    {
+      "id": "sensex",
+      "label": "S&P BSE SENSEX",
+      "region": "India",
+      "symbol": "^BSESN",
+      "value": 77100.47,
+      "previousClose": 76991.22,
+      "change": 109.25,
+      "percentChange": 0.1418993,
+      "direction": "up",
+      "sessionDate": "2026-06-27"
+    }
+  ],
+  "hackerNews": [
+    {
+      "title": "US allows Anthropic to release Mythos to 'trusted partners'",
+      "url": "https://www.reuters.com/technology/us-releases-anthropic-model-mythos-some-us-companies-semafor-reports-2026-06-26/",
+      "publishedAt": "2026-06-26T22:48:28.000Z",
+      "summary": "reuters.com: US allows Anthropic to release Mythos to 'trusted partners'."
+    },
+    {
+      "title": "Previewing GPT‑5.6 Sol: a next-generation model",
+      "url": "https://openai.com/index/previewing-gpt-5-6-sol/",
+      "publishedAt": "2026-06-26T17:06:55.000Z",
+      "summary": "OpenAI previews GPT-5.6 Sol, a next-generation model with stronger capabilities in coding, science, and cybersecurity, paired with its most advanced safety stack.",
+      "thumbnailUrl": "https://images.ctfassets.net/kftzwdyauwt9/48XpR5dxhE6jJQ03HTUnWZ/ac68fbfb7761fa72ac7442c6744dba56/_.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "title": "Why does kinetic energy increase quadratically, not linearly, with speed? (2011)",
+      "url": "https://physics.stackexchange.com/questions/535/why-does-kinetic-energy-increase-quadratically-not-linearly-with-speed",
+      "publishedAt": "2026-06-26T22:43:29.000Z",
+      "summary": "physics.stackexchange.com: Why does kinetic energy increase quadratically, not linearly, with speed? (2011)."
+    },
+    {
+      "title": "Show HN: Hacker News on a Train Station Style Flip Board",
+      "url": "https://popflame.quickish.space/hn-flipboard/",
+      "publishedAt": "2026-06-27T00:43:39.000Z",
+      "summary": "The top 20 stories on Hacker News, rendered on a split-flap departures board. Rank, points and headline on real mechanical flaps, refreshed by a scheduled cloud function. A remix of the Quickish flipboard.",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "AI in mathematics is forcing big questions",
+      "url": "https://spectrum.ieee.org/ai-in-mathematics",
+      "publishedAt": "2026-06-26T22:36:51.000Z",
+      "summary": "Researchers debate motivation, purpose, and the field’s future",
+      "thumbnailUrl": "https://spectrum.ieee.org/media-library/image.png?id=67007978&width=1200&height=600&coordinates=0%2C0%2C0%2C250"
+    },
+    {
+      "title": "A C++ implementation of a fast hash map and hash set using hopscotch hashing",
+      "url": "https://github.com/Tessil/hopscotch-map",
+      "publishedAt": "2026-06-26T21:18:28.000Z",
+      "summary": "C++ implementation of a fast hash map and hash set using hopscotch hashing - Tessil/hopscotch-map",
+      "thumbnailUrl": "https://opengraph.githubassets.com/453225a51e4667f5162634e99bddcdaf7cc7184fe316226efa25c0e6d4f4ce04/Tessil/hopscotch-map"
+    },
+    {
+      "title": "U.S. government will decide who gets to use GPT-5.6",
+      "url": "https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model/",
+      "publishedAt": "2026-06-26T18:23:14.000Z",
+      "summary": "washingtonpost.com: U.S. government will decide who gets to use GPT-5.6."
+    },
+    {
+      "title": "The gap between open weights LLMs and closed source LLMs",
+      "url": "https://blog.doubleword.ai/frontier-os-llm",
+      "publishedAt": "2026-06-26T21:14:47.000Z",
+      "summary": "Using artificial analysis benchmarks we try to predict when an open source LLM will be released that matches frontier LLMs.",
+      "thumbnailUrl": "https://cdn.sanity.io/images/g1zo7y59/production/aa16655ef76925dff4822424ce01557f018c1290-800x800.png?w=96&h=96"
+    },
+    {
+      "title": "We can still stop California's 3D printer surveillance scheme",
+      "url": "https://www.eff.org/deeplinks/2026/06/we-can-still-stop-californias-3d-printer-surveillance-scheme",
+      "publishedAt": "2026-06-26T21:13:50.000Z",
+      "summary": "Ignoring EFF’s warnings about the dangers and impossibility of implementing a new mandate for 3D print surveillance software, the California State Assembly has signed off on legislation to do just that. In the process, legislators amended the bill to make it even more confusing, while failing to address the risks to privacy, speech, and consumer rights. We must renew our call on legislators to drop this bill as it heads to the state senate, and protect the tools of creators in the state.",
+      "thumbnailUrl": "https://www.eff.org/files/banner_library/3dprintca.jpg"
+    },
+    {
+      "title": "Om",
+      "url": "https://daringfireball.net/2026/06/om",
+      "publishedAt": "2026-06-26T23:33:46.000Z",
+      "summary": "This is going to sound cornier than a bucket of Jiffy-Pop, but it is a profound irony that a man with such a big and beautiful figurative heart could have such a lousy literal one.",
+      "thumbnailUrl": "https://daringfireball.net/graphics/df-wide-card.png"
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "note.md",
+      "tagline": "your notes and research documentation now a local LLM Memory",
+      "url": "https://www.producthunt.com/products/note-md",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-06-26T20:06:51-07:00"
+    },
+    {
+      "name": "Animdock Motion Templates in the Browser",
+      "tagline": "Create trend motions in your browser!",
+      "url": "https://www.producthunt.com/products/animdock-motion-templates-in-the-browser",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-06-26T20:02:21-07:00"
+    },
+    {
+      "name": "LockIn MCP",
+      "tagline": "Let AI block distractions for you when you need to lock in",
+      "url": "https://www.producthunt.com/products/lockin-mcp",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-06-26T20:02:21-07:00"
+    },
+    {
+      "name": "Group Subscriptions by beehiiv",
+      "tagline": "Sell subscriptions to teams, companies, and organizations.",
+      "url": "https://www.producthunt.com/products/beehiiv",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-06-26T19:24:36-07:00"
+    },
+    {
+      "name": "ModuleX",
+      "tagline": "AI workspace that’s already connected to everything",
+      "url": "https://www.producthunt.com/products/modulex",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-06-26T20:02:20-07:00"
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "News and markets",
+      "sentences": [
+        "Global headlines: Ukrainian drones drive Russia to declare emergency in occupied Crimea (Weeks of punishing strikes have disrupted water, fuel and electricity supplies across the peninsula, which Ukraine’s president has vowed to reclaim); When it comes to soccer, there is no such thing as a United Kingdom (In this year's World Cup, Scotland’s second favorite team is anyone playing England); and In AI race vs. U.S., China eyes a come-from-behind victory (U.S. AI companies seem to be in the lead, but that could be short-lived as Chinese competitors offer cheaper products with more commercial appeal worldwide).",
+        "Markets leaned lower, with 6 of 7 tracked indexes down; Nikkei 225 down 4.15% was the largest move.",
+        "Benchmarks tracked: S&P 500, NASDAQ Composite, Euronext 100 Index, and Public Joint-Stock Company Moscow Exchange MICEX-RTS plus 3 more indexes."
+      ]
+    },
+    {
+      "title": "Hacker News and Product Hunt",
+      "sentences": [
+        "Hacker News: US allows Anthropic to release Mythos to 'trusted partners' (reuters.com: US allows Anthropic to release Mythos to 'trusted partners'); Previewing GPT‑5.6 Sol: a next-generation model (OpenAI previews GPT-5.6 Sol, a next-generation model with stronger capabilities in coding, science, and cybersecurity, paired with its...); and Why does kinetic energy increase quadratically, not linearly, with speed? (2011) (physics.stackexchange.com: Why does kinetic energy increase quadratically, not linearly, with speed? (2011)).",
+        "Product Hunt features note.md (your notes and research documentation now a local LLM Memory), Animdock Motion Templates in the Browser (Create trend motions in your browser), and LockIn MCP (Let AI block distractions for you when you need to lock in)."
+      ]
+    }
+  ],
+  "sourceNotes": {
+    "generatedAt": "2026-06-27T03:12:53.598Z",
+    "timeZone": "Asia/Kolkata",
+    "successfulSources": [
+      "Washington Post",
+      "Al Jazeera",
+      "NPR",
+      "China Daily",
+      "The Hindu",
+      "Reuters"
+    ],
+    "marketSessionLabel": "Latest market sessions as of 2026-06-27",
+    "warnings": []
+  }
+}
