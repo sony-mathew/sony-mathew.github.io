@@ -1,0 +1,455 @@
+{
+  "headlines": [
+    {
+      "title": "Pakistan says its security forces killed 29 fighters along Afghan border",
+      "url": "https://www.aljazeera.com/news/2026/6/29/pakistan-says-its-security-forces-killed-29-fighters-along-afghan-border",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-06-29",
+      "summary": "Strikes come a day after fighters armed with guns and explosives killed three soldiers in Karachi.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/06/AP26179154568216-1782693523.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "‘If I am to die, let it be here’: Malawians fleeing unrest in South Africa",
+      "url": "https://www.aljazeera.com/news/2026/6/29/if-i-am-to-die-let-it-be-here-malawians-fleeing-unrest-in-south-africa",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-06-29",
+      "summary": "A mass return of Malawians from South Africa exposes the cost of migration, violence and broken livelihoods.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/06/epa_6a2a571bcd13-1781159707.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Iran insists on sole control of Hormuz amid reports of truce talks with US",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/6/29/iran-war-live-tehran-insists-on-control-of-hormuz-amid-reports-of-us-talks",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-06-29",
+      "summary": "Washington and Tehran have agreed to stop attacks and renew talks in the Qatari capital, Doha, Axios reports.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/06/AFP__20260628__B8L747A__v3__HighRes__UaeIranUsIsraelWar-1782690647.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Israel kills four Palestinians in Gaza as attacks on tents continue",
+      "url": "https://www.aljazeera.com/news/2026/6/28/israel-kills-three-palestinians-in-gaza-as-attacks-on-tents-continue",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-06-28",
+      "summary": "Israeli forces restrict Palestinian worshippers at Al-Aqsa Mosque and block the call to prayer at the Ibrahimi Mosque.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/06/afp_6a411d1a5a5c-1782652186.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Hope of finding more Venezuela quake survivors fades despite late rescues",
+      "url": "https://www.aljazeera.com/news/2026/6/28/hope-of-finding-more-venezuela-quake-survivors-fades-despite-late-rescues",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-06-28",
+      "summary": "Those rescued include 60-year-old woman trapped for 86 hours, as tens of thousands still reported missing.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/06/epa_6a416963af2a-1782671715.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "A 'heat dome' is driving dangerous heat across the U.S. into the July 4 weekend",
+      "url": "https://www.npr.org/2026/06/28/nx-s1-5874019/weather-extreme-heat-wave-north-carolina-ohio-july-4-danger-prepare",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Sun, 28 Jun 2026 19:37:11 -0400",
+      "summary": "Dangerous heat is expected across large swaths of the U.S. this week, according to the National Weather Service.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8312x5541+0+0/resize/8312x5541!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fcc%2F7d%2F30342d574e2087264358f8c6c5db%2Fap26139693980888.jpg"
+    },
+    {
+      "title": "In Venezuela, silence has become a rescue tool",
+      "url": "https://www.npr.org/2026/06/28/nx-s1-5874042/in-venezuela-silence-has-become-a-rescue-tool",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Sun, 28 Jun 2026 17:00:14 -0400",
+      "summary": "In Venezuela rescue crews now stop almost everything and ask for silence so they can hear anyone still alive underneath the rubble. NPR's Eyder Peralta reports from the port city of La Guaira.",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "A bridge to Canada may be blocked by the Trump administration",
+      "url": "https://www.npr.org/2026/06/28/nx-s1-5828903/trump-gordie-howe-bridge-canada-blocked",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Sun, 28 Jun 2026 16:17:22 -0400",
+      "summary": "The Gordie Howe bridge spans the most important border crossing between the U.S. and Canada. President Donald Trump has said he doesn't want it open yet.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4032x3024+0+0/resize/4032x3024!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F10%2Faf%2Fb7a3969e4a41a43ea5e3f117b29f%2Fimg-0306.JPG"
+    },
+    {
+      "title": "U.S. and Iran exchange strikes, underscoring the fragility of the ceasefire",
+      "url": "https://www.npr.org/2026/06/28/g-s1-130748/us-iran-israel-lebanon-hormuz-strikes-bahrain-kuwait",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Sun, 28 Jun 2026 14:01:07 -0400",
+      "summary": "President Trump accused Iran of violating their framework agreement, and Tehran threatened to halt negotiations with the U.S. entirely. Meanwhile, violence continued between Israel and Hezbollah.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5226x3484+0+0/resize/5226x3484!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F49%2F71%2F005941de460db68d532074531db8%2Fap26179328845342.jpg"
+    },
+    {
+      "title": "Trade tensions shake up Brazil's caipirinha spirit",
+      "url": "https://www.npr.org/2026/06/28/nx-s1-5872458/brazil-trade-us-tariffs-europe",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Sun, 28 Jun 2026 11:45:42 -0400",
+      "summary": "U.S. tariff pressure is pushing Europe and Brazil closer—opening new global doors for everything from aircraft parts to Brazil's cachaça, the base of the caipirinha.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4680x2862+0+0/resize/4680x2862!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fc5%2F0f%2F949efed64b1bb8ca739f4db5294f%2Fap16201097285940.jpg"
+    },
+    {
+      "title": "EU stands firm despite new US tariff threats",
+      "url": "https://www.chinadaily.com.cn/a/202606/29/WS6a41c703a310986e2b4625d7.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-06-29",
+      "summary": "The European Union's executive arm the European Commission has insisted the 27-member bloc has the sovereign right to regulate economic activity within its area, despite yet more threats from the United States of tariffs on European goods, as part of the long-running row over big tech firms operating within the EU.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202606/29/6a41c703a310986e10188182.jpeg"
+    },
+    {
+      "title": "Truce comes under strain as US, Iran trade strikes",
+      "url": "https://www.chinadaily.com.cn/a/202606/29/WS6a41aeffa310986e2b462544.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-06-29",
+      "summary": "Disputes over shipping access in the Strait of Hormuz have sparked fresh tensions between Iran and the United States, with each side accusing the other of breaching a fragile interim accord signed less than two weeks ago to end their four-month conflict, a war that disrupted global maritime trade and sent shockwaves through international energy markets.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202606/29/6a41aeffa310986e10187ea5.jpeg"
+    },
+    {
+      "title": "Australian wool sector rides evolving market trends",
+      "url": "https://www.chinadaily.com.cn/a/202606/26/WS6a3de02aa310986e2b462095.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-06-26",
+      "summary": "Australia's pillar wool sector is reaping the rewards from record-high prices as it rides on consumption upgrades and other strengths in its biggest market, China, according to latest figures.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202606/26/6a3de02aa310986e101862ab.jpeg"
+    },
+    {
+      "title": "CIIE a platform to enhance Sino-French trade relations",
+      "url": "https://www.chinadaily.com.cn/a/202606/29/WS6a41ca73a310986e2b462626.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-06-29",
+      "summary": "Two seminars aiming to help French enterprises better understand the upcoming 9th edition of the China International Import Expo, or CIIE, and share opportunities presented by China's deepening opening-up, were held last week in the French cities of Paris and Lyon.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202606/29/6a41ca72a310986e1018824e.jpeg"
+    },
+    {
+      "title": "Chinese envoy urges Japan to properly address historical issues",
+      "url": "https://www.chinadaily.com.cn/a/202606/29/WS6a41c7cea310986e2b4625ed.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-06-29",
+      "summary": "GENEVA -- A Chinese envoy has urged Japan to address historical issues properly and with sincerity, saying the forced recruitment of \"comfort women\" constituted a grave crime against humanity committed by Japanese militarism against women.",
+      "thumbnailUrl": "https://www.chinadaily.com.cn/image_e/2020/logo21.jpg"
+    },
+    {
+      "title": "Sonam Wangchuk joins CJP protest, begins hunger strike at Jantar Mantar",
+      "url": "https://www.thehindu.com/news/national/sonam-wangchuk-joins-cjp-protest-begins-hunger-strike-at-jantar-mantar/article71157421.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-06-28T09:20:46.000Z",
+      "summary": "Sonam Wangchuk initiates a hunger strike at Jantar Mantar, joining CJP's protest for accountability in education and demanding the minister's resignation.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/news/national/8ce83a/article71157438.ece/alternates/LANDSCAPE_1200/Sonam%20Wangchuk%20CJP%20hunger%20srike.jpg"
+    },
+    {
+      "title": "Mann Ki Baat: PM Modi hails self-reliance goals achieved by country",
+      "url": "https://www.thehindu.com/news/national/mann-ki-baat-pm-modi-hails-self-reliance-goals-achieved-by-country/article71157306.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-06-28T07:29:43.000Z",
+      "summary": "PM Modi celebrates India's self-reliance achievements and milestones in aviation, yoga, and education during 'Mann Ki Baat'.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/t7wuk5/article71158600.ece/alternates/LANDSCAPE_1200/PTI06_28_2026_000350B.jpg"
+    },
+    {
+      "title": "‘Blatant loot’: Congress on MoS Agriculture getting subsidy from own ministry",
+      "url": "https://www.thehindu.com/news/national/blatant-loot-congress-on-mos-agriculture-getting-subsidy-from-own-ministry/article71157207.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-06-28T06:29:38.000Z",
+      "summary": "Congress criticizes Union Minister Bhagirath Choudhary for approving a ₹99 lakh subsidy for his own farm, calling it \"blatant loot.\"",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/ropwzv/article71157220.ece/alternates/LANDSCAPE_1200/41_Pawan_Khera_PC_24_06_Delhi.jpg"
+    },
+    {
+      "title": "Ayodhya donations case: Police raids at houses of eight arrested",
+      "url": "https://www.thehindu.com/news/national/uttar-pradesh/ayodhya-donations-case-police-raids-at-houses-of-eight-arrested/article71157124.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-06-28T05:31:12.000Z",
+      "summary": "Police raided homes of eight arrested in Ayodhya donation embezzlement case, recovering ₹79.85 lakh amid ongoing investigations.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/rtwaqx/article71158771.ece/alternates/LANDSCAPE_1200/PTI06_28_2026_000053B.jpg"
+    },
+    {
+      "title": "Indian humanitarian assistance reaches Venezuela: Jaishankar on Op. Amistad",
+      "url": "https://www.thehindu.com/news/national/indian-humanitarian-assistance-reaches-venezuela-jaishankar-on-op-amistad/article71158917.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-06-28T19:02:46.000Z",
+      "summary": "India's Operation Amistad delivers vital humanitarian aid to earthquake-hit Venezuela, including medical supplies and a field hospital.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/vvlrb7/article71158978.ece/alternates/LANDSCAPE_1200/HL4CQbYW0AAMSxj.jpg"
+    },
+    {
+      "title": "Stocks adrift, oil up as US-Iran halt renewed attacks",
+      "url": "https://www.reuters.com/world/china/global-markets-wrapup-1-pix-2026-06-29/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Mon, 29 Jun 2026 01:40:00 GMT",
+      "summary": "Reuters: Stocks adrift, oil up as US-Iran halt renewed attacks.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/OI32M3IOIJIMXFN2VM4GFHOATM.jpg?auth=5b8b599d5998f9c3da72e1a0ebde71187cc2e43a22d288e47f0e79f1aad7ea3e&width=1920&quality=80"
+    },
+    {
+      "title": "South Korean president to unveil massive AI and chip investment drive",
+      "url": "https://www.reuters.com/world/asia-pacific/south-korean-president-unveil-massive-ai-chip-investment-drive-2026-06-29/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Mon, 29 Jun 2026 01:07:00 GMT",
+      "summary": "Reuters: South Korean president to unveil massive AI and chip investment drive.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/I7HMT65SHRK7BDVEJ3CBASMKGE.jpg?auth=abd547b7a7d1186b58314f36f967070e30814a5596b143b31e2cd89a59cfa561&width=1920&quality=80"
+    },
+    {
+      "title": "Father and son rescued after four days buried under rubble of Venezuela's earthquakes",
+      "url": "https://www.reuters.com/world/americas/father-son-rescued-after-four-days-buried-under-rubble-venezuelas-earthquakes-2026-06-29/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Mon, 29 Jun 2026 00:32:00 GMT",
+      "summary": "Reuters: Father and son rescued after four days buried under rubble of Venezuela's earthquakes.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/VWPF6T7H3FKN5DOCDLU53ZB4TE.jpg?auth=debc3b3e3e289fd984f7f3cb026a02cdb5351089ecfb56e863121c357df53a53&width=1920&quality=80"
+    },
+    {
+      "title": "Israel destroys Hezbollah underground infrastructure in southern Lebanon",
+      "url": "https://www.reuters.com/world/middle-east/israel-destroys-hezbollah-underground-infrastructure-southern-lebanon-2026-06-28/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Sun, 28 Jun 2026 23:13:13 GMT",
+      "summary": "Reuters: Israel destroys Hezbollah underground infrastructure in southern Lebanon.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/VWPF6T7H3FKN5DOCDLU53ZB4TE.jpg?auth=debc3b3e3e289fd984f7f3cb026a02cdb5351089ecfb56e863121c357df53a53"
+    },
+    {
+      "title": "Russian attacks kill five in Ukraine, local officials say",
+      "url": "https://www.reuters.com/world/russian-attacks-kills-four-ukraine-local-officials-say-2026-06-28/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Sun, 28 Jun 2026 22:45:34 GMT",
+      "summary": "Reuters: Russian attacks kill five in Ukraine, local officials say.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/Z6F3EGV7TVJCTCOFU5JU5SBPZI.jpg?auth=1ebcc766bff9d79fe0192fc7fbf0add44581bcd7bda84953f5d5a5d4c4aea17a&width=1920&quality=80"
+    }
+  ],
+  "markets": [
+    {
+      "id": "sp-500",
+      "label": "S&P 500",
+      "region": "US",
+      "symbol": "^GSPC",
+      "value": 7354.02,
+      "previousClose": 7357.4902148,
+      "change": -3.4702148,
+      "percentChange": -0.04716574,
+      "direction": "down",
+      "sessionDate": "2026-06-29"
+    },
+    {
+      "id": "nasdaq-composite",
+      "label": "NASDAQ Composite",
+      "region": "US",
+      "symbol": "^IXIC",
+      "value": 25297.62,
+      "previousClose": 25358.60242,
+      "change": -60.98242,
+      "percentChange": -0.24048024,
+      "direction": "down",
+      "sessionDate": "2026-06-29"
+    },
+    {
+      "id": "euronext-100",
+      "label": "Euronext 100 Index",
+      "region": "Europe",
+      "symbol": "^N100",
+      "value": 1897.41,
+      "previousClose": 1909.4799460000002,
+      "change": -12.069946,
+      "percentChange": -0.6321065,
+      "direction": "down",
+      "sessionDate": "2026-06-29"
+    },
+    {
+      "id": "moex",
+      "label": "Public Joint-Stock Company Moscow Exchange MICEX-RTS",
+      "region": "Europe",
+      "symbol": "MOEX.ME",
+      "value": 85.2,
+      "previousClose": 85.31000061,
+      "change": -0.11000061,
+      "percentChange": -0.12894222,
+      "direction": "down",
+      "sessionDate": "2026-06-29"
+    },
+    {
+      "id": "hang-seng",
+      "label": "HANG SENG INDEX",
+      "region": "Asia",
+      "symbol": "^HSI",
+      "value": 23089.91,
+      "previousClose": 22671.85922,
+      "change": 418.05078,
+      "percentChange": 1.8439193,
+      "direction": "up",
+      "sessionDate": "2026-06-29"
+    },
+    {
+      "id": "nikkei-225",
+      "label": "Nikkei 225",
+      "region": "Asia",
+      "symbol": "^N225",
+      "value": 68869.43,
+      "previousClose": 69360.88312,
+      "change": -491.45312,
+      "percentChange": -0.7085451,
+      "direction": "down",
+      "sessionDate": "2026-06-29"
+    },
+    {
+      "id": "sensex",
+      "label": "S&P BSE SENSEX",
+      "region": "India",
+      "symbol": "^BSESN",
+      "value": 77100.47,
+      "previousClose": 76991.204375,
+      "change": 109.265625,
+      "percentChange": 0.14191963,
+      "direction": "up",
+      "sessionDate": "2026-06-29"
+    }
+  ],
+  "hackerNews": [
+    {
+      "title": "GLM 5.2 beats Claude in our benchmarks",
+      "url": "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks/",
+      "publishedAt": "2026-06-28T17:50:47.000Z",
+      "summary": "Among models given nothing but a prompt, the best open-weight option beat Claude Opus 4.8.",
+      "thumbnailUrl": "https://semgrep.dev/assets/blog/glm-5.2-beats-claude-in-our-cybersecurity-benchmarks.png"
+    },
+    {
+      "title": "Historical memory prices 1960-2026",
+      "url": "https://dam.stanford.edu/memory-prices.html",
+      "publishedAt": "2026-06-28T18:32:53.000Z",
+      "summary": "Historical and current prices for DRAM, HBM, and NAND flash.",
+      "thumbnailUrl": "https://dam.stanford.edu/img/dam-logo-short.png"
+    },
+    {
+      "title": "Knowledge Distillation of Black-Box Large Language Models (2024)",
+      "url": "https://arxiv.org/abs/2401.07013",
+      "publishedAt": "2026-06-28T22:32:04.000Z",
+      "summary": "Given the exceptional performance of proprietary large language models (LLMs) like GPT-4, recent research has increasingly focused on boosting the capabilities of smaller models through knowledge distillation (KD) from these powerful yet black-box teachers. While leveraging the high-quality outputs of these teachers is advantageous, the inaccessibility of their internal states often limits effective knowledge transfer. To overcome this limitation, we introduce Proxy-KD, a novel method that uses a proxy model to facilitate the efficient transfer of knowledge from black-box LLMs to smaller models. Our experiments show that Proxy-KD not only enhances the performance of KD from black-box teacher models but also surpasses traditional white-box KD techniques.~This approach presents a compelling new avenue for distilling knowledge from advanced LLMs.",
+      "thumbnailUrl": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    },
+    {
+      "title": "5k menus from the New York Public Library’s Buttolph Collection (1880-1920)",
+      "url": "https://pudding.cool/2026/06/menu-story/",
+      "publishedAt": "2026-06-28T14:44:56.000Z",
+      "summary": "What do America’s earliest restaurant menus teach us about America?",
+      "thumbnailUrl": "https://pudding.cool/2026/06/menu-story/assets/social-facebook.jpg"
+    },
+    {
+      "title": "Better Images of AI",
+      "url": "https://betterimagesofai.org/",
+      "publishedAt": "2026-06-28T23:50:58.000Z",
+      "summary": "betterimagesofai.org: Better Images of AI."
+    },
+    {
+      "title": "I used Claude Code to get a second opinion on my MRI",
+      "url": "https://antoine.fi/mri-analysis-using-claude-code-opus",
+      "publishedAt": "2026-06-28T16:35:19.000Z",
+      "summary": "Welcome to my personal blog! I use it to share what I'm currently learning or thinking about, usually on topics related to technology, business, and health.",
+      "thumbnailUrl": "https://antoine.fi/rails/active_storage/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6Mzk4LCJwdXIiOiJibG9iX2lkIn19--d3e6efb19dc4b4dc72f3345968d90c00d2d027fb/avatar.jpeg"
+    },
+    {
+      "title": "AI boom risks global financial crash, warn central bankers",
+      "url": "https://www.telegraph.co.uk/business/2026/06/28/ai-boom-risks-global-financial-crash-central-bankers-warn/",
+      "publishedAt": "2026-06-29T01:25:04.000Z",
+      "summary": "Reversal of ‘excessive’ tech investments could have serious economic consequences, report finds",
+      "thumbnailUrl": "https://www.telegraph.co.uk/content/dam/business/2026/06/28/TELEMMGLPICT000492564394_17826523826990_trans_NvBQzQNjv4BqpVlberWd9EgFPZtcLiMQf0Rf_Wk3V23H2268P_XkPxc.jpeg?impolicy=OG-Standard"
+    },
+    {
+      "title": "Tell Congress: Don't Force Age Checks Online",
+      "url": "https://act.eff.org/action/tell-congress-don-t-force-age-checks-online",
+      "publishedAt": "2026-06-29T01:52:55.000Z",
+      "summary": "Congress is preparing to vote on the KIDS Act, a sweeping internet bill that would pressure websites and apps to determine users’ ages before allowing them to read websites, send private messages, or participate in online communities.",
+      "thumbnailUrl": "https://actioncenter.s3.us-west-1.amazonaws.com/action_pages/og_images/000/000/599/original/mobile-privacy-knight-2_0.png"
+    },
+    {
+      "title": "TOP500 at ISC’26: We have a New Number 1 Supercomputer",
+      "url": "https://chipsandcheese.com/p/top500-at-isc26-we-have-a-new-number",
+      "publishedAt": "2026-06-28T19:38:00.000Z",
+      "summary": "Hello you fine Internet folks,",
+      "thumbnailUrl": "https://substackcdn.com/image/youtube/w_728,c_limit/sBmc3TjQhNM"
+    },
+    {
+      "title": "Show HN: Zanagrams",
+      "url": "https://zanagrams.com/",
+      "publishedAt": "2026-06-28T15:26:14.000Z",
+      "summary": "A free daily word puzzle. Drag across the letters to find the hidden words and watch the grid shrink as you solve it.",
+      "thumbnailUrl": "https://zanagrams.com/og-image.png"
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "Lyto",
+      "tagline": "\"One AI agent across your browser, tools, and messages \"",
+      "url": "https://www.producthunt.com/products/lyto",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-06-28T20:14:37-07:00"
+    },
+    {
+      "name": "Persona.js",
+      "tagline": "Add WebMCP-native AI chat to any Frontend",
+      "url": "https://www.producthunt.com/products/persona-12",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-06-28T20:11:52-07:00"
+    },
+    {
+      "name": "discode.ai",
+      "tagline": "100+ AI models, one interface. ECO friendly.",
+      "url": "https://www.producthunt.com/products/discode-ai",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-06-28T20:14:06-07:00"
+    },
+    {
+      "name": "GetCompress",
+      "tagline": "Lossless media compression without context switching",
+      "url": "https://www.producthunt.com/products/getcompress",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-06-28T19:50:28-07:00"
+    },
+    {
+      "name": "Dotient",
+      "tagline": "Your local semantic search app",
+      "url": "https://www.producthunt.com/products/dotient",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-06-28T20:14:17-07:00"
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "News and markets",
+      "sentences": [
+        "Global headlines: Pakistan says its security forces killed 29 fighters along Afghan border (Strikes come a day after fighters armed with guns and explosives killed three soldiers in Karachi); ‘If I am to die, let it be here’: Malawians fleeing unrest in South Africa (A mass return of Malawians from South Africa exposes the cost of migration, violence and broken livelihoods); and Iran insists on sole control of Hormuz amid reports of truce talks with US (Washington and Tehran have agreed to stop attacks and renew talks in the Qatari capital, Doha, Axios reports).",
+        "Markets leaned lower, with 5 of 7 tracked indexes down; HANG SENG INDEX up 1.84% was the largest move.",
+        "Benchmarks tracked: S&P 500, NASDAQ Composite, Euronext 100 Index, and Public Joint-Stock Company Moscow Exchange MICEX-RTS plus 3 more indexes."
+      ]
+    },
+    {
+      "title": "Hacker News and Product Hunt",
+      "sentences": [
+        "Hacker News: GLM 5.2 beats Claude in our benchmarks (Among models given nothing but a prompt, the best open-weight option beat Claude Opus 4.8); Historical memory prices 1960-2026 (Historical and current prices for DRAM, HBM, and NAND flash); and Knowledge Distillation of Black-Box Large Language Models (2024) (Given the exceptional performance of proprietary large language models (LLMs) like GPT-4, recent research has increasingly focused on...).",
+        "Product Hunt features Lyto (\"One AI agent across your browser, tools, and messages \"), Persona.js (Add WebMCP-native AI chat to any Frontend), and discode.ai (100+ AI models, one interface. ECO friendly)."
+      ]
+    }
+  ],
+  "sourceNotes": {
+    "generatedAt": "2026-06-29T03:16:23.167Z",
+    "timeZone": "Asia/Kolkata",
+    "successfulSources": [
+      "Al Jazeera",
+      "NPR",
+      "China Daily",
+      "The Hindu",
+      "Reuters"
+    ],
+    "marketSessionLabel": "Latest market sessions as of 2026-06-29",
+    "warnings": [
+      "Washington Post: This operation was aborted"
+    ]
+  }
+}
