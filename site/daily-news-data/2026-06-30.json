@@ -1,0 +1,500 @@
+{
+  "headlines": [
+    {
+      "title": "Trump says U.S. and Iran will meet to negotiate after days of strikes",
+      "url": "https://www.washingtonpost.com/world/2026/06/29/trump-says-us-iran-will-meet-negotiate-after-days-strikes/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Mon, 29 Jun 2026 23:55:00 +0000",
+      "summary": "Both sides will “stand down for now,” a U.S. official said, as talks are set to continue in Qatar. Iran hasn’t publicly confirmed the meeting.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/MGCED4QN57AMHHM266UR4ZBLRM.JPG&w=1440"
+    },
+    {
+      "title": "U.S., Iran launch new strikes, testing fragile ceasefire as Hormuz tensions flare",
+      "url": "https://www.washingtonpost.com/world/2026/06/27/clashes-test-us-iran-ceasefire-bahrain-tanker-report-attacks/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Sun, 28 Jun 2026 08:05:07 +0000",
+      "summary": "Tehran said it launched strikes on U.S. interests in the Middle East, and Bahrain and Kuwait said they were targeted, as clashes continue to threaten the ceasefire.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/CTCDT7YPTJAY6L4LNRHAMUUYK4.JPG&w=1440"
+    },
+    {
+      "title": "U.S. and Iran will ‘stand down’ after strikes and resume talks, official says",
+      "url": "https://www.washingtonpost.com/world/2026/06/28/iran-insists-it-has-sole-control-hormuz-ignoring-trumps-threats/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "2026-06-28",
+      "summary": "The U.S. official said attacks would stop \"for now.\" Iran hasn’t publicly confirmed the agreement and insisted that it had a right to full control of the Strait of Hormuz.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/CTCDT7YPTJAY6L4LNRHAMUUYK4.JPG&w=300&h=169"
+    },
+    {
+      "title": "These homes rose out of Venezuela’s socialist revolution. Now they’re rubble.",
+      "url": "https://www.washingtonpost.com/world/2026/06/27/these-homes-rose-out-venezuelas-socialist-revolution-now-theyre-rubble/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "2026-06-27",
+      "summary": "In the absence of government help, ordinary Venezuelans dug barehanded through the rubble of the week’s earthquakes for loved ones.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/IESW23PXO5IRSQUT25A362Z6XA.jpg&w=300"
+    },
+    {
+      "title": "Unease deepens in Russia as Ukraine steps up long-range strikes",
+      "url": "https://www.washingtonpost.com/world/2026/06/27/unease-deepens-russia-ukraine-steps-up-long-range-strikes/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "2026-06-27",
+      "summary": "Experts said Vladimir Putin was unlikely to change course despite worsening fuel shortages and a sharp decline in the stock market.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/CPY6JLNLQEBEAPLO6PBREKZUKQ.jpg&w=300"
+    },
+    {
+      "title": "Police hunt for suspect after three wounded in Monaco blast",
+      "url": "https://www.aljazeera.com/news/2026/6/30/police-hunt-for-suspect-after-three-wounded-in-monaco",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-06-30",
+      "summary": "Ukrainian oligarch reported to be among injured in explosion at residential building in the Mediterranean principality.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/06/AFP__20260629__B8QB8GA__v1__HighRes__MonacoFranceExplosionPolice-1782786265.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Fears for people deported from US to Venezuela hours before earthquakes hit",
+      "url": "https://www.aljazeera.com/news/2026/6/30/fears-for-people-deported-from-us-to-venezuela-hours-before-earthquakes-hit",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-06-30",
+      "summary": "Search for deportees from US continues in the rubble of the hotel they were taken to in Venezuela's La Guaira city.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/06/AP26180709899365-1782779437.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Iran denies Trump’s claim of Doha meeting, slams France’s Hormuz plans",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/6/30/iran-war-live-tehran-denies-trumps-claims-of-meeting-in-doha",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-06-30",
+      "summary": "Trump says meeting with Iran will take place in Doha today, but Tehran says there are no plans for talks in coming days.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/06/AFP__20260629__B8MJ3ZU__v2__HighRes__IranUsIsraelWarKhameneiFuneral-1782775306.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Keiko Fujimori leads in Peruvian presidential race as vote count concludes",
+      "url": "https://www.aljazeera.com/news/2026/6/30/keiko-fujimori-leads-in-peruvian-presidential-race-as-vote-count-concludes",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-06-30",
+      "summary": "Daughter of former President Alberto Fujimori says the country is closer to 'order and hope' after prolonged vote count.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/06/afp_6a42eb71e455-1782770545.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Marco Rubio meets Libyan commander as US pushes to resolve Libya crisis",
+      "url": "https://www.aljazeera.com/news/2026/6/29/marco-rubio-meets-libyan-commander-as-us-pushes-to-resolve-libya-crisis",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-06-29",
+      "summary": "The US top diplomat commends Libyan leaders' efforts to 'overcome divisions' after talks with LNA's Saddam Haftar.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/06/AP26166348007107-1782765981.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Chinese billionaire Guo Wengui gets 30 years in U.S. prison for fraud conviction",
+      "url": "https://www.npr.org/2026/06/29/g-s1-130976/chinese-billionaire-guo-wengui-gets-30-years-in-u-s-prison-for-fraud-conviction",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Mon, 29 Jun 2026 21:43:29 -0400",
+      "summary": "Guo said he came to the U.S. to destroy the Chinese Communist Party. But the judge said he instead diverted investor money to live lavishly.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3250x2268+0+0/resize/3250x2268!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fb7%2F92%2Ff60fd5af45cda3a1e9d3a5ab5211%2Fap26181002499753.jpg"
+    },
+    {
+      "title": "Michigan governor threatens to pull troops from D.C. if used for Trump task force",
+      "url": "https://www.npr.org/2026/06/29/nx-s1-5875427/michigan-governor-national-guard-dc",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Mon, 29 Jun 2026 19:34:58 -0400",
+      "summary": "Michigan Gov. Whitmer is one of four Democrats who sent their states' National Guard troops to Washington, D.C. ahead of America 250 celebrations in recent weeks, amid President Trump's ongoing — and controversial — deployment in the city.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5293x3529+0+0/resize/5293x3529!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F1d%2Fc8%2Fd3a1277a42dba4405507d7a66117%2Fgettyimages-2276427658.jpg"
+    },
+    {
+      "title": "Wheelchair users say private equity is making repairs harder",
+      "url": "https://www.npr.org/2026/06/29/nx-s1-5860877/wheelchair-users-say-private-equity-is-making-repairs-harder",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Mon, 29 Jun 2026 17:01:05 -0400",
+      "summary": "People who rely on wheelchairs say that industry consolidation driven by private equity means long delays in getting them fixed, which isolates them from society and endangers their health.",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "The Temporary Protected Status program may effectively be over. Here's what we know.",
+      "url": "https://www.npr.org/2026/06/29/g-s1-130942/temporary-protected-status-program-explainer-supreme-court",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Mon, 29 Jun 2026 16:54:23 -0400",
+      "summary": "A Supreme Court ruling gives the Trump administration space to strip this status from hundreds of thousands of more people from the few remaining countries with this program.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6000x4000+0+0/resize/6000x4000!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Ff5%2F2d%2Fb3c5d2e44255997cc3940196e3b1%2Fgettyimages-2283313201.jpg"
+    },
+    {
+      "title": "Supreme Court takes sledgehammer to much of federal government's regulatory structure",
+      "url": "https://www.npr.org/2026/06/29/nx-s1-5875161/supreme-court-takes-sledgehammer-to-much-of-federal-governments-regulatory-structure",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Mon, 29 Jun 2026 16:44:35 -0400",
+      "summary": "The Supreme Court struck down most of the limits that Congress and the courts had previously established to protect the independence of regulatory agencies that comprise much of the federal government.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5616x3744+0+0/resize/5616x3744!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F8a%2F60%2Fac3e49b646a489abb2c0e00eb715%2Fgettyimages-2273951119-2.jpg"
+    },
+    {
+      "title": "UK's likely next PM outlines 'circuit-breaker' vision",
+      "url": "https://www.chinadaily.com.cn/a/202606/30/WS6a432930a310986e2b462a7b.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-06-30",
+      "summary": "The United Kingdom lawmaker on course to become the country's next prime minister in the coming days has said he wants his time in office to work as a \"circuit-breaker\" for the nation.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202606/30/6a432930a310986e10189b76.jpeg"
+    },
+    {
+      "title": "Ping-pong legacy bridges countries at tournament",
+      "url": "https://www.chinadaily.com.cn/a/202606/30/WS6a4319e4a310986e2b4629b1.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-06-30",
+      "summary": "Born to a family of Chinese immigrants in the United States, Amy Wang grew up playing table tennis with her father, never imagining that one day she would represent Team USA while training alongside the Chinese national team she had long admired.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202606/30/6a4319e3a310986e10189813.png"
+    },
+    {
+      "title": "South Korea unveils massive tech projects",
+      "url": "https://www.chinadaily.com.cn/a/202606/30/WS6a432a76a310986e2b462a8b.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-06-30",
+      "summary": "South Korea unveiled on Monday a massive plan totaling nearly 5 quadrillion won ($3.25 trillion) to strengthen the country's leadership in the era of artificial intelligence.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202606/30/6a432a76a310986e10189ba6.jpeg"
+    },
+    {
+      "title": "A metropolis stuck in gridlock",
+      "url": "https://www.chinadaily.com.cn/a/202606/30/WS6a431834a310986e2b462985.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-06-30",
+      "summary": "Editor's note:In this weekly feature China Daily gives voice to Asia and its people. The stories presented come mainly from the Asia News Network (ANN), of which China Daily is among its 20 leading titles.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202606/30/6a431833a310986e1018979c.png"
+    },
+    {
+      "title": "Chinese AI gains ground in Africa",
+      "url": "https://www.chinadaily.com.cn/a/202606/30/WS6a432062a310986e2b462a47.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-06-30",
+      "summary": "Chinese technology companies are emerging as important contributors to Africa's artificial intelligence ecosystem, particularly by promoting open-source AI models, experts say.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202606/30/6a432062a310986e10189a02.jpeg"
+    },
+    {
+      "title": "Delhi court extends judicial custody of 10 accused in NEET-UG 2026 paper leak case",
+      "url": "https://www.thehindu.com/news/national/delhi-court-extends-judicial-custody-of-10-accused-in-neet-ug-2026-paper-leak-case/article71161511.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-06-29T14:15:36.000Z",
+      "summary": "Delhi court extends judicial custody of 10 accused in NEET-UG 2026 paper leak case amid ongoing CBI investigation.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/kj49wt/article71162088.ece/alternates/LANDSCAPE_1200/20260602040L.jpg"
+    },
+    {
+      "title": "Akal Takht asks Punjab govt. to revise anti-sacrilege law, remove clauses contrary to Sikh sentiments",
+      "url": "https://www.thehindu.com/news/national/punjab/akal-takht-asks-punjab-govt-to-revise-anti-sacrilege-law-remove-clauses-contrary-to-sikh-sentiments/article71161822.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-06-29T16:46:45.000Z",
+      "summary": "Akal Takht urges Punjab government to revise anti-sacrilege law, citing lack of consultation and objectionable clauses.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/93q8i4/article71162810.ece/alternates/LANDSCAPE_1200/PTI06_29_2026_000318B.jpg"
+    },
+    {
+      "title": "Congress president Mallikarjun Kharge reappointed as Leader of Opposition in Rajya Sabha",
+      "url": "https://www.thehindu.com/news/national/eight-newly-elected-mps-take-oath-as-rajya-sabha-members/article71160713.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-06-29T09:15:53.000Z",
+      "summary": "Eight newly-elected MPs, including Mallikarjun Kharge and Tarun Chugh, took their oaths in the Rajya Sabha on June 29, 2026.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/news/national/pqf4np/article71161630.ece/alternates/LANDSCAPE_1200/WhatsApp%20Image%202026-06-29%20at%2011.41.20.jpeg"
+    },
+    {
+      "title": "Ram Temple embezzlement row: Supreme Court urged to secure digital evidence before it is ‘quietly lost’",
+      "url": "https://www.thehindu.com/news/national/ram-temple-embezzlement-row-supreme-court-urged-to-secure-digital-evidence-before-it-is-quietly-lost/article71160183.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-06-29T07:06:05.000Z",
+      "summary": "The Supreme Court declines an urgent hearing on a PIL seeking a CBI probe into the alleged embezzlement of donation funds at the Ayodhya Ram Mandir.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/s8pig2/article71029393.ece/alternates/LANDSCAPE_1200/IMG_PTI05_05_2025_000098_2_1_BEECBP0U.jpg"
+    },
+    {
+      "title": "Congress seeks Rajnath Singh’s resignation in controversy over Operation Sindoor deaths",
+      "url": "https://www.thehindu.com/news/national/congress-seeks-rajnath-singhs-resignation-in-controversy-over-operation-sindoor-deaths/article71162274.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-06-29T17:20:39.000Z",
+      "summary": "Congress demands Rajnath Singh's resignation over alleged lies about soldier deaths in Operation Sindoor, igniting a political controversy.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/g0vqaa/article71162882.ece/alternates/LANDSCAPE_1200/20260622432L.jpg"
+    },
+    {
+      "title": "Yen hits 40-year low as clock ticks on intervention",
+      "url": "https://www.reuters.com/world/asia-pacific/yen-hits-40-year-low-clock-ticks-intervention-2026-06-30/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Tue, 30 Jun 2026 01:01:00 GMT",
+      "summary": "Reuters: Yen hits 40-year low as clock ticks on intervention.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/B6NEYVGSXBK6TJ2MVINS3JE73Y.jpg?auth=dd1c815220f9ce6aeb813302624a3982c0b5ab2a2b47e26c8d4d506a788d5813&width=1920&quality=80"
+    },
+    {
+      "title": "Police hunt fugitive after blast in Monaco wounds several",
+      "url": "https://www.reuters.com/world/police-hunt-fugitive-after-blast-monaco-wounds-three-french-media-reports-2026-06-29/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Mon, 29 Jun 2026 21:36:00 GMT",
+      "summary": "Reuters: Police hunt fugitive after blast in Monaco wounds several.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/PCYLFS23INNRFN6Z3WYPEHIYBU.jpg?auth=cddfc53ed3a29e45a8873cf0060addf5b50cfa0edc338a60de6f16dd0b82f42c&width=1080&quality=80"
+    },
+    {
+      "title": "JetBlue flight hit drone while approaching JFK airport, FAA says",
+      "url": "https://www.reuters.com/world/us/jetblue-flight-hit-drone-while-approaching-jfk-airport-faa-says-2026-06-29/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Mon, 29 Jun 2026 20:42:14 GMT",
+      "summary": "Reuters: JetBlue flight hit drone while approaching JFK airport, FAA says.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/7PMEE3INVJKQJFY3TX5YOEKH7Q.jpg?auth=499a83945ccc9ae94f0f141845ec62f25b2a466f0e44a42767a9b62d992782bb&width=1920&quality=80"
+    },
+    {
+      "title": "Trump signs memo making it easier for Americans to fix own vehicles",
+      "url": "https://www.reuters.com/world/us/trump-signs-memo-making-it-easier-americans-fix-own-vehicles-2026-06-29/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Mon, 29 Jun 2026 20:52:49 GMT",
+      "summary": "Reuters: Trump signs memo making it easier for Americans to fix own vehicles.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/DZ7SHP62PBNPFFZ5AVR2YZUBRQ.jpg?auth=412ddef380912d6de001709a9fca321ca2efb199482d029d5f98082afc5be952&height=628&width=1200&quality=80&smart=true"
+    },
+    {
+      "title": "Czech president, prime minister clash over leadership as both pack for NATO summit",
+      "url": "https://www.reuters.com/world/czech-president-prime-minister-clash-over-leadership-both-pack-nato-summit-2026-06-29/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Mon, 29 Jun 2026 16:11:44 GMT",
+      "summary": "Reuters: Czech president, prime minister clash over leadership as both pack for NATO summit.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/W4DGK7I6YRLBVHJOJCO7MJS5UE.jpg?auth=66ee8d02253e990f497b382f022ac82e8992d4c880202470ae65dd9db7c1db33&width=1920&quality=80"
+    }
+  ],
+  "markets": [
+    {
+      "id": "sp-500",
+      "label": "S&P 500",
+      "region": "US",
+      "symbol": "^GSPC",
+      "value": 7440.43,
+      "previousClose": 7354.01984,
+      "change": 86.41016,
+      "percentChange": 1.1750057,
+      "direction": "up",
+      "sessionDate": "2026-06-30"
+    },
+    {
+      "id": "nasdaq-composite",
+      "label": "NASDAQ Composite",
+      "region": "US",
+      "symbol": "^IXIC",
+      "value": 25820.14,
+      "previousClose": 25297.61266,
+      "change": 522.52734,
+      "percentChange": 2.06552,
+      "direction": "up",
+      "sessionDate": "2026-06-30"
+    },
+    {
+      "id": "euronext-100",
+      "label": "Euronext 100 Index",
+      "region": "Europe",
+      "symbol": "^N100",
+      "value": 1900.94,
+      "previousClose": 1897.4100928,
+      "change": 3.5299072,
+      "percentChange": 0.18603818,
+      "direction": "up",
+      "sessionDate": "2026-06-30"
+    },
+    {
+      "id": "moex",
+      "label": "Public Joint-Stock Company Moscow Exchange MICEX-RTS",
+      "region": "Europe",
+      "symbol": "MOEX.ME",
+      "value": 85.2,
+      "previousClose": 85.31000061,
+      "change": -0.11000061,
+      "percentChange": -0.12894222,
+      "direction": "down",
+      "sessionDate": "2026-06-30"
+    },
+    {
+      "id": "hang-seng",
+      "label": "HANG SENG INDEX",
+      "region": "Asia",
+      "symbol": "^HSI",
+      "value": 22764.07,
+      "previousClose": 23026.67938,
+      "change": -262.60938,
+      "percentChange": -1.140457,
+      "direction": "down",
+      "sessionDate": "2026-06-30"
+    },
+    {
+      "id": "nikkei-225",
+      "label": "Nikkei 225",
+      "region": "Asia",
+      "symbol": "^N225",
+      "value": 70116.82,
+      "previousClose": 69468.10906,
+      "change": 648.71094,
+      "percentChange": 0.93382555,
+      "direction": "up",
+      "sessionDate": "2026-06-30"
+    },
+    {
+      "id": "sensex",
+      "label": "S&P BSE SENSEX",
+      "region": "India",
+      "symbol": "^BSESN",
+      "value": 76728.37,
+      "previousClose": 77100.47155999999,
+      "change": -372.10156,
+      "percentChange": -0.48261908,
+      "direction": "down",
+      "sessionDate": "2026-06-30"
+    }
+  ],
+  "hackerNews": [
+    {
+      "title": "Qwen 3.6 27B is the sweet spot for local development",
+      "url": "https://quesma.com/blog/qwen-36-is-awesome/",
+      "publishedAt": "2026-06-29T17:05:16.000Z",
+      "summary": "Qwen 3.6 27B is finally a smart model we can use for coding on Macbook or Nvidia RTX - with llama.cpp and OpenCode.",
+      "thumbnailUrl": "https://quesma.com/_astro/thermal_master_p3_macbook.DJG2GL38.jpg"
+    },
+    {
+      "title": ".self: A new top-level domain designed to support self-hosting",
+      "url": "https://hccf.onmy.cloud/2026/06/21/reclaiming-our-digital-selves-hccfs-vision-for-a-human-centered-top-level-domain/",
+      "publishedAt": "2026-06-29T19:49:28.000Z",
+      "summary": "The Internet is the most powerful communication tool ever created, yet the infrastructure underpinning it has been leveraged by the tech industry to extract our data and exploit our attention. The Human-Centered Computing Foundation seeks to change this dynamic by creating an alternative architecture for the web. As an approved participant in ICANN's Applicant Support Program (ASP), we are officially launching our campaign to secure a new Top-Level Domain (TLD) dedicated entirely to ethical, human-centered technology.",
+      "thumbnailUrl": "https://hccf.onmy.cloud/wp-content/uploads/2026/03/HCCF_Logo_new_snug_square_transparent-3.png"
+    },
+    {
+      "title": "Memory Safe Context Switching (longjmp, setjmp) in Fil-C",
+      "url": "https://fil-c.org/context_switches",
+      "publishedAt": "2026-06-30T00:38:19.000Z",
+      "summary": "Memory Safety &bull; C/C++ Compatibility &bull; Modern Tooling",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "Exploring PDP-1 Lisp (1960)",
+      "url": "https://obsolescence.dev/pdp1-lisp-introduction.html",
+      "publishedAt": "2026-06-30T00:56:42.000Z",
+      "summary": "Introduction to Lisp programming on a PDP-1, with a hands-on practical focus",
+      "thumbnailUrl": "https://obsolescence.dev/images/pidp1/treat-yourself.png"
+    },
+    {
+      "title": "Why Won't Europe Build AI Data Centers in Iceland?",
+      "url": "https://mrkt30.com/why-wont-europe-build-ai-data-centers-in-iceland/",
+      "publishedAt": "2026-06-30T01:30:40.000Z",
+      "summary": "As Brussels pushes tech sovereignty, why are there so few AI data centres in Iceland — Europe's cheapest clean power, going spare?",
+      "thumbnailUrl": "https://mrkt30.com/wp-content/uploads/2026/06/eeeeee.jpeg"
+    },
+    {
+      "title": "LongCat-2.0, a large-scale MoE model with 1.6T total and 48B Active",
+      "url": "https://longcat.chat/blog/longcat-2.0/",
+      "publishedAt": "2026-06-30T00:30:11.000Z",
+      "summary": "longcat.chat: LongCat-2.0, a large-scale MoE model with 1.6T total and 48B Active.",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "Rocketlab acquires Iridium",
+      "url": "https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-acquire-iridium-historic-deal-creating-fully",
+      "publishedAt": "2026-06-29T14:09:24.000Z",
+      "summary": "Unites Rocket Lab's leading launch and satellite manufacturing capabilities with Iridium's global network, spectrum, and experience to unlock critical space applications. Adds material revenue scale and is significantly accretive to Rocket Lab's cash flow generation and profitability.",
+      "thumbnailUrl": "https://investors.rocketlabcorp.com/sites/g/files/knoqqb100131/themes/site/client_site/dist/images/Rocket-Lab-Logo-RGB-Reversed.png"
+    },
+    {
+      "title": "Scientists find molecular-level evidence for two structures in liquid water",
+      "url": "https://phys.org/news/2026-06-scientists-molecular-evidence-liquid.html",
+      "publishedAt": "2026-06-29T22:18:26.000Z",
+      "summary": "A study published in Nature Physics provides new molecular-level evidence from simulations that liquid water is not a single uniform substance, but a constantly shifting mixture of two distinct microscopic structures.",
+      "thumbnailUrl": "https://scx2.b-cdn.net/gfx/news/hires/2026/scientists-find-molecu-1.jpg"
+    },
+    {
+      "title": "Ornith-1.0: self-improving open-source models for agentic coding",
+      "url": "https://github.com/deepreinforce-ai/Ornith-1",
+      "publishedAt": "2026-06-29T17:16:17.000Z",
+      "summary": "Contribute to deepreinforce-ai/Ornith-1 development by creating an account on GitHub.",
+      "thumbnailUrl": "https://opengraph.githubassets.com/ec5a41f26d58f14bb13f6d06f844f41050a9cf217db81a109bc1badb4bb98725/deepreinforce-ai/Ornith-1"
+    },
+    {
+      "title": "US Supreme Court rules geofence warrants require constitutional protections",
+      "url": "https://www.theguardian.com/us-news/2026/jun/29/supreme-court-geofence-warrants-case-decision",
+      "publishedAt": "2026-06-29T15:54:24.000Z",
+      "summary": "Law enforcement’s use of warrants sweeping smartphone location data requires privacy protections, court rules",
+      "thumbnailUrl": "https://i.guim.co.uk/img/media/ddb87e813bdb11401cf5abac3654ec9ff5b15d85/328_0_5001_4002/master/5001.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=4dde1080bea475527e46e854344cca12"
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "PMB",
+      "tagline": "Stop re-explaining your project to AI coding agents",
+      "url": "https://www.producthunt.com/products/pmb-local-first-memory-for-ai",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-06-29T20:03:16-07:00"
+    },
+    {
+      "name": "Intelli",
+      "tagline": "Convert leads into customers with AI conversations",
+      "url": "https://www.producthunt.com/products/intelli",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-06-29T20:02:37-07:00"
+    },
+    {
+      "name": "Agent Mode by Receiptor AI",
+      "tagline": "Bookkeeping assistant that runs receipt workflows end-to-end",
+      "url": "https://www.producthunt.com/products/receiptor-ai",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-06-29T20:12:10-07:00"
+    },
+    {
+      "name": "ClinePass",
+      "tagline": "Run the best open-weights models in Cline",
+      "url": "https://www.producthunt.com/products/cline-4",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-06-29T19:46:40-07:00"
+    },
+    {
+      "name": "Spira for Product Hunt Makers",
+      "tagline": "Social media growth agents that build your momentum",
+      "url": "https://www.producthunt.com/products/spira-ai",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-06-29T20:12:30-07:00"
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "News and markets",
+      "sentences": [
+        "Global headlines: Trump says U.S. and Iran will meet to negotiate after days of strikes (Both sides will “stand down for now,” a U.S. official said, as talks are set to continue in Qatar. Iran hasn’t publicly confirmed the meeting); U.S., Iran launch new strikes, testing fragile ceasefire as Hormuz tensions flare (Tehran said it launched strikes on U.S. interests in the Middle East, and Bahrain and Kuwait said they were targeted, as clashes continue to threaten the ceasefire); and U.S. and Iran will ‘stand down’ after strikes and resume talks, official says (The U.S. official said attacks would stop \"for now.\" Iran hasn’t publicly confirmed the agreement and insisted that it had a right to full control of the Strait of Hormuz).",
+        "Markets leaned higher, with 4 of 7 tracked indexes up; NASDAQ Composite up 2.07% was the largest move.",
+        "Benchmarks tracked: S&P 500, NASDAQ Composite, Euronext 100 Index, and Public Joint-Stock Company Moscow Exchange MICEX-RTS plus 3 more indexes."
+      ]
+    },
+    {
+      "title": "Hacker News and Product Hunt",
+      "sentences": [
+        "Hacker News: Qwen 3.6 27B is the sweet spot for local development (Qwen 3.6 27B is finally a smart model we can use for coding on Macbook or Nvidia RTX - with llama.cpp and OpenCode); .self: A new top-level domain designed to support self-hosting (The Internet is the most powerful communication tool ever created, yet the infrastructure underpinning it has been leveraged by the tech...); and Memory Safe Context Switching (longjmp, setjmp) in Fil-C (Memory Safety &bull; C/C++ Compatibility &bull; Modern Tooling).",
+        "Product Hunt features PMB (Stop re-explaining your project to AI coding agents), Intelli (Convert leads into customers with AI conversations), and Agent Mode by Receiptor AI (Bookkeeping assistant that runs receipt workflows end-to-end)."
+      ]
+    }
+  ],
+  "sourceNotes": {
+    "generatedAt": "2026-06-30T03:13:18.879Z",
+    "timeZone": "Asia/Kolkata",
+    "successfulSources": [
+      "Washington Post",
+      "Al Jazeera",
+      "NPR",
+      "China Daily",
+      "The Hindu",
+      "Reuters"
+    ],
+    "marketSessionLabel": "Latest market sessions as of 2026-06-30",
+    "warnings": []
+  }
+}
