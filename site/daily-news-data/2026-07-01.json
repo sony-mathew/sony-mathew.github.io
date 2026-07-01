@@ -1,0 +1,453 @@
+{
+  "headlines": [
+    {
+      "title": "UN chief fears for ‘millions’ of Palestinians amid UNRWA funding shortfall",
+      "url": "https://www.aljazeera.com/news/2026/7/1/un-chief-fears-for-millions-of-palestinians-amid-unrwa-funding-shortfall",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-07-01",
+      "summary": "Antonio Guterres denounces 'disinformation, smear campaigns' against the UN agency for Palestinian refugees.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/07/ap_6a447ae80f631-1782872808.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "North Korea’s Kim hails ‘unshakeable will’ to develop ties with China’s Xi",
+      "url": "https://www.aljazeera.com/news/2026/7/1/north-koreas-kim-hails-unshakeable-will-to-develop-ties-with-chinas-xi",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-07-01",
+      "summary": "Kim Jong Un has sent Xi Jinping a congratulatory message to mark the 105th anniversary of the Chinese Communist Party.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/07/reuters_6a446505-1782867205.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Qatar’s PM meets US envoys in Doha; Iran holds firm on conditions for talks",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/7/1/iran-war-live-qatars-pm-meets-us-envoys-tehran-holds-firm-on-conditions",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-07-01",
+      "summary": "Iran says talks on a final deal will not begin until hostilities end in Lebanon and US releases frozen Iranian funds.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/06/AFP__20260630__B8RR2FE__v1__HighRes__IranUsIsraelWarKhameneiFuneral-1782863636.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "‘A rally like none other’: Trump unveils 2026 Republican midterm convention",
+      "url": "https://www.aljazeera.com/news/2026/6/30/a-rally-like-no-other-trump-announces-2026-midterm-convention",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-06-30",
+      "summary": "The Republican Party hopes to retain control of both chambers of Congress in November's US midterm elections.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/06/afp_6a4440576e6e-1782857815.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Donald Trump reports $1.4bn in cryptocurrency income in government filing",
+      "url": "https://www.aljazeera.com/news/2026/6/30/donald-trump-reports-1-4bn-in-cryptocurrency-income-in-government-filing",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-06-30",
+      "summary": "Trump has launched a slate of crypto-friendly policies since returning to the White House for a second term.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/06/afp_6a44404d7303-1782857805.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "What the Supreme Court did on the final day of its term",
+      "url": "https://www.npr.org/2026/06/30/nx-s1-5876238/the-biggest-news-from-the-final-day-of-this-supreme-court-term",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Tue, 30 Jun 2026 17:46:16 -0400",
+      "summary": "The Supreme Court upheld the right of children born on U.S. soil to automatic American citizenship. In so doing, the court rejected President Trump's most aggressive attempt to limit immigration.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6000x4000+0+0/resize/6000x4000!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F1a%2F3b%2F7b631e724f0b8b65d8f63fc11c4a%2Fgettyimages-2273382281-3.jpg"
+    },
+    {
+      "title": "NPR discusses error in reporting on the last day of the Supreme Court term",
+      "url": "https://www.npr.org/2026/06/30/nx-s1-5876268/npr-discusses-error-in-reporting-on-the-last-day-of-the-supreme-court-term",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Tue, 30 Jun 2026 17:06:04 -0400",
+      "summary": "All Things Considered host Scott Detrow speaks with NPR's editor-in-chief Thomas Evans and Nina Totenberg about her reporting on the final day of the Supreme Court term.",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "Meta considered buying Kalshi before developing its own prediction market app",
+      "url": "https://www.npr.org/2026/06/30/nx-s1-5875468/meta-kalshi-prediction-market-acquisition-talks",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Tue, 30 Jun 2026 16:33:04 -0400",
+      "summary": "Mark Zuckerberg met with Kalshi's CEO last year about a potential deal, but talks did not move forward. Now Meta is making its own prediction market app.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2400x1350+0+0/resize/2400x1350!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F98%2F1c%2F6b39af17459fbb1657a941525aca%2Fkalshi-meta.png"
+    },
+    {
+      "title": "FDA scientists flag concerns with peptides, the trendy molecules RFK Jr. supports",
+      "url": "https://www.npr.org/2026/06/30/nx-s1-5876301/peptides-fda-panel-compounding-rfk",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Tue, 30 Jun 2026 14:32:10 -0400",
+      "summary": "Documents reviewing the research on peptides note lack of good evidence of efficacy or safety. Yet an FDA panel will consider easing access to them later this month.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2121x1414+0+0/resize/2121x1414!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F2d%2Fc7%2F929e0d1f48fa839227c613eeaaa8%2Fgettyimages-2278801668.jpg"
+    },
+    {
+      "title": "It's going to be a hot July Fourth for much of the country",
+      "url": "https://www.npr.org/2026/06/30/nx-s1-5876093/heat-wave-fourth-midwest-east-coast",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Tue, 30 Jun 2026 13:26:48 -0400",
+      "summary": "The National Weather Service has issued heat warnings and watches for much of the Midwest and East heading into the holiday weekend. In many places, the temperatures could shatter records.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4597x3065+0+0/resize/4597x3065!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F6f%2Ff9%2Fe1bea3ac4db9afbdf0c563445087%2Fgettyimages-2283928939.jpg"
+    },
+    {
+      "title": "Venezuela quake death toll rises to 1,943",
+      "url": "https://www.chinadaily.com.cn/a/202607/01/WS6a4441dfa310986e2b462c66.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-07-01",
+      "summary": "CARACAS -- Venezuelan National Assembly President Jorge Rodriguez said Tuesday that the death toll from the two powerful earthquakes that recently struck the country has risen to 1,943, with more than 10,000 injured.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202607/01/6a4454d7a310986e1018a9cb.jpeg"
+    },
+    {
+      "title": "Chinese ACs cool sweltering Europeans",
+      "url": "https://www.chinadaily.com.cn/a/202607/01/WS6a446667a310986e2b462d23.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-07-01",
+      "summary": "At an air conditioner factory run by Midea Group, a leading Chinese home appliance manufacturer, in the Shunde district of Foshan, Guangdong province, workers are putting in overtime to ramp up production of portable split air conditioners.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202607/01/6a446667a310986e1018ac06.png"
+    },
+    {
+      "title": "Art and heritage converge to renew cultural dialogue",
+      "url": "https://www.chinadaily.com.cn/a/202607/01/WS6a4468aaa310986e2b462d63.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-07-01",
+      "summary": "Oceans apart but both shaped by water, New York and Shanghai tell a shared story of China-US cultural exchange. The two global cities continue to connect through culture, education and dialogue.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202607/01/6a4468a9a310986e1018acda.png"
+    },
+    {
+      "title": "UK's likely next PM outlines 'circuit-breaker' vision",
+      "url": "https://www.chinadaily.com.cn/a/202606/30/WS6a432930a310986e2b462a7b.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-06-30",
+      "summary": "The United Kingdom lawmaker on course to become the country's next prime minister in the coming days has said he wants his time in office to work as a \"circuit-breaker\" for the nation.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202606/30/6a432930a310986e10189b76.jpeg"
+    },
+    {
+      "title": "Conflicting claims cloud talks",
+      "url": "https://www.chinadaily.com.cn/a/202607/01/WS6a446814a310986e2b462d54.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-07-01",
+      "summary": "Both Iran and the United States were scheduled to send negotiators to Qatar this week, yet the two sides have issued conflicting statements over the timing and core objectives.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202607/01/6a446814a310986e1018ac98.jpeg"
+    },
+    {
+      "title": "Indus Waters Treaty remains ‘valid, binding and operative’: Pakistan Deputy PM",
+      "url": "https://www.thehindu.com/news/national/indus-waters-treaty-remains-valid-binding-and-operative-pakistan-deputy-pm/article71167356.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-06-30T18:06:26.000Z",
+      "summary": "Pakistan's Deputy PM reaffirms the Indus Waters Treaty’s validity, warning that its suspension could threaten regional peace and security.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/n1ezjo/article71167361.ece/alternates/LANDSCAPE_1200/PTI05_05_2025_000090B.jpg"
+    },
+    {
+      "title": "EPFO, passport to ITR: Major changes from today",
+      "url": "https://www.thehindu.com/news/national/financial-changes-from-july-1-passport-epfo-itr-filing/article71164517.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-06-30T07:51:10.000Z",
+      "summary": "July 1 financial changes: Know everything about EPFO, ITR and passport rule changes",
+      "thumbnailUrl": "https://th-i.thgim.com/public/education/5in7kt/article70764785.ece/alternates/LANDSCAPE_1200/iStock-2159537757.jpg"
+    },
+    {
+      "title": "PM asks Secretaries to focus on ease of doing business, ease of living, and self-reliance",
+      "url": "https://www.thehindu.com/news/national/pm-asks-secretaries-to-focus-on-ease-of-doing-business-ease-of-living-and-self-reliance/article71167091.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-06-30T17:18:38.000Z",
+      "summary": "PM Modi urges Union Secretaries to enhance ease of business, living, and self-reliance through coordinated planning and reforms.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/hjdhd2/article71167267.ece/alternates/LANDSCAPE_1200/PTI06_28_2026_000382B.jpg"
+    },
+    {
+      "title": "INDIA bloc writes to CJI, flags EC’s ‘biased conduct’",
+      "url": "https://www.thehindu.com/news/national/political-parties-independent-mp-write-to-cji-on-sir-role-of-eci/article71164532.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-06-30T05:49:59.000Z",
+      "summary": "Twenty-three political parties and an Independent MP urge the Chief Justice of India to address election-related issues and ECI's role.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/5e6xai/article71164547.ece/alternates/LANDSCAPE_1200/Political-partiGT2G0M0DN.3.jpg.jpg"
+    },
+    {
+      "title": "Nayara Energy cuts petrol price by ₹5 a litre, diesel by ₹3 as global oil rates cool down",
+      "url": "https://www.thehindu.com/news/national/petrol-diesel-lpg-prices-latest-global-oil-rates-cool-down-updates/article71168502.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-07-01T02:42:56.000Z",
+      "summary": "Nayara Energy reduces petrol prices by ₹5 and diesel by ₹3 amid falling global oil rates and eased tensions in West Asia.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/4tlg8r/article71168509.ece/alternates/LANDSCAPE_1200/2025-07-25T084358Z_108349023_RC2OMX9T1A3B_RTRMADP_3_UKRAINE-CRISIS-RUSSIA-EU-NAYARA.JPG"
+    },
+    {
+      "title": "EXCLUSIVE: US military deploys over 900 personnel to Venezuela for earthquake response",
+      "url": "https://www.reuters.com/world/americas/us-military-deploys-over-900-personnel-venezuela-earthquake-response-2026-07-01/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Wed, 01 Jul 2026 00:29:34 GMT",
+      "summary": "The US military has established a robust footprint of US forces in and ​around Venezuela to support relief operations.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/ZDI5GOPUBFNKHEXJJLHGTB2XNA.jpg?auth=237df3345c59b2bfeeb684357531ce063ac244275be2960b3f28867076557491&width=1920&quality=80"
+    },
+    {
+      "title": "Trump reports over $1.4 billion in income from crypto ventures",
+      "url": "https://www.reuters.com/world/us/trump-reports-more-than-14-billion-income-crypto-ventures-2026-06-30/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Tue, 30 Jun 2026 21:24:00 GMT",
+      "summary": "Trump now derives most of his income from ​digital assets that have benefited from his policies, according to a review of his latest financial disclosures.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/GTLKHRRGW5NOLOSRXXVD2Y6P3U.jpg?auth=f72e4000286a897855d334bd81e42bf112a4854c28d1f229f1429f470368027b&width=1920&quality=80"
+    },
+    {
+      "title": "US DOJ directs prosecutors to prioritize 'birth tourism' probes following court ruling",
+      "url": "https://www.reuters.com/world/us-doj-directs-prosecutors-prioritize-birth-tourism-probes-following-court-2026-06-30/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Tue, 30 Jun 2026 22:17:47 GMT",
+      "summary": "The U.S. Justice Department on Tuesday directed federal prosecutors to prioritize investigations of so-called birth tourism schemes after the Supreme Court rejected President Donald Trump's attempt to restrict birthright citizenship in the United States.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/6YD3VOQLJRIGFCWNE2SM4UOBFA.jpg?auth=ed37395e602d2747e54b7fbe857b87815f7ce9e1a6d8ab3aa7576559a44d9737&width=1920&quality=80"
+    },
+    {
+      "title": "US judges block Trump's limits on student loan forgiveness program",
+      "url": "https://www.reuters.com/world/us-judge-blocks-trumps-limits-student-loan-forgiveness-2026-06-30/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Tue, 30 Jun 2026 20:42:00 GMT",
+      "summary": "Two federal judges on Tuesday blocked U.S. President Donald Trump's administration from implementing a new rule stripping public service workers of eligibility ‌for federal student loan forgiveness if it deems their employers to have a \"substantial illegal purpose.\"",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/LVT4GWENIZK7FGBAS26A3PYRCE.jpg?auth=4bbba57fa0e3750906ad765ab107e744fe8b915ea90eb3e1e59b8f45b1b3f1f6&width=1920&quality=80"
+    },
+    {
+      "title": "Rescuers in Venezuela pluck child alive from collapsed building six days after twin quakes",
+      "url": "https://www.reuters.com/world/americas/rescuers-venezuela-pluck-child-alive-collapsed-building-six-days-after-twin-2026-06-30/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Tue, 30 Jun 2026 21:16:30 GMT",
+      "summary": "Venezuela was hit by ​two earthquakes of magnitudes 7.2 and 7.5 less than a ​minute apart last Wednesday.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/WJ656NJ6T5MMFPUCXH6MHPWFEI.jpg?auth=6b92ed8703d7f419d9ceb39388197a9db53ca2dc812475ded3e3df9edb05b0bf&width=1080&quality=80"
+    }
+  ],
+  "markets": [
+    {
+      "id": "sp-500",
+      "label": "S&P 500",
+      "region": "US",
+      "symbol": "^GSPC",
+      "value": 7499.36,
+      "previousClose": 7440.4303119999995,
+      "change": 58.929688,
+      "percentChange": 0.7920199,
+      "direction": "up",
+      "sessionDate": "2026-07-01"
+    },
+    {
+      "id": "nasdaq-composite",
+      "label": "NASDAQ Composite",
+      "region": "US",
+      "symbol": "^IXIC",
+      "value": 26213.72,
+      "previousClose": 25820.145780000003,
+      "change": 393.57422,
+      "percentChange": 1.5242913,
+      "direction": "up",
+      "sessionDate": "2026-07-01"
+    },
+    {
+      "id": "euronext-100",
+      "label": "Euronext 100 Index",
+      "region": "Europe",
+      "symbol": "^N100",
+      "value": 1926.27,
+      "previousClose": 1900.939922,
+      "change": 25.330078,
+      "percentChange": 1.3325028,
+      "direction": "up",
+      "sessionDate": "2026-07-01"
+    },
+    {
+      "id": "moex",
+      "label": "Public Joint-Stock Company Moscow Exchange MICEX-RTS",
+      "region": "Europe",
+      "symbol": "MOEX.ME",
+      "value": 85.2,
+      "previousClose": 85.31000061,
+      "change": -0.11000061,
+      "percentChange": -0.12894222,
+      "direction": "down",
+      "sessionDate": "2026-07-01"
+    },
+    {
+      "id": "hang-seng",
+      "label": "HANG SENG INDEX",
+      "region": "Asia",
+      "symbol": "^HSI",
+      "value": 22881.02,
+      "previousClose": 23026.68016,
+      "change": -145.66016,
+      "percentChange": -0.6325713,
+      "direction": "down",
+      "sessionDate": "2026-07-01"
+    },
+    {
+      "id": "nikkei-225",
+      "label": "Nikkei 225",
+      "region": "Asia",
+      "symbol": "^N225",
+      "value": 70246.66,
+      "previousClose": 70062.32406,
+      "change": 184.33594,
+      "percentChange": 0.26310283,
+      "direction": "up",
+      "sessionDate": "2026-07-01"
+    },
+    {
+      "id": "sensex",
+      "label": "S&P BSE SENSEX",
+      "region": "India",
+      "symbol": "^BSESN",
+      "value": 76478.67,
+      "previousClose": 76728.36531,
+      "change": -249.69531,
+      "percentChange": -0.32542765,
+      "direction": "down",
+      "sessionDate": "2026-07-01"
+    }
+  ],
+  "hackerNews": [
+    {
+      "title": "The President Made More Than $1Billon in Crypto Deals",
+      "url": "https://www.wsj.com/politics/policy/trump-made-more-than-1-billion-on-crypto-deals-part-of-2025-windfall-ee917d3f",
+      "publishedAt": "2026-07-01T00:27:56.000Z",
+      "summary": "wsj.com: The President Made More Than $1Billon in Crypto Deals."
+    },
+    {
+      "title": "Claude Sonnet 5",
+      "url": "https://www.anthropic.com/news/claude-sonnet-5",
+      "publishedAt": "2026-06-30T17:59:52.000Z",
+      "summary": "Our most agentic Sonnet yet, with top-tier intelligence for coding and everyday professional work.",
+      "thumbnailUrl": "https://cdn.sanity.io/images/4zrzovbb/website/458ea645ef6b729f6847cba16932716e6b547f2f-2880x1620.png"
+    },
+    {
+      "title": "Claude Code is steganographically marking requests",
+      "url": "https://thereallo.dev/blog/claude-code-prompt-steganography",
+      "publishedAt": "2026-06-30T15:44:24.000Z",
+      "summary": "thereallo.dev: Claude Code is steganographically marking requests."
+    },
+    {
+      "title": "Google copybara: moving code between repositories",
+      "url": "https://github.com/google/copybara",
+      "publishedAt": "2026-06-30T23:45:39.000Z",
+      "summary": "Copybara: A tool for transforming and moving code between repositories. - google/copybara",
+      "thumbnailUrl": "https://repository-images.githubusercontent.com/67722017/76fcc500-525b-11ea-85e2-37c7b18c893c"
+    },
+    {
+      "title": "Department of Commerce has lifted export controls on Claude Fable 5 and Mythos 5",
+      "url": "https://twitter.com/AnthropicAI/status/2072106151890809341",
+      "publishedAt": "2026-06-30T23:55:12.000Z",
+      "summary": "We’ve received notice that the Department of Commerce has lifted export controls on Claude Fable 5 and Mythos 5. We'll begin restoring access tomorrow, and will share an update soon. We’re grateful to our users for their patience, and to everyone who worked with us on",
+      "thumbnailUrl": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_200x200.jpg"
+    },
+    {
+      "title": "Forestiere Underground Gardens",
+      "url": "https://en.wikipedia.org/wiki/Forestiere_Underground_Gardens",
+      "publishedAt": "2026-07-01T01:23:09.000Z",
+      "summary": "The Forestiere Underground Gardens in Fresno, California are a series of subterranean structures built by Baldassare Forestiere, an immigrant from Sicily , over a period of 40 years from 1906 to his death in 1946. The gardens are operated by members of the Forestiere family through the Forestiere Historical Center, and can be considered an unconventional example of vernacular architecture . &#91; 3 &#93; &#91; 4 &#93;",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Forestiere_Underground_Gardens_at_5021_West_Shaw_Avenue%2C_Fresno%2C_California_LCCN2013634990.jpg/1280px-Forestiere_Underground_Gardens_at_5021_West_Shaw_Avenue%2C_Fresno%2C_California_LCCN2013634990.jpg"
+    },
+    {
+      "title": "From brain waves to words: a new path to communication without surgery",
+      "url": "https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication/?_fb_noscript=1",
+      "publishedAt": "2026-06-30T21:29:13.000Z",
+      "summary": "ai.meta.com: From brain waves to words: a new path to communication without surgery."
+    },
+    {
+      "title": "Claude Science",
+      "url": "https://claude.com/product/claude-science",
+      "publishedAt": "2026-06-30T17:07:41.000Z",
+      "summary": "Claude Science is your AI workbench for scientific research. Works through your research like a skilled scientist, running the analysis and tracing every step. Spend less time stitching pipelines together, and more time on the science.",
+      "thumbnailUrl": "https://cdn.prod.website-files.com/6889473510b50328dbb70ae6/6a429b9909aa1b063a203021_life-sciences-tn.jpg"
+    },
+    {
+      "title": "Nano Banana 2 Lite",
+      "url": "https://deepmind.google/models/gemini-image/flash-lite/",
+      "publishedAt": "2026-06-30T16:48:37.000Z",
+      "summary": "Google DeepMind",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "Leanstral 1.5",
+      "url": "https://docs.mistral.ai/models/model-cards/leanstral-1-5-26-06",
+      "publishedAt": "2026-06-30T20:44:56.000Z",
+      "summary": "An updated Lean 4 formal proof engineering model optimised for automated theorem proving and autoformalization. 119B total parameters, 6.5B active.",
+      "thumbnailUrl": "https://docs.mistral.ai//api/og?title=Leanstral+1.5&description=An+updated+Lean+4+formal+proof+engineering+model+optimised+for+automated+theorem+proving+and+autoformalization.+119B+total+parameters%2C+6.5B+active.&eyebraw=v1.5&image=&type=model&v=35fa871c487ea09cad5c2bf7ae6044c6b93b2bd0"
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "Pluno",
+      "tagline": "Browser agent that’s 10x faster than Claude",
+      "url": "https://www.producthunt.com/products/pluno",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-06-30T19:55:23-07:00"
+    },
+    {
+      "name": "AgentPeek",
+      "tagline": "Claude Code & Codex in your Mac notch",
+      "url": "https://www.producthunt.com/products/agentpeek",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-06-30T20:04:37-07:00"
+    },
+    {
+      "name": "Dayflow",
+      "tagline": "Open source tools that help you get promoted",
+      "url": "https://www.producthunt.com/products/dayflow-4",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-06-30T19:55:16-07:00"
+    },
+    {
+      "name": "v0 Design Systems 2.0",
+      "tagline": "Build with your components, colors, fonts, and patterns",
+      "url": "https://www.producthunt.com/products/v0",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-06-30T20:04:38-07:00"
+    },
+    {
+      "name": "Akiflow",
+      "tagline": "Manage tasks and calendars from Claude, ChatGPT or Cursor",
+      "url": "https://www.producthunt.com/products/akiflow",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-06-30T20:09:03-07:00"
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "News and markets",
+      "sentences": [
+        "Global headlines: UN chief fears for ‘millions’ of Palestinians amid UNRWA funding shortfall (Antonio Guterres denounces 'disinformation, smear campaigns' against the UN agency for Palestinian refugees); North Korea’s Kim hails ‘unshakeable will’ to develop ties with China’s Xi (Kim Jong Un has sent Xi Jinping a congratulatory message to mark the 105th anniversary of the Chinese Communist Party); and Qatar’s PM meets US envoys in Doha; Iran holds firm on conditions for talks (Iran says talks on a final deal will not begin until hostilities end in Lebanon and US releases frozen Iranian funds).",
+        "Markets leaned higher, with 4 of 7 tracked indexes up; NASDAQ Composite up 1.52% was the largest move.",
+        "Benchmarks tracked: S&P 500, NASDAQ Composite, Euronext 100 Index, and Public Joint-Stock Company Moscow Exchange MICEX-RTS plus 3 more indexes."
+      ]
+    },
+    {
+      "title": "Hacker News and Product Hunt",
+      "sentences": [
+        "Hacker News: The President Made More Than $1Billon in Crypto Deals (wsj.com: The President Made More Than $1Billon in Crypto Deals); Claude Sonnet 5 (Our most agentic Sonnet yet, with top-tier intelligence for coding and everyday professional work); and Claude Code is steganographically marking requests (thereallo.dev: Claude Code is steganographically marking requests).",
+        "Product Hunt features Pluno (Browser agent that’s 10x faster than Claude), AgentPeek (Claude Code & Codex in your Mac notch), and Dayflow (Open source tools that help you get promoted)."
+      ]
+    }
+  ],
+  "sourceNotes": {
+    "generatedAt": "2026-07-01T03:15:04.170Z",
+    "timeZone": "Asia/Kolkata",
+    "successfulSources": [
+      "Al Jazeera",
+      "NPR",
+      "China Daily",
+      "The Hindu",
+      "Reuters"
+    ],
+    "marketSessionLabel": "Latest market sessions as of 2026-07-01",
+    "warnings": [
+      "Washington Post: This operation was aborted"
+    ]
+  }
+}
