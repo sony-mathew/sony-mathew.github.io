@@ -1,0 +1,456 @@
+{
+  "headlines": [
+    {
+      "title": "Kyiv attacked after Ukraine’s Zelenskyy warns of ‘massive Russian strike’",
+      "url": "https://www.aljazeera.com/news/2026/7/2/kyiv-attacked-after-ukraines-zelenskyy-warns-of-massive-russian-strike",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-07-02",
+      "summary": "At least two dead and 11 injured as Ukraine's forces defend against ballistic missiles, drones targeting capital city.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/07/afp_6a45c2dd7b60-1782956765.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "‘A war zone’: Venezuela aid workers fear health crisis after earthquakes",
+      "url": "https://www.aljazeera.com/news/2026/7/2/a-war-zone-venezuela-aid-workers-fear-health-crisis-after-earthquakes",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-07-02",
+      "summary": "Aid workers fear disease outbreaks in temporary shelters amid overcrowding, lack of access to clean water, sanitation.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/07/reuters_6a45b951-1782954321.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "‘Positive progress’ as US, Iran wrap up indirect technical talks in Doha",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/7/2/iran-war-live-positive-progress-as-us-tehran-wrap-up-indirect-talks",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-07-02",
+      "summary": "Tehran says a 'communication channel' will be established with Washington to report and discuss breaches of the MoU.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/07/2026-07-01T162237Z_430738501_RC235MAXUC9U_RTRMADP_3_NODESC-1782947761.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Couple arrested after daring Empire State marriage proposal stunt",
+      "url": "https://www.aljazeera.com/news/2026/7/1/couple-arrested-after-daring-empire-state-marriage-proposal-stunt",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-07-01",
+      "summary": "Russian daredevils Vanya Beerkus and Angela Nikolau are seen as ambassadors for 'rooftopping', a climbing sport.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/07/reuters_6a458e82-1782943362.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "US judge sides with NAACP over proposed mail-in ballot restrictions",
+      "url": "https://www.aljazeera.com/news/2026/7/1/us-judge-sides-with-naacp-over-proposed-mail-in-ballot-restrictions",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-07-01",
+      "summary": "President Trump has sought to limit mail-in voting and has ordered his administration to impose limits on the practice.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/07/2026-07-01T201249Z_1152626629_RC285MAFBIDU_RTRMADP_3_USA-250-TRUMP-1782938139.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Untold casualties and humanitarian needs: What to know a week from Venezuela's quakes",
+      "url": "https://www.npr.org/2026/07/01/nx-s1-5877369/venezuela-earthquakes-updates",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Wed, 01 Jul 2026 13:54:10 -0400",
+      "summary": "Here's a look at some of the major developments since major back-to-back earthquakes rocked Venezuela on June 24, devastating parts of a country already reeling from crisis after crisis.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5616x3744+0+0/resize/5616x3744!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F00%2F7f%2F1f65788144fbb2233c17b995d4f9%2Fap26181461793242.jpg"
+    },
+    {
+      "title": "Lone star ticks are covering much of the U.S. Here's what you need to know",
+      "url": "https://www.npr.org/2026/07/01/nx-s1-5877341/lone-star-ticks-are-covering-much-of-the-u-s-heres-what-you-need-to-know",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Wed, 01 Jul 2026 13:20:16 -0400",
+      "summary": "It's a tick that hunts you down and transmits a potentially dangerous allergy to red meat. The New Yorker writer Burkhard Bilger discusses the lone star tick and the risks of alpha-gal syndrome.",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "Americans are showing up for the World Cup in record-breaking numbers",
+      "url": "https://www.npr.org/2026/07/01/nx-s1-5876297/world-cup-viewership-fox-telemundo",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Wed, 01 Jul 2026 11:06:18 -0400",
+      "summary": "While the U.S. isn't a bona fide soccer nation yet, the past three weeks have perhaps shown what it would feel like if it were.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2048x1365+0+0/resize/2048x1365!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fa0%2F6a%2Fc6661970461aa6fa108980f73ec1%2Fgettyimages-2283260107.jpg"
+    },
+    {
+      "title": "Funerals held for 14 Pakistani children killed in tutoring center collapse",
+      "url": "https://www.npr.org/2026/07/01/g-s1-131537/funerals-held-for-14-pakistani-children-killed-in-tutoring-center-collapse",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Wed, 01 Jul 2026 10:57:00 -0400",
+      "summary": "Police are investigating whether negligence during construction work caused the collapse in the eastern city of Lahore on Tuesday.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8640x5760+0+0/resize/8640x5760!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F2f%2Fcd%2F2c9fbeb84b2587570260c732ef75%2Fap26182241110755.jpg"
+    },
+    {
+      "title": "SCOTUS upholds birthright citizenship. And, key results from Colorado's primaries",
+      "url": "https://www.npr.org/2026/07/01/g-s1-131327/up-first-newsletter-supreme-court-birthright-citizenship-colorado-primaries-world-cup-heat-american-pride",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Wed, 01 Jul 2026 07:29:24 -0400",
+      "summary": "The Supreme Court upheld birthright citizenship on constitutional grounds on the last day of its term. And, a Democratic socialist has won the Democratic primary for a U.S. House seat in Denver.",
+      "thumbnailUrl": "https://feeds.npr.org/1001/undefined"
+    },
+    {
+      "title": "Ronald Sakolsky: China made me a better person",
+      "url": "https://www.chinadaily.com.cn/a/202607/02/WS6a45af37a310986e2b46307a.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-07-02",
+      "summary": "Twenty-seven years ago, Ronald Sakolsky raised $5,000 to help a woman combat desertification in Northwest China. Today, that act of kindness has grown into more than 50,000 trees. In an exclusive interview with China Daily, Sakolsky reflected on how a teaching exchange first brought him to China, how an encounter with an ordinary Chinese woman changed his perspective, and why he is looking forward to seeing her again after nearly three decades.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202607/02/6a45af37a310986e1018c1cc.png"
+    },
+    {
+      "title": "Two metropolises seek common ground",
+      "url": "https://www.chinadaily.com.cn/a/202607/02/WS6a45a84ca310986e2b463062.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-07-02",
+      "summary": "The Our Water Season III: Shanghai-New York City Dialogue launched in New York Bloomberg Tower on Tuesday.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202607/02/6a45ab49a310986e1018c15a.jpeg"
+    },
+    {
+      "title": "Washington, Tehran hold indirect talks",
+      "url": "https://www.chinadaily.com.cn/a/202607/02/WS6a45baeca310986e2b4630e0.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-07-02",
+      "summary": "Officials from the United States and Iran held indirect, low-level technical talks in Doha on Wednesday with third-party mediators, confirmed by diplomats and media outlets, as the two sides remain far apart on core provisions of their initial war-ending framework.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202607/02/6a45baeca310986e1018c352.jpeg"
+    },
+    {
+      "title": "Policy tightening raises concerns",
+      "url": "https://www.chinadaily.com.cn/a/202607/02/WS6a45bdfea310986e2b46311f.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-07-02",
+      "summary": "As the US celebrates the 250th anniversary of its founding, the country is guarding its door more tightly.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202607/02/6a45bdfea310986e1018c440.jpeg"
+    },
+    {
+      "title": "CPC's national development drive lauded",
+      "url": "https://www.chinadaily.com.cn/a/202607/02/WS6a45a4dda310986e2b46305d.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-07-02",
+      "summary": "Chinese modernization is steadily advancing, and China's development has contributed to shared global prosperity while offering valuable experiences for developing countries pursuing their own paths to modernization, according to global experts.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202607/02/6a45be40a310986e1018c451.jpeg"
+    },
+    {
+      "title": "New leaders assume key senior roles in Army and Air Force",
+      "url": "https://www.thehindu.com/news/national/air-marshal-ashutosh-dixit-takes-charge-as-new-vice-chief-of-iaf/article71169493.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-07-01T10:04:00.000Z",
+      "summary": "Air Marshal Ashutosh Dixit becomes Vice-Chief of IAF, honouring fallen heroes and succeeding Air Marshal Nagesh Kapoor.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/ehc15z/article71169537.ece/alternates/LANDSCAPE_1200/PTI07_01_2026_000031A.jpg"
+    },
+    {
+      "title": "Iran invites Kharge, Khurshid, Khera for Khamenei funeral",
+      "url": "https://www.thehindu.com/news/national/iran-invites-congress-president-kharge-former-eam-salman-khurshid-pawan-khera-for-khamenei-funeral/article71170362.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-07-01T13:36:50.000Z",
+      "summary": "Iran invites Indian leaders, including Congress president Kharge, to attend Ayatollah Khamenei's funeral ceremonies from July 3-9.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/xv8lti/article71170358.ece/alternates/LANDSCAPE_1200/20260122103L.jpg"
+    },
+    {
+      "title": "Congress leaders greet Akhilesh Yadav on his birthday, send signals on Opposition unity",
+      "url": "https://www.thehindu.com/news/national/congress-leaders-greet-akhilesh-yadav-on-his-birthday-send-signals-on-opposition-unity/article71170210.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-07-01T17:29:57.000Z",
+      "summary": "Congress leaders celebrate Akhilesh Yadav's birthday, emphasizing opposition unity and commitment to social justice ahead of elections.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/wnjv7e/article71171505.ece/alternates/LANDSCAPE_1200/20260701393L.jpg"
+    },
+    {
+      "title": "U.P. BJP tries to shore up women voter numbers with SIR leaving wide gender gap",
+      "url": "https://www.thehindu.com/news/national/uttar-pradesh/up-bjp-tries-to-shore-up-women-voter-numbers-with-sir-leaving-wide-gender-gap/article71169972.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-07-01T13:34:48.000Z",
+      "summary": "BJP prioritizes enrolling women voters in Uttar Pradesh ahead of 2027 elections amid significant gender gaps in electoral rolls.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/qmh5eo/article71170340.ece/alternates/LANDSCAPE_1200/Political-partiGT2G0M0DN.3.jpg.jpg"
+    },
+    {
+      "title": "Manipur on the boil again as 20 houses set on fire",
+      "url": "https://www.thehindu.com/news/national/manipur-on-boil-again-as-border-houses-set-on-fire/article71170655.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-07-01T16:26:17.000Z",
+      "summary": "Conflict reignites in Manipur as Kuki and Naga groups accuse each other of village burnings along the India-Myanmar border.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/l932sp/article71171325.ece/alternates/LANDSCAPE_1200/PTI03_20_2026_000333A.jpg"
+    },
+    {
+      "title": "Russian drone, missile attack on Kyiv hits residential buildings, injures 16",
+      "url": "https://www.reuters.com/world/russian-drones-attack-ukrainian-capital-set-central-district-hotel-fire-2026-07-01/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Wed, 01 Jul 2026 22:02:00 GMT",
+      "summary": "Reuters: Russian drone, missile attack on Kyiv hits residential buildings, injures 16.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/YT4KAGD23FMDHLDFONPTI3YCOE.jpg?auth=7789177c4b309eff970598a35b99b161fbb2f67883d009d5f99394b8f68c8a86&width=1080&quality=80"
+    },
+    {
+      "title": "Judge blocks US Postal Service's proposed restrictions on mail-in voting",
+      "url": "https://www.reuters.com/world/judge-blocks-us-postal-services-proposed-restrictions-mail-in-voting-2026-07-01/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Wed, 01 Jul 2026 21:12:29 GMT",
+      "summary": "Reuters: Judge blocks US Postal Service's proposed restrictions on mail-in voting.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/HVOFNOOT5VKJXJCJ3QHEJRWUUM.jpg?auth=0e2d2c1b668cd76506c85092bfddf4038b05d6eacb7e821d98e4cc2a975fba4b&width=1920&quality=80"
+    },
+    {
+      "title": "Rebel Catholic group ordains bishops in Switzerland, defying Pope Leo",
+      "url": "https://www.reuters.com/world/rebel-catholic-group-ordains-bishops-switzerland-defying-pope-leo-2026-07-01/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Wed, 01 Jul 2026 20:35:43 GMT",
+      "summary": "Reuters: Rebel Catholic group ordains bishops in Switzerland, defying Pope Leo.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/JXD5WEFMTFORLOAO5NY4OZEZOU.jpg?auth=165087da5f21c36c84fd2a1cf44aaa7adb77d375f0ebebb71a11f0c2a5c72c47&width=1920&quality=80"
+    },
+    {
+      "title": "Alibaba to pay $600 million to resolve US drug sales probe",
+      "url": "https://www.reuters.com/world/alibaba-aus-merchant-services-pay-600-million-resolve-alleged-illegal-2026-07-01/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Wed, 01 Jul 2026 21:20:25 GMT",
+      "summary": "Reuters: Alibaba to pay $600 million to resolve US drug sales probe.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/327NHBUJM5NEZJW5JWEF4SCW7A.jpg?auth=7b3eb8611a8cb06fc6653d5490355dd5aed8b64fbfcc98a2ad8473558801fe4f&width=1920&quality=80"
+    },
+    {
+      "title": "Russian daredevils unfurl banner atop New York's Empire State Building in proposal stunt",
+      "url": "https://www.reuters.com/world/two-people-unfurl-peace-banner-new-yorks-empire-state-building-spire-2026-07-01/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Wed, 01 Jul 2026 20:08:24 GMT",
+      "summary": "Reuters: Russian daredevils unfurl banner atop New York's Empire State Building in proposal stunt.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/JEEB4ZOUPRLVPMJ5MV7FX5RTWE.jpg?auth=b03ce898d7cfd2ec925f88f1e4bd2489931e042c1f30cec313034a109641ea33&width=1080&quality=80"
+    }
+  ],
+  "markets": [
+    {
+      "id": "sp-500",
+      "label": "S&P 500",
+      "region": "US",
+      "symbol": "^GSPC",
+      "value": 7483.23,
+      "previousClose": 7499.359882999999,
+      "change": -16.129883,
+      "percentChange": -0.21508346,
+      "direction": "down",
+      "sessionDate": "2026-07-02"
+    },
+    {
+      "id": "nasdaq-composite",
+      "label": "NASDAQ Composite",
+      "region": "US",
+      "symbol": "^IXIC",
+      "value": 26040.03,
+      "previousClose": 26213.7175,
+      "change": -173.6875,
+      "percentChange": -0.66258246,
+      "direction": "down",
+      "sessionDate": "2026-07-02"
+    },
+    {
+      "id": "euronext-100",
+      "label": "Euronext 100 Index",
+      "region": "Europe",
+      "symbol": "^N100",
+      "value": 1906.27,
+      "previousClose": 1926.27,
+      "change": -20,
+      "percentChange": -1.0382761,
+      "direction": "down",
+      "sessionDate": "2026-07-02"
+    },
+    {
+      "id": "moex",
+      "label": "Public Joint-Stock Company Moscow Exchange MICEX-RTS",
+      "region": "Europe",
+      "symbol": "MOEX.ME",
+      "value": 85.2,
+      "previousClose": 85.31000061,
+      "change": -0.11000061,
+      "percentChange": -0.12894222,
+      "direction": "down",
+      "sessionDate": "2026-07-02"
+    },
+    {
+      "id": "hang-seng",
+      "label": "HANG SENG INDEX",
+      "region": "Asia",
+      "symbol": "^HSI",
+      "value": 23112.46,
+      "previousClose": 22881.0186,
+      "change": 231.4414,
+      "percentChange": 1.0114995,
+      "direction": "up",
+      "sessionDate": "2026-07-02"
+    },
+    {
+      "id": "nikkei-225",
+      "label": "Nikkei 225",
+      "region": "Asia",
+      "symbol": "^N225",
+      "value": 69591.75,
+      "previousClose": 70474.96094,
+      "change": -883.21094,
+      "percentChange": -1.2532265,
+      "direction": "down",
+      "sessionDate": "2026-07-02"
+    },
+    {
+      "id": "sensex",
+      "label": "S&P BSE SENSEX",
+      "region": "India",
+      "symbol": "^BSESN",
+      "value": 76922.64,
+      "previousClose": 76478.67125,
+      "change": 443.96875,
+      "percentChange": 0.5805132,
+      "direction": "up",
+      "sessionDate": "2026-07-02"
+    }
+  ],
+  "hackerNews": [
+    {
+      "title": "ZCode – Harness for GLM-5.2",
+      "url": "https://zcode.z.ai/en",
+      "publishedAt": "2026-07-01T22:03:36.000Z",
+      "summary": "ZCode combines the best AI agents with your existing tools so you can plan, code, review, and deploy without friction.",
+      "thumbnailUrl": "https://zcode.z.ai/images/summary_large_image.png?v=20260628"
+    },
+    {
+      "title": "Building an Open-Source Robot Vacuum – Meet Oomwoo",
+      "url": "https://makerspet.com/blog/building-an-open-source-robot-vacuum-meet-oomwoo/",
+      "publishedAt": "2026-07-02T00:48:01.000Z",
+      "summary": "I’m starting a new build-in-public project: oomwoo, an open-source robot vacuum you build yourself. Raspberry Pi, ROS 2, 2D LiDAR, Home Assistant, 3D printed, local-first — and open from the first commit.",
+      "thumbnailUrl": "https://makerspet.com/wp-content/uploads/2026/06/oomwoo-vacuum_model_top.webp"
+    },
+    {
+      "title": "Show HN: Searchable directory of 22k+ products from worker-owned co-ops",
+      "url": "https://www.workerowned.info/",
+      "publishedAt": "2026-07-01T20:47:41.000Z",
+      "summary": "Find worker-owned coffee shops and restaurants across the US. Search by city to discover cooperatively owned cafes, bakeries, and restaurants in your area.",
+      "thumbnailUrl": "https://www.workerowned.info/og-marketplace.png"
+    },
+    {
+      "title": "For first time, a cell built from scratch grows and divides",
+      "url": "https://www.quantamagazine.org/for-the-first-time-a-cell-built-from-scratch-grows-and-divides-20260701/",
+      "publishedAt": "2026-07-01T14:20:52.000Z",
+      "summary": "Scientists built a synthetic cell that combines more lifelike properties than ever before — proof of concept that it’s possible to bring nonliving materials to life, or something close to it, in the lab.",
+      "thumbnailUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/07/SyntheticLife-cr-Ada-Zejun-Shen-social.jpg"
+    },
+    {
+      "title": "Global review confirms mRNA vaccines are safe, effective and full of promise ",
+      "url": "https://news.ubc.ca/2026/06/mrna-vaccines-are-safe-effective-and-full-of-promise/",
+      "publishedAt": "2026-07-02T00:40:14.000Z",
+      "summary": "Comprehensive review brings together global evidence to strengthen public trust and counter misinformation as mRNA vaccines expand to prevent and treat more diseases.",
+      "thumbnailUrl": "https://news.ubc.ca/wp-content/uploads/2026/06/ubc_20210713_pj_9100_feature-image.jpg"
+    },
+    {
+      "title": "Avoiding Fallback in Distributed Systems",
+      "url": "https://builder.aws.com",
+      "publishedAt": "2026-07-02T02:19:48.000Z",
+      "summary": "Connect with builders who understand your journey. Share solutions, influence AWS product development, and access useful content that accelerates your growth. Your community starts here.",
+      "thumbnailUrl": "https://builder.aws.com/assets/og-hiXAX-on.png"
+    },
+    {
+      "title": "What to learn to be a graphics programmer",
+      "url": "https://blog.demofox.org/2026/07/01/what-to-learn-to-be-a-graphics-programmer/",
+      "publishedAt": "2026-07-01T17:53:44.000Z",
+      "summary": "I get asked fairly often what people need to know to be hireable as a graphics programmer. I figured it was time to make a page to link instead of re-typing it each time. We are in a strange time w…",
+      "thumbnailUrl": "https://blog.demofox.org/wp-content/uploads/2026/07/image.png"
+    },
+    {
+      "title": "Physical disc production ending in Jan 2028 for new games on PlayStation",
+      "url": "https://blog.playstation.com/2026/07/01/physical-disc-production-ending-in-january-2028-for-new-games-releasing-on-playstation-consoles/",
+      "publishedAt": "2026-07-01T12:13:34.000Z",
+      "summary": "In response to shifting trends in consumer preference, new games will be released on PlayStation Store and at retailers in digital formats only.",
+      "thumbnailUrl": "https://blog.playstation.com/tachyon/2026/07/70bb22030b29f4234fd812253bf1129b00609c4c.jpg"
+    },
+    {
+      "title": "The Underhanded C Contest",
+      "url": "https://underhanded-c.org/",
+      "publishedAt": "2026-07-01T22:39:15.000Z",
+      "summary": "The official perfectly innocent web page for law-abiding good guys",
+      "thumbnailUrl": "http://www.underhanded-c.org/squash.png"
+    },
+    {
+      "title": "The <Usermedia> HTML Element",
+      "url": "https://developer.chrome.com/blog/usermedia-html-element",
+      "publishedAt": "2026-07-01T23:56:15.000Z",
+      "summary": "Learn about the HTML element, a new Capability Element landing in Chrome 151.",
+      "thumbnailUrl": "https://developer.chrome.com/static/blog/usermedia-html-element/image/thumbnail.png"
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "Aruki",
+      "tagline": "The Japanese walking method, coached on your iPhone",
+      "url": "https://www.producthunt.com/products/aruki-japanese-walking",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-07-01T19:33:09-07:00"
+    },
+    {
+      "name": "Browser Notes",
+      "tagline": "Your ideas, organized - not uploaded",
+      "url": "https://www.producthunt.com/products/browser-notes",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-07-01T19:25:31-07:00"
+    },
+    {
+      "name": "Stigg 2.0",
+      "tagline": "The usage runtime for AI products",
+      "url": "https://www.producthunt.com/products/stigg",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-07-01T19:25:56-07:00"
+    },
+    {
+      "name": "Loot",
+      "tagline": "Collect your favorite things in real life",
+      "url": "https://www.producthunt.com/products/loot-6",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-07-01T19:53:37-07:00"
+    },
+    {
+      "name": "Bamboo",
+      "tagline": "Markdown notes with AI under your control",
+      "url": "https://www.producthunt.com/products/bamboo-ai-markdown-notes",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-07-01T19:25:43-07:00"
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "News and markets",
+      "sentences": [
+        "Global headlines: Kyiv attacked after Ukraine’s Zelenskyy warns of ‘massive Russian strike’ (At least two dead and 11 injured as Ukraine's forces defend against ballistic missiles, drones targeting capital city); ‘A war zone’: Venezuela aid workers fear health crisis after earthquakes (Aid workers fear disease outbreaks in temporary shelters amid overcrowding, lack of access to clean water, sanitation); and ‘Positive progress’ as US, Iran wrap up indirect technical talks in Doha (Tehran says a 'communication channel' will be established with Washington to report and discuss breaches of the MoU).",
+        "Markets leaned lower, with 5 of 7 tracked indexes down; Nikkei 225 down 1.25% was the largest move.",
+        "Benchmarks tracked: S&P 500, NASDAQ Composite, Euronext 100 Index, and Public Joint-Stock Company Moscow Exchange MICEX-RTS plus 3 more indexes."
+      ]
+    },
+    {
+      "title": "Hacker News and Product Hunt",
+      "sentences": [
+        "Hacker News: ZCode – Harness for GLM-5.2 (ZCode combines the best AI agents with your existing tools so you can plan, code, review, and deploy without friction); Building an Open-Source Robot Vacuum – Meet Oomwoo (I’m starting a new build-in-public project: oomwoo, an open-source robot vacuum you build yourself. Raspberry Pi, ROS 2, 2D LiDAR, Home...); and Show HN: Searchable directory of 22k+ products from worker-owned co-ops (Find worker-owned coffee shops and restaurants across the US. Search by city to discover cooperatively owned cafes, bakeries, and...).",
+        "Product Hunt features Aruki (The Japanese walking method, coached on your iPhone), Browser Notes (Your ideas, organized - not uploaded), and Stigg 2.0 (The usage runtime for AI products)."
+      ]
+    }
+  ],
+  "sourceNotes": {
+    "generatedAt": "2026-07-02T03:11:51.508Z",
+    "timeZone": "Asia/Kolkata",
+    "successfulSources": [
+      "Al Jazeera",
+      "NPR",
+      "China Daily",
+      "The Hindu",
+      "Reuters"
+    ],
+    "marketSessionLabel": "Latest market sessions as of 2026-07-02",
+    "warnings": [
+      "Washington Post: This operation was aborted"
+    ]
+  }
+}
