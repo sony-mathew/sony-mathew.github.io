@@ -1,0 +1,504 @@
+{
+  "headlines": [
+    {
+      "title": "Vatican excommunicates bishops of breakaway traditionalist sect",
+      "url": "https://www.washingtonpost.com/world/2026/07/02/vatican-excommunicates-bishops-breakaway-traditionalist-sect/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Thu, 02 Jul 2026 23:26:55 +0000",
+      "summary": "The sect, the Society of St. Pius X, defied a direct plea from Pope Leo XIV and sought to consecrate four bishops without the Vatican's approval.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "Russia rocks Ukrainian capital with massive assault, killing at least 25",
+      "url": "https://www.washingtonpost.com/world/2026/07/02/russia-rocks-kyiv-with-massive-missile-drone-attack/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Thu, 02 Jul 2026 20:24:06 +0000",
+      "summary": "Dozens were injured overnight in Kyiv during an attack that caused fires and explosions throughout the city.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "Trump-backed truce in Lebanon, key to Iran peace deal, risks new civil war",
+      "url": "https://www.washingtonpost.com/world/2026/07/02/trump-backed-ceasefire-lebanon-key-iran-peace-deal-risks-new-civil-war/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Thu, 02 Jul 2026 10:35:14 +0000",
+      "summary": "To reach a more durable peace agreement with Iran and open the Strait of Hormuz, Trump needs Israel to uphold the terms of a deal with Lebanon that Hezbollah says it will block by \"any means necessary.\"",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "After quakes trap Venezuelans, the government impedes rescuers and aid",
+      "url": "https://www.washingtonpost.com/world/2026/07/01/after-quakes-trap-venezuelans-government-blocks-rescuers-aid/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Wed, 01 Jul 2026 09:00:00 +0000",
+      "summary": "In the nation’s gravest hour, the country’s authoritarian regime has crippled an effective response, say survivors, rescue workers and former officials.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "Pope Leo plans to send a message about migrants on July Fourth",
+      "url": "https://www.washingtonpost.com/world/2026/06/30/july-fourth-pope-leo-offer-counterpoint-trumps-america/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Wed, 01 Jul 2026 09:00:00 +0000",
+      "summary": "The pope's visit to the Italian island of Lampedusa, desperate migrants' gateway to the West, will set up a split-screen moment as President Donald Trump holds an Independence Day rally.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "Mapping Iran’s Ali Khamenei funeral: Where mourners will gather each day",
+      "url": "https://www.aljazeera.com/news/2026/7/3/mapping-irans-ali-khamenei-funeral-where-mourners-will-gather-each-day",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-07-03",
+      "summary": "Funeral processions for Iran's late supreme leader will take place between July 3-9 across Iran and Iraq.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/07/INTERACTIVE-ALI-KHAMENIE-COVER-JULY-2-2026-1782973558.png?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Iran slams US ‘contempt’ for peace ahead of funeral for Ali Khamenei",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/7/3/iran-war-live-tehran-slams-us-ahead-of-huge-funeral-for-ali-khamenei",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-07-03",
+      "summary": "Lebanon's Health Ministry says at least 4,298 people have been killed and 12,196 injured in Israeli attacks since March.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/07/AFP__20260702__B8ZU83Z__v1__HighRes__IranUsIsraelWarKhameneiFuneral-1783049324.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Trump administration indicts Olympic athlete for Reflecting Pool vandalism",
+      "url": "https://www.aljazeera.com/news/2026/7/2/trump-administration-indicts-olympic-athlete-for-reflecting-pool-vandalism",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-07-02",
+      "summary": "David Hearn could face up to 10 years in prison if convicted, but critics question the legitimacy of Trump's claims.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/07/IMG_7684-1783029427.jpeg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Will the end of TPS for Haitians mean a caregiving crisis in US?",
+      "url": "https://www.aljazeera.com/news/2026/7/2/will-the-end-of-tps-for-haitians-mean-a-caregiving-crisis-in-us",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-07-02",
+      "summary": "Immigrants with temporary protection more likely to work in healthcare, representing 15 percent of noncitizen workers.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/07/reuters_6a46f2c3-1783034563.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "WHO declares cruise-linked hantavirus outbreak officially over",
+      "url": "https://www.aljazeera.com/news/2026/7/2/who-declares-cruise-linked-hantavirus-outbreak-officially-over",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-07-02",
+      "summary": "WHO declares cruise-linked hantavirus outbreak over as final exposed person completes quarantine and tests negative.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/07/2026-05-22T074055Z_46338696_RC2FCLA1BJUP_RTRMADP_3_CRUISESHIP-HANTAVIRUS-AFRICA-1783020128.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Ex-HK bookseller Lam Wing-kee, detained by China in 2015, dies in Taiwan at 70",
+      "url": "https://www.npr.org/2026/07/03/g-s1-131904/ex-hk-bookseller-lam-wing-kee-detained-by-china-in-2015-dies-in-taiwan-at-70",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Fri, 03 Jul 2026 00:25:07 -0400",
+      "summary": "Lam was one of five people from Causeway Bay Books who disappeared in 2015. He later detailed his detention by Chinese authorities.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2950x2080+0+0/resize/2950x2080!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F70%2F39%2F98047dac4365ad21489a974e1a1e%2Fap26184072721946.jpg"
+    },
+    {
+      "title": "House Democrats accuse Trump of 'hijacking' America's 250th birthday for his own gain",
+      "url": "https://www.npr.org/2026/07/02/nx-s1-5879162/freedom-250-report-house-democrats-controversy",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Thu, 02 Jul 2026 17:47:30 -0400",
+      "summary": "A 55-page report from House Democrats accuses Freedom 250 of America's birthday celebrations for profit, using questionable fundraising methods. Watchdog groups had already sounded alarms.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5270x3727+0+0/resize/5270x3727!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F3f%2F99%2F2ae599ff432487ec26d408cf8548%2Fgettyimages-2283193817.jpg"
+    },
+    {
+      "title": "Christian missionaries have found a new (virtual) mission territory",
+      "url": "https://www.npr.org/2026/07/02/g-s1-131124/christian-missionaries-have-found-a-new-virtual-mission-territory",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Thu, 02 Jul 2026 16:06:53 -0400",
+      "summary": "The room may be virtual, but the prayer — and the evangelism — are not.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1067x1600+0+0/resize/1067x1600!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F47%2F15%2Fb7ba3e3745c4b813e2f834fceafe%2Fwebrns-vr-evangelists2.jpg"
+    },
+    {
+      "title": "Even fans who don't speak Spanish are watching the World Cup on Telemundo. Here's why",
+      "url": "https://www.npr.org/2026/07/02/nx-s1-5876380/telemundo-world-cup-fox",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Thu, 02 Jul 2026 15:59:34 -0400",
+      "summary": "They may not understand every word, but fans appreciate exuberant announcers who match their enthusiasm. Plus, cameras stay on the field during hydration breaks rather than cutting to commercials.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4764x3174+0+0/resize/4764x3174!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fd4%2Fd3%2F0d1614fe4dd1be99de76795d1ae4%2Fgettyimages-2281618614.jpg"
+    },
+    {
+      "title": "What to know about the Society of St. Pius X, the schismatic group excommunicated by the Pope",
+      "url": "https://www.npr.org/2026/07/02/g-s1-131791/what-to-know-about-the-society-of-st-pius-x-the-schismatic-group-excommunicated-by-the-pope",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Thu, 02 Jul 2026 14:26:43 -0400",
+      "summary": "The Society of St. Pius X was excommunicated by Pope Leo for ordaining bishops without his permission. Its issues with the church run far deeper.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1600x1066+0+0/resize/1600x1066!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fef%2F06%2Fc627560b44c99bd5e624eff4d1ae%2Fap.jpg"
+    },
+    {
+      "title": "Heat dome brings extreme weather to North America",
+      "url": "https://www.chinadaily.com.cn/a/202607/03/WS6a470fdba310986e2b4634c9.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-07-03",
+      "summary": "OTTAWA/NEW YORK — A destructive \"heat dome\" is bringing extreme heat to parts of North America, including large areas of Canada and the northeastern United States, while severe storms and torrential rain have caused flooding in Canada ahead of Canada Day and US Independence Day celebrations.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202607/03/6a470fdba310986e1018d5f7.png"
+    },
+    {
+      "title": "Russia, Ukraine trade strikes as peace efforts stall",
+      "url": "https://www.chinadaily.com.cn/a/202607/03/WS6a470fbda310986e2b4634c2.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-07-03",
+      "summary": "MOSCOW/KYIV — Russia and Ukraine continued aerial attacks on each other, officials from both sides said, as the fate of ending the conflict remained uncertain.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202607/03/6a470fbca310986e1018d5d1.png"
+    },
+    {
+      "title": "Japan-Philippines sea talks plan slammed",
+      "url": "https://www.chinadaily.com.cn/a/202607/02/WS6a46841ca310986e2b4633b6.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-07-02",
+      "summary": "A Chinese think tank has released a legal opinion condemning the decision of Japan and the Philippines to initiate maritime delimitation talks related to the waters east of China's Taiwan Island, saying that the move \"constitutes an internationally wrongful act\" because it bypasses China, which is a direct stakeholder.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202607/03/6a46f7bea310986e1018d2c8.png"
+    },
+    {
+      "title": "Google loses appeal over record fine",
+      "url": "https://www.chinadaily.com.cn/a/202607/03/WS6a471532a310986e2b463519.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-07-03",
+      "summary": "The European Union's top court dismissed an appeal on Thursday from the United States technology company Google against a 4.34-billion-euro ($4.95 billion) antitrust fine, setting up a likely protracted dispute between Brussels and Washington.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202607/03/6a471532a310986e1018d6f9.jpeg"
+    },
+    {
+      "title": "Legacy of Silk Road shapes cultural ties",
+      "url": "https://www.chinadaily.com.cn/a/202607/03/WS6a47154ea310986e2b46351f.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-07-03",
+      "summary": "China and Turkiye have mutually influenced each other's cultures over time, building a substantial heritage legacy and great potential for future cultural cooperation, a forum has heard.",
+      "thumbnailUrl": "https://www.chinadaily.com.cn/image_e/2020/logo21.jpg"
+    },
+    {
+      "title": "What are e-OCI cards | Explained",
+      "url": "https://www.thehindu.com/news/national/what-are-e-oci-cards-explained/article71177319.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-07-03T04:38:03.000Z",
+      "summary": "Discover the e-OCI card, a digital solution enhancing OCI services for Indian diaspora with streamlined application and access.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/nvdelb/article71177347.ece/alternates/LANDSCAPE_1200/TH30-Vijaita-HMGSKG6F35C.3.jpg.jpg"
+    },
+    {
+      "title": "Urdu is an Indian language, says Murli Manohar Joshi",
+      "url": "https://www.thehindu.com/news/national/urdu-is-an-indian-language-says-murli-manohar-joshi/article71177152.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-07-03T02:22:24.000Z",
+      "summary": "Murli Manohar Joshi asserts Urdu is an Indian language, praising efforts to promote its use among Indian Muslims.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/8r0tt0/article71177168.ece/alternates/LANDSCAPE_1200/PTI11_26_2025_000350B.jpg"
+    },
+    {
+      "title": "Indian Railways registers growth in freight, passenger services",
+      "url": "https://www.thehindu.com/news/national/indian-railways-registers-growth-in-freight-passenger-services/article71175198.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-07-02T17:47:56.000Z",
+      "summary": "Indian Railways reports 4% freight growth and increased passenger services, generating ₹430 crore in additional revenue for June 2026.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/mdcep2/article71175752.ece/alternates/LANDSCAPE_1200/90092_31_1_2026_17_15_13_2_RAILWAYS_02.JPG"
+    },
+    {
+      "title": "PM Modi to make first official visit to New Zealand next week",
+      "url": "https://www.thehindu.com/news/national/pm-modi-to-make-first-official-visit-to-new-zealand-next-week/article71177081.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-07-03T00:58:53.000Z",
+      "summary": "PM Modi's historic first visit to New Zealand next week follows a significant free trade agreement aimed at boosting bilateral relations.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/92rm1i/article71177082.ece/alternates/LANDSCAPE_1200/India_New_Zealand_FTA_38467.jpg"
+    },
+    {
+      "title": "Fleet shortage forces SpiceJet withdrawal from Chennai | Explained",
+      "url": "https://www.thehindu.com/news/national/fleet-shortage-forces-spicejet-withdrawal-from-chennai-explained/article71177395.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-07-03T05:40:28.000Z",
+      "summary": "SpiceJet suspends Chennai flights due to a fleet shortage, impacting services and raising concerns over operational reliability and financial strain.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/ty1y72/article71177483.ece/alternates/LANDSCAPE_1200/2025-09-16T051442Z_1513243357_RC2SSGAWSXF0_RTRMADP_3_SPICEJET-FLEET-BOEING.JPG"
+    },
+    {
+      "title": "Tibetan man dies after setting himself on fire near UN headquarters, activists say",
+      "url": "https://www.reuters.com/world/china/tibetan-man-dies-after-setting-himself-fire-near-un-headquarters-activists-say-2026-07-03/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Fri, 03 Jul 2026 02:58:00 GMT",
+      "summary": "Reuters: Tibetan man dies after setting himself on fire near UN headquarters, activists say.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/ABSVZOQRW5KJ3O4444W66VFPWE.jpg?auth=587e9f281f81d5955c0ca0a2d631f65895869f89f71825643c40c48fdd535ee0&width=1080&quality=80"
+    },
+    {
+      "title": "Gold heads for first weekly rise in five on easing Fed rate-hike bets",
+      "url": "https://www.reuters.com/world/india/gold-heads-first-weekly-rise-five-easing-fed-rate-hike-bets-2026-07-03/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Fri, 03 Jul 2026 01:17:00 GMT",
+      "summary": "Reuters: Gold heads for first weekly rise in five on easing Fed rate-hike bets.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/MCUCS72PQNII7CSQBWJW5W27HU.jpg?auth=e3b258210d70d9f0407849c06993f73017caa50f2f8b002f4bc7569fc7988f95&width=1920&quality=80"
+    },
+    {
+      "title": "EXCLUSIVE: Inside Taiwan's nightmare scenario: Chinese blockade, earthquake, sabotage and invasion",
+      "url": "https://www.reuters.com/world/china/inside-taiwans-nightmare-scenario-chinese-blockade-earthquake-sabotage-invasion-2026-07-03/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Fri, 03 Jul 2026 03:05:00 GMT",
+      "summary": "Reuters: EXCLUSIVE: Inside Taiwan's nightmare scenario: Chinese blockade, earthquake, sabotage and invasion.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/GHOXNFZKERJNZDLW6OIHZHAPNY.jpg?auth=42341be96cdb95ff4c678f4b9ad92ab5ad1949827250262ef11112870aa634aa&width=1080&quality=80"
+    },
+    {
+      "title": "US says it supports Pakistan's right to defend itself against 'terrorist attacks'",
+      "url": "https://www.reuters.com/world/asia-pacific/us-says-it-supports-pakistans-right-defend-itself-against-terrorist-attacks-2026-07-02/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Thu, 02 Jul 2026 21:49:25 GMT",
+      "summary": "Reuters: US says it supports Pakistan's right to defend itself against 'terrorist attacks'.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/YIVRZP6CHBPRPAFWPFPC4ZXOBU.jpg?auth=0bed317ad8e751cae4a8bad39d45945d820e9be973988a5f39723a3cd612af5d&width=1920&quality=80"
+    },
+    {
+      "title": "Asian markets find footing as US jobs data, PMIs lift stocks",
+      "url": "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-07-03/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Fri, 03 Jul 2026 01:08:00 GMT",
+      "summary": "Reuters: Asian markets find footing as US jobs data, PMIs lift stocks.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/HUVK42AVJJJMLFE3C2C2H74D3E.jpg?auth=d53a172376b0230230b36fd537c4f16c6c420ad075e7ab8372875daee339eca2&width=1920&quality=80"
+    }
+  ],
+  "markets": [
+    {
+      "id": "sp-500",
+      "label": "S&P 500",
+      "region": "US",
+      "symbol": "^GSPC",
+      "value": 7483.24,
+      "previousClose": 7483.229746094,
+      "change": 0.010253906,
+      "percentChange": 0.00013702514,
+      "direction": "up",
+      "sessionDate": "2026-07-03"
+    },
+    {
+      "id": "nasdaq-composite",
+      "label": "NASDAQ Composite",
+      "region": "US",
+      "symbol": "^IXIC",
+      "value": 25832.672,
+      "previousClose": 26040.03138,
+      "change": -207.35938,
+      "percentChange": -0.79631,
+      "direction": "down",
+      "sessionDate": "2026-07-03"
+    },
+    {
+      "id": "euronext-100",
+      "label": "Euronext 100 Index",
+      "region": "Europe",
+      "symbol": "^N100",
+      "value": 1921.09,
+      "previousClose": 1906.2700539999998,
+      "change": 14.819946,
+      "percentChange": 0.77743167,
+      "direction": "up",
+      "sessionDate": "2026-07-03"
+    },
+    {
+      "id": "moex",
+      "label": "Public Joint-Stock Company Moscow Exchange MICEX-RTS",
+      "region": "Europe",
+      "symbol": "MOEX.ME",
+      "value": 85.2,
+      "previousClose": 85.31000061,
+      "change": -0.11000061,
+      "percentChange": -0.12894222,
+      "direction": "down",
+      "sessionDate": "2026-07-03"
+    },
+    {
+      "id": "hang-seng",
+      "label": "HANG SENG INDEX",
+      "region": "Asia",
+      "symbol": "^HSI",
+      "value": 23298.31,
+      "previousClose": 23055.02875,
+      "change": 243.28125,
+      "percentChange": 1.0552199,
+      "direction": "up",
+      "sessionDate": "2026-07-03"
+    },
+    {
+      "id": "nikkei-225",
+      "label": "Nikkei 225",
+      "region": "Asia",
+      "symbol": "^N225",
+      "value": 69580.1,
+      "previousClose": 68733.1469,
+      "change": 846.9531,
+      "percentChange": 1.2323229,
+      "direction": "up",
+      "sessionDate": "2026-07-03"
+    },
+    {
+      "id": "sensex",
+      "label": "S&P BSE SENSEX",
+      "region": "India",
+      "symbol": "^BSESN",
+      "value": 78046.61,
+      "previousClose": 77502.1178,
+      "change": 544.4922,
+      "percentChange": 0.70258695,
+      "direction": "up",
+      "sessionDate": "2026-07-03"
+    }
+  ],
+  "hackerNews": [
+    {
+      "title": "The Free Market Lie: Why Switzerland Has 25 Gbit Internet and America Doesn't",
+      "url": "https://stefan.schueller.net/posts/the-free-market-lie/",
+      "publishedAt": "2026-07-03T04:16:17.000Z",
+      "summary": "The Free Market Lie: Why Switzerland Has 25 Gbit Internet and America Doesn",
+      "thumbnailUrl": "https://stefan.schueller.net/posts/the-free-market-lie/title-image.png"
+    },
+    {
+      "title": "Virginia bans sale of geolocation data",
+      "url": "https://www.hunton.com/privacy-and-cybersecurity-law-blog/virginia-bans-sale-of-geolocation-data",
+      "publishedAt": "2026-07-02T21:03:45.000Z",
+      "summary": "On April 13, 2026, Virginia Governor Abigail Spanberger signed into law S.B. 388 , which amends the Virginia Consumer Data Protection Act (&ldquo;VCDPA&rdquo;) to prohibit the sale of geolocation data. Notably, the VCDPA defines &ldquo;sale&rdquo; more narrowly than other state comprehensive privacy laws, as &ldquo;the exchange of personal data for monetary consideration by the controller to a third party.&rdquo;",
+      "thumbnailUrl": "https://www.hunton.com/privacy-and-cybersecurity-law-blog/assets/images-t1783027116/206510.png"
+    },
+    {
+      "title": "CarPlay Is Additive",
+      "url": "https://www.caseyliss.com/2026/7/2/carplay-is-additive-you-dolts",
+      "publishedAt": "2026-07-03T01:02:45.000Z",
+      "summary": "I don",
+      "thumbnailUrl": "https://www.caseyliss.com/images/2026/no.gif"
+    },
+    {
+      "title": "Is the iPhone birth control? Causal evidence from AT&T's 2007-2011 monopoly [pdf]",
+      "url": "https://www.nber.org/system/files/working_papers/w35310/w35310.pdf",
+      "publishedAt": "2026-07-02T12:02:47.000Z",
+      "summary": "nber.org: Is the iPhone birth control? Causal evidence from AT&T's 2007-2011 monopoly [pdf].",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "Right to Local Intelligence",
+      "url": "https://righttointelligence.org/",
+      "publishedAt": "2026-07-02T23:54:03.000Z",
+      "summary": "righttointelligence.org: Right to Local Intelligence."
+    },
+    {
+      "title": "crustc: entirety of `rustc`, translated to C",
+      "url": "https://github.com/FractalFir/crustc",
+      "publishedAt": "2026-07-02T22:57:35.000Z",
+      "summary": "Entirety of `rustc`, translated to C. . Contribute to FractalFir/crustc development by creating an account on GitHub.",
+      "thumbnailUrl": "https://opengraph.githubassets.com/8f70b276a5531be0e1df97a54239472a48fbd8581972b2dd7e1afc8d950ef9e8/FractalFir/crustc"
+    },
+    {
+      "title": "Since Linux 6.9, LUKS suspend stopped wiping disk-encryption keys from memory",
+      "url": "https://mathstodon.xyz/@iblech/116769502749142438",
+      "publishedAt": "2026-07-02T15:25:16.000Z",
+      "summary": "So. For the past few days I've been deep in a fun and very rewarding, but also extremely scary debugging saga. To cut a long git-bisecting story short: Since Linux 6.9 (May 2024), the tool that locks the laptop's drive on suspend had been silently failing. Like many of my friends, I use full-disk encryption (LUKS) to protect my data if my laptop is lost, seized or stolen. Highly recommended to everyone; in combination with tested and automated backups, it contributes greatly to peace of mind. (Under Windows, the canonical software to do that is VeraCrypt.) Except that, for more than two years, the encryption key remained resident in memory across suspend, leaving it there for the taking by anyone who seized the still-powered laptop. (It still worked on a full shutdown, but a full shutdown is rare these days.) There is something uniquely unsettling about trusting a security mechanism for years and learning it was never doing the thing. \"A technical argument by a trusted author, which is hard to check and looks similar to arguments known to be correct, is hardly ever checked in detail.\" The same, it seems, is true for computer code. The culprit was a sensible and useful refactoring, https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=a28d893eb3270cf62c10dd8777af0d8452cdc072. But it had an unexpected long-range interaction with the encryption code. The fix is exactly one line long: https://lore.kernel.org/all/ajKwRtP8izwRsMmv@quasitopos/ And no, without formal proofs I cannot say whether my patch is correct and free of its own long-range interactions... At the very least, we now have an automated test to detect future regressions (https://github.com/NixOS/nixpkgs/pull/532499) and a patch to emit a warning instead of failing silently (https://gitlab.com/cryptsetup/cryptsetup/-/merge_requests/936).",
+      "thumbnailUrl": "https://mathstodon.xyz/packs/assets/logo-DXQkHAe5.svg"
+    },
+    {
+      "title": "Exapunks (2018)",
+      "url": "https://www.zachtronics.com/exapunks/",
+      "publishedAt": "2026-07-02T18:41:19.000Z",
+      "summary": "The year is 1997. You used to be a hacker, but now you have the phage. You made a deal: one hack, one dose. There’s nothing left to lose… except your life.",
+      "thumbnailUrl": "https://www.zachtronics.com/img/logo-white.png"
+    },
+    {
+      "title": "14× faster embeddings: how we rebuilt the ONNX path in Manticore",
+      "url": "https://manticoresearch.com/blog/onnx-embeddings-speedup/",
+      "publishedAt": "2026-07-03T03:49:47.000Z",
+      "summary": "Released in Manticore Search 27.1.5, the new ONNX Runtime backend makes auto-embeddings ~14× faster on average than the previous SentenceTransformers/Candle path on the same hardware, same model, same weights — and the margin holds whether you run 1 client thread or 32.",
+      "thumbnailUrl": "https://manticoresearch.com/images/blog/onnx-embeddings-speedup.png"
+    },
+    {
+      "title": "PeerTube is a free, decentralized and federated video platform",
+      "url": "https://github.com/Chocobozzz/PeerTube",
+      "publishedAt": "2026-07-02T11:17:45.000Z",
+      "summary": "ActivityPub-federated video streaming platform using P2P directly in your web browser - Chocobozzz/PeerTube",
+      "thumbnailUrl": "https://opengraph.githubassets.com/a8a6c18fe4a21703f65d5d70928592b488654ad8baaabfb2967cfe67923709aa/Chocobozzz/PeerTube"
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "Needle",
+      "tagline": "The proactive GTM agent in Slack and Teams",
+      "url": "https://www.producthunt.com/products/needle-3",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-07-02T22:54:28-07:00"
+    },
+    {
+      "name": "Gaming Chat SDK by CometChat",
+      "tagline": "Chat drops into Unreal like it was always there",
+      "url": "https://www.producthunt.com/products/cometchat",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-07-02T22:22:28-07:00"
+    },
+    {
+      "name": "Basedash Actions",
+      "tagline": "A BI tool that can take action for you",
+      "url": "https://www.producthunt.com/products/basedash",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-07-02T22:21:37-07:00"
+    },
+    {
+      "name": "Banger Mail",
+      "tagline": "Shared mailboxes for teams and AI agents",
+      "url": "https://www.producthunt.com/products/banger-mail",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-07-02T22:22:27-07:00"
+    },
+    {
+      "name": "Quick Sub 2: Video Subtitling",
+      "tagline": "Quick, creative video subtitling with direct canvas control.",
+      "url": "https://www.producthunt.com/products/quick-sub-2-video-subtitling",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-07-02T22:21:49-07:00"
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "News and markets",
+      "sentences": [
+        "Global headlines: Vatican excommunicates bishops of breakaway traditionalist sect (The sect, the Society of St. Pius X, defied a direct plea from Pope Leo XIV and sought to consecrate four bishops without the Vatican's approval); Russia rocks Ukrainian capital with massive assault, killing at least 25 (Dozens were injured overnight in Kyiv during an attack that caused fires and explosions throughout the city); and Trump-backed truce in Lebanon, key to Iran peace deal, risks new civil war (To reach a more durable peace agreement with Iran and open the Strait of Hormuz, Trump needs Israel to uphold the terms of a deal with Lebanon that Hezbollah says it will block by \"any means necessary.\").",
+        "Markets leaned higher, with 5 of 7 tracked indexes up; Nikkei 225 up 1.23% was the largest move.",
+        "Benchmarks tracked: S&P 500, NASDAQ Composite, Euronext 100 Index, and Public Joint-Stock Company Moscow Exchange MICEX-RTS plus 3 more indexes."
+      ]
+    },
+    {
+      "title": "Hacker News and Product Hunt",
+      "sentences": [
+        "Hacker News: The Free Market Lie: Why Switzerland Has 25 Gbit Internet and America Doesn't (The Free Market Lie: Why Switzerland Has 25 Gbit Internet and America Doesn); Virginia bans sale of geolocation data (On April 13, 2026, Virginia Governor Abigail Spanberger signed into law S.B. 388 , which amends the Virginia Consumer Data Protection Act...); and CarPlay Is Additive (I don).",
+        "Product Hunt features Needle (The proactive GTM agent in Slack and Teams), Gaming Chat SDK by CometChat (Chat drops into Unreal like it was always there), and Basedash Actions (A BI tool that can take action for you)."
+      ]
+    }
+  ],
+  "sourceNotes": {
+    "generatedAt": "2026-07-03T05:55:04.920Z",
+    "timeZone": "Asia/Kolkata",
+    "successfulSources": [
+      "Washington Post",
+      "Al Jazeera",
+      "NPR",
+      "China Daily",
+      "The Hindu",
+      "Reuters"
+    ],
+    "marketSessionLabel": "Latest market sessions as of 2026-07-03",
+    "warnings": []
+  }
+}
