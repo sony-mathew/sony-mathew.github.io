@@ -1,0 +1,505 @@
+{
+  "headlines": [
+    {
+      "title": "Putin visits military installation, vowing to take more of Ukraine",
+      "url": "https://www.washingtonpost.com/world/2026/07/04/putin-visits-military-installation-vowing-take-more-ukraine/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Sat, 04 Jul 2026 20:31:33 +0000",
+      "summary": "The Russian president donned military fatigues as he tried to counter a narrative that Moscow is stumbling in its war after Ukrainian drone strikes set off an acute fuel shortage.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "In Tehran, huge throngs mourn assassinated supreme leader Ali Khamenei",
+      "url": "https://www.washingtonpost.com/world/2026/07/04/tehran-huge-throngs-mourn-assassinated-supreme-leader-ali-khamenei/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Sat, 04 Jul 2026 20:28:38 +0000",
+      "summary": "Ayatollah Ali Khamenei, who ruled over the Islamic Republic of Iran for 37 years, was killed along with several family members in an airstrike in February.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "On July Fourth, Pope Leo urges U.S. to welcome, protect and assist immigrants",
+      "url": "https://www.washingtonpost.com/world/2026/07/04/lampedusa-island-gateway-europe-pope-leo-calls-protecting-migrants/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Sat, 04 Jul 2026 12:28:18 +0000",
+      "summary": "In Lampedusa, island gateway to Europe, the U.S.-born pope stressed human dignity and told America: \"in every generation\" immigrants \"helped to shape the nation’s character.”",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "Iran’s leader was killed in February. The country will finally bury him.",
+      "url": "https://www.washingtonpost.com/world/2026/07/03/iran-begins-funeral-rites-ali-khamenei-supreme-leader-killed-war/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Sat, 04 Jul 2026 10:40:01 +0000",
+      "summary": "For the surviving Iranian regime, the funeral offers an opportunity to project power after withstanding months of war with Israel and the United States.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "In a hit low-budget film, Beijing sees a way to court Chinese communities abroad",
+      "url": "https://www.washingtonpost.com/world/2026/07/04/low-budget-box-office-hit-dear-you-beijing-sees-chance-court-diaspora/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Sat, 04 Jul 2026 09:00:00 +0000",
+      "summary": "“Dear You,” a Teochew-language family drama and migration story, has raised fraught questions of identity among some Chinese communities abroad.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "A name, a document, a future: Cameroon’s fight to register every child",
+      "url": "https://www.aljazeera.com/news/2026/7/5/a-name-a-document-a-future-cameroons-fight-to-register-every-child",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-07-05",
+      "summary": "Efforts to expand birth registration in Cameroon are gaining ground, but millions of children remain undocumented.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/06/s1-1782791881.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Severe weather disrupts US’s 250th celebrations",
+      "url": "https://www.aljazeera.com/news/2026/7/5/severe-weather-disrupts-uss-250th-celebrations",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-07-05",
+      "summary": "President Trump describes milestone as 'one of the most joyous and glorious' in US's history in campaign style speech.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/07/2026-07-05T033703Z_1250256765_RC2F7MACB88S_RTRMADP_3_USA-250-TRUMP-1783226612.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "This immigrant served in the US military. Now he faces deportation",
+      "url": "https://www.aljazeera.com/news/longform/2026/7/5/this-immigrant-served-in-the-us-military-now-he-faces-deportation",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-07-05",
+      "summary": "Benito Miranda Hernandez completed three tours during the Iraq war but now faces removal from the US to Mexico.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/07/IMG_5365-1783201841.jpeg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Huge crowds mourn Iran’s Khamenei; Trump hints at Netanyahu meeting",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/7/5/iran-war-live-huge-crowds-mourn-khamenei-trump-vows-calm-during-funeral",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-07-05",
+      "summary": "Iran's late Supreme Leader Ali Khamenei and members of his family were killed in a US-Israeli air strike in February.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/07/2026-07-04T111953Z_235225091_RC2V6MACKBEJ_RTRMADP_3_IRAN-CRISIS-KHAMENEI-1783207596.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "White nationalists march in Washington, DC, area during July 4 festivities",
+      "url": "https://www.aljazeera.com/news/2026/7/4/white-nationalists-march-in-washington-dc-area-during-july-4-festivities",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-07-04",
+      "summary": "Donald Trump has faced condemnation for failing to forcefully reject white nationalists during his presidency.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/07/reuters_6a498796-1783203734.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "In Mount Rushmore speech, Trump veers from U.S. exceptionalism to warnings about communism",
+      "url": "https://www.npr.org/2026/07/04/g-s1-132025/mount-rushmore-speech-trump-july-4-250",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Sat, 04 Jul 2026 16:34:31 -0400",
+      "summary": "President Trump ushered in America's 250th anniversary with a darkly political speech that swerved from the typically apolitical, unifying speeches past presidents have given to mark Independence Day.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2486x1657+0+0/resize/2486x1657!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Ff3%2F90%2F0baf7c8a465bbcc388c29e610514%2Fap26185149816821.jpg"
+    },
+    {
+      "title": "Trump addresses nation and fireworks light up National Mall after storm delay",
+      "url": "https://www.npr.org/2026/07/04/nx-s1-5882179/washingtons-july-4-heat-cancellations",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Sat, 04 Jul 2026 12:42:10 -0400",
+      "summary": "President Trump lauded America's storied history on Saturday night in a speech marking the 250th anniversary of its independence, while also praising his war in Iran, railing against \"communists,\" and vowing to restrict mail-in ballots.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6000x4000+0+0/resize/6000x4000!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F09%2Fe9%2Fae6629044d428a43dd36d37b230f%2Fap26186187574220.jpg"
+    },
+    {
+      "title": "Move over Chutes & Ladders: Schisto & Ladders has educational value plus worms",
+      "url": "https://www.npr.org/2026/07/04/g-s1-129679/chutes-ladders-schistosomiasis-worms-parasites",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Sat, 04 Jul 2026 11:51:49 -0400",
+      "summary": "Spread by parasitic worms that can infect via a splash of water, schistosomiasis causes debilitating symptoms. It hits kids hard. A board game teaches how to prevent it.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5967x4427+0+0/resize/5967x4427!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F17%2F49%2Fd501f3194fb9b970ec78c21e185a%2Fcopy-of-pk207224.jpg"
+    },
+    {
+      "title": "China's military promotes 2 new generals after anti-corruption purge thins ranks",
+      "url": "https://www.npr.org/2026/07/04/g-s1-131994/chinas-military-promotes-2-new-generals-after-anti-corruption-purge-thins-ranks",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Sat, 04 Jul 2026 10:07:57 -0400",
+      "summary": "The shake-up is believed to be an effort to ensure the military's loyalty to the Communist Party and its leader, Xi Jinping.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2758x1839+0+0/resize/2758x1839!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fea%2F84%2F7a75c5644f05b74db195174a5a8e%2Fap26185196475496.jpg"
+    },
+    {
+      "title": "Opinion: America is still a work in progress",
+      "url": "https://www.npr.org/2026/07/04/nx-s1-5871128/opinion-america-is-still-a-work-in-progress",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Sat, 04 Jul 2026 08:00:00 -0400",
+      "summary": "Poets like Walt Whitman and Langston Hughes have written movingly about America.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4000x2667+0+0/resize/4000x2667!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F16%2F6d%2Fb7e279764a8bbb257741a205883f%2Fap101128127467.jpg"
+    },
+    {
+      "title": "Heat dome brings extreme weather to North America",
+      "url": "https://www.chinadaily.com.cn/a/202607/03/WS6a470fdba310986e2b4634c9.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-07-03",
+      "summary": "OTTAWA/NEW YORK — A destructive \"heat dome\" is bringing extreme heat to parts of North America, including large areas of Canada and the northeastern United States, while severe storms and torrential rain have caused flooding in Canada ahead of Canada Day and US Independence Day celebrations.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202607/03/6a470fdba310986e1018d5f7.png"
+    },
+    {
+      "title": "Russia, Ukraine trade strikes as peace efforts stall",
+      "url": "https://www.chinadaily.com.cn/a/202607/03/WS6a470fbda310986e2b4634c2.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-07-03",
+      "summary": "MOSCOW/KYIV — Russia and Ukraine continued aerial attacks on each other, officials from both sides said, as the fate of ending the conflict remained uncertain.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202607/03/6a470fbca310986e1018d5d1.png"
+    },
+    {
+      "title": "Japan-Philippines sea talks plan slammed",
+      "url": "https://www.chinadaily.com.cn/a/202607/02/WS6a46841ca310986e2b4633b6.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-07-02",
+      "summary": "A Chinese think tank has released a legal opinion condemning the decision of Japan and the Philippines to initiate maritime delimitation talks related to the waters east of China's Taiwan Island, saying that the move \"constitutes an internationally wrongful act\" because it bypasses China, which is a direct stakeholder.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202607/03/6a46f7bea310986e1018d2c8.png"
+    },
+    {
+      "title": "Google loses appeal over record fine",
+      "url": "https://www.chinadaily.com.cn/a/202607/03/WS6a471532a310986e2b463519.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-07-03",
+      "summary": "The European Union's top court dismissed an appeal on Thursday from the United States technology company Google against a 4.34-billion-euro ($4.95 billion) antitrust fine, setting up a likely protracted dispute between Brussels and Washington.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202607/03/6a471532a310986e1018d6f9.jpeg"
+    },
+    {
+      "title": "Legacy of Silk Road shapes cultural ties",
+      "url": "https://www.chinadaily.com.cn/a/202607/03/WS6a47154ea310986e2b46351f.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-07-03",
+      "summary": "China and Turkiye have mutually influenced each other's cultures over time, building a substantial heritage legacy and great potential for future cultural cooperation, a forum has heard.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202607/03/6a475ce4a310986e1018e11e.jpeg"
+    },
+    {
+      "title": "Eknath Shinde admitted to hospital, condition stable",
+      "url": "https://www.thehindu.com/news/national/maharashtra/eknath-shinde-admitted-to-hospital-condition-stable/article71183490.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-07-05T02:42:30.000Z",
+      "summary": "Maharashtra Deputy Chief Minister Eknath Shinde is hospitalized due to viral fever and exhaustion, but his condition is stable.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/xxuz6g/article71185038.ece/alternates/LANDSCAPE_1200/PTI08_30_2024_000115B.jpg"
+    },
+    {
+      "title": "Search for two LeT terrorists enters second day in J&K's Shopian",
+      "url": "https://www.thehindu.com/news/national/search-for-let-in-jammu-kashmir-shopian-july-5-2026/article71185030.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-07-05T02:29:44.000Z",
+      "summary": "The anti-terror operation in J&K's Shopian enters day two. Security forces hunt for cornered Lashkar-e-Taiba terrorists Zakir Ganie and Latif Bhat.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/i6xu4p/article71185033.ece/alternates/LANDSCAPE_1200/IMG_6751_18_10_2022_16_3_2_1_UPCS51Q7.jpg"
+    },
+    {
+      "title": "Monsoon tracker July 5 LIVE: Mumbai wakes up to brief respite after heavy rain; IMD issues red alert for more showers",
+      "url": "https://www.thehindu.com/news/national/india-weather-today-live-updates-monsoon-rain-mumbai-maharashtra-imd-rain-alert-july-5-2026/article71185046.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-07-05T03:33:55.000Z",
+      "summary": "Weather today LIVE: Get updates on Mumbai rain, traffic, train services, and IMD weather forecasts as heavy showers continue unabated across the city.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/pvqehq/article71185053.ece/alternates/LANDSCAPE_1200/PTI07_04_2026_000422A.jpg"
+    },
+    {
+      "title": "Two killed as two-storey building collapses in Chandigarh industrial area",
+      "url": "https://www.thehindu.com/news/national/chandigarh/chandigarh-building-collapse-death-toll-july-5-2026/article71185063.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-07-05T03:21:55.000Z",
+      "summary": "Two people died in a building collapse in Chandigarh's industrial area, prompting a major rescue operation by emergency services.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/vo5scm/article71185064.ece/alternates/LANDSCAPE_1200/PTI07_04_2026_000606B.jpg"
+    },
+    {
+      "title": "Another batch of pilgrims on way to Amarnath shrine",
+      "url": "https://www.thehindu.com/news/national/jammu-and-kashmir/another-batch-of-pilgrims-on-way-to-amarnath-shrine/article71185095.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-07-05T03:51:48.000Z",
+      "summary": "Over 6,700 pilgrims, including women and children, embark on the Amarnath Yatra from Jammu under tight security.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/hlzugm/article71185100.ece/alternates/LANDSCAPE_1200/PTI07_05_2026_000025B.jpg"
+    },
+    {
+      "title": "Trump offers to help Putin find deal with Ukraine, also speaks with Zelenskiy",
+      "url": "https://www.reuters.com/world/europe/trump-offered-over-phone-help-putin-find-deal-with-ukraine-kremlin-aide-says-2026-07-04/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Sat, 04 Jul 2026 23:49:59 GMT",
+      "summary": "Reuters: Trump offers to help Putin find deal with Ukraine, also speaks with Zelenskiy.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/LVOXG75VTVMNLMRQYEVV4BT37M.jpg?auth=20382bd93c7a88ca9b86f792ebe804048c0dd9a85f828b864a135b8eb0b27646&width=1920&quality=80"
+    },
+    {
+      "title": "Masked Patriot Front white nationalists stage July 4 march through DC",
+      "url": "https://www.reuters.com/world/us/masked-patriot-front-white-nationalists-stage-july-4-march-through-dc-2026-07-04/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Sat, 04 Jul 2026 22:16:25 GMT",
+      "summary": "Reuters: Masked Patriot Front white nationalists stage July 4 march through DC.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/YPHWI5RROJNGLEHXBOQQ32FGBU.jpg?auth=3732ba890349f17cf5dff06fe4c28b46e862ae5f4b471058193de12976382112&height=1005&width=1920&quality=80&smart=true"
+    },
+    {
+      "title": "As Venezuela death toll rises, survivor recounts days beneath the rubble",
+      "url": "https://www.reuters.com/world/americas/death-toll-venezuela-quakes-rises-2954-2026-07-04/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Sat, 04 Jul 2026 23:37:43 GMT",
+      "summary": "Reuters: As Venezuela death toll rises, survivor recounts days beneath the rubble.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/J7I6WKQQVZLOFC2C7LJRUXZZGY.jpg?auth=52ecebde164491eb7eeeca53c5c108da186e2271715273260649c1ebf1564f54&width=1080&quality=80"
+    },
+    {
+      "title": "Israel hasn't said who its soldiers abused. Two Gaza mothers think it's their son",
+      "url": "https://www.reuters.com/world/middle-east/israel-hasnt-said-who-its-soldiers-abused-two-gaza-mothers-think-its-their-son-2026-07-04/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Sat, 04 Jul 2026 15:38:02 GMT",
+      "summary": "Reuters: Israel hasn't said who its soldiers abused. Two Gaza mothers think it's their son.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/PD3BCLQZHBOYDE4APMROTJS4OQ.jpg?auth=95b7c9995f7cb48f6e0caf05e716284f6c3a386243b94f6677fe20a7bc537618&width=1080&quality=80"
+    },
+    {
+      "title": "Prince Harry's wife Meghan and their children will not join him in London next week",
+      "url": "https://www.reuters.com/world/uk/prince-harrys-wife-meghan-their-children-will-not-join-him-london-next-week-2026-07-04/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Sat, 04 Jul 2026 12:57:45 GMT",
+      "summary": "Reuters: Prince Harry's wife Meghan and their children will not join him in London next week.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/RHJBQDV6MNKLVDLQV3RKSLE6NI.jpg?auth=7e5d46ce923aff6baead03fc5c563a661e200cb40a49ef3b4e430de5dfab2a68&width=1920&quality=80"
+    }
+  ],
+  "markets": [
+    {
+      "id": "sp-500",
+      "label": "S&P 500",
+      "region": "US",
+      "symbol": "^GSPC",
+      "value": 7483.24,
+      "previousClose": 7483.229746094,
+      "change": 0.010253906,
+      "percentChange": 0.00013702514,
+      "direction": "up",
+      "sessionDate": "2026-07-05"
+    },
+    {
+      "id": "nasdaq-composite",
+      "label": "NASDAQ Composite",
+      "region": "US",
+      "symbol": "^IXIC",
+      "value": 25832.672,
+      "previousClose": 26040.03138,
+      "change": -207.35938,
+      "percentChange": -0.79631,
+      "direction": "down",
+      "sessionDate": "2026-07-05"
+    },
+    {
+      "id": "euronext-100",
+      "label": "Euronext 100 Index",
+      "region": "Europe",
+      "symbol": "^N100",
+      "value": 1938.5,
+      "previousClose": 1921.089966,
+      "change": 17.410034,
+      "percentChange": 0.90625817,
+      "direction": "up",
+      "sessionDate": "2026-07-05"
+    },
+    {
+      "id": "moex",
+      "label": "Public Joint-Stock Company Moscow Exchange MICEX-RTS",
+      "region": "Europe",
+      "symbol": "MOEX.ME",
+      "value": 85.2,
+      "previousClose": 85.31000061,
+      "change": -0.11000061,
+      "percentChange": -0.12894222,
+      "direction": "down",
+      "sessionDate": "2026-07-05"
+    },
+    {
+      "id": "hang-seng",
+      "label": "HANG SENG INDEX",
+      "region": "Asia",
+      "symbol": "^HSI",
+      "value": 23350.03,
+      "previousClose": 23055.03,
+      "change": 295,
+      "percentChange": 1.2795473,
+      "direction": "up",
+      "sessionDate": "2026-07-05"
+    },
+    {
+      "id": "nikkei-225",
+      "label": "Nikkei 225",
+      "region": "Asia",
+      "symbol": "^N225",
+      "value": 69744.07,
+      "previousClose": 68733.1481,
+      "change": 1010.9219,
+      "percentChange": 1.4707923,
+      "direction": "up",
+      "sessionDate": "2026-07-05"
+    },
+    {
+      "id": "sensex",
+      "label": "S&P BSE SENSEX",
+      "region": "India",
+      "symbol": "^BSESN",
+      "value": 77763.91,
+      "previousClose": 77502.12094000001,
+      "change": 261.78906,
+      "percentChange": 0.3377831,
+      "direction": "up",
+      "sessionDate": "2026-07-05"
+    }
+  ],
+  "hackerNews": [
+    {
+      "title": "Shadcn/UI now defaults to Base UI instead of Radix",
+      "url": "https://ui.shadcn.com/docs/changelog",
+      "publishedAt": "2026-07-05T04:46:08.000Z",
+      "summary": "Latest updates and announcements.",
+      "thumbnailUrl": "https://ui.shadcn.com/og?title=Changelog&description=Latest%20updates%20and%20announcements."
+    },
+    {
+      "title": "Command and Conquer Generals natively ported to macOS, iPhone, iPad using Fable",
+      "url": "https://github.com/ammaarreshi/Generals-Mac-iOS-iPad/tree/main",
+      "publishedAt": "2026-07-04T19:41:10.000Z",
+      "summary": "Command & Conquer Generals: Zero Hour running natively on macOS, iPhone & iPad — real engine (EA GPL v3 source, via GeneralsX), DXVK/MoltenVK renderer, RTS touch controls. No game assets in...",
+      "thumbnailUrl": "https://opengraph.githubassets.com/2cbf275124a922196baeac632de55dd86884739c2e255e1a3588e98a0ac816d7/ammaarreshi/Generals-Mac-iOS-iPad"
+    },
+    {
+      "title": "If you're a button, you have one job",
+      "url": "https://unsung.aresluna.org/if-youre-a-button-you-have-one-job/",
+      "publishedAt": "2026-07-05T02:01:03.000Z",
+      "summary": "A blog about software craft and quality",
+      "thumbnailUrl": "https://unsung.aresluna.org/_media/if-youre-a-button-you-have-one-job/ogimage.png"
+    },
+    {
+      "title": "Mouse: Precision Editing Tools for AI Coding Agents",
+      "url": "https://hic-ai.com",
+      "publishedAt": "2026-07-05T05:01:14.000Z",
+      "summary": "HIC Mouse gives AI coding agents precision file editing tools — 56% higher accuracy, 58% lower cost, and 3.6× faster than built-in tools.",
+      "thumbnailUrl": "https://hic-ai.com/opengraph-image?0965d50c6d8fc51d"
+    },
+    {
+      "title": "GPT-5.5 Codex reasoning-token clustering may be leading to degraded performance",
+      "url": "https://github.com/openai/codex/issues/30364",
+      "publishedAt": "2026-07-04T21:51:09.000Z",
+      "summary": "Summary I found an aggregate pattern in Codex token_count metadata: gpt-5.5 responses disproportionately land at exactly reasoning_output_tokens = 516, with additional fixed-boundary spikes around ...",
+      "thumbnailUrl": "https://opengraph.githubassets.com/ffbbab78200b20ea2059ce77013613a65200aacf088a173d19f66167742be24a/openai/codex/issues/30364"
+    },
+    {
+      "title": "Google Books (or similar) all book scans – $200k bounty (2025)",
+      "url": "https://software.annas-archive.gl/AnnaArchivist/annas-archive/-/work_items/234",
+      "publishedAt": "2026-07-04T16:51:26.000Z",
+      "summary": "Please read https://annas-archive.li/volunteering#bounties carefully before working on a bounty. Google Books has lots of scanned books, but which are only...",
+      "thumbnailUrl": "https://software.annas-archive.gl/assets/twitter_card-570ddb06edf56a2312253c5872489847a0f385112ddbcd71ccfa1570febab5d2.jpg"
+    },
+    {
+      "title": "Jellyfish can heal wounds in minutes. Scientists want their secrets",
+      "url": "https://www.mbl.edu/news/jellyfish-can-heal-wounds-minutes-scientists-want-their-secrets",
+      "publishedAt": "2026-07-04T22:36:28.000Z",
+      "summary": "A decade ago this summer, at the Marine Biological Laboratory, Jocelyn Malamy watched jellyfish cells “walk” toward each other to close a wound for the first time. An associate professor in Molecular Genetics and Cell Biology at the University of Chicago, Malamy had received transparent, dime-sized medusae of the species Clytia hemisphaerica from Evelyn Houliston’s lab at the Marine Observatoire in Villefranche.",
+      "thumbnailUrl": "https://www.mbl.edu/sites/default/files/2026-06/resizing%20for%20article%20header%288%29_0.jpg"
+    },
+    {
+      "title": "Leaking YouTube creators' private videos",
+      "url": "https://javoriuski.com/post/youtube",
+      "publishedAt": "2026-07-04T16:45:10.000Z",
+      "summary": "Bug Bounty Hunter & Researcher",
+      "thumbnailUrl": "https://javoriuski.com/assets/youtube.jpg"
+    },
+    {
+      "title": "My ASN Journey series (2024)",
+      "url": "https://www.animmouse.com/p/my-asn-journey/",
+      "publishedAt": "2026-07-05T04:29:05.000Z",
+      "summary": "A comprehensive beginners guide about getting your own ASN and own IP address",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "Better Models: Worse Tools",
+      "url": "https://lucumr.pocoo.org/2026/7/4/better-models-worse-tools/",
+      "publishedAt": "2026-07-04T20:16:22.000Z",
+      "summary": "About an aggravating tool-calling regression in newer Claude models.",
+      "thumbnailUrl": "https://lucumr.pocoo.org/social/2026-07-04-better-models-worse-tools-social.png"
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "CentryAI",
+      "tagline": "Subscription tracker built by someone who forgot 11 of them",
+      "url": "https://www.producthunt.com/products/centryai",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-07-04T23:05:03-07:00"
+    },
+    {
+      "name": "ChecklistFox",
+      "tagline": "AI checklist maker for beautiful pdfs, free & instant",
+      "url": "https://www.producthunt.com/products/checklistfox",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-07-04T23:05:02-07:00"
+    },
+    {
+      "name": "Termi Protocol",
+      "tagline": "Watch your AI coding agents build, live in 3D",
+      "url": "https://www.producthunt.com/products/termi-protocol",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-07-04T23:05:04-07:00"
+    },
+    {
+      "name": "Vida",
+      "tagline": "Clone yourself. Let AI do the work before you ask",
+      "url": "https://www.producthunt.com/products/vida-5",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-07-04T23:04:58-07:00"
+    },
+    {
+      "name": "PhoneDeck",
+      "tagline": "Turn your iPhone into a free Mac controller",
+      "url": "https://www.producthunt.com/products/phonedeck",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-07-04T23:05:03-07:00"
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "News and markets",
+      "sentences": [
+        "Global headlines: Putin visits military installation, vowing to take more of Ukraine (The Russian president donned military fatigues as he tried to counter a narrative that Moscow is stumbling in its war after Ukrainian drone strikes set off an acute fuel shortage); In Tehran, huge throngs mourn assassinated supreme leader Ali Khamenei (Ayatollah Ali Khamenei, who ruled over the Islamic Republic of Iran for 37 years, was killed along with several family members in an airstrike in February); and On July Fourth, Pope Leo urges U.S. to welcome, protect and assist immigrants (In Lampedusa, island gateway to Europe, the U.S.-born pope stressed human dignity and told America: \"in every generation\" immigrants \"helped to shape the nation’s character.”).",
+        "Markets leaned higher, with 5 of 7 tracked indexes up; Nikkei 225 up 1.47% was the largest move.",
+        "Benchmarks tracked: S&P 500, NASDAQ Composite, Euronext 100 Index, and Public Joint-Stock Company Moscow Exchange MICEX-RTS plus 3 more indexes."
+      ]
+    },
+    {
+      "title": "Hacker News and Product Hunt",
+      "sentences": [
+        "Hacker News: Shadcn/UI now defaults to Base UI instead of Radix (Latest updates and announcements); Command and Conquer Generals natively ported to macOS, iPhone, iPad using Fable (Command & Conquer Generals: Zero Hour running natively on macOS, iPhone & iPad — real engine (EA GPL v3 source, via GeneralsX),...); and If you're a button, you have one job (A blog about software craft and quality).",
+        "Product Hunt features CentryAI (Subscription tracker built by someone who forgot 11 of them), ChecklistFox (AI checklist maker for beautiful pdfs, free & instant), and Termi Protocol (Watch your AI coding agents build, live in 3D)."
+      ]
+    }
+  ],
+  "sourceNotes": {
+    "generatedAt": "2026-07-05T06:06:03.058Z",
+    "timeZone": "Asia/Kolkata",
+    "successfulSources": [
+      "Washington Post",
+      "Al Jazeera",
+      "NPR",
+      "China Daily",
+      "The Hindu",
+      "Reuters"
+    ],
+    "marketSessionLabel": "Latest market sessions as of 2026-07-05",
+    "warnings": []
+  }
+}
