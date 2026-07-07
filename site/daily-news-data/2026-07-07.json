@@ -1,0 +1,500 @@
+{
+  "headlines": [
+    {
+      "title": "China test-fires long-range missile into Pacific, rattling U.S. allies",
+      "url": "https://www.washingtonpost.com/national-security/2026/07/06/china-test-fires-long-range-missile-into-pacific-rattling-us-allies/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Tue, 07 Jul 2026 00:57:46 +0000",
+      "summary": "The unprecedented test of a nuclear-capable submarine-launched missile highlights Beijing’s growing force in the region.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/4PPQRGD5QYI6XDC6GLSHWQVVDM.jpg&w=1440"
+    },
+    {
+      "title": "Deadly Russian strikes hit Ukraine’s capital ahead of key NATO meeting",
+      "url": "https://www.washingtonpost.com/world/2026/07/06/russian-missiles-pierce-ukrainian-air-defenses-strike-kills-least-11/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Mon, 06 Jul 2026 17:47:41 +0000",
+      "summary": "The overnight attacks on Kyiv killed at least 11 people as Russia stepped up a new offensive. Ukraine's president said NATO must do more to help his country intercept incoming missiles.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/4JHVTT6VENS2ATAHLKYTXVOK44_size-normalized.jpg&w=1440"
+    },
+    {
+      "title": "Families of children killed in strike on Iranian school join leader’s funeral",
+      "url": "https://www.washingtonpost.com/world/2026/07/05/families-children-killed-iran-school-bombing-join-leaders-funeral-tehran/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Sun, 05 Jul 2026 21:07:46 +0000",
+      "summary": "In Iran, the school deaths have become a symbol for U.S.-Israeli brutality and an unjust war. The Washington Post is reporting from the country under restricted conditions.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/YLTDUNQVWSFVBGE5VYB6GGT47Q_size-normalized.JPG&w=1440"
+    },
+    {
+      "title": "Turkey sees its status in NATO rise, thanks to its weapons factories and Trump",
+      "url": "https://www.washingtonpost.com/world/2026/07/03/trump-attendance-nato-summit-will-highlight-turkeys-new-prominence/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Sun, 05 Jul 2026 09:00:00 +0000",
+      "summary": "A friendship between presidents Donald Trump and Recep Tayyip Erdogan, and a need for weapons production, has changed how other NATO countries treat Turkey.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/5DMXL3YGJU36PFCMO7YSSGGWKU.JPG&w=1440"
+    },
+    {
+      "title": "Crowd chants ‘Death to America’ as Khamenei’s casket winds through Tehran",
+      "url": "https://www.washingtonpost.com/world/2026/07/06/massive-crowd-chants-death-america-khameneis-casket-winds-through-tehran/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "2026-07-06",
+      "summary": "A huge funeral procession for the assassinated supreme leader, Ayatollah Ali Khamenei, is underway in the Iranian capital with many vowing revenge against the U.S. and Israel.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/4JHVTT6VENS2ATAHLKYTXVOK44.jpg&w=300&h=169"
+    },
+    {
+      "title": "Palestine weekly: One thousand days of genocide in Gaza",
+      "url": "https://www.aljazeera.com/news/2026/7/7/palestine-weekly-one-thousand-days-of-genocide-in-gaza",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-07-07",
+      "summary": "Gaza marks 1,000 days of Israel's genocidal war, with at least 1,072 killed since October 'ceasefire'.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/07/2026-07-06T131201Z_447910098_RC2D8MA25I50_RTRMADP_3_ISRAEL-PALESTINIANS-GAZA-1783388351.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "‘Limited damage’: Upcoming Bollywood film angers Kashmir pellet gun victims",
+      "url": "https://www.aljazeera.com/news/2026/7/7/limited-damage-upcoming-bollywood-film-angers-kashmir-pellet-gun-victims",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-07-07",
+      "summary": "Makers of Chauhaan accused of mocking more than 1,000 Kashmiris partially or completely blinded by pellet shotguns.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2016/08/bc398c869c1f4268a3395e3b85c02a77_18.jpeg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "At least 16 people buried following landslide in China",
+      "url": "https://www.aljazeera.com/news/2026/7/7/at-least-people-buried-following-landslide-in-china",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-07-07",
+      "summary": "The country has been hit by damaging thunderstorms, leaving at least 275 people injured.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/07/2026-07-07T021649Z_1216044457_RC2F8MAFW3SC_RTRMADP_3_ASIA-WEATHER-CHINA-1783395390.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Tanker on fire in Strait of Hormuz after being hit by projectile off Oman",
+      "url": "https://www.aljazeera.com/news/2026/7/7/tanker-on-fire-off-coast-of-oman-after-being-hit-by-projectile",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-07-07",
+      "summary": "Iran's TV claims the tanker ignored warnings, but no direct responsibility for the attack has been declared.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/07/ap_6a48491c701c5-1783122204.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Cuba sees nationwide power blackout for third time in six months",
+      "url": "https://www.aljazeera.com/news/2026/7/7/cuba-sees-nationwide-power-blackout-for-third-time-in-six-months",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-07-07",
+      "summary": "People in Cuba already faced an ongoing economic and humanitarian crisis, largely due to a US blockade.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/07/afp_6a4c4d2623df-1783385382.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "China test-launches a ballistic missile in the South Pacific and raises regional concerns",
+      "url": "https://www.npr.org/2026/07/07/nx-s1-5884537/china-ballistic-missile-south-pacific",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Tue, 07 Jul 2026 01:29:03 -0400",
+      "summary": "The launch, using a dummy warhead, took place the same day Australia and Fiji signed a mutual defense treaty meant to counter Chinese influence in the Pacific.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2343x1562+0+0/resize/2343x1562!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fc1%2F25%2Ff5fd65e84b8d8abdd15d5dd74ce6%2Fap26188084471919.jpg"
+    },
+    {
+      "title": "Tanker set ablaze after being struck by projectile in the Strait of Hormuz",
+      "url": "https://www.npr.org/2026/07/07/g-s1-132265/tanker-attack-strait-of-hormuz",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Tue, 07 Jul 2026 01:28:45 -0400",
+      "summary": "Iranian state television said the tanker came under attack after ignoring warnings but did not directly claim the assault.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8640x5760+0+0/resize/8640x5760!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F64%2F20%2Fb4ef6dd84723ae04b253676792dd%2Fap26187442611724.jpg"
+    },
+    {
+      "title": "What a divorce coach wishes couples knew before ending a marriage",
+      "url": "https://www.npr.org/2026/07/07/nx-s1-5877797/end-marriage-good-terms-divorce",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Mon, 06 Jul 2026 22:06:13 -0400",
+      "summary": "Divorce is a tool, not a weapon, says Karen McNenny, author of a new book on the subject. She explains how to end a marriage while protecting your family and your mental health.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5333x3000+0+0/resize/5333x3000!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fa2%2F73%2F9af4a13543808b2b0e00cdcbf42e%2F260702-lk-gooddivorcedig-16x9.jpg"
+    },
+    {
+      "title": "The U.S. men's run at the World Cup ends with a 4-1 Round of 16 loss to Belgium",
+      "url": "https://www.npr.org/2026/07/06/nx-s1-5883842/2026-world-cup-fifa-usmnt-belgium-round-of-16",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Mon, 06 Jul 2026 21:58:43 -0400",
+      "summary": "The team was in the eye of a storm over a controversial phone call from President Trump to FIFA's head about a red card on a U.S. striker. But even with the U.S. at full strength, Belgium easily won.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4399x2913+0+0/resize/4399x2913!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fc5%2F24%2Feb3862af465ea88819ff56cd2d81%2Fgettyimages-2284969420.jpg"
+    },
+    {
+      "title": "Extreme heat on Independence Day will be America's new normal, experts say",
+      "url": "https://www.npr.org/2026/07/06/nx-s1-5883704/extreme-heat-july-4th-climate",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Mon, 06 Jul 2026 19:24:32 -0400",
+      "summary": "In cities across the U.S., parades were canceled and events were delayed because of the heat. Meanwhile, emergency rooms saw a high number of people with heat-related illnesses.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5506x3671+0+0/resize/5506x3671!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fb2%2F8c%2F3d456a424a4aaeee9ebd783178f8%2Fgettyimages-2283903147.jpg"
+    },
+    {
+      "title": "As Venezuela quake toll crosses 3,000, focus turns to burials",
+      "url": "https://www.chinadaily.com.cn/a/202607/07/WS6a4c5997a310986e2b463df2.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-07-07",
+      "summary": "Deaths from Venezuela's devastating twin earthquakes surpassed 3,000 on Sunday as officials began to bury dozens of bodies left unidentified days after the disaster.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202607/07/6a4c5997a310986e10190c32.png"
+    },
+    {
+      "title": "NATO's push for higher defense budgets decried",
+      "url": "https://www.chinadaily.com.cn/a/202607/07/WS6a4c5816a310986e2b463dda.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-07-07",
+      "summary": "As Turkiye prepares to host the NATO summit on Tuesday and Wednesday, thousands of demonstrators took to the streets in Istanbul, Ankara and Izmir over the weekend to denounce the alliance's push for higher defense spending.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202607/07/6a4c5816a310986e10190bf4.png"
+    },
+    {
+      "title": "China's first batch of quake relief supplies arrives in Venezuela",
+      "url": "https://www.chinadaily.com.cn/a/202607/06/WS6a4ba4f6a310986e2b463c6b.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-07-06",
+      "summary": "CARACAS -- The first batch of emergency humanitarian relief supplies provided by the Chinese government to Venezuela arrived Monday at Simon Bolivar International Airport in Maiquetia, near the Venezuelan capital Caracas.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202607/07/6a4c4deba310986e10190924.png"
+    },
+    {
+      "title": "Wildfires rip across Europe amid high temperatures",
+      "url": "https://www.chinadaily.com.cn/a/202607/07/WS6a4c5304a310986e2b463d64.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-07-07",
+      "summary": "Spectators were banned from part of the route of the third stage of this year's Tour de France cycle race on Monday as devastating wildfires ripped across large areas of southern Europe.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202607/07/6a4c5303a310986e10190a65.png"
+    },
+    {
+      "title": "NATO summit puts fault lines in the spotlight",
+      "url": "https://www.chinadaily.com.cn/a/202607/07/WS6a4c557da310986e2b463d95.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-07-07",
+      "summary": "As leaders of the NATO military alliance gather in Ankara, Turkiye this week, it faces one of its most consequential summits in recent years, with questions over transatlantic unity, defense spending, support for Ukraine and Europe's growing security responsibilities expected to dominate the agenda.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202607/07/6a4c557da310986e10190b09.jpeg"
+    },
+    {
+      "title": "PM Narendra Modi receives grand ceremonial welcome in Jakarta",
+      "url": "https://www.thehindu.com/news/national/prime-minister-narendra-modi-in-indonesia/article71192169.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-07-07T04:39:52.000Z",
+      "summary": "PM Narendra Modi receives a grand welcome in Jakarta, launching a diplomatic visit to strengthen India-Indonesia relations.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/news/national/royrht/article71192206.ece/alternates/LANDSCAPE_1200/Screenshot%202026-07-07%20100220.png"
+    },
+    {
+      "title": "Three held for Baruipur rape and murder; govt. will ensure capital punishment is awarded, says CM",
+      "url": "https://www.thehindu.com/news/national/west-bengal/baruipur-rape-murder-case-arrest-made/article71188776.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-07-06T10:11:58.000Z",
+      "summary": "West Bengal Police have formed a Special Investigation Team (SIT) and arrested three individuals in connection with rape and murder of a minor in Baruipur.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/6v45kk/article71188837.ece/alternates/LANDSCAPE_1200/PTI07_05_2026_000282B.jpg"
+    },
+    {
+      "title": "Meghalaya CM meets Amit Shah, conveys FCRA amendment concerns",
+      "url": "https://www.thehindu.com/news/national/meghalaya/meghalaya-cm-meets-amit-shah-conveys-fcra-amendment-concerns/article71189111.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-07-06T12:26:45.000Z",
+      "summary": "Meghalaya CM Sangma urges Amit Shah to reconsider FCRA amendments, warning of negative impacts on Christian institutions and public services.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/pkibk5/article71189317.ece/alternates/LANDSCAPE_1200/20260705370L.jpg"
+    },
+    {
+      "title": "Modi begins three-nation trip, starts with Indonesia to boost strategic ties",
+      "url": "https://www.thehindu.com/news/national/pm-modi-indonesia-bilateral-visit-july-6-2026/article71189358.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-07-06T12:50:54.000Z",
+      "summary": "Prime Minister Modi visits Indonesia to meet President Prabowo Subianto. Inside India’s strategy to supercharge its Act East Policy and boost defence ties.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/7s3gsz/article71189429.ece/alternates/LANDSCAPE_1200/20260706320L.jpg"
+    },
+    {
+      "title": "PM in Indonesia LIVE: Modi conferred with Indonesia's highest honour ’Bintang Adipurna of the Republic of Indonesia’ medal",
+      "url": "https://www.thehindu.com/news/national/pm-modi-in-indonesia-three-nation-diplomatic-visit-live-updates-july-7-2026/article71192288.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-07-07T05:24:01.000Z",
+      "summary": "PM Modi in Indonesia LIVE: Follow the latest updates as the Prime Minister arrives in Jakarta to begin his three-nation diplomatic visit on July 7, 2026.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/i6syz5/article71192274.ece/alternates/LANDSCAPE_1200/20260707003L.jpg"
+    },
+    {
+      "title": "Iran fires missiles at commercial ships in Strait of Hormuz, Axios reports",
+      "url": "https://www.reuters.com/world/middle-east/iran-fires-missiles-commercial-ships-strait-hormuz-axios-reports-2026-07-07/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Tue, 07 Jul 2026 02:04:00 GMT",
+      "summary": "Reuters: Iran fires missiles at commercial ships in Strait of Hormuz, Axios reports.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/TKMHL3D4CZOTHDXUGHT6WVUCF4.jpg?auth=337c4b0bbd215c8064ae6ef6f23cc961ef807d6f845694736355f32eab331617&width=1920&quality=80"
+    },
+    {
+      "title": "NATO to unveil big arms deals in Ankara before summit with Trump",
+      "url": "https://www.reuters.com/world/nato-unveil-big-arms-deals-ankara-before-summit-with-trump-2026-07-07/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Tue, 07 Jul 2026 02:07:00 GMT",
+      "summary": "Reuters: NATO to unveil big arms deals in Ankara before summit with Trump.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/JZC5GQVGTFLWPBAODKB4SQTVAI.jpg?auth=8dabb09fee303132c651a46f8e56f8da5115b66a97e5d4ace2d10e48d2110caa&height=1500&width=1200&quality=80&smart=true"
+    },
+    {
+      "title": "Morning Bid: Samsung boom, market gloom",
+      "url": "https://www.reuters.com/world/china/global-markets-view-europe-2026-07-07/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Tue, 07 Jul 2026 04:32:00 GMT",
+      "summary": "Reuters: Morning Bid: Samsung boom, market gloom.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/KJZSFVN5EJLABLHJCIQRAWPQRY.jpg?auth=e289cf9971520935e2c593548d6d53ef6ddd06a2bf6e0af2d2208bcc696750b6&width=1920&quality=80"
+    },
+    {
+      "title": "Samsung flags 19-fold jump in profit, but shares slump on jitters AI boom may stall",
+      "url": "https://www.reuters.com/world/asia-pacific/samsung-estimates-19-fold-rise-q2-operating-profit-beating-expectations-2026-07-06/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Mon, 06 Jul 2026 22:45:00 GMT",
+      "summary": "Reuters: Samsung flags 19-fold jump in profit, but shares slump on jitters AI boom may stall.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/Z2W3KFWSINMYJEIJAV4Z6XNRYA.jpg?auth=41ab92c8906280c42791c7175bad0a39b6f0d4e7c6c05f5a301276eba3152b64&height=628&width=1200&quality=80&smart=true"
+    },
+    {
+      "title": "China breaks step with global markets, and investors buy in",
+      "url": "https://www.reuters.com/world/china/china-breaks-step-with-global-markets-investors-buy-2026-07-07/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Tue, 07 Jul 2026 01:10:00 GMT",
+      "summary": "Reuters: China breaks step with global markets, and investors buy in.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/RL5IF6474BIVHLQJKZB3GLT5CM.jpg?auth=296d1aa376b64390d0457b695f1ffd86261319ed3c0137f8f876d3cc2f700f0e&width=1920&quality=80"
+    }
+  ],
+  "markets": [
+    {
+      "id": "sp-500",
+      "label": "S&P 500",
+      "region": "US",
+      "symbol": "^GSPC",
+      "value": 7537.43,
+      "previousClose": 7483.24006,
+      "change": 54.18994,
+      "percentChange": 0.7241508,
+      "direction": "up",
+      "sessionDate": "2026-07-07"
+    },
+    {
+      "id": "nasdaq-composite",
+      "label": "NASDAQ Composite",
+      "region": "US",
+      "symbol": "^IXIC",
+      "value": 26121.16,
+      "previousClose": 25832.67172,
+      "change": 288.48828,
+      "percentChange": 1.1167574,
+      "direction": "up",
+      "sessionDate": "2026-07-07"
+    },
+    {
+      "id": "euronext-100",
+      "label": "Euronext 100 Index",
+      "region": "Europe",
+      "symbol": "^N100",
+      "value": 1934.34,
+      "previousClose": 1938.500034,
+      "change": -4.160034,
+      "percentChange": -0.21460068,
+      "direction": "down",
+      "sessionDate": "2026-07-07"
+    },
+    {
+      "id": "moex",
+      "label": "Public Joint-Stock Company Moscow Exchange MICEX-RTS",
+      "region": "Europe",
+      "symbol": "MOEX.ME",
+      "value": 85.2,
+      "previousClose": 85.31000061,
+      "change": -0.11000061,
+      "percentChange": -0.12894222,
+      "direction": "down",
+      "sessionDate": "2026-07-07"
+    },
+    {
+      "id": "hang-seng",
+      "label": "HANG SENG INDEX",
+      "region": "Asia",
+      "symbol": "^HSI",
+      "value": 23492.49,
+      "previousClose": 23616.32008,
+      "change": -123.83008,
+      "percentChange": -0.52432716,
+      "direction": "down",
+      "sessionDate": "2026-07-07"
+    },
+    {
+      "id": "nikkei-225",
+      "label": "Nikkei 225",
+      "region": "Asia",
+      "symbol": "^N225",
+      "value": 68455.6,
+      "previousClose": 69737.68590000001,
+      "change": -1282.0859,
+      "percentChange": -1.8389282,
+      "direction": "down",
+      "sessionDate": "2026-07-07"
+    },
+    {
+      "id": "sensex",
+      "label": "S&P BSE SENSEX",
+      "region": "India",
+      "symbol": "^BSESN",
+      "value": 78559.86,
+      "previousClose": 78285.07094,
+      "change": 274.78906,
+      "percentChange": 0.35101148,
+      "direction": "up",
+      "sessionDate": "2026-07-07"
+    }
+  ],
+  "hackerNews": [
+    {
+      "title": "Fable turned reMarkable into Tom Riddle's diary from Harry Potter",
+      "url": "https://github.com/MaximeRivest/Riddle",
+      "publishedAt": "2026-07-06T23:00:24.000Z",
+      "summary": "The diary of Tom Riddle for the reMarkable Paper Pro — write with your pen, the page drinks your ink and answers in a flowing hand - MaximeRivest/riddle",
+      "thumbnailUrl": "https://opengraph.githubassets.com/a6ce797555349cdeb0fd15734aaa9af09f2e6da6fd51c022461b0e6ab7bb0340/MaximeRivest/riddle"
+    },
+    {
+      "title": "OpenWrt One – Open Hardware Router",
+      "url": "https://openwrt.org/toh/openwrt/one",
+      "publishedAt": "2026-07-06T18:23:12.000Z",
+      "summary": "You are seeing this because the administrator of this website has set up Anubis to protect the server against the scourge of AI companies aggressively scraping websites. This can and does cause downtime for the websites, which makes their resources inaccessible for everyone.",
+      "thumbnailUrl": "https://openwrt.org/.within.website/x/cmd/anubis/static/img/pensive.webp?cacheBuster=1.22.0-20250926"
+    },
+    {
+      "title": "CoMaps – FOSS Offline Maps",
+      "url": "https://www.comaps.app/",
+      "publishedAt": "2026-07-06T18:55:07.000Z",
+      "summary": "Discover more of your journey - Powered by the community",
+      "thumbnailUrl": "https://www.comaps.app/images/sections/map-s-3.webp"
+    },
+    {
+      "title": "GLM 5.2 and the coming AI margin collapse",
+      "url": "https://martinalderson.com/posts/the-upcoming-ai-margin-collapse-part-1-glm-5-2/",
+      "publishedAt": "2026-07-06T20:14:55.000Z",
+      "summary": "GLM 5.2 is the first open weights model I'd call a genuine competitor to Opus and GPT for agentic work - at ~15-20% of the price. Part one of why AI inference margins are about to collapse.",
+      "thumbnailUrl": "https://martinalderson.com/img/og/glm-5-2-and-the-coming-ai-margin-collapse-part-1.png"
+    },
+    {
+      "title": "How to sequence your own DNA at home",
+      "url": "https://bradleywoolf.com/links-1/sequencing-my-own-dna-at-home",
+      "publishedAt": "2026-07-07T00:14:21.000Z",
+      "summary": "I have now sequenced my own genome 5 times with an Oxford Nanopore Technologies MinION. This means collecting them from a swab, prepping them for sequencing, running them through a sequencer, then doing analysis over them.",
+      "thumbnailUrl": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/f7bd0bf9-fe1a-4481-ae32-a529633a4c5d/img_4423/public"
+    },
+    {
+      "title": "Small AI Models Gain Traction In places with unreliable networks",
+      "url": "https://spectrum.ieee.org/small-language-models-ai-pharmaceuticals",
+      "publishedAt": "2026-07-06T23:59:54.000Z",
+      "summary": "In places with unreliable networks and no data-center infrastructure, smaller is better",
+      "thumbnailUrl": "https://spectrum.ieee.org/media-library/image.jpg?id=67101133&width=1200&height=600&coordinates=0%2C889%2C0%2C361"
+    },
+    {
+      "title": "Ternlight – 7 MB embedding model that runs in browser (WASM)",
+      "url": "https://ternlight-demo.vercel.app/",
+      "publishedAt": "2026-07-06T23:06:31.000Z",
+      "summary": "On-device sentence embeddings — engine, weights, and tokenizer in 7 MB of WASM. Search the React docs entirely on your CPU.",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "A global workspace in language models",
+      "url": "https://www.anthropic.com/research/global-workspace",
+      "publishedAt": "2026-07-06T17:44:08.000Z",
+      "summary": "Interpretability research on Claude's internal thoughts.",
+      "thumbnailUrl": "https://cdn.sanity.io/images/4zrzovbb/website/fbdc967f9f3d88566f25b21cce7ef523b3fabbbb-1280x720.jpg"
+    },
+    {
+      "title": "Pruning RAG context down to what the answer actually needs",
+      "url": "https://www.kapa.ai/blog/how-we-prune-rag-context",
+      "publishedAt": "2026-07-06T19:28:24.000Z",
+      "summary": "Pruning agent context down to what the answer actually needs, while keeping 96% of recall",
+      "thumbnailUrl": "https://framerusercontent.com/images/6GxuXM90o1IK62mxhycPvoG2M.png?width=1267&height=654"
+    },
+    {
+      "title": "Resetting Xbox",
+      "url": "https://news.xbox.com/en-us/2026/07/06/resetting-xbox/",
+      "publishedAt": "2026-07-06T14:18:23.000Z",
+      "summary": "Your source for news, information, product releases, events, sports, entertainment & exclusive content relating to Xbox",
+      "thumbnailUrl": "https://xboxwire.thesourcemediaassets.com/sites/2/2026/05/Bootup_Wire-9c068aa206c9a72d2b1f.png"
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "Stanley Studio",
+      "tagline": "The AI video editor you hire that edits like a human",
+      "url": "https://www.producthunt.com/products/stanley-studio",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-07-06T22:57:46-07:00"
+    },
+    {
+      "name": "Edgee Claude Code Compressor V2",
+      "tagline": "Fewer tokens, same context, 50% cost reduction",
+      "url": "https://www.producthunt.com/products/edgee",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-07-06T22:57:50-07:00"
+    },
+    {
+      "name": "Cadence",
+      "tagline": "Record once, send confidently",
+      "url": "https://www.producthunt.com/products/cadence-13",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-07-06T22:47:50-07:00"
+    },
+    {
+      "name": "AirKaren",
+      "tagline": "AI that fights customer service for you",
+      "url": "https://www.producthunt.com/products/airkaren",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-07-06T23:08:53-07:00"
+    },
+    {
+      "name": "Sunrise",
+      "tagline": "A real planner for Google Tasks",
+      "url": "https://www.producthunt.com/products/sunrise-5",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-07-06T23:00:21-07:00"
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "News and markets",
+      "sentences": [
+        "Global headlines: China test-fires long-range missile into Pacific, rattling U.S. allies (The unprecedented test of a nuclear-capable submarine-launched missile highlights Beijing’s growing force in the region); Deadly Russian strikes hit Ukraine’s capital ahead of key NATO meeting (The overnight attacks on Kyiv killed at least 11 people as Russia stepped up a new offensive. Ukraine's president said NATO must do more to help his country intercept incoming missiles); and Families of children killed in strike on Iranian school join leader’s funeral (In Iran, the school deaths have become a symbol for U.S.-Israeli brutality and an unjust war. The Washington Post is reporting from the country under restricted conditions).",
+        "Markets leaned lower, with 4 of 7 tracked indexes down; Nikkei 225 down 1.84% was the largest move.",
+        "Benchmarks tracked: S&P 500, NASDAQ Composite, Euronext 100 Index, and Public Joint-Stock Company Moscow Exchange MICEX-RTS plus 3 more indexes."
+      ]
+    },
+    {
+      "title": "Hacker News and Product Hunt",
+      "sentences": [
+        "Hacker News: Fable turned reMarkable into Tom Riddle's diary from Harry Potter (The diary of Tom Riddle for the reMarkable Paper Pro — write with your pen, the page drinks your ink and answers in a flowing hand -...); OpenWrt One – Open Hardware Router (You are seeing this because the administrator of this website has set up Anubis to protect the server against the scourge of AI companies...); and CoMaps – FOSS Offline Maps (Discover more of your journey - Powered by the community).",
+        "Product Hunt features Stanley Studio (The AI video editor you hire that edits like a human), Edgee Claude Code Compressor V2 (Fewer tokens, same context, 50% cost reduction), and Cadence (Record once, send confidently)."
+      ]
+    }
+  ],
+  "sourceNotes": {
+    "generatedAt": "2026-07-07T06:09:23.288Z",
+    "timeZone": "Asia/Kolkata",
+    "successfulSources": [
+      "Washington Post",
+      "Al Jazeera",
+      "NPR",
+      "China Daily",
+      "The Hindu",
+      "Reuters"
+    ],
+    "marketSessionLabel": "Latest market sessions as of 2026-07-07",
+    "warnings": []
+  }
+}
