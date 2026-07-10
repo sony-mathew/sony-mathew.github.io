@@ -1,0 +1,501 @@
+{
+  "headlines": [
+    {
+      "title": "U.S. intensifies strikes on Iran’s coast along Strait of Hormuz",
+      "url": "https://www.washingtonpost.com/world/2026/07/09/us-intensifies-strikes-irans-coast-along-strait-hormuz/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Thu, 09 Jul 2026 20:17:13 +0000",
+      "summary": "After President Donald Trump declared the collapse of a preliminary peace agreement on Wednesday, the U.S. and Iran traded renewed airstrikes.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/VVGICP753IP3NERZ2TMANGEXWE.JPG&w=1440"
+    },
+    {
+      "title": "Health workers fighting Ebola go on strike after months without pay",
+      "url": "https://www.washingtonpost.com/world/2026/07/09/congo-health-workers-fighting-ebola-go-strike-after-months-without-pay/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Thu, 09 Jul 2026 11:59:56 +0000",
+      "summary": "Doctors and Nurses on the front lines of the Democratic Republic of Congo’s Ebola response have reached a breaking point.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/SZVOGMHLBBQ4ZDU3MT6CD6LL7Y.JPG&w=1440"
+    },
+    {
+      "title": "U.S., Iran trade dozens more strikes in dangerous cycle",
+      "url": "https://www.washingtonpost.com/world/2026/07/08/trump-declares-ceasefire-with-iran-has-ended/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Thu, 09 Jul 2026 08:38:02 +0000",
+      "summary": "For a second straight day, the U.S. military attacked Iranian targets overnight and Iran struck back, targeting U.S. bases in Bahrain and Kuwait.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/JNPZYAWNUFR5XCFDNURC5G5WSQ_size-normalized.jpg&w=1440"
+    },
+    {
+      "title": "After Greenland bluster, Trump surprises NATO allies with praise",
+      "url": "https://www.washingtonpost.com/politics/2026/07/08/denmark-says-it-will-defend-greenland-trump-threatens-revive-nato-crisis/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Wed, 08 Jul 2026 19:22:17 +0000",
+      "summary": "The president embraced the alliance in a meeting Wednesday, extolling member nations’ defense spending and saying nothing about the Danish territory, officials said.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/SZO2IA3FZRIEYCDAEWQQKNQDNM.jpg&w=1440"
+    },
+    {
+      "title": "In Iraq, huge crowds mourning Iranian leader reveal limits of U.S. role",
+      "url": "https://www.washingtonpost.com/world/2026/07/08/funeral-rites-irans-supreme-leader-shift-shiite-cities-iraq/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Wed, 08 Jul 2026 10:21:27 +0000",
+      "summary": "Some officials said the outpouring of grief was intended to show the continuing close ties between Iraq and Iran despite U.S. efforts to hold sway in Baghdad.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/UJNTKCA4Y55BEUX3K6AUGD6R6Y_size-normalized.jpg&w=1440"
+    },
+    {
+      "title": "US and Ukraine agree on patriot missile production deal",
+      "url": "https://www.aljazeera.com/news/2026/7/10/zelenskyy-urges-urgent-efforts-in-ukraine-to-start-patriot-production",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-07-10",
+      "summary": "US President Donald Trump gave his blessing earlier this week to domestic Ukrainian production of the missiles.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/07/getty_6a4e912cdb-1783533868.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "China expands anti-sanctions toolkit, raising risks for foreign firms",
+      "url": "https://www.aljazeera.com/news/2026/7/10/china-expands-anti-sanctions-toolkit-raising-risks-for-foreign-firms",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-07-10",
+      "summary": "Beijing is rolling out measures to expand its ability to hit back at US and EU sanctions and export controls.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/07/2022-02-24T000000Z_1280961585_RC26QS97BPZE_RTRMADP_3_CHINA-PARLIAMENT-1-1782959782.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "US and Iran halt attacks as mediators rush to get diplomacy back on track",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/7/10/iran-war-live-fresh-attacks-on-iran-as-us-says-talks-still-on",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-07-10",
+      "summary": "American official says technical talks with Tehran continue and the United States wants to pursue diplomacy.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/07/2026-07-06T073244Z_975979206_RC2R4LAOUMSD_RTRMADP_3_GLOBAL-OIL-1783628226.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "UN seeks $300M for victims of Venezuela’s earthquakes",
+      "url": "https://www.aljazeera.com/news/2026/7/9/venezuela-earthquakes-toll-rises-to-3889-as-risk-of-disease-grows",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-07-09",
+      "summary": "The United Nations launched an appeal for roughly $300 million to assist survivors of Venezuela's earthquakes",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/07/AFP__20260630__B8UD2ZQ__v3__HighRes__TopshotVenezuelaEarthquakeAftermath-1782973516.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "New Mexico accuses US Justice Department of impeding Epstein investigation",
+      "url": "https://www.aljazeera.com/news/2026/7/9/new-mexico-accuses-us-justice-department-of-impeding-epstein-investigation",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-07-09",
+      "summary": "State Attorney General Raul Torrez accused the Trump administration of withholding records, harming his investigation.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/07/reuters_6a50161c-1783633436.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "President Trump cleans house at the bipartisan Election Assistance Commission",
+      "url": "https://www.npr.org/2026/07/09/nx-s1-5887690/trump-election-assistance-commission",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Thu, 09 Jul 2026 22:52:32 -0400",
+      "summary": "With just months until the midterms, President Trump relieved the remaining members of the U.S. Election Assistance Commission, a move condemned by Democrats and voting rights advocates.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5616x3744+0+0/resize/5616x3744!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F0d%2Fbe%2Fc7dac39b439e83825e8b922b446c%2Fgettyimages-2276717004.jpg"
+    },
+    {
+      "title": "In private call, Education Dept. tried, but failed, to reassure disability advocates",
+      "url": "https://www.npr.org/2026/07/09/nx-s1-5887650/education-department-special-ed-hhs",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Thu, 09 Jul 2026 21:03:56 -0400",
+      "summary": "The disability community has long worried about what would happen if special education oversight moved from the Education Department to another agency. Now, those moves are becoming more real.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/7835x5226+0+0/resize/7835x5226!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F1a%2F77%2F6b5384034464ae6edd58ca4e1700%2Fgettyimages-2198217817-1.jpg"
+    },
+    {
+      "title": "Trump's arch clears another hurdle, setting up a big debate: Do height limits apply?",
+      "url": "https://www.npr.org/2026/07/09/nx-s1-5884728/trump-arch-height-act-commission-meeting",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Thu, 09 Jul 2026 20:44:48 -0400",
+      "summary": "The Interior Department is arguing D.C. height limits don't apply to federal projects, bucking a century of precedent. If the panel reviewing Trump's arch agrees, experts say it could change the city.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6000x3879+0+0/resize/6000x3879!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fe1%2Fd1%2F36d43c2941f1b26d3a9bbe88ca45%2Fgettyimages-2284475262.jpg"
+    },
+    {
+      "title": "France downs Morocco 2-0 to advance to the World Cup semifinal",
+      "url": "https://www.npr.org/2026/07/09/nx-s1-5887619/2026-world-cup-fifa-france-morocco-quarterfinal",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Thu, 09 Jul 2026 18:01:54 -0400",
+      "summary": "Morocco was no match for France, which lost 2-0. The French, one of the pre-tournament favorites, move on to the World Cup semifinals against either Spain or Belgium.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6000x4000+0+0/resize/6000x4000!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fce%2F2f%2F4b6c9e674f3e8f4e80c71d427979%2Fgettyimages-2284789477.jpg"
+    },
+    {
+      "title": "Smithsonian chief emphasizes 'accuracy and integrity' after White House report",
+      "url": "https://www.npr.org/2026/07/09/nx-s1-5887518/smithsonian-chief-lonnie-bunch-white-house-accusations",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Thu, 09 Jul 2026 15:46:02 -0400",
+      "summary": "The memo from the Smithsonian's secretary, Lonnie Bunch, responded to a White House report that calls the National Museum of American History driven by \"a radical, activist ideology.\"",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5472x3648+0+0/resize/5472x3648!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fb1%2F63%2F8c5021fe4bd1b5423afbb0153de9%2Fap17264858637451.jpg"
+    },
+    {
+      "title": "India looks to broaden options",
+      "url": "https://www.chinadaily.com.cn/a/202607/10/WS6a505151a310986e2b4648eb.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-07-10",
+      "summary": "Indian Prime Minister Narendra Modi's recent visits to Indonesia, Australia and New Zealand are aimed at bolstering the nation's ties in the Asia-Pacific region. Amid increasingly complex and strained relations between the United States and India, New Delhi is looking to broaden its development options. Although Modi's visit could help ease near-term economic pressures, it remains unclear whether it will advance the country's long-term strategic goals, experts said.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202607/10/6a505151a310986e10194dda.png"
+    },
+    {
+      "title": "US divergence sows discord at NATO summit",
+      "url": "https://www.chinadaily.com.cn/a/202607/10/WS6a50484ba310986e2b464860.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-07-10",
+      "summary": "NATO leaders left Turkiye on Wednesday after reaffirming their commitment to collective defense, but uncertainty now hangs over the alliance following US President Donald Trump's disruptive remarks.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202607/10/6a50484ba310986e10194b97.jpeg"
+    },
+    {
+      "title": "12 killed in southern Spain wildfire",
+      "url": "https://www.chinadaily.com.cn/a/202607/10/WS6a5043c8a310986e2b464802.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-07-10",
+      "summary": "MADRID -- Twelve people were killed in a major wildfire that broke out on Thursday afternoon in Los Gallardos, in Almeria province of Spain's southern Andalusia region, according to the local emergency service.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202607/10/6a505fa0a310986e101950d8.png"
+    },
+    {
+      "title": "Region on shaky ground as US, Iran trade attacks",
+      "url": "https://www.chinadaily.com.cn/a/202607/10/WS6a505815a310986e2b46490e.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-07-10",
+      "summary": "The situation in the Middle East remained on shaky ground after Washington and Tehran traded strikes for the second consecutive night, leaving a trail of casualties and keeping the region on edge with security alerts in Qatar and warning sirens in Kuwait and Bahrain.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202607/10/6a505815a310986e10194e1e.png"
+    },
+    {
+      "title": "Civic groups call for Japan to reflect on wartime past",
+      "url": "https://www.chinadaily.com.cn/a/202607/10/WS6a5055cda310986e2b4648fd.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-07-10",
+      "summary": "At a rally held by several Japanese civic groups on Tuesday, participants called on Japan to learn from history and guard against the resurgence of militarism.",
+      "thumbnailUrl": "https://www.chinadaily.com.cn/image_e/2020/logo21.jpg"
+    },
+    {
+      "title": "Air India flight from Thiruvananthapuram to Bengaluru aborts takeoff after technical snag",
+      "url": "https://www.thehindu.com/news/national/kerala/air-india-flight-from-thiruvananthapuram-to-bengaluru-aborts-takeoff-after-technical-snag/article71205296.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-07-10T05:01:14.000Z",
+      "summary": "An Air India flight from Thiruvananthapuram to Bengaluru was aborted during takeoff due to technical issues. Passengers currently remain onboard.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/news/national/kerala/c0l6b7/article71205330.ece/alternates/LANDSCAPE_1200/air.jpg"
+    },
+    {
+      "title": "Why is Gujarat betting ₹6 lakh crore on data centres? | Explained",
+      "url": "https://www.thehindu.com/news/national/gujarat/why-is-gujarat-betting-6-lakh-crore-on-data-centres-explained/article71205194.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-07-10T04:01:24.000Z",
+      "summary": "Gujarat's new Data Centre Policy aims to attract ₹6 lakh crore in investments, boosting its digital economy and infrastructure.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/zbq5j3/article71205207.ece/alternates/LANDSCAPE_1200/HMxN9MGaIAAI8-G.jpg"
+    },
+    {
+      "title": "Bishnoi ran decentralised syndicate, wanted ‘S.K.’ killed to instill fear: U.S. DoJ",
+      "url": "https://www.thehindu.com/news/national/bishnoi-ran-decentralised-syndicate-wanted-sk-killed-to-instill-fear-us-doj/article71202636.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-07-09T15:54:50.000Z",
+      "summary": "U.S. DoJ reveals Lawrence Bishnoi's gang plotted to murder an Indian actor to instill fear and recruit impoverished minors.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/ktsvky/article71203509.ece/alternates/LANDSCAPE_1200/2024-10-16T095057Z_1045690664_RC2LLAAAAMXG_RTRMADP_3_CANADA-INDIA-BISHNOI.JPG"
+    },
+    {
+      "title": "Govt. receives WhatsApp’s reply on notice over ‘username’ feature",
+      "url": "https://www.thehindu.com/news/national/govt-receives-whatsapps-reply-on-notice-over-username-feature/article71205383.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-07-10T05:37:43.000Z",
+      "summary": "The Indian government reviews WhatsApp's response regarding concerns over its controversial username feature amid potential online fraud risks.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/wtft2/article71205414.ece/alternates/LANDSCAPE_1200/2026-02-09T103928Z_1294718426_RC29IJAWX5SC_RTRMADP_3_EU-META-PLATFORMS-AI-ANTITRUST.JPG"
+    },
+    {
+      "title": "Not a Modi breakthrough, Australia's ruling party approved uranium sales to India in 2011: Congress",
+      "url": "https://www.thehindu.com/news/national/not-a-modi-breakthrough-australias-ruling-party-approved-uranium-sales-to-india-in-2011-congress/article71205370.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-07-10T05:29:49.000Z",
+      "summary": "Congress disputes BJP's claim of a Modi breakthrough in Australia's uranium sales to India, citing earlier approval in 2011.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/u5e9vb/article71205416.ece/alternates/LANDSCAPE_1200/PTI07_10_2026_000132B.jpg"
+    },
+    {
+      "title": "Yen rises as Japan woos pension funds into domestic assets",
+      "url": "https://www.reuters.com/world/asia-pacific/fragile-yen-set-weekly-decline-intervention-risks-mount-2026-07-10/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Fri, 10 Jul 2026 00:43:00 GMT",
+      "summary": "Reuters: Yen rises as Japan woos pension funds into domestic assets.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/6PGLXNR5BRM6HDSAGGYNW2D55M.jpg?auth=e781bd256daaa1c26f1b718fe726885f88a74bbd9d4cdead568fed52c138f8c4&width=1920&quality=80"
+    },
+    {
+      "title": "Coinbase's top attorney who has led crypto's Washington fight to step down",
+      "url": "https://www.reuters.com/world/coinbases-top-attorney-who-has-led-cryptos-washington-fight-step-down-2026-07-09/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Thu, 09 Jul 2026 22:12:09 GMT",
+      "summary": "Reuters: Coinbase's top attorney who has led crypto's Washington fight to step down.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/WDLQ7AOO7BL4HFMX7UBXZUR3Y4.jpg?auth=21947a77bffe56cd1187d456c9194a55ed2eea01378baa0be9397f458f87e795&width=1080&quality=80"
+    },
+    {
+      "title": "South African protesters go door-to-door forcing immigrants from their homes",
+      "url": "https://www.reuters.com/world/africa/south-african-protesters-go-door-to-door-forcing-immigrants-their-homes-2026-07-09/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Thu, 09 Jul 2026 22:16:45 GMT",
+      "summary": "Reuters: South African protesters go door-to-door forcing immigrants from their homes.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/EPOHDJGUVVKJTKA6STYRMXB4LE.jpg?auth=a660d4e95449ad45c76d621a1ac1059c466cd47ddda312cc7a1842227a002fc2&height=1005&width=1920&quality=80&smart=true"
+    },
+    {
+      "title": "Spain says Trump softened rhetoric after learning of Madrid's contributions to NATO",
+      "url": "https://www.reuters.com/world/europe/spain-says-trump-softened-rhetoric-after-learning-madrids-contributions-nato-2026-07-09/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Thu, 09 Jul 2026 15:51:53 GMT",
+      "summary": "Reuters: Spain says Trump softened rhetoric after learning of Madrid's contributions to NATO.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/5JGTRDGJABMALCSESNHFPWR72A.jpg?auth=9de80e90048c367a6a4eacb091794327cbe42d401db1ca1661ccb7a19eff01ba&width=1920&quality=80"
+    },
+    {
+      "title": "Convoy carrying Russian fighters attacked in Mali, sources say",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNOXpYVGRPTHh3WVU2RGxoZXZYV3lScnBURktzNjYtZjhoRW1abkNHY3luUGptVkx3LUVOaGw4Z0M0VFBpRy1zUVhXci04ZUFCZ3VnNFY2Y09lSVlvaHJiR0Q2NjgtR1p5VW5qTU1EbFp1dHBCc0pXUzNzQlZvMzZ5NFRvczdCS3B0MGNXVXRpYkVwSk5RV29Wcy1tcmpBaWE3ZGxLbENQNTZEbUU?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Thu, 09 Jul 2026 16:34:16 GMT",
+      "summary": "Reuters: Convoy carrying Russian fighters attacked in Mali, sources say.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    }
+  ],
+  "markets": [
+    {
+      "id": "sp-500",
+      "label": "S&P 500",
+      "region": "US",
+      "symbol": "^GSPC",
+      "value": 7543.64,
+      "previousClose": 7482.7098240000005,
+      "change": 60.930176,
+      "percentChange": 0.81427956,
+      "direction": "up",
+      "sessionDate": "2026-07-10"
+    },
+    {
+      "id": "nasdaq-composite",
+      "label": "NASDAQ Composite",
+      "region": "US",
+      "symbol": "^IXIC",
+      "value": 26206.89,
+      "previousClose": 25870.651719999998,
+      "change": 336.23828,
+      "percentChange": 1.29969,
+      "direction": "up",
+      "sessionDate": "2026-07-10"
+    },
+    {
+      "id": "euronext-100",
+      "label": "Euronext 100 Index",
+      "region": "Europe",
+      "symbol": "^N100",
+      "value": 1912.74,
+      "previousClose": 1892.150034,
+      "change": 20.589966,
+      "percentChange": 1.0881783,
+      "direction": "up",
+      "sessionDate": "2026-07-10"
+    },
+    {
+      "id": "moex",
+      "label": "Public Joint-Stock Company Moscow Exchange MICEX-RTS",
+      "region": "Europe",
+      "symbol": "MOEX.ME",
+      "value": 85.2,
+      "previousClose": 85.31000061,
+      "change": -0.11000061,
+      "percentChange": -0.12894222,
+      "direction": "down",
+      "sessionDate": "2026-07-10"
+    },
+    {
+      "id": "hang-seng",
+      "label": "HANG SENG INDEX",
+      "region": "Asia",
+      "symbol": "^HSI",
+      "value": 24335.39,
+      "previousClose": 24030.17906,
+      "change": 305.21094,
+      "percentChange": 1.269881,
+      "direction": "up",
+      "sessionDate": "2026-07-10"
+    },
+    {
+      "id": "nikkei-225",
+      "label": "Nikkei 225",
+      "region": "Asia",
+      "symbol": "^N225",
+      "value": 68771.38,
+      "previousClose": 67743.8488,
+      "change": 1027.5312,
+      "percentChange": 1.5170221,
+      "direction": "up",
+      "sessionDate": "2026-07-10"
+    },
+    {
+      "id": "sensex",
+      "label": "S&P BSE SENSEX",
+      "region": "India",
+      "symbol": "^BSESN",
+      "value": 77450.31,
+      "previousClose": 76741.8178,
+      "change": 708.4922,
+      "percentChange": 0.92322165,
+      "direction": "up",
+      "sessionDate": "2026-07-10"
+    }
+  ],
+  "hackerNews": [
+    {
+      "title": "Show HN: Getting GLM 5.2 running on my slow computer",
+      "url": "https://github.com/JustVugg/colibri",
+      "publishedAt": "2026-07-09T08:05:04.000Z",
+      "summary": "Run GLM-5.2 (744B MoE) on a 25GB-RAM consumer machine — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦 - JustVugg/colibri",
+      "thumbnailUrl": "https://opengraph.githubassets.com/fddd0e42771b2416529c772d3d7d11a39ac55bcdc263c4df4952024a6674000a/JustVugg/colibri"
+    },
+    {
+      "title": "EU Parliament greenlights Chat Control 1.0",
+      "url": "https://www.patrick-breyer.de/en/eu-parliament-greenlights-chat-control-1-0-breyer-our-children-lose-out/",
+      "publishedAt": "2026-07-09T11:03:54.000Z",
+      "summary": "Today, the European Parliament allowed the suspicionless mass scanning of private communications (\"Chat Control 1.0\") to pass, a measure it had rejected twice in March. Although a majority of voting Members of the European Parliament (MEPs) actually opposed the regulation (314 against, 276 in favor,",
+      "thumbnailUrl": "https://www.patrick-breyer.de/wp-content/uploads/2023/07/logo_regular_vertical.png"
+    },
+    {
+      "title": "Show HN: 18 Words",
+      "url": "https://18words.com/",
+      "publishedAt": "2026-07-09T12:48:52.000Z",
+      "summary": "A fast daily word challenge. Can you survive all 18 words?",
+      "thumbnailUrl": "https://18words.com/og-image.png"
+    },
+    {
+      "title": "GPT-5.6",
+      "url": "https://openai.com/index/gpt-5-6/",
+      "publishedAt": "2026-07-09T17:04:14.000Z",
+      "summary": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
+      "thumbnailUrl": "https://images.ctfassets.net/kftzwdyauwt9/3T0kxQLJk1VcXVxMwXF97J/4345df401f2b08ed6a1eef88c9588d2e/OAI_ChatGPTWork_ModelBlog_OpenGraph_16x9_1200x630.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "title": "Study: \"Mommy, do you love your phone more than me?\"",
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1766665/full",
+      "publishedAt": "2026-07-10T00:20:28.000Z",
+      "summary": "While there is robust literature on the negative impact of adolescent device use on physical and psychological health, there is less research on the use of t...",
+      "thumbnailUrl": "https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/0F39389F-DE2D-4BF1-AFE71BA9B6F25024/918D96DB-F484-4EC1-8FBF9AB5F74B20F4/WebsiteWebP_XL-FPSYG_Main%20Visual_Green_Website.webp"
+    },
+    {
+      "title": "Interview with Mitchell Hashimoto about Ghostty and Zig",
+      "url": "https://alexalejandre.com/programming/interview-with-mitchell-hashimoto/",
+      "publishedAt": "2026-07-09T17:17:16.000Z",
+      "summary": "Ghostty and Terraform maker and Hashicorp founder talks about open source, terminals and Zig.",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "Postgres rewritten in Rust, now passing 100% of the Postgres regression tests",
+      "url": "https://github.com/malisper/pgrust",
+      "publishedAt": "2026-07-09T06:18:19.000Z",
+      "summary": "Postgres rewritten in Rust, now passing 100% of the Postgres regression tests - malisper/pgrust",
+      "thumbnailUrl": "https://opengraph.githubassets.com/02e1354b0eb0f6ae034d3f1c3353219b90fc65f81969e080d44253af47300d44/malisper/pgrust"
+    },
+    {
+      "title": "Hy3",
+      "url": "https://hy.tencent.com/research/hy3",
+      "publishedAt": "2026-07-09T15:27:48.000Z",
+      "summary": "hy.tencent.com: Hy3.",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "No leap second will be introduced at the end of December 2026",
+      "url": "https://datacenter.iers.org/data/latestVersion/bulletinC.txt",
+      "publishedAt": "2026-07-09T14:16:34.000Z",
+      "summary": "datacenter.iers.org: No leap second will be introduced at the end of December 2026.",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "The glass backbone: Why the Army's logistics will break in the next war",
+      "url": "https://mwi.westpoint.edu/the-glass-backbone-why-the-armys-logistics-will-break-in-the-next-war/",
+      "publishedAt": "2026-07-09T13:24:43.000Z",
+      "summary": "The United States Army spent the last two decades optimizing sustainment for permissive environments defined by uncontested supply lines, contractor support, and static forward operating bases. As the National Defense Strategy shifts toward strategic competition and multidomain operations, however, this efficiency-driven model has become a liability. In large-scale combat operations, victory will depend less on",
+      "thumbnailUrl": "https://mwi.westpoint.edu/wp-content/uploads/2026/06/9522808.jpg?w=1080"
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "ARKAD Wallet",
+      "tagline": "Control your budget with voice",
+      "url": "https://www.producthunt.com/products/arkad-wallet",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-07-09T21:20:26-07:00"
+    },
+    {
+      "name": "Auriko",
+      "tagline": "Trading desk for LLM calls",
+      "url": "https://www.producthunt.com/products/auriko",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-07-09T23:03:58-07:00"
+    },
+    {
+      "name": "Aura: Agents + Git + Intent Open Source",
+      "tagline": "OSS IDE for controlling AI coding agents with built in loops",
+      "url": "https://www.producthunt.com/products/aura-28",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-07-09T22:13:11-07:00"
+    },
+    {
+      "name": "Coasty",
+      "tagline": "A Computer-Use-Agent that runs legacy software like a human",
+      "url": "https://www.producthunt.com/products/coasty",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-07-09T22:06:35-07:00"
+    },
+    {
+      "name": "Opper AI",
+      "tagline": "The european AI gateway for agents",
+      "url": "https://www.producthunt.com/products/opper-ai",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-07-09T22:39:16-07:00"
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "News and markets",
+      "sentences": [
+        "Global headlines: U.S. intensifies strikes on Iran’s coast along Strait of Hormuz (After President Donald Trump declared the collapse of a preliminary peace agreement on Wednesday, the U.S. and Iran traded renewed airstrikes); Health workers fighting Ebola go on strike after months without pay (Doctors and Nurses on the front lines of the Democratic Republic of Congo’s Ebola response have reached a breaking point); and U.S., Iran trade dozens more strikes in dangerous cycle (For a second straight day, the U.S. military attacked Iranian targets overnight and Iran struck back, targeting U.S. bases in Bahrain and Kuwait).",
+        "Markets leaned higher, with 6 of 7 tracked indexes up; Nikkei 225 up 1.52% was the largest move.",
+        "Benchmarks tracked: S&P 500, NASDAQ Composite, Euronext 100 Index, and Public Joint-Stock Company Moscow Exchange MICEX-RTS plus 3 more indexes."
+      ]
+    },
+    {
+      "title": "Hacker News and Product Hunt",
+      "sentences": [
+        "Hacker News: Show HN: Getting GLM 5.2 running on my slow computer (Run GLM-5.2 (744B MoE) on a 25GB-RAM consumer machine — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦 -...); EU Parliament greenlights Chat Control 1.0 (Today, the European Parliament allowed the suspicionless mass scanning of private communications (\"Chat Control 1.0\") to pass, a measure...); and Show HN: 18 Words (A fast daily word challenge. Can you survive all 18 words).",
+        "Product Hunt features ARKAD Wallet (Control your budget with voice), Auriko (Trading desk for LLM calls), and Aura: Agents + Git + Intent Open Source (OSS IDE for controlling AI coding agents with built in loops)."
+      ]
+    }
+  ],
+  "sourceNotes": {
+    "generatedAt": "2026-07-10T06:04:41.822Z",
+    "timeZone": "Asia/Kolkata",
+    "successfulSources": [
+      "Washington Post",
+      "Al Jazeera",
+      "NPR",
+      "China Daily",
+      "The Hindu",
+      "Reuters"
+    ],
+    "marketSessionLabel": "Latest market sessions as of 2026-07-10",
+    "warnings": []
+  }
+}
