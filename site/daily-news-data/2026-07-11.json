@@ -1,0 +1,501 @@
+{
+  "headlines": [
+    {
+      "title": "Patriot missile deal and Trump’s praise for Zelensky put pressure on Russia",
+      "url": "https://www.washingtonpost.com/world/2026/07/10/patriot-missile-deal-trumps-praise-zelensky-put-pressure-russia/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Fri, 10 Jul 2026 17:47:07 +0000",
+      "summary": "The Kremlin downplayed President Donald Trump’s reversal but said it could cause the war to go on longer.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/T7DPRVKQWJAPLYK5MH5GRIGR4A_size-normalized.jpg&w=1440"
+    },
+    {
+      "title": "Trump says U.S. and Iran will keep talking but declares ceasefire ‘OVER!’",
+      "url": "https://www.washingtonpost.com/world/2026/07/10/trump-says-us-iran-will-keep-talking-declares-ceasefire-over/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Fri, 10 Jul 2026 16:04:50 +0000",
+      "summary": "The president suggested talks could continue amid military strikes, but analysts say a deeply flawed preliminary truce deal poses obstacles for negotiators.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/XZADT7AZ4PEKS6XDXPETGLZ4SQ.JPG&w=1440"
+    },
+    {
+      "title": "At least 11 people killed as wildfires sweep southern Spain",
+      "url": "https://www.washingtonpost.com/world/2026/07/10/deadly-wildfire-southern-spain-leaves-least-11-dead/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Fri, 10 Jul 2026 13:10:11 +0000",
+      "summary": "The deaths in Andalusia included foreign nationals, and high temperatures raised fears of more fires across Europe.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/EYIZRZ5CI3UPLQYZJCUSANJCRY.JPG&w=1440"
+    },
+    {
+      "title": "U.S. intensifies strikes on Iran’s coast along Strait of Hormuz",
+      "url": "https://www.washingtonpost.com/world/2026/07/09/us-intensifies-strikes-irans-coast-along-strait-hormuz/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Thu, 09 Jul 2026 20:17:13 +0000",
+      "summary": "After President Donald Trump declared the collapse of a preliminary peace agreement on Wednesday, the U.S. and Iran traded renewed airstrikes.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/VVGICP753IP3NERZ2TMANGEXWE.JPG&w=1440"
+    },
+    {
+      "title": "Health workers fighting Ebola go on strike after months without pay",
+      "url": "https://www.washingtonpost.com/world/2026/07/09/congo-health-workers-fighting-ebola-go-strike-after-months-without-pay/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Thu, 09 Jul 2026 11:59:56 +0000",
+      "summary": "Doctors and Nurses on the front lines of the Democratic Republic of Congo’s Ebola response have reached a breaking point.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/SZVOGMHLBBQ4ZDU3MT6CD6LL7Y.JPG&w=1440"
+    },
+    {
+      "title": "‘We are the lost generation of Sudan’: Students in exile",
+      "url": "https://www.aljazeera.com/news/2026/7/11/we-are-the-lost-generation-of-sudan-students-in-exile",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-07-11",
+      "summary": "Years of conflict have left thousands of Sudanese students struggling to continue their education in exile.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/07/8110bc77-494b-43e1-b43f-d9b9812c28c5_BBAB3AD5-EB93-4F92-9E05-14DDC5867335-1-1783602000.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Trump says thousands of missiles will decimate Iran if it tries to kill him",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/7/11/iran-war-live-us-demands-iran-publicly-state-strait-of-hormuz-open-for-all",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-07-11",
+      "summary": "US president says orders given to 'decimate and destroy all areas of Iran' if he is assassinated",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/07/AFP__20260708__B9L34XC__v2__HighRes__TurkeyUsNatoSummitDefence-1783499247.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Nicaragua strips lawyers of certification in latest crackdown on dissent",
+      "url": "https://www.aljazeera.com/news/2026/7/10/nicaragua-strips-lawyers-of-certification-in-latest-crackdown-on-dissent",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-07-10",
+      "summary": "The government of Daniel Ortega and Rosario Murillo has been accused of human rights abuses against critics.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/07/getty_6a517bbd07-1783724989.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Cuba suffers second island-wide blackout in a week amid Trump fuel blockade",
+      "url": "https://www.aljazeera.com/news/2026/7/10/cuba-suffers-second-island-wide-blackout-in-a-week-amid-trump-fuel-blockade",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-07-10",
+      "summary": "US President Donald Trump has placed the Caribbean island under a de facto oil blockade, straining its power grid.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/07/afp_6a5173102d9f-1783722768.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Under Lula, Amazon deforestation falls to lowest level in a decade",
+      "url": "https://www.aljazeera.com/news/2026/7/10/under-lula-amazon-deforestation-falls-to-lowest-level-in-a-decade",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-07-10",
+      "summary": "The figures come months before Brazil’s presidential election, with Lula promising to end illegal deforestation by 2030.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/07/reuters_6a515ee6-1783717606.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Graham Platner makes it official in Maine, submitting paperwork to leave Senate race",
+      "url": "https://www.npr.org/2026/07/10/nx-s1-5888709/graham-platner-maine-senate-susan-collins",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Fri, 10 Jul 2026 17:22:01 -0400",
+      "summary": "In his withdrawal notice, Platner said \"people are desperate for change\" and that's why they made him the Democratic nominee. Now, Maine Democrats have to pick someone to replace him by July 27.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6000x4000+0+0/resize/6000x4000!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F52%2F3f%2Fa194c0974390a768ca63b5533f1e%2Fgettyimages-2280200612.jpg"
+    },
+    {
+      "title": "Patriotic art gets the spotlight as NEA funding shifts. Cue 'The Ronald Reagan Overture'",
+      "url": "https://www.npr.org/2026/07/10/nx-s1-5870578/ronald-reagan-250th-patriotic-art",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Fri, 10 Jul 2026 16:00:00 -0400",
+      "summary": "Patriotic art and music is taking center stage this year under the Trump Administration, as funds shift away from DEI. For some orgs, like the Reagan Presidential Library, this is their wheelhouse.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5616x3744+0+0/resize/5616x3744!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F9d%2F5b%2Fcc236ec947d8a5195ba2b0bd5deb%2Fgettyimages-467415794.jpg"
+    },
+    {
+      "title": "Houston neighbors started seeing more ICE agents around. Then came a fatal shooting.",
+      "url": "https://www.npr.org/2026/07/10/nx-s1-5886481/houston-neighbors-started-seeing-more-ice-agents-around-then-came-a-fatal-shooting",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Fri, 10 Jul 2026 15:08:57 -0400",
+      "summary": "Lorenzo Salgado Araujo was a 52-year-old Mexican national who worked in construction for more than three decades. The father of three was shot by Immigration and Customs Enforcement agents after they attempted to pull him over.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5712x4284+0+0/resize/5712x4284!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F6b%2F26%2F6024affc424fbe1f768d961a9087%2Fimg-2852.jpeg"
+    },
+    {
+      "title": "Largest housing affordability bill in decades becomes law without Trump's signature",
+      "url": "https://www.npr.org/2026/07/10/nx-s1-5885027/housing-bill-without-trump-signature",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Fri, 10 Jul 2026 10:55:21 -0400",
+      "summary": "President Trump refused to sign the bill without Congress first passing his sweeping voter ID bill.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5616x3744+0+0/resize/5616x3744!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F31%2F5a%2Fd52a0ad643c2b70dd41a15b6052e%2Fap26189621107845.jpg"
+    },
+    {
+      "title": "U.S.-Iran fighting appears to pause. And, life inside Israel's military zones in Gaza",
+      "url": "https://www.npr.org/2026/07/10/g-s1-132943/up-first-newsletter-iran-us-tps-haitians-syrians-eac-gaza-israel-hamas",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Fri, 10 Jul 2026 07:43:38 -0400",
+      "summary": "Fighting between the U.S. and Iran appears to have paused after two days of clashing amid a shaky ceasefire. And, a look at what life is like inside Israel's expanding zone of control in Gaza.",
+      "thumbnailUrl": "https://feeds.npr.org/1001/undefined"
+    },
+    {
+      "title": "India looks to broaden options",
+      "url": "https://www.chinadaily.com.cn/a/202607/10/WS6a505151a310986e2b4648eb.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-07-10",
+      "summary": "Indian Prime Minister Narendra Modi's recent visits to Indonesia, Australia and New Zealand are aimed at bolstering the nation's ties in the Asia-Pacific region. Amid increasingly complex and strained relations between the United States and India, New Delhi is looking to broaden its development options. Although Modi's visit could help ease near-term economic pressures, it remains unclear whether it will advance the country's long-term strategic goals, experts said.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202607/10/6a505151a310986e10194dda.png"
+    },
+    {
+      "title": "US divergence sows discord at NATO summit",
+      "url": "https://www.chinadaily.com.cn/a/202607/10/WS6a50484ba310986e2b464860.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-07-10",
+      "summary": "NATO leaders left Turkiye on Wednesday after reaffirming their commitment to collective defense, but uncertainty now hangs over the alliance following US President Donald Trump's disruptive remarks.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202607/10/6a50484ba310986e10194b97.jpeg"
+    },
+    {
+      "title": "12 killed in southern Spain wildfire",
+      "url": "https://www.chinadaily.com.cn/a/202607/10/WS6a5043c8a310986e2b464802.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-07-10",
+      "summary": "MADRID -- Twelve people were killed in a major wildfire that broke out on Thursday afternoon in Los Gallardos, in Almeria province of Spain's southern Andalusia region, according to the local emergency service.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202607/10/6a505fa0a310986e101950d8.png"
+    },
+    {
+      "title": "Region on shaky ground as US, Iran trade attacks",
+      "url": "https://www.chinadaily.com.cn/a/202607/10/WS6a505815a310986e2b46490e.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-07-10",
+      "summary": "The situation in the Middle East remained on shaky ground after Washington and Tehran traded strikes for the second consecutive night, leaving a trail of casualties and keeping the region on edge with security alerts in Qatar and warning sirens in Kuwait and Bahrain.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202607/10/6a505815a310986e10194e1e.png"
+    },
+    {
+      "title": "Civic groups call for Japan to reflect on wartime past",
+      "url": "https://www.chinadaily.com.cn/a/202607/10/WS6a5055cda310986e2b4648fd.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-07-10",
+      "summary": "At a rally held by several Japanese civic groups on Tuesday, participants called on Japan to learn from history and guard against the resurgence of militarism.",
+      "thumbnailUrl": "https://www.chinadaily.com.cn/image_e/2020/logo21.jpg"
+    },
+    {
+      "title": "NIA files charge sheet against six separatist leaders in 1996 Kashmir mob violence case",
+      "url": "https://www.thehindu.com/news/national/nia-files-chargesheet-against-six-separatist-leaders-in-1996-mob-violence-case/article71206123.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-07-10T10:38:32.000Z",
+      "summary": "NIA charges six separatist leaders for their roles in a 1996 mob violence case during a funeral procession in Srinagar.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/laewze/article71206195.ece/alternates/LANDSCAPE_1200/IMG_Syed_Ali_Shah_Geelan_2_1_K7C7CO1F.jpg"
+    },
+    {
+      "title": "Congress puts pressure on Govt. with multiple press conferences on alleged donation theft at Ram Mandir",
+      "url": "https://www.thehindu.com/news/national/congress-puts-pressure-on-govt-with-multiple-press-conferences-on-alleged-donation-theft-at-ram-mandir/article71206715.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-07-10T17:01:24.000Z",
+      "summary": "Congress pressures the government over alleged Ram Mandir donation theft, questioning PM Modi's silence and demanding a Supreme Court probe.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/in2k31/article71207764.ece/alternates/LANDSCAPE_1200/PTI07_10_2026_000247B.jpg"
+    },
+    {
+      "title": "PM’s New Zealand visit will unlock new avenues of cooperation: govt.",
+      "url": "https://www.thehindu.com/news/national/pm-modi-new-zealand-visit-christopher-luxon/article71205606.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-07-10T07:09:59.000Z",
+      "summary": "PM Modi's visit to New Zealand focuses on strengthening economic ties and trade relations with Prime Minister Christopher Luxon.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/chehm/article71205645.ece/alternates/LANDSCAPE_1200/PTI07_10_2026_000185B.jpg"
+    },
+    {
+      "title": "Congress urges NDA States to oppose VBSA Bill on higher education",
+      "url": "https://www.thehindu.com/news/national/congress-urges-nda-states-to-oppose-vbsa-bill-on-higher-education/article71207041.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-07-10T14:50:19.000Z",
+      "summary": "Congress urges NDA States to oppose the VBSA Bill, citing concerns over centralisation and reduced university autonomy.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/8mbtpn/article71207207.ece/alternates/LANDSCAPE_1200/PTI06_18_2026_000117B.jpg"
+    },
+    {
+      "title": "Parliament panel seeks changes to Bill on removal of PM, CMs and Ministers after 30 days in jail",
+      "url": "https://www.thehindu.com/news/national/parliament-panel-seeks-changes-to-bill-on-removal-of-pm-cms-and-ministers-after-30-days-in-jail/article71207468.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-07-10T16:31:24.000Z",
+      "summary": "Parliament panel recommends replacing \"removal\" with \"suspension\" in Bill on public officials' custody, addressing concerns of misuse.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/hmu4u3/article71207778.ece/alternates/LANDSCAPE_1200/20260617131L.jpg"
+    },
+    {
+      "title": "Trump says missiles aimed at Iran if Tehran targets US president",
+      "url": "https://www.reuters.com/world/middle-east/trump-says-missiles-aimed-iran-if-tehran-targets-us-president-2026-07-11/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Sat, 11 Jul 2026 03:35:00 GMT",
+      "summary": "Reuters: Trump says missiles aimed at Iran if Tehran targets US president.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/CHJ7477EYVJCNCRW7Z43W6YTOA.jpg?auth=436590750ca0c7392335ef4d4c145d3a3cf7566b81295bb337ed0f8e2454c5ba&width=1920&quality=80"
+    },
+    {
+      "title": "North Korea condemns US, allies after NATO summit, vows to safeguard sovereignty",
+      "url": "https://www.reuters.com/world/china/north-korea-condemns-us-allies-after-nato-summit-vows-safeguard-sovereignty-2026-07-11/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Sat, 11 Jul 2026 03:34:00 GMT",
+      "summary": "Reuters: North Korea condemns US, allies after NATO summit, vows to safeguard sovereignty.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/FNY7OXKMQ5LUPNQUGMAD6RYOYM.jpg?auth=fcfd7e06f13a58c4ccd23129905506a56d4c294337f843236994c8e3eaa3547a&width=1920&quality=80"
+    },
+    {
+      "title": "Kyiv under Russian missile attack, officials say",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOY3k1cm9pSmZSWW94aGcyM09sWWdadXpEWWZBbGhFTjlfWDFkbzBZV3o4bmpycmY2QmQyelNrUVBFUmRLY1FwMS1XbVl4NU0tNGxIbmplTEstaXFlQV9na3IzdHd2YUxMNzQ1ZXRvMFlmQ05lR1gwT09oYXIyWkV4aWJDdEE5ZnVDMFVMalpnNjZpNFNfNThLR1ZEeGk?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Sat, 11 Jul 2026 01:37:00 GMT",
+      "summary": "Reuters: Kyiv under Russian missile attack, officials say.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "US insists Iran commit to stopping attacks in Hormuz strait, say US officials",
+      "url": "https://www.reuters.com/world/middle-east/us-insists-iran-commit-stopping-attacks-hormuz-strait-say-us-officials-2026-07-10/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Fri, 10 Jul 2026 21:36:03 GMT",
+      "summary": "Reuters: US insists Iran commit to stopping attacks in Hormuz strait, say US officials.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/7TAEZ5ZIDFOG3KEREHSCHF7IWM.jpg?auth=02d360951552f93dd1177facc0b2fad0b10b15af1fb527cd279b6e0e60dd1523&width=1920&quality=80"
+    },
+    {
+      "title": "US acting spy chief announces new round of staff reductions",
+      "url": "https://www.reuters.com/world/us/us-acting-spy-chief-announces-third-round-terminations-2026-07-11/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Sat, 11 Jul 2026 01:32:00 GMT",
+      "summary": "Reuters: US acting spy chief announces new round of staff reductions.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/GSAFSU4V5NJR3ONZBTDFEJGBUQ.jpg?auth=fb62829e8205846d9e75cbe152c58809ba2c7fcf7d34889ef5c171df043337d1&width=1920&quality=80"
+    }
+  ],
+  "markets": [
+    {
+      "id": "sp-500",
+      "label": "S&P 500",
+      "region": "US",
+      "symbol": "^GSPC",
+      "value": 7527.25,
+      "previousClose": 7543.640137,
+      "change": -16.390137,
+      "percentChange": -0.217262,
+      "direction": "down",
+      "sessionDate": "2026-07-11"
+    },
+    {
+      "id": "nasdaq-composite",
+      "label": "NASDAQ Composite",
+      "region": "US",
+      "symbol": "^IXIC",
+      "value": 26185.41,
+      "previousClose": 26206.890468999998,
+      "change": -21.480469,
+      "percentChange": -0.0819678,
+      "direction": "down",
+      "sessionDate": "2026-07-11"
+    },
+    {
+      "id": "euronext-100",
+      "label": "Euronext 100 Index",
+      "region": "Europe",
+      "symbol": "^N100",
+      "value": 1907.86,
+      "previousClose": 1912.7400049999999,
+      "change": -4.880005,
+      "percentChange": -0.25513163,
+      "direction": "down",
+      "sessionDate": "2026-07-11"
+    },
+    {
+      "id": "moex",
+      "label": "Public Joint-Stock Company Moscow Exchange MICEX-RTS",
+      "region": "Europe",
+      "symbol": "MOEX.ME",
+      "value": 85.2,
+      "previousClose": 85.31000061,
+      "change": -0.11000061,
+      "percentChange": -0.12894222,
+      "direction": "down",
+      "sessionDate": "2026-07-11"
+    },
+    {
+      "id": "hang-seng",
+      "label": "HANG SENG INDEX",
+      "region": "Asia",
+      "symbol": "^HSI",
+      "value": 24175.12,
+      "previousClose": 24030.180549999997,
+      "change": 144.93945,
+      "percentChange": 0.6031559,
+      "direction": "up",
+      "sessionDate": "2026-07-11"
+    },
+    {
+      "id": "nikkei-225",
+      "label": "Nikkei 225",
+      "region": "Asia",
+      "symbol": "^N225",
+      "value": 68557.73,
+      "previousClose": 67743.855,
+      "change": 813.875,
+      "percentChange": 1.2014005,
+      "direction": "up",
+      "sessionDate": "2026-07-11"
+    },
+    {
+      "id": "sensex",
+      "label": "S&P BSE SENSEX",
+      "region": "India",
+      "symbol": "^BSESN",
+      "value": 77569.39,
+      "previousClose": 76741.8197,
+      "change": 827.5703,
+      "percentChange": 1.0783825,
+      "direction": "up",
+      "sessionDate": "2026-07-11"
+    }
+  ],
+  "hackerNews": [
+    {
+      "title": "Einstein's relativity rules chemical bonds in heavy elements, new research shows",
+      "url": "https://www.brown.edu/news/2026-07-09/chemical-bonds-relativity",
+      "publishedAt": "2026-07-10T22:30:44.000Z",
+      "summary": "Researchers have shown the first direct experimental evidence that the textbook triple bond structure breaks down in heavy elements, where relativity makes the rules.",
+      "thumbnailUrl": "https://www.brown.edu/sites/default/files/styles/wide_lrg/public/2026-07/chemistry-stock.jpg?h=1d4b4ebd&itok=Iv8YhdkV"
+    },
+    {
+      "title": "QuadRF can spot drones and see WiFi through my wall",
+      "url": "https://www.jeffgeerling.com/blog/2026/quadrf-can-spot-drones-and-see-wifi-through-my-wall/",
+      "publishedAt": "2026-07-10T15:59:53.000Z",
+      "summary": "The QuadRF (pictured above) a phased-array radio built around a Raspberry Pi 5 and an FPGA board with picosecond-level timing. It does advanced signal processing and beamforming. It can see WiFi through walls and track drones in flight. If the open source community can come up with something like this, just imagine what governments are capable of. When you plug a computer into a network, tools like Wireshark can show all the hidden traffic you might not even know is there. WiFi packets are the same, but those travel through the air, allowing snooping without physical access.",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "Apple sues OpenAI, accuses ex-employees of stealing trade secrets",
+      "url": "https://9to5mac.com/2026/07/10/apple-sues-openai-trade-secret-theft/",
+      "publishedAt": "2026-07-10T20:47:09.000Z",
+      "summary": "Apple has filed a lawsuit against OpenAI today, accusing the company of trade secret theft. Specifically, Apple alleges that its...",
+      "thumbnailUrl": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2026/05/apple-openai.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1"
+    },
+    {
+      "title": "An update on residential proxies and the scraper situation",
+      "url": "https://lwn.net/SubscriberLink/1080822/990a8a5e2d379085/",
+      "publishedAt": "2026-07-10T19:38:34.000Z",
+      "summary": "Our article",
+      "thumbnailUrl": "https://static.lwn.net/images/logo/barepenguin-70.webp"
+    },
+    {
+      "title": "GPT-5.6 Sol Ultra produces proof of the Cycle Double Cover Conjecture [pdf]",
+      "url": "https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf",
+      "publishedAt": "2026-07-10T18:29:19.000Z",
+      "summary": "cdn.openai.com: GPT-5.6 Sol Ultra produces proof of the Cycle Double Cover Conjecture [pdf].",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "SpaceX wants to launch 100k more Starlink satellites for 100x the bandwidth",
+      "url": "https://www.zdnet.com/home-and-office/networking/spacex-wants-to-launch-100000-more-starlink-satellites/",
+      "publishedAt": "2026-07-10T17:51:07.000Z",
+      "summary": "It could mean faster internet for rural customers, but not everyone is happy.",
+      "thumbnailUrl": "https://www.zdnet.com/a/img/resize/2d7049a36d241cdf177935c0c0df5f03a2d52bf7/2026/07/10/f550fe8f-37ce-4eb1-b39c-c1e306d05a74/gettyimages-2280481321.jpg?auto=webp&fit=crop&height=675&width=1200"
+    },
+    {
+      "title": "The tech of 'Terminator 2' – an oral history (2017)",
+      "url": "https://vfxblog.com/2017/08/23/the-tech-of-terminator-2-an-oral-history/",
+      "publishedAt": "2026-07-10T16:48:41.000Z",
+      "summary": "Ever since James Cameron’s Terminator 2: Judgment Day was released in 1991, I’ve been reading about the many ways ILM, led by visual effects supervisor Dennis Muren, had to basically invent new way…",
+      "thumbnailUrl": "https://vfxblog.com/wp-content/uploads/2017/08/death1.jpg"
+    },
+    {
+      "title": "Late Bronze Age Collapse",
+      "url": "https://acoup.blog/2026/01/30/collections-the-late-bronze-age-collapse-a-very-brief-introduction/",
+      "publishedAt": "2026-07-10T11:59:55.000Z",
+      "summary": "This week, by order of the ACOUP Senate, we're talking about the Late Bronze Age Collapse (commonly abbreviated &#8216;LBAC'), the shocking collapse of the Late Bronze Age state system …",
+      "thumbnailUrl": "https://i0.wp.com/acoup.blog/wp-content/uploads/2026/01/Medinet_Habu_Ramses_III._Tempel_Nordostwand_Abzeichnung_01.jpg?fit=1200%2C595&#038;ssl=1"
+    },
+    {
+      "title": "Good Tools Are Invisible",
+      "url": "https://www.gingerbill.org/article/2026/07/10/good-tools-are-invisible/",
+      "publishedAt": "2026-07-10T10:32:41.000Z",
+      "summary": "TL;DR: A good tool is and ought to be invisible—striving to make such tools is the goal of a toolmaker.One habit I see a lot, and have to push back on, is taking a tool's shortcomings and reselling them as a &#34;puzzle game&#34; which is &#34;fun&#34; to solve.I don't want my tools to be &#34;fun&#34;. I want my tools to be invisible.Text Editor WarsLet's take vim as an example This is just an example, and applies to other editors too.. I constantly see some people praise it not for what actually makes it good, but by taking the things ...",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "New York City to ban deceptive subscription practices",
+      "url": "https://www.theguardian.com/us-news/2026/jul/10/new-york-city-deceptive-subscriptions-ban",
+      "publishedAt": "2026-07-10T18:26:24.000Z",
+      "summary": "Rule from Mamdani administration bans companies from trapping customers into paying recurring charges and ‘junk fees’",
+      "thumbnailUrl": "https://i.guim.co.uk/img/media/b522a4563292b5972c9443aa2001a8637f1266b5/72_226_2591_2073/master/2591.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=8576dc8571bc0efaa7b0ef0eb44b88fa"
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "Scarlett.",
+      "tagline": "Your AI Co-Worker in Slack & iMessage",
+      "url": "https://www.producthunt.com/products/tryscarlett",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-07-10T22:12:55-07:00"
+    },
+    {
+      "name": "Muse Spark 1.1 by Meta AI",
+      "tagline": "Multimodal reasoning model built for agentic tasks",
+      "url": "https://www.producthunt.com/products/muse-spark-1-1-by-meta",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-07-10T21:44:50-07:00"
+    },
+    {
+      "name": "Ship OS by Notion",
+      "tagline": "The agent-native way to ship software",
+      "url": "https://www.producthunt.com/products/notion",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-07-10T22:13:15-07:00"
+    },
+    {
+      "name": "ChatCut",
+      "tagline": "Your AI video editor in ChatGPT, desktop, and web",
+      "url": "https://www.producthunt.com/products/chatcut-ai-video-editor",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-07-10T22:13:12-07:00"
+    },
+    {
+      "name": "PlugThis",
+      "tagline": "Create your own Chrome Extensions by chatting with AI",
+      "url": "https://www.producthunt.com/products/plugthis-chrome-extension-generator",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-07-10T22:13:15-07:00"
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "News and markets",
+      "sentences": [
+        "Global headlines: Patriot missile deal and Trump’s praise for Zelensky put pressure on Russia (The Kremlin downplayed President Donald Trump’s reversal but said it could cause the war to go on longer); Trump says U.S. and Iran will keep talking but declares ceasefire ‘OVER!’ (The president suggested talks could continue amid military strikes, but analysts say a deeply flawed preliminary truce deal poses obstacles for negotiators); and At least 11 people killed as wildfires sweep southern Spain (The deaths in Andalusia included foreign nationals, and high temperatures raised fears of more fires across Europe).",
+        "Markets leaned lower, with 4 of 7 tracked indexes down; Nikkei 225 up 1.20% was the largest move.",
+        "Benchmarks tracked: S&P 500, NASDAQ Composite, Euronext 100 Index, and Public Joint-Stock Company Moscow Exchange MICEX-RTS plus 3 more indexes."
+      ]
+    },
+    {
+      "title": "Hacker News and Product Hunt",
+      "sentences": [
+        "Hacker News: Einstein's relativity rules chemical bonds in heavy elements, new research shows (Researchers have shown the first direct experimental evidence that the textbook triple bond structure breaks down in heavy elements, where...); QuadRF can spot drones and see WiFi through my wall (The QuadRF (pictured above) a phased-array radio built around a Raspberry Pi 5 and an FPGA board with picosecond-level timing. It does...); and Apple sues OpenAI, accuses ex-employees of stealing trade secrets (Apple has filed a lawsuit against OpenAI today, accusing the company of trade secret theft. Specifically, Apple alleges that its...).",
+        "Product Hunt features Scarlett. (Your AI Co-Worker in Slack & iMessage), Muse Spark 1.1 by Meta AI (Multimodal reasoning model built for agentic tasks), and Ship OS by Notion (The agent-native way to ship software)."
+      ]
+    }
+  ],
+  "sourceNotes": {
+    "generatedAt": "2026-07-11T05:14:10.655Z",
+    "timeZone": "Asia/Kolkata",
+    "successfulSources": [
+      "Washington Post",
+      "Al Jazeera",
+      "NPR",
+      "China Daily",
+      "The Hindu",
+      "Reuters"
+    ],
+    "marketSessionLabel": "Latest market sessions as of 2026-07-11",
+    "warnings": []
+  }
+}
