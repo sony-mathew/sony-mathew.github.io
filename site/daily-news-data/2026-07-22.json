@@ -1,0 +1,500 @@
+{
+  "headlines": [
+    {
+      "title": "Latest combat deaths show risk has shifted to troops far from Iran’s borders",
+      "url": "https://www.washingtonpost.com/national-security/2026/07/21/troops-killed-iranian-attacks-were-tasked-with-defending-bases-incoming-strikes/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Wed, 22 Jul 2026 02:36:58 +0000",
+      "summary": "In a war dominated by drones and long-range missiles, the front line has moved to U.S. facilities far from Iran’s borders.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DWITN3U24D54XKGPRBL22GK23U_size-normalized.jpg&w=1440"
+    },
+    {
+      "title": "Hegseth faces bipartisan scrutiny as Iran war escalates",
+      "url": "https://www.washingtonpost.com/world/2026/07/21/red-sea-blockade-threatens-new-front-us-iran-war/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Wed, 22 Jul 2026 01:30:12 +0000",
+      "summary": "Some lawmakers seeking clarity on the Trump administration’s strategy for the conflict appeared frustrated as the Pentagon seeks billions in additional wartime funding.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/4R4YNKNX2OJNDVJUYB2B6Q63U4_size-normalized.JPG&w=1440"
+    },
+    {
+      "title": "Death of Moroccan man in Italian police custody sparks protests, violence",
+      "url": "https://www.washingtonpost.com/world/2026/07/21/death-moroccan-man-italian-police-custody-sparks-protests-violence/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Tue, 21 Jul 2026 22:52:02 +0000",
+      "summary": "The death of Abderrahim Fakir in Italy drew parallels to the death of George Floyd.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/DGVS5IEQENRYMN7YUGSYZYACVQ.JPG&w=1440"
+    },
+    {
+      "title": "Zelensky ousts Ukraine’s military commander as major shake-up continues",
+      "url": "https://www.washingtonpost.com/world/2026/07/21/zelensky-ousts-ukraines-military-commander-major-shake-up-continues/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Tue, 21 Jul 2026 22:41:32 +0000",
+      "summary": "The dismissal of Gen. Oleksandr Syrsky came days after the Ukrainian president fired Defense Minister Mykhailo Fedorov.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/P3F7PVBCHQI63JZPDZYUSBZPXQ.jpg&w=1440"
+    },
+    {
+      "title": "Trump meets with Lebanese leader, pledges support for peace efforts with Israel",
+      "url": "https://www.washingtonpost.com/politics/2026/07/21/trump-pledges-support-lebanon-peace-efforts-with-israel-clashes-continue/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Tue, 21 Jul 2026 20:29:51 +0000",
+      "summary": "The event marked the White House’s latest attempt to broker an Israeli pullout from southern Lebanon, where Israel has been fighting Hezbollah.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/5RE3B6PTI2DY42BDIKYLT2EPXA_size-normalized.jpg&w=1440"
+    },
+    {
+      "title": "Palestine weekly: Ahead of elections, Israel doubles down on attacks",
+      "url": "https://www.aljazeera.com/news/2026/7/22/palestine-weekly-ahead-of-elections-israel-doubles-down-on-attacks",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-07-22",
+      "summary": "Gaza mourns as families are buried after Israeli attacks leave dozens dead, including children and displaced families.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/07/reuters_6a6034c4-1784689860.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "More than 140 dead, missing on refugee boat stranded off Mauritania",
+      "url": "https://www.aljazeera.com/news/2026/7/22/more-than-140-dead-missing-on-refugee-boat-stranded-off-mauritania",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-07-22",
+      "summary": "Boat carrying migrants and refugees from Africa ran out of fuel, leading to a tragedy with 143 dead and 38 rescued.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/07/ap_6a6032b887f1e-1784689336.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "How armed group alliances are reshaping Mali’s conflict and the wider Sahel",
+      "url": "https://www.aljazeera.com/news/2026/7/22/how-armed-group-alliances-are-reshaping-malis-conflict-and-the-wider-sahel",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-07-22",
+      "summary": "A deadly attack near Anefis exposes the growing challenges facing Mali's military leaders.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/07/AP26199696598399-1784634685.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "‘Unprecedented’: OpenAI says AI models autonomously hacked another company",
+      "url": "https://www.aljazeera.com/news/2026/7/22/unprecedented-openai-says-ai-models-autonomously-hacked-another-company",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-07-22",
+      "summary": "OpenAI says an autonomous agent bypassed controls and hacked Hugging Face servers during a cybersecurity test.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/07/getty_6a6018089d-1784682504.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "US targets China in move to ban military-grade drone imports",
+      "url": "https://www.aljazeera.com/news/2026/7/22/us-targets-china-in-move-to-ban-military-grade-drone-imports",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-07-22",
+      "summary": "Proposed rules would have US regulator block the entry of swarm-capable drones, mainly from China.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/05/2026-05-16T050558Z_29520214_RC2Q8LATM31Z_RTRMADP_3_USA-CHINA-TRUMP-XI-1779064690.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Staying in a job for the health insurance? About 1 in 4 Americans do, a survey says",
+      "url": "https://www.npr.org/2026/07/22/nx-s1-5902333/health-insurance-jobs-gallup",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Wed, 22 Jul 2026 00:01:00 -0400",
+      "summary": "About 24% of U.S. employees stay in unwanted jobs just for health insurance, a report out Wednesday finds. Up significantly since 2021, the uptick in \"job lock\" is a concerning sign for the U.S. economy.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6000x4000+0+0/resize/6000x4000!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F72%2Fe0%2Fff6725fa4025a9155a253ea4dd07%2Fgettyimages-1353760073.jpg"
+    },
+    {
+      "title": "House votes to extend government funding, aiming to avoid an election year shutdown",
+      "url": "https://www.npr.org/2026/07/21/nx-s1-5902245/government-funding-house-vote-continuing-resolution",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Tue, 21 Jul 2026 22:20:15 -0400",
+      "summary": "Lawmakers are hoping to avoid a third shutdown since last September. The stopgap funding measure now heads to the Senate, where it faces an uncertain future.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5178x3452+0+0/resize/5178x3452!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F0e%2F05%2Fb3f1fb714c06922e496305a62f50%2Fap26198586834014.jpg"
+    },
+    {
+      "title": "Smithsonian too focused on 'oppressors and the oppressed,' say House Republicans",
+      "url": "https://www.npr.org/2026/07/21/nx-s1-5902101/smithsonian-house-hearing",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Tue, 21 Jul 2026 17:41:25 -0400",
+      "summary": "In a House DOGE subcommittee hearing, GOP representatives excoriated the director of the National Museum of American History, following a White House report earlier this month that also criticized her.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5616x3744+0+0/resize/5616x3744!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F46%2F82%2Fe9584f5849a19cba777ce86e4412%2Fgettyimages-2286441227.jpg"
+    },
+    {
+      "title": "Ukraine's Zelenskyy fires his military chief after protests and names a new one",
+      "url": "https://www.npr.org/2026/07/21/g-s1-134849/ukraine-military-chief-fired-protests",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Tue, 21 Jul 2026 17:30:02 -0400",
+      "summary": "President Volodymyr Zelenskyy fired Gen. Oleksandr Syrskyi as commander-in-chief of Ukraine's armed forces following days of protests demanding his removal. Zelenskyy appointed Mykhailo Drapatyi as the new army chief.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2000x1333+0+0/resize/2000x1333!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F36%2F57%2F0bcd69b04045b6553fd33188e37a%2Fap26199705557337.jpg"
+    },
+    {
+      "title": "Nicaragua's President Ortega says no more elections, extending his 20-year rule",
+      "url": "https://www.npr.org/2026/07/21/nx-s1-5902228/nicaragua-ortega-no-elections",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Tue, 21 Jul 2026 15:10:42 -0400",
+      "summary": "The announcement effectively canceled Nicaragua's next elections, originally scheduled for November 2027.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2818x1879+0+0/resize/2818x1879!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F73%2Fed%2Fbd6761d8444bb58ef4084af9757c%2Fap26191710111087.jpg"
+    },
+    {
+      "title": "China's contribution to UN, global affairs draws praise",
+      "url": "https://www.chinadaily.com.cn/a/202607/22/WS6a602ec6a310986e2b466a3e.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-07-22",
+      "summary": "On the 55th anniversary of the restoration of China's lawful seat at the United Nations, UN Resident Coordinator in China Stephen Jackson reaffirmed the significance of the event, highlighting the nation's unique and ongoing contributions as a Global South country to the UN and global affairs.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202607/22/6a602ec6a310986e101a0f16.jpeg"
+    },
+    {
+      "title": "War widens as US, Iran trade attacks",
+      "url": "https://www.chinadaily.com.cn/a/202607/22/WS6a6021cca310986e2b4669dd.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-07-22",
+      "summary": "Escalating tit-for-tat strikes have pushed the United States and Iran further into conflict as the US carried out its latest round of raids on Monday, while Iran targeted US assets across the Gulf.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202607/22/6a602435a310986e101a0dfd.jpeg"
+    },
+    {
+      "title": "Energy wake-up call",
+      "url": "https://www.chinadaily.com.cn/a/202607/22/WS6a6016d0a310986e2b466948.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-07-22",
+      "summary": "Editor's note: In this weekly feature China Daily gives voice to Asia and its people. The stories presented come mainly from the Asia News Network (ANN), of which China Daily is among its 20 leading titles.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202607/22/6a6016d0a310986e101a0b42.png"
+    },
+    {
+      "title": "Ukraine replaces top military commander",
+      "url": "https://www.chinadaily.com.cn/a/202607/22/WS6a5fe6d4a310986e2b466857.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-07-22",
+      "summary": "KIEV -- Ukrainian President Volodymyr Zelensky announced on Tuesday that he has decided to replace the country's top military commander.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202607/22/6a5fe6d4a310986e101a0804.jpeg"
+    },
+    {
+      "title": "Beijing hits back at Tokyo over drill",
+      "url": "https://www.chinadaily.com.cn/a/202607/22/WS6a6016b7a310986e2b466943.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-07-22",
+      "summary": "China on Tuesday rejected Japan's claims about Chinese warships operating in waters near Okinotori during a joint exercise with Russia, saying the activities in the high seas are fully consistent with international law and global practice.",
+      "thumbnailUrl": "https://www.chinadaily.com.cn/image_e/2020/logo21.jpg"
+    },
+    {
+      "title": "Rahul, Priyanka, Akhilesh detained, forcibly removed from protest site near PM’s residence",
+      "url": "https://www.thehindu.com/news/national/rahul-priyanka-congress-leaders-protest-outside-prime-minister-residence-several-detained/article71249124.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-07-21T11:39:47.000Z",
+      "summary": "Rahul Gandhi, Priyanka Gandhi, and Akhilesh Yadav detained by police during protest outside PM's residence over NEET exam issues.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/rzjeq0/article71250002.ece/alternates/LANDSCAPE_1200/20260721527L.jpg"
+    },
+    {
+      "title": "Rahul changed goalposts to end sit-in, says govt.; BJP terms protest at PM’s residence a ‘symbol of anarchy’",
+      "url": "https://www.thehindu.com/news/national/sensitivity-of-protest-venue-stature-of-lop-led-to-quicker-talks-but-rahul-changed-goalposts-govt/article71250102.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-07-21T16:09:24.000Z",
+      "summary": "Government claims Rahul Gandhi changed demands during protest talks, leading to detentions amid growing tensions and political rivalries.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/fjm8ls/article71250650.ece/alternates/LANDSCAPE_1200/PTI07_21_2026_000461B.jpg"
+    },
+    {
+      "title": "Government took ‘strict action’ against NEET paper leakers: PM Modi",
+      "url": "https://www.thehindu.com/news/national/pm-modi-outlined-steps-to-ensure-no-paper-leaks-in-future-rijiju/article71248275.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-07-21T06:42:35.000Z",
+      "summary": "Prime Minister Narendra Modi promises strict measures to prevent future exam paper leaks, ensuring accountability and prioritising students' futures",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/748lon/article71248282.ece/alternates/LANDSCAPE_1200/20260721016L.jpg"
+    },
+    {
+      "title": "Odisha CM attributes policy driven reforms to State being bracketed among top five performers by NITI Aayog",
+      "url": "https://www.thehindu.com/news/national/odisha/odisha-cm-attributes-policy-driven-reforms-to-state-being-bracketed-among-top-five-performers-by-niti-aayog/article71252010.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-07-22T04:08:57.000Z",
+      "summary": "Odisha CM attributes top-five ranking in NITI Aayog's Investment Friendliness Index to policy reforms and investor-friendly initiatives.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/v2zexh/article71113414.ece/alternates/LANDSCAPE_1200/20260615199L.jpg"
+    },
+    {
+      "title": "46 cadres of banned insurgent group surrender in Manipur",
+      "url": "https://www.thehindu.com/news/national/46-cadres-of-banned-insurgent-group-surrender-in-manipur/article71249861.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-07-22T03:38:48.000Z",
+      "summary": "Forty-six cadres of the Kangleipak Communist Party surrender in Manipur, marking a significant shift towards peace and civilian life.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/3vg6ug/article71187910.ece/alternates/LANDSCAPE_1200/PTI11_30_2024_000323A.jpg"
+    },
+    {
+      "title": "Gold hits two-week high as Fed outlook, Middle East conflict stay in focus",
+      "url": "https://www.reuters.com/world/india/gold-nears-two-week-high-fed-outlook-middle-east-conflict-stay-focus-2026-07-22/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Wed, 22 Jul 2026 01:51:00 GMT",
+      "summary": "Reuters: Gold hits two-week high as Fed outlook, Middle East conflict stay in focus.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/HZ6YLEQCRNKZLAESL4A7Y4DYAY.jpg?auth=32d0374252d68459b8d8b0a91de50e1952a640ee16a2cbea631d8a498c054ab6&width=1920&quality=80"
+    },
+    {
+      "title": "Nvidia supplier Wistron launches $700 million Texas factory for AI system production",
+      "url": "https://www.reuters.com/world/asia-pacific/nvidia-supplier-wistron-launches-700-million-texas-factory-ai-system-production-2026-07-22/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Wed, 22 Jul 2026 03:07:00 GMT",
+      "summary": "Reuters: Nvidia supplier Wistron launches $700 million Texas factory for AI system production.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/HY4ZPDFYJRNHPL6GUFALTMC4WU.jpg?auth=e7efc23704860668481b3646cb2cd9ee7ebedacafff0684ffc1958a7ba06f81a&width=1920&quality=80"
+    },
+    {
+      "title": "Under soaring pressure, India's education minister promises reforms and debate",
+      "url": "https://www.reuters.com/world/india/under-soaring-pressure-indias-education-minister-promises-reforms-debate-2026-07-22/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Wed, 22 Jul 2026 03:18:00 GMT",
+      "summary": "Reuters: Under soaring pressure, India's education minister promises reforms and debate.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/I77OPCYMVZPJBLSJNGLHO7F53A.jpg?auth=7e6fe471d30e0703f2fcea723df7a3fef9298d45d3b3065dc2e817fbcf84b657&width=1080&quality=80"
+    },
+    {
+      "title": "Canada cancels joint bridge celebration with US, citing Trump trade threats",
+      "url": "https://www.reuters.com/world/americas/canada-cancels-joint-bridge-celebration-with-us-citing-trump-trade-threats-2026-07-21/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Tue, 21 Jul 2026 22:53:44 GMT",
+      "summary": "Reuters: Canada cancels joint bridge celebration with US, citing Trump trade threats.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/R3QPV27BIFNCVFJYBTG4MVBAKM.jpg?auth=e63afd811b1e940b6b0e69fa04d14a5a3f7f73d1bf3c54b062a5bf02c52eec61&width=1080&quality=80"
+    },
+    {
+      "title": "Asian stocks extend gains as US rebounds, chipmakers lead",
+      "url": "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-07-22/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Wed, 22 Jul 2026 01:08:00 GMT",
+      "summary": "Reuters: Asian stocks extend gains as US rebounds, chipmakers lead.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/PLBS4OHYNBLEDHCBGSE6OCTFOE.jpg?auth=18061927a34f7832bfe5d82207a8728cdcc4cde69550287255eb407b1d4516f2&height=1005&width=1920&quality=80&smart=true"
+    }
+  ],
+  "markets": [
+    {
+      "id": "sp-500",
+      "label": "S&P 500",
+      "region": "US",
+      "symbol": "^GSPC",
+      "value": 7509.2,
+      "previousClose": 7443.27959,
+      "change": 65.92041,
+      "percentChange": 0.8856366,
+      "direction": "up",
+      "sessionDate": "2026-07-22"
+    },
+    {
+      "id": "nasdaq-composite",
+      "label": "NASDAQ Composite",
+      "region": "US",
+      "symbol": "^IXIC",
+      "value": 25837.21,
+      "previousClose": 25508.07523,
+      "change": 329.13477,
+      "percentChange": 1.2903161,
+      "direction": "up",
+      "sessionDate": "2026-07-22"
+    },
+    {
+      "id": "euronext-100",
+      "label": "Euronext 100 Index",
+      "region": "Europe",
+      "symbol": "^N100",
+      "value": 1920.37,
+      "previousClose": 1901.780034,
+      "change": 18.589966,
+      "percentChange": 0.9775035,
+      "direction": "up",
+      "sessionDate": "2026-07-22"
+    },
+    {
+      "id": "moex",
+      "label": "Public Joint-Stock Company Moscow Exchange MICEX-RTS",
+      "region": "Europe",
+      "symbol": "MOEX.ME",
+      "value": 85.2,
+      "previousClose": 85.31000061,
+      "change": -0.11000061,
+      "percentChange": -0.12894222,
+      "direction": "down",
+      "sessionDate": "2026-07-22"
+    },
+    {
+      "id": "hang-seng",
+      "label": "HANG SENG INDEX",
+      "region": "Asia",
+      "symbol": "^HSI",
+      "value": 24920.59,
+      "previousClose": 25132.28922,
+      "change": -211.69922,
+      "percentChange": -0.8423396,
+      "direction": "down",
+      "sessionDate": "2026-07-22"
+    },
+    {
+      "id": "nikkei-225",
+      "label": "Nikkei 225",
+      "region": "Asia",
+      "symbol": "^N225",
+      "value": 66716.11,
+      "previousClose": 66232.18812,
+      "change": 483.92188,
+      "percentChange": 0.730738,
+      "direction": "up",
+      "sessionDate": "2026-07-22"
+    },
+    {
+      "id": "sensex",
+      "label": "S&P BSE SENSEX",
+      "region": "India",
+      "symbol": "^BSESN",
+      "value": 76844.6,
+      "previousClose": 77470.10780000001,
+      "change": -625.5078,
+      "percentChange": -0.8074391,
+      "direction": "down",
+      "sessionDate": "2026-07-22"
+    }
+  ],
+  "hackerNews": [
+    {
+      "title": "OpenAI and Hugging Face address security incident during model evaluation",
+      "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
+      "publishedAt": "2026-07-21T20:09:52.000Z",
+      "summary": "OpenAI and Hugging Face share early findings from a security incident during AI model evaluation, highlighting advanced cyber capabilities and lessons for defenders.",
+      "thumbnailUrl": "https://images.ctfassets.net/kftzwdyauwt9/1kXZRSOAQbv2BDKEO14tJl/b2f0a336afaddc32e5776ba555bc4dbf/Hugging_Face_Security_Incident_16x9.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "title": "LG to ban residential proxies from smart TV apps",
+      "url": "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
+      "publishedAt": "2026-07-22T01:52:31.000Z",
+      "summary": "The home appliance giant LG Electronics USA said this week it plans to suspend any apps built for its smart TVs that turn one's television into an always-on residential proxy node. The move comes less than a month after researchers&hellip;",
+      "thumbnailUrl": "https://krebsonsecurity.com/wp-content/uploads/2026/07/pac-man-brightdata.png"
+    },
+    {
+      "title": "Kimi K3 Is Competitive with Fable; Kimi K3 and Fable Is SoTA",
+      "url": "https://fireworks.ai/blog/kimik3-fable",
+      "publishedAt": "2026-07-21T22:35:24.000Z",
+      "summary": "Benchmarking over 1,000 agentic tasks demonstrates that routing between the open-source Kimi K3 model and the closed Fable 5 model creates a new state-of-the-art (SoTA) approach that surpasses the performance of either model alone. While both models perform competitively in general benchmarks, they possess distinct specializations—K3 excels in terminal, symbolic math, and dev tooling, whereas Fable leads in web, data visualization, and multi-language breadth. By architecting a router to leverage these specific strengths, teams can achieve a 93% task accuracy rate and up to 50x better cost-efficiency compared to using Fable in isolation, effectively proving that relying on a single model is no longer optimal.",
+      "thumbnailUrl": "https://cdn.sanity.io/images/pv37i0yn/production/4f0b611f9b0ec4e15ea45aabe369a3ba88fe4abf-2048x1152.svg"
+    },
+    {
+      "title": "FreeInk: Open ecosystem for e-readers",
+      "url": "https://freeink.org/",
+      "publishedAt": "2026-07-21T18:39:06.000Z",
+      "summary": "Free Ink is an open-source collective building the software, firmware and hardware for e-paper readers — every layer ships in the open for anyone to pick up, extend and make their own.",
+      "thumbnailUrl": "https://freeink.org/og-image.png"
+    },
+    {
+      "title": "Advertise in ChatGPT",
+      "url": "https://ads.openai.com/",
+      "publishedAt": "2026-07-21T18:58:44.000Z",
+      "summary": "Reach people as they explore options, compare choices, and make decisions in ChatGPT, with relevant ads that fit naturally into the experience.",
+      "thumbnailUrl": "https://images.ctfassets.net/kftzwdyauwt9/6oMr4B9PxElIT7E4UvPeoK/a2d7e811d49eacfaca54464601bb7e44/1x1.png"
+    },
+    {
+      "title": "A digestion of the Jacobian conjecture counterexample",
+      "url": "https://terrytao.wordpress.com/2026/07/21/a-digestion-of-the-jacobian-conjecture-counterexample/",
+      "publishedAt": "2026-07-21T21:09:25.000Z",
+      "summary": "The notorious Jacobian conjecture can be formulated concretely over the complex numbers as follows. Conjecture 1 (Jacobian Conjecture) Let $latex {F:{\\bf C}^n \\rightarrow {\\bf C}^n}&fg=000000$ …",
+      "thumbnailUrl": "https://secure.gravatar.com/blavatar/bd4bda4207561b6998f10dec44b570f04ff4072b20f89162d525b186dfca3e49?s=200&#038;ts=1784697460"
+    },
+    {
+      "title": "Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
+      "publishedAt": "2026-07-21T15:17:16.000Z",
+      "summary": "We’re introducing new Gemini models, including Gemini 3.6 Flash, 3.5 Flash-Lite and 3.5 Flash Cyber.",
+      "thumbnailUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-5_3-6_3-5-Cyber__key-art__statement_.width-1300.jpg"
+    },
+    {
+      "title": "Ten Steps Towards Happiness (2015)",
+      "url": "http://hintjens.com/blog:99",
+      "publishedAt": "2026-07-22T01:17:26.000Z",
+      "summary": "Biography | Portfolio | GitHub Books | Videos | Slides | Stories | Wiki Contact",
+      "thumbnailUrl": "http://hintjens.wdfiles.com/local--resized-images/nav:side/culture.jpg/small.jpg"
+    },
+    {
+      "title": "Judge approves $1.5B Anthropic settlement for pirated books used to train Claude",
+      "url": "https://apnews.com/article/ai-anthropic-copyright-settlement-claude-books-bartz-74b140444023898aeba8579b6e9f0d63",
+      "publishedAt": "2026-07-21T19:04:39.000Z",
+      "summary": "A federal judge has approved a $1.5 billion copyright settlement involving AI company Anthropic. The company will pay thousands of authors about $3,000 per book for using pirated copies to train its Claude chatbot.",
+      "thumbnailUrl": "https://dims.apnews.com/dims4/default/fe6d93f/2147483647/strip/true/crop/7105x4734+0+170/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F9e%2F02%2F03fe2aab40cb16ec606291293712%2F3ac9a8e98cd0455f980d89ba81ec27a4"
+    },
+    {
+      "title": "Late.sh – a command-line Clubhouse for computer people",
+      "url": "https://late.sh/",
+      "publishedAt": "2026-07-22T02:32:30.000Z",
+      "summary": "A cozy command-line clubhouse for computer people. Chat, music, games, art, coding, and tech news. Connect with any SSH client!",
+      "thumbnailUrl": "https://late.sh/static/og-image.png"
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "CartAI",
+      "tagline": "The AI agent that handles checkout.",
+      "url": "https://www.producthunt.com/products/cartai",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-07-21T22:19:14-07:00"
+    },
+    {
+      "name": "Phantomstory",
+      "tagline": "Launch a third-party blog to win AEO with just two clicks",
+      "url": "https://www.producthunt.com/products/phantomstory",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-07-21T22:18:21-07:00"
+    },
+    {
+      "name": "RegionMirror",
+      "tagline": "Share a portion of your ultrawide or high-res screen on Mac",
+      "url": "https://www.producthunt.com/products/regionmirror",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-07-21T22:12:22-07:00"
+    },
+    {
+      "name": "ditto.site",
+      "tagline": "Clone any website into clean code. Free & open source",
+      "url": "https://www.producthunt.com/products/ditto-site",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-07-21T22:16:28-07:00"
+    },
+    {
+      "name": "Diffsmith",
+      "tagline": "Comment on your AI agent's code & collaborate on changes",
+      "url": "https://www.producthunt.com/products/diffsmith-code-review-studio",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-07-21T22:12:22-07:00"
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "News and markets",
+      "sentences": [
+        "Global headlines: Latest combat deaths show risk has shifted to troops far from Iran’s borders (In a war dominated by drones and long-range missiles, the front line has moved to U.S. facilities far from Iran’s borders); Hegseth faces bipartisan scrutiny as Iran war escalates (Some lawmakers seeking clarity on the Trump administration’s strategy for the conflict appeared frustrated as the Pentagon seeks billions in additional wartime funding); and Death of Moroccan man in Italian police custody sparks protests, violence (The death of Abderrahim Fakir in Italy drew parallels to the death of George Floyd).",
+        "Markets leaned higher, with 4 of 7 tracked indexes up; NASDAQ Composite up 1.29% was the largest move.",
+        "Benchmarks tracked: S&P 500, NASDAQ Composite, Euronext 100 Index, and Public Joint-Stock Company Moscow Exchange MICEX-RTS plus 3 more indexes."
+      ]
+    },
+    {
+      "title": "Hacker News and Product Hunt",
+      "sentences": [
+        "Hacker News: OpenAI and Hugging Face address security incident during model evaluation (OpenAI and Hugging Face share early findings from a security incident during AI model evaluation, highlighting advanced cyber capabilities...); LG to ban residential proxies from smart TV apps (The home appliance giant LG Electronics USA said this week it plans to suspend any apps built for its smart TVs that turn one's television...); and Kimi K3 Is Competitive with Fable; Kimi K3 and Fable Is SoTA (Benchmarking over 1,000 agentic tasks demonstrates that routing between the open-source Kimi K3 model and the closed Fable 5 model creates...).",
+        "Product Hunt features CartAI (The AI agent that handles checkout), Phantomstory (Launch a third-party blog to win AEO with just two clicks), and RegionMirror (Share a portion of your ultrawide or high-res screen on Mac)."
+      ]
+    }
+  ],
+  "sourceNotes": {
+    "generatedAt": "2026-07-22T05:20:13.876Z",
+    "timeZone": "Asia/Kolkata",
+    "successfulSources": [
+      "Washington Post",
+      "Al Jazeera",
+      "NPR",
+      "China Daily",
+      "The Hindu",
+      "Reuters"
+    ],
+    "marketSessionLabel": "Latest market sessions as of 2026-07-22",
+    "warnings": []
+  }
+}
