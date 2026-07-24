@@ -1,0 +1,498 @@
+{
+  "headlines": [
+    {
+      "title": "Saudi nuclear deal in doubt as Trump adds new condition regarding Israel",
+      "url": "https://www.washingtonpost.com/politics/2026/07/23/trump-adds-condition-nuclear-deal-with-saudi-arabia-throwing-pact-into-doubt/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Thu, 23 Jul 2026 19:04:00 +0000",
+      "summary": "A day after the agreement was signed, the president laid out a new requirement: that the Saudis normalize relations with Israel.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/L66KPETEQ232J7OUAWHSARLJBM_size-normalized.jpg&w=1440"
+    },
+    {
+      "title": "House votes to limit Trump on Iran; Senate fails to advance similar measure",
+      "url": "https://www.washingtonpost.com/national-security/2026/07/23/house-passes-measure-restrain-trump-iran/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Thu, 23 Jul 2026 18:32:53 +0000",
+      "summary": "The votes marked the first test of Republican support for the conflict since President Donald Trump resumed military strikes against Tehran this month.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/NKZBXGQGFAI6TFMMBJQBEJX7NM.jpg&w=1440"
+    },
+    {
+      "title": "Oil prices leap to $100 a barrel after attacks in Red Sea",
+      "url": "https://www.washingtonpost.com/world/2026/07/23/least-one-saudi-oil-tanker-is-attacked-red-sea-war-risks-widen/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Thu, 23 Jul 2026 13:23:54 +0000",
+      "summary": "The price of Brent crude, now up about 40 percent this month, surged Thursday after Iran’s Houthi allies in Yemen claimed strikes on Saudi tankers.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DNZL55SNVC4FMAZRAQW56RZHLU_size-normalized.jpg&w=1440"
+    },
+    {
+      "title": "E.U. imposes more sanctions on Russia, in compromise deal",
+      "url": "https://www.washingtonpost.com/world/2026/07/23/eu-imposes-more-sanctions-russia-compromise-deal/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Thu, 23 Jul 2026 12:43:15 +0000",
+      "summary": "European Union members are looking to keep up pressure on Russia as Ukraine’s outlook improves, even as some countries seek exemptions.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/UFQUBMRDNGSDQDU7LPNJM5PX5A.JPG&w=1440"
+    },
+    {
+      "title": "Why is Zelensky firing top leaders as Ukraine’s outlook improves?",
+      "url": "https://www.washingtonpost.com/world/2026/07/22/why-is-zelensky-firing-top-leaders-ukraines-outlook-improves/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Wed, 22 Jul 2026 19:11:38 +0000",
+      "summary": "Amid battlefield gains, President Volodymyr Zelensky removed popular officials in a major shake-up.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/2GP4XCSNVST62HJ3Z63GXXB3RM_size-normalized.jpg&w=1440"
+    },
+    {
+      "title": "Israel carries out blasts across south Lebanon despite ‘ceasefire’ deal",
+      "url": "https://www.aljazeera.com/news/2026/7/24/israel-carries-out-blasts-across-south-lebanon-despite-ceasefire-deal",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-07-24",
+      "summary": "Israeli attacks come amid ongoing talks with Lebanese officials to implement framework for peace between two countries.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/07/ap_6a62e49ab41dc-1784865946.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "US court affirms release of pro-Palestine scholar as legal battle continues",
+      "url": "https://www.aljazeera.com/news/2026/7/24/us-court-affirms-release-of-pro-palestine-scholar-as-legal-battle-continues",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-07-24",
+      "summary": "Appeal judges' decision to side with Georgetown's Badar Khan Suri against Trump sets up Supreme Court intervention.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/07/AP26076715881405-1784856036.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Ukraine’s Zelenskyy meets with far-right US activist Laura Loomer",
+      "url": "https://www.aljazeera.com/news/2026/7/24/ukraine-zelenskyy-meets-with-trump-ally-laura-loomer",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-07-24",
+      "summary": "Pro-Israel Trump ally sits down with Ukrainian president as she says Russia is helping Iran kill US soldiers.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/07/ap_6a62ad4ba5537-1784851787.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Trump imposes new double-digit tariffs on dozens of countries",
+      "url": "https://www.aljazeera.com/news/2026/7/24/trump-imposes-new-double-digit-tariffs-on-dozens-of-countries",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-07-24",
+      "summary": "With existing 10 percent levies set to expire, Trump issues new tariffs on 60 countries under forced labour provision.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/07/2026-07-06T224831Z_576771873_RC2W1KAIZZFA_RTRMADP_3_USA-TARIFFS-TRUMP-STATES-1784852840.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Israel bombs Gaza after displacement orders, kills two Palestinians",
+      "url": "https://www.aljazeera.com/news/2026/7/24/israel-bombs-gaza-after-displacement-orders-kills-two-palestinians",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-07-24",
+      "summary": "Humanitarian situation in Gaza is 'desperate', UN official says, as Israeli violations of 'ceasefire' intensify.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/07/afp_6a629c0f423f-1784847375.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Justice Dept. drops 'New York Times' subpoenas under pressure from judge",
+      "url": "https://www.npr.org/2026/07/23/nx-s1-5905732/nyt-subpoenas-trump-air-force-one-plane-qatar-security",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Thu, 23 Jul 2026 23:31:19 -0400",
+      "summary": "The Justice Department is dropping the subpoenas it filed demanding grand jury testimony and phone records from New York Times journalists after sharp questioning Thursday from a federal judge.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8640x5760+0+0/resize/8640x5760!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fd8%2Ff7%2F47a8b18b4b1d9d884f766f2fb887%2Fgettyimages-2235207251.jpg"
+    },
+    {
+      "title": "Trump to impose double-digit tariffs on dozens of countries",
+      "url": "https://www.npr.org/2026/07/23/g-s1-135388/trump-tariffs-trade-country",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Thu, 23 Jul 2026 18:06:50 -0400",
+      "summary": "The United States will slap taxes of 10% to 12.5% on imports from 60 countries accounting for 99% of U.S. imports, charging that they have inadequately enforced bans on goods produced by forced labor.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3829x2553+0+0/resize/3829x2553!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F98%2F9b%2Ff7970d7149868d5d1cb83132176d%2Fap26197547210310.jpg"
+    },
+    {
+      "title": "How to keep an ancient text interesting to students? Make it a summer blockbuster",
+      "url": "https://www.npr.org/2026/07/23/nx-s1-5903075/odyssey-movie-english-teachers-school",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Thu, 23 Jul 2026 16:37:47 -0400",
+      "summary": "English teachers are excited to have a new adaptation of Homer's The Odyssey to use to get students excited about the epic poem.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3074x2049+0+0/resize/3074x2049!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fb9%2F4c%2Fa3bee50e43fab4f64965c0a7ac14%2Fct-03414.jpg"
+    },
+    {
+      "title": "Egyptian warrior princesses, ancient avocados, and more science news",
+      "url": "https://www.npr.org/2026/07/23/nx-s1-5897598/egyptian-warrior-princesses-ancient-avocados-and-more-science-news",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Thu, 23 Jul 2026 16:36:23 -0400",
+      "summary": "Hannah Chin and Nate Rott of NPR's Short Wave podcast talk about the building blocks of birdsong, the evolutionary history of avocados and Egyptian warrior princesses.",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "Trump cuts target federal advisory boards. What does it mean for agencies like NASA?",
+      "url": "https://www.npr.org/2026/07/23/nx-s1-5869732/trump-cuts-target-federal-advisory-boards-what-does-it-mean-for-agencies-like-nasa",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Thu, 23 Jul 2026 16:33:52 -0400",
+      "summary": "The Trump administration has terminated or suspended more than 100 federal advisory committees. Former members say agencies like NASA now have less accountability to stakeholders and the public.",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "Middle East sea routes face mounting turmoil",
+      "url": "https://www.chinadaily.com.cn/a/202607/24/WS6a62b8fba310986e2b4670ad.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-07-24",
+      "summary": "Maritime security in the Middle East is deteriorating further amid the US-Iran war, as disruption expands beyond the Strait of Hormuz to the Red Sea, raising fresh concerns over global energy supplies.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202607/24/6a62b8fba310986e101a2f7c.png"
+    },
+    {
+      "title": "Egypt to launch Africa's first virtual hospital",
+      "url": "https://www.chinadaily.com.cn/a/202607/23/WS6a621eaea310986e2b466f9e.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-07-23",
+      "summary": "Egypt is set to launch Africa's first virtual hospital in Ismailia, a landmark project that will connect healthcare facilities across the North African country.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202607/23/6a621eaea310986e101a2995.jpeg"
+    },
+    {
+      "title": "Golden monkey cubs receive names in Belgium",
+      "url": "https://www.chinadaily.com.cn/a/202607/24/WS6a6244cda310986e2b466fc8.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-07-24",
+      "summary": "Two female golden snub-nosed monkey cubs at Belgium's Pairi Daiza zoo were officially given the names Zhenzhen and Xi Le on Wednesday, their 100th day, a milestone in Chinese tradition that marks a newborn's transition from a particularly vulnerable stage to one of greater strength, security, and independence.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202607/24/6a629d42a310986e101a2c5f.jpeg"
+    },
+    {
+      "title": "US to impose new tariffs under Section 301 investigations",
+      "url": "https://www.chinadaily.com.cn/a/202607/24/WS6a628846a310986e2b466fdc.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-07-24",
+      "summary": "NEW YORK -- The United States will impose tariffs of 10 to 12.5 percent on imported goods from 60 economies starting on Friday, citing Section 301 of the Trade Act of 1974, the Office of the US Trade Representative (USTR) said Thursday.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202607/24/6a62af3fa310986e101a2e4f.jpeg"
+    },
+    {
+      "title": "Trump administration to impose new tariffs on over 60 countries",
+      "url": "https://www.chinadaily.com.cn/a/202607/24/WS6a62cc34a310986e2b46718f.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-07-24",
+      "summary": "President Donald Trump's administration announced on Thursday that it will impose new tariffs of from 10 to 12.5 percent on over 60 trade partners, including China, starting on Friday, to replace other temporary duties that will lapse overnight.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202607/24/6a62eb7ea310986e101a3748.jpeg"
+    },
+    {
+      "title": "Odisha proposes radical reform in policy “Nutan Sakala” to curb trafficking of women, girls",
+      "url": "https://www.thehindu.com/news/national/odisha/odisha-proposes-radical-reform-in-policy-nutan-sakala-to-curb-trafficking-of-women-girls/article71258156.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-07-24T02:32:02.000Z",
+      "summary": "Odisha's \"Nutan Sakala\" policy aims to combat rising human trafficking of women and girls through comprehensive reforms and community-based strategies.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/gwzn1j/article70672050.ece/alternates/LANDSCAPE_1200/iStock-1334623338.jpg"
+    },
+    {
+      "title": "U.S. slaps 10% tariffs on goods imported from India over issue forced labour",
+      "url": "https://www.thehindu.com/news/national/us-tarifs-on-goods-imported-from-india/article71259860.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-07-23T23:09:40.000Z",
+      "summary": "The U.S. imposes 10% tariffs on Indian imports due to forced labor issues, affecting 17 countries.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/yzfcmu/article71259863.ece/alternates/LANDSCAPE_1200/2026-07-23T205955Z_1910357374_RC2WJMAQWY12_RTRMADP_3_USA-TRUMP.JPG"
+    },
+    {
+      "title": "Activist on hunger strike over Ken-Betwa river link project ends fast after 18 days",
+      "url": "https://www.thehindu.com/news/national/madhya-pradesh/activist-on-hunger-strike-over-ken-betwa-river-link-project-ends-fast-after-18-days/article71259312.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-07-23T23:37:30.000Z",
+      "summary": "Activist Amit Bhatnagar ends his 18-day hunger strike against the Ken-Betwa river link project after securing government assurances for affected communities.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/jn38cq/article71260197.ece/alternates/LANDSCAPE_1200/PTI07_23_2026_000466B.jpg"
+    },
+    {
+      "title": "Protests over NEET paper leak intensify nationwide",
+      "url": "https://www.thehindu.com/news/national/protests-over-neet-paper-leak-intensify-nationwide/article71259431.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-07-23T19:21:48.000Z",
+      "summary": "Nationwide protests erupt over NEET paper leak, demanding the resignation of Education Minister Dharmendra Pradhan amid escalating confrontations.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/20hjp4/article71259621.ece/alternates/LANDSCAPE_1200/CJP%20PROTEST%20DELHI_23_07_85.jpg"
+    },
+    {
+      "title": "Jantar Mantar protest LIVE: Govt. has agreed to our request to hold talks today at neutral venue, says CJP",
+      "url": "https://www.thehindu.com/news/national/cjp-jantar-mantar-protest-live-updates-abhijeet-dipke-saurav-das-sonam-wangchuk-hunger-strike-dharmendra-pradhan-resignation/article71260680.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-07-24T00:25:26.000Z",
+      "summary": "Follow The Hindu LIVE for the latest updates as Sonam Wangchuk ends his fast, while the CJP reiterates its demand for Dharmendra Pradhan's resignation.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/ffpshz/article71260793.ece/alternates/LANDSCAPE_1200/CJP%20PROTEST%20DELHI_23_07_97.jpg"
+    },
+    {
+      "title": "Trump vows to punish Iran and Houthis for attacks in Red Sea",
+      "url": "https://www.reuters.com/world/middle-east/trump-vows-punish-iran-houthis-attacks-red-sea-2026-07-24/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Fri, 24 Jul 2026 04:00:00 GMT",
+      "summary": "Reuters: Trump vows to punish Iran and Houthis for attacks in Red Sea.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/OJFTMURH2JJKTEB63I2ZIUW3M4.jpg?auth=566ad2e3c23dd97ccb16b69adbe81c940a1265d6621c3056f29cac004455ade3&width=1080&quality=80"
+    },
+    {
+      "title": "Trump imposes forced labor duties on 60 trading partners as 10% US tariffs expire",
+      "url": "https://www.reuters.com/world/us/trump-imposes-forced-labor-duties-60-trading-partners-as-10-us-tariffs-expire-2026-07-24/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Fri, 24 Jul 2026 04:03:00 GMT",
+      "summary": "Reuters: Trump imposes forced labor duties on 60 trading partners as 10% US tariffs expire.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/OSHVT6YNAVKN3CVEDL6OHUC6BY.jpg?auth=f5828feb6428025ef39b9d44f4694e300f8a18408908ef5432f95ef366f7f9e8&width=1080&quality=80"
+    },
+    {
+      "title": "Nvidia, Amkor strike $1.5 billion chip packaging deal",
+      "url": "https://www.reuters.com/world/asia-pacific/nvidia-amkor-strike-15-billion-chip-packaging-deal-2026-07-23/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Thu, 23 Jul 2026 21:46:04 GMT",
+      "summary": "Reuters: Nvidia, Amkor strike $1.5 billion chip packaging deal.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/SJRQF5FRYZNARCHCHW7XYAP7Z4.jpg?auth=a61ed2f60408d7ffb1040d7a9aed6e487bdaca003440ae90e9514bcd79e8f475&width=1920&quality=80"
+    },
+    {
+      "title": "Trump to impose 'forced labor' duties on Friday as temporary 10% US tariffs expire",
+      "url": "https://www.reuters.com/world/us/trump-impose-forced-labor-duties-friday-temporary-10-us-tariffs-expire-2026-07-23/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Thu, 23 Jul 2026 21:10:00 GMT",
+      "summary": "Reuters: Trump to impose 'forced labor' duties on Friday as temporary 10% US tariffs expire.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/UHOMISTJPFLX3F4NX2BAKFYTDA.jpg?auth=b906a241c2a757087a66e944d96f7bb27ae93da9b65746c478b8560b8fd9726c&width=1920&quality=80"
+    },
+    {
+      "title": "Asian stocks skid as oil spike revives inflation fears, bonds take a hit",
+      "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-07-24/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Fri, 24 Jul 2026 01:20:00 GMT",
+      "summary": "Reuters: Asian stocks skid as oil spike revives inflation fears, bonds take a hit.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/PLBS4OHYNBLEDHCBGSE6OCTFOE.jpg?auth=18061927a34f7832bfe5d82207a8728cdcc4cde69550287255eb407b1d4516f2&width=1080&quality=80"
+    }
+  ],
+  "markets": [
+    {
+      "id": "sp-500",
+      "label": "S&P 500",
+      "region": "US",
+      "symbol": "^GSPC",
+      "value": 7408.3,
+      "previousClose": 7498.9601600000005,
+      "change": -90.66016,
+      "percentChange": -1.2089697,
+      "direction": "down",
+      "sessionDate": "2026-07-24"
+    },
+    {
+      "id": "nasdaq-composite",
+      "label": "NASDAQ Composite",
+      "region": "US",
+      "symbol": "^IXIC",
+      "value": 25137.69,
+      "previousClose": 25690.898999999998,
+      "change": -553.209,
+      "percentChange": -2.1533265,
+      "direction": "down",
+      "sessionDate": "2026-07-24"
+    },
+    {
+      "id": "euronext-100",
+      "label": "Euronext 100 Index",
+      "region": "Europe",
+      "symbol": "^N100",
+      "value": 1911.09,
+      "previousClose": 1934.6500589999998,
+      "change": -23.560059,
+      "percentChange": -1.2177943,
+      "direction": "down",
+      "sessionDate": "2026-07-24"
+    },
+    {
+      "id": "moex",
+      "label": "Public Joint-Stock Company Moscow Exchange MICEX-RTS",
+      "region": "Europe",
+      "symbol": "MOEX.ME",
+      "value": 85.2,
+      "previousClose": 85.31000061,
+      "change": -0.11000061,
+      "percentChange": -0.12894222,
+      "direction": "down",
+      "sessionDate": "2026-07-24"
+    },
+    {
+      "id": "hang-seng",
+      "label": "HANG SENG INDEX",
+      "region": "Asia",
+      "symbol": "^HSI",
+      "value": 24891.84,
+      "previousClose": 25210.8107,
+      "change": -318.9707,
+      "percentChange": -1.265214,
+      "direction": "down",
+      "sessionDate": "2026-07-24"
+    },
+    {
+      "id": "nikkei-225",
+      "label": "Nikkei 225",
+      "region": "Asia",
+      "symbol": "^N225",
+      "value": 64488.25,
+      "previousClose": 66422.6016,
+      "change": -1934.3516,
+      "percentChange": -2.9121625,
+      "direction": "down",
+      "sessionDate": "2026-07-24"
+    },
+    {
+      "id": "sensex",
+      "label": "S&P BSE SENSEX",
+      "region": "India",
+      "symbol": "^BSESN",
+      "value": 75521.93,
+      "previousClose": 76391.39094,
+      "change": -869.46094,
+      "percentChange": -1.1382009,
+      "direction": "down",
+      "sessionDate": "2026-07-24"
+    }
+  ],
+  "hackerNews": [
+    {
+      "title": "Writing by hand is good for your brain",
+      "url": "https://nealstephenson.substack.com/p/writing-by-hand-is-good-for-your",
+      "publishedAt": "2026-07-23T14:24:43.000Z",
+      "summary": "nealstephenson.substack.com: Writing by hand is good for your brain."
+    },
+    {
+      "title": "Startup founders urge U.S. government not to shut off Chinese open weight AI",
+      "url": "https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992",
+      "publishedAt": "2026-07-23T15:18:40.000Z",
+      "summary": "politico.com: Startup founders urge U.S. government not to shut off Chinese open weight AI."
+    },
+    {
+      "title": "What happened to TheNumbers.com",
+      "url": "https://stephenfollows.com/p/what-just-happened-to-thenumberscom-should-worry-us-all",
+      "publishedAt": "2026-07-23T16:53:33.000Z",
+      "summary": "If you work in or around the film industry, there is a decent chance you have used the work of The Numbers this month, whether you realise it or not.",
+      "thumbnailUrl": "https://substackcdn.com/image/fetch/$s_!6bjM!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2e89262a-a687-40ab-8c52-f9190202cec9_1200x720.png"
+    },
+    {
+      "title": "Why Software Factories Fail (or: harness engineering is not enough)",
+      "url": "https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/wsff.md",
+      "publishedAt": "2026-07-23T15:18:48.000Z",
+      "summary": "Contribute to humanlayer/advanced-context-engineering-for-coding-agents development by creating an account on GitHub.",
+      "thumbnailUrl": "https://opengraph.githubassets.com/5a452152c78fd551da1ea16cf4a5e44107f46d4dc91f755efce1a22bb7239419/humanlayer/advanced-context-engineering-for-coding-agents"
+    },
+    {
+      "title": "98.css",
+      "url": "https://jdan.github.io/98.css/#status-bar",
+      "publishedAt": "2026-07-23T22:30:29.000Z",
+      "summary": "A design system for building faithful recreations of old UIs.",
+      "thumbnailUrl": "https://github.com/jdan/98.css/raw/main/docs/window.png?raw=true"
+    },
+    {
+      "title": "Software rendering in 500 lines of bare C++",
+      "url": "https://haqr.eu/tinyrenderer/",
+      "publishedAt": "2026-07-23T14:17:40.000Z",
+      "summary": "In this series of articles, I aim to demonstrate how OpenGL, Vulkan, Metal, and DirectX work by writing a simplified clone from scratch. Surprisingly, many people struggle with the initial hurdle of learning a 3D graphics API. To help with this, I have prepared a short series of lectures, after which my students are able to produce quite capable renderers.",
+      "thumbnailUrl": "https://haqr.eu/haqreu-plate.png"
+    },
+    {
+      "title": "Learn OpenGL, extensive tutorial resource for learning Modern OpenGL",
+      "url": "https://learnopengl.com/",
+      "publishedAt": "2026-07-23T14:53:34.000Z",
+      "summary": "Learn OpenGL . com provides good and clear modern 3.3+ OpenGL tutorials with clear examples. A great resource to learn modern OpenGL aimed at beginners.",
+      "thumbnailUrl": "https://learnopengl.com/img/github.png"
+    },
+    {
+      "title": "Building on ATProto",
+      "url": "https://lukekanies.com/writing/building-on-atproto/",
+      "publishedAt": "2026-07-23T18:23:50.000Z",
+      "summary": "If you prefer to receive all of my writing in your inbox, you can subscribe here. I strive to publish weekly, on Tuesday mornings.",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "Show HN: Palmier Pro – Open-source macOS video editor built for AI",
+      "url": "https://github.com/palmier-io/palmier-pro",
+      "publishedAt": "2026-07-23T15:11:37.000Z",
+      "summary": "macOS video editor built for AI. Contribute to palmier-io/palmier-pro development by creating an account on GitHub.",
+      "thumbnailUrl": "https://opengraph.githubassets.com/845ec0270fd30c1e318a55b75a345b60ba4c92acd506f3ae7c2aeb6669ceb5f5/palmier-io/palmier-pro"
+    },
+    {
+      "title": "DARPA, U.S. Air Force fly AI-controlled F-16",
+      "url": "https://www.darpa.mil/news/2026/darpa-us-air-force-fly-ai-controlled-f-16",
+      "publishedAt": "2026-07-23T13:51:36.000Z",
+      "summary": "Historic VENOM milestone demonstrates scalable AI development capabilities for the operational fleet.",
+      "thumbnailUrl": "https://www.darpa.mil/themes/custom/darpa_uswds/assets/js/packages/usa_banner/img/us_flag_small.png"
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "OpenCode Superapp",
+      "tagline": "The power of Codex with local, self-hosted models and voice",
+      "url": "https://www.producthunt.com/products/opencode-superapp",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-07-23T21:54:10-07:00"
+    },
+    {
+      "name": "PromptQL",
+      "tagline": "Multiplayer AI that replaces Slack",
+      "url": "https://www.producthunt.com/products/promptql",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-07-23T22:19:55-07:00"
+    },
+    {
+      "name": "canitbebuilt",
+      "tagline": "Your hardware idea, inspected. Verdict, BOM, 3D model.",
+      "url": "https://www.producthunt.com/products/canitbebuilt",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-07-23T22:18:02-07:00"
+    },
+    {
+      "name": "Basement",
+      "tagline": "Shopping browser with agentic checkout",
+      "url": "https://www.producthunt.com/products/basement-browser",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-07-23T22:01:35-07:00"
+    },
+    {
+      "name": "AgentLoop",
+      "tagline": "Starts a fresh Codex worker and critic every cycle",
+      "url": "https://www.producthunt.com/products/agentloop-2",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-07-23T22:06:35-07:00"
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "News and markets",
+      "sentences": [
+        "Global headlines: Saudi nuclear deal in doubt as Trump adds new condition regarding Israel (A day after the agreement was signed, the president laid out a new requirement: that the Saudis normalize relations with Israel); House votes to limit Trump on Iran; Senate fails to advance similar measure (The votes marked the first test of Republican support for the conflict since President Donald Trump resumed military strikes against Tehran this month); and Oil prices leap to $100 a barrel after attacks in Red Sea (The price of Brent crude, now up about 40 percent this month, surged Thursday after Iran’s Houthi allies in Yemen claimed strikes on Saudi tankers).",
+        "Markets leaned lower, with 7 of 7 tracked indexes down; Nikkei 225 down 2.91% was the largest move.",
+        "Benchmarks tracked: S&P 500, NASDAQ Composite, Euronext 100 Index, and Public Joint-Stock Company Moscow Exchange MICEX-RTS plus 3 more indexes."
+      ]
+    },
+    {
+      "title": "Hacker News and Product Hunt",
+      "sentences": [
+        "Hacker News: Writing by hand is good for your brain (nealstephenson.substack.com: Writing by hand is good for your brain); Startup founders urge U.S. government not to shut off Chinese open weight AI (politico.com: Startup founders urge U.S. government not to shut off Chinese open weight AI); and What happened to TheNumbers.com (If you work in or around the film industry, there is a decent chance you have used the work of The Numbers this month, whether you realise...).",
+        "Product Hunt features OpenCode Superapp (The power of Codex with local, self-hosted models and voice), PromptQL (Multiplayer AI that replaces Slack), and canitbebuilt (Your hardware idea, inspected. Verdict, BOM, 3D model)."
+      ]
+    }
+  ],
+  "sourceNotes": {
+    "generatedAt": "2026-07-24T05:21:18.597Z",
+    "timeZone": "Asia/Kolkata",
+    "successfulSources": [
+      "Washington Post",
+      "Al Jazeera",
+      "NPR",
+      "China Daily",
+      "The Hindu",
+      "Reuters"
+    ],
+    "marketSessionLabel": "Latest market sessions as of 2026-07-24",
+    "warnings": []
+  }
+}
