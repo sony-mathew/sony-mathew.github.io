@@ -1,0 +1,229 @@
+---
+title: 'Walking into the Himalayas: Dayara Bugyal Trek'
+description: 'My first Himalayan trek: five days through villages, forests, meadows, and mountain camps on the Dayara Bugyal Trek.'
+date: '2026-07-26'
+author: Sony Mathew
+readingTime: 30
+categories: ['Travel']
+tags: ['travel', 'trekking', 'himalayas', 'dayara bugyal', 'uttarakhand']
+toc: true
+---
+
+I’m from a small town in Kerala at the foothills of the Western Ghats. So for me and my friends, the escape has always been to the mountains. For just an evening tea, we would drive 30 km to the nearest dam in the mountains. You get really good pazhampori (banana fritters) and tea over there and can enjoy them with an amazing view of the mountains. On weekends, we would find some random hill or waterfall and go there. This was how I spent my time whenever I was in my hometown. This had been the case since my school days.
+
+Trekking in South India is kind of familiar and similar: the greenery, the wind, the climate, the villages, the rains, the sun, even the rocks - most of it feels very much at home.
+
+A few of my close friends work at the same startup as I do. So one fine day, during a work call with one of my close friends, Vishnu, we randomly started discussing treks and travel in general and then started planning one. Our friend group has planned a lot of trips, and the majority of them do not happen nowadays because people are busy and occupied with their own lives. Looking back, after 30, you never know what can happen or when. Broadly, something or the other happens with health, family, relatives, or work to keep everyone on their toes almost always.
+
+So as the call progressed, we started talking about treks, planning for one, and timing it. Both of us had a plan ready, and we called all our friends to see who could join. Only Nikhil could. So a half-an-hour call turned into 4.5 hours. And by the end of the call, we had booked three tickets for the Dayara Bugyal Trek. To be completely honest, it was a spur-of-the-moment thingy, and our trek was in three weeks’ time. We just looked for easy-to-moderate hikes in the month of May, checked three operators, and found one with availability. We booked the trek through [Trek The Himalayas](https://trekthehimalayas.com/dayara-bugyal-trek?utm_source=sony-mathew.com).
+
+We didn’t even read the complete guidelines, detailed itinerary, or preparation instructions before booking it. Now that we had booked it, we had to look at travel arrangements, preparation for the trek, shopping, etc.
+
+After booking the trek, we were kind of laxing a lot because, knowing how lazy we are, our mindset was to pack a bag and go trekking (maybe buy shoes). Then there was a prep call with the trekking group. And that’s when the seriousness of things dawned on us. We had to do some exercises to be fit and get a lot of gear, like trekking poles, shoes, different clothes to layer for the weather, torches, rain ponchos, ORS, electrolytes, and more. We also needed to get a physician’s certificate.
+
+So I started going for jogs and to the gym for the next 2.5 weeks. I got the physician’s certificate. Did the shopping. Primarily shopped at Decathlon. The shopping cost more than the trek itself. The excitement of a Himalayan trek was building up slowly but surely.
+
+I booked flight tickets from Bangalore to Delhi. My other friend, Nikhil, was coming from Kerala, so he booked from Kochi to Delhi. Vishnu was staying in Dehradun, so our plan was to stay at his place before and after the trek. Both of us reached Delhi airport and took an Uttarakhand Transport AC bus from Delhi to Dehradun. Our initial plan was to take a cab from Delhi to Dehradun. But while searching, we saw this bus and booked it that morning, May 9. If you choose the bus that takes the new expressway, it takes only 3.5 hours to travel between Delhi and Dehradun.
+
+# Day 1: Natin Village
+
+Our trek was for five days, from May 10 to May 14. So on the morning of May 10, they picked us up from Dehradun, at the TTH office near Prince Chauk. Based on your group size, they will arrange some mode of transport, either a traveller or a car. You can also book private vehicles for the same.
+
+You have to travel from Dehradun to a village called Natin on Day 1. It is 186 km from Dehradun, but it takes anywhere from 6.5 hours to 10-11 hours, based on your stops for breakfast, lunch, and tea. During the morning stretch, you are climbing and climbing. It’s all winding roads. Some people felt motion sickness during this stretch. Then we stopped for breakfast and later at another tea spot/viewpoint. It was slightly cold, but not that much. The weather was also changing drastically as we went up one mountain, came down, and climbed another. During the next stretch, we descended all the way down to the banks of the Bhagirathi River, and then the next 80% of our journey was along roads and through villages on its banks.
+
+We stopped for lunch at a hotel on the banks of the river. After lunch, we went to the side of the river, climbed down to the banks, and spent some time there. The water was ice-cold and so refreshing. Washing your face and hands in that water makes you forget all the tiredness. It was safe because the water levels were very low during summer.
+
+<img src="/images/posts/walking-into-the-himalayas-dayara-bugyal-trek/5.jpg" />
+
+On the way, I could see a lot of landslide spots on the mountains everywhere I looked. In Kerala, you see comparatively fewer of these, and the spots usually look very reddish. But here, they looked pale brownish. At one of the spots, when I looked at the soil, it seemed very brittle, with small, crisp rocks and finer soil that made the ground itself very slippery and not hard enough. Back in Kerala, the soil is harder and darker, with fewer rocks. And if there are rocks, they’re usually not crisp and sharp; they’re round and weathered.
+
+<img src="/images/posts/walking-into-the-himalayas-dayara-bugyal-trek/2.jpg" />
+
+The mountains also felt very different from Kerala. They looked a lot taller than the ones I was used to back home. The roads were narrow, very prone to landslides, and had a thousand hairpins.
+
+During the journey, it felt like the Bhagirathi was feeding a lot of villages along the way. There is a small town every now and then along its banks. Uttarkashi is one of the largest towns around there.
+
+About 1.5 hours before Natin, we started climbing again. Natin village and our base camp were at 7,400 ft above sea level. Natin was a very small village. You could see terrace-farming fields everywhere. Golden wheat fields in the golden sun. It was a feast for the eyes. You could walk around the entire village in about 20 minutes. A few fields, kids playing around them, some doggies, and some cows. There is one small shop run by a villager from their house, selling just the basics: biscuits, sweets, etc. Walking through the village during sunset is surreal. Wind against your hair, dancing golden wheat plants - singing or talking to each other. I had a bet with my friend about whether the fields were wheat or some other millet because none of the three of us was sure. Finally, Google Lens said it was rye, and then we asked our team lead later and found out it was wheat after all.
+
+<img src="/images/posts/walking-into-the-himalayas-dayara-bugyal-trek/4.jpg" />
+
+It was slightly cold up there. We had to submit our documents there: copies of our IDs and medical certificates. The team leader, or TL, also took everyone’s heart rate and oxygen levels. We had a small intro session where we were briefed in detail about the itinerary, travel, what to take, what not to take, meals, health, medicines, camping, etc. The TL also explained how to pack, walk, descend, and ascend.
+
+Our group was a very dynamic mix, with a very young group of college students and about a quarter of the group being older than 50. This was a great mix of people. You could hear a lot of stories and a lot of wisdom from people who were looking for jobs, people who were working, and people who had retired. Everyone had good camaraderie from Day 1. The adrenaline and excitement were through the roof by now.
+
+# Day 2: Gui Basecamp
+
+I was excited to start Day 2 with the trek, which was what I considered to be the actual Day 1 of the trek. Travelling in a traveller for a day cannot be considered trekking in any sense. It had rained the previous night, and everyone was worried about the weather the next day. It was still raining in the morning. The thunder felt like a small bomb going off somewhere. The sound had more boom and bass. It felt like some controlled explosion in a mine somewhere. It kind of stopped before breakfast, by 8 a.m. or so. It was colder than the day before. When I woke up and walked out of the room, I could see the snow-capped mountains for the first time. Pure bliss. It felt like a good day was guaranteed no matter what when you saw that for the first time. I just stood there looking at it for a very long time. Took all kinds of photos and videos of the same.
+
+Finally, after breakfast, we gathered, took some pictures, had a briefing, and then it started.
+
+<img src="/images/posts/walking-into-the-himalayas-dayara-bugyal-trek/3.jpg" />
+
+Saying excitement was in the air is not an understatement. We started walking uphill. People had layered up. After walking uphill for about 5-10 minutes, everyone started peeling off the layers. Within 10 minutes, everyone was back to one layer of clothing. Initially, we walked through the village roads. Then through narrow walking paths, where we saw apple trees being planted and smaller houses made of mud.
+
+If you want to offload your larger backpacks, TTH and most trek organisers allow that as a paid service. The backpacks are packed with the tents and supplies and carried by mules from campsite to campsite. They walk faster than you. The mules and their muleteers leave after you leave a camp, once they have packed up all the tents, supplies, and offloaded backpacks. But they walk faster and reach the next campsite before the group. They have bells, and while walking the paths throughout the trek, you can hear these bells every now and then, here and there. Almost 60-70% of the people in our group opted for this service.
+
+There were water points along the way, where we stopped, filled our water bottles, and enjoyed the beautiful mountain air and views. We had brought some chlorine tablets to clean our water after doing research through different blog posts and forums. We also had electrolytes. So we mixed both and got addicted to electrolytes by the end of the trek. We saw some langur monkeys on the way up. Their sound is remarkable. And their faces as well. Many parts of this journey seemed like living the stories you heard as a child.
+
+Here is the first story: there was always - I mean always - at least one dog accompanying our group. These were not the dogs of anyone in the group or of the trek leaders or guides. These were dogs from the village. One dog would always lead and stay with the people at the front of the line. Another would usually be at the back. I had heard about this only in stories. We generally hear about trekkers being stranded when a dog comes out of nowhere and guides them, walking with them until they reach a safe place. This was like a chapter from those stories happening in real life. Even on Day 2 or 3, when we went for smaller walks from the campsite, one of these dogs accompanied us. No one called for them or signalled to them in any way.
+
+Here is another chapter from a story. On our way, we came to a forest patch full of maple trees - light green, vibrant, with a few rhododendrons here and there. The last few flowers were putting up a fight, resisting before they went down by the end of the season. Dense moss covered the path, the rocks, and all the larger, older trees along the way. It started seeming like a scene from *The Hobbit*. In one such area, there were around 300-400 sheep, one guard dog, and two people (malik). We came to know that this is one part of what the villagers do. Once summer starts, three or four people, or a family, take their domesticated animals and start climbing up in search of greener pastures. One person looks after close to 100 sheep. The guard dog is well-trained to defend against all threats. There are wild bears, leopards, and tigers that could take the sheep, and the dog defends against them. This also felt like a page from the old stories we used to read, where there is a flock of sheep, a guard dog, and a shepherd. We were extra careful while passing through this area, as the guard dog could be tricky. The master called him, and the dog lay down.
+
+<img src="/images/posts/walking-into-the-himalayas-dayara-bugyal-trek/6.jpg" />
+
+At the stop before the actual campsite, we saw vultures circling for the first time. We could also see one close by.
+
+By lunchtime, we reached the next campsite. It is called Gui. This campsite was at 9,800 ft. We did some warm-down exercises before resting. It was a small clearing, with a small lake or pond nearby and a tiny meadowy hill with great views all around. The camp was set up. I had called home and said that, for the next four days, I wouldn’t have any range and would be completely off the radar. But we could get some network here and there. The lunch was amazing. Then we were just walking around, lying under a tree by the lake, listening to music, and joking around. We couldn’t see many snowcaps or larger mountains because of the clouds. We could see one of the snowcaps in the Bandar Pooch range during sunset. It was beautiful to watch. Golden and radiant. At night, it started getting cold. We had dinner and played some games with the group. Every day, like clockwork, our TL checked everyone’s heart rate and oxygen levels.
+
+<img src="/images/posts/walking-into-the-himalayas-dayara-bugyal-trek/7.jpg" />
+
+The night sky was indescribable. It had been some time since I had seen such clear skies. Standing and looking up for so long caused neck pain. Unfortunately, we did not have a telescope. If we had, it would have been an amazing experience.
+
+There were a lot of firsts for me on this trek. This was the first time I was staying in a tent. The first time sleeping in a sleeping bag. The first time in the Himalayas. And many more. The TL had already given us a heads-up that the first night’s sleep might not be great for most people. Adjusting to the oxygen levels is one thing. Then there are dogs barking at night, everybody’s nose is blocked, you can hear snoring from everywhere, the tents are all close together, and you can hear people entering, exiting, talking, walking, etc. I did not get good sleep on the first night.
+
+So I was up very, very early the next day, walking up the tiny hill. It was surreal. It was cold but beautiful. There were literally zero clouds, and the view of the snowcaps on all the surrounding mountains was really great. Both the Gangotri and Yamunotri ranges. The sun coming up and lighting some of the ranges created scenes to be etched in my memory for the rest of eternity.
+
+<img src="/images/posts/walking-into-the-himalayas-dayara-bugyal-trek/8.jpg" />
+
+At times, I felt I was breathing more and not coming back to my baseline breathing rate. But by the second and third days, I felt good and normal. It was not that big a difference to note, tbh, but you could feel a small difference.
+
+# Day 3: Lake Barnala
+
+The next day was the slowest day of all. We started after breakfast for the next campsite, which was closer, maybe 3 km away. Very relaxed walking. We reached it in about 1.5-2 hours. This campsite is called Chilapada. It is located at an altitude of 10,000 ft. The campsite had a small stream flowing along one side and trees all around the clearing where we set up the tents. We kept all our bags and belongings there. Then we went for another trek.
+
+We were going to visit a small lake called Lake Barnala. We had to walk downhill a lot for this. The lake was at 8,850 ft. So we walked down. There was a small lake before Barnala. Two beautiful horses were grazing there. It was like a beautiful wallpaper. Just pure, raw nature at its best. We also had to cross a route affected by a past landslide. It was like crossing through a slaty patch on the side of a mountain where a landslide had happened. If you stood in the middle and looked up and down, you instantly felt the wrath of nature. This was an exciting and adventurous patch of our walk.
+
+We met some people - a small family of five or six adults and three or four small kids. They did not have a house, just a small makeshift tent. You could see cows and sheep with them. They stayed near the lake for the water. We gave the kids some biscuits and sweets. They constantly move places and come up to the mountains from the villages during the summer to graze their flock of sheep and herd of cows. I don’t know how to describe the feeling of seeing lives like this, followed by the remorse of not being eternally grateful for what you have.
+
+There were areas of land near big trees that looked scratched up. We came to know that it was done by a bird called the monal. This bird is the state bird of Uttarakhand. These striking mountain birds use their strong, stout bills and powerful feet to dig into the soil, turf, and leaf litter, unearthing grubs, worms, insects, and roots.
+
+It started raining while we were at Lake Barnala. Everyone scrambled to get their rain ponchos. It felt like the rain was going to make our journey back to the campsite very difficult. The temperature dropped really fast after the rain. It was cold. But it stopped very soon. The weather changes really fast in the mountains. You have to be prepared for everything.
+
+<img src="/images/posts/walking-into-the-himalayas-dayara-bugyal-trek/10.jpg" />
+
+There is a story behind Barnala Lake and the temple there. Long, long ago, a few hunters from the village entered this sacred place. They were hunting a deer in the neighbouring region. The deer ran and ran and ran. They could not trap it. Finally, the deer ran into Barnala Lake and disappeared. The lake is a very small one. They got into the lake, searched deeply, and couldn’t find any sign of the deer. The deity of the temple is deemed very powerful.
+
+<img src="/images/posts/walking-into-the-himalayas-dayara-bugyal-trek/9.jpg" />
+
+We came back to our camp and had lunch. Then people rested. We also lay under a tree, looking at the mountains. Took a good afternoon nap there. It was very refreshing, and it began to get cold.
+
+After evening tea, we went for a small acclimatising trek, very close to the campsite but in another small clearing uphill. We just went there and stood for some time. At some point, we saw a guy coming and talking to our trek guide. When we asked for details, we found out that he was part of the family we had seen earlier with the animals. His four-year-old kid was sick with a fever, and he did not have any medicine with him. So he was trying to find campsites and ask if they had any medicines. The alternative was that he needed to go all the way down and then to Uttarkashi for a hospital. The lives of Pahadi people are very, very difficult. Fortunately, Vishnu had some tablets with him, which we gave to the man. He was very relieved and thanked us.
+
+We could also see the skeleton of a cow nearby. Our guide said it had not been there a few days earlier, when he came with a different batch of people. The vultures do the clean-up pretty fast. In the mountains, when big animals die, it doesn’t seem like people bury them. They’re left for the vultures and nature to claim.
+
+Another interesting thing I saw was cows and mules just lying in the clearing and looking at the snow-capped mountains afar. It was surreal. I felt that, at some level, they enjoy nature like we do. The ability to appreciate things of beauty seems to transcend levels of consciousness and intelligence. We also saw dogs doing this.
+
+# Day 4: The Summit Day
+
+The next day was summit day. Everyone had been eagerly waiting for this day. By now, everyone was accustomed to the routines. On summit day, we were planning to start early and also pack lunch.
+
+Everyone was really excited, and you could see it in the air. Usually, one or two people would be late after packing, but on this day, everything went like clockwork. The breakfast, tiffin, getting ready, roll call, briefing, stretching - everything.
+
+Finally, we started. That morning, we took smaller backpacks because we were coming back to the same camp. This helped everyone because the tents stayed where they were, and we didn’t need to pack anything.
+
+This was easy for us. We started walking, and on the way, we could see the India Hikes team up ahead. Same trail. Even though we could see them above us, by the time we reached the point where we had seen them, they would be way ahead. But at some point, we caught up.
+
+There was an uphill stretch in the beginning, and once you cleared that part, which took an hour or two, it was all meadows. Green meadows, like a carpet stretched across and wrapped around the mountain we were on.
+
+Then we reached Maggi Point. You could get Maggi and tea there. There is a spot nearby for taking pictures, right after the tree cover. This is the point where you get a full, unhindered view of the Gangotri and Yamunotri ranges. When you walk into that clearing and see both ranges, it’s a surreal feeling. We had primarily been seeing the Gangotri range from the previous campsite and base as well. This was the first time we saw a stretched view of the Yamunotri range. Everyone took a lot of pictures there, and then we started for the top.
+
+<img src="/images/posts/walking-into-the-himalayas-dayara-bugyal-trek/12.jpg" />
+
+When we reached the clearing, it felt like the place was illuminated with more light than usual. Don’t know why. For the first time, I felt the real need for shades. Not even a tree in sight. Just meadows. You could see cows and horses here and there. Then we started walking uphill towards the summit point. We stopped at a midway point from the clearing, and half of the team was already tired. We could see the top, and it felt near enough. Meadows give the impression that a point is closer, but once you start walking, it’s all ups and downs, winding paths, and small downhill stretches that you couldn’t see earlier. And it repeats. The TL said that, most of the time, people generally come only up to that point and return.
+
+But only six of us decided to go all the way to the top. Our TL, one guide, and one of our camp crew members joined us. It felt like walking, walking, walking. It started getting a lil colder too. But it was serene. We made stone castles. We took a lot of photos. We were kind of walking parallel to the Yamunotri range. We had one of our dogs with us.
+
+<img src="/images/posts/walking-into-the-himalayas-dayara-bugyal-trek/14.jpg" />
+
+One very interesting view during this stretch was of cows standing on very dangerous ridges, grazing or walking around. One wrong step and they would fall hundreds of metres. One of our guides said that cows do die from falling. That’s why we could see a lot of vultures earlier.
+
+There was one last stretch to the top of the summit. At the bottom, we could see a small, pristine lake, with rocky sides and very sharp rocks. A few of us decided to go to the lake, and we went down. The water was ice-cold. The lake was so clear. It was not a very big lake. Small lake. But very beautiful. Against the backdrop of the Yamunotri range, it was very picturesque.
+
+We were taking pictures and jumping across the rocks. And I slipped and injured my arm. Just scratches, nothing major. Suddenly, I don’t know, someone gave me some cotton, bandages, and ointment for the wounds. I was still in high spirits. I knew and had internalised that nothing could take this moment away from me. Don’t know whether it was the cold, the adrenaline, or because we had been walking a lot, but I did not feel any pain.
+
+Finally, we climbed to the top. The very last bit was slightly steep and tricky. And slightly dangerous. It was very windy, and there was a small temple deity there. We spent some time there and took photos all around. Thank God it did not rain. It was cold. But the view was nothing short of a wonder.
+
+Mountains stretched and stretched, snow-capped, in all shapes and sizes - pure, white, serene, calm, holding their heads high, eerily mysterious, with an invisible pull that hooks into you. A multitude of emotions passed through me. Life kind of flashed before me - the choices leading up to this moment. Filled with gratefulness. And a realisation that there are more such beautiful places to see, along with a determination to visit the Himalayas again.
+
+The feeling of reaching the top can't be expressed in words. A sense of achievement, a sense of gratitude, a sense of appreciation for nature and the weather, the feeling of us being a small part of a very large world, the feeling of inspiration, motivation, and curiosity, and the determination to see more of the world. Sitting at 12,000 ft on a summit hits differently. You see the Yamunotri range closest from the Dayara Bugyal summit. Until then, you primarily see the Gangotri ranges. Both ranges were equally amazing.
+
+You could see a multitude of peaks from the summit. Bandar Pooch 1 and 2. Gangotri Peaks 1, 2, and 3. DKD. Tata Peak. Some of these peaks were at a height of 6,500 metres.
+
+The height of the summit is 12,100 ft. That’s a first!
+
+<img src="/images/posts/walking-into-the-himalayas-dayara-bugyal-trek/15.jpg" />
+
+You could also see some adjacent summit points from the Dayara Bugyal summit. Bakri Top and Sunrise Point Trek are close by, maybe another one or two hours away.
+
+We then descended to a point where we saw some snow at the foot of the trees. We went there and played with the snow for a bit. This was the last patch of snow. It was hard but shaped like round pellets. Then we had our packed lunch there in the shade. Spent a good half an hour there. It was so peaceful. I did not feel tired at all, maybe because of all the adrenaline. The achievement of scaling the peak had not yet been fully internalised or settled in. It was all in the air.
+
+Then we could see the route down through the grassland mountains. But again, a twist: we took an alternate route, which turned out to be the best decision.
+
+<img src="/images/posts/walking-into-the-himalayas-dayara-bugyal-trek/17.JPG" />
+
+That alternate route down to Maggi Point was one of the most scenic routes ever. No question. Definitely one of the highlights of the trek. That side also had meadows, but there was a steep descent along the side of the mountain, so it had a ridgy feel. You could see snowcaps and villages far down below. There was a stretch where a landslide had happened as well. Very exciting. Got to see the bag our guides were carrying. It had an oxygen cylinder. They always carry that with them for the safety of the group.
+
+<img src="/images/posts/walking-into-the-himalayas-dayara-bugyal-trek/16.JPG" />
+
+Then we came to Maggi Point. Had Maggi and an omelette. Maybe because we had been walking for so long, both tasted really, really good. We rested there for quite some time. The descent was pretty easy, and we reached the campsite in no time. We rested, and then it started raining. The rain was like a hailstorm - just ice pebbles and not much rain. It was like thousands of beads hitting the ground, bouncing back up, and hitting other falling beads. It literally felt like that. I caught some in my hands. A new feeling. Just sat looking at it for some time. Another first.
+
+I think everyone was tired and mostly resting, and everyone was coming down from the high.
+
+# Day 5: Back To Reality
+
+The next morning was uneventful. We hiked back down to Natin village. The descent was easy. We came down pretty fast. Took some more photos at our previous campsite, which we passed on the way. We were sharing stories with the guides, and Sonu Bhai sang a Garhwali song for us. I could understand only a few words, mostly nouns. It had a sense of familiarity and rawness to it. We thoroughly enjoyed it. He explained the whole story of the song to us.
+
+We talked about festivals and schools. Sonu Bhai told us that the headmaster of his school was someone from Kerala, Chacko Sir. I felt very proud at that moment to be a Malayali. We also talked about their dreams and stuff. They like their lives. They are content, and they don’t want to go anywhere away from home. I heard someone say that people living in the mountains like their mountains and never want to leave them for anything.
+
+There was a water point just above the village. We stopped there for a good 30-40 minutes. We lay under a tree from where we could see the snow-capped Gangotri range. It was the best 40 minutes of that day. I couldn’t think of a better place to read a book. We felt we could stay there forever. Like every other person, we built an imaginary small hut with an open veranda, a reading corner, an apple tree farm, some wheat, and some goats as well.
+
+We could see the majestic Gangotri and Yamunotri ranges from where we were lying. There was a slight downward slant in the ground, so it was not exactly flat. You could just see the big mountains covered in snow. Thought about my whole life for a long time. Filled with gratitude, a sense of peace, and happiness. There was a hint of sadness, as this was the last day of the trek. But we all vowed to do a Himalayan trek at least once a year.
+
+We reached the village before lunch. We freshened up, repacked, and changed clothes. Then we had lunch. Got our certificates for completing the trek.
+
+Then we started the journey back. It was tiring, but I was listening to some good music and reminiscing about the bygone trek days. I saw kids playing cricket on the roads, with fielders spread up and down the mountain. It was like a cricket ground filled with a lot of trees, rocks, steps, and gorges in between - imagine a whole normal cricket field tilted by 45 degrees. I had seen that only on reels so far. Kids were fielding at the edges of rocks and gorges. My ground. I felt so happy seeing that. I badly wanted to join. But the traveller carrying us rushed past that beautiful, painting-like scene in mere seconds. It will stay with me forever.
+
+At some point, the music put me in a really good reminiscing mood. I saw a bird flying parallel to me and alongside the traveller, from one curve to another, at the same slanting level as the road - matching our speed and downhill angle of movement. It was like nature was speaking to me. A lot of emotions rushed past, and the music was playing to that moment, with all its ups and downs syncing with the small curves and movements of the vehicle and the bird.
+
+It was a small grey-brown bird. It was sunset. The backdrop was great. A sun-kissed, orangish mountain landscape. Small village clusters here and there. You could see a bunch of scars on the mountains from when they were playing games with rain and water. It was like a poem. One that eases you into peace and harmony.
+
+There was a lot of work going on in the landslide-scarred areas, building reinforcement walls all along the way. It’s a constant fight between man and nature. Nature creates this painting every rainy season, and man tries to restore the painting to its old state. Two forces constantly pushing and prodding each other. Some of these roads are lifelines to a lot of villages. If one of them is closed, there won’t be many alternatives, or the alternatives would take half a day or more to circumvent.
+
+Some of the roads towards the end are under the control of the Border Roads Organisation, or BRO. All the crazy work they do to keep these roads usable at all times is very commendable, no matter the season, the weather, or whatever nature throws at them. Seeing all that gave me chills when I thought about how dangerous the rains could be in these parts. I love rain in general and usually enjoy the rainy season from the comfort of my home.
+
+We stopped at the same viewpoint where we had stopped earlier. We had Maggi, an omelette, and tea from the shop there. It tasted like the world’s best food at the time. Thankfully, we had an amazing cook with our trek group throughout. He kept giving us pleasant surprises every now and then. On the last day at the top campsite, he made us fried jalebis. Amazing!
+
+Babaji, as people called him, was amazing. He was down-to-earth, one of the most resourceful people, and took his job very seriously. He always gave us a heads-up about any delays or changes and also accommodated the food restrictions and preferences of the group.
+
+Then came the traveller ride back to Dehradun. This was the worst travel: 180 km, nine hours. It felt more tiring on the way back than while going there.
+
+<img src="/images/posts/walking-into-the-himalayas-dayara-bugyal-trek/18.jpg" />
+
+
+# Practical Tips
+
+- This trek was easy. I encourage everyone to do this. It is worth it.
+
+- It is not comfortable. Be prepared for it. The sanitary situation is a lil unexpected.Bring toilet paper and wet wipes as needed. Moving around in tents, sleeping in sleeping bags and the cold are all uncomfortable at first.
+
+- Reuse your daily wear as much as possible. For longer treks and colder weather, use antibacterial powder.
+
+- Bring a medicine kit with something for headaches, fever, cold, cough, acidity, and stomach problems, along with any prescriptions you have.
+
+- Bring a small wound kit: bandages, cotton, iodine cream - some basics.
+
+- It is good to bring electrolytes and chlorine tablets if you are drinking water from streams, etc.
+
+- The weather changes like crazy. It is good to bring rainproof and layered clothing so you can adapt easily.
+
+- Bring your earbuds or earphones to sleep peacefully.
+
+- Keep a cap and shades handy. Bring some energy bars.
+
+- Bring your torch. There is literally no light once the sun goes down, either in your tent or near the tents.
+
+- Because it’s cold, your power bank and phone can discharge faster. Keep them a lil warm.
+
+- If you are planning Dayara Bugyal, you can include Rishikesh and Mussoorie as they are closer to Dehradun.
+
+The Himalayas are a feeling. You can’t express that in words. You have to go out and experience it. The scale of it. The magnitude of it. The near-infinite paintings that nature has painted over there. The majestic sense of it. The calm and peace. The alluring, dangerous, yet humble and grounded feeling they bring.
