@@ -7,6 +7,7 @@ import rehypePrismPlus from "rehype-prism-plus";
 import rehypeStringify from "rehype-stringify";
 import { unified } from "unified";
 import remarkParse from "remark-parse";
+import { extractHeadings } from "./headings.js";
 
 function getCollectionDirectory(collectionName) {
   return path.join(process.cwd(), collectionName);
@@ -63,6 +64,7 @@ export async function getCollectionEntryData(collectionName, id) {
   const fullPath = path.join(getCollectionDirectory(collectionName), `${id}.md`);
   const fileContents = fs.readFileSync(fullPath, "utf8");
   const matterResult = matter(fileContents);
+  const headings = extractHeadings(matterResult.content);
 
   const processedContent = await unified()
     .use(remarkParse)
@@ -76,20 +78,24 @@ export async function getCollectionEntryData(collectionName, id) {
     .process(matterResult.content);
 
   let contentHtml = processedContent.toString();
+  let headingIndex = 0;
 
-  contentHtml = contentHtml.replace(/<h(\d)>(.*?)<\/h\d>/g, (match, p1, p2) => {
-    const headingId = p2
-      .toLowerCase()
-      .replace(/[^\w\s-]/g, "")
-      .replace(/\s+/g, "-");
+  contentHtml = contentHtml.replace(/<h([1-6])>(.*?)<\/h\1>/g, (match, level, text) => {
+    const heading = headings[headingIndex];
 
-    return `<h${p1} id="${headingId}">${p2}</h${p1}>`;
+    if (!heading || heading.level !== Number(level)) {
+      return match;
+    }
+
+    headingIndex += 1;
+    return `<h${level} id="${heading.id}">${text}</h${level}>`;
   });
 
   return {
     id,
     contentHtml,
     content: matterResult.content,
+    headings,
     ...matterResult.data,
   };
 }
