@@ -7,6 +7,7 @@ readingTime: 30
 categories: ['Travel']
 tags: ['travel', 'trekking', 'himalayas', 'dayara bugyal', 'uttarakhand']
 toc: true
+bannerImage: /images/posts/walking-into-the-himalayas-dayara-bugyal-trek/cover.png
 ---
 
 I’m from a small town in Kerala at the foothills of the Western Ghats. So for me and my friends, the escape has always been to the mountains. For just an evening tea, we would drive 30 km to the nearest dam in the mountains. You get really good pazhampori (banana fritters) and tea over there and can enjoy them with an amazing view of the mountains. On weekends, we would find some random hill or waterfall and go there. This was how I spent my time whenever I was in my hometown. This had been the case since my school days.
