@@ -6,10 +6,16 @@
     </url>
     <url>
       <loc>https://sony-mathew.com/blog</loc>
-      <lastmod>2026-02-21</lastmod>
+      <lastmod>2026-07-26</lastmod>
       <changefreq>weekly</changefreq>
     </url>
     
+  <url>
+    <loc>https://sony-mathew.com/blog/walking-into-the-himalayas-dayara-bugyal-trek</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+
   <url>
     <loc>https://sony-mathew.com/blog/running-zeroclaw-on-raspberry-pi</loc>
     <lastmod>2026-02-21</lastmod>
