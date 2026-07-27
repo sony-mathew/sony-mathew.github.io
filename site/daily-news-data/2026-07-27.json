@@ -1,0 +1,455 @@
+{
+  "headlines": [
+    {
+      "title": "Pakistan’s Kashmir votes: Why the election hinges on 12 disputed seats",
+      "url": "https://www.aljazeera.com/news/2026/7/27/pakistans-kashmir-votes-why-the-election-hinges-on-12-disputed-seats",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-07-27",
+      "summary": "The fight over refugee representation has revived longstanding questions about democracy, autonomy and political power.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/07/14136917-1784843093.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Protests erupt in Libya’s Tripoli as anger grows over power cuts",
+      "url": "https://www.aljazeera.com/news/2026/7/27/protests-erupt-in-libyas-tripoli-as-anger-grows-over-power-cuts",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-07-27",
+      "summary": "Protesters shut roads and the foreign ministry in Tripoli as a civil disobedience campaign over power cuts spreads.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/07/2026-07-06T135225Z_1260374856_RC25JEA4INVG_RTRMADP_3_PAKISTAN-LIBYA-1785127578.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Sudan’s army claims control of major highway linking Khartoum and el-Obeid",
+      "url": "https://www.aljazeera.com/news/2026/7/27/sudans-army-claims-control-of-major-highway-linking-khartoum-and-el-obeid",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-07-27",
+      "summary": "Capture of Al Sadarat highway will help the Sudanese army block the RSF's push to seize el-Obeid in North Kordofan.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/07/afp_6a4f5eab6ba6-1783586475.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Russia and Ukraine trade attacks, killing 10, including child in Chernihiv",
+      "url": "https://www.aljazeera.com/news/2026/7/27/russia-and-ukraine-trade-attacks-killing-10-including-child-in-chernihiv",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-07-27",
+      "summary": "Kyiv says Russian strikes killed six, including a child at a supermarket, as Moscow says Ukrainian strikes killed four.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/07/reuters_6a66aa78-1785113208.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Why Mali’s northern conflict has entered a dangerous new phase",
+      "url": "https://www.aljazeera.com/news/2026/7/27/why-malis-northern-conflict-has-entered-a-dangerous-new-phase",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-07-27",
+      "summary": "A separatist–al-Qaeda alliance has shifted the balance of power in northern Mali and complicated efforts to end the war.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/07/FLA1-1785041286.png?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "With just a few primary elections to go, the competitive Senate map keeps shifting",
+      "url": "https://www.npr.org/2026/07/27/nx-s1-5907379/2026-midterm-election-senate-races",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Mon, 27 Jul 2026 01:13:24 -0400",
+      "summary": "For Democrats to take control of the U.S. Senate, they have to flip 4 seats currently held by Republicans. Republicans, meanwhile, are playing defense and pickup opportunities are harder to find.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3600x2401+0+0/resize/3600x2401!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F42%2Fa2%2F98c249904ddaa793f6e311f55fc3%2Fgettyimages-2268050960.jpg"
+    },
+    {
+      "title": "Tadej Pogačar of Slovenia wins the 2026 Tour de France, his fifth victory in the race",
+      "url": "https://www.npr.org/2026/07/26/nx-s1-5908503/tadej-pogacar-tour-de-france-2026-winner-wildfires",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Sun, 26 Jul 2026 14:13:30 -0400",
+      "summary": "The route for the iconic cycling race's final stage was shortened because security and police were reassigned to assist with wildfires in southwest France.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/7256x4837+0+0/resize/7256x4837!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fa2%2F81%2F15f54df34a07a1f1784081f3a50f%2Fap26207607351048.jpg"
+    },
+    {
+      "title": "U.S. pauses attacks on Iran for a second straight day and Tehran does too",
+      "url": "https://www.npr.org/2026/07/26/g-s1-135593/us-pauses-attacks-iran-second-day-tehran",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Sun, 26 Jul 2026 13:16:06 -0400",
+      "summary": "The United States paused attacks on Iran for a second straight day Sunday and Tehran said it had done so too, as efforts continued to bring the countries back to negotiations on an interim ceasefire.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6000x4000+0+0/resize/6000x4000!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F45%2Fe6%2F7e92f7ff45e7bea46b1a0fb42a96%2Fap26194339749499.jpg"
+    },
+    {
+      "title": "Rage-giving, innovation and cuts: How public media has survived without federal funds",
+      "url": "https://www.npr.org/2026/07/26/nx-s1-5884022/pbs-npr-public-radio-tv-funding-trump",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Sun, 26 Jul 2026 06:00:00 -0400",
+      "summary": "A year after President Trump signed a law ending six decades of federal funding of public media, it's a time of reinvention, innovation and clear anxiety at public tv and radio stations nationwide.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4500x3000+0+0/resize/4500x3000!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F91%2F63%2F8569cd3a4077b7a41925ef3f5bd8%2Fsdpb-acp-072026-0416.jpg"
+    },
+    {
+      "title": "Lebanese displaced by war turn to satellites to check their homes",
+      "url": "https://www.npr.org/2026/07/26/g-s1-124672/lebanon-israel-war-homes-satellite",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Sun, 26 Jul 2026 06:00:00 -0400",
+      "summary": "Unable to return home, some Lebanese displaced by Israel's invasion of southern Lebanon are buying satellite images to see whether their houses survived.",
+      "thumbnailUrl": "https://feeds.npr.org/1001/undefined"
+    },
+    {
+      "title": "US pauses airstrikes on Iran",
+      "url": "https://www.chinadaily.com.cn/a/202607/27/WS6a66b183a310986e2b467647.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-07-27",
+      "summary": "The United States has paused its airstrikes on Iran after nearly two weeks of escalating bombardment, while diplomatic efforts have gained momentum in an attempt to prevent the conflict from spiraling back into all-out war. However, experts said the prospects for a lasting ceasefire remain bleak.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202607/27/6a66b183a310986e101a549c.png"
+    },
+    {
+      "title": "Turkish Airlines proud of role in promoting bilateral ties",
+      "url": "https://www.chinadaily.com.cn/a/202607/26/WS6a6616eea310986e2b467567.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-07-26",
+      "summary": "China has long been a premium and valuable source of both leisure and business travelers for Turkish Airlines and the carrier aims to strengthen its role as a bridge between the two countries as China-Turkiye relations gain momentum, said Chairman of the Board of Directors and the Executive Committee of Turkish Airlines Murat Seker.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202607/26/6a6616eea310986e101a4f59.png"
+    },
+    {
+      "title": "UK's new PM rules out early general election",
+      "url": "https://www.chinadaily.com.cn/a/202607/27/WS6a667da0a310986e2b46757d.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-07-27",
+      "summary": "The United Kingdom's new prime minister has ruled out calling an early general election.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202607/27/6a667da0a310986e101a5076.jpeg"
+    },
+    {
+      "title": "Wildfires continue to ravage France",
+      "url": "https://www.chinadaily.com.cn/a/202607/27/WS6a6680dba310986e2b46757f.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-07-27",
+      "summary": "Thousands of firefighters, security workers, and military personnel supported by international aerial support have been deployed in the southwest of France as the authorities battle to gain control of devastating wildfires that have caused thousands of people to be evacuated from their homes.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202607/27/6a6680dba310986e101a5085.jpeg"
+    },
+    {
+      "title": "ASEAN vows to focus on regional stability",
+      "url": "https://www.chinadaily.com.cn/a/202607/27/WS6a66af53a310986e2b467626.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-07-27",
+      "summary": "ASEAN foreign ministers wrapped up last week's talks in Manila with fresh pledges to tackle long-running regional flashpoints — from South China Sea tensions to Myanmar's crisis.",
+      "thumbnailUrl": "https://www.chinadaily.com.cn/image_e/2020/logo21.jpg"
+    },
+    {
+      "title": "Our hunger strike was a challenge to the government: AISA Delhi Secretary Neha",
+      "url": "https://www.thehindu.com/news/national/our-hunger-strike-was-a-challenge-to-the-government-aisa-delhi-secretary-neha/article71269818.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-07-26T16:42:23.000Z",
+      "summary": "AISA's Neha discusses their 23-day hunger strike as a bold challenge to the government, supported by Left student bodies.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/8wltsi/article71270210.ece/alternates/LANDSCAPE_1200/PTI07_05_2026_000100A.jpg"
+    },
+    {
+      "title": "Did you authorise the use of lethal weapons against students, Rahul Gandhi asks Home Minister Amit Shah",
+      "url": "https://www.thehindu.com/news/national/rahul-gandhi-writes-to-amit-shah-on-delhi-police-assault-on-students/article71268998.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-07-26T09:55:13.000Z",
+      "summary": "Rahul Gandhi demands accountability from Amit Shah for police violence against students during protests, urging PM Modi to apologize.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/j4e54c/article71269022.ece/alternates/LANDSCAPE_1200/20260725438L.jpg"
+    },
+    {
+      "title": "Parliament Monsoon Session Day 6 LIVE: Both Houses adjourned till 12 p.m. amid Opposition sloganeering",
+      "url": "https://www.thehindu.com/news/national/parliament-monsoon-session-july-27-2026-anti-paper-leak-bill-protesters-opposition-cockroach-janta-party/article71271308.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-07-27T03:54:25.000Z",
+      "summary": "Parliament Monsoon Session July 27 2026: Catch live updates about the anti-paper leak bill",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/w6is56/article71261257.ece/alternates/LANDSCAPE_1200/ls.jpg"
+    },
+    {
+      "title": "Sonam Wangchuk to be discharged from hospital on July 27",
+      "url": "https://www.thehindu.com/news/national/sonam-wangchuk-hospital-discharge/article71270378.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-07-26T18:50:00.000Z",
+      "summary": "Sonam Wangchuk will be discharged from hospital on July 27 and visit Rajghat to honor Mahatma Gandhi before heading to Ladakh.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/pum2il/article71270401.ece/alternates/LANDSCAPE_1200/PTI07_25_2026_000415B.jpg"
+    },
+    {
+      "title": "Traces of protest removed from Jantar Mantar in clean-up drive",
+      "url": "https://www.thehindu.com/news/national/traces-of-protest-removed-from-jantar-mantar-in-clean-up-drive/article71269433.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-07-26T16:05:31.000Z",
+      "summary": "NDMC cleans Jantar Mantar, removing 60 metric tonnes of waste post-protest, restoring the site for public use.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/7uohdw/article71270193.ece/alternates/LANDSCAPE_1200/Cockroach%20Janta%20Party%20CJP%20Protest%20Delhi%202.JPG"
+    },
+    {
+      "title": "Seattle shooting suspect in custody, local media reports 2 dead, 5 injured",
+      "url": "https://www.reuters.com/world/us/seattle-shooting-leaves-2-dead-5-injured-according-reports-2026-07-27/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Mon, 27 Jul 2026 03:38:00 GMT",
+      "summary": "Reuters: Seattle shooting suspect in custody, local media reports 2 dead, 5 injured.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/X3JYBFHKYRLS5E25PVQHAVRJAM.jpg?auth=a758a5f2a9947fde528b8155126a3b59cd76517ef51fa964d622aa8bfddd8140&width=1080&quality=80"
+    },
+    {
+      "title": "Gold gains on pause in US-Iran fighting; Fed decision looms",
+      "url": "https://www.reuters.com/world/india/gold-rises-over-1-oil-tumbles-pause-us-iran-fighting-2026-07-27/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Mon, 27 Jul 2026 01:44:00 GMT",
+      "summary": "Reuters: Gold gains on pause in US-Iran fighting; Fed decision looms.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/3AIXKYQRTJNOBJ7QZ7U6I6OWDA.jpg?auth=0aeab9ae8e8a62362dcc8a5265d3795a3885fe6ced27723236e3d5d5316579ff&width=1920&quality=80"
+    },
+    {
+      "title": "Indonesia central bank governor Perry Warjiyo steps down in surprise move",
+      "url": "https://www.reuters.com/world/asia-pacific/bank-indonesia-governor-perry-warjiyo-steps-down-government-says-2026-07-27/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Mon, 27 Jul 2026 00:53:00 GMT",
+      "summary": "Reuters: Indonesia central bank governor Perry Warjiyo steps down in surprise move.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/3ZQC7RH6CJJHVMSDL3ZBH2M2OM.jpg?auth=be4f497dd8839e4822d0a7c581604c564f2a6f7573b8849ce32ea934fd3c1edd&width=1080&quality=80"
+    },
+    {
+      "title": "Red Sea shipping slows after Houthi attack on Saudi Arabia, data shows",
+      "url": "https://www.reuters.com/world/middle-east/red-sea-shipping-slows-after-houthi-attack-saudi-arabia-data-shows-2026-07-27/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Mon, 27 Jul 2026 00:08:00 GMT",
+      "summary": "Reuters: Red Sea shipping slows after Houthi attack on Saudi Arabia, data shows.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/J3DBJ34URRKHLELKVHVNDDRHGI.jpg?auth=f10bb7d41e4b9d281ab28dad22774a7d7f825557330f7226c924fedeb18191e0&width=1920&quality=80"
+    },
+    {
+      "title": "Chipmaker CXMT vaults to top of China's valuation with 470% Shanghai debut surge",
+      "url": "https://www.reuters.com/world/asia-pacific/china-memory-chipmaker-cxmt-set-shanghai-debut-after-asias-biggest-ipo-2026-07-26/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Sun, 26 Jul 2026 23:44:00 GMT",
+      "summary": "Reuters: Chipmaker CXMT vaults to top of China's valuation with 470% Shanghai debut surge.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/CJMB6ESGIRN3LGDEXGAVCUGJU4.jpg?auth=2760b389bff54155f596c2a220bf41ee2210bc9b92142bf671b94d1db349b42f&width=1920&quality=80"
+    }
+  ],
+  "markets": [
+    {
+      "id": "sp-500",
+      "label": "S&P 500",
+      "region": "US",
+      "symbol": "^GSPC",
+      "value": 7411.98,
+      "previousClose": 7408.299824199999,
+      "change": 3.6801758,
+      "percentChange": 0.04967639,
+      "direction": "up",
+      "sessionDate": "2026-07-27"
+    },
+    {
+      "id": "nasdaq-composite",
+      "label": "NASDAQ Composite",
+      "region": "US",
+      "symbol": "^IXIC",
+      "value": 24975.82,
+      "previousClose": 25137.695,
+      "change": -161.875,
+      "percentChange": -0.64395314,
+      "direction": "down",
+      "sessionDate": "2026-07-27"
+    },
+    {
+      "id": "euronext-100",
+      "label": "Euronext 100 Index",
+      "region": "Europe",
+      "symbol": "^N100",
+      "value": 1921.32,
+      "previousClose": 1911.0900199999999,
+      "change": 10.22998,
+      "percentChange": 0.5352956,
+      "direction": "up",
+      "sessionDate": "2026-07-27"
+    },
+    {
+      "id": "moex",
+      "label": "Public Joint-Stock Company Moscow Exchange MICEX-RTS",
+      "region": "Europe",
+      "symbol": "MOEX.ME",
+      "value": 85.2,
+      "previousClose": 85.31000061,
+      "change": -0.11000061,
+      "percentChange": -0.12894222,
+      "direction": "down",
+      "sessionDate": "2026-07-27"
+    },
+    {
+      "id": "hang-seng",
+      "label": "HANG SENG INDEX",
+      "region": "Asia",
+      "symbol": "^HSI",
+      "value": 25150.12,
+      "previousClose": 24963.23133,
+      "change": 186.88867,
+      "percentChange": 0.7486558,
+      "direction": "up",
+      "sessionDate": "2026-07-27"
+    },
+    {
+      "id": "nikkei-225",
+      "label": "Nikkei 225",
+      "region": "Asia",
+      "symbol": "^N225",
+      "value": 64762.07,
+      "previousClose": 64611.14812,
+      "change": 150.92188,
+      "percentChange": 0.23353606,
+      "direction": "up",
+      "sessionDate": "2026-07-27"
+    },
+    {
+      "id": "sensex",
+      "label": "S&P BSE SENSEX",
+      "region": "India",
+      "symbol": "^BSESN",
+      "value": 76609.88,
+      "previousClose": 76059.7706,
+      "change": 550.1094,
+      "percentChange": 0.7232849,
+      "direction": "up",
+      "sessionDate": "2026-07-27"
+    }
+  ],
+  "hackerNews": [
+    {
+      "title": "PGSimCity - How PostgreSQL Works",
+      "url": "https://nikolays.github.io/PGSimCity/",
+      "publishedAt": "2026-07-27T00:19:04.000Z",
+      "summary": "An explorable 3D city that shows how PostgreSQL actually works — backends, shared buffers, WAL, checkpoints, autovacuum and replication, all running live in your browser.",
+      "thumbnailUrl": "https://nikolays.github.io/PGSimCity/og.png"
+    },
+    {
+      "title": "Decker, a platform that builds on the legacy of Hypercard and classic macOS",
+      "url": "https://beyondloom.com/decker/",
+      "publishedAt": "2026-07-26T18:23:06.000Z",
+      "summary": "Decker is a multimedia platform for creating and sharing interactive documents, with sound, images, hypertext, and scripted behavior. You can try it in your web browser right now .",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "French firefighters face 'pyrocumulonimbus' for first time",
+      "url": "https://www.france24.com/en/live-news/20260726-french-firefighters-face-pyrocumulonimbus-for-first-time",
+      "publishedAt": "2026-07-26T17:49:44.000Z",
+      "summary": "france24.com: French firefighters face 'pyrocumulonimbus' for first time."
+    },
+    {
+      "title": "Scriptc by Vercel: TypeScript-to-Native compiler, no JavaScript engine in binary",
+      "url": "https://github.com/vercel-labs/scriptc",
+      "publishedAt": "2026-07-26T22:46:10.000Z",
+      "summary": "TypeScript-to-Native Compiler. Contribute to vercel-labs/scriptc development by creating an account on GitHub.",
+      "thumbnailUrl": "https://opengraph.githubassets.com/7e0ca5b75490eab4ae111706c298ef25dbcdfb8381c3128ff617562c50ccaf68/vercel-labs/scriptc"
+    },
+    {
+      "title": "US citizen charged after GrapheneOS phone wipes during airport search",
+      "url": "https://www.techspot.com/news/113236-us-prosecutors-charge-atlanta-man-after-grapheneos-phone.html",
+      "publishedAt": "2026-07-26T22:21:41.000Z",
+      "summary": "The case centers on Tunick's use of GrapheneOS, an open-source operating system that works on Google Pixel phones and lets users enter a passcode to wipe a...",
+      "thumbnailUrl": "https://www.techspot.com/images2/news/bigimage/2026/07/2026-07-26-image-4.jpg"
+    },
+    {
+      "title": "We have proof automation now",
+      "url": "https://www.imperialviolet.org/2026/07/26/zstd-lean.html",
+      "publishedAt": "2026-07-26T20:53:26.000Z",
+      "summary": "I've long had a soft spot for dependently-typed languages like Coq Rocq and Lean. They offer the possibility of a type system capable of encoding and enforcing arbitrarily subtle invariants. The sort of thing that, in regular languages, ends up (at best) as a comment, and which quickly gets lost as the size of the team grows. Then you get subtle misunderstandings and components that don't quite fit together. It's often the case that those components have grown to a sufficient size that, when the problem is noticed, aligning either of them is a wearying prospect. Perhaps, say dependent types seductively, you could write those invariants formally and have a machine check them.",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "Htmx 4.0, the first JavaScript library to release exclusively on the Game Boy",
+      "url": "https://swag.htmx.org/en-cad/products/htmx-4-the-game",
+      "publishedAt": "2026-07-26T12:00:11.000Z",
+      "summary": "HTMX 4.0, the first JavaScript library to release exclusively on the Game Boy® platform! Experience the power of HTMX, now on your favorite portable handheld. Four levels of pickle-collecting excitement. Squish client-side JS down to size, avoid ...",
+      "thumbnailUrl": "https://imgproxy.fourthwall.dev/fFacE7iRN78e36VJLwizpILfnQcPu0ke2aIoxlQ7jc0/w:1200/sm:1/enc/EwYqh2EzXPAU7H04/BMXqquHCApkGKbGh/LoFc40D31bsD6gv4/lJ5EIYZduCxm8qAG/13LlpWyyziWbLs7D/Xi4TfM5SZiC5kSsq/f-tOQtISSQdUx14H/3kaNrBbOOijmZBov/fuUJOdCo4m-eyLcf/7A97CwuTeNBI_GsD/K81ThuM9c3cS1p--/oRP_PAY7b_W4O2kr/rRJzjKSc6clktadC/XRtwNg.png"
+    },
+    {
+      "title": "Introduction to Data-Oriented Design [pdf]",
+      "url": "https://www.gamedevs.org/uploads/introduction-to-data-oriented-design.pdf",
+      "publishedAt": "2026-07-26T18:11:16.000Z",
+      "summary": "gamedevs.org: Introduction to Data-Oriented Design [pdf].",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "Design is compromise",
+      "url": "https://stephango.com/design-is-compromise",
+      "publishedAt": "2026-07-26T15:51:12.000Z",
+      "summary": "Compromise is neither good nor bad, it’s something we do every day. It’s decision making. Prioritizing. It’s finding the right balance between two competing ...",
+      "thumbnailUrl": "https://stephango.com/assets/covers/design-is-compromise.png"
+    },
+    {
+      "title": "Simulate cassette tape audio profiles using FFmpeg",
+      "url": "https://github.com/AARomanov1985/Audio-Cassette-Simulation",
+      "publishedAt": "2026-07-26T20:02:15.000Z",
+      "summary": "This project simulates cassette tape audio profiles using ffmpeg - AARomanov1985/Audio-Cassette-Simulation",
+      "thumbnailUrl": "https://opengraph.githubassets.com/3b5f29959a0fb0e54f7c5f55d9c757c060859c8095788783a243e8cd845d4ebd/AARomanov1985/Audio-Cassette-Simulation"
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "AppUFO",
+      "tagline": "Ship localised Apps faster",
+      "url": "https://www.producthunt.com/products/appufo-localise-apps-with-ai",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-07-26T22:38:04-07:00"
+    },
+    {
+      "name": "yatta!",
+      "tagline": "A cute little to-do list that celebrates with you",
+      "url": "https://www.producthunt.com/products/yatta",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-07-26T22:45:07-07:00"
+    },
+    {
+      "name": "Athena by Shoplazza",
+      "tagline": "An orchestrator agent for your entire commerce stack",
+      "url": "https://www.producthunt.com/products/athena-by-shoplazza",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-07-26T22:51:30-07:00"
+    },
+    {
+      "name": "Aymo AI",
+      "tagline": "All-in-one AI Platform for Teams",
+      "url": "https://www.producthunt.com/products/aymo-ai",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-07-26T22:51:40-07:00"
+    },
+    {
+      "name": "BrainFeed",
+      "tagline": "A personalized learning feed that redirects your scroll",
+      "url": "https://www.producthunt.com/products/brainfeed-scroll-better",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-07-26T22:47:51-07:00"
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "News and markets",
+      "sentences": [
+        "Global headlines: Pakistan’s Kashmir votes: Why the election hinges on 12 disputed seats (The fight over refugee representation has revived longstanding questions about democracy, autonomy and political power); Protests erupt in Libya’s Tripoli as anger grows over power cuts (Protesters shut roads and the foreign ministry in Tripoli as a civil disobedience campaign over power cuts spreads); and Sudan’s army claims control of major highway linking Khartoum and el-Obeid (Capture of Al Sadarat highway will help the Sudanese army block the RSF's push to seize el-Obeid in North Kordofan).",
+        "Markets leaned higher, with 5 of 7 tracked indexes up; HANG SENG INDEX up 0.75% was the largest move.",
+        "Benchmarks tracked: S&P 500, NASDAQ Composite, Euronext 100 Index, and Public Joint-Stock Company Moscow Exchange MICEX-RTS plus 3 more indexes."
+      ]
+    },
+    {
+      "title": "Hacker News and Product Hunt",
+      "sentences": [
+        "Hacker News: PGSimCity - How PostgreSQL Works (An explorable 3D city that shows how PostgreSQL actually works — backends, shared buffers, WAL, checkpoints, autovacuum and replication,...); Decker, a platform that builds on the legacy of Hypercard and classic macOS (Decker is a multimedia platform for creating and sharing interactive documents, with sound, images, hypertext, and scripted behavior. You...); and French firefighters face 'pyrocumulonimbus' for first time (france24.com: French firefighters face 'pyrocumulonimbus' for first time).",
+        "Product Hunt features AppUFO (Ship localised Apps faster), yatta! (A cute little to-do list that celebrates with you), and Athena by Shoplazza (An orchestrator agent for your entire commerce stack)."
+      ]
+    }
+  ],
+  "sourceNotes": {
+    "generatedAt": "2026-07-27T05:51:58.307Z",
+    "timeZone": "Asia/Kolkata",
+    "successfulSources": [
+      "Al Jazeera",
+      "NPR",
+      "China Daily",
+      "The Hindu",
+      "Reuters"
+    ],
+    "marketSessionLabel": "Latest market sessions as of 2026-07-27",
+    "warnings": [
+      "Washington Post: This operation was aborted"
+    ]
+  }
+}
