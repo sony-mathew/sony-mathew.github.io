@@ -657,7 +657,7 @@
   }
 
   .latestEditionBody {
-    grid-template-columns: minmax(0, 1fr) minmax(16rem, 30%);
+    grid-template-columns: minmax(0, 1fr) 20rem;
     align-items: start;
     gap: 1.5rem;
   }
@@ -670,9 +670,8 @@
   .latestThumbnail {
     grid-column: 2;
     grid-row: 1;
-    width: 100%;
-    height: auto;
-    aspect-ratio: 3 / 2;
+    width: 20rem;
+    height: 20rem;
   }
 
   .archiveGrid {
