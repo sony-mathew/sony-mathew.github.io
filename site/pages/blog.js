@@ -10,6 +10,7 @@ import Layout from "../components/layout";
 import DateComponent from "../components/date";
 import { MetaData } from "../components/meta_data";
 import utilStyles from "../styles/utils.module.scss";
+import styles from "../styles/blog.module.scss";
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
@@ -35,12 +36,18 @@ export default function Home({ allPostsData }) {
         <title>{pageTitle}</title>
         { MetaData() }
       </Head>
-      <section>
-        <div className="flex flex-row">
-          <h2 className={utilStyles.headingLg}>Ramblings</h2>
-          &nbsp;&nbsp;
-          <h2 className={utilStyles.lightText}>({allPostsData.length})</h2>
-        </div>
+      <section aria-labelledby="blog-archive-title">
+        <header className={styles.archiveHeader}>
+          <span className={styles.eyebrow}>Writing archive</span>
+          <div className={styles.titleRow}>
+            <h1 id="blog-archive-title" className={styles.title}>
+              Ramblings<span aria-hidden="true">.</span>
+            </h1>
+            <span className={styles.postCount}>
+              {allPostsData.length} published notes
+            </span>
+          </div>
+        </header>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title, readingTime }) => (
             <li className={utilStyles.listItem} key={id}>
