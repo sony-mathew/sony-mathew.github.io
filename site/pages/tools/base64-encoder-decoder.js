@@ -2,7 +2,7 @@ import Head from "next/head";
 import { useEffect, useRef, useState } from "react";
 import DEFAULT_CONFIG from "../../config/default_config";
 import Layout from "../../components/layout";
-import utilStyles from "../../styles/utils.module.scss";
+import ToolPageHeader from "../../components/tool_page_header";
 import styles from "../../styles/base64.module.scss";
 import { projectsList } from "../../config/projectsList";
 import { decodeBase64Text, encodeBase64Text } from "../../lib/base64";
@@ -114,80 +114,85 @@ export default function Base64EncoderDecoderPage() {
       </Head>
 
       <article className={styles.page}>
-        <h2 className={`${utilStyles.headingLg} ${styles.title}`}>Base64 Encoder Decoder</h2>
+        <ToolPageHeader id="base64-encoder-decoder" />
 
-        <div className={styles.toolbar}>
-          <button
-            type="button"
-            onClick={() => copyValue(plainText, "plain")}
-            disabled={!plainText}
-            className={`${styles.actionButton} ${styles.textAction}`}
-          >
-            {copiedTarget === "plain" ? "Copied" : "Copy Text"}
-          </button>
-          <button
-            type="button"
-            onClick={() => copyValue(base64Text, "base64")}
-            disabled={!base64Text}
-            className={`${styles.actionButton} ${styles.base64Action}`}
-          >
-            {copiedTarget === "base64" ? "Copied" : "Copy Base64"}
-          </button>
-          <button
-            type="button"
-            onClick={clearValues}
-            disabled={!plainText && !base64Text}
-            className={`${styles.actionButton} ${styles.clearAction}`}
-          >
-            Clear
-          </button>
-        </div>
-
-        <div className={styles.panelGrid}>
-          <section className={`${styles.panel} ${styles.textPanel}`}>
-            <div className={styles.panelHeader}>
-              <label className={styles.panelLabel} htmlFor="plain-text-input">
-                Text
-              </label>
-              <span className={styles.panelCount}>{plainText.length} chars</span>
+        <section className={styles.workspace} aria-label="Base64 converter">
+          <div className={styles.toolbar}>
+            <span className={styles.workspaceHint}>Edit either side to convert instantly</span>
+            <div className={styles.toolbarActions}>
+              <button
+                type="button"
+                onClick={() => copyValue(plainText, "plain")}
+                disabled={!plainText}
+                className={`${styles.actionButton} ${styles.textAction}`}
+              >
+                {copiedTarget === "plain" ? "Copied" : "Copy text"}
+              </button>
+              <button
+                type="button"
+                onClick={() => copyValue(base64Text, "base64")}
+                disabled={!base64Text}
+                className={`${styles.actionButton} ${styles.base64Action}`}
+              >
+                {copiedTarget === "base64" ? "Copied" : "Copy Base64"}
+              </button>
+              <button
+                type="button"
+                onClick={clearValues}
+                disabled={!plainText && !base64Text}
+                className={`${styles.actionButton} ${styles.clearAction}`}
+              >
+                Clear
+              </button>
             </div>
-            <textarea
-              id="plain-text-input"
-              value={plainText}
-              onChange={(event) => updateFromPlainText(event.target.value)}
-              rows={14}
-              spellCheck="false"
-              className={styles.textarea}
-              placeholder="Type text here"
-            />
-          </section>
+          </div>
 
-          <section className={`${styles.panel} ${styles.base64Panel}`}>
-            <div className={styles.panelHeader}>
-              <label className={styles.panelLabel} htmlFor="base64-text-input">
-                Base64
-              </label>
-              <span className={styles.panelCount}>{base64CharacterCount} chars</span>
-            </div>
-            <textarea
-              id="base64-text-input"
-              value={base64Text}
-              onChange={(event) => updateFromBase64Text(event.target.value)}
-              rows={14}
-              spellCheck="false"
-              className={styles.textarea}
-              placeholder="Paste Base64 here"
-            />
-          </section>
-        </div>
+          <div className={styles.panelGrid}>
+            <section className={`${styles.panel} ${styles.textPanel}`}>
+              <div className={styles.panelHeader}>
+                <label className={styles.panelLabel} htmlFor="plain-text-input">
+                  Plain text
+                </label>
+                <span className={styles.panelCount}>{plainText.length} chars</span>
+              </div>
+              <textarea
+                id="plain-text-input"
+                value={plainText}
+                onChange={(event) => updateFromPlainText(event.target.value)}
+                rows={14}
+                spellCheck="false"
+                className={styles.textarea}
+                placeholder="Type or paste text"
+              />
+            </section>
 
-        <div className={styles.statusRegion} aria-live="polite">
-          {errorMessage && (
-            <p className={styles.errorMessage}>
-              {errorMessage}
-            </p>
-          )}
-        </div>
+            <section className={`${styles.panel} ${styles.base64Panel}`}>
+              <div className={styles.panelHeader}>
+                <label className={styles.panelLabel} htmlFor="base64-text-input">
+                  Base64
+                </label>
+                <span className={styles.panelCount}>{base64CharacterCount} chars</span>
+              </div>
+              <textarea
+                id="base64-text-input"
+                value={base64Text}
+                onChange={(event) => updateFromBase64Text(event.target.value)}
+                rows={14}
+                spellCheck="false"
+                className={styles.textarea}
+                placeholder="Paste Base64"
+              />
+            </section>
+          </div>
+
+          <div className={styles.statusRegion} aria-live="polite">
+            {errorMessage && (
+              <p className={styles.errorMessage}>
+                {errorMessage}
+              </p>
+            )}
+          </div>
+        </section>
       </article>
     </Layout>
   );

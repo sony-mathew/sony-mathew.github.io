@@ -3,8 +3,9 @@ import Link from "next/link";
 import { useState } from "react";
 import DEFAULT_CONFIG from '../../config/default_config';
 import Layout from "../../components/layout";
-import utilStyles from "../../styles/utils.module.scss";
+import ToolPageHeader from "../../components/tool_page_header";
 import { projectsList}  from "../../config/projectsList";
+import styles from "../../styles/sip-calculator.module.scss";
 
 class SIPCalculator {
   constructor(sipAmount, returnRate, timePeriod, inflationRate) {
@@ -85,10 +86,10 @@ const getMetaData = () => {
 }
 
 const createTableRowForMonth = (monthData) => {
-  const styles = monthData.month % 2 == 1 ? "bg-gray-800" : "";
+  const rowClassName = monthData.month % 2 === 1 ? styles.alternateRow : "";
 
   return (
-    <tr key={monthData.month} className={styles}>
+    <tr key={monthData.month} className={rowClassName}>
       <td>{monthData.month}</td>
       <td>{monthData.monthYear}</td>
       <td>{monthData.investment}</td>
@@ -135,91 +136,141 @@ export default function Home() {
         <meta name="twitter:image" content={ meta.imageUrl } />
         <meta name="twitter:image:alt" content={ meta.title } />
       </Head>
-      <article>
-        <h2 className={utilStyles.headingLg}>Systematic Investment Plan (SIP) Calculator</h2>
-        <div className="mt-4">
-          This is my capsule sized financial advice on investments: Compounding is powerful, Start small and Start now. 
-          Also read about SIPs (Systematic Investment Plans) and here is some reading material on &nbsp;
-                <Link href="https://zerodha.com/varsity/module/personalfinance/" target="_blank">personal finance</Link>.
-        </div>
-        
-        <div className="grid grid-rows-2 md:grid-cols-2 md:grid-rows-none gap-8 mt-10">
-
-          <div className="flex flex-col space-y-4">
-
-            <div>
-              <label className="block">Monthly Investment Amount</label>
-              <input type="number" value={sipAmount}
-                className="px-2 py-1 rounded text-gray-900 text-lg"
-                onChange={(e) => { setSipAmount(e.target.value); }} />
-            </div>
-
-            <div>
-              <label className="block">Estimated Yearly Return (%)</label>
-              <input type="number" value={returnRate} 
-                className="px-2 py-1 rounded text-gray-900 text-lg"
-                onChange={(e) => { setReturnRate(e.target.value); }} />
-            </div>
-
-            <div>
-              <label className="block">Time Period (in Years)</label>
-              <input type="number" value={timePeriod} 
-                className="px-2 py-1 rounded text-gray-900 text-lg"
-                onChange={(e) => { setTimePeriod(e.target.value); }} />
-            </div>
-
-            <div>
-              <label className="block">Inflation Rate (%)</label>
-              <input type="number" value={inflationRate} 
-                className="px-2 py-1 rounded text-gray-900 text-lg" 
-                onChange={(e) => { setInflationRate(e.target.value); }} />
-            </div>
-
-            <div className="pt-6">
-              <button className="focus:outline-none text-sm w-24 py-3 rounded-md font-semibold text-white bg-blue-500 ring-2">Submit</button>
-            </div>
-          </div>
-
-
-          <div className="grid grid-rows-3 gap-4">
-            
-            <div className="col-span-1 bg-gray-900 border border-gray-800 rounded p-4">
-              <div className="text-3xl text-gray-600">Rs. {calc.totalInvestment}</div>
-              <div>Total Investment</div>
-            </div>
-            
-            <div className="col-span-1 bg-gray-900 border border-gray-800 rounded p-4">
-              <div className="text-3xl text-gray-600">Rs. {calc.estimatedReturns}</div>
-              <div>Estimated Returns</div>
-            </div>
-            
-            <div className="col-span-1 bg-gray-900 border border-gray-800 rounded p-4">
-              <div className="text-3xl text-gray-600">Rs. {calc.totalValue}</div>
-              <div>Total Value</div>
-            </div>
-          </div>
-
+      <article className={styles.page}>
+        <ToolPageHeader id="sip-calculator" />
+        <div className={styles.advice}>
+          This is my capsule-sized financial advice on investments: compounding
+          is powerful, start small, and start now. Also read about SIPs
+          (Systematic Investment Plans) in this guide to{" "}
+          <Link
+            href="https://zerodha.com/varsity/module/personalfinance/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            personal finance
+          </Link>
+          .
         </div>
 
-        <h3 className="pt-10">Monthly Breakdown</h3>
+        <div className={styles.calculatorGrid}>
+          <section className={styles.inputPanel} aria-labelledby="investment-details-title">
+            <div className={styles.panelHeading}>
+              <div>
+                <h2 id="investment-details-title">Investment details</h2>
+                <p>Results update instantly as you change the values.</p>
+              </div>
+              <span className={styles.liveBadge}>Live</span>
+            </div>
 
-        <div className="monthly-breakdown pt-4">
-          <table className="table-auto border-collapse border border-blue-800 w-full">
+            <div className={styles.fieldGrid}>
+              <div className={styles.field}>
+                <label htmlFor="sip-amount">Monthly investment</label>
+                <div className={styles.inputWithPrefix}>
+                  <span aria-hidden="true">₹</span>
+                  <input
+                    id="sip-amount"
+                    type="number"
+                    min="0"
+                    value={sipAmount}
+                    onChange={(e) => { setSipAmount(e.target.value); }}
+                  />
+                </div>
+              </div>
+
+              <div className={styles.field}>
+                <label htmlFor="sip-return-rate">Yearly return</label>
+                <div className={styles.inputWithSuffix}>
+                  <input
+                    id="sip-return-rate"
+                    type="number"
+                    min="0"
+                    step="0.1"
+                    value={returnRate}
+                    onChange={(e) => { setReturnRate(e.target.value); }}
+                  />
+                  <span aria-hidden="true">%</span>
+                </div>
+              </div>
+
+              <div className={styles.field}>
+                <label htmlFor="sip-time-period">Time period</label>
+                <div className={styles.inputWithSuffix}>
+                  <input
+                    id="sip-time-period"
+                    type="number"
+                    min="1"
+                    max="100"
+                    value={timePeriod}
+                    onChange={(e) => { setTimePeriod(e.target.value); }}
+                  />
+                  <span aria-hidden="true">years</span>
+                </div>
+              </div>
+
+              <div className={styles.field}>
+                <label htmlFor="sip-inflation-rate">Inflation rate</label>
+                <div className={styles.inputWithSuffix}>
+                  <input
+                    id="sip-inflation-rate"
+                    type="number"
+                    min="0"
+                    step="0.1"
+                    value={inflationRate}
+                    onChange={(e) => { setInflationRate(e.target.value); }}
+                  />
+                  <span aria-hidden="true">%</span>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <dl className={styles.resultsGrid} aria-label="Investment projection">
+            <div className={styles.resultCard}>
+              <dt>Total investment</dt>
+              <dd>₹{calc.totalInvestment}</dd>
+            </div>
+
+            <div className={styles.resultCard}>
+              <dt>Estimated returns</dt>
+              <dd>₹{calc.estimatedReturns}</dd>
+            </div>
+
+            <div className={styles.resultCard}>
+              <dt>Total value</dt>
+              <dd>₹{calc.totalValue}</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div className={styles.breakdownHeading}>
+          <div>
+            <p className={styles.eyebrow}>Projection schedule</p>
+            <h2>Monthly breakdown</h2>
+          </div>
+          <span>{calc.monthWiseData.length} monthly rows</span>
+        </div>
+
+        <div
+          className={styles.tableWrapper}
+          role="region"
+          aria-label="Monthly investment breakdown"
+          tabIndex={0}
+        >
+          <table className={styles.breakdownTable}>
             <thead>
               <tr>
-                <th className="w-1/5 px-4 py-2 text-blue-600">month</th>
-                <th className="w-1/5 px-4 py-2 text-blue-600">month/year</th>
-                <th className="w-1/5 px-4 py-2 text-blue-600">investment</th>
-                <th className="w-1/5 px-4 py-2 text-blue-600">returns</th>
-                <th className="w-1/5 px-4 py-2 text-blue-600">value</th>
+                <th scope="col">Month</th>
+                <th scope="col">Month / year</th>
+                <th scope="col">Investment</th>
+                <th scope="col">Returns</th>
+                <th scope="col">Value</th>
               </tr>
             </thead>
-            <tbody className="text-center text-blue-400 font-medium">
+            <tbody>
               {calc.monthWiseData.map(createTableRowForMonth)}
             </tbody>
           </table>
         </div>
-
       </article>
     </Layout>
   );

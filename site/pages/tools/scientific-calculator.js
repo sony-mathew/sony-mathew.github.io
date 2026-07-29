@@ -2,7 +2,7 @@ import Head from "next/head";
 import { useEffect, useMemo, useRef, useState } from "react";
 import DEFAULT_CONFIG from '../../config/default_config';
 import Layout from "../../components/layout";
-import utilStyles from "../../styles/utils.module.scss";
+import ToolPageHeader from "../../components/tool_page_header";
 import { projectsList } from "../../config/projectsList";
 
 const getMetaData = () => {
@@ -270,10 +270,7 @@ export default function ScientificCalculatorPage() {
       </Head>
 
       <article>
-        <h2 className={utilStyles.headingLg}>Scientific Calculator</h2>
-        <div className="mt-3 text-gray-300">
-          A simple yet powerful calculator with scientific functions. Type with your keyboard and press Enter to evaluate.
-        </div>
+        <ToolPageHeader id="scientific-calculator" />
 
         {/* Controls */}
         <div className="mt-6 flex flex-wrap gap-3 items-center">
@@ -392,4 +389,3 @@ export default function ScientificCalculatorPage() {
     </Layout>
   );
 }
-

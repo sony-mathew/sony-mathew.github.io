@@ -1,11 +1,12 @@
 import { useState } from 'react';
 import DEFAULT_CONFIG from '../config/default_config';
+import styles from './subscribe_newsletter.module.scss';
 
 function sendSusbcribeRequest(email) {
   return fetch(`${DEFAULT_CONFIG.sheetsUrl}?email=${email}`);
 }
 
-function SubscribeBlock({  }) {
+function SubscribeBlock() {
   const [email, setNewEmail] = useState(null);
   const [errors, setErrors] = useState(false);
   const [errorMessage, setErrorMessage] = useState('');
@@ -59,44 +60,40 @@ function SubscribeBlock({  }) {
 
   if(subscribed) {
     return (
-      <>
-        <div className="text-center"> Thank you for subscribing. </div>
-        <div className="text-center"> You did good today. 😼 </div>
-      </>
+      <div className={styles.successMessage}>
+        <strong>Thank you for subscribing.</strong>
+        <span>You did good today. 😼</span>
+      </div>
     );
   } else {
     return (
-      <>
-        <div className="text-center">
-          I write about technology, career, travel and philosophy.
-        </div>
-        <div className="flex flex-col lg:flex-row justify-center place-items-center lg:space-x-8 lg:space-y-0 space-y-8">
-          <div className="flex flex-col">
+      <div className={styles.formArea}>
+        <div className={styles.formRow}>
+          <div className={styles.inputGroup}>
+            <label className={styles.visuallyHidden} htmlFor="newsletter-email">
+              Email address
+            </label>
             <input
+              id="newsletter-email"
               onChange={(e) => setNewEmail(e.target.value)}
               type="email"
-              className={ 
-                (errors ? 'border-red-600' : 'border-gray-600') + 
-                " rounded border focus:outline-none text-gray-600 px-4 py-2"
-              }
+              className={`${styles.emailInput} ${
+                errors ? styles.emailInputError : ""
+              }`}
               required
               disabled={isLoading}
-              placeholder="Enter your email"
+              placeholder="you@example.com"
             />
-            {errors && (
-              <div className="text-red-500 text-sm mt-1">{errorMessage}</div>
-            )}
           </div>
           <button
+            type="button"
             onClick={() => onSave(email)}
-            className="relative inline-flex rounded 
-              items-center px-4 py-2 border border-gray-600 text-gray-200 bg-gray-700 
-              hover:bg-gray-700 hover:bg-opacity-50 focus:outline-none"
+            className={styles.subscribeButton}
             disabled={isLoading}
           >
             {isLoading ? (
               <>
-                <svg className="animate-spin -ml-1 mr-2 h-4 w-4 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                <svg className={styles.spinner} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
                   <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
                   <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
                 </svg>
@@ -107,7 +104,12 @@ function SubscribeBlock({  }) {
             )}
           </button>
         </div>
-      </>
+        {errors && (
+          <div className={styles.errorMessage} role="alert">
+            {errorMessage}
+          </div>
+        )}
+      </div>
     );
   }
 }
@@ -120,10 +122,14 @@ export default function SubscribeNewsletter() {
     return (<></>);
   } else {
     return (
-      <div className="border-t border-gray-600 flex flex-col justify-center place-items-center space-y-4 p-8 pt-16 mt-16">
+      <section className={styles.newsletter} aria-labelledby="newsletter-title">
+        <div className={styles.newsletterCopy}>
+          <span>Newsletter</span>
+          <h2 id="newsletter-title">New ramblings, occasionally.</h2>
+          <p>I write about technology, career, travel, and philosophy.</p>
+        </div>
         <SubscribeBlock />
-      </div>
+      </section>
     );
   }
 }
-

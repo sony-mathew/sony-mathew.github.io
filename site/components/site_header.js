@@ -9,6 +9,7 @@ const navigationItems = [
   { href: "/tools", label: "Tools" },
   { href: "/daily-news", label: "News" },
   { href: "/blog", label: "Blog" },
+  { href: "/about", label: "About" },
 ];
 
 function isCurrentSection(pathname, href) {

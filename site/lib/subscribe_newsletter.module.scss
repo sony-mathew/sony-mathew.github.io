@@ -1,0 +1,172 @@
+.newsletter {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(18rem, 0.8fr);
+  align-items: center;
+  gap: 2rem;
+  padding: clamp(1.4rem, 3vw, 2rem);
+  border: 1px solid var(--home-panel-border, var(--light-gray-color));
+  border-radius: 1.25rem;
+  background:
+    radial-gradient(circle at 100% 100%, rgba(255, 87, 47, 0.11), transparent 16rem),
+    var(--home-panel-bg, var(--lighter-gray-color));
+  box-shadow: 0 0.75rem 2rem rgba(27, 32, 40, 0.05);
+}
+
+.newsletterCopy > span {
+  color: var(--brand-color);
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.newsletterCopy h2 {
+  margin: 0.45rem 0 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  font-weight: 700;
+  letter-spacing: -0.045em;
+  line-height: 1;
+}
+
+.newsletterCopy p {
+  margin: 0.75rem 0 0;
+  color: var(--secondary-text-color);
+  font-size: 0.92rem;
+}
+
+.formArea {
+  min-width: 0;
+}
+
+.formRow {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 0.6rem;
+}
+
+.inputGroup {
+  min-width: 0;
+}
+
+.emailInput {
+  width: 100%;
+  min-height: 3rem;
+  padding: 0.7rem 0.9rem;
+  border: 1px solid var(--light-gray-color);
+  border-radius: 0.72rem;
+  outline: 0;
+  background: var(--white-color);
+  color: var(--primary-text-color);
+  font: inherit;
+}
+
+.emailInput:focus {
+  border-color: var(--brand-color);
+  box-shadow: 0 0 0 3px rgba(255, 87, 47, 0.13);
+}
+
+.emailInputError {
+  border-color: var(--red-color);
+}
+
+.subscribeButton {
+  display: inline-flex;
+  min-height: 3rem;
+  align-items: center;
+  justify-content: center;
+  padding: 0.7rem 1.15rem;
+  border: 1px solid var(--darker-gray-color);
+  border-radius: 0.72rem;
+  background: var(--darker-gray-color);
+  color: var(--white-color);
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.86rem;
+  font-weight: 750;
+  transition:
+    opacity 150ms var(--animation-base),
+    transform 150ms var(--animation-base);
+}
+
+.subscribeButton:hover:not(:disabled) {
+  opacity: 0.84;
+  transform: translateY(-1px);
+}
+
+.subscribeButton:focus-visible {
+  outline: 3px solid rgba(0, 147, 233, 0.35);
+  outline-offset: 2px;
+}
+
+.subscribeButton:disabled {
+  cursor: wait;
+  opacity: 0.65;
+}
+
+.spinner {
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.45rem;
+  animation: newsletter-spin 0.8s linear infinite;
+}
+
+.errorMessage {
+  margin-top: 0.5rem;
+  color: var(--red-color);
+  font-size: 0.78rem;
+  font-weight: 650;
+}
+
+.successMessage {
+  display: flex;
+  min-height: 4rem;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.2rem;
+  padding: 0.85rem 1rem;
+  border: 1px solid color-mix(in srgb, var(--green-color) 35%, transparent);
+  border-radius: 0.75rem;
+  background: color-mix(in srgb, var(--green-color) 9%, transparent);
+}
+
+.successMessage span {
+  color: var(--secondary-text-color);
+  font-size: 0.85rem;
+}
+
+.visuallyHidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  padding: 0;
+  border: 0;
+  margin: -1px;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+}
+
+@media (max-width: 760px) {
+  .newsletter {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+}
+
+@media (max-width: 460px) {
+  .newsletter {
+    padding: 1.1rem;
+    border-radius: 1rem;
+  }
+
+  .formRow {
+    grid-template-columns: 1fr;
+  }
+}
+
+@keyframes newsletter-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
