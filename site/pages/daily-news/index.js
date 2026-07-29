@@ -45,12 +45,10 @@ export default function DailyNewsIndex({ allDailyNewsData }) {
 
           <div className={dailyNewsStyles.indexHeroBody}>
             <div className={dailyNewsStyles.indexHeroCopy}>
-              <h1 className={dailyNewsStyles.indexTitle}>
-                Global headlines, markets, builder chatter
-              </h1>
+              <h1 className={dailyNewsStyles.indexTitle}>Automated Daily News Brief</h1>
               <p className={dailyNewsStyles.indexDescription}>
-                A compact daily brief collected from public sources across major news outlets,
-                market snapshots, Hacker News, and Product Hunt.
+                A fully automated news brief gathered from public sources across major news
+                outlets, market snapshots, Hacker News, and Product Hunt.
               </p>
             </div>
 
