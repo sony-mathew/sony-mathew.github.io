@@ -11,6 +11,7 @@ import utilStyles from "../../styles/utils.module.scss";
 import dailyNewsStyles from "../../styles/daily-news.module.scss";
 
 const ARCHIVE_PAGE_SIZE = 30;
+const DAILY_NEWS_SOURCE_COUNT = 8;
 
 export async function getStaticProps() {
   const allDailyNewsData = getSortedDailyNewsData();
@@ -103,7 +104,7 @@ export default function DailyNewsIndex({ allDailyNewsData }) {
                 <dd>{allDailyNewsData.length}</dd>
               </div>
               {latestEdition && (
-                <div>
+                <div className={dailyNewsStyles.indexLatestStat}>
                   <dt>Latest</dt>
                   <dd>
                     <DateComponent dateString={latestEdition.date} />
@@ -113,7 +114,7 @@ export default function DailyNewsIndex({ allDailyNewsData }) {
               {latestSources.length > 0 && (
                 <div>
                   <dt>Sources</dt>
-                  <dd>{latestSources.length}</dd>
+                  <dd>{DAILY_NEWS_SOURCE_COUNT}</dd>
                 </div>
               )}
             </dl>

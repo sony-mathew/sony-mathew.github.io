@@ -266,7 +266,7 @@
 
 .indexStats {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: minmax(0, 0.84fr) minmax(0, 1.32fr) minmax(0, 0.84fr);
   gap: 0.4rem;
   margin: 0;
 }
@@ -295,6 +295,10 @@
   font-size: 1.05rem;
   font-weight: 800;
   line-height: 1.2;
+}
+
+.indexLatestStat dd {
+  white-space: nowrap;
 }
 
 .sourceRail {
