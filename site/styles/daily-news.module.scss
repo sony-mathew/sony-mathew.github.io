@@ -194,7 +194,7 @@
 
 .indexHero {
   margin: 1rem 0 1.5rem;
-  padding: 1.25rem;
+  padding: 1.15rem;
   border: 1px solid var(--news-border);
   border-radius: 8px;
   color: var(--news-text);
@@ -210,7 +210,7 @@
   align-items: center;
   justify-content: space-between;
   gap: 0.75rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .indexEyebrow,
@@ -239,7 +239,7 @@
 
 .indexHeroBody {
   display: grid;
-  gap: 1.25rem;
+  gap: 1rem;
 }
 
 .indexHeroCopy {
@@ -250,7 +250,7 @@
   max-width: 48rem;
   margin: 0;
   color: var(--news-text);
-  font-size: 2.4rem;
+  font-size: 2rem;
   font-weight: 800;
   letter-spacing: 0;
   line-height: 1.08;
@@ -258,22 +258,23 @@
 
 .indexDescription {
   max-width: 48rem;
-  margin: 1rem 0 0;
+  margin: 0.65rem 0 0;
   color: var(--news-muted);
   font-size: 1rem;
-  line-height: 1.7;
+  line-height: 1.55;
 }
 
 .indexStats {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 0.5rem;
+  grid-template-columns: repeat(2, 8rem);
+  justify-content: center;
+  gap: 0.4rem;
   margin: 0;
 }
 
 .indexStats div {
   min-width: 0;
-  padding: 0.85rem;
+  padding: 0.7rem;
   border: 1px solid var(--news-border);
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.66);
@@ -292,7 +293,7 @@
 .indexStats dd {
   margin: 0;
   color: var(--news-text);
-  font-size: 1.15rem;
+  font-size: 1.05rem;
   font-weight: 800;
   line-height: 1.2;
 }
@@ -301,19 +302,19 @@
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
-  margin-top: 1.25rem;
+  margin-top: 0.9rem;
 }
 
 .sourceRail span {
   display: inline-flex;
-  min-height: 2rem;
+  min-height: 1.75rem;
   align-items: center;
-  padding: 0.35rem 0.65rem;
+  padding: 0.25rem 0.55rem;
   border: 1px solid var(--news-border);
   border-radius: 999px;
   color: var(--news-muted);
   background: rgba(255, 255, 255, 0.58);
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   line-height: 1.2;
 }
 
@@ -337,6 +338,24 @@
   height: 3px;
   content: "";
   background: linear-gradient(90deg, #f97316, #0ea5e9, #22c55e);
+}
+
+.latestEditionBody {
+  display: grid;
+  gap: 1.15rem;
+}
+
+.latestEditionCopy {
+  min-width: 0;
+}
+
+.latestThumbnail {
+  display: block;
+  width: 100%;
+  height: 9rem;
+  border: 1px solid var(--news-border);
+  border-radius: 7px;
+  object-fit: cover;
 }
 
 .latestLabel {
@@ -456,10 +475,98 @@
   transform: translateY(-1px);
 }
 
+.archiveCardBody {
+  display: flex;
+  min-width: 0;
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+
+.archiveThumbnail {
+  width: 6rem;
+  height: 6rem;
+  flex: 0 0 6rem;
+  border: 1px solid var(--news-border);
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.archiveCardCopy {
+  display: grid;
+  min-width: 0;
+  gap: 0.6rem;
+}
+
 .archiveLink {
+  display: -webkit-box;
+  overflow: hidden;
   font-size: 1rem;
   font-weight: 700;
   line-height: 1.45;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+.archivePagination {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: -0.75rem 0 2.5rem;
+}
+
+.paginationButton {
+  display: inline-flex;
+  min-width: 2.4rem;
+  min-height: 2.4rem;
+  align-items: center;
+  justify-content: center;
+  padding: 0.4rem 0.65rem;
+  border: 1px solid var(--news-border);
+  border-radius: 7px;
+  color: var(--news-link);
+  background: var(--news-surface);
+  font: inherit;
+  font-size: 0.9rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition:
+    border-color 0.16s ease,
+    color 0.16s ease,
+    background 0.16s ease;
+}
+
+.paginationButton:hover:not(:disabled) {
+  border-color: rgba(14, 165, 233, 0.38);
+  color: var(--news-text);
+  background: var(--news-surface-strong);
+}
+
+.paginationButton:focus-visible {
+  outline: 2px solid var(--news-link);
+  outline-offset: 2px;
+}
+
+.paginationButton:disabled {
+  color: var(--news-faint);
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
+.paginationButtonCurrent {
+  color: #ffffff;
+  border-color: var(--news-link);
+  background: var(--news-link);
+}
+
+.paginationButtonCurrent:hover:not(:disabled) {
+  color: #ffffff;
+  background: var(--news-link);
+}
+
+.paginationStep {
+  min-width: 4.75rem;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -525,9 +632,12 @@
 }
 
 @media (min-width: 768px) {
-  .hero,
-  .indexHero {
+  .hero {
     padding: 2.4rem 2.2rem;
+  }
+
+  .indexHero {
+    padding: 1.5rem;
   }
 
   .heroTitle {
@@ -539,16 +649,34 @@
   }
 
   .indexHeroBody {
-    grid-template-columns: minmax(0, 1fr) 18rem;
-    align-items: start;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: center;
   }
 
   .indexStats {
-    grid-template-columns: 1fr;
+    justify-content: end;
   }
 
   .latestEdition {
     padding: 1.5rem;
+  }
+
+  .latestEditionBody {
+    grid-template-columns: minmax(0, 1fr) 20rem;
+    align-items: start;
+    gap: 1.5rem;
+  }
+
+  .latestEditionCopy {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .latestThumbnail {
+    grid-column: 2;
+    grid-row: 1;
+    width: 20rem;
+    height: 20rem;
   }
 
   .archiveGrid {
@@ -562,7 +690,7 @@
   }
 
   .indexTitle {
-    font-size: 2rem;
+    font-size: 1.75rem;
   }
 
   .latestTitle {

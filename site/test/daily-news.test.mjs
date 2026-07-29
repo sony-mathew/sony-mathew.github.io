@@ -18,7 +18,12 @@ import {
   parseYahooWorldIndicesPage,
 } from "../scripts/generate-daily-news.mjs";
 import { getCollectionEntryData } from "../lib/content.js";
-import { getDailyNewsData } from "../lib/daily_news.js";
+import {
+  getDailyNewsData,
+  getSortedDailyNewsData,
+  removeDailyNewsDatePrefix,
+} from "../lib/daily_news.js";
+import { paginateItems } from "../lib/pagination.js";
 
 const FIXTURES_DIR = path.join(process.cwd(), "test", "fixtures", "daily-news");
 const MARKET_FIXTURE_URLS = new Set([
@@ -48,6 +53,112 @@ test.after(() => {
 async function loadFixture(fileName) {
   return fs.readFile(path.join(FIXTURES_DIR, fileName), "utf8");
 }
+
+test("removes date prefixes from daily news titles", () => {
+  assert.equal(
+    removeDailyNewsDatePrefix("July 29, 2026: Powerful earthquake strikes southern Japan"),
+    "Powerful earthquake strikes southern Japan"
+  );
+  assert.equal(
+    removeDailyNewsDatePrefix("Daily Brief for April 19, 2026: Global Headlines and Markets"),
+    "Global Headlines and Markets"
+  );
+  assert.equal(
+    removeDailyNewsDatePrefix("Daily News for May 17, 2026: Erdogan's Baby Boom Efforts Fall Flat"),
+    "Erdogan's Baby Boom Efforts Fall Flat"
+  );
+  assert.equal(removeDailyNewsDatePrefix("Markets Rally Across Asia"), "Markets Rally Across Asia");
+});
+
+test("adds a headline thumbnail to daily news landing data", async () => {
+  const tempId = "2099-01-04";
+  const tempMarkdownPath = path.join(process.cwd(), "daily-news", `${tempId}.md`);
+  const tempPayloadPath = path.join(process.cwd(), "daily-news-data", `${tempId}.json`);
+
+  await fs.writeFile(
+    tempMarkdownPath,
+    `---
+title: "January 4, 2099: Archive thumbnail headline"
+description: "Archive thumbnail test"
+date: "2099-01-04"
+editionDate: "2099-01-04"
+author: "Sony Mathew"
+readingTime: 1
+tags: ["daily-news"]
+routePrefix: "/daily-news"
+toc: false
+payloadFile: "${tempId}.json"
+---
+<div data-daily-news-payload="true"></div>
+`,
+    "utf8"
+  );
+  await fs.writeFile(
+    tempPayloadPath,
+    JSON.stringify({
+      headlines: [
+        {
+          title: "First headline",
+          thumbnailUrl: "https://example.com/first-headline.jpg",
+        },
+        {
+          title: "Second headline",
+          thumbnailUrl: "https://example.com/second-headline.jpg",
+        },
+      ],
+    }),
+    "utf8"
+  );
+
+  try {
+    const archiveEntry = getSortedDailyNewsData().find(({ id }) => id === tempId);
+
+    assert.equal(archiveEntry?.title, "Archive thumbnail headline");
+    assert.equal(archiveEntry?.archiveThumbnailUrl, "https://example.com/first-headline.jpg");
+
+    await fs.writeFile(
+      tempPayloadPath,
+      JSON.stringify({
+        headlines: [
+          {
+            title: "First headline without an image",
+            thumbnailUrl: null,
+          },
+          {
+            title: "Second headline",
+            thumbnailUrl: "https://example.com/second-headline.jpg",
+          },
+        ],
+      }),
+      "utf8"
+    );
+
+    const fallbackEntry = getSortedDailyNewsData().find(({ id }) => id === tempId);
+    assert.equal(fallbackEntry?.archiveThumbnailUrl, "https://example.com/second-headline.jpg");
+  } finally {
+    await fs.unlink(tempMarkdownPath).catch(() => {});
+    await fs.unlink(tempPayloadPath).catch(() => {});
+  }
+});
+
+test("paginates archive items and clamps invalid page numbers", () => {
+  const items = Array.from({ length: 65 }, (_, index) => index + 1);
+
+  assert.deepEqual(paginateItems(items, 1, 30), {
+    currentPage: 1,
+    items: items.slice(0, 30),
+    totalItems: 65,
+    totalPages: 3,
+  });
+  assert.deepEqual(paginateItems(items, "2", 30), {
+    currentPage: 2,
+    items: items.slice(30, 60),
+    totalItems: 65,
+    totalPages: 3,
+  });
+  assert.equal(paginateItems(items, 99, 30).currentPage, 3);
+  assert.equal(paginateItems(items, "invalid", 30).currentPage, 1);
+});
 
 test("parses Al Jazeera article cards", async () => {
   const html = await loadFixture("al-jazeera.html");
@@ -177,12 +288,11 @@ test("parses Yahoo world indices page and keeps the requested markets", async ()
   assert.equal(result.items.find((item) => item.symbol === "^N225")?.change.toFixed(2), "524.27");
 });
 
-test("uses OpenRouter metadata when a key is configured", async () => {
+test("uses the default OpenRouter model when a key is configured", async () => {
   const originalFetch = global.fetch;
   const requestedBodies = [];
 
   process.env.OPENROUTER_API_KEY = "test-openrouter-key";
-  process.env.OPENROUTER_MODEL = "test/news-editor";
   process.env.OPENROUTER_BASE_URL = "https://openrouter.test/api/v1";
   global.fetch = async (url, options = {}) => {
     requestedBodies.push(JSON.parse(options.body));
@@ -228,6 +338,12 @@ test("uses OpenRouter metadata when a key is configured", async () => {
             region: "US",
             summary: "Lead story from NPR.",
           },
+          ...Array.from({ length: 7 }, (_, index) => ({
+            title: `Additional headline ${index + 3}`,
+            source: "Additional source",
+            region: "World",
+            summary: `Additional summary ${index + 3}.`,
+          })),
         ],
         markets: [
           {
@@ -238,7 +354,13 @@ test("uses OpenRouter metadata when a key is configured", async () => {
             percentChange: -0.67,
           },
         ],
-        hackerNews: [{ title: "HN story one", url: "https://example.com/hn" }],
+        hackerNews: [
+          { title: "HN story one", url: "https://example.com/hn/1" },
+          ...Array.from({ length: 8 }, (_, index) => ({
+            title: `HN story ${index + 2}`,
+            url: `https://example.com/hn/${index + 2}`,
+          })),
+        ],
         productHunt: [{ name: "Launch Alpha", tagline: "The first launch tagline" }],
       },
       "April 19, 2026",
@@ -252,8 +374,15 @@ test("uses OpenRouter metadata when a key is configured", async () => {
     );
     assert.match(metadata.description, /Product Hunt features Launch Alpha/);
     assert.equal(warnings.length, 0);
-    assert.equal(requestedBodies[0].model, "test/news-editor");
+    assert.equal(requestedBodies[0].model, "nvidia/nemotron-3-ultra-550b-a55b:free");
+    assert.equal(requestedBodies[0].reasoning.effort, "none");
     assert.equal(requestedBodies[0].response_format.type, "json_object");
+    const prompt = requestedBodies[0].messages[1].content;
+    const summaryInput = JSON.parse(prompt.slice(prompt.indexOf("{")));
+    assert.equal(summaryInput.headlines.length, 9);
+    assert.equal(summaryInput.headlines[8].title, "Additional headline 9");
+    assert.equal(summaryInput.hackerNews.length, 9);
+    assert.equal(summaryInput.hackerNews[8].title, "HN story 9");
   } finally {
     global.fetch = originalFetch;
     delete process.env.OPENROUTER_API_KEY;
@@ -730,7 +859,7 @@ test("daily news loader falls back cleanly for non-payload markdown editions", a
   await fs.writeFile(
     tempMarkdownPath,
     `---
-title: "Legacy Daily News"
+title: "Daily Brief for January 3, 2099: Legacy Daily News"
 description: "Legacy edition"
 date: "2099-01-03"
 editionDate: "2099-01-03"
@@ -749,6 +878,7 @@ Legacy fallback content.
     const data = await getDailyNewsData(tempId);
 
     assert.equal(data.dailyNewsPayload, null);
+    assert.equal(data.title, "Legacy Daily News");
     assert.match(data.contentHtml, /Legacy fallback content/);
   } finally {
     await fs.unlink(tempMarkdownPath).catch(() => {});
