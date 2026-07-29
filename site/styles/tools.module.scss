@@ -1,0 +1,340 @@
+.page {
+  padding-bottom: 2rem;
+}
+
+.hero {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: end;
+  gap: 2rem;
+  overflow: hidden;
+  padding: 0.4rem 0 2.25rem;
+  border-bottom: 1px solid var(--light-gray-color);
+}
+
+.hero::after {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: min(12rem, 42%);
+  height: 3px;
+  border-radius: 999px;
+  content: "";
+  background: var(--brand-color);
+}
+
+.heroCopy {
+  max-width: 47rem;
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  color: var(--secondary-text-color);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+.eyebrow::before {
+  width: 0.45rem;
+  height: 0.45rem;
+  border-radius: 999px;
+  content: "";
+  background: var(--brand-color);
+  box-shadow: 0 0 0 0.25rem rgba(255, 87, 47, 0.12);
+}
+
+.title {
+  margin: 0.65rem 0 0;
+  color: var(--darker-gray-color);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(3rem, 7vw, 5.25rem);
+  font-weight: 700;
+  letter-spacing: -0.065em;
+  line-height: 0.98;
+}
+
+.title span {
+  display: inline-block;
+  color: var(--brand-color);
+  font-style: italic;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.introduction {
+  max-width: 38rem;
+  margin: 1.25rem 0 0;
+  color: var(--secondary-text-color);
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.toolCount {
+  display: flex;
+  min-width: 8.5rem;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-bottom: 0.2rem;
+}
+
+.toolCount strong {
+  color: var(--darker-gray-color);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 2.4rem;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.04em;
+  line-height: 1;
+}
+
+.toolCount span {
+  margin-top: 0.3rem;
+  color: var(--secondary-text-color);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.toolGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 2rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.toolItem {
+  --tool-accent: #ff572f;
+  --tool-tint: rgba(255, 87, 47, 0.11);
+
+  min-width: 0;
+  margin: 0;
+}
+
+.toolItem[data-accent="green"] {
+  --tool-accent: #16855b;
+  --tool-tint: rgba(22, 133, 91, 0.11);
+}
+
+.toolItem[data-accent="blue"] {
+  --tool-accent: #087fc1;
+  --tool-tint: rgba(8, 127, 193, 0.11);
+}
+
+.toolItem[data-accent="purple"] {
+  --tool-accent: #7650b5;
+  --tool-tint: rgba(118, 80, 181, 0.12);
+}
+
+.toolItem[data-accent="gold"] {
+  --tool-accent: #a66a00;
+  --tool-tint: rgba(166, 106, 0, 0.12);
+}
+
+.toolItem[data-accent="teal"] {
+  --tool-accent: #087d75;
+  --tool-tint: rgba(8, 125, 117, 0.11);
+}
+
+.toolItem[data-accent="indigo"] {
+  --tool-accent: #4d61b8;
+  --tool-tint: rgba(77, 97, 184, 0.11);
+}
+
+.toolCard {
+  position: relative;
+  display: flex;
+  min-height: 19rem;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 1.35rem;
+  border: 1px solid var(--light-gray-color);
+  border-radius: 1.1rem;
+  background: var(--white-color);
+  box-shadow: 0 0.7rem 1.8rem rgba(27, 32, 40, 0.045);
+  color: var(--primary-text-color);
+  opacity: 1;
+  transition:
+    border-color 160ms var(--animation-base),
+    box-shadow 160ms var(--animation-base),
+    transform 160ms var(--animation-base);
+}
+
+.toolCard::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 3px;
+  content: "";
+  background: var(--tool-accent);
+  opacity: 0;
+  transform: scaleX(0.65);
+  transition:
+    opacity 160ms var(--animation-base),
+    transform 160ms var(--animation-base);
+}
+
+.toolCard:hover {
+  border-color: var(--tool-accent);
+  box-shadow: 0 1.1rem 2.6rem rgba(27, 32, 40, 0.1);
+  color: var(--primary-text-color);
+  transform: translateY(-0.3rem);
+}
+
+.toolCard:hover::before {
+  opacity: 1;
+  transform: scaleX(1);
+}
+
+.toolCard:focus-visible {
+  border-color: var(--tool-accent);
+  outline: 3px solid var(--tool-tint);
+  outline-offset: 3px;
+}
+
+.cardTop {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.icon,
+.arrow {
+  display: inline-grid;
+  flex: 0 0 auto;
+  place-items: center;
+}
+
+.icon {
+  width: 3.25rem;
+  height: 3.25rem;
+  border-radius: 0.95rem;
+  background: var(--tool-tint);
+  color: var(--tool-accent);
+}
+
+.icon svg {
+  width: 1.65rem;
+  height: 1.65rem;
+}
+
+.arrow {
+  width: 2rem;
+  height: 2rem;
+  border: 1px solid var(--light-gray-color);
+  border-radius: 999px;
+  color: var(--secondary-text-color);
+  font-size: 0.95rem;
+  transition:
+    background-color 160ms var(--animation-base),
+    color 160ms var(--animation-base),
+    transform 160ms var(--animation-base);
+}
+
+.toolCard:hover .arrow {
+  background: var(--tool-accent);
+  color: #fff;
+  transform: translate(0.12rem, -0.12rem);
+}
+
+.cardContent {
+  padding-top: 1.65rem;
+}
+
+.category {
+  color: var(--tool-accent);
+  font-size: 0.68rem;
+  font-weight: 750;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+}
+
+.cardTitle {
+  margin: 0.55rem 0 0;
+  color: var(--darker-gray-color);
+  font-size: 1.28rem;
+  font-weight: 750;
+  letter-spacing: -0.025em;
+  line-height: 1.25;
+}
+
+.description {
+  margin: 0.8rem 0 0;
+  color: var(--secondary-text-color);
+  font-size: 0.88rem;
+  line-height: 1.65;
+}
+
+.cardFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-top: auto;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--light-gray-color);
+}
+
+.openLabel {
+  color: var(--darker-gray-color);
+  font-size: 0.76rem;
+  font-weight: 700;
+}
+
+.date {
+  color: var(--secondary-text-color);
+  font-size: 0.7rem;
+  white-space: nowrap;
+}
+
+@media (max-width: 900px) {
+  .toolGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 620px) {
+  .hero {
+    display: block;
+    padding-top: 0.15rem;
+  }
+
+  .title {
+    font-size: clamp(3rem, 15vw, 4.25rem);
+  }
+
+  .toolCount {
+    align-items: flex-start;
+    margin-top: 1.5rem;
+  }
+
+  .toolGrid {
+    grid-template-columns: 1fr;
+    margin-top: 1.5rem;
+  }
+
+  .toolCard {
+    min-height: 17.5rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .toolCard,
+  .toolCard::before,
+  .arrow {
+    transition: none;
+  }
+
+  .toolCard:hover,
+  .toolCard:hover .arrow {
+    transform: none;
+  }
+}

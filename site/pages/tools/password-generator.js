@@ -2,7 +2,7 @@ import Head from "next/head";
 import { useEffect, useMemo, useState } from "react";
 import DEFAULT_CONFIG from '../../config/default_config';
 import Layout from "../../components/layout";
-import utilStyles from "../../styles/utils.module.scss";
+import ToolPageHeader from "../../components/tool_page_header";
 import styles from "../../styles/password-generator.module.scss";
 import { projectsList } from "../../config/projectsList";
 
@@ -186,123 +186,125 @@ export default function PasswordGeneratorPage() {
       </Head>
 
       <article className={styles.page}>
-        <h2 className={`${utilStyles.headingLg} ${styles.title}`}>Password Generator</h2>
+        <ToolPageHeader id="password-generator" />
 
-        <section className={`${styles.panel} ${styles.outputPanel}`}>
-          <div className={styles.outputHeader}>
-            <label className={styles.panelLabel} htmlFor="generated-password">
-              Generated password
-            </label>
-            <div className={styles.actions}>
-              <button
-                type="button"
-                onClick={copyPassword}
-                className={`${styles.actionButton} ${styles.secondaryAction}`}
-              >
-                {copyState}
-              </button>
-              <button
-                type="button"
-                onClick={regenerate}
-                className={`${styles.actionButton} ${styles.primaryAction}`}
-              >
-                Generate
-              </button>
-            </div>
-          </div>
-
-          <div className={styles.passwordField}>
-            <textarea
-              id="generated-password"
-              value={password}
-              readOnly
-              rows={4}
-              className={styles.passwordTextarea}
-            />
-          </div>
-
-          {error && (
-            <div className={styles.errorMessage}>
-              {error}
-            </div>
-          )}
-
-          <div className={styles.metaBar}>
-            <span className={styles.metaPill}>Length: {length}</span>
-            <span className={styles.metaPill}>Entropy: {entropyBits} bits</span>
-            {useHexDigest && <span className={styles.metaPill}>Hex digest</span>}
-          </div>
-        </section>
-
-        <div className={styles.controlGrid}>
-          <section className={styles.panel}>
-            <h3 className={styles.sectionTitle}>Length</h3>
-            <div className={styles.presetGrid}>
-              {LENGTH_PRESETS.map((preset) => (
+        <div className={styles.workspace}>
+          <section className={`${styles.panel} ${styles.outputPanel}`}>
+            <div className={styles.outputHeader}>
+              <label className={styles.panelLabel} htmlFor="generated-password">
+                Your password
+              </label>
+              <div className={styles.actions}>
                 <button
                   type="button"
-                  key={preset}
-                  onClick={() => selectPreset(preset)}
-                  className={`${styles.presetButton} ${
-                    activePreset === preset ? styles.presetActive : ""
-                  }`}
+                  onClick={copyPassword}
+                  className={`${styles.actionButton} ${styles.secondaryAction}`}
                 >
-                  {preset}
+                  {copyState}
                 </button>
-              ))}
-            </div>
-
-            <label className={styles.fieldLabel} htmlFor="custom-length">
-              Custom length
-            </label>
-            <input
-              id="custom-length"
-              type="number"
-              min="1"
-              max={MAX_LENGTH}
-              value={customLength}
-              onChange={(event) => updateCustomLength(event.target.value)}
-              className={styles.numberInput}
-            />
-          </section>
-
-          <section className={styles.panel}>
-            <h3 className={styles.sectionTitle}>Characters</h3>
-            <div className={styles.optionStack}>
-              {[
-                ["uppercase", "Uppercase"],
-                ["lowercase", "Lowercase"],
-                ["numbers", "Numbers"],
-                ["special", "Special characters"]
-              ].map(([key, label]) => (
-                <label
-                  key={key}
-                  className={`${styles.optionRow} ${
-                    useHexDigest ? styles.optionDisabled : ""
-                  }`}
+                <button
+                  type="button"
+                  onClick={regenerate}
+                  className={`${styles.actionButton} ${styles.primaryAction}`}
                 >
-                  <span className={styles.optionLabel}>{label}</span>
-                  <input
-                    type="checkbox"
-                    checked={options[key]}
-                    disabled={useHexDigest}
-                    onChange={() => toggleOption(key)}
-                    className={styles.checkbox}
-                  />
-                </label>
-              ))}
+                  Generate again
+                </button>
+              </div>
             </div>
 
-            <label className={`${styles.optionRow} ${styles.hexRow}`}>
-              <span className={styles.optionLabel}>Hex digest</span>
-              <input
-                type="checkbox"
-                checked={useHexDigest}
-                onChange={() => setUseHexDigest((current) => !current)}
-                className={`${styles.checkbox} ${styles.hexCheckbox}`}
+            <div className={styles.passwordField}>
+              <textarea
+                id="generated-password"
+                value={password}
+                readOnly
+                rows={4}
+                className={styles.passwordTextarea}
               />
-            </label>
+            </div>
+
+            {error && (
+              <div className={styles.errorMessage}>
+                {error}
+              </div>
+            )}
+
+            <div className={styles.metaBar}>
+              <span className={styles.metaPill}>{length} characters</span>
+              <span className={styles.metaPill}>{entropyBits} bits of entropy</span>
+              {useHexDigest && <span className={styles.metaPill}>Hex digest</span>}
+            </div>
           </section>
+
+          <div className={styles.controlGrid}>
+            <section className={styles.panel}>
+              <h2 className={styles.sectionTitle}>Password length</h2>
+              <div className={styles.presetGrid}>
+                {LENGTH_PRESETS.map((preset) => (
+                  <button
+                    type="button"
+                    key={preset}
+                    onClick={() => selectPreset(preset)}
+                    className={`${styles.presetButton} ${
+                      activePreset === preset ? styles.presetActive : ""
+                    }`}
+                  >
+                    {preset}
+                  </button>
+                ))}
+              </div>
+
+              <label className={styles.fieldLabel} htmlFor="custom-length">
+                Custom length
+              </label>
+              <input
+                id="custom-length"
+                type="number"
+                min="1"
+                max={MAX_LENGTH}
+                value={customLength}
+                onChange={(event) => updateCustomLength(event.target.value)}
+                className={styles.numberInput}
+              />
+            </section>
+
+            <section className={styles.panel}>
+              <h2 className={styles.sectionTitle}>Include characters</h2>
+              <div className={styles.optionStack}>
+                {[
+                  ["uppercase", "Uppercase"],
+                  ["lowercase", "Lowercase"],
+                  ["numbers", "Numbers"],
+                  ["special", "Special characters"]
+                ].map(([key, label]) => (
+                  <label
+                    key={key}
+                    className={`${styles.optionRow} ${
+                      useHexDigest ? styles.optionDisabled : ""
+                    }`}
+                  >
+                    <span className={styles.optionLabel}>{label}</span>
+                    <input
+                      type="checkbox"
+                      checked={options[key]}
+                      disabled={useHexDigest}
+                      onChange={() => toggleOption(key)}
+                      className={styles.checkbox}
+                    />
+                  </label>
+                ))}
+              </div>
+
+              <label className={`${styles.optionRow} ${styles.hexRow}`}>
+                <span className={styles.optionLabel}>Use hex only</span>
+                <input
+                  type="checkbox"
+                  checked={useHexDigest}
+                  onChange={() => setUseHexDigest((current) => !current)}
+                  className={`${styles.checkbox} ${styles.hexCheckbox}`}
+                />
+              </label>
+            </section>
+          </div>
         </div>
       </article>
     </Layout>

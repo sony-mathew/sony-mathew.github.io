@@ -1,13 +1,20 @@
-.container {
-  max-width: 1024px;
+.container,
+.headerContainer,
+.footerContainer {
+  max-width: 1088px;
   padding: 0 1rem;
+}
+
+.container {
   margin: 1rem auto 1rem;
 }
 
 .headerContainer {
-  max-width: 1088px;
-  padding: 0 1rem;
   margin: 1.25rem auto 3rem;
+}
+
+.footerContainer {
+  margin: 3rem auto 1.25rem;
 }
 
 .backToHome {
@@ -22,5 +29,9 @@
 @media (max-width: 760px) {
   .headerContainer {
     margin: 0.75rem auto 2rem;
+  }
+
+  .footerContainer {
+    margin: 2rem auto 0.75rem;
   }
 }

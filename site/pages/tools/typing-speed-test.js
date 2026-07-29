@@ -2,7 +2,7 @@ import Head from "next/head";
 import { useEffect, useMemo, useRef, useState } from "react";
 import DEFAULT_CONFIG from '../../config/default_config';
 import Layout from "../../components/layout";
-import utilStyles from "../../styles/utils.module.scss";
+import ToolPageHeader from "../../components/tool_page_header";
 import { projectsList } from "../../config/projectsList";
 
 const getMetaData = () => {
@@ -47,8 +47,8 @@ export default function TypingSpeedTestPage() {
   const meta = getMetaData();
 
   // Core state
-  const [sampleIndex, setSampleIndex] = useState(() => Math.floor(Math.random() * TEXT_SAMPLES.length));
-  const [target, setTarget] = useState(TEXT_SAMPLES[sampleIndex]);
+  const [sampleIndex, setSampleIndex] = useState(0);
+  const [target, setTarget] = useState(TEXT_SAMPLES[0]);
   const [typed, setTyped] = useState("");
   const [started, setStarted] = useState(false);
   const [finished, setFinished] = useState(false);
@@ -62,6 +62,7 @@ export default function TypingSpeedTestPage() {
   // Timing refs
   const intervalRef = useRef(null);
   const startTimeRef = useRef(null);
+  const typingInputRef = useRef(null);
 
   // History
   const [sessions, setSessions] = useState([]);
@@ -84,6 +85,12 @@ export default function TypingSpeedTestPage() {
     const all = t.length ? t.split(/\s+/) : [];
     return endsWithSpace ? all.length : Math.max(0, all.length - 1);
   }, [typed]);
+
+  useEffect(() => {
+    const initialSampleIndex = Math.floor(Math.random() * TEXT_SAMPLES.length);
+    setSampleIndex(initialSampleIndex);
+    setTarget(TEXT_SAMPLES[initialSampleIndex]);
+  }, []);
 
   // Load sessions
   useEffect(() => {
@@ -124,6 +131,10 @@ export default function TypingSpeedTestPage() {
         intervalRef.current = null;
       }
     };
+  }, [started]);
+
+  useEffect(() => {
+    if (started) typingInputRef.current?.focus();
   }, [started]);
 
   // Recalculate correctness on typed change
@@ -220,7 +231,7 @@ export default function TypingSpeedTestPage() {
 
   // Rendering helpers - windowed view of words (10 previous, current, next 19 = max 30 words)
   const renderWindowedTarget = () => {
-    const targetWords = useMemo(() => target.trim().split(/\s+/), [target]);
+    const targetWords = target.trim().split(/\s+/);
     const typedTrimmed = typed.trim();
     const typedWholeWordsArr = typedTrimmed.length ? typedTrimmed.split(/\s+/) : [];
 
@@ -428,7 +439,7 @@ export default function TypingSpeedTestPage() {
       </Head>
 
       <article>
-        <h2 className={utilStyles.headingLg}>Typing Speed Test</h2>
+        <ToolPageHeader id="typing-speed-test" />
 
         {/* Top metrics and controls */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-4">
@@ -446,12 +457,15 @@ export default function TypingSpeedTestPage() {
         {/* Input and actions */}
         <div className="grid grid-cols-1 gap-4 mt-4">
           <textarea
+            ref={typingInputRef}
             value={typed}
             onChange={handleTyping}
-            disabled={!started || finished}
+            onClick={!started && !finished ? startTest : undefined}
+            readOnly={!started || finished}
+            disabled={finished}
             rows={5}
-            className="w-full px-5 py-4 rounded-xl border border-gray-800 bg-white/5 dark:bg-white/5 text-gray-900 dark:text-gray-100 text-base outline-none focus:ring-2 focus:ring-sky-400/50"
-            placeholder={started ? 'Start typing the text above…' : 'Click Start to begin a 60s test…'}
+            className={`w-full px-5 py-4 rounded-xl border border-gray-800 bg-white/5 dark:bg-white/5 text-gray-900 dark:text-gray-100 text-base outline-none focus:ring-2 focus:ring-sky-400/50 ${!started && !finished ? 'cursor-pointer' : ''}`}
+            placeholder={started ? 'Start typing the text above…' : 'Click here or press Start to begin a 60s test…'}
           />
 
           <div className="flex gap-3 flex-wrap">

@@ -70,29 +70,52 @@
   color: var(--darker-gray-color);
 }
 
+.workspace {
+  overflow: hidden;
+  border: 1px solid var(--base64-panel-border);
+  border-radius: 1rem;
+  background: var(--base64-panel-bg);
+  box-shadow: var(--base64-panel-shadow);
+}
+
 .toolbar {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
   flex-wrap: wrap;
   gap: 0.75rem;
-  margin-top: 1.25rem;
+  padding: 0.72rem 1rem;
+  border-bottom: 1px solid var(--base64-panel-divider);
+  background: var(--base64-surface-bg);
+}
+
+.workspaceHint {
+  color: var(--base64-muted-text);
+  font-size: 0.75rem;
+  font-weight: 650;
+}
+
+.toolbarActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
 }
 
 .actionButton {
-  min-height: 2.5rem;
-  padding: 0.55rem 1rem;
-  border: 1px solid var(--base64-button-border);
-  border-radius: 8px;
-  background: var(--base64-button-bg);
+  min-height: 2.15rem;
+  padding: 0.42rem 0.68rem;
+  border: 1px solid transparent;
+  border-radius: 0.55rem;
+  background: transparent;
   color: var(--base64-button-text);
   cursor: pointer;
-  font-size: 0.875rem;
+  font-size: 0.76rem;
   font-weight: 700;
   transition: background 0.16s ease, border-color 0.16s ease, color 0.16s ease, transform 0.16s ease;
 }
 
 .actionButton:hover:not(:disabled) {
   background: var(--base64-button-hover-bg);
-  transform: translateY(-1px);
 }
 
 .actionButton:disabled {
@@ -118,41 +141,24 @@
 .panelGrid {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 1.25rem;
-  margin-top: 1.25rem;
+  gap: 0;
 }
 
 @media (min-width: 1024px) {
   .panelGrid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+
+  .base64Panel {
+    border-left: 1px solid var(--base64-panel-divider);
+  }
 }
 
 .panel {
-  position: relative;
-  overflow: hidden;
-  padding: 1rem;
-  border: 1px solid var(--base64-panel-border);
-  border-radius: 8px;
+  min-width: 0;
+  padding: 1rem 1.05rem 1.05rem;
+  border: 0;
   background: var(--base64-panel-bg);
-  box-shadow: var(--base64-panel-shadow);
-}
-
-.panel::before {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  height: 3px;
-  content: "";
-}
-
-.textPanel::before {
-  background: var(--base64-text-accent);
-}
-
-.base64Panel::before {
-  background: var(--base64-code-accent);
 }
 
 .panelHeader {
@@ -160,32 +166,41 @@
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-  margin-bottom: 0.9rem;
-  padding-bottom: 0.75rem;
-  border-bottom: 1px solid var(--base64-panel-divider);
+  margin-bottom: 0.55rem;
 }
 
 .panelLabel {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.42rem;
   color: var(--base64-label-text);
-  font-size: 0.82rem;
+  font-size: 0.74rem;
   font-weight: 800;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
+}
+
+.panelLabel::before {
+  width: 0.42rem;
+  height: 0.42rem;
+  border-radius: 50%;
+  background: var(--panel-accent);
+  content: "";
 }
 
 .panelCount {
   color: var(--base64-muted-text);
-  font-size: 0.78rem;
+  font-size: 0.7rem;
   font-weight: 600;
   white-space: nowrap;
 }
 
 .textarea {
   width: 100%;
-  min-height: 22rem;
-  padding: 1rem;
-  border: 1px solid var(--base64-input-border);
-  border-radius: 6px;
+  min-height: 20rem;
+  padding: 0.9rem;
+  border: 0;
+  border-radius: 0.72rem;
   background: var(--base64-surface-bg);
   color: var(--base64-input-text);
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
@@ -201,8 +216,7 @@
 }
 
 .textarea:focus {
-  border-color: var(--panel-accent);
-  box-shadow: 0 0 0 3px color-mix(in srgb, var(--panel-accent) 20%, transparent);
+  box-shadow: inset 0 0 0 1px var(--panel-accent), 0 0 0 3px color-mix(in srgb, var(--panel-accent) 14%, transparent);
 }
 
 .textPanel {
@@ -214,8 +228,11 @@
 }
 
 .statusRegion {
-  min-height: 1.75rem;
-  margin-top: 1rem;
+  padding: 0 1rem 1rem;
+}
+
+.statusRegion:empty {
+  display: none;
 }
 
 .errorMessage {
@@ -227,4 +244,29 @@
   color: var(--base64-error-text);
   font-size: 0.875rem;
   font-weight: 700;
+}
+
+@media (max-width: 1023px) {
+  .base64Panel {
+    border-top: 1px solid var(--base64-panel-divider);
+  }
+}
+
+@media (max-width: 620px) {
+  .toolbar {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .toolbarActions {
+    width: 100%;
+  }
+
+  .actionButton {
+    flex: 1 1 auto;
+  }
+
+  .textarea {
+    min-height: 15rem;
+  }
 }
