@@ -19,9 +19,25 @@ export function removeDailyNewsDatePrefix(title = "") {
 }
 
 function withDisplayTitle(entry) {
+  let archiveThumbnailUrl = null;
+
+  if (entry.payloadFile) {
+    const payloadPath = path.join(PAYLOAD_DIRECTORY, entry.payloadFile);
+
+    if (fs.existsSync(payloadPath)) {
+      try {
+        const payload = JSON.parse(fs.readFileSync(payloadPath, "utf8"));
+        archiveThumbnailUrl = payload.headlines?.[0]?.thumbnailUrl || null;
+      } catch {
+        archiveThumbnailUrl = null;
+      }
+    }
+  }
+
   return {
     ...entry,
     title: removeDailyNewsDatePrefix(entry.title),
+    archiveThumbnailUrl,
   };
 }
 

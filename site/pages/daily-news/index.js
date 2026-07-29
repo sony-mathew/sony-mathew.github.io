@@ -106,16 +106,28 @@ export default function DailyNewsIndex({ allDailyNewsData }) {
               <span>{archiveEditions.length} older briefs</span>
             </div>
             <ul className={`${utilStyles.list} ${dailyNewsStyles.archiveGrid}`}>
-              {archiveEditions.map(({ id, date, title, readingTime }) => (
+              {archiveEditions.map(({ id, date, title, readingTime, archiveThumbnailUrl }) => (
                 <li className={`${utilStyles.listItem} ${dailyNewsStyles.archiveCard}`} key={id}>
-                  <Link className={dailyNewsStyles.archiveLink} href={`/daily-news/${id}`}>
-                    {title}
-                  </Link>
-                  <div className={dailyNewsStyles.archiveMeta}>
-                    <span>
-                      <DateComponent dateString={date} />
-                    </span>
-                    <span>{readingTime} min read</span>
+                  <div className={dailyNewsStyles.archiveCardBody}>
+                    {archiveThumbnailUrl && (
+                      <img
+                        className={dailyNewsStyles.archiveThumbnail}
+                        src={archiveThumbnailUrl}
+                        alt=""
+                        loading="lazy"
+                      />
+                    )}
+                    <div className={dailyNewsStyles.archiveCardCopy}>
+                      <Link className={dailyNewsStyles.archiveLink} href={`/daily-news/${id}`}>
+                        {title}
+                      </Link>
+                      <div className={dailyNewsStyles.archiveMeta}>
+                        <span>
+                          <DateComponent dateString={date} />
+                        </span>
+                        <span>{readingTime} min read</span>
+                      </div>
+                    </div>
                   </div>
                 </li>
               ))}

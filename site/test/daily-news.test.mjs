@@ -20,6 +20,7 @@ import {
 import { getCollectionEntryData } from "../lib/content.js";
 import {
   getDailyNewsData,
+  getSortedDailyNewsData,
   removeDailyNewsDatePrefix,
 } from "../lib/daily_news.js";
 
@@ -66,6 +67,57 @@ test("removes date prefixes from daily news titles", () => {
     "Erdogan's Baby Boom Efforts Fall Flat"
   );
   assert.equal(removeDailyNewsDatePrefix("Markets Rally Across Asia"), "Markets Rally Across Asia");
+});
+
+test("adds the first headline thumbnail to daily news archive data", async () => {
+  const tempId = "2099-01-04";
+  const tempMarkdownPath = path.join(process.cwd(), "daily-news", `${tempId}.md`);
+  const tempPayloadPath = path.join(process.cwd(), "daily-news-data", `${tempId}.json`);
+
+  await fs.writeFile(
+    tempMarkdownPath,
+    `---
+title: "January 4, 2099: Archive thumbnail headline"
+description: "Archive thumbnail test"
+date: "2099-01-04"
+editionDate: "2099-01-04"
+author: "Sony Mathew"
+readingTime: 1
+tags: ["daily-news"]
+routePrefix: "/daily-news"
+toc: false
+payloadFile: "${tempId}.json"
+---
+<div data-daily-news-payload="true"></div>
+`,
+    "utf8"
+  );
+  await fs.writeFile(
+    tempPayloadPath,
+    JSON.stringify({
+      headlines: [
+        {
+          title: "First headline",
+          thumbnailUrl: "https://example.com/first-headline.jpg",
+        },
+        {
+          title: "Second headline",
+          thumbnailUrl: "https://example.com/second-headline.jpg",
+        },
+      ],
+    }),
+    "utf8"
+  );
+
+  try {
+    const archiveEntry = getSortedDailyNewsData().find(({ id }) => id === tempId);
+
+    assert.equal(archiveEntry?.title, "Archive thumbnail headline");
+    assert.equal(archiveEntry?.archiveThumbnailUrl, "https://example.com/first-headline.jpg");
+  } finally {
+    await fs.unlink(tempMarkdownPath).catch(() => {});
+    await fs.unlink(tempPayloadPath).catch(() => {});
+  }
 });
 
 test("parses Al Jazeera article cards", async () => {
