@@ -227,6 +227,12 @@ test("uses the default OpenRouter model when a key is configured", async () => {
             region: "US",
             summary: "Lead story from NPR.",
           },
+          ...Array.from({ length: 7 }, (_, index) => ({
+            title: `Additional headline ${index + 3}`,
+            source: "Additional source",
+            region: "World",
+            summary: `Additional summary ${index + 3}.`,
+          })),
         ],
         markets: [
           {
@@ -237,7 +243,13 @@ test("uses the default OpenRouter model when a key is configured", async () => {
             percentChange: -0.67,
           },
         ],
-        hackerNews: [{ title: "HN story one", url: "https://example.com/hn" }],
+        hackerNews: [
+          { title: "HN story one", url: "https://example.com/hn/1" },
+          ...Array.from({ length: 8 }, (_, index) => ({
+            title: `HN story ${index + 2}`,
+            url: `https://example.com/hn/${index + 2}`,
+          })),
+        ],
         productHunt: [{ name: "Launch Alpha", tagline: "The first launch tagline" }],
       },
       "April 19, 2026",
@@ -254,6 +266,12 @@ test("uses the default OpenRouter model when a key is configured", async () => {
     assert.equal(requestedBodies[0].model, "nvidia/nemotron-3-ultra-550b-a55b:free");
     assert.equal(requestedBodies[0].reasoning.effort, "none");
     assert.equal(requestedBodies[0].response_format.type, "json_object");
+    const prompt = requestedBodies[0].messages[1].content;
+    const summaryInput = JSON.parse(prompt.slice(prompt.indexOf("{")));
+    assert.equal(summaryInput.headlines.length, 9);
+    assert.equal(summaryInput.headlines[8].title, "Additional headline 9");
+    assert.equal(summaryInput.hackerNews.length, 9);
+    assert.equal(summaryInput.hackerNews[8].title, "HN story 9");
   } finally {
     global.fetch = originalFetch;
     delete process.env.OPENROUTER_API_KEY;

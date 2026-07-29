@@ -2329,7 +2329,7 @@ function createFallbackEditionMetadata(payload, humanDate) {
 function buildMetadataSummaryPrompt(payload, humanDate, fallbackMetadata) {
   const summaryInput = {
     date: humanDate,
-    headlines: (payload.headlines || []).slice(0, 8).map((item) => ({
+    headlines: (payload.headlines || []).map((item) => ({
       title: item.title,
       source: item.source,
       region: item.region,
@@ -2342,7 +2342,7 @@ function buildMetadataSummaryPrompt(payload, humanDate, fallbackMetadata) {
       direction: item.direction,
       percentChange: item.percentChange,
     })),
-    hackerNews: (payload.hackerNews || []).slice(0, 8).map((item) => ({
+    hackerNews: (payload.hackerNews || []).map((item) => ({
       title: item.title,
       url: item.url,
       summary: item.summary,
