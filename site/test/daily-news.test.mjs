@@ -18,7 +18,10 @@ import {
   parseYahooWorldIndicesPage,
 } from "../scripts/generate-daily-news.mjs";
 import { getCollectionEntryData } from "../lib/content.js";
-import { getDailyNewsData } from "../lib/daily_news.js";
+import {
+  getDailyNewsData,
+  removeDailyNewsDatePrefix,
+} from "../lib/daily_news.js";
 
 const FIXTURES_DIR = path.join(process.cwd(), "test", "fixtures", "daily-news");
 const MARKET_FIXTURE_URLS = new Set([
@@ -48,6 +51,22 @@ test.after(() => {
 async function loadFixture(fileName) {
   return fs.readFile(path.join(FIXTURES_DIR, fileName), "utf8");
 }
+
+test("removes date prefixes from daily news titles", () => {
+  assert.equal(
+    removeDailyNewsDatePrefix("July 29, 2026: Powerful earthquake strikes southern Japan"),
+    "Powerful earthquake strikes southern Japan"
+  );
+  assert.equal(
+    removeDailyNewsDatePrefix("Daily Brief for April 19, 2026: Global Headlines and Markets"),
+    "Global Headlines and Markets"
+  );
+  assert.equal(
+    removeDailyNewsDatePrefix("Daily News for May 17, 2026: Erdogan's Baby Boom Efforts Fall Flat"),
+    "Erdogan's Baby Boom Efforts Fall Flat"
+  );
+  assert.equal(removeDailyNewsDatePrefix("Markets Rally Across Asia"), "Markets Rally Across Asia");
+});
 
 test("parses Al Jazeera article cards", async () => {
   const html = await loadFixture("al-jazeera.html");
@@ -748,7 +767,7 @@ test("daily news loader falls back cleanly for non-payload markdown editions", a
   await fs.writeFile(
     tempMarkdownPath,
     `---
-title: "Legacy Daily News"
+title: "Daily Brief for January 3, 2099: Legacy Daily News"
 description: "Legacy edition"
 date: "2099-01-03"
 editionDate: "2099-01-03"
@@ -767,6 +786,7 @@ Legacy fallback content.
     const data = await getDailyNewsData(tempId);
 
     assert.equal(data.dailyNewsPayload, null);
+    assert.equal(data.title, "Legacy Daily News");
     assert.match(data.contentHtml, /Legacy fallback content/);
   } finally {
     await fs.unlink(tempMarkdownPath).catch(() => {});
