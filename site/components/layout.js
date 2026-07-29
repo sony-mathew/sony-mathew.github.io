@@ -5,7 +5,7 @@ import SiteFooter from "./site_footer";
 export default function Layout({ children, home }) {
   return (
     <>
-      <header className={styles.container}>
+      <header className={styles.headerContainer}>
         <SiteHeader />
       </header>
       <main className={styles.container}>
