@@ -1,4 +1,4 @@
-import DEFAULT_CONFIG from '../config/default_config';
+import DEFAULT_CONFIG from '../config/default_config.js';
 
 const generateSitemapItem = (item, base = 'blog') => `
   <url>
@@ -20,7 +20,7 @@ const generateSitemap = (posts, projects = []) => `
       <changefreq>weekly</changefreq>
     </url>
     ${posts.map((item) => generateSitemapItem(item)).join('')}
-    ${projects.map((item) => generateSitemapItem(item, 'projects')).join('')}
+    ${projects.map((item) => generateSitemapItem(item, 'tools')).join('')}
   </urlset>
 `;
 

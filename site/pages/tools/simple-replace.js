@@ -476,7 +476,7 @@ export default function SimpleReplacePage() {
         <meta property="og:image" content={meta.imageUrl} />
         <meta
           property="og:url"
-          content={`${DEFAULT_CONFIG.baseUrl}/projects/simple-replace`}
+          content={`${DEFAULT_CONFIG.baseUrl}/tools/simple-replace`}
         />
         <meta property="og:site_name" content={DEFAULT_CONFIG.siteTitle} />
         <meta property="og:type" content="website" />
