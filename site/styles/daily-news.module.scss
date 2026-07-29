@@ -339,6 +339,23 @@
   background: linear-gradient(90deg, #f97316, #0ea5e9, #22c55e);
 }
 
+.latestEditionBody {
+  display: grid;
+  gap: 1.15rem;
+}
+
+.latestEditionCopy {
+  min-width: 0;
+}
+
+.latestThumbnail {
+  width: 100%;
+  height: 9rem;
+  border: 1px solid var(--news-border);
+  border-radius: 7px;
+  object-fit: cover;
+}
+
 .latestLabel {
   margin-bottom: 0.85rem;
   color: var(--news-accent);
@@ -488,6 +505,68 @@
   -webkit-line-clamp: 3;
 }
 
+.archivePagination {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: -0.75rem 0 2.5rem;
+}
+
+.paginationButton {
+  display: inline-flex;
+  min-width: 2.4rem;
+  min-height: 2.4rem;
+  align-items: center;
+  justify-content: center;
+  padding: 0.4rem 0.65rem;
+  border: 1px solid var(--news-border);
+  border-radius: 7px;
+  color: var(--news-link);
+  background: var(--news-surface);
+  font: inherit;
+  font-size: 0.9rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition:
+    border-color 0.16s ease,
+    color 0.16s ease,
+    background 0.16s ease;
+}
+
+.paginationButton:hover:not(:disabled) {
+  border-color: rgba(14, 165, 233, 0.38);
+  color: var(--news-text);
+  background: var(--news-surface-strong);
+}
+
+.paginationButton:focus-visible {
+  outline: 2px solid var(--news-link);
+  outline-offset: 2px;
+}
+
+.paginationButton:disabled {
+  color: var(--news-faint);
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
+.paginationButtonCurrent {
+  color: #ffffff;
+  border-color: var(--news-link);
+  background: var(--news-link);
+}
+
+.paginationButtonCurrent:hover:not(:disabled) {
+  color: #ffffff;
+  background: var(--news-link);
+}
+
+.paginationStep {
+  min-width: 4.75rem;
+}
+
 @media (prefers-color-scheme: dark) {
   :global(html:not(.theme-light)) .indexPage {
     --news-surface: #2b303a;
@@ -574,6 +653,23 @@
 
   .latestEdition {
     padding: 1.5rem;
+  }
+
+  .latestEditionBody {
+    grid-template-columns: minmax(0, 1fr) 12rem;
+    align-items: start;
+  }
+
+  .latestEditionCopy {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .latestThumbnail {
+    grid-column: 2;
+    grid-row: 1;
+    width: 12rem;
+    height: 9rem;
   }
 
   .archiveGrid {

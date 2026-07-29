@@ -27,7 +27,10 @@ function withDisplayTitle(entry) {
     if (fs.existsSync(payloadPath)) {
       try {
         const payload = JSON.parse(fs.readFileSync(payloadPath, "utf8"));
-        archiveThumbnailUrl = payload.headlines?.[0]?.thumbnailUrl || null;
+        archiveThumbnailUrl =
+          payload.headlines?.[0]?.thumbnailUrl ||
+          payload.headlines?.find((headline) => headline.thumbnailUrl)?.thumbnailUrl ||
+          null;
       } catch {
         archiveThumbnailUrl = null;
       }

@@ -23,6 +23,7 @@ import {
   getSortedDailyNewsData,
   removeDailyNewsDatePrefix,
 } from "../lib/daily_news.js";
+import { paginateItems } from "../lib/pagination.js";
 
 const FIXTURES_DIR = path.join(process.cwd(), "test", "fixtures", "daily-news");
 const MARKET_FIXTURE_URLS = new Set([
@@ -69,7 +70,7 @@ test("removes date prefixes from daily news titles", () => {
   assert.equal(removeDailyNewsDatePrefix("Markets Rally Across Asia"), "Markets Rally Across Asia");
 });
 
-test("adds the first headline thumbnail to daily news archive data", async () => {
+test("adds a headline thumbnail to daily news landing data", async () => {
   const tempId = "2099-01-04";
   const tempMarkdownPath = path.join(process.cwd(), "daily-news", `${tempId}.md`);
   const tempPayloadPath = path.join(process.cwd(), "daily-news-data", `${tempId}.json`);
@@ -114,10 +115,49 @@ payloadFile: "${tempId}.json"
 
     assert.equal(archiveEntry?.title, "Archive thumbnail headline");
     assert.equal(archiveEntry?.archiveThumbnailUrl, "https://example.com/first-headline.jpg");
+
+    await fs.writeFile(
+      tempPayloadPath,
+      JSON.stringify({
+        headlines: [
+          {
+            title: "First headline without an image",
+            thumbnailUrl: null,
+          },
+          {
+            title: "Second headline",
+            thumbnailUrl: "https://example.com/second-headline.jpg",
+          },
+        ],
+      }),
+      "utf8"
+    );
+
+    const fallbackEntry = getSortedDailyNewsData().find(({ id }) => id === tempId);
+    assert.equal(fallbackEntry?.archiveThumbnailUrl, "https://example.com/second-headline.jpg");
   } finally {
     await fs.unlink(tempMarkdownPath).catch(() => {});
     await fs.unlink(tempPayloadPath).catch(() => {});
   }
+});
+
+test("paginates archive items and clamps invalid page numbers", () => {
+  const items = Array.from({ length: 65 }, (_, index) => index + 1);
+
+  assert.deepEqual(paginateItems(items, 1, 30), {
+    currentPage: 1,
+    items: items.slice(0, 30),
+    totalItems: 65,
+    totalPages: 3,
+  });
+  assert.deepEqual(paginateItems(items, "2", 30), {
+    currentPage: 2,
+    items: items.slice(30, 60),
+    totalItems: 65,
+    totalPages: 3,
+  });
+  assert.equal(paginateItems(items, 99, 30).currentPage, 3);
+  assert.equal(paginateItems(items, "invalid", 30).currentPage, 1);
 });
 
 test("parses Al Jazeera article cards", async () => {
