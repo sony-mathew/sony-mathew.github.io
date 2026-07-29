@@ -266,7 +266,8 @@
 
 .indexStats {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(2, 8rem);
+  justify-content: center;
   gap: 0.4rem;
   margin: 0;
 }
@@ -650,6 +651,10 @@
   .indexHeroBody {
     grid-template-columns: minmax(0, 1fr) minmax(24rem, 0.75fr);
     align-items: center;
+  }
+
+  .indexStats {
+    justify-content: end;
   }
 
   .latestEdition {
