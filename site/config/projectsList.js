@@ -3,6 +3,16 @@ const defaultImageUrl = `${DEFAULT_CONFIG.baseUrl}${DEFAULT_CONFIG.siteImageUrl}
 
 export const projectsList = [
   {
+    id: 'simple-replace',
+    date: '2026-07-29',
+    title: 'Simple Replace',
+    description: 'A browser-based find-and-replace tool with plain text and regex matching, highlighted results, sequential replacement, and undo support.',
+    author: 'Sony Mathew',
+    tags: ['find', 'replace', 'regex', 'developer-tools'],
+    readingTime: 2,
+    imageUrl: defaultImageUrl
+  },
+  {
     id: 'password-generator',
     date: '2026-06-14',
     title: 'Password Generator',
