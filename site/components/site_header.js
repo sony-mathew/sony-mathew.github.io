@@ -1,114 +1,135 @@
 import Link from "next/link";
-import { useState } from 'react';
+import { useRouter } from "next/router";
+import { useEffect, useState } from "react";
 import SocialButtons from "./social_buttons";
 import ThemeSwitcher from "./theme_switcher";
+import styles from "./site_header.module.scss";
 
-function DesktopLayout() {
-  return (
-    <>
-      {/* For Desktop */}
-      <div className="flex flex-row items-center mb-10">
-        <div className="flex-none text-gray-700 pl-0">
-          <Link href="/" className="text-lg font-semibold text-gray-600 dark:text-gray-300 hover:no-underline py-1.5 rounded-md">
-              The Usual Ramblings
-          </Link>
-        </div>
-        <div className="flex flex-grow justify-center space-x-4">
-        </div>
-        <div className="flex flex-row items-center space-x-2">
-          <ThemeSwitcher />
-          <Link
-            href="/tools"
-            className="nav-item relative inline-flex items-center text-lg px-3 py-1.5 rounded-md text-gray-500 dark:text-gray-400 transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-100 hover:bg-gray-100 dark:hover:bg-gray-800/50 border-b-2 border-transparent hover:border-sky-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-sky-300/50"
-          >
-            Tools
-          </Link>
-          <Link
-            href="/daily-news"
-            className="nav-item relative inline-flex items-center text-lg px-3 py-1.5 rounded-md text-gray-500 dark:text-gray-400 transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-100 hover:bg-gray-100 dark:hover:bg-gray-800/50 border-b-2 border-transparent hover:border-sky-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-sky-300/50"
-          >
-            News
-          </Link>
-          <Link
-            href="/blog"
-            className="nav-item relative inline-flex items-center text-lg px-3 py-1.5 rounded-md text-gray-500 dark:text-gray-400 transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-100 hover:bg-gray-100 dark:hover:bg-gray-800/50 border-b-2 border-transparent hover:border-sky-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-sky-300/50"
-          >
-            Blog
-          </Link>
-        </div>
-      </div>
-    </>
-  )
+const navigationItems = [
+  { href: "/tools", label: "Tools" },
+  { href: "/daily-news", label: "News" },
+  { href: "/blog", label: "Blog" },
+];
+
+function isCurrentSection(pathname, href) {
+  return pathname === href || pathname.startsWith(`${href}/`);
 }
 
-function MobileLayout() {
-  const [navMenuOpened, setNavMenuOpened] = useState(false);
+function NavigationLink({ href, label, pathname, onClick, mobile = false }) {
+  const isCurrent = isCurrentSection(pathname, href);
 
   return (
-    <>
-      {/* For Mobile */}
-      <MobileNavMenuSidebar navMenuOpened={navMenuOpened} setNavMenuOpened={setNavMenuOpened} />
-
-      <ul className="inline-flex m-0">
-        <li>
-          <button className="py-2 text-gray-600 dark:text-gray-300 appearance-none focus:outline-none" onClick={() => setNavMenuOpened(true)}>
-            <svg className="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-              <title>Menu</title>
-              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
-            </svg>
-          </button>
-        </li>
-        <li className="mx-4">
-          <Link href="/" className="text-lg text-gray-600 dark:text-gray-300 hover:no-underline py-1">
-            The Usual Ramblings
-          </Link>
-        </li>
-      </ul>
-    </>
-  );
-}
-
-function MobileNavMenuSidebar({ navMenuOpened, setNavMenuOpened }) {
-  if (!navMenuOpened) {
-    return null;
-  }
-
-  return (
-    <div className="w-full absolute top-0 left-0 z-10 m-0 bg-gray-700">
-      <div className="absolute top-0 right-0 m-4" onClick={() => setNavMenuOpened(false)}>Close</div>
-      <div className="flex flex-col m-4 space-y-4">
-        <Link href="/" className="text-lg text-gray-400 hover:no-underline px-2">
-          Home
-        </Link>
-        <div className="px-2">
-          <ThemeSwitcher />
-        </div>
-        <Link href="/tools" className="text-lg text-gray-400 hover:no-underline px-2">
-          Tools
-        </Link>
-        <Link href="/daily-news" className="text-lg text-gray-400 hover:no-underline px-2">
-          News
-        </Link>
-        <Link href="/blog" className="text-lg text-gray-400 hover:no-underline px-2">
-          Blog
-        </Link>
-        <div className="flex flex-row space-x-4 px-2">
-          <SocialButtons />
-        </div>
-      </div>
-    </div>
+    <Link
+      href={href}
+      className={`${mobile ? styles.mobileNavLink : styles.navLink} ${
+        isCurrent ? styles.activeNavLink : ""
+      }`}
+      aria-current={isCurrent ? "page" : undefined}
+      onClick={onClick}
+    >
+      {label}
+      {mobile && <span aria-hidden="true">→</span>}
+    </Link>
   );
 }
 
 export default function SiteHeader() {
+  const router = useRouter();
+  const [navMenuOpened, setNavMenuOpened] = useState(false);
+
+  useEffect(() => {
+    if (!navMenuOpened) {
+      return undefined;
+    }
+
+    const closeOnEscape = (event) => {
+      if (event.key === "Escape") {
+        setNavMenuOpened(false);
+      }
+    };
+
+    window.addEventListener("keydown", closeOnEscape);
+    return () => window.removeEventListener("keydown", closeOnEscape);
+  }, [navMenuOpened]);
+
   return (
-    <>
-      <div className="hidden lg:block">
-        <DesktopLayout />
+    <div className={styles.headerShell}>
+      <div className={styles.masthead}>
+        <Link
+          href="/"
+          className={styles.brand}
+          aria-label="The Usual Ramblings, home"
+        >
+          <span className={styles.brandMark} aria-hidden="true">
+            SM
+          </span>
+          <span className={styles.brandCopy}>
+            <span className={styles.eyebrow}>Sony Mathew&apos;s notebook</span>
+            <span className={styles.title}>
+              The Usual <span>Ramblings</span>
+              <b aria-hidden="true">.</b>
+            </span>
+          </span>
+        </Link>
+
+        <div className={styles.actions}>
+          <nav className={styles.desktopNavigation} aria-label="Primary">
+            <ul>
+              {navigationItems.map(({ href, label }) => (
+                <li key={href}>
+                  <NavigationLink
+                    href={href}
+                    label={label}
+                    pathname={router.pathname}
+                  />
+                </li>
+              ))}
+            </ul>
+          </nav>
+
+          <span className={styles.themeControl}>
+            <ThemeSwitcher className={styles.themeButton} />
+          </span>
+
+          <button
+            type="button"
+            className={styles.menuButton}
+            aria-expanded={navMenuOpened}
+            aria-controls="mobile-navigation"
+            aria-label={navMenuOpened ? "Close navigation" : "Open navigation"}
+            onClick={() => setNavMenuOpened((opened) => !opened)}
+          >
+            <span aria-hidden="true" />
+            <span aria-hidden="true" />
+          </button>
+        </div>
       </div>
-      <div className="block lg:hidden">
-        <MobileLayout />
-      </div>
-    </>
+
+      {navMenuOpened && (
+        <nav
+          id="mobile-navigation"
+          className={styles.mobileNavigation}
+          aria-label="Mobile navigation"
+        >
+          <span className={styles.mobileNavigationLabel}>Explore</span>
+          <ul>
+            {navigationItems.map(({ href, label }) => (
+              <li key={href}>
+                <NavigationLink
+                  href={href}
+                  label={label}
+                  pathname={router.pathname}
+                  onClick={() => setNavMenuOpened(false)}
+                  mobile
+                />
+              </li>
+            ))}
+          </ul>
+          <div className={styles.mobileSocials} aria-label="Find me online">
+            <SocialButtons />
+          </div>
+        </nav>
+      )}
+    </div>
   );
 }

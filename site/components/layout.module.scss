@@ -4,6 +4,12 @@
   margin: 1rem auto 1rem;
 }
 
+.headerContainer {
+  max-width: 1088px;
+  padding: 0 1rem;
+  margin: 1.25rem auto 3rem;
+}
+
 .backToHome {
   margin: 3rem 0 0;
 }
@@ -11,4 +17,10 @@
 .icon {
   width: 1.125rem;
   height: 1.125rem;
+}
+
+@media (max-width: 760px) {
+  .headerContainer {
+    margin: 0.75rem auto 2rem;
+  }
 }
