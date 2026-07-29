@@ -169,7 +169,7 @@ export default function PasswordGeneratorPage() {
         <meta property="og:title" content={ meta.title } />
         <meta property="og:description" content={ meta.description } />
         <meta property="og:image" content={ meta.imageUrl } />
-        <meta property="og:url" content={ `${DEFAULT_CONFIG.baseUrl}/projects/password-generator` } />
+        <meta property="og:url" content={ `${DEFAULT_CONFIG.baseUrl}/tools/password-generator` } />
         <meta property="og:site_name" content={ DEFAULT_CONFIG.siteTitle } />
 
         <meta property="og:type" content="article" />
