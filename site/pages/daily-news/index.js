@@ -103,14 +103,6 @@ export default function DailyNewsIndex({ allDailyNewsData }) {
                 <dt>Editions</dt>
                 <dd>{allDailyNewsData.length}</dd>
               </div>
-              {latestEdition && (
-                <div className={dailyNewsStyles.indexLatestStat}>
-                  <dt>Latest</dt>
-                  <dd>
-                    <DateComponent dateString={latestEdition.date} />
-                  </dd>
-                </div>
-              )}
               {latestSources.length > 0 && (
                 <div>
                   <dt>Sources</dt>
