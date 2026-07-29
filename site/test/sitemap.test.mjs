@@ -11,3 +11,11 @@ test("generates tool URLs under the tools route", () => {
   assert.match(sitemap, /\/tools\/simple-replace/);
   assert.doesNotMatch(sitemap, /\/projects\/simple-replace/);
 });
+
+test("includes the About page", () => {
+  const sitemap = generateSitemap([
+    { id: "example-post", date: "2026-07-29" },
+  ]);
+
+  assert.match(sitemap, /\/about/);
+});

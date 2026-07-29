@@ -2,7 +2,7 @@ import Head from "next/head";
 import { useEffect, useMemo, useRef, useState } from "react";
 import DEFAULT_CONFIG from "../../config/default_config";
 import Layout from "../../components/layout";
-import utilStyles from "../../styles/utils.module.scss";
+import ToolPageHeader from "../../components/tool_page_header";
 import styles from "../../styles/simple-replace.module.scss";
 import { projectsList } from "../../config/projectsList";
 import {
@@ -493,200 +493,196 @@ export default function SimpleReplacePage() {
       </Head>
 
       <article className={styles.page}>
-        <h2 className={`${utilStyles.headingLg} ${styles.title}`}>
-          Simple Replace
-        </h2>
-        <p className={styles.intro}>
-          Find and replace plain text or regular expressions. Everything stays
-          in your browser.
-        </p>
+        <ToolPageHeader id="simple-replace" />
 
-        <section className={`${styles.panel} ${styles.searchPanel}`}>
-          <div className={styles.searchHeader}>
-            <div
-              className={styles.modeSelector}
-              aria-label="Text matching mode"
-              role="group"
-            >
-              <button
-                type="button"
-                aria-pressed={!isRegex}
-                className={`${styles.modeButton} ${
-                  !isRegex ? styles.modeButtonActive : ""
-                }`}
-                onClick={() =>
-                  updateSearchPreference(() => setIsRegex(false))
-                }
+        <div className={styles.workspace}>
+          <section className={`${styles.panel} ${styles.searchPanel}`}>
+            <div className={styles.searchHeader}>
+              <div
+                className={styles.modeSelector}
+                aria-label="Text matching mode"
+                role="group"
               >
-                Plain text
-              </button>
-              <button
-                type="button"
-                aria-pressed={isRegex}
-                className={`${styles.modeButton} ${
-                  isRegex ? styles.modeButtonActive : ""
-                }`}
-                onClick={() => updateSearchPreference(() => setIsRegex(true))}
-              >
-                Regex
-              </button>
-            </div>
-
-            <label className={styles.caseOption}>
-              <input
-                type="checkbox"
-                checked={caseSensitive}
-                onChange={(event) =>
-                  updateSearchPreference(() =>
-                    setCaseSensitive(event.target.checked)
-                  )
-                }
-              />
-              <span>Case sensitive</span>
-            </label>
-          </div>
-
-          <div className={styles.inputGrid}>
-            <label className={styles.field}>
-              <span className={styles.fieldLabel}>Text to match</span>
-              <input
-                type="text"
-                value={matchText}
-                onChange={(event) =>
-                  updateSearchPreference(() => setMatchText(event.target.value))
-                }
-                className={styles.textInput}
-                placeholder={isRegex ? "Example: (\\w+)@(\\w+)" : "Text to find"}
-                aria-invalid={Boolean(matchResult.error)}
-                aria-describedby={
-                  matchResult.error ? "simple-replace-regex-error" : undefined
-                }
-              />
-            </label>
-
-            <label className={styles.field}>
-              <span className={styles.fieldLabel}>Replace with</span>
-              <input
-                type="text"
-                value={replacementText}
-                onChange={(event) =>
-                  updateSearchPreference(() =>
-                    setReplacementText(event.target.value)
-                  )
-                }
-                className={styles.textInput}
-                placeholder="Leave empty to remove matches"
-              />
-            </label>
-          </div>
-
-          {isRegex && !matchResult.error && (
-            <p className={styles.helpText}>
-              Enter the pattern without slashes. Replacement groups such as $1
-              and $&lt;name&gt; are supported.
-            </p>
-          )}
-
-          {matchResult.error && (
-            <p
-              className={styles.errorMessage}
-              id="simple-replace-regex-error"
-              role="alert"
-            >
-              Invalid regex: {matchResult.error}
-            </p>
-          )}
-        </section>
-
-        <section className={`${styles.panel} ${styles.editorPanel}`}>
-          <div className={styles.editorToolbar}>
-            <div className={styles.replaceActions}>
-              <button
-                type="button"
-                onClick={replaceCurrentMatch}
-                disabled={!canReplace}
-                className={`${styles.actionButton} ${styles.primaryAction}`}
-              >
-                Replace One by One
-              </button>
-              <button
-                type="button"
-                onClick={replaceEveryMatch}
-                disabled={!canReplace}
-                className={`${styles.actionButton} ${styles.primaryAction}`}
-              >
-                Replace All
-              </button>
-              <button
-                type="button"
-                onClick={clearContent}
-                disabled={!content}
-                className={`${styles.actionButton} ${styles.secondaryAction}`}
-              >
-                Clear Content
-              </button>
-            </div>
-
-            <div className={styles.editorMeta}>
-              <span className={styles.matchCount}>{matchSummary}</span>
-              <button
-                type="button"
-                onClick={copyContent}
-                disabled={!content}
-                className={styles.copyButton}
-                aria-label={
-                  copyState === "copied" ? "Content copied" : "Copy content"
-                }
-                title={copyState === "copied" ? "Copied" : "Copy content"}
-              >
-                <span
-                  className={`${styles.copyIcon} ${
-                    copyState === "copied" ? styles.copyIconCopied : ""
+                <button
+                  type="button"
+                  aria-pressed={!isRegex}
+                  className={`${styles.modeButton} ${
+                    !isRegex ? styles.modeButtonActive : ""
                   }`}
-                  aria-hidden="true"
+                  onClick={() =>
+                    updateSearchPreference(() => setIsRegex(false))
+                  }
+                >
+                  Plain text
+                </button>
+                <button
+                  type="button"
+                  aria-pressed={isRegex}
+                  className={`${styles.modeButton} ${
+                    isRegex ? styles.modeButtonActive : ""
+                  }`}
+                  onClick={() => updateSearchPreference(() => setIsRegex(true))}
+                >
+                  Regex
+                </button>
+              </div>
+
+              <label className={styles.caseOption}>
+                <input
+                  type="checkbox"
+                  checked={caseSensitive}
+                  onChange={(event) =>
+                    updateSearchPreference(() =>
+                      setCaseSensitive(event.target.checked)
+                    )
+                  }
                 />
-              </button>
+                <span>Case sensitive</span>
+              </label>
             </div>
-          </div>
 
-          <label className={styles.contentLabel} htmlFor="replace-content">
-            Content
-          </label>
-          <div className={styles.editorWrapper}>
-            <div
-              ref={highlightLayerRef}
-              className={styles.highlightLayer}
-              aria-hidden="true"
-            >
-              {renderHighlightedContent(
-                content,
-                matches,
-                safeActiveMatchIndex
-              )}
+            <div className={styles.inputGrid}>
+              <label className={styles.field}>
+                <span className={styles.fieldLabel}>Find</span>
+                <input
+                  type="text"
+                  value={matchText}
+                  onChange={(event) =>
+                    updateSearchPreference(() => setMatchText(event.target.value))
+                  }
+                  className={styles.textInput}
+                  placeholder={isRegex ? "Example: (\\w+)@(\\w+)" : "Text to find"}
+                  aria-invalid={Boolean(matchResult.error)}
+                  aria-describedby={
+                    matchResult.error ? "simple-replace-regex-error" : undefined
+                  }
+                />
+              </label>
+
+              <label className={styles.field}>
+                <span className={styles.fieldLabel}>Replace with</span>
+                <input
+                  type="text"
+                  value={replacementText}
+                  onChange={(event) =>
+                    updateSearchPreference(() =>
+                      setReplacementText(event.target.value)
+                    )
+                  }
+                  className={styles.textInput}
+                  placeholder="Leave empty to remove"
+                />
+              </label>
             </div>
-            <textarea
-              ref={textareaRef}
-              id="replace-content"
-              value={content}
-              onBeforeInput={handleBeforeInput}
-              onChange={handleContentChange}
-              onKeyDown={handleEditorKeyDown}
-              onScroll={syncHighlightLayer}
-              rows={18}
-              spellCheck="false"
-              className={styles.contentTextarea}
-              placeholder="Paste or type content here"
-            />
-          </div>
 
-          <div className={styles.editorFooter}>
-            <span>{content.length.toLocaleString()} characters</span>
-            <span>Undo: Cmd/Ctrl+Z · Redo: Shift+Cmd/Ctrl+Z or Ctrl+Y</span>
-          </div>
-        </section>
+            {isRegex && !matchResult.error && (
+              <p className={styles.helpText}>
+                Enter the pattern without slashes. Replacement groups such as $1
+                and $&lt;name&gt; are supported.
+              </p>
+            )}
 
-        <div className={styles.statusRegion} aria-live="polite">
-          {statusMessage}
+            {matchResult.error && (
+              <p
+                className={styles.errorMessage}
+                id="simple-replace-regex-error"
+                role="alert"
+              >
+                Invalid regex: {matchResult.error}
+              </p>
+            )}
+          </section>
+
+          <section className={`${styles.panel} ${styles.editorPanel}`}>
+            <div className={styles.editorToolbar}>
+              <div className={styles.replaceActions}>
+                <button
+                  type="button"
+                  onClick={replaceCurrentMatch}
+                  disabled={!canReplace}
+                  className={`${styles.actionButton} ${styles.primaryAction}`}
+                >
+                  Replace next
+                </button>
+                <button
+                  type="button"
+                  onClick={replaceEveryMatch}
+                  disabled={!canReplace}
+                  className={`${styles.actionButton} ${styles.primaryAction}`}
+                >
+                  Replace all
+                </button>
+                <button
+                  type="button"
+                  onClick={clearContent}
+                  disabled={!content}
+                  className={`${styles.actionButton} ${styles.secondaryAction}`}
+                >
+                  Clear
+                </button>
+              </div>
+
+              <div className={styles.editorMeta}>
+                <span className={styles.matchCount}>{matchSummary}</span>
+                <button
+                  type="button"
+                  onClick={copyContent}
+                  disabled={!content}
+                  className={styles.copyButton}
+                  aria-label={
+                    copyState === "copied" ? "Content copied" : "Copy content"
+                  }
+                  title={copyState === "copied" ? "Copied" : "Copy content"}
+                >
+                  <span
+                    className={`${styles.copyIcon} ${
+                      copyState === "copied" ? styles.copyIconCopied : ""
+                    }`}
+                    aria-hidden="true"
+                  />
+                </button>
+              </div>
+            </div>
+
+            <label className={styles.contentLabel} htmlFor="replace-content">
+              Content
+            </label>
+            <div className={styles.editorWrapper}>
+              <div
+                ref={highlightLayerRef}
+                className={styles.highlightLayer}
+                aria-hidden="true"
+              >
+                {renderHighlightedContent(
+                  content,
+                  matches,
+                  safeActiveMatchIndex
+                )}
+              </div>
+              <textarea
+                ref={textareaRef}
+                id="replace-content"
+                value={content}
+                onBeforeInput={handleBeforeInput}
+                onChange={handleContentChange}
+                onKeyDown={handleEditorKeyDown}
+                onScroll={syncHighlightLayer}
+                rows={18}
+                spellCheck="false"
+                className={styles.contentTextarea}
+                placeholder="Paste or type content"
+              />
+            </div>
+
+            <div className={styles.editorFooter}>
+              <span>{content.length.toLocaleString()} characters</span>
+              <span>Undo: Cmd/Ctrl+Z · Redo: Shift+Cmd/Ctrl+Z or Ctrl+Y</span>
+            </div>
+          </section>
+
+          <div className={styles.statusRegion} aria-live="polite">
+            {statusMessage}
+          </div>
         </div>
       </article>
     </Layout>

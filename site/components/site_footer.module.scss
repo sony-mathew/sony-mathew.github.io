@@ -1,0 +1,125 @@
+.footerShell {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid var(--light-gray-color);
+  border-radius: 1.25rem;
+  background:
+    radial-gradient(circle at 100% 100%, rgba(255, 87, 47, 0.09), transparent 14rem),
+    var(--lighter-gray-color);
+  box-shadow: 0 0.75rem 2rem rgba(27, 32, 40, 0.055);
+}
+
+.footerShell::before {
+  position: absolute;
+  top: 0;
+  right: 1.25rem;
+  left: 1.25rem;
+  height: 2px;
+  content: "";
+  background: linear-gradient(
+    90deg,
+    rgba(255, 87, 47, 0),
+    var(--brand-color),
+    rgba(255, 87, 47, 0)
+  );
+  opacity: 0.7;
+}
+
+.footerMeta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.sitemapLink:focus-visible,
+.socialLinks a:focus-visible {
+  border-radius: 0.65rem;
+  outline: 3px solid rgba(0, 147, 233, 0.35);
+  outline-offset: 2px;
+}
+
+.footerMeta {
+  min-height: 4.25rem;
+  padding: 0.85rem 1.25rem;
+  background: color-mix(in srgb, var(--white-color) 48%, transparent);
+}
+
+.buildNote,
+.sitemapLink {
+  color: var(--secondary-text-color);
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.footerActions,
+.socialLinks {
+  display: flex;
+  align-items: center;
+}
+
+.footerActions {
+  gap: 0.9rem;
+}
+
+.sitemapLink {
+  opacity: 1;
+}
+
+.sitemapLink:hover {
+  color: var(--darker-gray-color);
+}
+
+.socialLinks {
+  gap: 0.2rem;
+}
+
+.socialLinks a {
+  display: inline-grid;
+  width: 2rem;
+  height: 2rem;
+  place-items: center;
+  border-radius: 0.6rem;
+  opacity: 0.8;
+  transition:
+    background-color 150ms var(--animation-base),
+    opacity 150ms var(--animation-base),
+    transform 150ms var(--animation-base);
+}
+
+.socialLinks a:hover {
+  background: var(--white-color);
+  opacity: 1;
+  transform: translateY(-1px);
+}
+
+.socialLinks img {
+  width: 0.95rem;
+  height: 0.95rem;
+}
+
+@media (max-width: 620px) {
+  .footerShell {
+    border-radius: 1rem;
+  }
+
+  .footerShell::before {
+    right: 1rem;
+    left: 1rem;
+  }
+
+  .footerMeta {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .footerMeta {
+    gap: 0.8rem;
+    padding: 0.85rem 1rem 1rem;
+  }
+
+  .footerActions {
+    width: 100%;
+    justify-content: space-between;
+  }
+}

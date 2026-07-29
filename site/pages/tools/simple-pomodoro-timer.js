@@ -2,12 +2,56 @@ import Head from "next/head";
 import { useState, useEffect, useRef } from "react";
 import DEFAULT_CONFIG from '../../config/default_config';
 import Layout from "../../components/layout";
-import utilStyles from "../../styles/utils.module.scss";
+import ToolPageHeader from "../../components/tool_page_header";
 import { projectsList}  from "../../config/projectsList";
+import styles from "../../styles/simple-pomodoro-timer.module.scss";
 
 const getMetaData = () => {
   return projectsList.filter((p) => p.id === 'simple-pomodoro-timer')[0] || {};
 }
+
+const TimerIcon = ({ name }) => {
+  if (name === "pause") {
+    return (
+      <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <path d="M8 6v12M16 6v12" />
+      </svg>
+    );
+  }
+
+  if (name === "reset") {
+    return (
+      <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <path d="M5 8v5h5" />
+        <path d="M6.5 16a7 7 0 1 0 .5-8L5 10" />
+      </svg>
+    );
+  }
+
+  if (name === "volume-off") {
+    return (
+      <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <path d="M11 6 7 10H4v4h3l4 4V6Z" />
+        <path d="m16 10 4 4m0-4-4 4" />
+      </svg>
+    );
+  }
+
+  if (name === "volume") {
+    return (
+      <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <path d="M11 6 7 10H4v4h3l4 4V6Z" />
+        <path d="M15 9.5a4 4 0 0 1 0 5M18 7a7 7 0 0 1 0 10" />
+      </svg>
+    );
+  }
+
+  return (
+    <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+      <path d="m9 6 9 6-9 6V6Z" />
+    </svg>
+  );
+};
 
 export default function SimplePomodoroTimerPage() {
   const meta = getMetaData();
@@ -292,6 +336,15 @@ export default function SimplePomodoroTimerPage() {
   // Determine buttons to show
   const showStart = runningType !== activeTab;
   const showPauseResume = runningType === activeTab;
+  const activeDuration = activeTab === WORK ? WORK_DEFAULT : BREAK_DEFAULT;
+  const timerProgress = Math.max(0, Math.min(360, (timeLeft / activeDuration) * 360));
+  const currentTimerIsRunning = runningType === activeTab;
+  const timerStatus = currentTimerIsRunning
+    ? (isPaused ? "Paused" : "In progress")
+    : "Ready";
+  const sessionLabel = activeTab === WORK ? "Focus session" : "Recovery break";
+  const nextLabel = activeTab === WORK ? "Break" : "Focus";
+  const nextDuration = activeTab === WORK ? "5 min" : "25 min";
 
   return (
     <Layout>
@@ -322,252 +375,192 @@ export default function SimplePomodoroTimerPage() {
         <meta name="twitter:image:alt" content={ meta.title } />
       </Head>
 
-      <article>
-        <h2 className={utilStyles.headingLg}>Pomodoro Timer</h2>
-        <div className="mb-6">
-        The Pomodoro Technique is a time-management method where you work in 25-minute intervals, or "pomodoros," 
-        followed by short 5-minute breaks. After completing four pomodoros, you take a longer 15-30 minute break 
-        to help improve focus, reduce procrastination, and prevent burnout. The technique, developed by 
-        Francesco Cirillo, uses a timer (originally a tomato-shaped kitchen timer) to structure work into manageable chunks
-          (<a href="https://en.wikipedia.org/wiki/Pomodoro_Technique" target="_blank" rel="noopener noreferrer">Wikipedia</a>).
+      <article className={styles.page}>
+        <ToolPageHeader id="simple-pomodoro-timer" />
+        <div className={styles.introduction}>
+          <span className={styles.introMark} aria-hidden="true">25 / 5</span>
+          <p>
+            Focus for 25 minutes, reset for 5, and repeat. Add an intention for
+            the session, start the timer, and let the rhythm do the rest.{" "}
+            <a
+              href="https://en.wikipedia.org/wiki/Pomodoro_Technique"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              About the technique <span aria-hidden="true">↗</span>
+            </a>
+          </p>
         </div>
-        {/* Time display and textarea two-column container */}
-        <div style={{ display: "flex", flexWrap: "wrap", gap: "4rem", alignItems: "flex-start" }}>
-          {/* Left column: tabs, timer & controls */}
-          <div style={{ flex: "1 1 300px", textAlign: "center" }}>
-            {/* Tabs */}
-            <div style={{ display: "flex", marginBottom: "2rem", borderRadius: "12px", overflow: "hidden", boxShadow: "0 4px 6px -1px rgba(0, 0, 0, 0.1)" }}>
-              {[WORK, BREAK].map(tab => (
-                <button
-                  key={tab}
-                  onClick={() => handleTabChange(tab)}
-                  style={{
-                    flex: 1,
-                    padding: "1rem",
-                    background: activeTab === tab ? "#4169e1" : "#f8fafc",
-                    color: activeTab === tab ? "white" : "#64748b",
-                    border: "none",
-                    cursor: "pointer",
-                    fontWeight: "600",
-                    transition: "all 0.2s ease",
-                    fontSize: "1rem"
-                  }}
-                  className="p-2"
-                >
-                  {tab === WORK ? "Timer" : "Break"}
-                  {runningType === tab && (
-                    <span style={{ marginLeft: 8, fontSize: "0.9rem" }}>▶</span>
-                  )}
-                </button>
-              ))}
+
+        <div className={styles.workspace}>
+          <section
+            className={styles.timerPanel}
+            data-mode={activeTab}
+            aria-label={`${sessionLabel} timer`}
+          >
+            <div className={styles.modeTabs} role="tablist" aria-label="Timer mode">
+              {[WORK, BREAK].map(tab => {
+                const isActive = activeTab === tab;
+                const isRunning = runningType === tab;
+
+                return (
+                  <button
+                    key={tab}
+                    type="button"
+                    role="tab"
+                    aria-selected={isActive}
+                    className={`${styles.modeTab} ${isActive ? styles.modeTabActive : ""}`}
+                    onClick={() => handleTabChange(tab)}
+                  >
+                    <span>{tab === WORK ? "Focus" : "Break"}</span>
+                    <span className={styles.modeDuration}>
+                      {tab === WORK ? "25 min" : "5 min"}
+                    </span>
+                    {isRunning && <span className={styles.runningDot} aria-label="Running" />}
+                  </button>
+                );
+              })}
             </div>
 
-            {/* Time display */}
-            <div style={{
-              fontSize: "5rem",
-              fontWeight: "700",
-              textAlign: "center",
-              margin: "1rem 1rem",
-              color: "#334155",
-              textShadow: "0 2px 4px rgba(0, 0, 0, 0.1)",
-              fontFamily: "monospace"
-            }} className="mt-0">
-              {minutes}:{seconds}
-            </div>
-
-            {/* Subtle audio toggle button */}
-            <div style={{ 
-              marginBottom: "2rem",
-              textAlign: "center"
-            }}>
-              <button
-                onClick={toggleAudio}
-                style={{
-                  padding: "0.4rem 0.8rem",
-                  fontSize: "0.8rem",
-                  background: "transparent",
-                  color: isAudioEnabled ? "#10b981" : "#6b7280",
-                  border: `1px solid ${isAudioEnabled ? "#10b981" : "#6b7280"}`,
-                  borderRadius: "6px",
-                  cursor: "pointer",
-                  fontWeight: "400",
-                  transition: "all 0.2s ease",
-                  opacity: 0.8
-                }}
-                onMouseOver={(e) => {
-                  e.target.style.opacity = "1";
-                  e.target.style.transform = "scale(1.05)";
-                }}
-                onMouseOut={(e) => {
-                  e.target.style.opacity = "0.8";
-                  e.target.style.transform = "scale(1)";
-                }}
+            <div className={styles.timerStage}>
+              <div
+                className={styles.timerRing}
+                style={{ "--timer-progress": `${timerProgress}deg` }}
               >
-                {isAudioEnabled ? "🔊 Sound On" : "🔇 Sound Off"}
-              </button>
+                <div className={styles.timerFace}>
+                  <span className={styles.status}>
+                    <span className={styles.statusDot} aria-hidden="true" />
+                    {timerStatus}
+                  </span>
+                  <time
+                    className={styles.time}
+                    aria-label={`${minutes} minutes and ${seconds} seconds remaining`}
+                  >
+                    {minutes}:{seconds}
+                  </time>
+                  <span className={styles.sessionLabel}>{sessionLabel}</span>
+                </div>
+              </div>
             </div>
 
-            {/* Control buttons */}
-            <div style={{ display: "flex", justifyContent: "center", gap: "1rem", flexWrap: "wrap" }}>
+            <div className={styles.timerDetails}>
+              <div>
+                <span>Current</span>
+                <strong>{activeTab === WORK ? "25 min focus" : "5 min reset"}</strong>
+              </div>
+              <div>
+                <span>Up next</span>
+                <strong>{nextLabel} · {nextDuration}</strong>
+              </div>
+            </div>
+
+            <button
+              type="button"
+              className={styles.soundButton}
+              aria-pressed={isAudioEnabled}
+              onClick={toggleAudio}
+            >
+              <TimerIcon name={isAudioEnabled ? "volume" : "volume-off"} />
+              <span>Completion sound {isAudioEnabled ? "on" : "off"}</span>
+            </button>
+
+            <div className={styles.controls}>
               {showStart && (
                 <button
+                  type="button"
                   onClick={startTimer}
-                  style={{
-                    padding: "1rem 2.5rem",
-                    fontSize: "1.1rem",
-                    background: "linear-gradient(135deg, #10b981, #059669)",
-                    color: "white",
-                    border: "none",
-                    borderRadius: "12px",
-                    cursor: "pointer",
-                    fontWeight: "600",
-                    boxShadow: "0 4px 14px 0 rgba(16, 185, 129, 0.4)",
-                    transition: "all 0.2s ease"
-                  }}
-                  onMouseOver={(e) => e.target.style.transform = "translateY(-2px)"}
-                  onMouseOut={(e) => e.target.style.transform = "translateY(0)"}
+                  className={styles.primaryButton}
                 >
-                  Start
+                  <TimerIcon name="play" />
+                  Start {activeTab === WORK ? "focus" : "break"}
                 </button>
               )}
 
               {showPauseResume && (
                 <>
                   <button
+                    type="button"
                     onClick={pauseResume}
-                    style={{
-                      padding: "1rem 2.5rem",
-                      fontSize: "1.1rem",
-                      background: "linear-gradient(135deg, #f97316, #ea580c)",
-                      color: "white",
-                      border: "none",
-                      borderRadius: "12px",
-                      cursor: "pointer",
-                      fontWeight: "600",
-                      boxShadow: "0 4px 14px 0 rgba(249, 115, 22, 0.4)",
-                      transition: "all 0.2s ease"
-                    }}
-                    onMouseOver={(e) => e.target.style.transform = "translateY(-2px)"}
-                    onMouseOut={(e) => e.target.style.transform = "translateY(0)"}
+                    className={styles.primaryButton}
                   >
+                    <TimerIcon name={isPaused ? "play" : "pause"} />
                     {isPaused ? "Resume" : "Pause"}
                   </button>
                   <button
+                    type="button"
                     onClick={cancelTimer}
-                    style={{
-                      padding: "1rem 2.5rem",
-                      fontSize: "1.1rem",
-                      background: "linear-gradient(135deg, #ef4444, #dc2626)",
-                      color: "white",
-                      border: "none",
-                      borderRadius: "12px",
-                      cursor: "pointer",
-                      fontWeight: "600",
-                      boxShadow: "0 4px 14px 0 rgba(239, 68, 68, 0.4)",
-                      transition: "all 0.2s ease"
-                    }}
-                    onMouseOver={(e) => e.target.style.transform = "translateY(-2px)"}
-                    onMouseOut={(e) => e.target.style.transform = "translateY(0)"}
+                    className={styles.secondaryButton}
                   >
-                    Cancel
+                    <TimerIcon name="reset" />
+                    Reset
                   </button>
                 </>
               )}
             </div>
+          </section>
+
+          <aside className={styles.notesPanel} aria-labelledby="session-intention-title">
+            <div className={styles.panelHeading}>
+              <span className={styles.panelEyebrow}>Before you begin</span>
+              <h2 id="session-intention-title">Set your intention</h2>
+              <p>A small, specific goal makes it easier to stay with the session.</p>
+            </div>
+
+            <label className={styles.noteLabel} htmlFor="pomodoro-session-note">
+              What will you focus on?
+            </label>
+            <textarea
+              id="pomodoro-session-note"
+              ref={textareaRef}
+              value={noteInput}
+              onChange={(e) => setNoteInput(e.target.value)}
+              rows={8}
+              className={styles.noteInput}
+              placeholder="For example: finish the project report, review a pull request, or practise algorithms."
+            />
+
+            <div className={styles.noteFooter}>
+              <span>Saved locally when the session ends</span>
+              <span>{noteInput.length} characters</span>
+            </div>
+          </aside>
+        </div>
+
+        <section className={styles.historySection} aria-labelledby="session-history-title">
+          <div className={styles.historyHeader}>
+            <div>
+              <span className={styles.panelEyebrow}>Your progress</span>
+              <h2 id="session-history-title">Session history</h2>
+            </div>
+            <span className={styles.historyCount}>
+              {notes.length} {notes.length === 1 ? "session" : "sessions"}
+            </span>
           </div>
 
-          {/* Right column: notes textarea */}
-          <div style={{ flex: "1 1 200px" }} className="h-max">
-            <div style={{ 
-              background: "white", 
-              padding: "2rem 2rem 3rem 2rem", 
-              borderRadius: "16px", 
-              boxShadow: "0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)",
-              border: "1px solid #e2e8f0"
-            }}>
-              <h3 style={{ 
-                marginTop: 0, 
-                marginBottom: "1rem", 
-                fontSize: "1.25rem", 
-                fontWeight: "700",
-                color: "#1e293b"
-              }}>
-                Plan your focus time
-                <br/>
-                <span style={{ fontWeight: "500", fontSize: "1rem", color: "#64748b" }}>
-                  Note what you will work on during this session
-                </span>
-              </h3>
-              <textarea
-                ref={textareaRef} // Add ref to textarea
-                value={noteInput}
-                onChange={(e) => setNoteInput(e.target.value)}
-                rows={6}
-                style={{ 
-                  width: "100%", 
-                  padding: "1rem",
-                  border: "2px solid #e2e8f0",
-                  borderRadius: "8px",
-                  fontSize: "1rem",
-                  fontFamily: "inherit",
-                  resize: "vertical",
-                  transition: "border-color 0.2s ease"
-                }}
-                placeholder="e.g., Finish project report, coding, learning, practice algorithms, etc."
-                className="border rounded-md p-2 w-full mt-4 text-gray-800"
-                onFocus={(e) => e.target.style.borderColor = "#3b82f6"}
-                onBlur={(e) => e.target.style.borderColor = "#e2e8f0"}
-              />
+          {notes.length === 0 ? (
+            <div className={styles.emptyHistory}>
+              <span aria-hidden="true">◎</span>
+              <div>
+                <strong>No completed sessions yet</strong>
+                <p>Your locally saved focus notes will appear here.</p>
+              </div>
             </div>
-          </div>
-        </div>
-        
-        {/* Notes history */}
-        <div className="mt-16">
-          <h3 className="text-lg font-bold" style={{ color: "white", marginBottom: "1rem" }}>
-            Session History
-          </h3>
-          {notes.length > 0 && (
-            <div style={{ 
-              background: "white", 
-              padding: "1.5rem", 
-              borderRadius: "12px", 
-              boxShadow: "0 4px 6px -1px rgba(0, 0, 0, 0.1)",
-              border: "1px solid #e2e8f0"
-            }}>
-              {notes.map((n, i) => (
-                <div key={n.ts} style={{ 
-                  display: "flex", 
-                  gap: "1rem", 
-                  marginBottom: "0.75rem",
-                  padding: "0.75rem",
-                  background: i % 2 === 0 ? "#f8fafc" : "transparent",
-                  borderRadius: "8px",
-                  fontSize: "0.95rem"
-                }}>
-                  <span style={{ 
-                    fontWeight: "600", 
-                    color: "#64748b",
-                    minWidth: "2rem"
-                  }}>
-                    {i+1}.
+          ) : (
+            <ol className={styles.historyList}>
+              {notes.map((note, index) => (
+                <li className={styles.historyItem} key={note.ts}>
+                  <span className={styles.historyIndex}>
+                    {String(index + 1).padStart(2, "0")}
                   </span>
-                  <span style={{ 
-                    whiteSpace: "nowrap", 
-                    color: "#64748b",
-                    fontSize: "0.9rem",
-                    minWidth: "200px"
-                  }}>
-                    {dateFormatter(n.ts)}
-                  </span>
-                  <span style={{ color: "#1e293b", fontWeight: "500" }}>
-                    {n.text}
-                  </span>
-                </div>
+                  <time dateTime={new Date(note.ts).toISOString()}>
+                    {dateFormatter(note.ts)}
+                  </time>
+                  <p>{note.text}</p>
+                </li>
               ))}
-            </div>
+            </ol>
           )}
-        </div>
+        </section>
       </article>
     </Layout>
   );

@@ -90,16 +90,23 @@
   font-size: 0.95rem;
 }
 
-.panel {
+.workspace {
+  overflow: hidden;
   border: 1px solid var(--sr-panel-border);
-  border-radius: 10px;
+  border-radius: 1rem;
   background: var(--sr-panel-bg);
   box-shadow: var(--sr-panel-shadow);
 }
 
+.panel {
+  border: 0;
+  border-radius: 0;
+  background: var(--sr-panel-bg);
+}
+
 .searchPanel {
-  margin-top: 1.5rem;
-  padding: 1rem;
+  padding: 1rem 1.05rem;
+  background: var(--sr-surface-bg);
 }
 
 .searchHeader,
@@ -112,8 +119,7 @@
 }
 
 .searchHeader {
-  padding-bottom: 1rem;
-  border-bottom: 1px solid var(--sr-panel-divider);
+  padding-bottom: 0;
 }
 
 .modeSelector {
@@ -167,7 +173,7 @@
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
-  margin-top: 1rem;
+  margin-top: 0.85rem;
 }
 
 .field {
@@ -231,13 +237,13 @@
 }
 
 .editorPanel {
-  margin-top: 1.25rem;
-  padding: 1rem;
+  padding: 0.85rem 1.05rem 1rem;
+  border-top: 1px solid var(--sr-panel-divider);
 }
 
 .editorToolbar {
-  align-items: flex-start;
-  padding-bottom: 1rem;
+  align-items: center;
+  padding-bottom: 0.75rem;
   border-bottom: 1px solid var(--sr-panel-divider);
 }
 
@@ -264,10 +270,10 @@
 }
 
 .actionButton {
-  min-height: 2.5rem;
-  padding: 0.55rem 0.85rem;
-  border-radius: 8px;
-  font-size: 0.84rem;
+  min-height: 2.3rem;
+  padding: 0.48rem 0.72rem;
+  border-radius: 0.6rem;
+  font-size: 0.78rem;
 }
 
 .actionButton:hover:not(:disabled),
@@ -346,12 +352,12 @@
 
 .contentLabel {
   display: block;
-  margin-top: 1rem;
+  margin-top: 0.8rem;
 }
 
 .editorWrapper {
   position: relative;
-  min-height: 24rem;
+  min-height: 21rem;
   margin-top: 0.55rem;
   border-radius: 8px;
   background: var(--sr-surface-bg);
@@ -385,7 +391,7 @@
   z-index: 1;
   display: block;
   width: 100%;
-  min-height: 24rem;
+  min-height: 21rem;
   border: 1px solid var(--sr-input-border);
   border-radius: 8px;
   background: transparent;
@@ -432,11 +438,15 @@
 }
 
 .statusRegion {
-  min-height: 2rem;
-  padding-top: 0.75rem;
+  min-height: 0;
+  padding: 0 1.05rem 0.8rem;
   color: var(--sr-muted-text);
   font-size: 0.84rem;
   font-weight: 650;
+}
+
+.statusRegion:empty {
+  display: none;
 }
 
 .modeButton:focus-visible,
@@ -478,6 +488,11 @@
 
   .editorFooter span:last-child {
     text-align: left;
+  }
+
+  .editorWrapper,
+  .contentTextarea {
+    min-height: 17rem;
   }
 }
 
