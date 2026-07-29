@@ -253,7 +253,7 @@ export default function ScientificCalculatorPage() {
         <meta property="og:title" content={ metaData.title } />
         <meta property="og:description" content={ metaData.description } />
         <meta property="og:image" content={ metaData.imageUrl } />
-        <meta property="og:url" content={ `${DEFAULT_CONFIG.baseUrl}/projects/scientific-calculator` } />
+        <meta property="og:url" content={ `${DEFAULT_CONFIG.baseUrl}/tools/scientific-calculator` } />
         <meta property="og:site_name" content={ DEFAULT_CONFIG.siteTitle } />
 
         <meta property="og:type" content="article" />
@@ -392,5 +392,4 @@ export default function ScientificCalculatorPage() {
     </Layout>
   );
 }
-
 

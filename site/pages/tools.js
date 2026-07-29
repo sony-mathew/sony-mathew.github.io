@@ -8,7 +8,7 @@ import utilStyles from "../styles/utils.module.scss";
 import { projectsList } from "../config/projectsList";
 
 export default function Home({ allPostsData }) {
-  const pageTitle = `Projects | ${DEFAULT_CONFIG.siteTitle} by ${DEFAULT_CONFIG.author}`;
+  const pageTitle = `Simple Tools | ${DEFAULT_CONFIG.siteTitle} by ${DEFAULT_CONFIG.author}`;
 
   return (
     <Layout>
@@ -17,11 +17,11 @@ export default function Home({ allPostsData }) {
         { MetaData() }
       </Head>
       <section>
-        <h2 className={utilStyles.headingLg}>Projects</h2>
+        <h2 className={utilStyles.headingLg}>Simple Tools</h2>
         <ul className={utilStyles.list}>
           {projectsList.map(({ id, date, title }) => (
             <li className={utilStyles.listItem} key={id}>
-              <Link href={`/projects/${id}`}>
+              <Link href={`/tools/${id}`}>
                 {title}
               </Link>
               <br />

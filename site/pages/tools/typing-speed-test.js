@@ -408,7 +408,7 @@ export default function TypingSpeedTestPage() {
         <meta property="og:title" content={ meta.title } />
         <meta property="og:description" content={ meta.description } />
         <meta property="og:image" content={ meta.imageUrl } />
-        <meta property="og:url" content={ `${DEFAULT_CONFIG.baseUrl}/projects/typing-speed-test` } />
+        <meta property="og:url" content={ `${DEFAULT_CONFIG.baseUrl}/tools/typing-speed-test` } />
         <meta property="og:site_name" content={ DEFAULT_CONFIG.siteTitle } />
 
         <meta property="og:type" content="article" />
