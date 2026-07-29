@@ -22,7 +22,7 @@ import {
 const ROOT_DIR = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const DAILY_NEWS_DIR = path.join(ROOT_DIR, "daily-news");
 const DAILY_NEWS_PAYLOAD_DIR = path.join(ROOT_DIR, "daily-news-data");
-const OPENROUTER_DEFAULT_MODEL = "openai/gpt-4o-mini";
+const OPENROUTER_DEFAULT_MODEL = "nvidia/nemotron-3-ultra-550b-a55b:free";
 const OPENROUTER_DEFAULT_BASE_URL = "https://openrouter.ai/api/v1";
 const REUTERS_SOURCE_ICON_URL = "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128";
 const WASHINGTON_POST_SOURCE_ICON_URL =
@@ -1267,6 +1267,7 @@ async function generateMissingReutersSummaries(stories, warnings) {
         body: JSON.stringify({
           model: process.env.OPENROUTER_MODEL || OPENROUTER_DEFAULT_MODEL,
           temperature: 0.1,
+          reasoning: { effort: "none" },
           response_format: { type: "json_object" },
           messages: [
             {
@@ -1367,6 +1368,7 @@ async function generateMissingHackerNewsSummaries(stories, warnings) {
         body: JSON.stringify({
           model: process.env.OPENROUTER_MODEL || OPENROUTER_DEFAULT_MODEL,
           temperature: 0.1,
+          reasoning: { effort: "none" },
           response_format: { type: "json_object" },
           messages: [
             {
@@ -2415,6 +2417,7 @@ async function fetchOpenRouterMetadata(payload, humanDate, fallbackMetadata) {
       body: JSON.stringify({
         model: process.env.OPENROUTER_MODEL || OPENROUTER_DEFAULT_MODEL,
         temperature: 0.2,
+        reasoning: { effort: "none" },
         response_format: { type: "json_object" },
         messages: [
           {

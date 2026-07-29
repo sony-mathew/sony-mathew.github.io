@@ -177,12 +177,11 @@ test("parses Yahoo world indices page and keeps the requested markets", async ()
   assert.equal(result.items.find((item) => item.symbol === "^N225")?.change.toFixed(2), "524.27");
 });
 
-test("uses OpenRouter metadata when a key is configured", async () => {
+test("uses the default OpenRouter model when a key is configured", async () => {
   const originalFetch = global.fetch;
   const requestedBodies = [];
 
   process.env.OPENROUTER_API_KEY = "test-openrouter-key";
-  process.env.OPENROUTER_MODEL = "test/news-editor";
   process.env.OPENROUTER_BASE_URL = "https://openrouter.test/api/v1";
   global.fetch = async (url, options = {}) => {
     requestedBodies.push(JSON.parse(options.body));
@@ -252,7 +251,8 @@ test("uses OpenRouter metadata when a key is configured", async () => {
     );
     assert.match(metadata.description, /Product Hunt features Launch Alpha/);
     assert.equal(warnings.length, 0);
-    assert.equal(requestedBodies[0].model, "test/news-editor");
+    assert.equal(requestedBodies[0].model, "nvidia/nemotron-3-ultra-550b-a55b:free");
+    assert.equal(requestedBodies[0].reasoning.effort, "none");
     assert.equal(requestedBodies[0].response_format.type, "json_object");
   } finally {
     global.fetch = originalFetch;
