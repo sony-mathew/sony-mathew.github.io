@@ -649,7 +649,7 @@
   }
 
   .indexHeroBody {
-    grid-template-columns: minmax(0, 1fr) minmax(24rem, 0.75fr);
+    grid-template-columns: minmax(0, 1fr) auto;
     align-items: center;
   }
 
