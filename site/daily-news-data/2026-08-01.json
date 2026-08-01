@@ -1,0 +1,457 @@
+{
+  "headlines": [
+    {
+      "title": "Peru’s ex-president Humala released after conviction overturned",
+      "url": "https://www.aljazeera.com/news/2026/8/1/perus-ex-president-humala-released-after-conviction-overturned",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-08-01",
+      "summary": "Humala and his wife were sentenced to 15 years last year after being convicted of money laundering.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/08/2026-08-01T022111Z_246013989_RC2CPMANN6EO_RTRMADP_3_PERU-POLITICS-HUMALA-1785551514.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Yemen’s Houthis deny plan to charge ships transiting Red Sea",
+      "url": "https://www.aljazeera.com/news/2026/8/1/yemens-houthis-deny-plan-to-charge-ships-transiting-red-sea",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-08-01",
+      "summary": "Houthis say Red Sea route remains free to use, pushing back on report of new shipping fees.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/07/reuters_6a635a1a-1784896026.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Is Israel really ready to withdraw from Gaza?",
+      "url": "https://www.aljazeera.com/news/2026/8/1/is-israel-really-ready-to-withdraw-from-gaza",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-08-01",
+      "summary": "Netanyahu faces political turmoil over Gaza disarmament plan tied to Israel's potential withdrawal from the enclave.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/07/ap_6a690890a5d49-1785268368.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Liberia’s kush crisis: The hidden trade behind a generation at risk",
+      "url": "https://www.aljazeera.com/news/2026/8/1/liberias-kush-crisis-the-hidden-trade-behind-a-generation-at-risk",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-08-01",
+      "summary": "As kush spreads across Liberia, families face the fallout while traffickers remain largely out of reach.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/07/preview-1-1785512765.webp?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Russian missile attack kills three in Ukraine’s Kyiv",
+      "url": "https://www.aljazeera.com/news/2026/8/1/russian-missile-attack-kills-three-in-ukraines-kyiv",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-08-01",
+      "summary": "Residents trapped as partially collapsed building catches fire after deadly strike on Ukrainian capital.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/08/reuters_6a6d3fd2-1785544658.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "FIFA scraps controversial deal to sell stakes in World Cup to private investors",
+      "url": "https://www.npr.org/2026/07/31/nx-s1-5915820/fifa-world-cup-gianni-infantino",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Fri, 31 Jul 2026 22:08:51 -0400",
+      "summary": "FIFA abandoned a plan to create a commercial venture and then sell stakes to minority investors, just days after unveiling it. The plan drew sharp condemnation — and a boycott from European nations.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5000x3333+0+0/resize/5000x3333!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fea%2F01%2F31ed8c064234b8adf66fdd171280%2Fgettyimages-2247042721-1.jpg"
+    },
+    {
+      "title": "Prosecutors move to dismiss Reflecting Pool vandalism case, saying 'botched installation' to blame",
+      "url": "https://www.npr.org/2026/07/31/nx-s1-5915828/reflecting-pool-david-hearn-dismiss",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Fri, 31 Jul 2026 19:24:36 -0400",
+      "summary": "The government had accused David Hearn of ripping a piece of sealant after a $14-million renovation. Hearn has repeatedly said that he simply touched the water in the pool out of curiosity last month.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6000x4000+0+0/resize/6000x4000!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fa6%2Fea%2Fdbd5ddee41199550eee86004e45b%2Fgettyimages-2285355780.jpg"
+    },
+    {
+      "title": "Climate adaptation at its limits, says one scientist",
+      "url": "https://www.npr.org/2026/07/31/nx-s1-5913376/climate-adaptation-at-its-limits-says-one-scientist",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Fri, 31 Jul 2026 16:28:46 -0400",
+      "summary": "A climate scientist says Earth is \"passing the limits of adaptation\" when it comes to withstanding the effects of climate change.",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "Drone delivery helps in Rwanda, but only so much",
+      "url": "https://www.npr.org/2026/07/31/nx-s1-5867626/drone-delivery-helps-in-rwanda-but-only-so-much",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Fri, 31 Jul 2026 16:28:41 -0400",
+      "summary": "A U.S. company in Rwanda has been providing medical supplies via drone. But even state-of-the-art technology can't overcome a weak health care infrastructure.",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "Google pauses AI satellite images, after fears of deepfakes in the sky",
+      "url": "https://www.npr.org/2026/07/31/nx-s1-5914652/google-adds-ai-to-satellite-images-raising-fears-of-deepfakes-in-the-sky",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Fri, 31 Jul 2026 13:48:26 -0400",
+      "summary": "Journalists, human rights advocates and open source analysts recoiled in horror at the initial decision: \"The opportunities for abuse and disinfo are literally boundless,\" said one.",
+      "thumbnailUrl": "https://feeds.npr.org/1001/undefined"
+    },
+    {
+      "title": "Japan launches new intelligence bureau amid counter-espionage push",
+      "url": "https://www.chinadaily.com.cn/a/202607/31/WS6a6c0516a310986e2b468513.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-07-31",
+      "summary": "Japan launched its new National Intelligence Bureau on July 31, marking the establishment of the country's first centralized national intelligence system since World War II. The launch represents another step in Prime Minister Sanae Takaichi's efforts to strengthen Japan's intelligence capabilities and is expected to pave the way for additional counter-espionage legislation.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202607/31/6a6c0794a310986e101aa68d.png"
+    },
+    {
+      "title": "Rising demand drives TCM service expansion in Rwanda",
+      "url": "https://www.chinadaily.com.cn/a/202607/31/WS6a6c0412a310986e2b468504.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-07-31",
+      "summary": "Traditional Chinese medicine is gaining a firm foothold in Rwanda's healthcare system with government support, increasing referrals from local physicians and rising patient demand accelerating its integration into mainstream medical care.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202607/31/6a6c0412a310986e101aa5aa.jpeg"
+    },
+    {
+      "title": "Livestreamer brings life in Shanxi to Latin America",
+      "url": "https://www.chinadaily.com.cn/a/202607/31/WS6a6bfa47a310986e2b46848f.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-07-31",
+      "summary": "Editor's note: China Daily presents the series Friends Afar to tell the stories of people-to-people exchanges between China and other countries. Through the vivid narration of the people in the stories, readers can get a better understanding of a country that is boosting openness.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202607/31/6a6bfa47a310986e101aa484.png"
+    },
+    {
+      "title": "Wildfires hit UK amid heat wave and drought",
+      "url": "https://www.chinadaily.com.cn/a/202607/31/WS6a6bfa32a310986e2b468483.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-07-31",
+      "summary": "The east of England has become the latest part of Europe to suffer from wildfires caused by extreme heat, as holiday homes and a caravan park were evacuated in coastal regions of the county of Suffolk.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202607/31/6a6bfa32a310986e101aa45c.png"
+    },
+    {
+      "title": "Australia mulls building new oil refinery",
+      "url": "https://www.chinadaily.com.cn/a/202607/31/WS6a6bf447a310986e2b4683ef.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-07-31",
+      "summary": "Australia is weighing plans for a major oil refinery as part of efforts to secure its fuel resources against the backdrop of unstable global supply chains amid the ongoing conflict in the Middle East.",
+      "thumbnailUrl": "https://www.chinadaily.com.cn/image_e/2020/logo21.jpg"
+    },
+    {
+      "title": "Congress flags contesting claims made by police, counsel on stone-laden truck",
+      "url": "https://www.thehindu.com/news/national/congress-flags-contesting-claims-made-by-police-counsel-on-stone-laden-truck/article71291196.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-07-31T17:44:43.000Z",
+      "summary": "Congress challenges police's conflicting statements on a stone-laden truck, citing it as a significant security failure.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/9itont/article71292063.ece/alternates/LANDSCAPE_1200/IYC%20PEROTEST%20AMIT%20SHAH%202026_30_07_8.jpg"
+    },
+    {
+      "title": "Supreme Court asks Centre to facilitate DNA testing of Indians killed in Russia-Ukraine war",
+      "url": "https://www.thehindu.com/news/national/russia-ukraine-war-sc-directs-centre-to-appoint-nodal-officer-assist-families-of-indians-killed-or-missing-in-conflict/article71289568.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-07-31T08:03:12.000Z",
+      "summary": "SC directs Centre to support families of Indians affected in the Russia-Ukraine war, aiding in compensation claims and updates.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/rzqu6m/article71289617.ece/alternates/LANDSCAPE_1200/IMG_UKRAINE_RUSSIAN_WAR__2_1_7OCI201A.jpg"
+    },
+    {
+      "title": "Births and Deaths (Amendment) Bill, 2026, passed in Lok Sabha amid protests over police crackdown",
+      "url": "https://www.thehindu.com/news/national/births-and-deaths-amendment-bill-2026-passed-in-lok-sabha-amid-protests-over-police-crackdown/article71289428.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-07-31T07:19:21.000Z",
+      "summary": "Lok Sabha passes the Births and Deaths Amendment Bill, 2026, amid opposition protests and demands for Home Minister's presence.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/z7g1un/article71289450.ece/alternates/LANDSCAPE_1200/PTI07_31_2026_000110B.jpg"
+    },
+    {
+      "title": "Death toll reaches 82 as 1.92 lakh people remain affected by floods in Assam",
+      "url": "https://www.thehindu.com/news/national/assam/death-toll-reaches-82-as-192-lakh-people-remain-affected-by-floods-in-assam/article71293560.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-08-01T05:21:39.000Z",
+      "summary": "Floods in Assam have left 82 dead and nearly 1.92 lakh affected, with relief efforts underway in severely hit districts.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/sztl8o/article71293578.ece/alternates/LANDSCAPE_1200/20260731323L.jpg"
+    },
+    {
+      "title": "Supreme Court moots protocol to access court’s livestream archives",
+      "url": "https://www.thehindu.com/news/national/fetter-on-open-circulation-of-livestreamed-proceedings-reverses-open-justice-system-activists-tell-sc/article71289035.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-07-31T04:57:08.000Z",
+      "summary": "Activists challenge Supreme Court order limiting livestreamed proceedings, arguing it undermines the principle of open justice and public accountability.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/8cn1z8/article71292233.ece/alternates/LANDSCAPE_1200/IMG_DOCTORS_PROTEST_SC_H_2_1_JND7MHCM.jpg"
+    },
+    {
+      "title": "EXCLUSIVE: Bessent's 'to do' list: buy $5-10 billion worth of Japanese yen, Reuters photo shows",
+      "url": "https://www.reuters.com/world/asia-pacific/bessents-to-do-list-buy-5-10-billion-worth-japanese-yen-reuters-photo-shows-2026-07-31/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Fri, 31 Jul 2026 23:20:42 GMT",
+      "summary": "Reuters: EXCLUSIVE: Bessent's 'to do' list: buy $5-10 billion worth of Japanese yen, Reuters photo shows.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/BFULKY3L25OCPFXVRMVNBBFLG4.jpg?auth=b80a0346112f5574ad2bdb57e1c41b545de85c79dd32a001f1e42e11541fce13&width=1080&quality=80"
+    },
+    {
+      "title": "US Justice Department says 'flawed' work led to Reflecting Pool peeling",
+      "url": "https://www.reuters.com/world/us-justice-department-drops-case-against-former-us-olympian-over-lincoln-2026-07-31/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Fri, 31 Jul 2026 22:12:00 GMT",
+      "summary": "Reuters: US Justice Department says 'flawed' work led to Reflecting Pool peeling.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/KEHMV4AK4VKDFHACYKZI7JPFMM.jpg?auth=73f9900ea849b0aeb071de98d7b33f7a07d1109e80482a269a6306db414311d7&width=1080&quality=80"
+    },
+    {
+      "title": "US Treasury intervenes to support yen after Japan steps in, FT reports",
+      "url": "https://www.reuters.com/world/asia-pacific/us-treasury-undertakes-intervention-yen-market-ft-reports-2026-08-01/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Sat, 01 Aug 2026 00:28:00 GMT",
+      "summary": "Reuters: US Treasury intervenes to support yen after Japan steps in, FT reports.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/6PGLXNR5BRM6HDSAGGYNW2D55M.jpg?auth=e781bd256daaa1c26f1b718fe726885f88a74bbd9d4cdead568fed52c138f8c4&width=1920&quality=80"
+    },
+    {
+      "title": "US, Israel planning to bombard energy-related targets in Iran, CBS reports",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQNXpvc21vbVJNVjc3NWg0ZnppblFCM3dmQXFVVTNhc1A1YkhoSTA4Q0tFZ0hQbFN0WUdtRlBza0J1dzBFenk3NW85U0ZWLXA0N1llLVFCNUdmRy1JU2NzOTE2bTFTdmlYUXdZNUphTE1uSE84ZXA0WjBYNkUtX2NBbWpUS08taFBRc0xNdGtoV0F6SHpfdU15dFB1WllYNnVwQkxFWThYelpLZnQyRml2Q0MwLVZ2blFDWl9raA?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Fri, 31 Jul 2026 21:23:27 GMT",
+      "summary": "Reuters: US, Israel planning to bombard energy-related targets in Iran, CBS reports.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "Latvia closes border with Belarus, interior minister says",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQU2FncWxSSUtXYTFYOWMzU2YzelBiNUJxLWVjX1gtemQ3YVNveHcxemZWcGlXdmtDa1RyRGpYSGlJTjdTTE5lbE9JcnNsanN2TlFjT2RIeHV1MER4aTEzbG14WXNvcE1VaDJyRENKcU5xQ1ZlRlRBX0h3LU9iaU1pZ2pjZkE5SXYtX2xGSm91V0dYdzZacG5YakwwMVpSOGM?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Fri, 31 Jul 2026 21:09:26 GMT",
+      "summary": "Reuters: Latvia closes border with Belarus, interior minister says.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    }
+  ],
+  "markets": [
+    {
+      "id": "sp-500",
+      "label": "S&P 500",
+      "region": "US",
+      "symbol": "^GSPC",
+      "value": 7489.72,
+      "previousClose": 7437.6296680000005,
+      "change": 52.090332,
+      "percentChange": 0.70036197,
+      "direction": "up",
+      "sessionDate": "2026-08-01"
+    },
+    {
+      "id": "nasdaq-composite",
+      "label": "NASDAQ Composite",
+      "region": "US",
+      "symbol": "^IXIC",
+      "value": 25373.854,
+      "previousClose": 25122.178219999998,
+      "change": 251.67578,
+      "percentChange": 1.0018072,
+      "direction": "up",
+      "sessionDate": "2026-08-01"
+    },
+    {
+      "id": "euronext-100",
+      "label": "Euronext 100 Index",
+      "region": "Europe",
+      "symbol": "^N100",
+      "value": 1925.79,
+      "previousClose": 1921.6399756,
+      "change": 4.1500244,
+      "percentChange": 0.21596263,
+      "direction": "up",
+      "sessionDate": "2026-08-01"
+    },
+    {
+      "id": "moex",
+      "label": "Public Joint-Stock Company Moscow Exchange MICEX-RTS",
+      "region": "Europe",
+      "symbol": "MOEX.ME",
+      "value": 85.2,
+      "previousClose": 85.31000061,
+      "change": -0.11000061,
+      "percentChange": -0.12894222,
+      "direction": "down",
+      "sessionDate": "2026-08-01"
+    },
+    {
+      "id": "hang-seng",
+      "label": "HANG SENG INDEX",
+      "region": "Asia",
+      "symbol": "^HSI",
+      "value": 25884.43,
+      "previousClose": 25858.881172,
+      "change": 25.548828,
+      "percentChange": 0.09880098,
+      "direction": "up",
+      "sessionDate": "2026-08-01"
+    },
+    {
+      "id": "nikkei-225",
+      "label": "Nikkei 225",
+      "region": "Asia",
+      "symbol": "^N225",
+      "value": 64362.02,
+      "previousClose": 61867.430199999995,
+      "change": 2494.5898,
+      "percentChange": 4.0321536,
+      "direction": "up",
+      "sessionDate": "2026-08-01"
+    },
+    {
+      "id": "sensex",
+      "label": "S&P BSE SENSEX",
+      "region": "India",
+      "symbol": "^BSESN",
+      "value": 78094.64,
+      "previousClose": 77928.14781,
+      "change": 166.49219,
+      "percentChange": 0.21364833,
+      "direction": "up",
+      "sessionDate": "2026-08-01"
+    }
+  ],
+  "hackerNews": [
+    {
+      "title": "About 100 firefighters are convicted of arson, every year",
+      "url": "https://www.firerescue1.com/arson-investigation/articles/expert-firefighter-arson-a-long-standing-issue-xHXLFAdYVcQPiuPU/",
+      "publishedAt": "2026-08-01T03:50:30.000Z",
+      "summary": "More than 100 firefighters are convicted of arson every year, but a lack of documentation makes it hard to track",
+      "thumbnailUrl": "https://lexipol.brightspotcdn.com/dims4/default/de905d9/2147483647/strip/true/crop/420x236+0+62/resize/1440x810!/quality/90/?url=https%3A%2F%2Fk1-prod-lexipol.s3.us-east-2.amazonaws.com%2Fbrightspot%2F08%2Ff6%2Fe740422c53bea3bc1d23766e0022%2Fvolff-2.jpg"
+    },
+    {
+      "title": "Elevators",
+      "url": "https://john.fun/elevators",
+      "publishedAt": "2026-07-31T15:17:28.000Z",
+      "summary": "How elevators push your buttons",
+      "thumbnailUrl": "https://john.fun/metadata/elevator/twitter-card.png"
+    },
+    {
+      "title": "Flint: A Visualization Language for the AI Era",
+      "url": "https://microsoft.github.io/flint-chart/",
+      "publishedAt": "2026-08-01T02:45:09.000Z",
+      "summary": "microsoft.github.io: Flint: A Visualization Language for the AI Era.",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "The development pipeline is a production system",
+      "url": "https://sundry.jerryorr.com/2026/07/31/development-pipeline-is-a-production-system",
+      "publishedAt": "2026-08-01T03:16:09.000Z",
+      "summary": "Various thoughts on programming and technology.",
+      "thumbnailUrl": "https://sundry.jerryorr.com/images/mastodon-icon-black.svg"
+    },
+    {
+      "title": "How to Exist",
+      "url": "https://www.raptitude.com/2026/07/how-to-exist/",
+      "publishedAt": "2026-08-01T00:25:00.000Z",
+      "summary": "raptitude.com: How to Exist."
+    },
+    {
+      "title": "qm – Multiplayer agent harness for work",
+      "url": "https://github.com/yc-software/qm",
+      "publishedAt": "2026-07-31T18:04:58.000Z",
+      "summary": "Multiplayer agent harness for work. Contribute to yc-software/qm development by creating an account on GitHub.",
+      "thumbnailUrl": "https://opengraph.githubassets.com/621ce77f37b772b4dbcfc99aed4f712c352302db0518483cbcbcfe25ea32a9af/yc-software/qm"
+    },
+    {
+      "title": "What Liberal Arts Education Is for (2024)",
+      "url": "https://innig.net/teaching/liberal-arts-manifesto",
+      "publishedAt": "2026-08-01T04:28:13.000Z",
+      "summary": "In college, I took a religious studies class called The Letters of Paul. I took it for two very good reasons:",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "BMW Spider-Man in-car advertising",
+      "url": "https://consumerrights.wiki/w/BMW_Spider-Man_in-car_advertising",
+      "publishedAt": "2026-08-01T03:25:12.000Z",
+      "summary": "On July 27, 2026, BMW began delivering a full-screen Spider-Man: Brand New Day movie advertisement to the dashboard Control Display (the car's main center screen...",
+      "thumbnailUrl": "https://consumerrights.wiki/images/logo/new_fixed_logo.png"
+    },
+    {
+      "title": "A Week in Matrix",
+      "url": "https://piegames.de/dumps/a-week-in-matrix/",
+      "publishedAt": "2026-08-01T01:35:53.000Z",
+      "summary": "An experience report (read: rant) from an administrator and moderator perspective on how trying to foster an online community in the Matrix ecosystem feels like",
+      "thumbnailUrl": "https://piegames.de/moon.svg"
+    },
+    {
+      "title": "Progressive Web Components",
+      "url": "https://arielsalminen.com/2026/progressive-web-components/",
+      "publishedAt": "2026-07-31T10:04:40.000Z",
+      "summary": "Introducing Elena, a simple, tiny library for building Progressive Web Components.",
+      "thumbnailUrl": "https://arielsalminen.com/img/social/2026-progressive-web-components-preview.jpeg"
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "MiniMax H3",
+      "tagline": "Unified video generation for motion design and branding",
+      "url": "https://www.producthunt.com/products/minimax",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-07-31T22:27:37-07:00"
+    },
+    {
+      "name": "DepthData",
+      "tagline": "The system of record for your company's AI spend.",
+      "url": "https://www.producthunt.com/products/depthdata",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-07-31T21:47:39-07:00"
+    },
+    {
+      "name": "Cleanlist AI",
+      "tagline": "Natural-language prospecting: find, enrich and sync leads.",
+      "url": "https://www.producthunt.com/products/cleanlist-ai",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-07-31T22:21:45-07:00"
+    },
+    {
+      "name": "Customer.io Summer Release",
+      "tagline": "New ways to reach customers in the moments that matter",
+      "url": "https://www.producthunt.com/products/customer-io",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-07-31T21:47:36-07:00"
+    },
+    {
+      "name": "Poth Labs",
+      "tagline": "The customer brain for your company",
+      "url": "https://www.producthunt.com/products/poth-labs",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-07-31T21:58:43-07:00"
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "News and markets",
+      "sentences": [
+        "Global headlines: Peru’s ex-president Humala released after conviction overturned (Humala and his wife were sentenced to 15 years last year after being convicted of money laundering); Yemen’s Houthis deny plan to charge ships transiting Red Sea (Houthis say Red Sea route remains free to use, pushing back on report of new shipping fees); and Is Israel really ready to withdraw from Gaza? (Netanyahu faces political turmoil over Gaza disarmament plan tied to Israel's potential withdrawal from the enclave).",
+        "Markets leaned higher, with 6 of 7 tracked indexes up; Nikkei 225 up 4.03% was the largest move.",
+        "Benchmarks tracked: S&P 500, NASDAQ Composite, Euronext 100 Index, and Public Joint-Stock Company Moscow Exchange MICEX-RTS plus 3 more indexes."
+      ]
+    },
+    {
+      "title": "Hacker News and Product Hunt",
+      "sentences": [
+        "Hacker News: About 100 firefighters are convicted of arson, every year (More than 100 firefighters are convicted of arson every year, but a lack of documentation makes it hard to track); Elevators (How elevators push your buttons); and Flint: A Visualization Language for the AI Era (microsoft.github.io: Flint: A Visualization Language for the AI Era).",
+        "Product Hunt features MiniMax H3 (Unified video generation for motion design and branding), DepthData (The system of record for your company's AI spend), and Cleanlist AI (Natural-language prospecting: find, enrich and sync leads)."
+      ]
+    }
+  ],
+  "sourceNotes": {
+    "generatedAt": "2026-08-01T05:28:40.695Z",
+    "timeZone": "Asia/Kolkata",
+    "successfulSources": [
+      "Al Jazeera",
+      "NPR",
+      "China Daily",
+      "The Hindu",
+      "Reuters"
+    ],
+    "marketSessionLabel": "Latest market sessions as of 2026-08-01",
+    "warnings": [
+      "Washington Post: This operation was aborted"
+    ]
+  }
+}
