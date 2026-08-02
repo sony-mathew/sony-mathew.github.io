@@ -1,0 +1,499 @@
+{
+  "headlines": [
+    {
+      "title": "Spain pushes migrants back to Morocco as fallout deepens over mass border breach",
+      "url": "https://www.washingtonpost.com/world/2026/08/01/spain-pushes-migrants-back-morocco-fallout-deepens-over-mass-border-breach/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Sat, 01 Aug 2026 17:56:57 +0000",
+      "summary": "The crisis in Ceuta, on the African coast, instantly became a touchstone in the global migrant debate as suspicions swirled that the viral incident was orchestrated.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/GABTA6RE3JNMQR4GNSOWUP5V2Q.JPG&w=1440"
+    },
+    {
+      "title": "Zelensky says Ukraine has ‘no interceptors’ as ballistic missiles hit Kyiv",
+      "url": "https://www.washingtonpost.com/world/2026/08/01/russia-hits-kyiv-with-second-ballistic-missile-assault-week/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Sat, 01 Aug 2026 14:19:54 +0000",
+      "summary": "Ukrainian President Volodymyr Zelensky had appealed for American air-defense missiles during a White House meeting on Tuesday.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/JDV3V6TVTTK2FJJPD6PKKQS7Q4_size-normalized.jpg&w=1440"
+    },
+    {
+      "title": "U.S. general warns Pentagon he lacks sufficient forces to protect Israel",
+      "url": "https://www.washingtonpost.com/national-security/2026/08/01/general-warns-pentagon-he-lacks-sufficient-forces-protect-israel/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Sat, 01 Aug 2026 11:00:00 +0000",
+      "summary": "A shortage of Navy destroyers, used to defend against Iranian ballistic missile attacks, will force the head of U.S. European Command to prioritize the U.S. homeland instead, officials said.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/2GOS7GRU2UUAZG63NCQ3O7F54U_size-normalized.jpg&w=1440"
+    },
+    {
+      "title": "Migrants overrun a Spanish outpost, stirring European outrage",
+      "url": "https://www.washingtonpost.com/world/2026/07/31/migrants-overrun-spanish-outpost-stirring-white-house-outrage/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Fri, 31 Jul 2026 23:11:04 +0000",
+      "summary": "Widely circulated video showed thousands of Moroccans storming into a Spanish outpost in North Africa. The White House condemned Spain as weak on immigration.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/ZDOLTS43DUOHIWW3UXQLKHDEJA.JPG&w=1440"
+    },
+    {
+      "title": "How Iran war shipping disruptions and price spikes widen inequality in Africa",
+      "url": "https://www.washingtonpost.com/world/interactive/2026/07/31/how-us-war-with-iran-is-widening-inequality-africa/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Fri, 31 Jul 2026 10:00:01 +0000",
+      "summary": "In Angola, supply chain disruptions and higher global energy costs have driven up prices of food, fuel and fertilizer, increases felt by the poor, while the wealthy are earning more.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/MA5GTKMAKPNHGBYXROZCH7WAWA.jpg&w=1200"
+    },
+    {
+      "title": "How Virunga Park protects people and gorillas from Ebola in eastern DRC",
+      "url": "https://www.aljazeera.com/news/2026/8/2/how-virunga-park-protects-people-and-gorillas-from-ebola-in-eastern-drc",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-08-02",
+      "summary": "Health checkpoints and surveillance aim to contain the outbreak and protect endangered mountain gorillas.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/08/1007094901-1785575655.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Trump cancels Iran strike, says ‘deal perimeters’ reached",
+      "url": "https://www.aljazeera.com/news/2026/8/2/trump-cancels-iran-strike-says-deal-perimeters-reached",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-08-02",
+      "summary": "The US president announced that he has cancelled a planned military strike on Iran, claiming progress in talks.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/08/afp_6a6eb30a1916-1785639690.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Israel kills eight in Gaza despite Trump’s Hamas disarmament plan",
+      "url": "https://www.aljazeera.com/news/2026/8/2/israel-kills-five-in-gaza-despite-trumps-hamas-disarmament-plan",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-08-02",
+      "summary": "Strikes hit Gaza homes after the US unveiled plans for Hamas disarmament and Israeli withdrawal.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/08/afp_6a6e537350cf-1785615219.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Gunman opens fire at Idaho fast-food restaurant, killing two",
+      "url": "https://www.aljazeera.com/news/2026/8/2/gunman-kills-several-at-idaho-fast-food-restaurant",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-08-02",
+      "summary": "Fatalities reported after gunman opens fire at In-N-Out Burger in Twin Falls, Idaho.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/08/AP26213861910547-1785632236.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Hungary plans to shut down only nuclear power plant amid drought",
+      "url": "https://www.aljazeera.com/news/2026/8/2/hungary-plans-to-shut-down-only-nuclear-power-plant-amid-drought",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-08-02",
+      "summary": "Officials say they must shut down nation's sole nuclear plant as record-low Danube water levels disrupt reactor cooling.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/08/getty_6a6e8b8573-1785629573.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "'Sopranos' actor Vincent Pastore, known for playing mobsters and tough guys, dead at 80",
+      "url": "https://www.npr.org/2026/08/01/nx-s1-5916418/vincent-pastore-sopranos-obit",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Sat, 01 Aug 2026 18:32:44 -0400",
+      "summary": "Vincent Pastore appeared in movies dating back to the 1980s and had roles in big movies including \"Goodfellas\" and \"Awakenings,\" both in 1990.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4562x3066+0+0/resize/4562x3066!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fef%2Fbe%2F9343209a4be287bbd2a45e3cc2e3%2Fap26213770901252.jpg"
+    },
+    {
+      "title": "Avalanche in Pakistan kills famed mountaineer Nirmal Purja and his fellow climbers",
+      "url": "https://www.npr.org/2026/08/01/nx-s1-5916368/nirmal-purja-climbers-dead-avalanche",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Sat, 01 Aug 2026 18:23:39 -0400",
+      "summary": "A mountaineering team with climbers from around the world, including the U.S., was attempting to climb one of the tallest peaks on earth.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2266x1511+0+0/resize/2266x1511!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fd7%2F50%2F1e0054aa4e809cb27ec1d3ffd6d6%2Fap26212068769209.jpg"
+    },
+    {
+      "title": "Overnight Russian barrage kills nine in Kyiv, as air defense struggle with U.S. continues",
+      "url": "https://www.npr.org/2026/08/01/nx-s1-5916393/overnight-russia-kyiv-ukraine-strikes",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Sat, 01 Aug 2026 16:27:32 -0400",
+      "summary": "Ballistic missiles tore into five districts of the Ukrainian capital before dawn Saturday. President Trump is now walking back a promised boost to Ukraine's missile defense systems.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6242x4157+0+0/resize/6242x4157!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F60%2F42%2F714a9d7f4d65bc7a70f4ecc54d14%2Fap26213122498207.jpg"
+    },
+    {
+      "title": "Spain's Pedro Sánchez was a hero of migrants. After Ceuta, he faces his biggest challenge",
+      "url": "https://www.npr.org/2026/08/01/nx-s1-5916330/spain-sanchez-ceuta-migrants",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Sat, 01 Aug 2026 14:33:27 -0400",
+      "summary": "The pro-immigration leader is facing backlash at home and abroad after roughly 60,000 people crossed from Morocco into the Spanish enclave.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1024x681+0+0/resize/1024x681!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fc3%2F6d%2F24f3f476475b909e792684a912bf%2Fgettyimages-2287796231.jpg"
+    },
+    {
+      "title": "Opinion: Remembering Margo Howard",
+      "url": "https://www.npr.org/2026/08/01/nx-s1-5907932/opinion-remembering-margo-howard",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Sat, 01 Aug 2026 08:00:00 -0400",
+      "summary": "Margo Howard had a lot of life experience and used it to offer advice for years as \"Dear Prudence\" for Slate. She died this week at the age of 86.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2085x2118+0+0/resize/2085x2118!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F95%2F43%2F95e0ce1d4075a228d40de153e8fa%2Fgettyimages-177371900.jpg"
+    },
+    {
+      "title": "Japan launches new intelligence bureau amid counter-espionage push",
+      "url": "https://www.chinadaily.com.cn/a/202607/31/WS6a6c0516a310986e2b468513.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-07-31",
+      "summary": "Japan launched its new National Intelligence Bureau on July 31, marking the establishment of the country's first centralized national intelligence system since World War II. The launch represents another step in Prime Minister Sanae Takaichi's efforts to strengthen Japan's intelligence capabilities and is expected to pave the way for additional counter-espionage legislation.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202607/31/6a6c0794a310986e101aa68d.png"
+    },
+    {
+      "title": "Rising demand drives TCM service expansion in Rwanda",
+      "url": "https://www.chinadaily.com.cn/a/202607/31/WS6a6c0412a310986e2b468504.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-07-31",
+      "summary": "Traditional Chinese medicine is gaining a firm foothold in Rwanda's healthcare system with government support, increasing referrals from local physicians and rising patient demand accelerating its integration into mainstream medical care.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202607/31/6a6c0412a310986e101aa5aa.jpeg"
+    },
+    {
+      "title": "Livestreamer brings life in Shanxi to Latin America",
+      "url": "https://www.chinadaily.com.cn/a/202607/31/WS6a6bfa47a310986e2b46848f.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-07-31",
+      "summary": "Editor's note: China Daily presents the series Friends Afar to tell the stories of people-to-people exchanges between China and other countries. Through the vivid narration of the people in the stories, readers can get a better understanding of a country that is boosting openness.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202607/31/6a6bfa47a310986e101aa484.png"
+    },
+    {
+      "title": "Wildfires hit UK amid heat wave and drought",
+      "url": "https://www.chinadaily.com.cn/a/202607/31/WS6a6bfa32a310986e2b468483.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-07-31",
+      "summary": "The east of England has become the latest part of Europe to suffer from wildfires caused by extreme heat, as holiday homes and a caravan park were evacuated in coastal regions of the county of Suffolk.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202607/31/6a6bfa32a310986e101aa45c.png"
+    },
+    {
+      "title": "Multiple people dead after shooting at US Idaho restaurant",
+      "url": "https://www.chinadaily.com.cn/a/202608/02/WS6a6e8ed3a310986e2b4688b2.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-08-02",
+      "summary": "Police say multiple people died in a shooting at a southern Idaho In-N-Out fast food restaurant, and others were injured.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202608/02/6a6e8eeaa310986e101abe9d.jpeg"
+    },
+    {
+      "title": "What is the Samudra Manthan scheme all about? | Explained",
+      "url": "https://www.thehindu.com/news/national/what-is-the-samudra-manthan-scheme-all-about-explained/article71295556.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-08-01T16:03:13.000Z",
+      "summary": "The Samudra Manthan scheme invests ₹84,084 crore to enhance India's deepwater hydrocarbon exploration and energy security by 2030.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/cjq93f/article71295626.ece/alternates/LANDSCAPE_1200/iStock-481312160.jpg"
+    },
+    {
+      "title": "Kerala floods 2026: cloudburst-like event exposes gaps in State’s weather forecasting, disaster preparedness",
+      "url": "https://www.thehindu.com/news/national/kerala/kerala-floods-2026-cloudburst-like-event-exposes-gaps-in-states-weather-forecasting-disaster-preparedness/article71295370.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-08-01T15:29:12.000Z",
+      "summary": "Kerala floods 2026 reveal critical failures in weather forecasting and disaster preparedness amid extreme rainfall and insufficient alerts.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/vcwsct/article71295450.ece/alternates/LANDSCAPE_1200/80968_1_8_2026_19_54_59_1_IMG_8306.JPEG"
+    },
+    {
+      "title": "Congress says PM Modi owes apology to youth, not ‘forgiveness’",
+      "url": "https://www.thehindu.com/news/national/congress-says-pm-modi-owes-apology-to-youth-not-forgiveness/article71294074.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-08-01T09:40:18.000Z",
+      "summary": "Congress demands an apology from PM Modi for the youth's suffering, criticizing his claims of forgiveness as self-obsessed.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/d2aaqn/article66081444.ece/alternates/LANDSCAPE_1200/vbk-stock-skp--01_Jairam_Ramesh_25_10_Delhi.jpg"
+    },
+    {
+      "title": "Pellet gun usage: Major incidents that shaped the crowd-control debate",
+      "url": "https://www.thehindu.com/news/national/pellet-gun-usage-major-incidents-in-jammu-kashmir-delhi-protest-that-shaped-the-crowd-control-debate-in-india/article71293763.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-08-01T11:00:09.000Z",
+      "summary": "Explore the controversial history of pellet gun usage in India and its impact on crowd control and civil rights debates.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/news/national/other-states/sfabnd/article31043517.ece/alternates/LANDSCAPE_1200/DE11-PELLET"
+    },
+    {
+      "title": "Centre to release its share of over ₹2,117 crore for disaster relief in advance to seven flood-hit States",
+      "url": "https://www.thehindu.com/news/national/centre-to-release-its-share-of-over-2117-crore-for-disaster-relief-in-advance-to-seven-flood-hit-states/article71295636.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-08-01T17:29:53.000Z",
+      "summary": "Union government releases ₹2,117 crore for disaster relief in seven flood-hit states, ensuring timely support for recovery efforts.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/3l5x9b/article71295841.ece/alternates/LANDSCAPE_1200/20260722681L.jpg"
+    },
+    {
+      "title": "EXCLUSIVE: Japan to announce Tokyo, Washington took joint action on yen, sources say",
+      "url": "https://www.reuters.com/world/asia-pacific/japan-announce-tokyo-washington-took-joint-action-yen-sources-say-2026-08-02/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Sun, 02 Aug 2026 01:12:00 GMT",
+      "summary": "Reuters: EXCLUSIVE: Japan to announce Tokyo, Washington took joint action on yen, sources say.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/KKIY2YB6KNM7BFOQQXZZPZNF7Y.jpg?auth=6862e6ceb2c0e40c9ce2ef7602b71fc01c932df3348aa8bcd76c653f5be46ee5&width=1080&quality=80"
+    },
+    {
+      "title": "Three dead in Idaho shopping center shooting",
+      "url": "https://www.reuters.com/world/us/three-dead-idaho-shopping-center-shooting-2026-08-02/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Sun, 02 Aug 2026 00:50:00 GMT",
+      "summary": "Reuters: Three dead in Idaho shopping center shooting.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/EZQF34D75ZF2FEPTIEK6YCR4SA.JPG?auth=eb2ceb3cfea24502d442aa2bdbde1be2b7c97d901db16642f23155a5bad990cd&width=1080&quality=80"
+    },
+    {
+      "title": "Trump says he will hold off on fresh Iran attack in hope of quick deal",
+      "url": "https://www.reuters.com/world/asia-pacific/iran-threatens-strike-other-nations-energy-fields-if-us-launches-fresh-attacks-2026-08-01/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Sat, 01 Aug 2026 22:33:00 GMT",
+      "summary": "Reuters: Trump says he will hold off on fresh Iran attack in hope of quick deal.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/GVKJ4IXYSFL63EYFSUWP6U2BA4.jpg?auth=5388c0932d9bf54ad5147ae1c9df90f3fee10da9e386dd5f91d28b6d602db103&height=1005&width=1920&quality=80&smart=true"
+    },
+    {
+      "title": "Israeli strikes kill at least four in Gaza despite Trump announcing breakthrough",
+      "url": "https://www.reuters.com/world/middle-east/israeli-strikes-kill-least-four-gaza-despite-trump-announcing-breakthrough-2026-08-01/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Sat, 01 Aug 2026 23:50:00 GMT",
+      "summary": "Reuters: Israeli strikes kill at least four in Gaza despite Trump announcing breakthrough.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/DY54QWN2EJNTRHOF26FMCZOQV4.jpg?auth=7ef762adebd71de3e5f0f380b7ed50257b1f7fe46603306bb0d2b72ae936d573&width=1080&quality=80"
+    },
+    {
+      "title": "Thirteen die in tourist plane crash over Peru's Nazca Lines",
+      "url": "https://www.reuters.com/world/americas/thirteen-die-tourist-plane-crash-over-perus-nazca-lines-tvperu-says-2026-08-01/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Sat, 01 Aug 2026 19:53:00 GMT",
+      "summary": "Reuters: Thirteen die in tourist plane crash over Peru's Nazca Lines.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/GP45HBSWYVNK3JYSYA7EEHDKGA.jpg?auth=21649bd63ed145eefb0194dd3eda095960d13610f76f3792f7426d506babbe7a&width=1080&quality=80"
+    }
+  ],
+  "markets": [
+    {
+      "id": "sp-500",
+      "label": "S&P 500",
+      "region": "US",
+      "symbol": "^GSPC",
+      "value": 7489.72,
+      "previousClose": 7437.6296680000005,
+      "change": 52.090332,
+      "percentChange": 0.70036197,
+      "direction": "up",
+      "sessionDate": "2026-08-02"
+    },
+    {
+      "id": "nasdaq-composite",
+      "label": "NASDAQ Composite",
+      "region": "US",
+      "symbol": "^IXIC",
+      "value": 25373.854,
+      "previousClose": 25122.178219999998,
+      "change": 251.67578,
+      "percentChange": 1.0018072,
+      "direction": "up",
+      "sessionDate": "2026-08-02"
+    },
+    {
+      "id": "euronext-100",
+      "label": "Euronext 100 Index",
+      "region": "Europe",
+      "symbol": "^N100",
+      "value": 1925.79,
+      "previousClose": 1921.6399756,
+      "change": 4.1500244,
+      "percentChange": 0.21596263,
+      "direction": "up",
+      "sessionDate": "2026-08-02"
+    },
+    {
+      "id": "moex",
+      "label": "Public Joint-Stock Company Moscow Exchange MICEX-RTS",
+      "region": "Europe",
+      "symbol": "MOEX.ME",
+      "value": 85.2,
+      "previousClose": 85.31000061,
+      "change": -0.11000061,
+      "percentChange": -0.12894222,
+      "direction": "down",
+      "sessionDate": "2026-08-02"
+    },
+    {
+      "id": "hang-seng",
+      "label": "HANG SENG INDEX",
+      "region": "Asia",
+      "symbol": "^HSI",
+      "value": 25884.43,
+      "previousClose": 25858.881172,
+      "change": 25.548828,
+      "percentChange": 0.09880098,
+      "direction": "up",
+      "sessionDate": "2026-08-02"
+    },
+    {
+      "id": "nikkei-225",
+      "label": "Nikkei 225",
+      "region": "Asia",
+      "symbol": "^N225",
+      "value": 64362.02,
+      "previousClose": 61867.430199999995,
+      "change": 2494.5898,
+      "percentChange": 4.0321536,
+      "direction": "up",
+      "sessionDate": "2026-08-02"
+    },
+    {
+      "id": "sensex",
+      "label": "S&P BSE SENSEX",
+      "region": "India",
+      "symbol": "^BSESN",
+      "value": 78094.64,
+      "previousClose": 77928.14781,
+      "change": 166.49219,
+      "percentChange": 0.21364833,
+      "direction": "up",
+      "sessionDate": "2026-08-02"
+    }
+  ],
+  "hackerNews": [
+    {
+      "title": "Go 1.27 Interactive Tour",
+      "url": "https://victoriametrics.com/blog/go-1-27/index.html",
+      "publishedAt": "2026-08-02T01:35:51.000Z",
+      "summary": "An interactive tour of what’s new in Go 1.27: every notable language, runtime, and standard library change, with short runnable examples you can edit and run in the browser.",
+      "thumbnailUrl": "https://victoriametrics.com/blog/go-1-27/preview.webp"
+    },
+    {
+      "title": "Running Kimi K3 on MI355X at Better Performance per Dollar Than B300",
+      "url": "https://www.wafer.ai/blog/kimi-k3-mi355x",
+      "publishedAt": "2026-08-02T04:21:14.000Z",
+      "summary": "The fastest open source LLMs for enterprise.",
+      "thumbnailUrl": "https://www.wafer.ai/assets/images/og-image.png"
+    },
+    {
+      "title": "MkLinux and the pimped-out Apple Workgroup Server 9150",
+      "url": "http://oldvcr.blogspot.com/2026/08/mklinux-and-pimped-out-apple-workgroup.html",
+      "publishedAt": "2026-08-02T03:12:52.000Z",
+      "summary": "oldvcr.blogspot.com: MkLinux and the pimped-out Apple Workgroup Server 9150."
+    },
+    {
+      "title": "Seedance 2.5",
+      "url": "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5",
+      "publishedAt": "2026-08-01T20:45:12.000Z",
+      "summary": "One-take Creation, Flexible Referencing: Introducing Seedance 2.5",
+      "thumbnailUrl": "https://lf-flow-web-cdn.doubao.com/obj/flow-doubao/deploy/flow/ai_official_website/88329/static/image/new_qr_code.949b4782.png"
+    },
+    {
+      "title": "Diátaxis",
+      "url": "https://diataxis.fr/",
+      "publishedAt": "2026-08-01T20:33:27.000Z",
+      "summary": "Diátaxis is a widely-adopted, pragmatic and systematic approach to thinking about and creating documentation.",
+      "thumbnailUrl": "https://diataxis.fr/_static/diataxis-white-416.png"
+    },
+    {
+      "title": "Show HN: I'm a 15 Year Old Wannabe Engineer, This Is a Cycloidal Gearbox I Built",
+      "url": "https://github.com/tom-ilan/cycloidal_gearbox",
+      "publishedAt": "2026-08-02T02:07:09.000Z",
+      "summary": "3D Printed Cycloidal Gearbox . Contribute to tom-ilan/cycloidal_gearbox development by creating an account on GitHub.",
+      "thumbnailUrl": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1273630842/ba5b1ec0-8a28-46a3-8cf1-5c6983b3c336?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260802%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260802T052810Z&X-Amz-Expires=300&X-Amz-Signature=361e0b0cea73af0e76d0d45cb12ded70ae128b995f5ee60d36e08ea5337fd335&X-Amz-SignedHeaders=host&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTY0ODc5MCwibmJmIjoxNzg1NjQ4NDkwLCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.TLFRs6Xn8Ujl9MvZhLGv9aInCcdf_NDVGe7yKNQbeuM"
+    },
+    {
+      "title": "ASRock BC-250: Building the Budget Steam Machine",
+      "url": "https://plug-world.com/posts/2026/asrock-bc250-the-budget-steam-machine/",
+      "publishedAt": "2026-08-02T01:35:11.000Z",
+      "summary": "My complete guide for setting up the ASRock BC-250. You can&rsquo;t beat its price for performance, and it&rsquo;s perfect for those who love projects.",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "Don't credit the LLM",
+      "url": "https://isaacsu.com/2026/08/dont-credit-the-llm/",
+      "publishedAt": "2026-08-02T04:07:46.000Z",
+      "summary": "Lately, an odd habit seems to have caught on among my peers when they've done something with an LLM .",
+      "thumbnailUrl": "https://isaacsu.com/wp-content/uploads/2022/12/cropped-isaacsu-sq-766.jpg"
+    },
+    {
+      "title": "Plug-in solar is coming. Plug-in batteries should follow",
+      "url": "https://www.regen.co.uk/insights/plug-in-solar-is-coming-plug-in-batteries-should-follow",
+      "publishedAt": "2026-08-02T02:57:51.000Z",
+      "summary": "Plug-in batteries could help millions more households access the bill-saving benefits of home energy storage. With plug-in solar now on the way, Regen argues that the government should make plug-in batteries next.",
+      "thumbnailUrl": "https://cdn.prod.website-files.com/6798bfee7da7f37163ec22fb/6a0432ecfdc401c3a9b32c71_Plug-in%20batteries%20(1).jpg"
+    },
+    {
+      "title": "When random.bytes() runs but doesn't work",
+      "url": "https://insider.btcpp.dev/p/when-randombytes-runs-but-doesnt",
+      "publishedAt": "2026-08-02T02:08:26.000Z",
+      "summary": "What a commit message tells us about the recent COLDCARD bug",
+      "thumbnailUrl": "https://substackcdn.com/image/fetch/$s_!BDET!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb8c90d04-92b6-4b71-9826-4f752f690009_1024x1024.png"
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "Port22",
+      "tagline": "Claude Code, Codex & more on your phone",
+      "url": "https://www.producthunt.com/products/port22",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-08-01T21:48:20-07:00"
+    },
+    {
+      "name": "NudgeForMe",
+      "tagline": "AI follow-up agent for missed email opportunities",
+      "url": "https://www.producthunt.com/products/nudgeforme",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-08-01T22:23:04-07:00"
+    },
+    {
+      "name": "AgentMicro",
+      "tagline": "Live Codex task status in your macOS menu bar",
+      "url": "https://www.producthunt.com/products/agentmicro",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-08-01T22:13:09-07:00"
+    },
+    {
+      "name": "Kopai",
+      "tagline": "Share your expertise, and let our agents earn for you.",
+      "url": "https://www.producthunt.com/products/kopai-the-marketplace-for-ai-agents",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-08-01T21:41:56-07:00"
+    },
+    {
+      "name": "SyncStaq",
+      "tagline": "Stripe billing data, always current in Google Sheets",
+      "url": "https://www.producthunt.com/products/syncstaq",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-08-01T22:02:51-07:00"
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "News and markets",
+      "sentences": [
+        "Global headlines: Spain pushes migrants back to Morocco as fallout deepens over mass border breach (The crisis in Ceuta, on the African coast, instantly became a touchstone in the global migrant debate as suspicions swirled that the viral incident was orchestrated); Zelensky says Ukraine has ‘no interceptors’ as ballistic missiles hit Kyiv (Ukrainian President Volodymyr Zelensky had appealed for American air-defense missiles during a White House meeting on Tuesday); and U.S. general warns Pentagon he lacks sufficient forces to protect Israel (A shortage of Navy destroyers, used to defend against Iranian ballistic missile attacks, will force the head of U.S. European Command to prioritize the U.S. homeland instead, officials said).",
+        "Markets leaned higher, with 6 of 7 tracked indexes up; Nikkei 225 up 4.03% was the largest move.",
+        "Benchmarks tracked: S&P 500, NASDAQ Composite, Euronext 100 Index, and Public Joint-Stock Company Moscow Exchange MICEX-RTS plus 3 more indexes."
+      ]
+    },
+    {
+      "title": "Hacker News and Product Hunt",
+      "sentences": [
+        "Hacker News: Go 1.27 Interactive Tour (An interactive tour of what’s new in Go 1.27: every notable language, runtime, and standard library change, with short runnable examples...); Running Kimi K3 on MI355X at Better Performance per Dollar Than B300 (The fastest open source LLMs for enterprise); and MkLinux and the pimped-out Apple Workgroup Server 9150 (oldvcr.blogspot.com: MkLinux and the pimped-out Apple Workgroup Server 9150).",
+        "Product Hunt features Port22 (Claude Code, Codex & more on your phone), NudgeForMe (AI follow-up agent for missed email opportunities), and AgentMicro (Live Codex task status in your macOS menu bar)."
+      ]
+    }
+  ],
+  "sourceNotes": {
+    "generatedAt": "2026-08-02T05:28:11.956Z",
+    "timeZone": "Asia/Kolkata",
+    "successfulSources": [
+      "Washington Post",
+      "Al Jazeera",
+      "NPR",
+      "China Daily",
+      "The Hindu",
+      "Reuters"
+    ],
+    "marketSessionLabel": "Latest market sessions as of 2026-08-02",
+    "warnings": []
+  }
+}
