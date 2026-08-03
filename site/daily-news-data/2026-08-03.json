@@ -1,0 +1,499 @@
+{
+  "headlines": [
+    {
+      "title": "Spain pushes migrants back to Morocco as suspicions swirl over mass border breach",
+      "url": "https://www.washingtonpost.com/world/2026/08/01/spain-pushes-migrants-back-morocco-fallout-deepens-over-mass-border-breach/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Sat, 01 Aug 2026 17:56:57 +0000",
+      "summary": "The crisis in Ceuta, on the African coast, instantly became a touchstone in the global migrant debate as suspicions swirled that the viral incident was orchestrated.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/GABTA6RE3JNMQR4GNSOWUP5V2Q.JPG&w=1440"
+    },
+    {
+      "title": "Zelensky says Ukraine has ‘no interceptors’ as ballistic missiles hit Kyiv",
+      "url": "https://www.washingtonpost.com/world/2026/08/01/russia-hits-kyiv-with-second-ballistic-missile-assault-week/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Sat, 01 Aug 2026 14:19:54 +0000",
+      "summary": "Ukrainian President Volodymyr Zelensky had appealed for American air-defense missiles during a White House meeting on Tuesday.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/JDV3V6TVTTK2FJJPD6PKKQS7Q4_size-normalized.jpg&w=1440"
+    },
+    {
+      "title": "U.S. general warns Pentagon he lacks sufficient forces to protect Israel",
+      "url": "https://www.washingtonpost.com/national-security/2026/08/01/general-warns-pentagon-he-lacks-sufficient-forces-protect-israel/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Sat, 01 Aug 2026 11:00:00 +0000",
+      "summary": "A shortage of Navy destroyers, used to defend against Iranian ballistic missile attacks, will force the head of U.S. European Command to prioritize the U.S. homeland instead, officials said.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/2GOS7GRU2UUAZG63NCQ3O7F54U_size-normalized.jpg&w=1440"
+    },
+    {
+      "title": "Trump says he canceled Iran strikes at request of Gulf allies, is pursuing talks",
+      "url": "https://www.washingtonpost.com/world/2026/08/02/trump-cancels-iran-attack-citing-progress-deal-tehran-israel-alert/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "2026-08-02",
+      "summary": "The president said the parameters of a deal emerged, including opening the vital Strait of Hormuz and the nuclear disarmament of Iran.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/6LH6U6I3OO2S26OCT57IECAMGU.JPG&w=860&h=573"
+    },
+    {
+      "title": "As Chipotle opens in Mexico, one skeptic says ‘It’s gringo food for gringos’",
+      "url": "https://www.washingtonpost.com/world/2026/08/02/daring-gamble-chipotle-aims-sell-mexican-food-mexicans/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "2026-08-02",
+      "summary": "The U.S. fast-food chain says it can succeed south of the border, where Taco Bell has tried and failed twice. Some customers are embracing it — as American cuisine.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/O5HMUARYDBJO2UW3BTUTUFMYHQ.jpg&w=300&h=169"
+    },
+    {
+      "title": "Grid failure plunges Cuba into nationwide blackout",
+      "url": "https://www.aljazeera.com/news/2026/8/3/grid-failure-plunges-cuba-into-nationwide-blackout",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-08-03",
+      "summary": "Cuba’s ageing power grid collapsed on Sunday after a weekend of outages and amid US-imposed fuel shortages.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/08/AFP__20260802__C3RN68N__v1__HighRes__CubaUsSanctionsEnergyBlackout-1785728819.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Fires in Spokane, Washington, burn 600 structures, force 60,000 evacuations",
+      "url": "https://www.aljazeera.com/news/2026/8/3/fires-in-spokane-washington-burn-600-structures-force-60000-evacuations",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-08-03",
+      "summary": "A total of 1,000sq km (386sq miles) has burned across Washington state, and some of the fires have not been contained.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/08/AP26214767486197-1785726214.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Trump says US-Iran talks to resume; Tehran signals deal with Oman on Hormuz",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/8/3/iran-war-live-trump-says-talks-set-to-begin-tehran-urges-us-to-honour-mou",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-08-03",
+      "summary": "US President Donald Trump says an agreement with Iran is imminent, with negotiations set to begin on Monday.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/08/AFP__20260802__C3TB3WF__v1__HighRes__IranUsIsraelWar-1785715714.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Trump says new round of Iran talks will begin Monday",
+      "url": "https://www.aljazeera.com/news/2026/8/2/trump-says-new-round-of-iran-talks-will-begin-monday",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-08-02",
+      "summary": "The US president says Gulf allies and Tehran urged him to delay planned strikes, as oil prices dropped in response.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/08/2026-08-02T223827Z_1015294631_RC2LQMAP3H72_RTRMADP_3_USA-TRUMP-1785712640.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Brazil’s Lula launches fourth-term bid, focuses on national sovereignty",
+      "url": "https://www.aljazeera.com/news/2026/8/2/brazils-lula-launches-fourth-term-bid-focuses-on-national-sovereignty",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-08-02",
+      "summary": "Brazil’s president launches his bid for a fourth term, framing the election as a defence of national sovereignty.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/08/AFP__20260802__C3TD7EF__v1__HighRes__BrazilElectionConventionCandidate-1785710465.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Todd Blanche rescinds Trump's 'anti-weaponization fund' ahead of nomination hearing",
+      "url": "https://www.npr.org/2026/08/03/g-s1-136864/todd-blanche-rescinds-trump-anti-weaponization-fund",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Mon, 03 Aug 2026 01:04:19 -0400",
+      "summary": "Acting Attorney General Todd Blanche issued a formal order late Sunday terminating President Donald Trump's $1.8 billion \"anti-weaponization fund\" to compensate his political allies.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8278x5518+0+0/resize/8278x5518!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fc3%2F25%2F694f1cb7475e93d0dc3d7e152603%2Fap26211556196647.jpg"
+    },
+    {
+      "title": "A blaze on an Indonesian passenger ferry leaves at least 5 dead and dozens missing",
+      "url": "https://www.npr.org/2026/08/03/g-s1-136858/blaze-indonesian-passenger-ferry",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Mon, 03 Aug 2026 00:06:11 -0400",
+      "summary": "An Indonesian ferry carrying 271 people has caught fire in waters off Madura island, killing at least five people and leaving 41 others unaccounted for, authorities said",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2391x1594+0+0/resize/2391x1594!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F74%2F4f%2Fdadd4a6d423b829423e1b835c794%2Fap26214347785378.jpg"
+    },
+    {
+      "title": "Defunct part of SpaceX Falcon 9 rocket will slam into the moon",
+      "url": "https://www.npr.org/2026/08/02/nx-s1-5917201/space-x-falcon-nine-moon",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Sun, 02 Aug 2026 19:38:05 -0400",
+      "summary": "A defunct part of a Falcon 9 rocket could slam into the moon at more than 5,000 miles per hour, according to scientists.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4612x3075+0+0/resize/4612x3075!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F2f%2Fcb%2F6189e4a54967abb903f2fed59bca%2Fap25015230325064.jpg"
+    },
+    {
+      "title": "Capital One says it closed Trump Organization accounts over money-laundering concerns",
+      "url": "https://www.npr.org/2026/08/02/g-s1-136834/capital-one-trump-bank-anti-money-laundering",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Sun, 02 Aug 2026 14:31:34 -0400",
+      "summary": "The bank is asking a judge to permanently dismiss a lawsuit from Trump-affiliated businesses, arguing a monthslong internal review — not the Jan. 6 riot — explains why hundreds of accounts were shut down in 2021.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3919x2613+0+0/resize/3919x2613!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F34%2Fd5%2F6e20a7f64c8d9601f0f06b29d751%2Fap26100755622094.jpg"
+    },
+    {
+      "title": "Thousands of people under evacuation order from wildfires in Spokane, Wash.",
+      "url": "https://www.npr.org/2026/08/02/g-s1-136814/washington-state-wildfires-old-trails-fire-spokane",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Sun, 02 Aug 2026 09:35:43 -0400",
+      "summary": "There are at least three fires in and around the city. Large parts of Spokane are under Level 3 evacuation orders, which read: \"Leave NOW! This may be your only notice.\"",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5472x3648+0+0/resize/5472x3648!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F07%2F9e%2F9fdc7978476aa4a372ba86b8c10c%2Fap26214055763169.jpg"
+    },
+    {
+      "title": "Drying river has Hungary nuclear site in mothballs",
+      "url": "https://www.chinadaily.com.cn/a/202608/03/WS6a6fef85a310986e2b468a37.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-08-03",
+      "summary": "Hungary has been forced to shut down its sole nuclear power plant for the first time in its 44-year history due to the record-low water levels of the River Danube.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202608/03/6a6fef85a310986e101ac544.jpeg"
+    },
+    {
+      "title": "China, US business leaders seek deeper ties",
+      "url": "https://www.chinadaily.com.cn/a/202608/03/WS6a6fe850a310986e2b468990.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-08-03",
+      "summary": "Chinese and US business leaders met in Washington DC to explore opportunities for deeper cooperation as the two countries continued high-level engagement and economic and trade exchanges while managing differences.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202608/03/6a6fe850a310986e101ac319.png"
+    },
+    {
+      "title": "Japan launches new intelligence bureau amid counter-espionage push",
+      "url": "https://www.chinadaily.com.cn/a/202607/31/WS6a6c0516a310986e2b468513.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-07-31",
+      "summary": "Japan launched its new National Intelligence Bureau on July 31, marking the establishment of the country's first centralized national intelligence system since World War II. The launch represents another step in Prime Minister Sanae Takaichi's efforts to strengthen Japan's intelligence capabilities and is expected to pave the way for additional counter-espionage legislation.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202607/31/6a6c0794a310986e101aa68d.png"
+    },
+    {
+      "title": "Africa takes lead in BRI investment, report says",
+      "url": "https://www.chinadaily.com.cn/a/202608/03/WS6a6fec28a310986e2b468a00.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-08-03",
+      "summary": "Africa retained its position as the leading destination for the Belt and Road Initiative investment in the first half of this year, attracting $33.5 billion in Chinese investment, up 254 percent from the same period last year, as manufacturing and energy projects gathered pace amid shifting global trade dynamics.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202608/03/6a6fec28a310986e101ac4b1.jpeg"
+    },
+    {
+      "title": "Trump announces talks with Iran on Monday",
+      "url": "https://www.chinadaily.com.cn/a/202608/03/WS6a6fdb79a310986e2b468948.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-08-03",
+      "summary": "US President Donald Trump said Sunday that negotiations with Iran will begin Monday afternoon, noting that Saudi Arabia, the United Arab Emirates (UAE) and Qatar had asked the United States to call off planned strikes because \"they think there's a deal.\"",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202608/03/6a6fdb79a310986e101ac208.jpeg"
+    },
+    {
+      "title": "Kerala rains LIVE | Moderate heavy rain continues; CM to chair emergency meet",
+      "url": "https://www.thehindu.com/news/national/kerala/kerala-rains-live-moderate-heavy-rain-continues-cm-to-chair-emergency-meet/article71299854.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-08-03T04:28:38.000Z",
+      "summary": "Kerala Rains LIVE: Moderate to heavy rains lash Kerala, claiming 8 lives. Chief Minister V.D. Satheesan is set to chair emergency meeting to assess the situation.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/news/national/kerala/kfmnty/article71299865.ece/alternates/LANDSCAPE_1200/WhatsApp%20Image%202026-08-03%20at%2007.59.27.jpeg"
+    },
+    {
+      "title": "Counting of votes begins for Manjalpur assembly bypoll in Gujarat",
+      "url": "https://www.thehindu.com/news/national/gujarat/manjalpur-assembly-bypoll-in-gujarat-result/article71299773.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-08-03T03:03:20.000Z",
+      "summary": "Vote counting begins for Manjalpur assembly bypoll in Gujarat, following a 37.5% voter turnout amid tight security.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/hindi/editorial/3d6pze/article71299896.ece/alternates/LANDSCAPE_1200/Screenshot%202026-08-03%20100745.png"
+    },
+    {
+      "title": "TCS sexual harassment-forced conversion case: Five accused given bail by Nashik court",
+      "url": "https://www.thehindu.com/news/national/maharashtra/tcs-sexual-harassment-forced-conversion-case-five-accused-given-bail-by-nashik-court/article71298591.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-08-02T16:40:55.000Z",
+      "summary": "Nashik court grants bail to five accused in TCS sexual harassment case, citing completed investigation and no threat to witnesses.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/z82d4l/article71298732.ece/alternates/LANDSCAPE_1200/2026-06-16T035701Z_1793430694_RC2NF5AMKZ5E_RTRMADP_3_USA-TCS-DXC-TECH.JPG"
+    },
+    {
+      "title": "BJP fears creative expression as it will strengthen ‘anti-establishment wave’, says Akhilesh",
+      "url": "https://www.thehindu.com/news/national/uttar-pradesh/bjp-fears-creative-expression-as-it-will-strengthen-anti-establishment-wave-says-akhilesh/article71298583.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-08-02T16:56:51.000Z",
+      "summary": "Akhilesh Yadav criticises BJP for stifling artistic expression.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/pff4o3/article71298780.ece/alternates/LANDSCAPE_1200/20260802232L.jpg"
+    },
+    {
+      "title": "Parliament Monsoon Session Day 11 LIVE updates: Indian Statistical Institute Bill, Bankers' Books Evidence Bill likely to be introduced in Lok Sabha",
+      "url": "https://www.thehindu.com/news/national/parliament-monsoon-session-day-11-live-update-indian-statistical-institute-bill-bankers-books-evidence-bill-bjp-congress/article71299754.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-08-03T04:33:36.000Z",
+      "summary": "Parliament Monsoon session 2026 | Follow The Hindu's highlights on the proceedings in the Lok Sabha and the Rajya Sabha on August 3, 2026.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/hindi/editorial/1qo5mz/article71299993.ece/alternates/LANDSCAPE_1200/Screenshot%202026-08-03%20110307.png"
+    },
+    {
+      "title": "Myanmar's Aung San Suu Kyi meets Red Cross official, government says",
+      "url": "https://www.reuters.com/world/asia-pacific/myanmars-aung-san-suu-kyi-meets-red-cross-official-government-says-2026-08-03/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Mon, 03 Aug 2026 04:11:00 GMT",
+      "summary": "Reuters: Myanmar's Aung San Suu Kyi meets Red Cross official, government says.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/ZVRFXRTDMRNCRBD7EE6OXZ52FI.jpg?auth=d71cbce35e3ec167a23e10fa3c44fc7da88973f833b49b6eae7b4f5626b27f47&width=1920&quality=80"
+    },
+    {
+      "title": "Indian stocks rise on Brent dip, shock-free earnings season",
+      "url": "https://www.reuters.com/world/india/indian-shares-likely-open-higher-oil-prices-slump-2026-08-03/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Mon, 03 Aug 2026 02:39:00 GMT",
+      "summary": "Reuters: Indian stocks rise on Brent dip, shock-free earnings season.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/QRMVBZN2O5MOLDRXHU4MA22ODU.jpg?auth=1bf94333183a24269a7182966703e8f105bc85a9268868e9c07d0753d1890f10&width=1080&quality=80"
+    },
+    {
+      "title": "Oil slumps on hopes of Iran deal, yen firms up after intervention",
+      "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-03/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Mon, 03 Aug 2026 01:03:00 GMT",
+      "summary": "Reuters: Oil slumps on hopes of Iran deal, yen firms up after intervention.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/XPAR6IDKMBIATOM7A5J7OJ3SOU.jpg?auth=c4351e9c3b773d8e48d4a1c8fddca3fbdb1addb23e6b8950189d0a1efe0d8375&width=1920&quality=80"
+    },
+    {
+      "title": "Bessent ready to repeat joint yen intervention, urges bigger Fed backstop",
+      "url": "https://www.reuters.com/world/asia-pacific/bessent-ready-repeat-joint-yen-intervention-urges-bigger-fed-backstop-2026-08-03/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Mon, 03 Aug 2026 00:40:00 GMT",
+      "summary": "Reuters: Bessent ready to repeat joint yen intervention, urges bigger Fed backstop.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/VEJHAPVPOJPEBK74CJOHDA5NDQ.jpg?auth=a34079033b068dec5ca33a4c9f92b8bc763056234d42769fac8f8f68bd5dfd62&width=1920&quality=80"
+    },
+    {
+      "title": "Gold firms as oil prices slump after Trump holds off on Iran attack",
+      "url": "https://www.reuters.com/world/india/gold-gains-oil-slumps-after-trump-holds-off-iran-attack-2026-08-03/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Mon, 03 Aug 2026 00:41:00 GMT",
+      "summary": "Reuters: Gold firms as oil prices slump after Trump holds off on Iran attack.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/GV5E2ZCNLBMD5AW2PI6CTIY4HY.jpg?auth=7e2d7f40543ba6ffc7491a644a3adcd8387b6e7f31be6e7d50fb6cb341594d44&width=1920&quality=80"
+    }
+  ],
+  "markets": [
+    {
+      "id": "sp-500",
+      "label": "S&P 500",
+      "region": "US",
+      "symbol": "^GSPC",
+      "value": 7489.72,
+      "previousClose": 7437.6296680000005,
+      "change": 52.090332,
+      "percentChange": 0.70036197,
+      "direction": "up",
+      "sessionDate": "2026-08-03"
+    },
+    {
+      "id": "nasdaq-composite",
+      "label": "NASDAQ Composite",
+      "region": "US",
+      "symbol": "^IXIC",
+      "value": 25373.85,
+      "previousClose": 25122.1957,
+      "change": 251.6543,
+      "percentChange": 1.0017208,
+      "direction": "up",
+      "sessionDate": "2026-08-03"
+    },
+    {
+      "id": "euronext-100",
+      "label": "Euronext 100 Index",
+      "region": "Europe",
+      "symbol": "^N100",
+      "value": 1925.79,
+      "previousClose": 1921.6399756,
+      "change": 4.1500244,
+      "percentChange": 0.21596263,
+      "direction": "up",
+      "sessionDate": "2026-08-03"
+    },
+    {
+      "id": "moex",
+      "label": "Public Joint-Stock Company Moscow Exchange MICEX-RTS",
+      "region": "Europe",
+      "symbol": "MOEX.ME",
+      "value": 85.2,
+      "previousClose": 85.31000061,
+      "change": -0.11000061,
+      "percentChange": -0.12894222,
+      "direction": "down",
+      "sessionDate": "2026-08-03"
+    },
+    {
+      "id": "hang-seng",
+      "label": "HANG SENG INDEX",
+      "region": "Asia",
+      "symbol": "^HSI",
+      "value": 25871.25,
+      "previousClose": 25884.4296875,
+      "change": -13.1796875,
+      "percentChange": -0.05090841,
+      "direction": "down",
+      "sessionDate": "2026-08-03"
+    },
+    {
+      "id": "nikkei-225",
+      "label": "Nikkei 225",
+      "region": "Asia",
+      "symbol": "^N225",
+      "value": 63615.59,
+      "previousClose": 64362.0197,
+      "change": -746.4297,
+      "percentChange": -1.1598711,
+      "direction": "down",
+      "sessionDate": "2026-08-03"
+    },
+    {
+      "id": "sensex",
+      "label": "S&P BSE SENSEX",
+      "region": "India",
+      "symbol": "^BSESN",
+      "value": 78721.88,
+      "previousClose": 78094.63780000001,
+      "change": 627.2422,
+      "percentChange": 0.80318606,
+      "direction": "up",
+      "sessionDate": "2026-08-03"
+    }
+  ],
+  "hackerNews": [
+    {
+      "title": "Qwen3.8-Max: A New Bar for Coding and Cowork",
+      "url": "https://qwen.ai/blog?id=qwen3.8",
+      "publishedAt": "2026-08-03T02:16:09.000Z",
+      "summary": "Qwen Studio offers comprehensive functionality spanning chatbot, image and video understanding, image generation, document processing, web search integration, tool utilization, and artifacts.",
+      "thumbnailUrl": "https://img.alicdn.com/imgextra/i4/O1CN01OXv3EM1FN8t9W4P79_!!6000000000474-2-tps-80-80.png"
+    },
+    {
+      "title": "OpenAI's super PAC is funding AI-generated news site attacking industry critics",
+      "url": "https://www.modelrepublic.org/articles/the-reporters-at-this-news-site-are-ai-bots.-openai%E2%80%99s-super-pac-appears-to-be-using-it-to-advance-its-political-agenda",
+      "publishedAt": "2026-08-03T02:30:30.000Z",
+      "summary": "An interview request from a bot posing as a reporter revealed an AI-generated news site with articles attacking AI industry critics. For the second time this month, we found links to Targeted Victory, the firm at the center of OpenAI",
+      "thumbnailUrl": "https://framerusercontent.com/images/654omgMZMMZgaGluHRcTrUOXN90.jpg?width=1200&height=630"
+    },
+    {
+      "title": "Show HN: Isopolis – Isometric pixel map of SF",
+      "url": "https://sf.isopolis.city/",
+      "publishedAt": "2026-08-03T00:46:38.000Z",
+      "summary": "San Francisco as one giant isometric pixel painting. Pan the city, open the tours, send a postcard.",
+      "thumbnailUrl": "https://sf.isopolis.city/og.jpg"
+    },
+    {
+      "title": "Karpathy’s Pelican",
+      "url": "https://twitter.com/karpathy/status/2083749667410727319",
+      "publishedAt": "2026-08-02T04:05:56.000Z",
+      "summary": "We're starting to leave the territory where you'd test an LLM by e.g. \"create an svg of pelican on a bicycle\". As one idea to generalize it, I was interested what Opus 5 would do if I gave it the first paragraph of the Lord of the Rings, a 1M token budget (~$10) and asked for",
+      "thumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2083744791876292608/img/tWEKnM_bdE_nlfYD.jpg"
+    },
+    {
+      "title": "CP/M-386 – CP/M for 386 protected mode, derived from CP/M‑68K",
+      "url": "https://github.com/johnsonjh/cpm386",
+      "publishedAt": "2026-08-03T00:38:10.000Z",
+      "summary": "CP/M-386: CP/M for 386 protected mode, derived from CP/M-68K - johnsonjh/cpm386",
+      "thumbnailUrl": "https://opengraph.githubassets.com/fe3acb330bd0ba588aeb99e345ac284c6e117439d8d6b900888a41ef95dbf7f6/johnsonjh/cpm386"
+    },
+    {
+      "title": "Show HN: ssh ssh.place",
+      "url": "https://ssh.place",
+      "publishedAt": "2026-08-03T00:23:21.000Z",
+      "summary": "A shared canvas you draw on over SSH. No account, no install. Just run ssh ssh.place",
+      "thumbnailUrl": "https://ssh.place/canvas.png"
+    },
+    {
+      "title": "Show HN: Kakehashi – Experimental userspace to run macOS binaries on Linux ARM",
+      "url": "https://github.com/wie-project/kakehashi",
+      "publishedAt": "2026-08-02T16:26:40.000Z",
+      "summary": "Userspace macOS translation layer for Linux ARM64. Contribute to wie-project/kakehashi development by creating an account on GitHub.",
+      "thumbnailUrl": "https://opengraph.githubassets.com/ad60370c8e699e6bfe965b383f8a27eef5f0b75346a9ff047a111b028ce8dddf/wie-project/kakehashi"
+    },
+    {
+      "title": "AI migrated legacy COBOL programs to Java, bugs included",
+      "url": "https://arxiv.org/abs/2607.28271",
+      "publishedAt": "2026-08-03T03:06:12.000Z",
+      "summary": "Migration of legacy COBOL programs to Java requires extensive testing to ensure correct functionality. This effort is often complicated by the lack of test data and the difficulty of validating all corner cases. In this paper we propose a novel agentic test-synthesis method, the &#34;Locksmith Loop,&#34; which is initiated by preparing two runtime environments: the COBOL source and the generated Java target are each instrumented with mocks and executed off-mainframe on commodity hardware, then an iterative agentic loop performs Witness Search over input mocks to penetrate program branches, followed by parity-preserving mutations. When routing boundaries are reached, an analyzer identifies a Locked Paragraph: a condition preventing deeper exploration. Across three COBOL-Java case studies, spanning two open-source programs and one internal production-like COBOL program and ranging from 430 to 4,114 source lines, Locksmith consistently improved coverage beyond input-search plateaus, reaching nearly complete coverage on the two open-source programs and 91.90% branch coverage on the internal production-like COBOL program. The generated Java matched the COBOL reference under deterministic parity checks in all accepted test cases. Through these findings we demonstrate, to the best of our knowledge, a novel approach for validating agentic coding output using a deterministic oracle.",
+      "thumbnailUrl": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    },
+    {
+      "title": "SwiftUI After 7 Years",
+      "url": "https://ykvm.com/2026/07/swiftui-a-story-of-mediocrity/",
+      "publishedAt": "2026-08-02T18:59:05.000Z",
+      "summary": "ykvm.com: SwiftUI After 7 Years."
+    },
+    {
+      "title": "The myth of Snow Leopard",
+      "url": "https://www.rubenerd.au/the-myth-of-snow-leopard/",
+      "publishedAt": "2026-08-02T18:21:45.000Z",
+      "summary": "It was a hot mess, but the myth is useful today.",
+      "thumbnailUrl": "https://www.rubenerd.au/files/2026/snow-leopard@2x.jpg"
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "TimeOS 2.0",
+      "tagline": "Work your tasks. Bill your clients with confidence.",
+      "url": "https://www.producthunt.com/products/timeos-ultimate-task-manager-for-pro",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-08-02T22:37:05-07:00"
+    },
+    {
+      "name": "Bolcho AI",
+      "tagline": "Build Voice AI agents that actually speak India",
+      "url": "https://www.producthunt.com/products/bolcho-ai",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-08-02T22:38:56-07:00"
+    },
+    {
+      "name": "Zen Whisper",
+      "tagline": "On-device Mac dictation that types into any app",
+      "url": "https://www.producthunt.com/products/zen-whisper",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-08-02T22:34:45-07:00"
+    },
+    {
+      "name": "Zinley",
+      "tagline": "Your Personal AI Representative for calls, email, and tasks",
+      "url": "https://www.producthunt.com/products/zinley",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-08-02T22:38:28-07:00"
+    },
+    {
+      "name": "YourSitee",
+      "tagline": "Make your bio link worth clicking",
+      "url": "https://www.producthunt.com/products/yoursitee",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-08-02T22:36:28-07:00"
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "News and markets",
+      "sentences": [
+        "Global headlines: Spain pushes migrants back to Morocco as suspicions swirl over mass border breach (The crisis in Ceuta, on the African coast, instantly became a touchstone in the global migrant debate as suspicions swirled that the viral incident was orchestrated); Zelensky says Ukraine has ‘no interceptors’ as ballistic missiles hit Kyiv (Ukrainian President Volodymyr Zelensky had appealed for American air-defense missiles during a White House meeting on Tuesday); and U.S. general warns Pentagon he lacks sufficient forces to protect Israel (A shortage of Navy destroyers, used to defend against Iranian ballistic missile attacks, will force the head of U.S. European Command to prioritize the U.S. homeland instead, officials said).",
+        "Markets leaned higher, with 4 of 7 tracked indexes up; Nikkei 225 down 1.16% was the largest move.",
+        "Benchmarks tracked: S&P 500, NASDAQ Composite, Euronext 100 Index, and Public Joint-Stock Company Moscow Exchange MICEX-RTS plus 3 more indexes."
+      ]
+    },
+    {
+      "title": "Hacker News and Product Hunt",
+      "sentences": [
+        "Hacker News: Qwen3.8-Max: A New Bar for Coding and Cowork (Qwen Studio offers comprehensive functionality spanning chatbot, image and video understanding, image generation, document processing, web...); OpenAI's super PAC is funding AI-generated news site attacking industry critics (An interview request from a bot posing as a reporter revealed an AI-generated news site with articles attacking AI industry critics. For...); and Show HN: Isopolis – Isometric pixel map of SF (San Francisco as one giant isometric pixel painting. Pan the city, open the tours, send a postcard).",
+        "Product Hunt features TimeOS 2.0 (Work your tasks. Bill your clients with confidence), Bolcho AI (Build Voice AI agents that actually speak India), and Zen Whisper (On-device Mac dictation that types into any app)."
+      ]
+    }
+  ],
+  "sourceNotes": {
+    "generatedAt": "2026-08-03T05:42:46.128Z",
+    "timeZone": "Asia/Kolkata",
+    "successfulSources": [
+      "Washington Post",
+      "Al Jazeera",
+      "NPR",
+      "China Daily",
+      "The Hindu",
+      "Reuters"
+    ],
+    "marketSessionLabel": "Latest market sessions as of 2026-08-03",
+    "warnings": []
+  }
+}
