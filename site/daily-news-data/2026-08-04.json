@@ -1,0 +1,499 @@
+{
+  "headlines": [
+    {
+      "title": "Boris Nadezhdin, anti-war candidate in Russia, flees to France",
+      "url": "https://www.washingtonpost.com/world/2026/08/03/boris-nadezhdin-anti-war-candidate-russia-flees-france/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Mon, 03 Aug 2026 13:22:15 +0000",
+      "summary": "Nadezhdin was prohibited from running in parliamentary elections in September. He posted a video from Paris, saying, \"I'm alive and free.\"",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/MGVGNNEB24I7DCQWHE55AM2AWA_size-normalized.jpg&w=1440"
+    },
+    {
+      "title": "Iran rejects Trump’s claim that talks will restart, adding to weekend of whiplash",
+      "url": "https://www.washingtonpost.com/world/2026/08/02/trump-cancels-iran-attack-citing-progress-deal-tehran-israel-alert/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "2026-08-02",
+      "summary": "The U.S. president said late Sunday that he had called off “the biggest attack since WWII” so that talks could resume. Iran said Monday that no talks were planned.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/6LH6U6I3OO2S26OCT57IECAMGU.JPG&w=860&h=573"
+    },
+    {
+      "title": "Labour overtakes Trump-aligned Reform UK in national polls",
+      "url": "https://www.washingtonpost.com/world/2026/08/03/labour-overtakes-reform-uk-national-polls/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "2026-08-03",
+      "summary": "New British Prime Minister Andy Burnham’s Labour Party has pulled ahead of the Trump-aligned, anti-immigrant Reform UK party for the first time in more than a year.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/MGVGNNEB24I7DCQWHE55AM2AWA.jpg&w=300&h=169"
+    },
+    {
+      "title": "Loomer’s Ukraine reversal deepens split in Trump’s ‘America First’ movement",
+      "url": "https://www.washingtonpost.com/politics/2026/08/02/inside-laura-loomer-surprising-turn-ukraine/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "2026-08-02",
+      "summary": "Influential MAGA blogger and former Kyiv critic Laura Loomer expects to visit the president to advocate for the U.S.-Ukraine alliance.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/EXKZPCDQHTHYIWTWDTBEJCZYBY.jpg&w=300"
+    },
+    {
+      "title": "As Chipotle opens in Mexico, one skeptic says ‘It’s gringo food for gringos’",
+      "url": "https://www.washingtonpost.com/world/2026/08/02/daring-gamble-chipotle-aims-sell-mexican-food-mexicans/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "2026-08-02",
+      "summary": "The U.S. fast-food chain says it can succeed south of the border, where Taco Bell has tried and failed twice. Some customers are embracing it — as American cuisine.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/XVZ47HU5QZANH222BB42TVQ7R4.jpg&w=300"
+    },
+    {
+      "title": "Colombia’s Petro repeats vote fraud claims days before handing over power",
+      "url": "https://www.aljazeera.com/news/2026/8/4/colombias-petro-repeats-vote-fraud-claims-days-before-handing-over-power",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-08-04",
+      "summary": "Petro accuses programmers of altering vote counts and claims metadata tied to election results was hidden from review.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/08/afp_6a715dba2d12-1785814458.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Salvadoran man dies in ICE custody at New Jersey detention centre",
+      "url": "https://www.aljazeera.com/news/2026/8/4/salvadoran-man-dies-in-ice-custody-at-new-jersey-detention-centre",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-08-04",
+      "summary": "Second Delaney Hall detainee death in eight months prompts calls to close facility, demands for answers.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/08/reuters_6a714be5-1785809893.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Ibrahim Traore: Why Burkina Faso’s popular leader faces a reality test",
+      "url": "https://www.aljazeera.com/news/2026/8/4/ibrahim-traore-why-burkina-fasos-popular-leader-faces-a-reality-test",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-08-04",
+      "summary": "Traore’s sovereignty message has won support across Africa, but his record at home faces scrutiny.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2025/12/AP25357459450133-1767178831.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Board of Peace says no Israeli withdrawal from Gaza before Hamas disarms",
+      "url": "https://www.aljazeera.com/news/2026/8/4/board-of-peace-says-no-israeli-withdrawal-from-gaza-before-hamas-disarms",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-08-04",
+      "summary": "Netanyahu and board director Maldenov meet amid tensions over Gaza disarmament roadmap and recent Israeli attacks.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/08/ap_6a712e23d4fe2-1785802275.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Trump administration sued by 25 states over new tariffs on trading partners",
+      "url": "https://www.aljazeera.com/news/2026/8/4/trump-administration-sued-by-25-states-over-new-tariffs-on-trading-partners",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-08-04",
+      "summary": "The states claim the new levies are a pretext to re-impose tariffs that were ruled illegal by the US Supreme Court.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/08/2025-04-04T234659Z_172622652_RC2XPDA1ZMSG_RTRMADP_3_USA-TRUMP-TARIFFS-1785801347.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "These are some of the last pristine ocean ecosystems. Now, they're losing protections",
+      "url": "https://www.npr.org/2026/08/03/g-s1-136055/pacific-ocean-protections-removed",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Mon, 03 Aug 2026 18:53:15 -0400",
+      "summary": "The largest conservation areas in the U.S. are in the Pacific Ocean, where tiny islands are epicenters of biodiversity. The Trump administration is now opening their waters to commercial fishing, sparking a battle over some of the country's most pristine ecosystems.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1600x1067+0+0/resize/1600x1067!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F38%2Fe2%2F777cc6614a9fb5828fa8aaac0fb3%2Fpalmyra-1.jpg"
+    },
+    {
+      "title": "House Ethics panel recommends censure for Chuck Edwards after harassment allegations",
+      "url": "https://www.npr.org/2026/08/03/nx-s1-5918341/chuck-edwards-ethics-report",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Mon, 03 Aug 2026 17:17:49 -0400",
+      "summary": "After a months-long investigation, the ethics committee recommended censure for Edwards because of \"persistent unprofessional and inappropriate conduct towards two young female staffers.\"",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5000x3333+0+0/resize/5000x3333!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F6a%2F0f%2F89771f89421b85461f804d163270%2Fgettyimages-2275355653.jpg"
+    },
+    {
+      "title": "Ripple effects: Three people have Reflecting Pool charges dropped after Hearn request",
+      "url": "https://www.npr.org/2026/08/03/nx-s1-5918001/reflecting-pool-vandalism-charges-dropped",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Mon, 03 Aug 2026 15:33:05 -0400",
+      "summary": "Federal prosecutors moved to drop their case against David Hearn, blaming Reflecting Pool damage on a \"botched installation\" rather than vandalism. That has implications for others who were charged.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8147x5434+0+0/resize/8147x5434!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F45%2Fe8%2F523b626a48a5bd6a5a7a524f65aa%2Fgettyimages-2287196266.jpg"
+    },
+    {
+      "title": "With U.S. doors shutting, Cubans turn to Brazil for asylum",
+      "url": "https://www.npr.org/2026/08/03/nx-s1-5910714/brazil-cuba-migration",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Mon, 03 Aug 2026 15:05:41 -0400",
+      "summary": "For years, many Cubans hoping to leave the island looked to the United States. Now, with legal pathways largely closed, a growing number are heading to Brazil instead.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8147x5431+0+0/resize/8147x5431!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F0d%2F1a%2F5c07c5324df6961bc7b459fd4c69%2Fap26160624082727.jpg"
+    },
+    {
+      "title": "Photos: Wildfires in Spokane lead to thousands of evacuations",
+      "url": "https://www.npr.org/sections/the-picture-show/2026/08/03/g-s1-137003/photos-wildfires-in-spokane-lead-to-thousands-of-evacuations",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Mon, 03 Aug 2026 14:45:00 -0400",
+      "summary": "Wildfires in Spokane have destroyed hundreds of homes and led to evacuation orders for 60,000 people.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5472x3648+0+0/resize/5472x3648!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F67%2Ffb%2F3017a16c4a0e9e157ca54e636edc%2Fap26215030761697.jpg"
+    },
+    {
+      "title": "Collision of helicopters leaves 2 dead in Greece",
+      "url": "https://www.chinadaily.com.cn/a/202608/04/WS6a71444fa310986e2b468d95.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-08-04",
+      "summary": "AGIOS KONSTANTINOS — Five water-dropping planes and another five helicopters took off at first light on Monday to help hundreds of firefighters battling a major wildfire west of Athens, Greece, a day after a midair collision between two firefighting helicopters killed two crew members.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202608/04/6a71444fa310986e101ad62c.png"
+    },
+    {
+      "title": "UK's AstraZeneca eyeing $400b merger, report says",
+      "url": "https://www.chinadaily.com.cn/a/202608/04/WS6a71414da310986e2b468d6b.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-08-04",
+      "summary": "The United Kingdom's second-most valuable listed company, pharmaceutical firm AstraZeneca, has been revealed to have been holding talks for some time with United States-based rival Bristol Myers Squibb, or BMS, about a merger, which could result in a global pharma giant worth nearly $400 billion.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202608/04/6a71414da310986e101ad59b.png"
+    },
+    {
+      "title": "Iran urges US to uphold MoU",
+      "url": "https://www.chinadaily.com.cn/a/202608/04/WS6a713f28a310986e2b468d4a.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-08-04",
+      "summary": "Iranian President Masoud Pezeshkian urged Washington to remain committed to the memorandum of understanding, or MoU, signed with Iran in June, as US President Donald Trump claimed that talks would resume on Monday after he held off fresh strikes against Tehran.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202608/04/6a713f28a310986e101ad4e4.png"
+    },
+    {
+      "title": "Israel voices concern over Hamas disarmament deal",
+      "url": "https://www.chinadaily.com.cn/a/202608/04/WS6a714055a310986e2b468d57.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-08-04",
+      "summary": "TEL AVIV/GAZA — Israel has shared \"serious security concerns\" with the White House regarding the proposed disarmament deal with Hamas, an Israeli official said as Israeli strikes overnight and into Sunday evening killed at least 18 people, including children, in Gaza.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202608/04/6a714055a310986e101ad54a.png"
+    },
+    {
+      "title": "Tariffs risk deepening trade fragmentation across globe",
+      "url": "https://www.chinadaily.com.cn/a/202608/04/WS6a714910a310986e2b468dc3.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-08-04",
+      "summary": "As a new wave of sweeping US tariffs took effect, experts warn that Washington's tariff policy is becoming increasingly institutionalized, a shift that risks deepening the fragmentation of global trade and causing lasting damage to both the US and world economies.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202608/04/6a714910a310986e101ad6fd.jpeg"
+    },
+    {
+      "title": "Several WhatsApp users say their accounts 'put under review'",
+      "url": "https://www.thehindu.com/news/national/several-whatsapp-users-say-their-accounts-put-under-review/article71302768.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-08-03T21:28:34.000Z",
+      "summary": "WhatsApp users report accounts under review for 24 hours, causing widespread disruption and frustration among affected individuals.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/2z0g3x/article71302852.ece/alternates/LANDSCAPE_1200/2026-06-08T101838Z_1730250172_RC2VPGAD0PRR_RTRMADP_3_META-PLATFORMS-WHATSAPP-SPYWARE.JPG"
+    },
+    {
+      "title": "Lok Sabha passes Supreme Court judges Bill without debate as Opposition protests continue",
+      "url": "https://www.thehindu.com/news/national/bill-to-increase-supreme-court-judges-passed-by-lok-sabha-without-debate-house-adjourned-for-day/article71300807.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-08-03T11:11:01.000Z",
+      "summary": "Lok Sabha passes Supreme Court judges' bill without debate amid opposition protests over NEET leaks and Ram temple donations.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/99hsgf/article71300819.ece/alternates/LANDSCAPE_1200/20260730211L.jpg"
+    },
+    {
+      "title": "Amid Opposition protests, Rajya Sabha passes MSME Bill",
+      "url": "https://www.thehindu.com/news/national/amid-opposition-protests-rajya-sabha-passes-msme-bill/article71302208.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-08-03T17:00:02.000Z",
+      "summary": "Rajya Sabha passes the MSME Bill amid Opposition protests, establishing a digital platform for voluntary registration of enterprises.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/2722kw/article71302645.ece/alternates/LANDSCAPE_1200/20260803428L.jpg"
+    },
+    {
+      "title": "Pappu Yadav’s ‘seer’ skit puts SP in a bind; party leader terms it ‘incorrect act’",
+      "url": "https://www.thehindu.com/news/national/pappu-yadavs-seer-skit-puts-sp-in-a-bind-party-leader-terms-it-incorrect-act/article71301340.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-08-03T15:13:30.000Z",
+      "summary": "Pappu Yadav's controversial skit in Parliament draws criticism, causing tension within the Samajwadi Party amid ongoing Ram Temple donation protests.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/tzl8s6/article71302160.ece/alternates/LANDSCAPE_1200/PTI08_02_2026_000383B.jpg"
+    },
+    {
+      "title": "Parliament Monsoon Session Day 12 LIVE: FM Sitharaman to introduce Taxation and Other Laws (Amendment) Bill",
+      "url": "https://www.thehindu.com/news/national/parliament-monsoon-session-lok-sabha-rajya-sabha-day-12-live-updates-taxation-and-other-laws-amendment-bill-bjp-congress/article71303822.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-08-04T04:40:13.000Z",
+      "summary": "Parliament Monsoon Session 2026 | Follow The Hindu's LIVE updates for the latest proceedings in the Lok Sabha and the Rajya Sabha on August 4, 2026.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/vi8ta9/article71303824.ece/alternates/LANDSCAPE_1200/20260803381L.jpg"
+    },
+    {
+      "title": "Status of US-Iran talks uncertain as ship struck in Hormuz",
+      "url": "https://www.reuters.com/world/middle-east/status-us-iran-talks-uncertain-ship-struck-hormuz-2026-08-04/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Tue, 04 Aug 2026 03:41:00 GMT",
+      "summary": "Reuters: Status of US-Iran talks uncertain as ship struck in Hormuz.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/WARRRXME2BN2HFFH73Q3NXTHZU.jpg?auth=5edd29046b82ff8e6b540f5d674527fb4c7873d08e3bf4023a226dc768a7b60b&width=1200&quality=80"
+    },
+    {
+      "title": "Gold holds ground with Middle East turmoil, US jobs data in focus",
+      "url": "https://www.reuters.com/world/india/gold-steady-with-middle-east-turmoil-us-jobs-data-focus-2026-08-04/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Tue, 04 Aug 2026 01:05:00 GMT",
+      "summary": "Reuters: Gold holds ground with Middle East turmoil, US jobs data in focus.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/RVYSUE2ZXZIKHHC5672OTFQT2I.jpg?auth=2ea08ffb6bf5f47c8a510bf734fd03b77da2dd77fddd46cafdfb740b8c7890e5&width=1080&quality=80"
+    },
+    {
+      "title": "US State Department to close consulates in Canada, Japan and Indonesia, sources say",
+      "url": "https://www.reuters.com/world/us/us-state-department-close-consulates-canada-japan-indonesia-sources-say-2026-08-03/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Mon, 03 Aug 2026 22:36:41 GMT",
+      "summary": "Reuters: US State Department to close consulates in Canada, Japan and Indonesia, sources say.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/YXMW6JUZYRPVREFARNH4NTVAQQ.jpg?auth=bd48f60bcc0f31f164b2e748870c631895dbe584f5cfac0420ff6746b4158759&width=1920&quality=80"
+    },
+    {
+      "title": "Voters prefer Democrats over Republicans on economy for first time in a decade, Reuters/Ipsos poll finds",
+      "url": "https://www.reuters.com/world/us/democrats-lead-republicans-economy-trump-approval-falls-reutersipsos-poll-finds-2026-08-03/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Mon, 03 Aug 2026 20:18:00 GMT",
+      "summary": "Reuters: Voters prefer Democrats over Republicans on economy for first time in a decade, Reuters/Ipsos poll finds.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/L32PSEU52NIBTJLTNFGDWGJFNY.jpg?auth=ca40798b41d1612dec9135a3798ab68227f8e9c48cc26b4a6a43bad6ff34b67c&width=1080&quality=80"
+    },
+    {
+      "title": "Morocco says Spain should have foreseen migration impact of court ruling",
+      "url": "https://www.reuters.com/world/morocco-says-spain-should-have-foreseen-migration-impact-court-ruling-2026-08-03/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Mon, 03 Aug 2026 21:38:01 GMT",
+      "summary": "Reuters: Morocco says Spain should have foreseen migration impact of court ruling.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/GZ7FRTYKZJKGVKGOHRK7L5WHOA.jpg?auth=6dc8c2956f706c51077d5ab09564a5af361d4cfde47c89ce1a6f12af2d7c7147&width=1080&quality=80"
+    }
+  ],
+  "markets": [
+    {
+      "id": "sp-500",
+      "label": "S&P 500",
+      "region": "US",
+      "symbol": "^GSPC",
+      "value": 7600.5,
+      "previousClose": 7489.720215,
+      "change": 110.779785,
+      "percentChange": 1.479091,
+      "direction": "up",
+      "sessionDate": "2026-08-04"
+    },
+    {
+      "id": "nasdaq-composite",
+      "label": "NASDAQ Composite",
+      "region": "US",
+      "symbol": "^IXIC",
+      "value": 25913.9,
+      "previousClose": 25373.857030000003,
+      "change": 540.04297,
+      "percentChange": 2.1283443,
+      "direction": "up",
+      "sessionDate": "2026-08-04"
+    },
+    {
+      "id": "euronext-100",
+      "label": "Euronext 100 Index",
+      "region": "Europe",
+      "symbol": "^N100",
+      "value": 1939.23,
+      "previousClose": 1925.790059,
+      "change": 13.439941,
+      "percentChange": 0.69789237,
+      "direction": "up",
+      "sessionDate": "2026-08-04"
+    },
+    {
+      "id": "moex",
+      "label": "Public Joint-Stock Company Moscow Exchange MICEX-RTS",
+      "region": "Europe",
+      "symbol": "MOEX.ME",
+      "value": 85.2,
+      "previousClose": 85.31000061,
+      "change": -0.11000061,
+      "percentChange": -0.12894222,
+      "direction": "down",
+      "sessionDate": "2026-08-04"
+    },
+    {
+      "id": "hang-seng",
+      "label": "HANG SENG INDEX",
+      "region": "Asia",
+      "symbol": "^HSI",
+      "value": 25882.43,
+      "previousClose": 26009.400700000002,
+      "change": -126.9707,
+      "percentChange": -0.48817235,
+      "direction": "down",
+      "sessionDate": "2026-08-04"
+    },
+    {
+      "id": "nikkei-225",
+      "label": "Nikkei 225",
+      "region": "Asia",
+      "symbol": "^N225",
+      "value": 63662.95,
+      "previousClose": 63754.89922,
+      "change": -91.94922,
+      "percentChange": -0.14422299,
+      "direction": "down",
+      "sessionDate": "2026-08-04"
+    },
+    {
+      "id": "sensex",
+      "label": "S&P BSE SENSEX",
+      "region": "India",
+      "symbol": "^BSESN",
+      "value": 78713.14,
+      "previousClose": 78639.030625,
+      "change": 74.109375,
+      "percentChange": 0.09424115,
+      "direction": "up",
+      "sessionDate": "2026-08-04"
+    }
+  ],
+  "hackerNews": [
+    {
+      "title": "LLMs reward expertise",
+      "url": "https://www.seangoedecke.com/llms-reward-expertise/",
+      "publishedAt": "2026-08-03T21:13:53.000Z",
+      "summary": "In the 2010s, if you had technical gaps (say, you couldn’t write CSS), you had to either rely on a skilled colleague or just hope that the answer to your exact problem was out there on the internet. Today, everyone can write sort-of-okay CSS by delegating the task to an LLM. LLMs make everybody into a generalist.",
+      "thumbnailUrl": "https://www.seangoedecke.com/og-image.jpg"
+    },
+    {
+      "title": "Show HN: Run an 80B Qwen in 4.3 GB of RAM on a Mac, and a 35B on an iPhone",
+      "url": "https://github.com/leonickson1/Swiftlet",
+      "publishedAt": "2026-08-03T16:54:15.000Z",
+      "summary": "Contribute to leonickson1/Swiftlet development by creating an account on GitHub.",
+      "thumbnailUrl": "https://opengraph.githubassets.com/4a624b0f3b9779dda990ed42ce019693f1dd8150660950c089c82bf1f3e59565/leonickson1/Swiftlet"
+    },
+    {
+      "title": "Ten advances in mathematics and theoretical computer science",
+      "url": "https://openai.com/index/ten-advances-in-mathematics/",
+      "publishedAt": "2026-08-03T16:27:12.000Z",
+      "summary": "OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity.",
+      "thumbnailUrl": "https://images.ctfassets.net/kftzwdyauwt9/5RUlCTeEvzWYd2DDpdcNgh/f38e144bf6f5911074b1939c1528ed2b/Frame__4_.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "title": "Devtools must be open source",
+      "url": "https://blog.exe.dev/devtools-must-be-open-source",
+      "publishedAt": "2026-08-03T14:15:47.000Z",
+      "summary": "The age of personalized software is here.",
+      "thumbnailUrl": "https://blog.exe.dev/static/og-card.png"
+    },
+    {
+      "title": "Smaller, faster, safer: running Kimi and GLM at scale",
+      "url": "https://blog.cloudflare.com/smaller-faster-safer-models/",
+      "publishedAt": "2026-08-03T17:08:46.000Z",
+      "summary": "Serving frontier models like Kimi and GLM means fighting for GPU memory. Here's how we quantize KV caches, compress model weights, and add integrity checks to serve them faster, cheaper, and safely.",
+      "thumbnailUrl": "https://blog.cloudflare.com/_emdash/api/media/file/01KZ1Q04GM9SA4QGPGPKWJQSJ6.png"
+    },
+    {
+      "title": "There Will Come Soft Rains (1950) [pdf]",
+      "url": "https://users.wpi.edu/~zrbutzke/Docs/BradburyStories(1).pdf",
+      "publishedAt": "2026-08-03T23:24:53.000Z",
+      "summary": "users.wpi.edu: There Will Come Soft Rains (1950) [pdf].",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "Prevent cognitive debt by manually retyping LLM-generated code",
+      "url": "https://ankursethi.com/blog/prevent-cognitive-debt-by-manually-retyping-llm-generated-code/",
+      "publishedAt": "2026-08-03T09:32:07.000Z",
+      "summary": "Despite what I said in April , I'm still using coding assistants on my personal projects.",
+      "thumbnailUrl": "https://ankursethi.com/static/favicon/favicon.svg"
+    },
+    {
+      "title": "Windows XP 2002 for the Itanium: Unbridled rage",
+      "url": "https://virtuallyfun.com/2026/08/03/windows-xp-2002-for-the-itanium-unbridled-rage/",
+      "publishedAt": "2026-08-03T22:04:49.000Z",
+      "summary": "virtuallyfun.com: Windows XP 2002 for the Itanium: Unbridled rage."
+    },
+    {
+      "title": "MiniMax H3 Day-0 Support in ComfyUI: Open Weights, Native Audio, and 2K Video",
+      "url": "https://blog.comfy.org/p/minimax-h3-day-0-support-in-comfyui",
+      "publishedAt": "2026-08-03T13:34:43.000Z",
+      "summary": "An open-weights omni-modal video model with real stereo sound and 2K output — this powerful model is greatly optimized in ComfyUI and can run locally on a 3060.",
+      "thumbnailUrl": "https://substackcdn.com/image/fetch/$s_!w-S9!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67ff80a9-2436-4749-a553-5f6c8c77e23c_1920x1080.png"
+    },
+    {
+      "title": "Celebrating 45 Years of Kermit with the First New C-Kermit Release in 15 Years",
+      "url": "https://changelog.complete.org/archives/44456-celebrating-45-years-of-kermit-with-the-first-new-c-kermit-release-in-15-years-and-working-with-a-decades-old-c-codebase",
+      "publishedAt": "2026-08-03T17:02:10.000Z",
+      "summary": "Please wait a moment while we ensure the security of your connection.",
+      "thumbnailUrl": "https://changelog.complete.org/.within.website/x/cmd/anubis/static/img/pensive.webp?cacheBuster=1.22.0"
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "Inventory",
+      "tagline": "Search every AI Agent & IDE Conversation",
+      "url": "https://www.producthunt.com/products/inventory",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-08-03T22:09:37-07:00"
+    },
+    {
+      "name": "Appllama",
+      "tagline": "Study 25,000+ screens from top-earning iOS apps",
+      "url": "https://www.producthunt.com/products/appllama",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-08-03T22:08:51-07:00"
+    },
+    {
+      "name": "Ctruh Studio",
+      "tagline": "Create interactive 3D and XR experiences without coding",
+      "url": "https://www.producthunt.com/products/ctruh-studio",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-08-03T22:12:54-07:00"
+    },
+    {
+      "name": "MascotAI",
+      "tagline": "Animated SVG mascot studios for apps that need a personality",
+      "url": "https://www.producthunt.com/products/mascotai",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-08-03T22:08:59-07:00"
+    },
+    {
+      "name": "mpai",
+      "tagline": "Make existing Codex and Claude Code sessions multiplayer",
+      "url": "https://www.producthunt.com/products/mpai",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-08-03T22:09:30-07:00"
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "News and markets",
+      "sentences": [
+        "Global headlines: Boris Nadezhdin, anti-war candidate in Russia, flees to France (Nadezhdin was prohibited from running in parliamentary elections in September. He posted a video from Paris, saying, \"I'm alive and free.\"); Iran rejects Trump’s claim that talks will restart, adding to weekend of whiplash (The U.S. president said late Sunday that he had called off “the biggest attack since WWII” so that talks could resume. Iran said Monday that no talks were planned); and Labour overtakes Trump-aligned Reform UK in national polls (New British Prime Minister Andy Burnham’s Labour Party has pulled ahead of the Trump-aligned, anti-immigrant Reform UK party for the first time in more than a year).",
+        "Markets leaned higher, with 4 of 7 tracked indexes up; NASDAQ Composite up 2.13% was the largest move.",
+        "Benchmarks tracked: S&P 500, NASDAQ Composite, Euronext 100 Index, and Public Joint-Stock Company Moscow Exchange MICEX-RTS plus 3 more indexes."
+      ]
+    },
+    {
+      "title": "Hacker News and Product Hunt",
+      "sentences": [
+        "Hacker News: LLMs reward expertise (In the 2010s, if you had technical gaps (say, you couldn’t write CSS), you had to either rely on a skilled colleague or just hope that the...); Show HN: Run an 80B Qwen in 4.3 GB of RAM on a Mac, and a 35B on an iPhone (Contribute to leonickson1/Swiftlet development by creating an account on GitHub); and Ten advances in mathematics and theoretical computer science (OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry,...).",
+        "Product Hunt features Inventory (Search every AI Agent & IDE Conversation), Appllama (Study 25,000+ screens from top-earning iOS apps), and Ctruh Studio (Create interactive 3D and XR experiences without coding)."
+      ]
+    }
+  ],
+  "sourceNotes": {
+    "generatedAt": "2026-08-04T05:15:48.683Z",
+    "timeZone": "Asia/Kolkata",
+    "successfulSources": [
+      "Washington Post",
+      "Al Jazeera",
+      "NPR",
+      "China Daily",
+      "The Hindu",
+      "Reuters"
+    ],
+    "marketSessionLabel": "Latest market sessions as of 2026-08-04",
+    "warnings": []
+  }
+}
