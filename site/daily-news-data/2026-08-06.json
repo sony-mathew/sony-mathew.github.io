@@ -1,0 +1,500 @@
+{
+  "headlines": [
+    {
+      "title": "Ukraine fails to halt Russian barrage as Zelensky blames partners for ‘horrific casualties’",
+      "url": "https://www.washingtonpost.com/world/2026/08/05/ukraine-fails-stop-russian-missile-barrage-after-zelensky-says-interceptors-gone/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Wed, 05 Aug 2026 18:13:50 +0000",
+      "summary": "U.S.-made systems are Kyiv’s only means to shoot down ballistic missiles, and Ukraine says it has run out of interceptors. Seventeen Ukrainians died overnight.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/VMJMHBJIV63BE7R67BGXHVCJF4.jpg&w=1440"
+    },
+    {
+      "title": "Trump administration cancels Brazilian ambassador’s visa in tit-for-tat",
+      "url": "https://www.washingtonpost.com/national-security/2026/08/04/trump-administration-cancels-brazilian-ambassadors-visa-tit-for-tat/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Wed, 05 Aug 2026 01:01:37 +0000",
+      "summary": "A senior State Department official told reporters in a background briefing that it was a “reciprocal” action because Brazil has not approved President Donald Trump’s nominee as ambassador to Brasilia.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/4T75HWK6QUJCQ3EUQVA4PUCVCA.JPG&w=1440"
+    },
+    {
+      "title": "Trump keeps making threats. The world has stopped flinching.",
+      "url": "https://www.washingtonpost.com/world/2026/08/04/trump-keeps-making-threats-washington-world-have-stopped-flinching/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Tue, 04 Aug 2026 09:00:00 +0000",
+      "summary": "The president’s bombast has ceased to rattle world leaders, who have seen him fenced in by courts, rebuffed by Congress and strung along by Iran.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/6F6SQD3L7EMDE4P2MZW3AVR4KI_size-normalized.jpg&w=1440"
+    },
+    {
+      "title": "TPS for Haitians officially ends, putting thousands out of work and in limbo",
+      "url": "https://www.washingtonpost.com/immigration/2026/08/05/tps-haitians-officially-ends-putting-thousands-out-work-limbo/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "2026-08-05",
+      "summary": "A federal judge allowed the Trump administration to terminate temporary protected status for 350,000 Haitians, meaning they are likely to lose their jobs and be at risk of deportation.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/4T75HWK6QUJCQ3EUQVA4PUCVCA.JPG&w=300&h=169"
+    },
+    {
+      "title": "ICE begins outfitting Haitian immigrants with ankle monitors, attorneys say",
+      "url": "https://www.washingtonpost.com/immigration/2026/08/03/ice-begins-outfitting-haitian-immigrants-with-ankle-monitors-attorneys-say/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "2026-08-03",
+      "summary": "Haitian immigrants in Ohio with temporary protected status are being called to ICE offices for check-ins after federal officials said their protections had ended.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/LFL5VB7QIJLDNQJ4H4HGCYRTHI.JPG&w=300"
+    },
+    {
+      "title": "How Gambian women are restoring the mangroves protecting Banjul",
+      "url": "https://www.aljazeera.com/news/2026/8/6/how-gambian-women-are-restoring-the-mangroves-protecting-banjul",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-08-06",
+      "summary": "Trees provide a living for the women, who plant and care for them, and shield the island capital from erosion, flooding.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/08/IMG_9613-1785855630.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Colombia minister warns of ‘terrorism’ threat at presidential inauguration",
+      "url": "https://www.aljazeera.com/news/2026/8/6/colombia-minister-warns-of-terrorism-threat-at-presidential-inauguration",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-08-06",
+      "summary": "Presidents of Argentina, Paraguay, Chile and Ecuador, along with Spain’s King Felipe VI, are expected to attend.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/08/afp_6a73dd8fc121-1785978255.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Meta’s AI model follows rivals in revealing hacks of outside systems",
+      "url": "https://www.aljazeera.com/news/2026/8/6/metas-ai-model-follows-rivals-in-revealing-hacks-of-outside-systems",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-08-06",
+      "summary": "Meta joins OpenAI and Anthropic in disclosing AI hacking during cybersecurity testing.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/07/2026-02-18T185549Z_625422236_RC2GOJAFDT1W_RTRMADP_3_SOCIALMEDIA-TRIAL-1783748038.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "FAA says Trump’s Marine One briefly flew too close to passenger jet",
+      "url": "https://www.aljazeera.com/news/2026/8/6/faa-says-trumps-marine-one-briefly-flew-too-close-to-passenger-jet",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-08-06",
+      "summary": "Air traffic controllers had failed to pause commercial flights during Marine One’s departure, sources say.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/08/reuters_6a73c0f2-1785970930.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Trump denies reports of arms shortages; Iran, Oman near deal on Hormuz",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/8/6/iran-war-live-tehran-oman-close-in-on-hormuz-deal-houthis-attack-tankers",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-08-06",
+      "summary": "Iran, Oman agree on shipping routes in the Strait of Hormuz, as Houthis attack Saudi tankers and Israel bombs Lebanon.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/08/AFP__20260804__C3WL3EA__v1__HighRes__IranReligionIslamShiaArbaeen-1785973213.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Ousted Bangladeshi leader vows to return from exile despite facing a death sentence",
+      "url": "https://www.npr.org/2026/08/05/g-s1-137523/ousted-bangladeshi-leader-vows-to-return-from-exile-despite-facing-a-death-sentence",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Wed, 05 Aug 2026 16:43:29 -0400",
+      "summary": "Hasina's speech marked the second anniversary of her ouster. She fled Bangladesh by helicopter following nearly two months of protests in 2024 that left nearly 1,400 people dead, according to the United Nations.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5696x3784+0+0/resize/5696x3784!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F43%2F70%2F97a0284c4f95a85d37c869178815%2Fap25317160029809.jpg"
+    },
+    {
+      "title": "Small Texas law firm set to receive $150M to represent unaccompanied migrant children",
+      "url": "https://www.npr.org/2026/08/05/nx-s1-5922451/150-million-contract-to-represent-migrant-children-awarded-to-trump-texas-law-firm",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Wed, 05 Aug 2026 16:23:02 -0400",
+      "summary": "The firm, Houston-based Burke Law Group has only two attorneys who specialize in immigration and asylum cases. Two of its founders have ties to the Trump administration.",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "Dr. Erica Schwartz confirmed as CDC director, filling a leadership vacuum",
+      "url": "https://www.npr.org/2026/08/05/nx-s1-5920379/cdc-director-confirmed-erica-schwartz",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Wed, 05 Aug 2026 16:00:24 -0400",
+      "summary": "Schwartz takes command of a public health agency that has lost thousands of employees, amid layoffs, resignations and leadership turmoil.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5061x3587+0+0/resize/5061x3587!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F94%2F79%2F039d749d4a7eb1f8ad935afe23ad%2Fgettyimages-2286228683.jpg"
+    },
+    {
+      "title": "How Trump made an estimated $2.2 billion during the first year of his second term",
+      "url": "https://www.npr.org/2026/08/05/nx-s1-5919997/how-trump-made-an-estimated-2-2-billion-during-the-first-year-of-his-second-term",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Wed, 05 Aug 2026 13:41:17 -0400",
+      "summary": "New York Times reporter Eric Lipton discusses his Pulitzer Prize-winning investigations into Trump's conflicts of interest and whether he's exploiting the power of the presidency for self-enrichment.",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "Judge reluctantly dismisses case against Oath Keepers militia group over Jan. 6 riot",
+      "url": "https://www.npr.org/2026/08/05/g-s1-137440/judge-dismisses-lawsuit-oath-keepers",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Wed, 05 Aug 2026 13:14:46 -0400",
+      "summary": "A judge has granted the Justice Department's bid to drop a landmark case against leaders of the Oath Keepers, as former prosecutors warn about the dangers of denying the violence of Jan. 6.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5492x3661+0+0/resize/5492x3661!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F88%2Fbd%2F9ac8cc254cf4ab87e0f49cea4702%2Fgettyimages-2256324057.jpg"
+    },
+    {
+      "title": "Migrant surge exposes EU divide",
+      "url": "https://www.chinadaily.com.cn/a/202608/06/WS6a73de41a310986e2b46933a.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-08-06",
+      "summary": "The recent wave of migrants into Spain's Ceuta has triggered humanitarian and border-control emergency measures by Spain and other European countries, while it has also laid bare a widening rift among European Union member states over migration policy, experts said.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202608/06/6a73de41a310986e101af659.png"
+    },
+    {
+      "title": "Giant panda in Washington celebrates 5th birthday",
+      "url": "https://www.chinadaily.com.cn/a/202608/06/WS6a73e01da310986e2b469363.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-08-06",
+      "summary": "Bao Li, one of a pair of giant pandas at the Smithsonian's National Zoo in Washington, DC, celebrated his fifth birthday on Tuesday with his favorite treat — a fruit-based ice cream cake.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202608/06/6a73e01da310986e101af6ed.png"
+    },
+    {
+      "title": "Greece deploys satellite system to tackle blazes",
+      "url": "https://www.chinadaily.com.cn/a/202608/06/WS6a73e185a310986e2b46938c.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-08-06",
+      "summary": "As wildfires continue to burn across much of Europe, developments happening in Greece could help make future blazes easier to anticipate and manage.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202608/06/6a73e185a310986e101af7b1.jpeg"
+    },
+    {
+      "title": "Pew survey proves solid actions boost China's global favor",
+      "url": "https://www.chinadaily.com.cn/a/202608/05/WS6a718ed7a310986e2b468eb6.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-08-05",
+      "summary": "A Pew Research Center global poll indicates that China is now viewed more favorably than the US in 27 of the 36 countries and regions surveyed. International media observers note the shift reflects China's strong economic resilience, continued commitment to high-standard opening-up, and the rising global popularity of Chinese cultural trends.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202608/05/6a72d10fa310986e101aec1a.png"
+    },
+    {
+      "title": "Hormuz discussions show some progress",
+      "url": "https://www.chinadaily.com.cn/a/202608/06/WS6a73e8dba310986e2b4693f7.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-08-06",
+      "summary": "Discussions between Iran and Oman over reopening the Strait of Hormuz are progressing at the technical and political levels, while Qatar said the priority is to contain the escalation in the region as US President Donald Trump continues his threats.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202608/06/6a73e8dba310986e101af8f8.jpeg"
+    },
+    {
+      "title": "Parliament deadlock for 13th straight day as Opposition protests alleged Ram Temple scam, police action against protesters",
+      "url": "https://www.thehindu.com/news/national/parliament-deadlock-for-13th-straight-day-as-opposition-protests-alleged-ram-temple-scam-police-action-against-protesters/article71309715.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-08-05T14:42:06.000Z",
+      "summary": "Parliament remains in deadlock for 13 days over the Ram Temple scam and police action against protesting Opposition members.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/6h8xpu/article71310187.ece/alternates/LANDSCAPE_1200/20260805466L.jpg"
+    },
+    {
+      "title": "Rajya Sabha clears Bill to increase number of Supreme Court judges",
+      "url": "https://www.thehindu.com/news/national/parliament-clears-bill-to-increase-number-of-judges-in-supreme-court/article71310523.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-08-05T17:08:40.000Z",
+      "summary": "Parliament passes Bill to increase Supreme Court judges from 34 to 37, aiming to reduce case pendency amid opposition concerns.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/gpq5s1/article71310819.ece/alternates/LANDSCAPE_1200/20260805461L.jpg"
+    },
+    {
+      "title": "Learn from senior MPs, stay clear of ‘Delhi intrigues’: PM to new NDA RS MPs",
+      "url": "https://www.thehindu.com/news/national/learn-from-senior-mps-stay-clear-of-delhi-intrigues-pm-to-new-nda-rs-mps/article71309401.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-08-05T14:47:42.000Z",
+      "summary": "PM Modi advises new NDA Rajya Sabha MPs to learn from all parliamentarians and avoid Delhi's political intrigues.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/dyizr5/article71310224.ece/alternates/LANDSCAPE_1200/20260805355L.jpg"
+    },
+    {
+      "title": "House Committee of the Lok Sabha is yet to be reconstituted",
+      "url": "https://www.thehindu.com/news/national/house-committee-of-the-lok-sabha-is-yet-to-be-reconstituted/article71308206.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-08-05T05:30:48.000Z",
+      "summary": "The Lok Sabha's House Committee remains un reconstituted, with administrative duties currently managed by the Lok Sabha secretariat.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/tdwg04/article71308235.ece/alternates/LANDSCAPE_1200/20260804375L.jpg"
+    },
+    {
+      "title": "Having majority no reason for lawmakers to defy party: Supreme Court",
+      "url": "https://www.thehindu.com/news/national/majority-legislators-cannot-overrule-will-of-political-party-supreme-court/article71309794.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-08-05T15:42:53.000Z",
+      "summary": "Supreme Court rules majority legislators cannot override political parties' directives, emphasizing democracy's maturity through ideological constancy.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/gs0fj2/article71310528.ece/alternates/LANDSCAPE_1200/Nearby_Shape-wiGR7FV5KAC.3.jpg.jpg"
+    },
+    {
+      "title": "Asia shares ease on tech pullback, oil stable as Iran talks stay in focus",
+      "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-06/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Thu, 06 Aug 2026 01:29:00 GMT",
+      "summary": "Reuters: Asia shares ease on tech pullback, oil stable as Iran talks stay in focus.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/4WJZSSV3ZFLDPKZ24LXGE2PFWA.jpg?auth=ff90cdae990d786450e06d470fbe4467598993642eb7ec06b10eba5941ef9cd0&height=628&width=1200&quality=80&smart=true"
+    },
+    {
+      "title": "Gold touches seven-week peak on Strait of Hormuz reopening hopes",
+      "url": "https://www.reuters.com/world/india/gold-touches-seven-week-high-strait-hormuz-reopening-hopes-2026-08-06/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Thu, 06 Aug 2026 03:50:01 GMT",
+      "summary": "Reuters: Gold touches seven-week peak on Strait of Hormuz reopening hopes.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/GV5E2ZCNLBMD5AW2PI6CTIY4HY.jpg?auth=7e2d7f40543ba6ffc7491a644a3adcd8387b6e7f31be6e7d50fb6cb341594d44&width=1920&quality=80"
+    },
+    {
+      "title": "Faced with a teleprompter glitch, Canada's Carney mocks Trump",
+      "url": "https://www.reuters.com/world/americas/faced-with-teleprompter-glitch-canadas-carney-mocks-trump-2026-08-05/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Wed, 05 Aug 2026 22:36:20 GMT",
+      "summary": "Reuters: Faced with a teleprompter glitch, Canada's Carney mocks Trump.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/IXBKI7HQLFOHDAJTMYM55VA6KU.jpg?auth=23d24ae8c87497fd63768b9be8bafd5e467dd2c7a471757a060d2bb29af8561e&width=1920&quality=80"
+    },
+    {
+      "title": "EXCLUSIVE: Iran threatens to hit Gulf states if US launches new strikes",
+      "url": "https://www.reuters.com/world/middle-east/iran-threatens-hit-gulf-states-if-us-launches-new-strikes-2026-08-05/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Wed, 05 Aug 2026 21:30:57 GMT",
+      "summary": "Reuters: EXCLUSIVE: Iran threatens to hit Gulf states if US launches new strikes.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/GVKJ4IXYSFL63EYFSUWP6U2BA4.jpg?auth=5388c0932d9bf54ad5147ae1c9df90f3fee10da9e386dd5f91d28b6d602db103&width=1920&quality=80"
+    },
+    {
+      "title": "Trump administration to impose 15% tariff in polysilicon probe meant to counter China",
+      "url": "https://www.reuters.com/world/china/trump-administration-impose-15-tariff-polysilicon-sources-say-2026-08-05/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Wed, 05 Aug 2026 21:04:45 GMT",
+      "summary": "Reuters: Trump administration to impose 15% tariff in polysilicon probe meant to counter China.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/NJYGJP34KBNEPGVIU3WL3DJYA4.jpg?auth=20bbde396cb7545544fc5d0cc4b39031949beb83b70b3592319759c07a79103c&height=1005&width=1920&quality=80&smart=true"
+    }
+  ],
+  "markets": [
+    {
+      "id": "sp-500",
+      "label": "S&P 500",
+      "region": "US",
+      "symbol": "^GSPC",
+      "value": 7723.55,
+      "previousClose": 7736.5202150000005,
+      "change": -12.970215,
+      "percentChange": -0.16764921,
+      "direction": "down",
+      "sessionDate": "2026-08-06"
+    },
+    {
+      "id": "nasdaq-composite",
+      "label": "NASDAQ Composite",
+      "region": "US",
+      "symbol": "^IXIC",
+      "value": 26363.44,
+      "previousClose": 26584.992729999998,
+      "change": -221.55273,
+      "percentChange": -0.8333752,
+      "direction": "down",
+      "sessionDate": "2026-08-06"
+    },
+    {
+      "id": "euronext-100",
+      "label": "Euronext 100 Index",
+      "region": "Europe",
+      "symbol": "^N100",
+      "value": 1957.69,
+      "previousClose": 1957.9301123,
+      "change": -0.2401123,
+      "percentChange": -0.012263579,
+      "direction": "down",
+      "sessionDate": "2026-08-06"
+    },
+    {
+      "id": "moex",
+      "label": "Public Joint-Stock Company Moscow Exchange MICEX-RTS",
+      "region": "Europe",
+      "symbol": "MOEX.ME",
+      "value": 85.2,
+      "previousClose": 85.31000061,
+      "change": -0.11000061,
+      "percentChange": -0.12894222,
+      "direction": "down",
+      "sessionDate": "2026-08-06"
+    },
+    {
+      "id": "hang-seng",
+      "label": "HANG SENG INDEX",
+      "region": "Asia",
+      "symbol": "^HSI",
+      "value": 25463.51,
+      "previousClose": 25915.820549999997,
+      "change": -452.31055,
+      "percentChange": -1.7453067,
+      "direction": "down",
+      "sessionDate": "2026-08-06"
+    },
+    {
+      "id": "nikkei-225",
+      "label": "Nikkei 225",
+      "region": "Asia",
+      "symbol": "^N225",
+      "value": 65600.37,
+      "previousClose": 66300.4403,
+      "change": -700.0703,
+      "percentChange": -1.0560118,
+      "direction": "down",
+      "sessionDate": "2026-08-06"
+    },
+    {
+      "id": "sensex",
+      "label": "S&P BSE SENSEX",
+      "region": "India",
+      "symbol": "^BSESN",
+      "value": 78707.84,
+      "previousClose": 78580.99625,
+      "change": 126.84375,
+      "percentChange": 0.16141641,
+      "direction": "up",
+      "sessionDate": "2026-08-06"
+    }
+  ],
+  "hackerNews": [
+    {
+      "title": "Nashville uses eminent domain to block data center near zoo",
+      "url": "https://www.costar.com/article/970809918/nashville-council-approves-eminent-domain-action-to-halt-data-center-project",
+      "publishedAt": "2026-08-06T02:15:14.000Z",
+      "summary": "DC Blox proposal faces opposition outside Tennessee",
+      "thumbnailUrl": "https://costar.brightspotcdn.com/dims4/default/83677e0/2147483647/strip/true/crop/2100x1400+0+0/resize/2100x1400!/quality/100/?url=http%3A%2F%2Fcostar-brightspot.s3.us-east-1.amazonaws.com%2Ffd%2F93%2F54278ee54717958201ab8d716831%2Fcostar-nashville-project-8-5.jpg"
+    },
+    {
+      "title": "Discovery Loop",
+      "url": "https://www.discoveryloop.com/",
+      "publishedAt": "2026-08-05T16:19:44.000Z",
+      "summary": "Discovery Loop is building AI systems that automate the experimental loops of science and engineering. Continuous Exploration.",
+      "thumbnailUrl": "https://www.discoveryloop.com/assets/infinity.png"
+    },
+    {
+      "title": "Zed DeltaDB",
+      "url": "https://zed.dev/deltadb",
+      "publishedAt": "2026-08-05T18:52:54.000Z",
+      "summary": "Sign up for early access to continuous source control and review.",
+      "thumbnailUrl": "https://zed.dev/api/og?title=DeltaDB"
+    },
+    {
+      "title": "Changes at Google DeepMind: Demis Hassabis from CEO to Chair, Jeff Dean departs",
+      "url": "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/",
+      "publishedAt": "2026-08-05T16:05:31.000Z",
+      "summary": "Today, Google and Alphabet CEO Sundar Pichai shared some changes with Google DeepMind teams.",
+      "thumbnailUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/super-g_1.width-1300.jpg"
+    },
+    {
+      "title": "The title cards in Blade Runner are amazing",
+      "url": "https://randsinrepose.com/archives/blade-runner-title-cards/",
+      "publishedAt": "2026-08-05T21:29:23.000Z",
+      "summary": "Appreciating typography is a study in paradox. The primary goal of well-designed typography is to help you read the words, not appreciate how the words are comp",
+      "thumbnailUrl": "https://randsinrepose.com/wp-content/uploads/2026/08/bladerunner.png"
+    },
+    {
+      "title": "Muse Code and Muse Spark 1.2",
+      "url": "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2",
+      "publishedAt": "2026-08-05T19:15:52.000Z",
+      "summary": "Introducing Muse Code, a terminal coding agent powered by Muse Spark 1.2, with persistent background agents, repository-scale execution, and built-in verification.",
+      "thumbnailUrl": "https://lookaside.fbsbx.com/elementpath/media/?media_id=27275013325511244&version=1785879996"
+    },
+    {
+      "title": "Beating GPT-5.6 Sol on retrieval with 100x cheaper open models",
+      "url": "https://neon.com/blog/how-castform-neon-beats-frontier-models-on-price-and-efficiency",
+      "publishedAt": "2026-08-05T18:18:56.000Z",
+      "summary": "A 4B open-source model post-trained with Castform retrieved search results as accurately as GPT-5.6 Sol, while costing 100x less.",
+      "thumbnailUrl": "https://cdn.neonapi.io/public/images/pages/blog/how-castform-neon-beats-frontier-models-on-price-and-efficiency/cover.jpg"
+    },
+    {
+      "title": "Born Against, or why hobby programming communities are against LLM usage",
+      "url": "https://blog.fogus.me/llm/born-against.html",
+      "publishedAt": "2026-08-05T18:37:49.000Z",
+      "summary": "I came across a GH thread related to chess engine development that made me think of why hobby programming communities are increasingly hostile toward LLM development. While the thread doesn’t give a lot of insight into answering the question, it prompted me to think about it a bit. I’ve seen similar sentiments expressed in other niche hobby programming communities like OSDev, LangDev, TxtDev, EmuDev, RLDev, the demoscene, and code golfers. The general consensus seems to be that the knowledge that these communities work in is hard-fought and the use of LLMs is a form of missing the point entirely. In these communities (keep in mind that there is an implicit “not all…” throughout) the process of mastering a difficult field itself is the product, and something that runs is generally a nice-to-have.",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "Prime Agent: A self-improving RLM agent",
+      "url": "https://www.primeintellect.ai/blog/prime-agent",
+      "publishedAt": "2026-08-05T21:11:57.000Z",
+      "summary": "Prime Agent is our open-source, self-improving coding harness built around two abstractions: the Recursive Language Model (RLM) and the Continual Harness. With Opus 5, it achieves 95.5% on ARC-AGI-3, surpassing the reported human expert baseline.",
+      "thumbnailUrl": "https://primeintellect.ai/blog/prime-agent/cover.png?v=prime-agent"
+    },
+    {
+      "title": "Cloudflare OS: an open platform for agents, apps, and work",
+      "url": "https://blog.cloudflare.com/cloudflare-os/",
+      "publishedAt": "2026-08-05T13:58:53.000Z",
+      "summary": "Cloudflare OS is an open-source platform that lets everyone in your company build apps, automate work, and safely access internal systems, shaped around what your organization knows and how it operates.",
+      "thumbnailUrl": "https://blog.cloudflare.com/_emdash/api/media/file/01KZ7PN06AYFEQJN4FBVAE8WHH.png"
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "Hansel",
+      "tagline": "Remember everything you've worked on",
+      "url": "https://www.producthunt.com/products/hansel-2",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-08-05T22:06:59-07:00"
+    },
+    {
+      "name": "Kiro Crew",
+      "tagline": "Open source agentic development workspace",
+      "url": "https://www.producthunt.com/products/kiro",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-08-05T22:04:17-07:00"
+    },
+    {
+      "name": "Aegisora",
+      "tagline": "The narrow control plane for AI agent tool and API calls.",
+      "url": "https://www.producthunt.com/products/aegisora",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-08-05T21:51:28-07:00"
+    },
+    {
+      "name": "Wispr Flow Notetaker",
+      "tagline": "Meeting notes that get the details right.",
+      "url": "https://www.producthunt.com/products/wisprflow",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-08-05T22:18:08-07:00"
+    },
+    {
+      "name": "AdAnt AI",
+      "tagline": "Claude for viral, high-converting social ads",
+      "url": "https://www.producthunt.com/products/adant-ai",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-08-05T22:18:00-07:00"
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "News and markets",
+      "sentences": [
+        "Global headlines: Ukraine fails to halt Russian barrage as Zelensky blames partners for ‘horrific casualties’ (U.S.-made systems are Kyiv’s only means to shoot down ballistic missiles, and Ukraine says it has run out of interceptors. Seventeen Ukrainians died overnight); Trump administration cancels Brazilian ambassador’s visa in tit-for-tat (A senior State Department official told reporters in a background briefing that it was a “reciprocal” action because Brazil has not approved President Donald Trump’s nominee as ambassador to Brasilia); and Trump keeps making threats. The world has stopped flinching. (The president’s bombast has ceased to rattle world leaders, who have seen him fenced in by courts, rebuffed by Congress and strung along by Iran).",
+        "Markets leaned lower, with 6 of 7 tracked indexes down; HANG SENG INDEX down 1.75% was the largest move.",
+        "Benchmarks tracked: S&P 500, NASDAQ Composite, Euronext 100 Index, and Public Joint-Stock Company Moscow Exchange MICEX-RTS plus 3 more indexes."
+      ]
+    },
+    {
+      "title": "Hacker News and Product Hunt",
+      "sentences": [
+        "Hacker News: Nashville uses eminent domain to block data center near zoo (DC Blox proposal faces opposition outside Tennessee); Discovery Loop (Discovery Loop is building AI systems that automate the experimental loops of science and engineering. Continuous Exploration); and Zed DeltaDB (Sign up for early access to continuous source control and review).",
+        "Product Hunt features Hansel (Remember everything you've worked on), Kiro Crew (Open source agentic development workspace), and Aegisora (The narrow control plane for AI agent tool and API calls)."
+      ]
+    }
+  ],
+  "sourceNotes": {
+    "generatedAt": "2026-08-06T05:18:27.057Z",
+    "timeZone": "Asia/Kolkata",
+    "successfulSources": [
+      "Washington Post",
+      "Al Jazeera",
+      "NPR",
+      "China Daily",
+      "The Hindu",
+      "Reuters"
+    ],
+    "marketSessionLabel": "Latest market sessions as of 2026-08-06",
+    "warnings": []
+  }
+}
