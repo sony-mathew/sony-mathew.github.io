@@ -1,0 +1,501 @@
+{
+  "headlines": [
+    {
+      "title": "Iran says Hormuz deal with Oman won’t fully reopen strait",
+      "url": "https://www.washingtonpost.com/world/2026/08/06/iran-says-hormuz-deal-with-oman-wont-fully-reopen-strait/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Thu, 06 Aug 2026 21:37:48 +0000",
+      "summary": "Oil prices jumped after the comments by senior Iranian officials on the talks to manage traffic through the waterway.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DK42Y7V2OSNGR4Y3CFR6XF5CUE_size-normalized.jpg&w=1440"
+    },
+    {
+      "title": "U.S.-Canada relations go up in smoke",
+      "url": "https://www.washingtonpost.com/politics/2026/08/06/early-brief-us-canada-relations-go-up-smoke/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Thu, 06 Aug 2026 09:36:11 +0000",
+      "summary": "There’s been something in the air in D.C. this summer — namely wildfire smoke and frustration over Canada’s inability to keep it on its side of the border.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/2MRTO2UONEFDTFS355QU6KWCOU.JPG&w=1440"
+    },
+    {
+      "title": "Ukraine fails to halt Russian barrage as Zelensky blames partners for ‘horrific casualties’",
+      "url": "https://www.washingtonpost.com/world/2026/08/05/ukraine-fails-stop-russian-missile-barrage-after-zelensky-says-interceptors-gone/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Wed, 05 Aug 2026 18:13:50 +0000",
+      "summary": "U.S.-made systems are Kyiv’s only means to shoot down ballistic missiles, and Ukraine says it has run out of interceptors. Seventeen Ukrainians died overnight.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/VMJMHBJIV63BE7R67BGXHVCJF4_size-normalized.jpg&w=1440"
+    },
+    {
+      "title": "With support for Israel roiling U.S. politics, Israelis fear a permanent shift",
+      "url": "https://www.washingtonpost.com/world/2026/08/06/with-support-israel-roiling-us-politics-israelis-fear-permanent-shift/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "2026-08-06",
+      "summary": "Abdul El-Sayed’s victory in Michigan’s Democratic Senate primary adds to a string of upsets that reflect growing criticism of Israel.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/J4EHL3MWAWEV253IIISWJU64GA.jpg&w=300&h=169"
+    },
+    {
+      "title": "Israel’s killing of journalist Amal Khalil was a war crime, rights group says",
+      "url": "https://www.washingtonpost.com/world/2026/08/06/israels-killing-journalist-amal-khalil-was-war-crime-rights-group-says/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "2026-08-06",
+      "summary": "The reporter died during an Israeli strike in April in Lebanon. The IDF said that it was targeting Hezbollah and that it does not target journalists.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/J4EHL3MWAWEV253IIISWJU64GA_size-normalized.jpg&w=1440"
+    },
+    {
+      "title": "Anti-Muslim US Congressman Andy Ogles loses congressional primary",
+      "url": "https://www.aljazeera.com/news/2026/8/7/anti-muslim-us-congressman-andy-ogles-loses-congressional-primary",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-08-07",
+      "summary": "Trump's endorsement fails to save Tennessee legislator who recently said 'Muslims don't belong in American society'.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/08/AP26126659397740-1786072856.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Israeli raid in West Bank’s Qalandiya injures 51 Palestinians",
+      "url": "https://www.aljazeera.com/news/2026/8/7/israeli-raid-in-west-banks-qalandiya-injures-51-palestinians",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-08-07",
+      "summary": "Israeli forces arrest dozens of Palestinians near Jerusalem amid uptick in military and settler violence in West Bank.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/08/reuters_6a752631-1786062385.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "New Mexico court orders Meta to pay $567m over harm to youths",
+      "url": "https://www.aljazeera.com/news/2026/8/7/new-mexico-court-orders-meta-to-pay-567m-over-harm-to-youths",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-08-07",
+      "summary": "The ruling comes in the second phase of a landmark trial, with the Instagram, Facebook owner also losing in March.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/08/2026-07-27T214346Z_1671520543_RC2VPGAFX6W6_RTRMADP_3_META-TRIAL-TENNESSEE-1786067397.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Brazil formally accuses 16 people over 2024 Voepass deadly plane crash",
+      "url": "https://www.aljazeera.com/news/2026/8/7/brazil-formally-accuses-16-people-over-2024-voepass-deadly-plane-crash",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-08-07",
+      "summary": "Official says plane was irregularly cleared for departure before crash that killed 62 people outside Sao Paulo.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/08/AP26204848991497-1786058954.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "After the floods, hunger: Mozambique’s second disaster",
+      "url": "https://www.aljazeera.com/news/2026/8/7/after-the-floods-hunger-mozambiques-second-disaster",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-08-07",
+      "summary": "Lost harvests and disrupted supply routes have pushed many families deeper into food insecurity.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/08/1-Flood-survivors-receive-WFP-food-hampers-in-April-credit-WFP-Mozambique-1785946614.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Trump signs 2 immigration actions to curb 'birth tourism,' limit birthright citizenship",
+      "url": "https://www.npr.org/2026/08/06/g-s1-137686/trump-birthright-citizenship-immigration-curb",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Thu, 06 Aug 2026 18:06:35 -0400",
+      "summary": "Additional details weren't provided, but Trump said he thought his latest actions would be constitutional.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4977x3318+0+0/resize/4977x3318!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F41%2Fbf%2Fee4c9b954f778b4adeb3d4d4a533%2Fap26218742399647.jpg"
+    },
+    {
+      "title": "Iran aims to ban U.S. and Israeli ships from Strait of Hormuz and charge others a toll",
+      "url": "https://www.npr.org/2026/08/06/nx-s1-5923623/iran-strait-hormuz-us-israel-ban",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Thu, 06 Aug 2026 16:58:56 -0400",
+      "summary": "Iran's parliament is reviewing a plan to ban ships linked to the U.S., Israel and other \"hostile countries\" from transiting the Strait of Hormuz. The Trump administration has rejected the plan.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6225x4150+0+0/resize/6225x4150!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fd9%2Ff1%2F67b397cf481581c0afcdd0a68ca1%2Fgettyimages-2288126828.jpg"
+    },
+    {
+      "title": "A look at 'Operation Country Roads,' West Virginia's ICE operation",
+      "url": "https://www.npr.org/2026/08/06/nx-s1-5863509/a-look-at-west-virginia-after-last-years-massive-ice-operation",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Thu, 06 Aug 2026 16:40:52 -0400",
+      "summary": "Earlier this year ICE arrested 600 immigrants over a two week period. Most migrants had no criminal records and, since then, West Virginia has decided to not hold ICE detainees in their jails. A look at West Virginia post Operation Country Roads.",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "Sticky or slippery? Snails can change their slime to meet the moment",
+      "url": "https://www.npr.org/2026/08/06/nx-s1-5920383/snail-slime-mucus-inspire-new-materials",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Thu, 06 Aug 2026 14:26:45 -0400",
+      "summary": "Snails are slimy. But there's more to that goo of theirs than meets the eye. It's a fact that may help inspire the creation of new materials.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1239x929+0+0/resize/1239x929!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F5e%2Fbd%2Fe09fb420434bb6de4f10f2967bd7%2Fsnail-cropped-flipped.jpg"
+    },
+    {
+      "title": "The park service says Trump's arch would obstruct historic sites. Could it be moved?",
+      "url": "https://www.npr.org/2026/08/06/nx-s1-5919628/trump-arch-location-historic-sites-nps",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Thu, 06 Aug 2026 14:19:47 -0400",
+      "summary": "President Trump's proposed arch in Memorial Circle would intrude on dozens of nearby sites, says the National Park Service. But there's been minimal discussion of alternate locations.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6217x4142+0+0/resize/6217x4142!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F37%2Fad%2Fdd4e3ce34a529cad90e6d4490389%2Fgettyimages-2240834171.jpg"
+    },
+    {
+      "title": "Europe's nuclear sector feels drought impact",
+      "url": "https://www.chinadaily.com.cn/a/202608/07/WS6a7535cda310986e2b469813.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-08-07",
+      "summary": "The full threat of the extreme heat and drought conditions affecting much of Europe this summer has been expressed in the starkest terms after it was revealed that at least 15 nuclear reactors across the continent have had to be temporarily shut down or operate at reduced output.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202608/07/6a7535cda310986e101b0fc2.png"
+    },
+    {
+      "title": "Gazans face intense Israeli violence, child death toll mounts: UN",
+      "url": "https://www.chinadaily.com.cn/a/202608/07/WS6a752c83a310986e2b469740.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-08-07",
+      "summary": "UNITED NATIONS - Civilians in Gaza continue to face intense military strikes, shelling, gunfire and naval fire from Israel, among other threats to their safety, UN humanitarians said Thursday.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202608/07/6a752c83a310986e101b0d0e.jpeg"
+    },
+    {
+      "title": "Potential seen for Sino-Thai tech cooperation",
+      "url": "https://www.chinadaily.com.cn/a/202608/07/WS6a752e62a310986e2b469764.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-08-07",
+      "summary": "Young Chinese entrepreneurs see growing opportunities for China-Thailand cooperation across a wide range of industries, particularly artificial intelligence and digital technologies, following a visit to Bangkok.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202608/07/6a752e62a310986e101b0dad.png"
+    },
+    {
+      "title": "Ebola caseload in DR Congo tops 4,000",
+      "url": "https://www.chinadaily.com.cn/a/202608/07/WS6a752e0fa310986e2b469759.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-08-07",
+      "summary": "KINSHASA - The number of confirmed Ebola cases in the Democratic Republic of the Congo (DRC) has reached 4,053, including 1,850 deaths, according to an update released Thursday by the country's health authorities.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202608/07/6a752e0fa310986e101b0d8d.jpeg"
+    },
+    {
+      "title": "Japan's remarks trigger alarm",
+      "url": "https://www.chinadaily.com.cn/a/202608/06/WS6a74a77aa310986e2b4696c6.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-08-06",
+      "summary": "Hiroshima marked the 81st anniversary of the atomic bombing by the United States with a memorial ceremony on Thursday, amid mounting domestic opposition to recent pro-nuclear remarks by senior Japanese officials.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202608/07/6a753bbba310986e101b11a1.jpeg"
+    },
+    {
+      "title": "INDIA bloc leaders likely to visit Bihar’s Siwan to meet injured protesters who suffered gunshot wounds",
+      "url": "https://www.thehindu.com/news/national/india-bloc-leaders-likely-to-visit-bihars-siwan-to-meet-injured-protesters-who-suffered-gunshot-wounds/article71313790.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-08-06T14:18:13.000Z",
+      "summary": "INDIA bloc leaders plan to visit Bihar's Siwan to support injured protesters after police used AK-47s during demonstrations.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/l5ch7/article71313975.ece/alternates/LANDSCAPE_1200/TH27-Bhelari-PhGAQGAG1AF.4.jpg.jpg"
+    },
+    {
+      "title": "Form-7 misuse: Supreme Court to consider Congress MP’s plea alleging targeted deletions in U.P.",
+      "url": "https://www.thehindu.com/news/national/uttar-pradesh/form-7-misuse-supreme-court-to-consider-congress-mps-plea-alleging-targeted-deletions-in-up/article71314187.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-08-06T16:07:20.000Z",
+      "summary": "Supreme Court to review Congress MP's plea on alleged misuse of Form-7 for targeted voter deletions in Uttar Pradesh.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/9coqyc/article71314702.ece/alternates/LANDSCAPE_1200/20260222210L.jpg"
+    },
+    {
+      "title": "Cabinet clears ₹8,970-crore Guwahati–Tezpur access-controlled corridor",
+      "url": "https://www.thehindu.com/news/national/cabinet-clears-13587-km-guwahati-tezpur-corridor-of-nh-15-in-assam-for-8970-crore/article71313414.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-08-06T12:07:27.000Z",
+      "summary": "Union Cabinet approves ₹8,970 crore Guwahati-Tezpur NH-15 corridor, enhancing connectivity and reducing travel time across Assam.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/ebqwbe/article71313427.ece/alternates/LANDSCAPE_1200/WhatsApp%20Image%202026-08-06%20at%2017.27.30.jpeg"
+    },
+    {
+      "title": "Echo sentiments of Opposition to Home Minister: Rajya Sabha Chairman tells government",
+      "url": "https://www.thehindu.com/news/national/echo-sentiments-of-opposition-to-home-minister-rajya-sabha-chairman-tells-government/article71313306.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-08-06T11:42:38.000Z",
+      "summary": "Rajya Sabha Chairman urges government to address Opposition's concerns as tensions rise during Monsoon Session discussions.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/xqt9el/article71313375.ece/alternates/LANDSCAPE_1200/20260806281L.jpg"
+    },
+    {
+      "title": "Protesting students form 11-member team to hold talks with Jharkhand government",
+      "url": "https://www.thehindu.com/news/national/jharkhand/protesting-students-form-11-member-team-to-hold-talks-with-jharkhand-government/article71314619.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-08-06T16:38:31.000Z",
+      "summary": "Protesting students form an 11-member team to negotiate with the Jharkhand government over demands regarding competitive exam irregularities.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/6wqkms/article71314838.ece/alternates/LANDSCAPE_1200/PTI08_06_2026_000404B.jpg"
+    },
+    {
+      "title": "Deaths reported at school shooting in Thailand, officials say",
+      "url": "https://www.reuters.com/world/asia-pacific/shooting-takes-place-school-thailand-officials-say-2026-08-07/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Fri, 07 Aug 2026 03:29:00 GMT",
+      "summary": "Reuters: Deaths reported at school shooting in Thailand, officials say.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/BGWIHIYZSRLKJIDY67UYW3PRUY.jpg?auth=079611c1fcfea21e5d39a2ee57b2237d1931792782da9064468261e13039abd4&width=1080&quality=80"
+    },
+    {
+      "title": "Gold heads for best week since January, US jobs data in focus",
+      "url": "https://www.reuters.com/world/india/gold-heads-strongest-week-since-january-us-payrolls-data-focus-2026-08-07/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Fri, 07 Aug 2026 01:14:00 GMT",
+      "summary": "Reuters: Gold heads for best week since January, US jobs data in focus.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/MMDMP4GOPRPOVDXJW6DHP27EGY.jpg?auth=049f9c0170de65682a04ee2cbf1348698b35b0886b7c94df18f84fb355cc93b5&width=1920&quality=80"
+    },
+    {
+      "title": "Meta ordered to pay $567 million in New Mexico for teen mental health fund",
+      "url": "https://www.reuters.com/world/new-mexico-court-orders-meta-pay-567-mln-teen-mental-health-fund-2026-08-06/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Thu, 06 Aug 2026 23:51:00 GMT",
+      "summary": "Reuters: Meta ordered to pay $567 million in New Mexico for teen mental health fund.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/SH4FFHGA5RJDVJG4JA5LJ2DZ3A.jpg?auth=f97b3b3e0e5d880387d4e5fd3b34abcc3aca20a5bd39ff33b1563e0db48774e5&width=1920&quality=80"
+    },
+    {
+      "title": "Houthi attack on Saudi Arabia wounds 11 civilians as kingdom warns of wider threat",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPa3M0RkZsT0JHNHhwVXVvVURQZWs0R1hMbHFpa0RsdXE4MjNaME9lUXc4bXc1M1J4em93djJwZ3U4bS1UczdEaVJDRENsYXlYS2xJQ19ZeTVmRU1mLTBxWHFySVIzRjh3OG5JWFU5b1BpNjYtUlFDNzllUG56Tm9VcTgyYUExX1FzZ3ltLWxXNEE2R3NYZ2I4bTRRUFZtbm5WQUo2UDc2X2hUb3ZaOUpvdVVFWFdQdmx0NXFaeHl3XzdjQQ?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Thu, 06 Aug 2026 21:43:00 GMT",
+      "summary": "Reuters: Houthi attack on Saudi Arabia wounds 11 civilians as kingdom warns of wider threat.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "Turkey, Saudi Arabia, Pakistan to sign joint defence agreement in Saudi Arabia on Friday, sources say",
+      "url": "https://www.reuters.com/world/middle-east/turkey-saudi-arabia-pakistan-sign-joint-defence-agreement-saudi-arabia-friday-2026-08-06/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Thu, 06 Aug 2026 22:03:43 GMT",
+      "summary": "Reuters: Turkey, Saudi Arabia, Pakistan to sign joint defence agreement in Saudi Arabia on Friday, sources say.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/3K7MVVQUORNR3KLJEEXR6IMWGU.jpg?auth=87fcbea151131e8578695f3884377869680485e3c16585b13c6efcc19cf19b54&width=1080&quality=80"
+    }
+  ],
+  "markets": [
+    {
+      "id": "sp-500",
+      "label": "S&P 500",
+      "region": "US",
+      "symbol": "^GSPC",
+      "value": 7709.96,
+      "previousClose": 7723.549844,
+      "change": -13.589844,
+      "percentChange": -0.17595334,
+      "direction": "down",
+      "sessionDate": "2026-08-07"
+    },
+    {
+      "id": "nasdaq-composite",
+      "label": "NASDAQ Composite",
+      "region": "US",
+      "symbol": "^IXIC",
+      "value": 26348.352,
+      "previousClose": 26363.439890999998,
+      "change": -15.087891,
+      "percentChange": -0.057230357,
+      "direction": "down",
+      "sessionDate": "2026-08-07"
+    },
+    {
+      "id": "euronext-100",
+      "label": "Euronext 100 Index",
+      "region": "Europe",
+      "symbol": "^N100",
+      "value": 1965.65,
+      "previousClose": 1957.6899170000002,
+      "change": 7.960083,
+      "percentChange": 0.4066059,
+      "direction": "up",
+      "sessionDate": "2026-08-07"
+    },
+    {
+      "id": "moex",
+      "label": "Public Joint-Stock Company Moscow Exchange MICEX-RTS",
+      "region": "Europe",
+      "symbol": "MOEX.ME",
+      "value": 85.2,
+      "previousClose": 85.31000061,
+      "change": -0.11000061,
+      "percentChange": -0.12894222,
+      "direction": "down",
+      "sessionDate": "2026-08-07"
+    },
+    {
+      "id": "hang-seng",
+      "label": "HANG SENG INDEX",
+      "region": "Asia",
+      "symbol": "^HSI",
+      "value": 25530.28,
+      "previousClose": 25915.82102,
+      "change": -385.54102,
+      "percentChange": -1.4876666,
+      "direction": "down",
+      "sessionDate": "2026-08-07"
+    },
+    {
+      "id": "nikkei-225",
+      "label": "Nikkei 225",
+      "region": "Asia",
+      "symbol": "^N225",
+      "value": 65683.26,
+      "previousClose": 66300.43969999999,
+      "change": -617.1797,
+      "percentChange": -0.9308833,
+      "direction": "down",
+      "sessionDate": "2026-08-07"
+    },
+    {
+      "id": "sensex",
+      "label": "S&P BSE SENSEX",
+      "region": "India",
+      "symbol": "^BSESN",
+      "value": 78954.76,
+      "previousClose": 78581.00219999999,
+      "change": 373.7578,
+      "percentChange": 0.47563383,
+      "direction": "up",
+      "sessionDate": "2026-08-07"
+    }
+  ],
+  "hackerNews": [
+    {
+      "title": "AMD acquires Taalas to boost inference performance by etching models in silicon",
+      "url": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
+      "publishedAt": "2026-08-06T20:23:11.000Z",
+      "summary": "Early tech demos show model-specific integrated circuits churning out up to 17,000 tokens a second",
+      "thumbnailUrl": "https://image.theregister.com/5284365.jpg?imageId=5284365&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683"
+    },
+    {
+      "title": "Hackers Stalked Me by Hijacking a Smartwatch for Kids",
+      "url": "https://www.wired.com/story/hackers-stalked-me-by-hijacking-a-smartwatch-for-kids/",
+      "publishedAt": "2026-08-06T23:30:03.000Z",
+      "summary": "Security researchers tracked and eavesdropped on a WIRED reporter using vulnerabilities in a pink plastic smartwatch. It’s just one piece of a deeply insecure supply chain of GPS-enabled gadgets.",
+      "thumbnailUrl": "https://media.wired.com/photos/6a749b5af36b5a790db748af/191:100/w_1280,c_limit/Security_Dozens%20of%20GPS%20Devices%20for%20Kids%20and%20Cars%20Are%20Vulnerable%20to%20Spying%20and%20Sabotage_v1.jpg"
+    },
+    {
+      "title": "Mario Meets Pareto",
+      "url": "https://www.mayerowitz.io/blog/mario-meets-pareto",
+      "publishedAt": "2026-08-06T11:24:53.000Z",
+      "summary": "Discover how to find the best Mario Kart 8 build using the Pareto frontier method. This interactive guide explores multi-objective optimization of speed, acceleration, and other key stats to help you beat your friends on the race track.",
+      "thumbnailUrl": "https://www.mayerowitz.io/SEO/mario-meets-pareto.png"
+    },
+    {
+      "title": "Taste Is All That's Left",
+      "url": "https://notashelf.dev/posts/taste-is-all-thats-left",
+      "publishedAt": "2026-08-06T17:01:33.000Z",
+      "summary": "On what is left to do once the machine can make anything, and why taste is the last craft worth keeping.",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "Welcoming the Nepalese Government to Have I Been Pwned",
+      "url": "https://www.troyhunt.com/welcoming-the-nepalese-government-to-have-i-been-pwned/",
+      "publishedAt": "2026-08-06T21:52:16.000Z",
+      "summary": "Today, we welcome the 47th government onboarded to Have I Been Pwned’s free gov service: Nepal. Their National Cyber Security Centre now has access to monitor Nepalese government domains against the data in HIBP. This gives the NCSC the ability to identify exposure across government email addresses and respond",
+      "thumbnailUrl": "https://storage.ghost.io/c/fb/33/fb3391dc-723d-4e74-b95a-d641b5feb38e/content/images/2026/07/Nepal-Flag.png"
+    },
+    {
+      "title": "Bioengineered chewing gum may offer a way to fight HPV and other microbes",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260803080917.htm",
+      "publishedAt": "2026-08-06T21:18:32.000Z",
+      "summary": "A specially engineered chewing gum reduced HPV by up to 93% and nearly eliminated two bacteria linked to head and neck cancer. The treatment preserved beneficial mouth bacteria, raising hopes for a safer and more affordable therapy.",
+      "thumbnailUrl": "https://www.sciencedaily.com/images/1920/young-woman-biting-chewing-gum.webp"
+    },
+    {
+      "title": "Improving GPT‑5.6 Sol in ChatGPT, expanding GPT‑5.6 Luna access for free users",
+      "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/",
+      "publishedAt": "2026-08-06T17:02:04.000Z",
+      "summary": "ChatGPT introduces improved GPT-5.6 Sol with better accuracy and consistency, plus expanded access for free users and unlimited everyday chats with GPT-5.6 Luna.",
+      "thumbnailUrl": "https://images.ctfassets.net/kftzwdyauwt9/5ufNl1zzui8XrAogWs5j89/13fdcb619e5f1e31a3efd34f425477ac/Art_Card_16x9__1_.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "title": "Herdr is joining Y Combinator. The runtime stays open",
+      "url": "https://herdr.dev/blog/herdr-is-joining-y-combinator/",
+      "publishedAt": "2026-08-06T19:14:21.000Z",
+      "summary": "Herdr is joining Y Combinator. The runtime is Apache-2.0 and stays open, and here is what the funding is actually for.",
+      "thumbnailUrl": "https://herdr.dev/assets/og-blog-yc-v1.png"
+    },
+    {
+      "title": "GitHub Actions and Pages are experiencing degraded availability",
+      "url": "https://www.githubstatus.com/incidents/qcvjkzcs7j74",
+      "publishedAt": "2026-08-06T15:49:38.000Z",
+      "summary": "GitHub's Status Page - Incident with Actions.",
+      "thumbnailUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
+    },
+    {
+      "title": "Almost no skill required to cook a steak",
+      "url": "https://blog.sydorets.com/en/posts/almost-no-skill-required-to-cook-a-steak/",
+      "publishedAt": "2026-08-06T15:30:48.000Z",
+      "summary": "Why AI can make software development faster without replacing the judgment and understanding needed to build consistently good software.",
+      "thumbnailUrl": "https://blog.sydorets.com/assets/img/profile.jpg"
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "Cloudflare OS",
+      "tagline": "Build the AI operating system for your company",
+      "url": "https://www.producthunt.com/products/cloudflare",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-08-06T21:20:58-07:00"
+    },
+    {
+      "name": "AI Spend Console by Rippling",
+      "tagline": "Track your AI spend and connect it to business outcomes",
+      "url": "https://www.producthunt.com/products/rippling",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-08-06T21:24:48-07:00"
+    },
+    {
+      "name": "CopilotKit Channels SDK",
+      "tagline": "Bring any agent to Slack, Teams, and more.",
+      "url": "https://www.producthunt.com/products/copilotkit",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-08-06T21:15:58-07:00"
+    },
+    {
+      "name": "Superlog Responder",
+      "tagline": "Free, open-source AI bug-fixing agent",
+      "url": "https://www.producthunt.com/products/superlog",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-08-06T21:02:26-07:00"
+    },
+    {
+      "name": "hey postcard - digital postcards",
+      "tagline": "delivered tomorrow morning at a random time between 8 -10 AM",
+      "url": "https://www.producthunt.com/products/hey-postcard-slow-messaging",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-08-06T21:14:31-07:00"
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "News and markets",
+      "sentences": [
+        "Global headlines: Iran says Hormuz deal with Oman won’t fully reopen strait (Oil prices jumped after the comments by senior Iranian officials on the talks to manage traffic through the waterway); U.S.-Canada relations go up in smoke (There’s been something in the air in D.C. this summer — namely wildfire smoke and frustration over Canada’s inability to keep it on its side of the border); and Ukraine fails to halt Russian barrage as Zelensky blames partners for ‘horrific casualties’ (U.S.-made systems are Kyiv’s only means to shoot down ballistic missiles, and Ukraine says it has run out of interceptors. Seventeen Ukrainians died overnight).",
+        "Markets leaned lower, with 5 of 7 tracked indexes down; HANG SENG INDEX down 1.49% was the largest move.",
+        "Benchmarks tracked: S&P 500, NASDAQ Composite, Euronext 100 Index, and Public Joint-Stock Company Moscow Exchange MICEX-RTS plus 3 more indexes."
+      ]
+    },
+    {
+      "title": "Hacker News and Product Hunt",
+      "sentences": [
+        "Hacker News: AMD acquires Taalas to boost inference performance by etching models in silicon (Early tech demos show model-specific integrated circuits churning out up to 17,000 tokens a second); Hackers Stalked Me by Hijacking a Smartwatch for Kids (Security researchers tracked and eavesdropped on a WIRED reporter using vulnerabilities in a pink plastic smartwatch. It’s just one piece...); and Mario Meets Pareto (Discover how to find the best Mario Kart 8 build using the Pareto frontier method. This interactive guide explores multi-objective...).",
+        "Product Hunt features Cloudflare OS (Build the AI operating system for your company), AI Spend Console by Rippling (Track your AI spend and connect it to business outcomes), and CopilotKit Channels SDK (Bring any agent to Slack, Teams, and more)."
+      ]
+    }
+  ],
+  "sourceNotes": {
+    "generatedAt": "2026-08-07T04:26:16.142Z",
+    "timeZone": "Asia/Kolkata",
+    "successfulSources": [
+      "Washington Post",
+      "Al Jazeera",
+      "NPR",
+      "China Daily",
+      "The Hindu",
+      "Reuters"
+    ],
+    "marketSessionLabel": "Latest market sessions as of 2026-08-07",
+    "warnings": []
+  }
+}
