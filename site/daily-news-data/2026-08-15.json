@@ -1,0 +1,503 @@
+{
+  "headlines": [
+    {
+      "title": "IDF troops stood by as West Bank settlers besieged Palestinian homes",
+      "url": "https://www.washingtonpost.com/world/2026/08/14/idf-troops-stood-by-west-bank-settlers-besieged-palestinian-homes/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Fri, 14 Aug 2026 19:45:55 +0000",
+      "summary": "When Israeli extremists arrived in Qusra to force Palestinians from their homes, residents hoped the Israel Defense Forces would come to their aid.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/ZMSZ4QCQSX5KIMPXEX2XPAD744_size-normalized.JPG&w=1440"
+    },
+    {
+      "title": "FDA travels to Mexico a month after linking Taylor Farms to cyclospora outbreak",
+      "url": "https://www.washingtonpost.com/health/2026/08/14/fda-mexico-month-after-linking-taylor-farms-cyclospora-outbreak/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Fri, 14 Aug 2026 17:36:09 +0000",
+      "summary": "Senior FDA official confirms that inspectors were on-site at the Taylor Farms processing facility and plan to be in the fields next.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/BABJ5AOTZLOUF4FRLF36IXHGHA.JPG&w=1440"
+    },
+    {
+      "title": "Would Hong Wang have won her historic math prize if she had stayed in China?",
+      "url": "https://www.washingtonpost.com/world/2026/08/14/would-hong-wang-have-won-her-fields-medal-if-she-had-stayed-china/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Fri, 14 Aug 2026 15:24:00 +0000",
+      "summary": "The success of Wang and other young Chinese mathematicians abroad has sparked discussion about the country’s education system.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/KI4MAUHV4CN7NFKFIB5TQ5UVT4.JPG&w=1440"
+    },
+    {
+      "title": "American missionary kidnapped in Niger released after 9 months, group says",
+      "url": "https://www.washingtonpost.com/world/2026/08/14/american-kevin-rideout-released-after-niger-kidnapping-missionary-group-says/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Fri, 14 Aug 2026 13:00:00 +0000",
+      "summary": "Kevin Rideout was taken from outside his home in Niger’s capital in October, and U.S. officials scrambled to bring him home.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/EMGVOW22EL2E3BQMTN2DEZZXPI.jpg&w=1440"
+    },
+    {
+      "title": "Poland says it thwarted Russian assassination attempt on U.S. citizen in Warsaw",
+      "url": "https://www.washingtonpost.com/world/2026/08/14/poland-says-it-thwarted-russian-assassination-attempt-us-citizen-warsaw/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Fri, 14 Aug 2026 12:00:00 +0000",
+      "summary": "Prime Minister Donald Tusk said it was the first time Russia attempted to assassinate a U.S. citizen on the territory of another NATO member.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/YMHNIXLDJSC6VG7ZT2ACPR2SDE.JPG&w=1440"
+    },
+    {
+      "title": "Venezuela says 131 political prisoners freed amid post-Maduro talks",
+      "url": "https://www.aljazeera.com/news/2026/8/15/venezuela-says-131-political-prisoners-freed-amid-post-maduro-talks",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-08-15",
+      "summary": "As detainees granted 'alternative' to imprisonment, US welcomes release as crucial step for Venezuela's reconciliation.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/08/afp_6a7fb5f3f054-1786754548.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "At least two killed as magnitude 7.7 quake hits Indonesia",
+      "url": "https://www.aljazeera.com/news/2026/8/15/at-least-two-killed-as-magnitude-7-7-quake-hits-indonesia",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-08-15",
+      "summary": "Authorities urge coastal residents to move inland or to higher ground following the quake near Flores Island.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/08/afp_6a7fc17b05ad-1786757499.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Lula holds slim lead over Flavio Bolsonaro ahead of Brazil election",
+      "url": "https://www.aljazeera.com/news/2026/8/15/lula-holds-slim-lead-over-flavio-bolsonaro-ahead-of-brazil-election",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-08-15",
+      "summary": "A new poll shows Lula leading Bolsonaro, but the gap has closed ahead of Brazil's high-stakes presidential election.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/08/epa_6a7fa091bc08-1786749073.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "UN urges support for Afghan women’s aid five years into Taliban rule",
+      "url": "https://www.aljazeera.com/news/2026/8/15/un-urges-support-for-afghan-womens-aid-five-years-into-taliban-rule",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-08-15",
+      "summary": "More than half of women’s organisations operating in Afghanistan could cease operations within next year: UN Women.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/08/afp_6a7f9c08405d-1786747912.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Trump says he will declare Hormuz US territory ‘pretty soon’",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/8/15/iran-war-live-trump-vows-to-make-hormuz-us-territory-pretty-soon",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-08-15",
+      "summary": "US President Trump says that 'pretty soon' he will declare the Strait of Hormuz a US territory once Iran is defeated.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/08/AFP__20260814__C4PN4AF__v1__HighRes__UsPoliticsTrump-1786747603.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "How Americans deceive ourselves about slavery",
+      "url": "https://www.npr.org/2026/08/14/nx-s1-5928227/how-americans-deceive-ourselves-about-slavery",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Fri, 14 Aug 2026 14:13:00 -0400",
+      "summary": "Clint Smith's How the Word Is Passed explores how slavery is — and isn't — taught. And Above Ground includes poems to his children about what their ancestors endured and escaped. He spoke with Fresh Air in 2021 and 2023.",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "As speed cameras spread to more states, so does the backlash from drivers",
+      "url": "https://www.npr.org/2026/08/14/nx-s1-5927506/speed-cameras-ticket-backlash",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Fri, 14 Aug 2026 12:54:58 -0400",
+      "summary": "Millions of drivers across the country are encountering speed cameras for the first time, or will soon. Some don't like it, but advocates say there's clear evidence that cameras make roads safer.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4032x3024+0+0/resize/4032x3024!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F0c%2Fbd%2Feb0bbc6a4d299a609f3a54c708c5%2Fimg-1429.JPG"
+    },
+    {
+      "title": "Is there a summer COVID-19 surge this year? Yep, it's ramping up again",
+      "url": "https://www.npr.org/2026/08/14/nx-s1-5927115/summer-vaccine-covid-19-surge",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Fri, 14 Aug 2026 12:37:54 -0400",
+      "summary": "Just like all previous summers since the pandemic began, COVID-19 cases are ticking up again, even while other health threats make more headlines.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4773x3353+0+0/resize/4773x3353!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F9c%2F85%2F291072c24e068b7eb789a170e2f8%2Fgettyimages-2204397801.jpg"
+    },
+    {
+      "title": "Mangione pleads guilty in federal court, leaving fate of state trial uncertain",
+      "url": "https://www.npr.org/2026/08/14/nx-s1-5930700/mangione-federal-charges-guilty-plea",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Fri, 14 Aug 2026 12:05:24 -0400",
+      "summary": "Mangione has pleaded guilty to stalking charges in connection with the death of Brian Thompson, a health care executive. A separate judge will decide the future of Mangione's state trial.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/7776x5184+0+0/resize/7776x5184!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F8d%2Fdb%2F0d9c5b7a4a02bb008f9edd9a4030%2Fap26223537855881.jpg"
+    },
+    {
+      "title": "We learned 5 important things about the economy this week",
+      "url": "https://www.npr.org/2026/08/14/nx-s1-5929422/inflation-spending-economy-groceries-gas",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Fri, 14 Aug 2026 10:47:15 -0400",
+      "summary": "From inflation, to credit card debt, to who's actually doing the spending: These are key takeaways from this week in economic news.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3657x2438+0+0/resize/3657x2438!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F3c%2Fbe%2Fa1736ffe4917a630a08fd772afb0%2Fap26201840540144.jpg"
+    },
+    {
+      "title": "Subnational ties forge lasting bonds",
+      "url": "https://www.chinadaily.com.cn/a/202608/14/WS6a7e73aea31073853ec5343f.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-08-14",
+      "summary": "Jeffrey Sullivan, director of systemwide athletics for Montgomery County Public Schools in Maryland, has not taken off a bracelet since February. A Chinese student from a visiting delegation knotted and tied it around his wrist and told him that it would bring luck for the entire year. Sullivan has no intention of removing it.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202608/14/6a7e73aea31073853158f99a.png"
+    },
+    {
+      "title": "Across boundaries, beyond trade",
+      "url": "https://www.chinadaily.com.cn/a/202608/13/WS6a7d2a9da31073853ec531bb.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-08-13",
+      "summary": "The city of Erenhot, located in the Inner Mongolia autonomous region, is often called China's \"Northern Gate\", as it is the critical entry point where the China-Mongolia railway first touches Chinese soil from the neighboring country.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202608/13/6a7d2a9ca31073853158e78c.png"
+    },
+    {
+      "title": "Colombia quake death toll rises to 188",
+      "url": "https://www.chinadaily.com.cn/a/202608/12/WS6a7bab85a310986e2b46a346.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-08-12",
+      "summary": "BOGOTA -- The death toll from Monday's 7.4-magnitude earthquake in western Colombia has risen to 188, with 1,677 others injured, the Colombian Association of Capital Cities, or Asocapitales, said Tuesday.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202608/12/6a7bb413a310986e101b52e8.jpeg"
+    },
+    {
+      "title": "Trade tensions strain EU-US ties",
+      "url": "https://www.chinadaily.com.cn/a/202608/12/WS6a7bde6ba310986e2b46a52f.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-08-12",
+      "summary": "Editor's note: Amid shifting global geopolitics in recent decades, the trans-Atlantic bond is being reshaped. China Daily will present a special series to examine these shifts and their long-term implications.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202608/12/6a7bde6ba310986e101b5b73.jpeg"
+    },
+    {
+      "title": "UN chief calls on US, Iran to return to talks",
+      "url": "https://www.chinadaily.com.cn/a/202608/14/WS6a7e7989a31073853ec5349e.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-08-14",
+      "summary": "United Nations Secretary-General Antonio Guterres called for a return to dialogue amid heightened maritime tensions in the Middle East in recent days as the United States and Iran continued to offer conflicting accounts of the situation in the Strait of Hormuz.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202608/14/6a7e7989a31073853158fb11.jpeg"
+    },
+    {
+      "title": "Two killed in alleged Kuki extremists’ attack in Manipur",
+      "url": "https://www.thehindu.com/news/national/manipur/kuki-extremists-attack-in-manipur/article71345891.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-08-14T16:23:52.000Z",
+      "summary": "Two people were killed in a Kuki extremist attack in Manipur, escalating ongoing violence in the region.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/j8slak/article69913981.ece/alternates/LANDSCAPE_1200/20250614110L.jpg"
+    },
+    {
+      "title": "PM hails resilience of people affected by Partition; BJP blames Congress leaders for country’s division",
+      "url": "https://www.thehindu.com/news/national/pm-modi-recalls-the-courage-of-all-those-who-were-impacted-by-partition/article71344500.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-08-14T07:21:16.000Z",
+      "summary": "PM Modi honours Partition victims on Partition Horrors Remembrance Day, emphasising their courage and the importance of unity and progress.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/d5y625/article71344532.ece/alternates/LANDSCAPE_1200/20260812024L.jpg"
+    },
+    {
+      "title": "Kharge seeks Govt. answers over alleged increased Chinese activity on Arunachal Pradesh border",
+      "url": "https://www.thehindu.com/news/national/kharge-seeks-govt-answers-over-alleged-increased-chinese-activity-on-arunachal-pradesh-border/article71344892.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-08-14T09:50:52.000Z",
+      "summary": "Congress leader Kharge demands government clarity on rising Chinese activity in Arunachal Pradesh amid concerns over national security.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/pbx9dw/article71344894.ece/alternates/LANDSCAPE_1200/PTI08_13_2026_000582B.jpg"
+    },
+    {
+      "title": "Supreme Court quashes criminal proceedings against comedian Samay Raina, four others over disability remarks",
+      "url": "https://www.thehindu.com/news/national/supreme-court-quashes-criminal-proceedings-against-comedian-samay-raina-four-others-over-disability-remarks/article71345127.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-08-14T10:50:30.000Z",
+      "summary": "Supreme Court dismisses charges against comedian Samay Raina and others, praising their advocacy for disabled individuals and fundraising efforts.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/eyhgb1/article71345153.ece/alternates/LANDSCAPE_1200/PTI07_15_2025_000306B.jpg"
+    },
+    {
+      "title": "Jharkhand student protesters plan ‘Tiranga Yatra’ to spread message of unity",
+      "url": "https://www.thehindu.com/news/national/jharkhand/jharkhand-job-exam-stir-protest-enters-21st-day-students-plan-tiranga-yatra-on-august-15/article71344319.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-08-14T07:24:07.000Z",
+      "summary": "Students in Jharkhand continue protests for recruitment reforms, planning a 'Tiranga Yatra' on Independence Day amid ongoing tensions.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/hhsuud/article71344349.ece/alternates/LANDSCAPE_1200/PTI08_13_2026_000645A.jpg"
+    },
+    {
+      "title": "EXCLUSIVE: US to tell partners they must pick sides in AI race with China - reuters.com",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOQm05M3ZscW8yb1Jfdkw2QUl4Y2RzOWVXWlQ5ZzNIX0JhcnJlb1VIaHlmeFhJM082VUpua05SY3lQcVotUi1xVFVKSURVRVNBX3djVzE5M3Z6RmxDTHo5WWNsSEs2MU5RS0JaVnNfdWZwZDAtaURZUW1rNTJoYlZJWUdXZ2lSelRMV2RTdVpIQVRnMW0zTWlNU3NKbGtLU3R6cjNUTkZmUQ?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Fri, 14 Aug 2026 21:53:39 GMT",
+      "summary": "Reuters: EXCLUSIVE: US to tell partners they must pick sides in AI race with China - reuters.com.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "Iran defiant on strait as Trump tells Americans to accept high gas prices - reuters.com",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOeUM3ajNSZS1FUnR1alRkTEx5QjBoNW1TSi1haWxKcmVLUlRlTWhTNVZJaVJGNkMtVVphd0xTbUtGbFRFUW5MZmh1MExTUmdZQmxpRGNMRkhaeExUemtveEFLQ0cydmJhT2JpNFY3TDVLUGlTekY0RHZJVE5EOEItMml3SlAwTlNLY2pkdUp1bjdSNTdmVGY3Vk1OdVgtOWFpRGlORHZ4NXQyVlc1NEFTWTZoSEtwN3R1UlE?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Fri, 14 Aug 2026 20:35:00 GMT",
+      "summary": "Reuters: Iran defiant on strait as Trump tells Americans to accept high gas prices - reuters.com.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "US regulator approves bank charter for Trump-backed crypto company World Liberty Financial - reuters.com",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNOHAzWlJUdUZ3VndvNDNVbU1vRjMwalBSZUxCVHVwWFBaWnJuend3SXZVMDI3YjA0c2F6SWh2emFEM2lPRWtOWV85MmRRTlYxUWxBbkE4S0dha0toS2xnVXh5UmVNcGxzWWxOQzlrRGRGLW03UGxSa2ZLLUk5SjRlX041LWFWdEV0cDJwLUlKZGlVU1FEbWV5SFYwZ0w1bGVOeW9HWTRtV1pvbkZ6TDNNZ183eXFTTWVmZ0E?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Fri, 14 Aug 2026 22:06:05 GMT",
+      "summary": "Reuters: US regulator approves bank charter for Trump-backed crypto company World Liberty Financial - reuters.com.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "Trump says USS Abraham Lincoln deployment 'not nearly long enough' - reuters.com",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUzNsYmMxbVMzTEd5RnlEOUdmcmlRM1ZiaG1xTm93dXJUQ2otQ2trbUswV3hXeS16cldCbVNXeTFmV21PNlFrZXM3UmVoSHZRc01uNmJwWFZYeHB6RzhYYjFCWl90MXN1dzBUNnBCelhkSGF1bm1XTWZUdW91bElvVmFxYnhETTlWOGlrangzYzl6aDVNd1VsUUNNNEtwMUtlOWFlaVU5Q09CcWE2WUE?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Fri, 14 Aug 2026 21:23:22 GMT",
+      "summary": "Reuters: Trump says USS Abraham Lincoln deployment 'not nearly long enough' - reuters.com.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "Son of former Mexican president says US revoked his visa - reuters.com",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOa3Y1Vi1LUVJ3aWlaQVNWaEMtcUJ0YWowZ3dwSUVIZm05d2ZWbkk5OXUxU2Q0RkdodmR2a2xuamRwYXJWMjZWMVVpRV84YlhyVEg4Q0ZhOG1RY0xBSzVseXhzeTY4bkc3ZTRHMllZVDB2UU9EQm56TnpPck5WYmNNR1JkZnVCYkJwbUFZMkwtY0lPM2JIdERWa1VaLXRjYTh3OVNCN1lMOA?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Fri, 14 Aug 2026 16:43:55 GMT",
+      "summary": "Reuters: Son of former Mexican president says US revoked his visa - reuters.com.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    }
+  ],
+  "markets": [
+    {
+      "id": "sp-500",
+      "label": "S&P 500",
+      "region": "US",
+      "symbol": "^GSPC",
+      "value": 7785.76,
+      "previousClose": 7798.990469,
+      "change": -13.230469,
+      "percentChange": -0.16964336,
+      "direction": "down",
+      "sessionDate": "2026-08-15"
+    },
+    {
+      "id": "nasdaq-composite",
+      "label": "NASDAQ Composite",
+      "region": "US",
+      "symbol": "^IXIC",
+      "value": 26729.164,
+      "previousClose": 26803.02533,
+      "change": -73.86133,
+      "percentChange": -0.27557087,
+      "direction": "down",
+      "sessionDate": "2026-08-15"
+    },
+    {
+      "id": "euronext-100",
+      "label": "Euronext 100 Index",
+      "region": "Europe",
+      "symbol": "^N100",
+      "value": 1969.87,
+      "previousClose": 1974.9399463,
+      "change": -5.0699463,
+      "percentChange": -0.25671396,
+      "direction": "down",
+      "sessionDate": "2026-08-15"
+    },
+    {
+      "id": "moex",
+      "label": "Public Joint-Stock Company Moscow Exchange MICEX-RTS",
+      "region": "Europe",
+      "symbol": "MOEX.ME",
+      "value": 85.2,
+      "previousClose": 85.31000061,
+      "change": -0.11000061,
+      "percentChange": -0.12894222,
+      "direction": "down",
+      "sessionDate": "2026-08-15"
+    },
+    {
+      "id": "hang-seng",
+      "label": "HANG SENG INDEX",
+      "region": "Asia",
+      "symbol": "^HSI",
+      "value": 25116.85,
+      "previousClose": 25396.510159999998,
+      "change": -279.66016,
+      "percentChange": -1.1011755,
+      "direction": "down",
+      "sessionDate": "2026-08-15"
+    },
+    {
+      "id": "nikkei-225",
+      "label": "Nikkei 225",
+      "region": "Asia",
+      "symbol": "^N225",
+      "value": 68713.8,
+      "previousClose": 68308.59688,
+      "change": 405.20312,
+      "percentChange": 0.59319496,
+      "direction": "up",
+      "sessionDate": "2026-08-15"
+    },
+    {
+      "id": "sensex",
+      "label": "S&P BSE SENSEX",
+      "region": "India",
+      "symbol": "^BSESN",
+      "value": 78009.25,
+      "previousClose": 78079.96094,
+      "change": -70.71094,
+      "percentChange": -0.09056221,
+      "direction": "down",
+      "sessionDate": "2026-08-15"
+    }
+  ],
+  "hackerNews": [
+    {
+      "title": "Magnitude 7.7 Earthquake – 68 km NNW of Ende, Indonesia",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkt2/executive",
+      "publishedAt": "2026-08-15T01:14:05.000Z",
+      "summary": "The Earthquake Event Page application supports most recent browsers, view supported browsers . Or, try our Real-time Notifications, Feeds, and Web Services .",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "Qwen 3.8 27B",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8",
+      "publishedAt": "2026-08-14T15:00:00.000Z",
+      "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+      "thumbnailUrl": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/Qwen/Qwen3.8-27B-FP8.png"
+    },
+    {
+      "title": "Going Dark, and the era of law enforcement hacking",
+      "url": "https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark/",
+      "publishedAt": "2026-08-14T20:52:44.000Z",
+      "summary": "blog.cryptographyengineering.com: Going Dark, and the era of law enforcement hacking."
+    },
+    {
+      "title": "The Ploopy A+ Trackball Is Here",
+      "url": "https://blog.ploopy.co/the-aplus-is-finally-here-499",
+      "publishedAt": "2026-08-15T00:55:31.000Z",
+      "summary": "blog.ploopy.co: The Ploopy A+ Trackball Is Here."
+    },
+    {
+      "title": "Simplifying and Refactoring Introductory Calculus",
+      "url": "https://arxiv.org/abs/1811.03459",
+      "publishedAt": "2026-08-15T00:15:23.000Z",
+      "summary": "First year calculus is often taught in a way that is very burdensome to the student. Students have to memorize a diversity of processes for essentially performing the same task. However, many calculus processes can be simplified and streamlined so that fewer concepts can provide more flexibility and capability for first-year students.",
+      "thumbnailUrl": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    },
+    {
+      "title": "Google is making private AI practical with homomorphic encryption",
+      "url": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/",
+      "publishedAt": "2026-08-14T15:43:10.000Z",
+      "summary": "Today we're excited to showcase HEIR, the latest powerful tool added to our Private Computing Toolkit. HEIR is an open source compiler that unlocks cryptographically-sec…",
+      "thumbnailUrl": "https://blog.google/static/blogv2/images/google-1000x1000.png?version=pr20260729-1718"
+    },
+    {
+      "title": "RustDesk now supports true unattended remote access on Wayland",
+      "url": "https://rustdesk.com/blog/unattended-remote-access-wayland/",
+      "publishedAt": "2026-08-14T16:12:52.000Z",
+      "summary": "RustDesk brings true unattended remote access to Wayland, with multi-monitor support. A preview build for x86_64 Debian/Ubuntu-based systems is available now.",
+      "thumbnailUrl": "https://rustdesk.com/_astro/unattended-remote-access-wayland-og.BOcMxzVY_212cpk.webp"
+    },
+    {
+      "title": "eigendrum",
+      "url": "https://eigendrum.com/#p=circle",
+      "publishedAt": "2026-08-14T22:15:12.000Z",
+      "summary": "Draw any shape and hear it as a drum. Every frequency is solved from your outline with finite elements, never sampled. Includes the two drums that sound identical but are not the same shape.",
+      "thumbnailUrl": "https://eigendrum.com/docs/hero.png"
+    },
+    {
+      "title": "Firefox is now the last major browser that still supports uBlock Origin",
+      "url": "https://www.pcworld.com/article/3212428/firefox-is-now-the-last-major-browser-that-still-supports-ublock-origin.html",
+      "publishedAt": "2026-08-14T19:03:20.000Z",
+      "summary": "Firefox says it will keep supporting uBlock Origin even as Microsoft Edge and other Chromium browsers phase it out under Manifest V3.",
+      "thumbnailUrl": "https://www.pcworld.com/wp-content/uploads/2026/08/3212428-0-62401400-1786636364-Firefox-foto-mozilla.png?w=1024"
+    },
+    {
+      "title": "AI by Hand",
+      "url": "https://www.byhand.ai/",
+      "publishedAt": "2026-08-14T15:58:59.000Z",
+      "summary": "Math, Algorithms, Architectures, by hand. Click to read AI by Hand ✍️, by Prof. Tom Yeh, a Substack publication with tens of thousands of subscribers.",
+      "thumbnailUrl": "https://substackcdn.com/image/fetch/$s_!uug6!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Faibyhand.substack.com%2Ftwitter%2Fsubscribe-card.jpg%3Fv%3D-636237388%26version%3D9"
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "Openmotion",
+      "tagline": "Turn product screenshots and prompts into motion videos",
+      "url": "https://www.producthunt.com/products/openmotion",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-08-14T19:49:33-07:00"
+    },
+    {
+      "name": "Basedash Tasks",
+      "tagline": "Run your business on autopilot",
+      "url": "https://www.producthunt.com/products/basedash",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-08-14T17:01:58-07:00"
+    },
+    {
+      "name": "Freebuff",
+      "tagline": "Free coding agents to kill Claude, Cursor, Replit, and Devin",
+      "url": "https://www.producthunt.com/products/freebuff-2",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-08-14T19:48:40-07:00"
+    },
+    {
+      "name": "NS1",
+      "tagline": "Personalized Nervous System Training",
+      "url": "https://www.producthunt.com/products/ns1",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-08-14T19:08:46-07:00"
+    },
+    {
+      "name": "Hoplite",
+      "tagline": "Effortlessly deploy cloud software factories.",
+      "url": "https://www.producthunt.com/products/hoplite",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-08-14T19:27:40-07:00"
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "News and markets",
+      "sentences": [
+        "Global headlines: IDF troops stood by as West Bank settlers besieged Palestinian homes (When Israeli extremists arrived in Qusra to force Palestinians from their homes, residents hoped the Israel Defense Forces would come to their aid); FDA travels to Mexico a month after linking Taylor Farms to cyclospora outbreak (Senior FDA official confirms that inspectors were on-site at the Taylor Farms processing facility and plan to be in the fields next); and Would Hong Wang have won her historic math prize if she had stayed in China? (The success of Wang and other young Chinese mathematicians abroad has sparked discussion about the country’s education system).",
+        "Markets leaned lower, with 6 of 7 tracked indexes down; HANG SENG INDEX down 1.10% was the largest move.",
+        "Benchmarks tracked: S&P 500, NASDAQ Composite, Euronext 100 Index, and Public Joint-Stock Company Moscow Exchange MICEX-RTS plus 3 more indexes."
+      ]
+    },
+    {
+      "title": "Hacker News and Product Hunt",
+      "sentences": [
+        "Hacker News: Magnitude 7.7 Earthquake – 68 km NNW of Ende, Indonesia (The Earthquake Event Page application supports most recent browsers, view supported browsers . Or, try our Real-time Notifications, Feeds,...); Qwen 3.8 27B (We’re on a journey to advance and democratize artificial intelligence through open source and open science); and Going Dark, and the era of law enforcement hacking (blog.cryptographyengineering.com: Going Dark, and the era of law enforcement hacking).",
+        "Product Hunt features Openmotion (Turn product screenshots and prompts into motion videos), Basedash Tasks (Run your business on autopilot), and Freebuff (Free coding agents to kill Claude, Cursor, Replit, and Devin)."
+      ]
+    }
+  ],
+  "sourceNotes": {
+    "generatedAt": "2026-08-15T02:52:30.644Z",
+    "timeZone": "Asia/Kolkata",
+    "successfulSources": [
+      "Washington Post",
+      "Al Jazeera",
+      "NPR",
+      "China Daily",
+      "The Hindu",
+      "Reuters"
+    ],
+    "marketSessionLabel": "Latest market sessions as of 2026-08-15",
+    "warnings": []
+  }
+}
