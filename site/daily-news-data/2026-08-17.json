@@ -1,0 +1,505 @@
+{
+  "headlines": [
+    {
+      "title": "U.S. commander calls mental health a priority after he visits USS Lincoln",
+      "url": "https://www.washingtonpost.com/world/2026/08/16/us-commander-calls-mental-health-priority-after-he-visits-uss-lincoln/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Mon, 17 Aug 2026 00:41:27 +0000",
+      "summary": "Amid reports of burnout and poor conditions on the USS Abraham Lincoln, Adm. Brad Cooper acknowledged that long stretches at sea can be challenging but said some of the concerns raised were \"old news.\"",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "Jared Kushner meets Hamas on Mideast trip to push Gaza deal",
+      "url": "https://www.washingtonpost.com/world/2026/08/16/jared-kushner-meets-hamas-mideast-trip-push-gaza-deal/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Sun, 16 Aug 2026 21:21:23 +0000",
+      "summary": "The president's son-in-law and envoy is expected in Jerusalem on Monday for talks with Israeli Prime Minister Benjamin Netanyahu, who last week rejected the Trump-backed 15-point plan.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "Shocking death of former professor reverberates at Cambridge — and well beyond",
+      "url": "https://www.washingtonpost.com/world/2026/08/15/death-black-scholar-jason-arday-reverberates-cambridge-beyond/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Sat, 15 Aug 2026 21:36:18 +0000",
+      "summary": "The death of Jason Arday, 41, came a little more than a week after he resigned from his post at the university amid accusations of plagiarism that ignited a culture-war firestorm.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "At least 47 dead after 7.7-magnitude quake strikes Indonesia",
+      "url": "https://www.washingtonpost.com/world/2026/08/15/77-magnitude-earthquake-off-flores-island-indonesia-kills-least-38/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Sat, 15 Aug 2026 16:42:00 +0000",
+      "summary": "The earthquake took place around 5 a.m. and was centered off the coast of Flores Island in the quake-prone archipelago.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "How to beat an earthquake: The Colombian city where no one died",
+      "url": "https://www.washingtonpost.com/world/2026/08/15/how-beat-an-earthquake-colombian-city-where-no-one-died/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Sat, 15 Aug 2026 15:13:00 +0000",
+      "summary": "A deadly temblor devastated Armenia in 1999, spurring a reconstruction that allowed the city to build back stronger. When disaster struck this time, it was prepared.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "Zambia incumbent takes early election lead as opposition alleges armed raid",
+      "url": "https://www.aljazeera.com/news/2026/8/17/zambia-incumbent-takes-early-election-lead-as-opposition-alleges-armed-raid",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-08-17",
+      "summary": "President Hakainde Hichilema appears on course for outright win as observers cite violence and a tilted campaign field.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/08/afp_6a826c5ecae5-1786932318.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Ebola outbreak in DR Congo becomes deadliest in country’s history",
+      "url": "https://www.aljazeera.com/news/2026/8/17/ebola-outbreak-in-dr-congo-becomes-deadliest-in-countrys-history",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-08-17",
+      "summary": "A top UN official says 'speed, scale, and solidarity' needed 'before this virus gets even further ahead of us'.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/08/afp_6a7de8a1f313-1786636450.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Israeli settlers pitch tents for new illegal outpost in occupied West Bank",
+      "url": "https://www.aljazeera.com/news/2026/8/17/israeli-settlers-pitch-tents-for-new-illegal-outpost-in-occupied-west-bank",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-08-17",
+      "summary": "UN Special Rapporteur Albanese warns that Israel is 'using settlers to advance ethnic cleansing' in the West Bank.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/08/afp_6a8246ad7834-1786922669.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Can the AU make its current Sudan mission count?",
+      "url": "https://www.aljazeera.com/news/2026/8/17/can-the-au-make-its-current-sudan-mission-count",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-08-17",
+      "summary": "The African Union is seeking progress in Sudan, but must overcome deep battlefield and diplomatic divisions.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/08/AP25234546087165-1786354637.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Trump says US to ‘substantially reduce’ military drills with South Korea",
+      "url": "https://www.aljazeera.com/news/2026/8/17/trump-says-us-to-substantially-reduce-military-drills-with-south-korea",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-08-17",
+      "summary": "US president says he's 'not happy' about the drills, citing his 'very good relationship' with North Korea's Kim Jong Un.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/08/getty_6a823fd8d7-1786920920.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Multiple people dead as flooding continues in Indiana",
+      "url": "https://www.npr.org/2026/08/16/nx-s1-5934670/indiana-flooding-deaths",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Sun, 16 Aug 2026 16:38:40 -0400",
+      "summary": "Some parts of Indiana received more than 11 inches of rainfall over three days, beginning Aug. 11, causing record floods. Several suburbs of Indianapolis also underwater.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4932x3288+0+0/resize/4932x3288!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F51%2Fa6%2F641fbac946498d84f086abf5fea5%2Fap26228638548863.jpg"
+    },
+    {
+      "title": "Kushner meets with Hamas on the Gaza road map ahead of talks with Netanyahu",
+      "url": "https://www.npr.org/2026/08/16/g-s1-138948/kushner-gaza-hamas-netanyahu-egypt-talks",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Sun, 16 Aug 2026 16:20:22 -0400",
+      "summary": "Jared Kushner, President Trump's son-in-law, held a rare meeting with Hamas leadership Sunday in Egypt, in a new diplomatic effort to make progress in the stalled Gaza ceasefire.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/7295x4863+0+0/resize/7295x4863!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fce%2Fe7%2Fa09053624bd6bf05bc01b10f7fad%2Fap26226028475268.jpg"
+    },
+    {
+      "title": "Tommy John, namesake for a pioneering elbow surgery that saved his career, dies at 83",
+      "url": "https://www.npr.org/2026/08/16/g-s1-138941/tommy-john-elbow-surgery-baseball-pitcher-yankees-dodgers",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Sun, 16 Aug 2026 14:58:25 -0400",
+      "summary": "The left-handed MLB pitcher was 31 years old when he tore the ulnar collateral ligament in his pitching elbow in 1974, an injury that had been a death knell for pitchers' careers up to that point.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x2052+0+0/resize/3000x2052!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F25%2F1c%2F9f706cd24418811eb016bc536473%2Fap26228651805218.jpg"
+    },
+    {
+      "title": "A good – and bad – week for Italy's art police and museum security",
+      "url": "https://www.npr.org/2026/08/16/nx-s1-5933052/sicily-art-heist-museum-parma",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Sun, 16 Aug 2026 12:27:54 -0400",
+      "summary": "On Friday, Italian police said they'd recovered three paintings stolen from a museum near the city of Parma. By Saturday night, thieves in Sicily had made off with four more masterpieces.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6549x4366+0+0/resize/6549x4366!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Ff6%2Fa2%2F7d3af3734da5b17a68315fbf6df3%2Fap26228358395642.jpg"
+    },
+    {
+      "title": "Lala is again a tropical storm, sending drenching rain and winds across Hawaii",
+      "url": "https://www.npr.org/2026/08/16/g-s1-138926/lala-tropical-storm-hawaii-hurricane",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Sun, 16 Aug 2026 11:47:58 -0400",
+      "summary": "Hurricane Lala weakened to a tropical storm Sunday after skirting Hawaii without making landfall, but it wasn't done punishing the Big Island with hurricane-force gusts.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4032x3024+0+0/resize/4032x3024!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F68%2Fdf%2F35c8b1a046a9bf429e3c2d664e3e%2Fap26227836551537.jpg"
+    },
+    {
+      "title": "53 dead in Indonesia quake as rescue efforts continue",
+      "url": "https://www.chinadaily.com.cn/a/202608/17/WS6a82617da31073853ec53957.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-08-17",
+      "summary": "The death toll from a powerful earthquake that struck Indonesia's eastern islands has risen to 53, authorities said on Sunday, as rescuers searched for survivors trapped beneath landslides and collapsed buildings.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202608/17/6a82617da310738531591958.png"
+    },
+    {
+      "title": "Russia, Ukraine trade drone, missile strikes",
+      "url": "https://www.chinadaily.com.cn/a/202608/17/WS6a826e68a31073853ec53a1b.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-08-17",
+      "summary": "MOSCOW/KYIV — Hundreds of drones targeted Moscow on Sunday as Russia launched missile strikes in Kyiv and other Ukrainian cities, officials from the two sides said.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202608/17/6a826e68a310738531591cfb.jpeg"
+    },
+    {
+      "title": "Soccer, dust, dreams",
+      "url": "https://www.chinadaily.com.cn/a/202608/17/WS6a8264e2a31073853ec53988.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-08-17",
+      "summary": "Dust rose from the red-earth field as players sprinted for the ball. Children sat along the walls surrounding the field, while others climbed higher for a better view. Each goal was met with cheers from the crowd and blasts from plastic vuvuzela horns.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202608/17/6a8264e2a310738531591a3a.png"
+    },
+    {
+      "title": "Subnational ties forge lasting bonds",
+      "url": "https://www.chinadaily.com.cn/a/202608/14/WS6a7e73aea31073853ec5343f.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-08-14",
+      "summary": "Jeffrey Sullivan, director of systemwide athletics for Montgomery County Public Schools in Maryland, has not taken off a bracelet since February. A Chinese student from a visiting delegation knotted and tied it around his wrist and told him that it would bring luck for the entire year. Sullivan has no intention of removing it.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202608/14/6a7e73aea31073853158f99a.png"
+    },
+    {
+      "title": "Europe looks beyond as ties with US strain",
+      "url": "https://www.chinadaily.com.cn/a/202608/17/WS6a826d2aa31073853ec539fa.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-08-17",
+      "summary": "Editor's note: Amid shifting global geopolitics in recent decades, the trans-Atlantic bond is being reshaped. China Daily will present a special series to examine these shifts and their long-term implications.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202608/17/6a826d2aa310738531591c64.jpeg"
+    },
+    {
+      "title": "Asish Banerjee, former Bengal Minister and Trinamool leader, found dead in party office",
+      "url": "https://www.thehindu.com/news/national/west-bengal/asish-banerjee-former-bengal-minister-and-trinamool-leader-found-dead-in-party-office/article71352050.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-08-16T05:36:51.000Z",
+      "summary": "Former Trinamool leader Asish Banerjee found dead in party office, leaving behind a note denying corruption allegations.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/wlvc7m/article71352078.ece/alternates/LANDSCAPE_1200/HP0dEGZbcAARv8X.jpg"
+    },
+    {
+      "title": "Proud to be ‘dimagi Naxal’: Congress’ P. Chidambaram hits back at PM",
+      "url": "https://www.thehindu.com/news/national/proud-to-be-dimagi-naxal-congress-p-chidambaram-hits-back-at-pm/article71352058.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-08-16T05:29:54.000Z",
+      "summary": "P. Chidambaram defends himself as a 'dimagi Naxal' in response to PM Modi's controversial remarks about ideological dissent.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/kei6r0/article71352081.ece/alternates/LANDSCAPE_1200/PTI08_12_2026_000224A.jpg"
+    },
+    {
+      "title": "Rahul Gandhi’s disproportionate assets case: Supreme Court to hear plea against HC on August 17",
+      "url": "https://www.thehindu.com/news/national/rahul-gandhis-disproportionate-assets-case-supreme-court-to-hear-plea-against-hc-on-august-17/article71352256.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-08-16T07:28:58.000Z",
+      "summary": "Supreme Court to hear Rahul Gandhi's plea challenging HC order on disproportionate assets case on August 17, 2026.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/96ep9f/article71352275.ece/alternates/LANDSCAPE_1200/PTI08_13_2026_000509A.jpg"
+    },
+    {
+      "title": "'Congress policy to oppose anything patriotic': BJP on Vande Mataram 'insult'",
+      "url": "https://www.thehindu.com/news/national/congress-policy-to-oppose-anything-patriotic-bjp-on-vande-mataram-insult/article71352428.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-08-16T09:54:44.000Z",
+      "summary": "BJP accuses Congress of opposing patriotism after alleged disrespect towards Vande Mataram during Independence Day celebrations.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/wh0prd/article71352454.ece/alternates/LANDSCAPE_1200/15_ANURAG_THAKUR_DELHI_18_04_DELHI.jpg"
+    },
+    {
+      "title": "ONGC gets U.S. licence to resume full Venezuela operations, eyes operatorship",
+      "url": "https://www.thehindu.com/news/national/ongc-gets-us-licence-to-resume-full-venezuela-operations-eyes-operatorship/article71352290.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-08-16T07:54:30.000Z",
+      "summary": "ONGC receives U.S. license to resume full operations in Venezuela, aiming to expand production and take over operatorship from PDVSA.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/l3odce/article71352310.ece/alternates/LANDSCAPE_1200/2026-08-04T152049Z_2101956819_RC2WWJAUT9IB_RTRMADP_3_ONGC-RESULTS.JPG"
+    },
+    {
+      "title": "EU plans most far-reaching sanctions package against Russia in autumn, foreign chief says",
+      "url": "https://www.reuters.com/world/europe/eu-plans-most-far-reaching-sanctions-package-against-russia-autumn-foreign-chief-2026-08-17/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Mon, 17 Aug 2026 00:05:00 GMT",
+      "summary": "Reuters: EU plans most far-reaching sanctions package against Russia in autumn, foreign chief says.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/FA2FXZR6Q5IUHGHSVARIPS4JVU.jpg?auth=8fa6ae28d4bc7312eca9dde22851e1e53d75e8e8c23fac51bb4ff4d3a24b73a0&width=1920&quality=80"
+    },
+    {
+      "title": "Trump orders Pentagon to cut back military exercises with South Korea",
+      "url": "https://www.reuters.com/world/china/trump-instructs-pentagon-reduce-military-exercises-with-south-korea-2026-08-16/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Sun, 16 Aug 2026 21:39:00 GMT",
+      "summary": "Reuters: Trump orders Pentagon to cut back military exercises with South Korea.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/TINJK66XBJPSFA7L2QDC5TZETU.jpg?auth=dda6b59f053024668596a0ae95a2d43d806a6d8bffb91c57f1c800af060387ca&width=1080&quality=80"
+    },
+    {
+      "title": "Yen edges up as traders push back Fed rate hike bets",
+      "url": "https://www.reuters.com/world/asia-pacific/yen-edges-up-traders-push-back-fed-rate-hike-bets-2026-08-17/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Mon, 17 Aug 2026 00:42:06 GMT",
+      "summary": "Reuters: Yen edges up as traders push back Fed rate hike bets.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/T7OT5HPHR5KS7JGSEQ3D4T6CRA.jpg?auth=26846a805f10388311dbf3318ad52db6667d25a4617336097554b57f7d3bc0dc&width=1920&quality=80"
+    },
+    {
+      "title": "Asian shares mark time as Gulf war keeps oil prices up",
+      "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-17/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Mon, 17 Aug 2026 01:17:00 GMT",
+      "summary": "Reuters: Asian shares mark time as Gulf war keeps oil prices up.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/YYUMSJZ6YBKA5KCV4VOGC3A6EQ.jpg?auth=5a6b60aec27d9c7c15933ba79908f79052ca4844b08e5017c91830b400601b84&width=1920&quality=80"
+    },
+    {
+      "title": "Shipping slows through Strait of Hormuz after tanker attacks, data shows",
+      "url": "https://www.reuters.com/world/middle-east/shipping-via-hormuz-strait-slows-after-tanker-attacks-data-shows-2026-08-16/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Sun, 16 Aug 2026 23:54:51 GMT",
+      "summary": "Reuters: Shipping slows through Strait of Hormuz after tanker attacks, data shows.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/B2XWY4LYOBPD7LAQCE6TCBMCMQ.jpg?auth=546f033529e3285f0d772006e9dadb1fcdbe3dce4f93c8b82a5f04fd2cec5431&width=1920&quality=80"
+    }
+  ],
+  "markets": [
+    {
+      "id": "sp-500",
+      "label": "S&P 500",
+      "region": "US",
+      "symbol": "^GSPC",
+      "value": 7785.76,
+      "previousClose": 7798.990469,
+      "change": -13.230469,
+      "percentChange": -0.16964336,
+      "direction": "down",
+      "sessionDate": "2026-08-17"
+    },
+    {
+      "id": "nasdaq-composite",
+      "label": "NASDAQ Composite",
+      "region": "US",
+      "symbol": "^IXIC",
+      "value": 26729.16,
+      "previousClose": 26802.99594,
+      "change": -73.83594,
+      "percentChange": -0.2754764,
+      "direction": "down",
+      "sessionDate": "2026-08-17"
+    },
+    {
+      "id": "euronext-100",
+      "label": "Euronext 100 Index",
+      "region": "Europe",
+      "symbol": "^N100",
+      "value": 1969.87,
+      "previousClose": 1974.9399463,
+      "change": -5.0699463,
+      "percentChange": -0.25671396,
+      "direction": "down",
+      "sessionDate": "2026-08-17"
+    },
+    {
+      "id": "moex",
+      "label": "Public Joint-Stock Company Moscow Exchange MICEX-RTS",
+      "region": "Europe",
+      "symbol": "MOEX.ME",
+      "value": 85.2,
+      "previousClose": 85.31000061,
+      "change": -0.11000061,
+      "percentChange": -0.12894222,
+      "direction": "down",
+      "sessionDate": "2026-08-17"
+    },
+    {
+      "id": "hang-seng",
+      "label": "HANG SENG INDEX",
+      "region": "Asia",
+      "symbol": "^HSI",
+      "value": 25510.24,
+      "previousClose": 25116.849380000003,
+      "change": 393.39062,
+      "percentChange": 1.5662445,
+      "direction": "up",
+      "sessionDate": "2026-08-17"
+    },
+    {
+      "id": "nikkei-225",
+      "label": "Nikkei 225",
+      "region": "Asia",
+      "symbol": "^N225",
+      "value": 68721.44,
+      "previousClose": 68713.799375,
+      "change": 7.640625,
+      "percentChange": 0.011119491,
+      "direction": "up",
+      "sessionDate": "2026-08-17"
+    },
+    {
+      "id": "sensex",
+      "label": "S&P BSE SENSEX",
+      "region": "India",
+      "symbol": "^BSESN",
+      "value": 78009.25,
+      "previousClose": 78080,
+      "change": -70.75,
+      "percentChange": -0.090612195,
+      "direction": "down",
+      "sessionDate": "2026-08-17"
+    }
+  ],
+  "hackerNews": [
+    {
+      "title": "Qwen 3.8 27B is excellent, but it defaults to overthinking things",
+      "url": "https://simonwillison.net/2026/Aug/16/qwen-38-27b/",
+      "publishedAt": "2026-08-16T23:45:09.000Z",
+      "summary": "Friday’s big release was Qwen 3.8 27B, an Apache 2 licensed 27B parameter vision-capable LLM from Alibaba’s Qwen research lab. I’ve been looking forward to this one: 27B is an …",
+      "thumbnailUrl": "https://static.simonwillison.net/static/2026/qwen-thinking-bicycle-27b.jpg"
+    },
+    {
+      "title": "The Life and Death of Direct File [pdf]",
+      "url": "https://www.ischool.berkeley.edu/sites/default/files/vinton_report_5.pdf",
+      "publishedAt": "2026-08-17T00:17:57.000Z",
+      "summary": "ischool.berkeley.edu: The Life and Death of Direct File [pdf].",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "AGI-64 Brings Sierra Adventures to the Commodore 64",
+      "url": "https://meanhamster.com/news/agi-64-brings-sierra-adventures-to-the-commodore-64",
+      "publishedAt": "2026-08-17T01:45:36.000Z",
+      "summary": "Independent games and software for classic and modern computers since 1985.",
+      "thumbnailUrl": "https://meanhamster.com/brand/logo.png?dpl=dpl_J46Nx1toA9QTEuN85nNgZspNWHVp"
+    },
+    {
+      "title": "Rhombus 1.1 is now available",
+      "url": "https://blog.racket-lang.org/2026/08/rhombus-v1.1.html",
+      "publishedAt": "2026-08-17T00:48:21.000Z",
+      "summary": "Rhombus version 1.1 is now available! We are pleased to announce Rhombus 1.1 is now available from https://rhombus-lang.org/. _Rhombus is a general-purpose programming language that is easy to use and uniquely customizable._ As of this release:: A...",
+      "thumbnailUrl": "https://blog.racket-lang.org/img/racket-logo.svg"
+    },
+    {
+      "title": "A 3rd World Embedded Engineer Responds to \"RISC-V They Should Have Known Better\"",
+      "url": "https://rvembedded.com/blog_post/12/",
+      "publishedAt": "2026-08-16T17:01:07.000Z",
+      "summary": "Dmitry Grinberg published a long piece explaining his distaste for RISC-V, you can read his article here: RISC-V: They Should Have Known Better - Dmitry.GR . It went to the front page of Hacker News and it started a good argument on Lobsters. It is the most substantial criticism the architecture has had in a while and though I switched my entire stack away from STM32 and ARM to RISC-V and did a video on it about a year ago&nbsp; Goodbye STM32 ARM &ndash; Meet the CH32 RISC-V Chips That Replaced It! &nbsp;, part of me is infuriated because so much of what he said seems like a biased perspective.&nbsp;",
+      "thumbnailUrl": "https://rvembedded.com/static/main/images/rovari_logo_color_128w.png"
+    },
+    {
+      "title": "Claude: System Prompts",
+      "url": "https://platform.claude.com/docs/en/release-notes/system-prompts",
+      "publishedAt": "2026-08-16T12:48:21.000Z",
+      "summary": "See updates to the core system prompts on [claude.ai](https://claude.ai) and the [Claude iOS app](https://anthropic.com/ios) and [Claude Android app](https://anthropic.com/android).",
+      "thumbnailUrl": "https://platform.claude.com/docs/og?locale=en&path=release-notes/system-prompts&design-rev=1"
+    },
+    {
+      "title": "Reticulum – Decentralized Mesh Network",
+      "url": "https://reticulum.network/",
+      "publishedAt": "2026-08-16T23:59:10.000Z",
+      "summary": "Deutsch | English | Español | Nederlands | Polski | Português | Türkçe | Українська | 日本語 | 简体中文 Reticulum | Start | Hardware | Connect | Manual | Cryptography | Credits | Source | Donate",
+      "thumbnailUrl": "https://reticulum.network/gfx/reticulum_logo_512.png"
+    },
+    {
+      "title": "Protobuf has LSP support. You're welcome",
+      "url": "https://buf.build/blog/protobuf-lsp",
+      "publishedAt": "2026-08-16T18:48:27.000Z",
+      "summary": "Buf is proud to announce the first fully-featured, production-grade LSP server for Protobuf. The Language Server Protocol is the standard API for integrating language support into your favorite IDE or text editor, such as VSCode, IntelliJ, or Neovim. An LSP server provides the smarts that power go to definition, code completion, finding references, and semantics-aware syntax highlighting.",
+      "thumbnailUrl": "https://buf.build/images/cms/blog/69c3092bd98bec6b03e4d7e5_blog-protobuf-finally-has.png"
+    },
+    {
+      "title": "The federal keyword lists that canceled billions in research funding",
+      "url": "https://www.highereddive.com/news/inside-the-federal-keyword-lists-that-canceled-billions-in-research-funding/826203/",
+      "publishedAt": "2026-08-17T00:14:10.000Z",
+      "summary": "In court documents, the National Institutes of Health, the National Science Foundation and others shared which words they used to target grants.",
+      "thumbnailUrl": "https://imgproxy.divecdn.com/4clq03pB7r-xwWEsoDG37qjxom6fpB8VtcEULxf0UkY/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMjI0NjMwNzY1LmpwZw==.webp"
+    },
+    {
+      "title": "The AI Credit Resale Economy",
+      "url": "https://vectoral.com/blog/who-are-the-token-brokers",
+      "publishedAt": "2026-08-16T14:44:55.000Z",
+      "summary": "A look at the brokers buying unused AI credits from startups and reselling them — the marketplaces, the bulk-discount routers, and the message boards where off-market inference changes hands",
+      "thumbnailUrl": "https://cdn.ploy.ai/2eb2235a-6b78-4d32-9713-f051311d8809/user/c6ffdb67-screenshot-2026-08-10-at-3.18.58-pm.webp"
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "HarnessRouter Community Edition",
+      "tagline": "Open-source unified interface for agent harnesses",
+      "url": "https://www.producthunt.com/products/epsilla",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-08-16T19:54:03-07:00"
+    },
+    {
+      "name": "Expeditione",
+      "tagline": "The Interactive 3D Encyclopedia",
+      "url": "https://www.producthunt.com/products/expeditione",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-08-16T19:50:58-07:00"
+    },
+    {
+      "name": "AirAlarm",
+      "tagline": "Wake at the end of your sleep cycle",
+      "url": "https://www.producthunt.com/products/airalarm",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-08-16T19:23:45-07:00"
+    },
+    {
+      "name": "Chert",
+      "tagline": "Vapi for FaceTime: AI video agents in a few lines",
+      "url": "https://www.producthunt.com/products/chert",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-08-16T19:18:33-07:00"
+    },
+    {
+      "name": "CostLogic",
+      "tagline": "AI-powered construction takeoffs, estimates, and invoices",
+      "url": "https://www.producthunt.com/products/costlogic",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-08-16T19:02:04-07:00"
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "News and markets",
+      "sentences": [
+        "Global headlines: U.S. commander calls mental health a priority after he visits USS Lincoln (Amid reports of burnout and poor conditions on the USS Abraham Lincoln, Adm. Brad Cooper acknowledged that long stretches at sea can be challenging but said some of the concerns raised were \"old news.\"); Jared Kushner meets Hamas on Mideast trip to push Gaza deal (The president's son-in-law and envoy is expected in Jerusalem on Monday for talks with Israeli Prime Minister Benjamin Netanyahu, who last week rejected the Trump-backed 15-point plan); and Shocking death of former professor reverberates at Cambridge — and well beyond (The death of Jason Arday, 41, came a little more than a week after he resigned from his post at the university amid accusations of plagiarism that ignited a culture-war firestorm).",
+        "Markets leaned lower, with 5 of 7 tracked indexes down; HANG SENG INDEX up 1.57% was the largest move.",
+        "Benchmarks tracked: S&P 500, NASDAQ Composite, Euronext 100 Index, and Public Joint-Stock Company Moscow Exchange MICEX-RTS plus 3 more indexes."
+      ]
+    },
+    {
+      "title": "Hacker News and Product Hunt",
+      "sentences": [
+        "Hacker News: Qwen 3.8 27B is excellent, but it defaults to overthinking things (Friday’s big release was Qwen 3.8 27B, an Apache 2 licensed 27B parameter vision-capable LLM from Alibaba’s Qwen research lab. I’ve been...); The Life and Death of Direct File [pdf] (ischool.berkeley.edu: The Life and Death of Direct File [pdf]); and AGI-64 Brings Sierra Adventures to the Commodore 64 (Independent games and software for classic and modern computers since 1985).",
+        "Product Hunt features HarnessRouter Community Edition (Open-source unified interface for agent harnesses), Expeditione (The Interactive 3D Encyclopedia), and AirAlarm (Wake at the end of your sleep cycle)."
+      ]
+    }
+  ],
+  "sourceNotes": {
+    "generatedAt": "2026-08-17T02:59:58.160Z",
+    "timeZone": "Asia/Kolkata",
+    "successfulSources": [
+      "Washington Post",
+      "Al Jazeera",
+      "NPR",
+      "China Daily",
+      "The Hindu",
+      "Reuters"
+    ],
+    "marketSessionLabel": "Latest market sessions as of 2026-08-17",
+    "warnings": []
+  }
+}
