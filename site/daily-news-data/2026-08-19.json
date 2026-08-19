@@ -1,0 +1,503 @@
+{
+  "headlines": [
+    {
+      "title": "Russians pull billions from banks, fearing Kremlin will seize deposits for war",
+      "url": "https://www.washingtonpost.com/world/2026/08/18/russians-pull-cash-banks-fearing-kremlin-will-seize-deposits-war/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Tue, 18 Aug 2026 09:00:00 +0000",
+      "summary": "Russians are withdrawing billions, causing liquidity problems for banks and undermining the Kremlin’s ability to issue bonds to finance the fight in Ukraine.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "U.S. Navy destroyer lost power for 4 days in South China Sea",
+      "url": "https://www.washingtonpost.com/national-security/2026/08/17/us-navy-destroyer-lost-power-4-days-south-china-sea/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Mon, 17 Aug 2026 22:17:09 +0000",
+      "summary": "The ship’s crew lost access last month to drinkable water, running toilets and air conditioning, as the fleet sees heavy use by the Trump administration.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "Kushner, Netanyahu make little progress on advancing Gaza deal after meeting",
+      "url": "https://www.washingtonpost.com/world/2026/08/17/jared-kushner-meet-with-israel-netanyahu-after-hamas-talks/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Mon, 17 Aug 2026 21:15:44 +0000",
+      "summary": "President Donald Trump’s son-in-law and envoy first held rare talks with Hamas’s new leader in Egypt over the weekend in his effort to advance the stalled 15-point plan.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "Trump defends his move to cut back U.S.-South Korea military exercises",
+      "url": "https://www.washingtonpost.com/politics/2026/08/17/trump-defends-his-move-cut-back-us-south-korea-military-exercises/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Mon, 17 Aug 2026 19:46:35 +0000",
+      "summary": "A day after attributing the decision to a good relationship with North Korea, President Donald Trump also tied the move to South Korea’s refusal to help with the Strait of Hormuz.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "Trump threatens to bomb Oman if it ‘gets in the way’",
+      "url": "https://www.washingtonpost.com/world/2026/08/17/trump-threatens-bomb-oman-if-it-gets-way/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Mon, 17 Aug 2026 15:08:03 +0000",
+      "summary": "The threat came in response to a question about negotiations between Iran and Oman regarding control of the Strait of Hormuz, according to a reporter.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "US refineries taking in half of Venezuela’s oil output, official says",
+      "url": "https://www.aljazeera.com/news/2026/8/19/venezuela-oil-exports-surge-with-us-refineries-taking-in-half-of-output",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-08-19",
+      "summary": "US official says Venezuela is sending 500,000 of its 1.25 million barrels per day output to Gulf Coast refineries.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/08/reuters_6a84d529-1787090217.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "How Ebola became the deadliest outbreak in DR Congo’s history",
+      "url": "https://www.aljazeera.com/news/2026/8/19/how-ebola-became-the-deadliest-outbreak-in-dr-congos-history",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-08-19",
+      "summary": "Conflict, delayed detection, and mistrust are complicating efforts to contain the virus in eastern DR Congo.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/08/Health-workers-at-Samaritans-Purse-held-Ebola-treatment-center-in-Bunia-1787100403.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Quebec separatist says no independence referendum while Trump in office",
+      "url": "https://www.aljazeera.com/news/2026/8/19/quebec-separatist-says-no-independence-referendum-while-trump-in-office",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-08-19",
+      "summary": "Leader of Canadian province's secessionist party says debate over independence stymied by turbulence in US politics.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/08/quebec-1787107171.jpeg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Trump denies talks with Iran; Tehran claims US begging for negotiation",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/8/19/iran-war-live-trump-denies-iran-talks-tehran-claims-us-begging",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-08-19",
+      "summary": "Trump says no talks with Tehran scheduled; Iranian Foreign Minister Abbas Araghchi claims US 'begging' for negotiations.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/08/2026-08-18T100603Z_21787800_RC254MADD54X_RTRMADP_3_IRAN-CRISIS-HORMUZ-1787092373.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Democrats call for USS Lincoln probe, question US Navy’s readiness",
+      "url": "https://www.aljazeera.com/news/2026/8/18/democrats-call-for-uss-lincoln-probe-question-us-navys-readiness",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-08-18",
+      "summary": "Lawmakers question whether conditions on the aircraft carrier indicate a 'pattern' of poor planning amid the Iran war.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/08/reuters_6a7e82e0-1786675936.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Key results from Florida primaries, so far",
+      "url": "https://www.npr.org/2026/08/18/nx-s1-5936403/what-to-watch-for-in-the-florida-primaries",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Tue, 18 Aug 2026 17:01:17 -0400",
+      "summary": "Voters in Florida are picking their party's candidates for governor, Senate and a number of U.S. House seats after redistricting.",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "Embattled Florida Republican Rep. Cory Mills loses his fight to keep his House seat",
+      "url": "https://www.npr.org/2026/08/18/nx-s1-5936435/mills-elijah-florida-republican-primary",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Tue, 18 Aug 2026 16:04:18 -0400",
+      "summary": "Mills is the latest lawmaker in a recent string of congressional members facing scandals and allegations of domestic abuse while trying to run for elected office.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5133x3501+0+0/resize/5133x3501!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F70%2Ffd%2Fb47a5ae64690be351afd5d42cb40%2Fgettyimages-2272586675.jpg"
+    },
+    {
+      "title": "ABC and Disney sue FCC, alleging First Amendment violations",
+      "url": "https://www.npr.org/2026/08/18/nx-s1-5936406/abc-and-disney-sue-fcc-alleging-first-amendment-violations",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Tue, 18 Aug 2026 15:51:27 -0400",
+      "summary": "The ABC network has sued the Federal Communications Commission, alleging that the Trump administration is violating its First Amendment rights by challenging ABC broadcast licenses and investigating the network's talk show The View .",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4869x3246+0+0/resize/4869x3246!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Faa%2F16%2F5590d60f455c8620de482e79bc69%2Fgettyimages-2268801233.jpg"
+    },
+    {
+      "title": "'Profits won.' The child safety trial against Meta kicks off in federal court",
+      "url": "https://www.npr.org/2026/08/18/nx-s1-5935458/meta-child-safety-social-media-addiction-trial-opening",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Tue, 18 Aug 2026 13:39:29 -0400",
+      "summary": "Opening arguments are underway in a trial that pits four states against the company that owns Facebook and Instagram. They allege that Meta knew its products could hook kids — and lied about the danger.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5712x4284+0+0/resize/5712x4284!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fb7%2F46%2Fd4d522204a66947a356eec9901ab%2Fimg-9750.jpg"
+    },
+    {
+      "title": "S. Korea stresses US alliance amid confusion over Trump drill cut",
+      "url": "https://www.npr.org/2026/08/18/g-s1-139096/s-korea-stresses-us-alliance-amid-confusion-over-trump-drill-cut",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Tue, 18 Aug 2026 11:19:40 -0400",
+      "summary": "Lee's comments Tuesday come as many South Koreans remain baffled and concerned about U.S. President Donald Trump's abrupt order to \"substantially reduce\" military exercises with South Korea.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3093x2128+0+0/resize/3093x2128!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F3d%2F09%2F3b50633a46d5903c3cc70220bcd1%2Fap26230133133563.jpg"
+    },
+    {
+      "title": "Sharing cultures, building connections",
+      "url": "https://www.chinadaily.com.cn/a/202608/19/WS6a85039ca3106bc57421c364.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-08-19",
+      "summary": "In a traditional courtyard, sunlight streamed through carved wooden windows, falling onto a table covered with bamboo strips and colorful paper. The courtyard belongs to a workshop in Hongcun, a historic village at the foot of Huangshan Mountain in East China's Anhui province.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202608/19/6a85039ca3106bc5df922c93.png"
+    },
+    {
+      "title": "Gaza stalemate continues as Israel, Hamas hold firm",
+      "url": "https://www.chinadaily.com.cn/a/202608/19/WS6a850da3a3106bc57421c406.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-08-19",
+      "summary": "JERUSALEM — US President Donald Trump's envoy Jared Kushner left Jerusalem on Monday without a breakthrough after two days of talks with Israeli and Hamas leaders over a stalled plan to end the conflict in Gaza, with both sides standing firm on key demands.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202608/19/6a850da3a3106bc5df922fbb.png"
+    },
+    {
+      "title": "Germany demands Apple revise app consent prompts",
+      "url": "https://www.chinadaily.com.cn/a/202608/19/WS6a8515c0a3106bc57421c472.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-08-19",
+      "summary": "United States tech giant Apple is set to revise the policies that govern third-party developers' use of personal data for ad targeting on iPhones and iPads, Germany's competition watchdog said on Monday, concluding a multiyear probe.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202608/19/6a8515c0a3106bc5df92311e.jpeg"
+    },
+    {
+      "title": "Poll to decide Malaysia's national fruit",
+      "url": "https://www.chinadaily.com.cn/a/202608/18/WS6a83b64ca3106bc57421c05f.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-08-18",
+      "summary": "KUALA LUMPUR — The Ministry of Agriculture and Food Security of Malaysia is proposing that the Department of Statistics Malaysia conduct a nationwide survey to gather public views on the choice for national fruit.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202608/18/6a83b64ca3106bc5df9219d2.png"
+    },
+    {
+      "title": "Envoy: International effort needed to resolve issues in Libya",
+      "url": "https://www.chinadaily.com.cn/a/202608/19/WS6a85178ba3106bc57421c48f.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-08-19",
+      "summary": "A Chinese envoy to the United Nations said that the international community must work toward a comprehensive and fundamental solution to the issues facing Libya and its long-delayed elections.",
+      "thumbnailUrl": "https://www.chinadaily.com.cn/image_e/2020/logo21.jpg"
+    },
+    {
+      "title": "Govt. to procure 405 key defence items from Indian industry",
+      "url": "https://www.thehindu.com/news/national/govt-to-procure-405-key-defence-items-from-indian-industry/article71361206.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-08-18T16:11:13.000Z",
+      "summary": "Govt. announces procurement of 405 defence items from Indian industry, boosting domestic manufacturing and reducing import dependence.",
+      "thumbnailUrl": "https://www.thehindu.com/theme/images/og-image.png"
+    },
+    {
+      "title": "Trump cites CEC Gyanesh Kumar to make case for U.S. voter ID law; Congress says ‘take him to America’",
+      "url": "https://www.thehindu.com/news/national/take-gyanesh-kumar-to-america-keep-him-there-pawan-kheras-response-to-trumps-post/article71360215.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-08-18T11:26:36.000Z",
+      "summary": "Pawan Khera sarcastically responds to Trump's SAVE Act proposal, suggesting taking India's election chief and EVMs to America.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/kjia9c/article71360221.ece/alternates/LANDSCAPE_1200/CONGRESS%20KHERA%20PC%20%20DELHI%202026_20_06_1.jpg"
+    },
+    {
+      "title": "Census 2027 questionnaire seeks parents’ religion, place of birth up to village level",
+      "url": "https://www.thehindu.com/news/national/census-2027-questionnaire-seeks-parents-religion-place-of-birth-up-to-village-level/article71361794.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-08-18T16:57:50.000Z",
+      "summary": "Census 2027 questionnaire collects detailed demographic data, including parents' religion and birthplace, along with caste options.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/news/national/vxjp17/article71361837.ece/alternates/LANDSCAPE_1200/a3cff4e0-164a-457f-b3d2-e55fcdf0c644.jpeg"
+    },
+    {
+      "title": "Past controversies resurface as new BJP social media team’s X posts disappear",
+      "url": "https://www.thehindu.com/news/national/past-controversies-resurface-as-new-bjp-social-media-teams-x-posts-disappear/article71360812.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-08-18T16:41:13.000Z",
+      "summary": "BJP's new social media team faces scrutiny as controversial posts vanish following Deepak Mhaske's appointment amid ongoing protests.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/todays-paper/tp-national/ukp7y7/article71358167.ece/alternates/LANDSCAPE_1200/TH17-PTI-BJP-2NG1PGDIK2L.5.jpg.jpg"
+    },
+    {
+      "title": "Dabholkar murder: Bombay HC grants bail to convict Sachin Andure, suspends his life sentence",
+      "url": "https://www.thehindu.com/news/national/maharashtra/dabholkar-murder-hc-grants-bail-to-convict-sachin-andure-suspends-his-life-sentence/article71359443.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-08-18T08:02:53.000Z",
+      "summary": "Bombay High Court grants bail to Sachin Andure, convicted in rationalist Narendra Dabholkar's murder, suspending his life sentence.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/9jss1i/article71359500.ece/alternates/LANDSCAPE_1200/Narendra_Dabholkar06.jpg"
+    },
+    {
+      "title": "Gold inches higher, focus on Fed minutes",
+      "url": "https://www.reuters.com/world/india/gold-inches-higher-focus-fed-minutes-2026-08-19/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Wed, 19 Aug 2026 00:59:00 GMT",
+      "summary": "Reuters: Gold inches higher, focus on Fed minutes.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/3AIXKYQRTJNOBJ7QZ7U6I6OWDA.jpg?auth=0aeab9ae8e8a62362dcc8a5265d3795a3885fe6ced27723236e3d5d5316579ff&width=1920&quality=80"
+    },
+    {
+      "title": "US working on deconfliction mechanism among Turkey, Israel and Syria, US envoy says",
+      "url": "https://www.reuters.com/world/middle-east/us-working-deconfliction-mechanism-among-turkey-israel-syria-us-envoy-says-2026-08-18/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Tue, 18 Aug 2026 19:42:10 GMT",
+      "summary": "Reuters: US working on deconfliction mechanism among Turkey, Israel and Syria, US envoy says.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/GUWVBXYC3RNG5IU3KPM4AWNKNY.jpg?auth=eca079d838cdebcd70d2f8ac0f6d4a2b1fa8383eac88b4bb8261ade0d5d2d4e8&width=1080&quality=80"
+    },
+    {
+      "title": "US securities regulator proposes long-awaited crypto rules",
+      "url": "https://www.reuters.com/world/us-sec-proposes-new-rules-crypto-assets-2026-08-18/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Tue, 18 Aug 2026 21:27:52 GMT",
+      "summary": "Reuters: US securities regulator proposes long-awaited crypto rules.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/P6B4PFPS6RLKDD3WK7NYRHY6Q4.jpg?auth=379477f27cea55089d83450cda4b9e7de9a8b7d84c1b2b0201832739f8628f98&width=1920&quality=80"
+    },
+    {
+      "title": "US sanctions ICC president, senior trial lawyer in latest attack on court",
+      "url": "https://www.reuters.com/world/asia-pacific/us-sanctions-international-criminal-court-president-treasury-department-website-2026-08-18/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Tue, 18 Aug 2026 22:42:56 GMT",
+      "summary": "Reuters: US sanctions ICC president, senior trial lawyer in latest attack on court.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/MR6JOAGNSZI3PAKWJK437Y3BV4.jpg?auth=6e073df4c6fa5852d3b7511839446a657e6ee9bc91a02c0b8593738029999445&width=1920&quality=80"
+    },
+    {
+      "title": "UAE says two missiles detected earlier were launched from Iran",
+      "url": "https://www.reuters.com/world/middle-east/uae-says-iran-launched-two-missiles-it-2026-08-18/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Tue, 18 Aug 2026 21:21:04 GMT",
+      "summary": "Reuters: UAE says two missiles detected earlier were launched from Iran.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/HNQBUNBYKVPYBEF24SWZDYG7AI.jpg?auth=17cb7a8a7d41accf0e5bd3f169faf7aad7aa77ad5c695dad96cf90eeff05d934&width=1920&quality=80"
+    }
+  ],
+  "markets": [
+    {
+      "id": "sp-500",
+      "label": "S&P 500",
+      "region": "US",
+      "symbol": "^GSPC",
+      "value": 7691.76,
+      "previousClose": 7745.0602930000005,
+      "change": -53.300293,
+      "percentChange": -0.6881844,
+      "direction": "down",
+      "sessionDate": "2026-08-19"
+    },
+    {
+      "id": "nasdaq-composite",
+      "label": "NASDAQ Composite",
+      "region": "US",
+      "symbol": "^IXIC",
+      "value": 26289.71,
+      "previousClose": 26644.909219999998,
+      "change": -355.19922,
+      "percentChange": -1.3330847,
+      "direction": "down",
+      "sessionDate": "2026-08-19"
+    },
+    {
+      "id": "euronext-100",
+      "label": "Euronext 100 Index",
+      "region": "Europe",
+      "symbol": "^N100",
+      "value": 1949.59,
+      "previousClose": 1970.910068,
+      "change": -21.320068,
+      "percentChange": -1.0817373,
+      "direction": "down",
+      "sessionDate": "2026-08-19"
+    },
+    {
+      "id": "moex",
+      "label": "Public Joint-Stock Company Moscow Exchange MICEX-RTS",
+      "region": "Europe",
+      "symbol": "MOEX.ME",
+      "value": 85.2,
+      "previousClose": 85.31000061,
+      "change": -0.11000061,
+      "percentChange": -0.12894222,
+      "direction": "down",
+      "sessionDate": "2026-08-19"
+    },
+    {
+      "id": "hang-seng",
+      "label": "HANG SENG INDEX",
+      "region": "Asia",
+      "symbol": "^HSI",
+      "value": 25474.59,
+      "previousClose": 25471.1505469,
+      "change": 3.4394531,
+      "percentChange": 0.013503069,
+      "direction": "up",
+      "sessionDate": "2026-08-19"
+    },
+    {
+      "id": "nikkei-225",
+      "label": "Nikkei 225",
+      "region": "Asia",
+      "symbol": "^N225",
+      "value": 65724.25,
+      "previousClose": 67460.7266,
+      "change": -1736.4766,
+      "percentChange": -2.5740554,
+      "direction": "down",
+      "sessionDate": "2026-08-19"
+    },
+    {
+      "id": "sensex",
+      "label": "S&P BSE SENSEX",
+      "region": "India",
+      "symbol": "^BSESN",
+      "value": 77235.46,
+      "previousClose": 77728.15530000001,
+      "change": -492.6953,
+      "percentChange": -0.6338698,
+      "direction": "down",
+      "sessionDate": "2026-08-19"
+    }
+  ],
+  "hackerNews": [
+    {
+      "title": "New paper shows that 37% of workers in US saw real wages decline from 2021-2024 [pdf]",
+      "url": "https://bfi.uchicago.edu/wp-content/uploads/2026/08/BFI_WP_2026-108-1.pdf",
+      "publishedAt": "2026-08-19T00:53:51.000Z",
+      "summary": "bfi.uchicago.edu: New paper shows that 37% of workers in US saw real wages decline from 2021-2024 [pdf].",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "Cerebras CS-4",
+      "url": "https://www.cerebras.ai/cs4",
+      "publishedAt": "2026-08-19T00:28:18.000Z",
+      "summary": "The Cerebras CS-4 delivers revolutionary AI performance, replacing hundreds of GPUs with a single wafer-scale chip. Accelerate AI workloads like never before.",
+      "thumbnailUrl": "https://cdn.sanity.io/images/e4qjo92p/production/21fa43f6d541115e57887beb1155bddc7541ae71-2400x1260.jpg?w=1200&h=630&fit=max&auto=format"
+    },
+    {
+      "title": "A 3D fruit fly on macOS desktop powered by the real FlyWire connectome",
+      "url": "https://github.com/DenisSergeevitch/desktop-fly",
+      "publishedAt": "2026-08-18T21:50:33.000Z",
+      "summary": "A 3D fruit fly living on your macOS desktop, driven by a live spiking simulation of the real FlyWire connectome - DenisSergeevitch/desktop-fly",
+      "thumbnailUrl": "https://opengraph.githubassets.com/f906e7cf99120b89a47b3ae96973e18548aef31c51d3b5a1eda86785150f4bdf/DenisSergeevitch/desktop-fly"
+    },
+    {
+      "title": "The Amazon tax",
+      "url": "https://seths.blog/2026/08/the-amazon-tax/",
+      "publishedAt": "2026-08-18T13:22:38.000Z",
+      "summary": "seths.blog: The Amazon tax."
+    },
+    {
+      "title": "Solo – a .so loader for static Linux binaries",
+      "url": "https://github.com/pg83/solo",
+      "publishedAt": "2026-08-18T23:51:49.000Z",
+      "summary": "Portable Linux binaries, solved. Contribute to pg83/solo development by creating an account on GitHub.",
+      "thumbnailUrl": "https://opengraph.githubassets.com/294e2709473623a5783c48dd2c4a01925e652b150fc3f7b13f0793e303c533b0/pg83/solo"
+    },
+    {
+      "title": "How does IKEA come up with names for its products?",
+      "url": "https://www.ikea.com/se/en/customer-service/knowledge/articles/6f564c4d-2ccc-46de-b643-545a3948dc79.html",
+      "publishedAt": "2026-08-18T18:11:53.000Z",
+      "summary": "Sweden - The product names of IKEA may sound strange even to us Swedish speakers. In other parts of the world, they are basically incomprehensible, but fun! He",
+      "thumbnailUrl": "https://www.ikea.com/global/assets/logos/brand/ikea.svg"
+    },
+    {
+      "title": "Meta's blockbuster trial draws parallels to big tobacco",
+      "url": "https://www.economist.com/business/2026/08/18/metas-blockbuster-trial-draws-parallels-to-big-tobacco",
+      "publishedAt": "2026-08-19T02:24:34.000Z",
+      "summary": "economist.com: Meta's blockbuster trial draws parallels to big tobacco."
+    },
+    {
+      "title": "OpenLogi",
+      "url": "https://openlogi.org/en",
+      "publishedAt": "2026-08-19T01:58:28.000Z",
+      "summary": "A native, local-first alternative to Logitech Options+, written in Rust. Remap buttons, drive DPI and SmartShift over HID++ — no account, no telemetry.",
+      "thumbnailUrl": "https://openlogi.org/social-preview.png"
+    },
+    {
+      "title": "That Disgraceful, Disreputable, (Wonderful) Form of Punctuation: The Parenthesis",
+      "url": "https://lithub.com/on-that-disgraceful-disreputable-wonderful-form-of-punctuation-the-parenthesis/",
+      "publishedAt": "2026-08-19T01:22:45.000Z",
+      "summary": "Shakespeare and friends would call punctuation “distinctions,” according to the Latin tradition, or “pointing,” because of the medieval practice of placing dots or points at different levels of the…",
+      "thumbnailUrl": "https://s26162.pcdn.co/wp-content/uploads/2026/08/parentheses.png"
+    },
+    {
+      "title": "AI usage patterns in software teams",
+      "url": "https://linear.app/data",
+      "publishedAt": "2026-08-18T22:08:07.000Z",
+      "summary": "AI usage patterns in software teams: who is adopting AI, how it reshapes where teams spend their time, and how much more they ship.",
+      "thumbnailUrl": "https://linear.app/static/og/data-v1.jpg"
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "Superflow AI",
+      "tagline": "AI agents that QA your website before launch",
+      "url": "https://www.producthunt.com/products/superflow-webflow-plugin-for-revisions",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-08-18T19:47:26-07:00"
+    },
+    {
+      "name": "Hubble",
+      "tagline": "Retrieve medical records other APIs can't",
+      "url": "https://www.producthunt.com/products/hubble-11",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-08-18T19:41:19-07:00"
+    },
+    {
+      "name": "Shepherd Terminal",
+      "tagline": "A persistent terminal for Codex and Claude side by side",
+      "url": "https://www.producthunt.com/products/shepherd-terminal-designed-for-agent",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-08-18T19:26:15-07:00"
+    },
+    {
+      "name": "ElevenLabs MCP in Claude",
+      "tagline": "Create and manage ElevenLabs voice agents in your chat",
+      "url": "https://www.producthunt.com/products/elevenlabs-mcp-2",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-08-18T19:26:14-07:00"
+    },
+    {
+      "name": "Finch",
+      "tagline": "A single place for your health data and tests",
+      "url": "https://www.producthunt.com/products/finch-6",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-08-18T19:44:09-07:00"
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "News and markets",
+      "sentences": [
+        "Global headlines: Russians pull billions from banks, fearing Kremlin will seize deposits for war (Russians are withdrawing billions, causing liquidity problems for banks and undermining the Kremlin’s ability to issue bonds to finance the fight in Ukraine); U.S. Navy destroyer lost power for 4 days in South China Sea (The ship’s crew lost access last month to drinkable water, running toilets and air conditioning, as the fleet sees heavy use by the Trump administration); and Kushner, Netanyahu make little progress on advancing Gaza deal after meeting (President Donald Trump’s son-in-law and envoy first held rare talks with Hamas’s new leader in Egypt over the weekend in his effort to advance the stalled 15-point plan).",
+        "Markets leaned lower, with 6 of 7 tracked indexes down; Nikkei 225 down 2.57% was the largest move.",
+        "Benchmarks tracked: S&P 500, NASDAQ Composite, Euronext 100 Index, and Public Joint-Stock Company Moscow Exchange MICEX-RTS plus 3 more indexes."
+      ]
+    },
+    {
+      "title": "Hacker News and Product Hunt",
+      "sentences": [
+        "Hacker News: New paper shows that 37% of workers in US saw real wages decline from 2021-2024 [pdf] (bfi.uchicago.edu: New paper shows that 37% of workers in US saw real wages decline from 2021-2024 [pdf]); Cerebras CS-4 (The Cerebras CS-4 delivers revolutionary AI performance, replacing hundreds of GPUs with a single wafer-scale chip. Accelerate AI...); and A 3D fruit fly on macOS desktop powered by the real FlyWire connectome (A 3D fruit fly living on your macOS desktop, driven by a live spiking simulation of the real FlyWire connectome -...).",
+        "Product Hunt features Superflow AI (AI agents that QA your website before launch), Hubble (Retrieve medical records other APIs can't), and Shepherd Terminal (A persistent terminal for Codex and Claude side by side)."
+      ]
+    }
+  ],
+  "sourceNotes": {
+    "generatedAt": "2026-08-19T02:57:33.088Z",
+    "timeZone": "Asia/Kolkata",
+    "successfulSources": [
+      "Washington Post",
+      "Al Jazeera",
+      "NPR",
+      "China Daily",
+      "The Hindu",
+      "Reuters"
+    ],
+    "marketSessionLabel": "Latest market sessions as of 2026-08-19",
+    "warnings": []
+  }
+}
