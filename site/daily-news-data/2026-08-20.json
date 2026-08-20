@@ -1,0 +1,455 @@
+{
+  "headlines": [
+    {
+      "title": "Alarm in South Korea as dispute with US over Iran shakes a 72-year alliance",
+      "url": "https://www.aljazeera.com/news/2026/8/20/alarm-in-south-korea-as-iran-dispute-with-trump-shakes-a-72-year-alliance",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-08-20",
+      "summary": "Trump's order to scale back military drills rattles Seoul, reviving doubts over US security guarantees.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/08/2026-03-16T082617Z_1488819421_RC2E5KAH65LK_RTRMADP_3_IRAN-CRISIS-SOUTHKOREA-PROTEST-1787187535.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Publisher of US military newspaper resigns over differences with government",
+      "url": "https://www.aljazeera.com/news/2026/8/20/publisher-of-us-military-newspaper-resigns-over-differences-with-government",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-08-20",
+      "summary": "Retirement of longtime Stars and Stripes publisher comes amid the Trump administration's push for editorial control.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/08/AP26015712020023-1787185917.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "‘Tsunami’ of emigration reshapes Israel’s future, experts warn",
+      "url": "https://www.aljazeera.com/news/2026/8/20/tsunami-of-emigration-reshapes-israels-future-experts-warn",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-08-20",
+      "summary": "Nearly 270,000 Israelis have left the country over three years, citing political uncertainty and security concerns.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/08/getty_6a8619d394-1787173331.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Nigeria’s election campaign begins with Tinubu facing a reform test",
+      "url": "https://www.aljazeera.com/news/2026/8/20/nigerias-election-campaign-begins-with-tinubus-reform-test",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-08-20",
+      "summary": "Rising costs fuel anger, but President Bola Tinubu’s machinery and opposition divisions may shape the race.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/08/2026-08-04T193540Z_1306600256_RC2I7LA8H5U7_RTRMADP_3_NIGERIA-MILITARY-1785968014.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Trump says US launching ‘most crushing economic operation’ against Iran",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/8/20/iran-war-live-trump-announces-most-crushing-iran-sanctions",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-08-20",
+      "summary": "Trump says Washington may resume talks with Tehran 'at some point'.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/08/AP26218279447356-1787178721.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "California passes toughest wildfire rules in the U.S. for home landscaping",
+      "url": "https://www.npr.org/2026/08/19/nx-s1-5937926/california-wildfire-rules-zone-zero-vegetation",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Wed, 19 Aug 2026 19:19:12 -0400",
+      "summary": "California has adopted the toughest new rules in the country that require homeowners to manage the plants around their houses. Fire experts say it helps protect houses from burning, but public pushback has been strong.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1024x609+0+0/resize/1024x609!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F9b%2F83%2F4b23779e4c45a5778db5255a4c92%2Fgettyimages-2192862644.jpg"
+    },
+    {
+      "title": "Experts raise alarms over Census Bureau report Trump is touting on noncitizen voting",
+      "url": "https://www.npr.org/2026/08/19/nx-s1-5938799/trump-census-bureau-noncitizen-voting",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Wed, 19 Aug 2026 17:27:51 -0400",
+      "summary": "A Trump-aligned think tank has ties to a highly unusual Census Bureau report that the president is using to renew false claims of widespread voting by non-U.S. citizens in 2020, NPR has learned.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/7559x5039+0+0/resize/7559x5039!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fdd%2F18%2F98ffac4743f685cc1e9adab74ed2%2Fgettyimages-2199418003.jpg"
+    },
+    {
+      "title": "Whistleblower Arturo Béjar leads testimony in landmark trial against Meta",
+      "url": "https://www.npr.org/2026/08/19/nx-s1-5936648/meta-trial-arturo-bejar-whistleblower-testimony",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Wed, 19 Aug 2026 17:20:15 -0400",
+      "summary": "The former Meta employee testified that the company culture prioritized user numbers over child safety measures.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x2000+0+0/resize/3000x2000!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F9d%2F2f%2Fddceaf2542398d1b564b346cbce8%2Fgettyimages-2290597246.jpg"
+    },
+    {
+      "title": "The U.S. debt tops a record-shattering $40 trillion. Yes, with a T",
+      "url": "https://www.npr.org/2026/08/19/nx-s1-5937552/the-u-s-debt-tops-a-record-shattering-40-trillion-yes-with-a-t",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Wed, 19 Aug 2026 16:09:39 -0400",
+      "summary": "The federal debt reached $40 trillion as the government adds red ink at a rapid rate. That's leading nervous investors to demand higher interest rates — pushing up borrowing costs for everyone else.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x2086+0+0/resize/3000x2086!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F5b%2Fdd%2F1c3635e949728c9542dc5c1a0838%2Fgettyimages-2284535020.jpg"
+    },
+    {
+      "title": "Former Fauci adviser Dr. David Morens pleads guilty to concealing COVID-related records",
+      "url": "https://www.npr.org/2026/08/19/nx-s1-5936636/covid-research-fauci-morens-foia-guilty",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Wed, 19 Aug 2026 15:45:11 -0400",
+      "summary": "Dr. David Morens, a former aide to Dr. Anthony Fauci, has pleaded guilty to violating federal law by trying to conceal emails about the origins of the COVID-1 pandemic.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6000x4000+0+0/resize/6000x4000!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F79%2Ffe%2Fb85204cc4a80a347365d7a885309%2Fgettyimages-2153586575.jpg"
+    },
+    {
+      "title": "US national debt tops $40 trillion for first time",
+      "url": "https://www.chinadaily.com.cn/a/202608/20/WS6a861c19a3106bc57421c697.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-08-20",
+      "summary": "WASHINGTON -- The US national debt has surpassed $40 trillion&nbsp;for the first time in history, according to data released by the Treasury Department on Wednesday.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202608/20/6a863b1ca3106bc5df923fd3.jpeg"
+    },
+    {
+      "title": "Animation hit takes ancient tales across ocean",
+      "url": "https://www.chinadaily.com.cn/a/202608/20/WS6a865a1ba3106bc57421c78e.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-08-20",
+      "summary": "Few would imagine that strands of lifesaving hair from Sun Wukong, the legendary Monkey King, could become an unexpected weapon for the Eight Immortals as they confront the powerful Yang Jian, or Erlang Shen, in All Wishes Come True! — a Chinese animated film bringing the centuries-old mythology to global screens.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202608/20/6a865a1aa3106bc5df924717.png"
+    },
+    {
+      "title": "US, Canada reach 'deal', temporarily delay tariffs",
+      "url": "https://www.chinadaily.com.cn/a/202608/20/WS6a8663dca3106bc57421c810.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-08-20",
+      "summary": "WASHINGTON — US President Donald Trump said on Tuesday he was delaying the 50 percent US tariffs on Canadian imports after the two countries reached a last-minute deal less than two hours before the sanctions were to go into effect.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202608/20/6a8663dca3106bc5df9248b6.jpeg"
+    },
+    {
+      "title": "UAE embargoes Iran over alleged attacks",
+      "url": "https://www.chinadaily.com.cn/a/202608/20/WS6a85ead1a3106bc57421c68b.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-08-20",
+      "summary": "The conflict between the United States and Iran has entered a new phase of political attrition. The United Arab Emirates on Tuesday announced the suspension of all trade and financial dealings with Iran after alleging that two Iranian missiles targeting maritime navigation fell into the sea, a claim immediately rejected by Tehran.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202608/20/6a863d40a3106bc5df923ff8.jpeg"
+    },
+    {
+      "title": "China to strengthen ties with Ecuador",
+      "url": "https://www.chinadaily.com.cn/a/202608/20/WS6a864ea5a3106bc57421c720.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-08-20",
+      "summary": "Premier Li Qiang and top legislator Zhao Leji met separately with visiting Ecuadorian President Daniel Roy-Gilchrist Noboa Azin in Beijing on Wednesday.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202608/20/6a864ea5a3106bc5df92437b.jpeg"
+    },
+    {
+      "title": "Staines triple murder case: Supreme Court gives ultimatum to Odisha on Dara Singh’s remission plea",
+      "url": "https://www.thehindu.com/news/national/staines-triple-murder-case-sc-gives-ultimatum-to-odisha-on-dara-singhs-remission-plea/article71364242.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-08-19T10:11:17.000Z",
+      "summary": "Supreme Court warns Odisha government on delaying decision regarding Dara Singh's remission plea for the Staines triple murder case.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/b3opht/article71364387.ece/alternates/LANDSCAPE_1200/PTI12_16_2025_000065A%204.jpg"
+    },
+    {
+      "title": "Arrest warrant issued against Mahua Moitra for hurting religious sentiments",
+      "url": "https://www.thehindu.com/news/national/west-bengal/arrest-warrant-against-tmc-mp-mahua-moitra-for-not-honouring-court-summons-in-hate-speech-case/article71364895.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-08-19T12:28:00.000Z",
+      "summary": "Arrest warrant issued for TMC MP Mahua Moitra for failing to appear in court over hate speech allegations.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/6wp4nl/article71364904.ece/alternates/LANDSCAPE_1200/15th-PTI-MP-MahG6UGDAPV5.3.jpg.jpg"
+    },
+    {
+      "title": "Rajnath Singh, Koizumi to discuss roadmap for India-Japan defence ties",
+      "url": "https://www.thehindu.com/news/national/rajnath-singh-koizumi-to-discuss-roadmap-for-india-japan-defence-ties/article71365180.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-08-19T14:41:59.000Z",
+      "summary": "Rajnath Singh and Shinjiro Koizumi meet to strengthen India-Japan defence ties, focusing on maritime security and technology cooperation.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/5hhcus/article71365526.ece/alternates/LANDSCAPE_1200/Japan_Defense_Report_53412.jpg"
+    },
+    {
+      "title": "Census 2027 has a nefarious purpose, says Congress",
+      "url": "https://www.thehindu.com/news/national/census-2027-has-deeper-nefarious-purpose-congress-slams-questionnaire/article71363313.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-08-19T04:33:20.000Z",
+      "summary": "Congress criticizes Census 2027 methodology, claiming flawed caste questions reveal a \"deeper nefarious purpose\" behind the data collection.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/eg9alf/article71363357.ece/alternates/LANDSCAPE_1200/16_Jairam_Ramesh_Congress_Leaders_PC_13_08_Delhi.jpg"
+    },
+    {
+      "title": "Congress backs two-stanza Vande Mataram; launches campaign against Ram temple funds row",
+      "url": "https://www.thehindu.com/news/national/stand-on-vande-mataram-clear-congress-to-only-sing-two-stanza-in-party-says-venugopal/article71365654.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-08-19T14:52:32.000Z",
+      "summary": "Congress targets grassroots on paper leaks and 'chanda chori,' demanding PM's apology amid concerns over Chinese incursions in Arunachal Pradesh.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/z6mma4/article71365859.ece/alternates/LANDSCAPE_1200/20260819361L.jpg"
+    },
+    {
+      "title": "Prince Harry and Meghan to move back to Britain, media reports say",
+      "url": "https://www.reuters.com/world/uk/prince-harry-meghan-relocate-back-britain-media-reports-say-2026-08-19/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Wed, 19 Aug 2026 21:40:00 GMT",
+      "summary": "Reuters: Prince Harry and Meghan to move back to Britain, media reports say.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/7YYCOWVFJRNFPH23JTBDOUOYQA.jpg?auth=49784c78610fdcc779770a169cd002d5d019e9aeb58d401c9f248a0f40ef1ab9&width=1080&quality=80"
+    },
+    {
+      "title": "Bonds steady after US Treasury comes to the rescue",
+      "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-08-20/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Thu, 20 Aug 2026 01:25:00 GMT",
+      "summary": "Reuters: Bonds steady after US Treasury comes to the rescue.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/DUSI46GGSVKF5JHN3R7XLCCROE.jpg?auth=88c49e0f174ed7fb468f7715d1c3013bc21f99ef4f84fa4c4c2de5138689c9fe&width=1920&quality=80"
+    },
+    {
+      "title": "Russian ballistic missiles kill at least three in Ukraine's Kyiv, mayor says",
+      "url": "https://www.reuters.com/world/ukrainian-capital-kyiv-under-attack-by-russian-ballistic-missiles-mayor-says-2026-08-19/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Wed, 19 Aug 2026 22:08:00 GMT",
+      "summary": "Reuters: Russian ballistic missiles kill at least three in Ukraine's Kyiv, mayor says.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/2SLKNWL7PBJ2DAZGRDCHFJKMBU.jpg?auth=f8173b0e761c0f8085edbe0f8aaf887041b228b54f749f707c5423e7cec0a755&width=1080&quality=80"
+    },
+    {
+      "title": "US debt crosses $40 trillion threshold after doubling under Trump and Biden",
+      "url": "https://www.reuters.com/world/us-debt-crosses-40-trillion-threshold-after-doubling-under-trump-biden-2026-08-19/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Wed, 19 Aug 2026 20:17:00 GMT",
+      "summary": "Reuters: US debt crosses $40 trillion threshold after doubling under Trump and Biden.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/BCZOGYHPEBPG5NGSABJQMYMHWA.jpg?auth=8a975c612d2de5549764fb425ff8259c1b20a1ab357700baf870066710e3ec0b&width=1080&quality=80"
+    },
+    {
+      "title": "US provides $206 million for Gaza force despite deadlocked peace plan",
+      "url": "https://www.reuters.com/world/middle-east/us-provide-206-million-gaza-peacekeeping-force-letters-show-2026-08-19/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Wed, 19 Aug 2026 21:50:19 GMT",
+      "summary": "Reuters: US provides $206 million for Gaza force despite deadlocked peace plan.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/BA6M4NJC7NI2BGLOICD5VJX6CI.jpg?auth=3a02e86db0c9cb20508a9ef8ce7378a6d1cdbf876b11527e424da3d0aa242943&width=1920&quality=80"
+    }
+  ],
+  "markets": [
+    {
+      "id": "sp-500",
+      "label": "S&P 500",
+      "region": "US",
+      "symbol": "^GSPC",
+      "value": 7707.98,
+      "previousClose": 7691.759784999999,
+      "change": 16.220215,
+      "percentChange": 0.21087782,
+      "direction": "up",
+      "sessionDate": "2026-08-20"
+    },
+    {
+      "id": "nasdaq-composite",
+      "label": "NASDAQ Composite",
+      "region": "US",
+      "symbol": "^IXIC",
+      "value": 26331.09,
+      "previousClose": 26289.711094,
+      "change": 41.378906,
+      "percentChange": 0.15739582,
+      "direction": "up",
+      "sessionDate": "2026-08-20"
+    },
+    {
+      "id": "euronext-100",
+      "label": "Euronext 100 Index",
+      "region": "Europe",
+      "symbol": "^N100",
+      "value": 1938.38,
+      "previousClose": 1949.5899610000001,
+      "change": -11.209961,
+      "percentChange": -0.5749907,
+      "direction": "down",
+      "sessionDate": "2026-08-20"
+    },
+    {
+      "id": "moex",
+      "label": "Public Joint-Stock Company Moscow Exchange MICEX-RTS",
+      "region": "Europe",
+      "symbol": "MOEX.ME",
+      "value": 85.2,
+      "previousClose": 85.31000061,
+      "change": -0.11000061,
+      "percentChange": -0.12894222,
+      "direction": "down",
+      "sessionDate": "2026-08-20"
+    },
+    {
+      "id": "hang-seng",
+      "label": "HANG SENG INDEX",
+      "region": "Asia",
+      "symbol": "^HSI",
+      "value": 25647.73,
+      "previousClose": 25495.06984,
+      "change": 152.66016,
+      "percentChange": 0.5987107,
+      "direction": "up",
+      "sessionDate": "2026-08-20"
+    },
+    {
+      "id": "nikkei-225",
+      "label": "Nikkei 225",
+      "region": "Asia",
+      "symbol": "^N225",
+      "value": 65982.49,
+      "previousClose": 65326.419700000006,
+      "change": 656.0703,
+      "percentChange": 1.0042955,
+      "direction": "up",
+      "sessionDate": "2026-08-20"
+    },
+    {
+      "id": "sensex",
+      "label": "S&P BSE SENSEX",
+      "region": "India",
+      "symbol": "^BSESN",
+      "value": 76909.68,
+      "previousClose": 77235.46125,
+      "change": -325.78125,
+      "percentChange": -0.4218027,
+      "direction": "down",
+      "sessionDate": "2026-08-20"
+    }
+  ],
+  "hackerNews": [
+    {
+      "title": "OpenRouter is joining Stripe",
+      "url": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe/",
+      "publishedAt": "2026-08-19T17:32:38.000Z",
+      "summary": "OpenRouter is joining forces with Stripe. Same mission, same name, same product, same roadmap, and routing that stays driven by what",
+      "thumbnailUrl": "https://openrouter.ai/blog/images/openrouter-stripe.png"
+    },
+    {
+      "title": "Go 1.27",
+      "url": "https://go.dev/blog/go1.27",
+      "publishedAt": "2026-08-19T18:33:49.000Z",
+      "summary": "Go 1.27 adds generic methods, encoding/json/v2 package, uuid package, faster memory allocation, goroutine leak profiles, and more.",
+      "thumbnailUrl": "https://go.dev/doc/gopher/gopher5logo.jpg"
+    },
+    {
+      "title": "Google replaced Git tags for certain source code with obtaining via Google Drive",
+      "url": "https://grapheneos.social/@GrapheneOS/117057099753905023",
+      "publishedAt": "2026-08-19T17:47:29.000Z",
+      "summary": "Google replaced pushing Git tags for certain source code with obtaining source code via Google Drive after making a request through Google Forms. It's completely ridiculous and they've gradually become very slow at handling requests. They're in clear violation of the GPLv2 now.",
+      "thumbnailUrl": "https://grapheneos.social/packs/assets/logo-DXQkHAe5.svg"
+    },
+    {
+      "title": "Manabu Kosaka's Handmade Paper Sculptures",
+      "url": "https://coca11272000.wixsite.com/manabukosaka",
+      "publishedAt": "2026-08-19T14:20:10.000Z",
+      "summary": "Manabu Kosaka &nbsp; Handmade Paper Sculptures",
+      "thumbnailUrl": "https://static.wixstatic.com/media/387403_b6688f1bc2d14991a4e060b65581cb05.jpg/v1/fit/w_2500,h_1330,al_c/387403_b6688f1bc2d14991a4e060b65581cb05.jpg"
+    },
+    {
+      "title": "Unlocking a locked/deactivated e-waste Cricut Maker",
+      "url": "https://sprocketfox.io/xssfox/2026/07/01/cricut-unlock/",
+      "publishedAt": "2026-08-19T19:06:16.000Z",
+      "summary": "How I returned a Cricut Maker back to service after Cricut remotely bricked the unit",
+      "thumbnailUrl": "https://sprocketfox.io/xssfox/images/photo_2026-07-01%2013.48.56.jpeg"
+    },
+    {
+      "title": "Unsloth Dynamic 3.0 GGUFs",
+      "url": "https://unsloth.ai/docs/basics/dynamic-3.0-ggufs",
+      "publishedAt": "2026-08-19T18:36:45.000Z",
+      "summary": "Unsloth Dynamic v3.0 is the next iteration of our Dynamic quantization and a major improvement over Dynamic v2.0.",
+      "thumbnailUrl": "https://unsloth.ai/docs/~gitbook/image?url=https%3A%2F%2F2815821428-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Forganizations%252FHpyELzcNe0topgVLGCZY%252Fsites%252Fsite_mXXTe%252Fsocialpreview%252FOeFDVbzp4cgwaId7PbvL%252Funsloth%2520docs%2520pic.png%3Falt%3Dmedia%26token%3Df34a6bcc-db15-449a-bc2d-e0e8f52fe953&width=1200&height=630&sign=b1ca68fa&sv=2"
+    },
+    {
+      "title": "A joke domain purchase turned in geopolitical warfare",
+      "url": "https://sprocketfox.io/xssfox/2026/08/19/sondehub-and-war/",
+      "publishedAt": "2026-08-19T11:21:50.000Z",
+      "summary": "Why is the military and a cheese fortune teller contacting me about SondeHub.org",
+      "thumbnailUrl": "https://sprocketfox.io/xssfox/images/war.png"
+    },
+    {
+      "title": "Turns are Better than Radians",
+      "url": "https://www.computerenhance.com/p/turns-are-better-than-radians",
+      "publishedAt": "2026-08-20T01:29:12.000Z",
+      "summary": "Switching away from radians makes code simpler, faster, and more precise.",
+      "thumbnailUrl": "https://substackcdn.com/image/fetch/$s_!mvXW!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F20e598bd-cac0-4b10-8222-b432167c9159_5616x3744.jpeg"
+    },
+    {
+      "title": "Os8088.com: IBM XT OS now has a Browser, CP/M 2.2 with Z80 core and MS Word 1.1a",
+      "url": "https://os8088.com/spotlight/",
+      "publishedAt": "2026-08-19T21:11:31.000Z",
+      "summary": "A page per addition to os8088: what was added, what it does, screenshots of it running on an Intel 8086, and the video that goes with it.",
+      "thumbnailUrl": "https://os8088.com/img/og.png"
+    },
+    {
+      "title": "Casio F-B100W-1A",
+      "url": "https://www.casio.com/uk/watches/casio/product.F-B100W-1A/",
+      "publishedAt": "2026-08-19T15:28:01.000Z",
+      "summary": "casio.com: Casio F-B100W-1A."
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "anyCreature by Gobkit",
+      "tagline": "Summon monsters straight from your agent.",
+      "url": "https://www.producthunt.com/products/anycreature",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-08-19T19:08:17-07:00"
+    },
+    {
+      "name": "Clipto MCP",
+      "tagline": "Let agents source clips from terabytes of your local video",
+      "url": "https://www.producthunt.com/products/clipto-ai",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-08-19T19:54:31-07:00"
+    },
+    {
+      "name": "Origin by Cursor",
+      "tagline": "The Git forge built for the age of coding agents",
+      "url": "https://www.producthunt.com/products/cursor",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-08-19T19:53:20-07:00"
+    },
+    {
+      "name": "Vois 2.0",
+      "tagline": "The ElevenLabs alternative with unlimited generation",
+      "url": "https://www.producthunt.com/products/vois",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-08-19T19:26:43-07:00"
+    },
+    {
+      "name": "Hosted Agents in Cluing",
+      "tagline": "Collaborative agents who build, learn and publish in 1 place",
+      "url": "https://www.producthunt.com/products/cluing",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-08-19T19:40:38-07:00"
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "News and markets",
+      "sentences": [
+        "Global headlines: Alarm in South Korea as dispute with US over Iran shakes a 72-year alliance (Trump's order to scale back military drills rattles Seoul, reviving doubts over US security guarantees); Publisher of US military newspaper resigns over differences with government (Retirement of longtime Stars and Stripes publisher comes amid the Trump administration's push for editorial control); and ‘Tsunami’ of emigration reshapes Israel’s future, experts warn (Nearly 270,000 Israelis have left the country over three years, citing political uncertainty and security concerns).",
+        "Markets leaned higher, with 4 of 7 tracked indexes up; Nikkei 225 up 1.00% was the largest move.",
+        "Benchmarks tracked: S&P 500, NASDAQ Composite, Euronext 100 Index, and Public Joint-Stock Company Moscow Exchange MICEX-RTS plus 3 more indexes."
+      ]
+    },
+    {
+      "title": "Hacker News and Product Hunt",
+      "sentences": [
+        "Hacker News: OpenRouter is joining Stripe (OpenRouter is joining forces with Stripe. Same mission, same name, same product, same roadmap, and routing that stays driven by what); Go 1.27 (Go 1.27 adds generic methods, encoding/json/v2 package, uuid package, faster memory allocation, goroutine leak profiles, and more); and Google replaced Git tags for certain source code with obtaining via Google Drive (Google replaced pushing Git tags for certain source code with obtaining source code via Google Drive after making a request through Google...).",
+        "Product Hunt features anyCreature by Gobkit (Summon monsters straight from your agent), Clipto MCP (Let agents source clips from terabytes of your local video), and Origin by Cursor (The Git forge built for the age of coding agents)."
+      ]
+    }
+  ],
+  "sourceNotes": {
+    "generatedAt": "2026-08-20T02:56:54.008Z",
+    "timeZone": "Asia/Kolkata",
+    "successfulSources": [
+      "Al Jazeera",
+      "NPR",
+      "China Daily",
+      "The Hindu",
+      "Reuters"
+    ],
+    "marketSessionLabel": "Latest market sessions as of 2026-08-20",
+    "warnings": [
+      "Washington Post: This operation was aborted"
+    ]
+  }
+}
