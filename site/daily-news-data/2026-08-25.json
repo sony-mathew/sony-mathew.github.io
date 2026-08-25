@@ -1,0 +1,505 @@
+{
+  "headlines": [
+    {
+      "title": "Trump’s trade ‘war’ with Canada has Carney facing his biggest test yet",
+      "url": "https://www.washingtonpost.com/world/2026/08/24/trumps-trade-war-with-canada-has-carney-facing-his-biggest-test-yet/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Tue, 25 Aug 2026 01:08:48 +0000",
+      "summary": "The Canadian prime minister has said his government will match U.S. tariffs \"dollar for dollar.\"",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "U.S. withdraws from military exercises with South Korea set for next month",
+      "url": "https://www.washingtonpost.com/world/2026/08/24/us-withdraws-military-exercises-with-south-korea-set-next-month/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Mon, 24 Aug 2026 17:44:55 +0000",
+      "summary": "The move comes as the Iran war strains U.S. military resources in Asia.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "Trump’s visa ban on 75 countries struck down by federal judge",
+      "url": "https://www.washingtonpost.com/politics/2026/08/22/visa-processing-ban-75-countries-struck-down-by-federal-judge/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Sun, 23 Aug 2026 15:59:09 +0000",
+      "summary": "A federal judge said the indefinite pause, which affected nationals of countries in every corner of the globe, ran afoul of antidiscrimination protections.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "Pence says U.S.-Canada trade fight adds to affordability concerns for economy",
+      "url": "https://www.washingtonpost.com/politics/2026/08/23/pence-says-us-canada-trade-fight-adds-affordability-concerns-economy/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Sun, 23 Aug 2026 15:46:33 +0000",
+      "summary": "“I think the last thing we need right now, as our economy is getting back on its feet, is a trade war with Canada,” the former vice president told CNN.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "U.S.-Canada breakdown shows limits of Trump’s aggressive trade strategy",
+      "url": "https://www.washingtonpost.com/business/2026/08/23/us-canada-breakdown-shows-limits-trumps-aggressive-trade-strategy/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Sun, 23 Aug 2026 10:00:01 +0000",
+      "summary": "“It’s a big setback,” one analyst said, noting that other countries unhappy with the president’s trade deals are probably watching closely.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "US plans to revoke business, tourism visas of 200,000 asylum seekers",
+      "url": "https://www.aljazeera.com/news/2026/8/25/us-plans-to-revoke-business-tourism-visas-of-200000-asylum-seekers",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-08-25",
+      "summary": "If the action happens, it will be the largest single mass revocation of visas in US history, AP reports.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/08/2026-05-31T214547Z_529360593_RC2JKLAU3YWB_RTRMADP_3_USA-IMMIGRATION-1787620739.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "DRC’s constitutional battle: The fight over the 2028 vote",
+      "url": "https://www.aljazeera.com/news/2026/8/25/drcs-constitutional-battle-the-fight-over-the-2028-vote",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-08-25",
+      "summary": "President Tshisekedi’s reform push is fuelling a battle over DRC’s 2028 succession.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/08/Demonstrators-in-Kinshasa-on-12-June-2026-1787578110.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Search continues in Tunisia as migrant boat sinking sparks protests",
+      "url": "https://www.aljazeera.com/news/2026/8/25/search-continues-in-tunisia-after-migrant-boat-sinking-sparks-protests",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-08-25",
+      "summary": "Tunisia's Ben Guerdane reels from violent protests after a boat carrying 15 people sinks, killing at least 12.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/08/reuters_6a8cc386-1787609990.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "US imposes new sanctions on Iran, calls on allies to join",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/8/25/iran-war-live-drat",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-08-25",
+      "summary": "US tells countries to choose between Washington and Tehran, warns Iran's trade partners they will face consequences.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/08/AFP__20260824__C6D24VG__v2__HighRes__TopshotIranUsIsraelWarEconomy-1787611015.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "US Supreme Court sides with Trump administration on mail voting",
+      "url": "https://www.aljazeera.com/news/2026/8/24/us-supreme-court-sides-with-trump-administration-on-mail-voting",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-08-24",
+      "summary": "Mail balloting has long been a favourite target of US President Donald Trump.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/06/reuters_6a43ed6e-1782836590.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Six months on, U.S. Navy families who evacuated Bahrain remain in limbo",
+      "url": "https://www.npr.org/2026/08/24/nx-s1-5943188/six-months-on-u-s-navy-families-who-evacauated-bahrain-remain-in-limbo",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Mon, 24 Aug 2026 18:22:13 -0400",
+      "summary": "When the U.S.-Iran war began, more than 1,000 dependents of U.S. Navy personnel in Bahrain were ordered to evacuate. After six months in temporary conditions, they want to know what the plan is.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3402x2722+0+0/resize/3402x2722!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F09%2F8e%2Fcdcdf55840c58c59f6c67c03f089%2Ffifth-fleet-8-24-26.jpg"
+    },
+    {
+      "title": "Penn State bust put focus on cocaine but on most campuses the big risk is alcohol",
+      "url": "https://www.npr.org/2026/08/24/nx-s1-5942987/cocaine-use-is-down-but-alcohol-is-still-being-abused-by-young-adults",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Mon, 24 Aug 2026 17:17:31 -0400",
+      "summary": "A drug bust involving an alleged cocaine ring at Penn State has drawn attention to drug use on college campuses, but research shows the big risk to students is alcohol.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5503x3674+0+0/resize/5503x3674!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fd1%2F55%2F558e63144444b9c89a18f93c81f2%2Fdrinking-cups-getty-pic.jpg"
+    },
+    {
+      "title": "Supreme Court gives Trump an interim win on his mail voting order, but hurdles loom",
+      "url": "https://www.npr.org/2026/08/24/nx-s1-5909592/trump-mail-voting-order-supreme-court",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Mon, 24 Aug 2026 16:53:45 -0400",
+      "summary": "The Supreme Court paused a lower court's ruling that blocked key parts of Trump's order to limit voting by mail for the midterms. But U.S. Postal Service work on the order remains blocked nationwide.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6000x4000+0+0/resize/6000x4000!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F87%2F4c%2F9a76351048bb86bae3009111931c%2Fgettyimages-2269289111.jpg"
+    },
+    {
+      "title": "Treasury Secretary Scott Bessent unveils new U.S. economic sanctions to isolate Iran",
+      "url": "https://www.npr.org/2026/08/24/g-s1-139743/treasury-secretary-scott-bessent-to-unveil-new-economic-sanctions-on-iran",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Mon, 24 Aug 2026 08:26:00 -0400",
+      "summary": "The Trump administration calls this an \"economic D-Day\" on Iran. Iran vows to respond to fresh sanctions in a \"seismic manner.\"",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3790x2534+0+0/resize/3790x2534!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F68%2F1c%2F23da8dcd4c6d9d50ba932deba0e5%2Fap26236622592645.jpg"
+    },
+    {
+      "title": "U.S. to detail new economic pressures on Iran. And, Canada to impose tariffs on U.S.",
+      "url": "https://www.npr.org/2026/08/24/g-s1-139736/up-first-newsletter-iran-economic-pressures-canada-tariffs-trump-visa-ban",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Mon, 24 Aug 2026 07:27:44 -0400",
+      "summary": "Today, Treasury Secretary Scott Bessent is set to announce details on new economic pressures on Iran. And, Canada has vowed to impose retaliatory tariffs against the U.S.",
+      "thumbnailUrl": "https://feeds.npr.org/1001/undefined"
+    },
+    {
+      "title": "Iceland prepares for vote on EU talks",
+      "url": "https://www.chinadaily.com.cn/a/202608/25/WS6a8ced9de4b057c97e20989a.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-08-25",
+      "summary": "The political stakes are high for Iceland as the country prepares for a referendum on Saturday that could push it closer to membership in the European Union.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202608/25/6a8ced9de4b057c956d2c697.png"
+    },
+    {
+      "title": "US threatens 'economic D-Day' sanctions on Iran",
+      "url": "https://www.chinadaily.com.cn/a/202608/25/WS6a8cebcfe4b057c97e20986f.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-08-25",
+      "summary": "NEW YORK -- US Treasury Secretary Scott Bessent on Monday threatened Iran with \"an economic D-Day,\" announcing a wave of new sanctions aimed at further isolating the country.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202608/25/6a8cebcfe4b057c956d2c5f1.jpeg"
+    },
+    {
+      "title": "40 killed in Haiti gang attack",
+      "url": "https://www.chinadaily.com.cn/a/202608/25/WS6a8cebd2e4b057c97e209875.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-08-25",
+      "summary": "PANAMA CITY -- At least 40 people were killed after gangs attacked the commune of Kenscoff, near Haiti's capital Port-au-Prince, local media reported Monday.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202608/25/6a8cebd2e4b057c956d2c5ff.jpeg"
+    },
+    {
+      "title": "Drought threatens Europe's river cruises",
+      "url": "https://www.chinadaily.com.cn/a/202608/25/WS6a8cf0c3e4b057c97e2098ee.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-08-25",
+      "summary": "River tours on the Danube and Rhine face mounting risks as concern grows that prolonged drought conditions will continue to trouble Europe's main waterways.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202608/25/6a8cf0c3e4b057c956d2c7a1.png"
+    },
+    {
+      "title": "Proposed US rule triggers fears of research decoupling",
+      "url": "https://www.chinadaily.com.cn/a/202608/25/WS6a8ce990e4b057c97e209847.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-08-25",
+      "summary": "A proposed United States government rule that could sharply restrict federally funded research collaboration with China has sparked concern among academics, with critics warning it could bring US and Chinese scientific communities close to a \"near-complete decoupling\".",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202608/25/6a8ce990e4b057c956d2c52a.jpeg"
+    },
+    {
+      "title": "NSA Ajit Doval arrives in Beijing, set for border talks with China’s Wang Yi on August 25",
+      "url": "https://www.thehindu.com/news/national/nsa-ajit-doval-arrives-in-beijing-set-for-border-talks-with-chinas-wang-yi-on-august-25/article71384091.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-08-24T10:34:11.000Z",
+      "summary": "NSA Ajit Doval arrives in Beijing for crucial border talks with China's Wang Yi ahead of the BRICS Summit.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/amyz44/article71384085.ece/alternates/LANDSCAPE_1200/20260716136L.jpg"
+    },
+    {
+      "title": "TMC MP Mahua Moitra moves Supreme Court alleging eviction from Nadia Circuit House in Bengal",
+      "url": "https://www.thehindu.com/news/national/west-bengal/tmc-mp-mahua-moitra-moves-supreme-court-alleging-eviction-from-nadia-circuit-house-in-bengal/article71383491.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-08-24T07:07:25.000Z",
+      "summary": "TMC MP Mahua Moitra petitions Supreme Court for urgent hearing after midnight eviction from constituency accommodation in West Bengal.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/ycxacy/article71383514.ece/alternates/LANDSCAPE_1200/20260713242L.jpg"
+    },
+    {
+      "title": "Hopes fade for 22 missing crew of sunken Panama-flagged bulk carrier MV Ocean Winner in Bay of Bengal",
+      "url": "https://www.thehindu.com/news/national/hopes-of-rescuing-crew-members-alive-fade-around-sunken-cargo-ship-in-bay-of-bengal/article71383619.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-08-24T08:08:00.000Z",
+      "summary": "Hopes diminish as search operations for 22 missing crew members from a sunken cargo ship in the Bay of Bengal continue.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/o86n6p/article71383718.ece/alternates/LANDSCAPE_1200/HQYBu-PaQAA0B7M.jpg"
+    },
+    {
+      "title": "CRPF sub-inspector shot, two houses torched in Manipur",
+      "url": "https://www.thehindu.com/news/national/manipur/gunfight-houses-torched-in-manipurs-senapati-district/article71384442.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-08-24T12:29:51.000Z",
+      "summary": "A CRPF jawan was injured in Senapati, Manipur, amid gunfights and arson, prompting local protests and road blockades.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/yxked9/article71384454.ece/alternates/LANDSCAPE_1200/20260824249L.jpg"
+    },
+    {
+      "title": "Manipur awaits Delhi decision on Census as Meitei, Naga groups demand NRC first",
+      "url": "https://www.thehindu.com/news/national/manipur/manipur-awaits-delhi-decision-on-census-as-meitei-naga-groups-demand-nrc-first/article71385744.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-08-24T17:10:42.000Z",
+      "summary": "Manipur awaits Delhi's decision on Census amid Meitei and Naga calls for NRC, as High Court hears related petitions.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/2etydj/article71385985.ece/alternates/LANDSCAPE_1200/20260824565L.jpg"
+    },
+    {
+      "title": "Iran vows to retaliate after US widens sanctions",
+      "url": "https://www.reuters.com/world/china/iran-vows-retaliate-after-us-widens-sanctions-2026-08-25/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Tue, 25 Aug 2026 00:57:00 GMT",
+      "summary": "Reuters: Iran vows to retaliate after US widens sanctions.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/GTBBZHJCNJN2ZGGTZTHFTYSKPE.jpg?auth=754acb3e4a1cdb0877fe421096e9cb9a819e01392fc6c1835d5b136f16d39888&height=1005&width=1920&quality=80&smart=true"
+    },
+    {
+      "title": "US Supreme Court hands a win to Trump over mail-in ballot restrictions",
+      "url": "https://www.reuters.com/world/us-supreme-court-lifts-judicial-hurdle-trumps-mail-in-ballot-curbs-2026-08-24/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Mon, 24 Aug 2026 20:59:00 GMT",
+      "summary": "Reuters: US Supreme Court hands a win to Trump over mail-in ballot restrictions.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/HEIVYFK5CBKM7HPKUW5BQ35ACI.jpg?auth=046486f91cc35bc0699c36c93ed8bb03a38b2b759d33502927dd2a41f7953e3b&width=1080&quality=80"
+    },
+    {
+      "title": "Trump administration plans to revoke visas of foreigners seeking asylum",
+      "url": "https://www.reuters.com/world/us-plans-revoke-up-200000-tourism-business-visas-ap-reports-2026-08-24/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Mon, 24 Aug 2026 22:18:23 GMT",
+      "summary": "Reuters: Trump administration plans to revoke visas of foreigners seeking asylum.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/KBP6UW4LPFKHTIOBPTNHN7BQKA.jpg?auth=29beea51c26f3a96f1c4d976500fb17242b302d84f5a043ed9df41c9dced5700&width=1920&quality=80"
+    },
+    {
+      "title": "Trump's approval holds at record low as US support for Iran war falls, Reuters Ipsos poll finds",
+      "url": "https://www.reuters.com/world/us/trumps-approval-holds-record-low-us-support-iran-war-falls-reuters-ipsos-poll-2026-08-24/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Mon, 24 Aug 2026 19:06:00 GMT",
+      "summary": "Reuters: Trump's approval holds at record low as US support for Iran war falls, Reuters Ipsos poll finds.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/5PWSPWCHRJIIHOTTF26VWKS2HY.jpg?auth=0ccd79ac45c2eadd3a973c406d4aa481edafff93aca24d0fb5028e133cc23f26&width=1920&quality=80"
+    },
+    {
+      "title": "Israel's Netanyahu says Iran tried to kill one of his sons",
+      "url": "https://www.reuters.com/world/middle-east/israels-netanyahu-says-iran-tried-kill-one-his-sons-2026-08-24/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Mon, 24 Aug 2026 18:54:22 GMT",
+      "summary": "Reuters: Israel's Netanyahu says Iran tried to kill one of his sons.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/QUXDU6XXNNKS7BDK4ZWDQ4OFHA.jpg?auth=5a20f7420d2103a134f4f07c483caa8b5c1d0c4727322b666a6f273f2f78053b&width=1920&quality=80"
+    }
+  ],
+  "markets": [
+    {
+      "id": "sp-500",
+      "label": "S&P 500",
+      "region": "US",
+      "symbol": "^GSPC",
+      "value": 7652.86,
+      "previousClose": 7674.3702539999995,
+      "change": -21.510254,
+      "percentChange": -0.2802869,
+      "direction": "down",
+      "sessionDate": "2026-08-25"
+    },
+    {
+      "id": "nasdaq-composite",
+      "label": "NASDAQ Composite",
+      "region": "US",
+      "symbol": "^IXIC",
+      "value": 25980.19,
+      "previousClose": 26180.4986,
+      "change": -200.3086,
+      "percentChange": -0.7651061,
+      "direction": "down",
+      "sessionDate": "2026-08-25"
+    },
+    {
+      "id": "euronext-100",
+      "label": "Euronext 100 Index",
+      "region": "Europe",
+      "symbol": "^N100",
+      "value": 1932.87,
+      "previousClose": 1938.9399463,
+      "change": -6.0699463,
+      "percentChange": -0.3130549,
+      "direction": "down",
+      "sessionDate": "2026-08-25"
+    },
+    {
+      "id": "moex",
+      "label": "Public Joint-Stock Company Moscow Exchange MICEX-RTS",
+      "region": "Europe",
+      "symbol": "MOEX.ME",
+      "value": 85.2,
+      "previousClose": 85.31000061,
+      "change": -0.11000061,
+      "percentChange": -0.12894222,
+      "direction": "down",
+      "sessionDate": "2026-08-25"
+    },
+    {
+      "id": "hang-seng",
+      "label": "HANG SENG INDEX",
+      "region": "Asia",
+      "symbol": "^HSI",
+      "value": 25475.63,
+      "previousClose": 25517.32922,
+      "change": -41.69922,
+      "percentChange": -0.16341528,
+      "direction": "down",
+      "sessionDate": "2026-08-25"
+    },
+    {
+      "id": "nikkei-225",
+      "label": "Nikkei 225",
+      "region": "Asia",
+      "symbol": "^N225",
+      "value": 65598.68,
+      "previousClose": 65528.09015999999,
+      "change": 70.58984,
+      "percentChange": 0.107724555,
+      "direction": "up",
+      "sessionDate": "2026-08-25"
+    },
+    {
+      "id": "sensex",
+      "label": "S&P BSE SENSEX",
+      "region": "India",
+      "symbol": "^BSESN",
+      "value": 77369.11,
+      "previousClose": 77540.82875,
+      "change": -171.71875,
+      "percentChange": -0.22145592,
+      "direction": "down",
+      "sessionDate": "2026-08-25"
+    }
+  ],
+  "hackerNews": [
+    {
+      "title": "iCloud+ Hide My Email addresses will remain on icloud.com",
+      "url": "https://developer.apple.com/news/?id=1ptvdtcm",
+      "publishedAt": "2026-08-24T22:13:40.000Z",
+      "summary": "Starting later this year, new Sign in with Apple addresses, previously issued on privaterelay.appleid.com, will be issued on private.icloud.com. Existing addresses on privaterelay.appleid.com will continue to work and forward mail to users without interruption.After further consideration and reviewing community feedback, iCloud+ Hide My Email addresses will remain on icloud.com. What you need to do Developers with apps or websites that use Sign in with Apple should ensure that their account systems, email validation logic, and allowlists accept addresses on the new private.icloud.com domain in addition to the existing privaterelay.appleid.com domain.Learn more about Sign in with Apple Communicating using the Private Email Relay Service",
+      "thumbnailUrl": "https://developer.apple.com/news/images/og/icloud-og.jpg"
+    },
+    {
+      "title": "Xiaomi: New CPU matches Apple cores single threaded, much faster multithreaded",
+      "url": "https://twitter.com/lemire/status/2091894299289874926",
+      "publishedAt": "2026-08-24T15:08:17.000Z",
+      "summary": "Xiaomi is the Chinese tech giant. Their phones compete with iPhones. Their new CPU roughly matches Apple cores on single threaded tasks, and is much faster in multithreaded execution. Of course, Apple may soon announce their next processor, so this edge may not last long. And",
+      "thumbnailUrl": "https://pbs.twimg.com/media/HQfmx0UWoAAvbt6.jpg:large"
+    },
+    {
+      "title": "MS Paint and Photos inivisibly watermark even locally generated output with GUID",
+      "url": "https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/",
+      "publishedAt": "2026-08-24T15:28:04.000Z",
+      "summary": "Reverse engineering reveals how Paint and Photos embed a server-issued GUID into the pixels of locally generated AI images.",
+      "thumbnailUrl": "https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/social-preview.jpg"
+    },
+    {
+      "title": "Moon (2024)",
+      "url": "https://ciechanow.ski/moon/",
+      "publishedAt": "2026-08-24T22:06:02.000Z",
+      "summary": "Interactive article about the Moon",
+      "thumbnailUrl": "https://ciechanow.ski/images/og/moon.png"
+    },
+    {
+      "title": "How Universities Should Prepare Founders",
+      "url": "https://paulgraham.com/prepare.html",
+      "publishedAt": "2026-08-25T01:40:39.000Z",
+      "summary": "paulgraham.com: How Universities Should Prepare Founders.",
+      "thumbnailUrl": "https://s.turbifycdn.com/aah/paulgraham/bel-7.gif"
+    },
+    {
+      "title": "Was Modern Art a CIA Psy-Op?",
+      "url": "https://daily.jstor.org/was-modern-art-really-a-cia-psy-op/",
+      "publishedAt": "2026-08-25T01:35:00.000Z",
+      "summary": "The number of MoMA-CIA crossovers is highly suspicious, to say the least.",
+      "thumbnailUrl": "https://daily.jstor.org/wp-content/uploads/2020/04/was_modern_art_really_a_cia_psy_op_alt_1050x700.jpg"
+    },
+    {
+      "title": "The entire city of San Francisco as a video game",
+      "url": "https://sf.thijs.gg/",
+      "publishedAt": "2026-08-24T17:05:38.000Z",
+      "summary": "sf.thijs.gg: The entire city of San Francisco as a video game.",
+      "thumbnailUrl": "https://sf.thijs.gg/assets/arcade/hidden-minimap-frame-v2.png"
+    },
+    {
+      "title": "How Europe is killing makers and micro-entrepreneurs",
+      "url": "https://lectronz.com/u/lectronz/articles/how-europe-is-killing-makers-and-micro-entrepreneurs",
+      "publishedAt": "2026-08-24T13:05:25.000Z",
+      "summary": "European Union's new packaging rules threaten to kill the world of makers and micro-entrepreneurs, putting jobs, livelihoods and an entire ecosystem of innovation at risk.",
+      "thumbnailUrl": "https://lectronz.com/lectronz/active_storage/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NzAzNjgsInB1ciI6ImJsb2JfaWQifX0=--86803ec7bfb65d5430f3e59aa9c5b2a8dafd15f0/DSC_1769.JPG"
+    },
+    {
+      "title": "Bookshelf – Self-hosted eBook library that runs on object storage",
+      "url": "https://github.com/murerkinn/bookshelf",
+      "publishedAt": "2026-08-24T23:00:37.000Z",
+      "summary": "Self-hosted ebook library that runs on object storage - a Cloudflare Worker over R2, or a Node server over a directory. No database. - murerkinn/bookshelf",
+      "thumbnailUrl": "https://opengraph.githubassets.com/1043d62c38d5f7ec3e98ab4cd5ecf113da5a9c3b94563a83ab06ac382f3bd0ea/murerkinn/bookshelf"
+    },
+    {
+      "title": "Where did all the public bathrooms go?",
+      "url": "https://daily.jstor.org/where-did-all-the-public-bathrooms-go/",
+      "publishedAt": "2026-08-24T17:07:01.000Z",
+      "summary": "Nineteenth-century Paris tackled public urination with ornate pissoirs. American reformers later turned toilets into a temperance cause.",
+      "thumbnailUrl": "https://daily.jstor.org/wp-content/uploads/2026/08/where_did_all_the_public_bathrooms_go_1050x700.jpg"
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "Navigara",
+      "tagline": "Connect Your AI Spend Directly to Your Roadmap",
+      "url": "https://www.producthunt.com/products/navigara",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-08-24T19:56:36-07:00"
+    },
+    {
+      "name": "Offloop",
+      "tagline": "A shared workspace where people and AI agents get work done",
+      "url": "https://www.producthunt.com/products/offloop",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-08-24T19:57:49-07:00"
+    },
+    {
+      "name": "Destiny Rings",
+      "tagline": "Proximity-powered dating, social & networking",
+      "url": "https://www.producthunt.com/products/destiny-rings",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-08-24T19:51:05-07:00"
+    },
+    {
+      "name": "Contrive",
+      "tagline": "Search and act across all your work apps",
+      "url": "https://www.producthunt.com/products/contrive",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-08-24T18:42:31-07:00"
+    },
+    {
+      "name": "IFAH",
+      "tagline": "Instruments for composing and experiencing sound as a space",
+      "url": "https://www.producthunt.com/products/ifah-a-new-experience-of-sound",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-08-24T19:50:30-07:00"
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "News and markets",
+      "sentences": [
+        "Global headlines: Trump’s trade ‘war’ with Canada has Carney facing his biggest test yet (The Canadian prime minister has said his government will match U.S. tariffs \"dollar for dollar.\"); U.S. withdraws from military exercises with South Korea set for next month (The move comes as the Iran war strains U.S. military resources in Asia); and Trump’s visa ban on 75 countries struck down by federal judge (A federal judge said the indefinite pause, which affected nationals of countries in every corner of the globe, ran afoul of antidiscrimination protections).",
+        "Markets leaned lower, with 6 of 7 tracked indexes down; NASDAQ Composite down 0.77% was the largest move.",
+        "Benchmarks tracked: S&P 500, NASDAQ Composite, Euronext 100 Index, and Public Joint-Stock Company Moscow Exchange MICEX-RTS plus 3 more indexes."
+      ]
+    },
+    {
+      "title": "Hacker News and Product Hunt",
+      "sentences": [
+        "Hacker News: iCloud+ Hide My Email addresses will remain on icloud.com (Starting later this year, new Sign in with Apple addresses, previously issued on privaterelay.appleid.com, will be issued on...); Xiaomi: New CPU matches Apple cores single threaded, much faster multithreaded (Xiaomi is the Chinese tech giant. Their phones compete with iPhones. Their new CPU roughly matches Apple cores on single threaded tasks,...); and MS Paint and Photos inivisibly watermark even locally generated output with GUID (Reverse engineering reveals how Paint and Photos embed a server-issued GUID into the pixels of locally generated AI images).",
+        "Product Hunt features Navigara (Connect Your AI Spend Directly to Your Roadmap), Offloop (A shared workspace where people and AI agents get work done), and Destiny Rings (Proximity-powered dating, social & networking)."
+      ]
+    }
+  ],
+  "sourceNotes": {
+    "generatedAt": "2026-08-25T02:59:05.313Z",
+    "timeZone": "Asia/Kolkata",
+    "successfulSources": [
+      "Washington Post",
+      "Al Jazeera",
+      "NPR",
+      "China Daily",
+      "The Hindu",
+      "Reuters"
+    ],
+    "marketSessionLabel": "Latest market sessions as of 2026-08-25",
+    "warnings": []
+  }
+}
