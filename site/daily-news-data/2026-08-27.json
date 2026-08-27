@@ -1,0 +1,504 @@
+{
+  "headlines": [
+    {
+      "title": "Rescuers race to find survivors after Himalayan floods kill at least 300",
+      "url": "https://www.washingtonpost.com/world/2026/08/27/flash-floods-nepal-china-border-kill-least-270-people/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Thu, 27 Aug 2026 12:00:01 +0000",
+      "summary": "Hundreds of people, including more than 640 tourists, remain missing after the floods hit the Nepal-China border.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "U.S. intervened in criminal probe of oilman helping Trump in Venezuela",
+      "url": "https://www.washingtonpost.com/world/2026/08/27/us-intervened-criminal-probe-venezuelan-oilman-alejandro-betancourt/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Thu, 27 Aug 2026 10:09:46 +0000",
+      "summary": "Swiss prosecutors asked the U.S. Justice Department to arrest Alejandro Betancourt. Instead, he was given a multi-entry visa and allowed to travel to the United States.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "She made history as a trans Indigenous chief. Then addiction cost her the job.",
+      "url": "https://www.washingtonpost.com/world/2026/08/27/brazils-first-transgender-indigenous-chief-won-acceptance-keeping-job-is-harder/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Thu, 27 Aug 2026 09:00:00 +0000",
+      "summary": "Majur Traytowu is struggling to hold on to influence and authority amid a devastating alcohol epidemic ravaging her territory — and her own life.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "Iran weighs harsh penalties for contact with outside media in ‘foreign influence’ bill",
+      "url": "https://www.washingtonpost.com/world/2026/08/27/iran-weighs-harsh-penalties-contact-with-outside-media-foreign-influence-bill/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Thu, 27 Aug 2026 09:00:00 +0000",
+      "summary": "The push comes nearly six months after the U.S. and Israel launched the war, with no immediate diplomatic breakthrough in sight.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "Yayoi Kusama, whose art evoked hallucinatory wonder, dies at 97",
+      "url": "https://www.washingtonpost.com/obituaries/2026/08/26/yayoi-kusama-whose-art-evoked-hallucinatory-wonder-dies-97/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Thu, 27 Aug 2026 02:56:58 +0000",
+      "summary": "Her hypnotic, unconventional works propelled her from near-obscurity to a place in the world’s most prominent museums.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "Satellite images show destruction from Nepal-Tibet floods",
+      "url": "https://www.aljazeera.com/news/2026/8/27/satellite-images-show-destruction-from-nepal-tibet-floods",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-08-27",
+      "summary": "A glacier collapse high in the Himalayas on Wednesday triggered catastrophic flooding along the Nepal-Tibet border.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/08/INTERACTIVE-Nepal-floods-satellite-1787827054.png?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Trial for 9/11 accused, including Khalid Sheikh Mohammed, set for June 2028",
+      "url": "https://www.aljazeera.com/news/2026/8/27/trial-for-9-11-accused-including-khalid-sheikh-mohammed-set-for-june",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-08-27",
+      "summary": "After two decades at Guantánamo Bay, trials for four alleged 9/11 conspirators have been set for 2028.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/08/ap_6a8fe882a6a84-1787816066.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Is Iran war diplomacy ramping up, as Qatar, Oman, Pakistan officials visit?",
+      "url": "https://www.aljazeera.com/news/2026/8/27/is-iran-war-diplomacy-ramping-up-as-qatar-oman-pakistan-officials-visit",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-08-27",
+      "summary": "There are signs both sides could be ready to de-escalate, at least militarily, analysts say.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/08/AA-20260825-42304203-42304199-RQJY_YLTQY_NZYRH_LUMNY_FY_THRN-1-1787828120.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Norway’s King Harald in ‘extremely serious’ condition, palace says",
+      "url": "https://www.aljazeera.com/news/2026/8/27/norways-king-harald-in-extremely-serious-condition-palace-says",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-08-27",
+      "summary": "Europe's oldest reigning monarch has been in hospital in Oslo since August 17, suffering from a blood disease.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/08/2026-08-27T080233Z_1712505677_RC2UTDAPR2KC_RTRMADP_3_NORWAY-ROYALS-KING-1787818764.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Six months of the Iran war – as told through Trump’s social media posts",
+      "url": "https://www.aljazeera.com/news/2026/8/27/six-months-of-the-iran-war-as-told-through-trumps-social-media-posts",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-08-27",
+      "summary": "How a war was announced, prosecuted, declared won, negotiated and then reopened, all in the president's own words.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/08/INTERACTIVE-Social-Media-Truth-Social-Trump-thumbnail-outside-1787231784.png?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Meta reaches $17B settlement. And, nuclear regulator to abandon radiation safety rule",
+      "url": "https://www.npr.org/2026/08/27/g-s1-140414/up-first-newsletter-meta-settlement-mail-in-voting-nrc-regulations-nepal-tibet-flooding",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Thu, 27 Aug 2026 07:02:41 -0400",
+      "summary": "Meta and the states that sued the company have agreed to a $17 billion settlement. And, nuclear regulators are preparing to abandon a decades-old radiation safety rule.",
+      "thumbnailUrl": "https://feeds.npr.org/1001/undefined"
+    },
+    {
+      "title": "Rwandans love their milk bars. The health minister wishes they'd drink a little less",
+      "url": "https://www.npr.org/2026/08/27/g-s1-139914/milk-rwanda-milk-bar",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Thu, 27 Aug 2026 06:54:44 -0400",
+      "summary": "A big glass of moo juice — no, make that several glasses a day — is common in Rwanda. Is that too much of a good thing?",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4000x3000+250+0/resize/4000x3000!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F60%2Fef%2F4e3f703b4c559769c28bbec927e1%2Frwanda-milk-2159.jpg"
+    },
+    {
+      "title": "At least 1,500 missing after deadly Nepal-Tibet floods",
+      "url": "https://www.npr.org/2026/08/27/nx-s1-5946309/nepal-tibet-deadly-floods",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Thu, 27 Aug 2026 06:50:35 -0400",
+      "summary": "At least 1,500 people are missing, many of them foreign tourists, after deadly floods hit the Nepal-Tibet border, sweeping away entire villages.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5616x3744+0+0/resize/5616x3744!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F2e%2Fe6%2F700f2fc245d293b243f1ae04b7f6%2Fap26239261112619.jpg"
+    },
+    {
+      "title": "School districts face a back-to-school math problem: The high price of diesel",
+      "url": "https://www.npr.org/2026/08/27/nx-s1-5944429/school-buses-fuel-diesel-prices",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Thu, 27 Aug 2026 05:01:00 -0400",
+      "summary": "With the war in Iran driving up fuel prices, diesel is now nearly $5.60 a gallon, affecting school districts at the start of the year.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x1461+0+0/resize/3000x1461!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F46%2F9a%2F0dd874c54c9e85b413c1138966e8%2Fschool-buses.jpg"
+    },
+    {
+      "title": "Before an emergency hearing, the Kennedy Center's board threatens to demolish it",
+      "url": "https://www.npr.org/2026/08/27/nx-s1-5945238/emergency-hearing-kennedy-center-demolish-threat",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Thu, 27 Aug 2026 05:00:00 -0400",
+      "summary": "A lawsuit seeks to block President Trump's name from going back on the center. The center's board warns that if renovation plans don't go forward, it may be demolished.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5637x3683+0+0/resize/5637x3683!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Ff8%2F75%2F9fc1939246608fb4824442afd0a2%2Fgettyimages-2292011277.jpg"
+    },
+    {
+      "title": "Moldova eyes expanding cooperation with China",
+      "url": "https://www.chinadaily.com.cn/a/202608/27/WS6a8f93f1e4b06d4aa055ab23.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-08-27",
+      "summary": "This year marks the 35th anniversary of the Republic of Moldova's independence, offering an opportunity to reflect on the steady development of Moldova-China relations over the past three and a half decades and to look ahead with confidence to the next stage of the bilateral partnership, said the Moldovan ambassador to China.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202608/27/6a8f93f1e4b06d4a392ac30b.png"
+    },
+    {
+      "title": "Hormuz remains shut despite promising talks",
+      "url": "https://www.chinadaily.com.cn/a/202608/27/WS6a8f926ae4b06d4aa055ab15.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-08-27",
+      "summary": "While Iran and Oman have floated proposals for a temporary transit corridor and joint mine-clearing operations for the Strait of Hormuz, Tehran warned on Wednesday that the critical waterway would stay shut unless the United States brings an end to the nearly six-month-old conflict.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202608/27/6a8f926ae4b06d4a392ac2ed.png"
+    },
+    {
+      "title": "Kenya faces maize harvest shortfall",
+      "url": "https://www.chinadaily.com.cn/a/202608/27/WS6a8f8cc7e4b06d4aa055aaa3.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-08-27",
+      "summary": "Kenya is facing growing concerns over food shortages after a prolonged dry spell severely affected crops in the country's North Rift grain basket, particularly in Trans Nzoia and Uasin Gishu counties.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202608/27/6a8f8cc7e4b06d4a392ac1a2.png"
+    },
+    {
+      "title": "Canada announces counter-tariffs on over 700 US goods",
+      "url": "https://www.chinadaily.com.cn/a/202608/26/WS6a8e4248e4b06d4aa055a7c3.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-08-26",
+      "summary": "OTTAWA -- The Canadian federal government on Tuesday announced retaliatory tariffs on over 700 US goods valued at 27.6 billion Canadian dollars (about 20 billion US dollars), alongside a 7.5-billion-Canadian-dollar assistance package for domestic businesses and workers.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202608/26/6a8e4248e4b06d4a392ab149.jpeg"
+    },
+    {
+      "title": "East Africa eyes role of medical tourism hub",
+      "url": "https://www.chinadaily.com.cn/a/202608/27/WS6a8f8ef9e4b06d4aa055aada.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-08-27",
+      "summary": "East African countries are seeking to position the region as a medical tourism destination by linking their healthcare systems, sharing specialized expertise and creating common standards that could give patients greater confidence in seeking treatment within the region.",
+      "thumbnailUrl": "https://www.chinadaily.com.cn/image_e/2020/logo21.jpg"
+    },
+    {
+      "title": "Security beefed up at disputed Krishna Janmabhoomi-Shahi Idgah amid ‘Kar Seva’ concerns, Mathura officials tell Allahabad HC",
+      "url": "https://www.thehindu.com/news/national/uttar-pradesh/security-beefed-up-at-disputed-krishna-janmabhoomi-shahi-idgah-amid-kar-seva-concerns-mathura-officials-tell-allahabad-hc/article71395852.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-08-27T10:28:26.000Z",
+      "summary": "Security heightened at Krishna Janmabhoomi-Shahi Idgah as Allahabad HC reviews 18 suits challenging mosque's presence amid Kar Seva concerns.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/946poh/article71395974.ece/alternates/LANDSCAPE_1200/IMG_RASKHAN_SAMADHI_2_1_KUCC1MML.jpg"
+    },
+    {
+      "title": "Two rescued Chinese crew members of sunken Panama-flagged vessel brought to Odisha’s Paradip",
+      "url": "https://www.thehindu.com/news/national/odisha/two-rescued-chinese-crew-members-brought-to-odishas-paradip-days-after-sinking-of-panama-flagged-vessel/article71395450.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-08-27T08:18:36.000Z",
+      "summary": "Two rescued Chinese crew members of the MV Ocean Winner arrive in Paradip after the vessel sank in the Bay of Bengal.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/sv2hnj/article71395533.ece/alternates/LANDSCAPE_1200/1303c532-ef28-45c9-ad1a-f968c054e9ae.jpg"
+    },
+    {
+      "title": "Amit Shah to visit Manipur in October",
+      "url": "https://www.thehindu.com/news/national/manipur/amit-shah-to-visit-manipur-in-october/article71392672.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-08-26T13:19:36.000Z",
+      "summary": "Amit Shah to visit Manipur in October to lay the foundation for a medical college in Senapati district.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/wiilvs/article71392997.ece/alternates/LANDSCAPE_1200/PTI08_26_2026_000431B.jpg"
+    },
+    {
+      "title": "Nepal flash floods: At least 288 Indians still missing; MEA says focus is on providing humanitarian aid as per Kathmandu’s request",
+      "url": "https://www.thehindu.com/news/national/nepal-flash-floods-indians-missing-mea-briefing-humanitarian-aid/article71395933.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-08-27T10:36:42.000Z",
+      "summary": "At least 288 Indians are missing in Nepal's flash floods; India focuses on humanitarian aid and mobilizing resources for relief efforts.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/ujsirn/article71396046.ece/alternates/LANDSCAPE_1200/2026-08-27T075129Z_939917190_RC2V6NAOWTFM_RTRMADP_3_NEPAL-FLOODS-INDIA.JPG"
+    },
+    {
+      "title": "Congress seeks all-party meet over delimitation issue; reiterates women’s reservation demand in 2029 election",
+      "url": "https://www.thehindu.com/news/national/congress-seeks-all-party-meet-over-delimitation-issue-reiterates-womens-reservation-demand-in-2029-election/article71396000.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-08-27T10:30:46.000Z",
+      "summary": "Congress calls for an all-party meeting on delimitation and demands women's reservation for the 2029 elections.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/s5p3wl/article71395999.ece/alternates/LANDSCAPE_1200/10258_27_8_2026_15_16_56_2_MALLIKARJUN_KHARGE_2.JPG"
+    },
+    {
+      "title": "EXCLUSIVE: Russian-speaking cybercriminals used SpaceX’s Cursor AI tool to hack seven companies",
+      "url": "https://www.reuters.com/world/russian-speaking-cybercriminals-used-spacexs-cursor-ai-tool-hack-seven-companies-2026-08-27/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Thu, 27 Aug 2026 11:52:20 GMT",
+      "summary": "Reuters: EXCLUSIVE: Russian-speaking cybercriminals used SpaceX’s Cursor AI tool to hack seven companies.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/2IJNJECL4VNGNENGQJZCPNS5XI.jpg?auth=de22a69ffa95db316002d49139ff9e450c655d1b2ee05bf3d769e99773e0b3ad&width=1080&quality=80"
+    },
+    {
+      "title": "Russia says it could strike UK military targets in response to Kyiv's use of British missiles",
+      "url": "https://www.reuters.com/world/europe/russia-says-it-could-strike-uk-military-targets-response-ukrainian-strikes-using-2026-08-27/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Thu, 27 Aug 2026 10:52:49 GMT",
+      "summary": "Reuters: Russia says it could strike UK military targets in response to Kyiv's use of British missiles.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/LKHGGUM5MVOLDGE6NVC4R3ILYM.jpg?auth=85b30a40384b904ab06d8bef684ec30510886fbc29ad9f840bada3d4f66cfe13&width=1920&quality=80"
+    },
+    {
+      "title": "Meta's social media settlement leaves its money machine unscathed",
+      "url": "https://www.reuters.com/world/asia-pacific/metas-social-media-settlement-leaves-its-money-machine-unscathed-2026-08-27/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Thu, 27 Aug 2026 10:25:14 GMT",
+      "summary": "Reuters: Meta's social media settlement leaves its money machine unscathed.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/JO6A6BRKB5P57AK3IPZJLA7KKU.jpg?auth=1b1d5ba1bbda1c379e4b63fcec16c9cf631c15c93dd6fe94ec06ba9b2aaa743f&width=1920&quality=80"
+    },
+    {
+      "title": "Russia's foreign spy chief confirms he held talks with CIA director in Moscow",
+      "url": "https://www.reuters.com/world/europe/russias-foreign-spy-chief-confirms-he-held-talks-with-cia-director-moscow-2026-08-27/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Thu, 27 Aug 2026 08:43:45 GMT",
+      "summary": "Reuters: Russia's foreign spy chief confirms he held talks with CIA director in Moscow.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/WLBPWB74KVP45HV6DHKQ7C77PI.jpg?auth=9ae8189c694849e6ce6f98ac5789f1a96a9f50cb2ae4a4ac4dba241e308d0824&width=1920&quality=80"
+    },
+    {
+      "title": "Russian serviceman killed in explosion in St. Petersburg, media reports",
+      "url": "https://www.reuters.com/world/europe/russian-serviceman-killed-explosion-st-petersburg-media-reports-2026-08-27/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Thu, 27 Aug 2026 10:31:44 GMT",
+      "summary": "Reuters: Russian serviceman killed in explosion in St. Petersburg, media reports.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/RVAJQFRLCZJ6FLDOSOVTO573GQ.jpg?auth=c54e9a05b9afa8fe1ac148a24e190644126d33b04aef27b7373a3d33cdddbf12&width=1080&quality=80"
+    }
+  ],
+  "markets": [
+    {
+      "id": "sp-500",
+      "label": "S&P 500",
+      "region": "US",
+      "symbol": "^GSPC",
+      "value": 7675.7,
+      "previousClose": 7677.2795897999995,
+      "change": -1.5795898,
+      "percentChange": -0.020574864,
+      "direction": "down",
+      "sessionDate": "2026-08-27"
+    },
+    {
+      "id": "nasdaq-composite",
+      "label": "NASDAQ Composite",
+      "region": "US",
+      "symbol": "^IXIC",
+      "value": 26130.2,
+      "previousClose": 26151.301562,
+      "change": -21.101562,
+      "percentChange": -0.0806903,
+      "direction": "down",
+      "sessionDate": "2026-08-27"
+    },
+    {
+      "id": "euronext-100",
+      "label": "Euronext 100 Index",
+      "region": "Europe",
+      "symbol": "^N100",
+      "value": 1929.25,
+      "previousClose": 1937.01001,
+      "change": -7.76001,
+      "percentChange": -0.40062,
+      "direction": "down",
+      "sessionDate": "2026-08-27"
+    },
+    {
+      "id": "moex",
+      "label": "Public Joint-Stock Company Moscow Exchange MICEX-RTS",
+      "region": "Europe",
+      "symbol": "MOEX.ME",
+      "value": 85.2,
+      "previousClose": 85.31000061,
+      "change": -0.11000061,
+      "percentChange": -0.12894222,
+      "direction": "down",
+      "sessionDate": "2026-08-27"
+    },
+    {
+      "id": "hang-seng",
+      "label": "HANG SENG INDEX",
+      "region": "Asia",
+      "symbol": "^HSI",
+      "value": 25565.74,
+      "previousClose": 25652.97047,
+      "change": -87.23047,
+      "percentChange": -0.34004042,
+      "direction": "down",
+      "sessionDate": "2026-08-27"
+    },
+    {
+      "id": "nikkei-225",
+      "label": "Nikkei 225",
+      "region": "Asia",
+      "symbol": "^N225",
+      "value": 66131.98,
+      "previousClose": 66262.15969,
+      "change": -130.17969,
+      "percentChange": -0.19646159,
+      "direction": "down",
+      "sessionDate": "2026-08-27"
+    },
+    {
+      "id": "sensex",
+      "label": "S&P BSE SENSEX",
+      "region": "India",
+      "symbol": "^BSESN",
+      "value": 76933.59,
+      "previousClose": 77472.93375,
+      "change": -539.34375,
+      "percentChange": -0.6961705,
+      "direction": "down",
+      "sessionDate": "2026-08-27"
+    }
+  ],
+  "hackerNews": [
+    {
+      "title": "Nvidia agrees to acquire Hugging Face for $13B",
+      "url": "https://www.businessinsider.com/nvidia-in-talks-to-buy-hugging-face-13-billion-dollars-2026-8",
+      "publishedAt": "2026-08-27T01:12:55.000Z",
+      "summary": "Nvidia has held talks to acquire Hugging Face for more than $13 billion as the chip giant expands its AI dealmaking.",
+      "thumbnailUrl": "https://i.insider.com/6a8f6dc43f7df8787cff40f7?width=1200&format=jpeg"
+    },
+    {
+      "title": "Air Conditioning Is Not a Luxury, It Is a Necessity",
+      "url": "https://humanprogress.org/ac-is-not-a-luxury-it-is-a-necessity/",
+      "publishedAt": "2026-08-27T12:01:03.000Z",
+      "summary": "Documenting the improving state of the world with charts, graphs and maps.",
+      "thumbnailUrl": "https://humanprogress.org/wp-content/uploads/2026/08/AC-in-Paris-Image.jpg"
+    },
+    {
+      "title": "Pollen Robotics (Hugging Face) Microduck",
+      "url": "https://pollen-robotics.com/microduck/",
+      "publishedAt": "2026-08-27T10:57:56.000Z",
+      "summary": "Microduck is a 25 cm biped robot with 15 motors, a camera, LiDAR and a grasping beak. Playable out of the box, and its open-source stack lets you train new behaviours in simulation and run them on the robot. Pre-order at $399.",
+      "thumbnailUrl": "https://pollen-robotics.com/assets/og/og-microduck-squad-v2.jpg"
+    },
+    {
+      "title": "Mechanical Turk shutting down September 30",
+      "url": "https://www.mturk.com/",
+      "publishedAt": "2026-08-26T23:55:44.000Z",
+      "summary": "Amazon Mechanical Turk (MTurk) is a crowdsourcing marketplace that makes it easier for individuals and businesses to outsource their processes and jobs to a distributed workforce who can perform these tasks virtually. This could include anything from conducting simple data validation and research to more subjective tasks like survey participation, content moderation, and more. MTurk enables companies to harness the collective intelligence, skills, and insights from a global workforce to streamline business processes, augment data collection and analysis, and accelerate machine learning development.",
+      "thumbnailUrl": "https://amazonwebservices.d2.sc.omtrdc.net/b/ss/awsmturk/1/H.25.1--NS/0"
+    },
+    {
+      "title": "GLM-5.3-Flash",
+      "url": "https://z.ai/blog/glm-5.3-flash",
+      "publishedAt": "2026-08-26T14:08:50.000Z",
+      "summary": "z.ai: GLM-5.3-Flash.",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "U.S. State Department pauses immigrant visa applications",
+      "url": "https://www.wsj.com/politics/policy/u-s-state-department-pauses-immigrant-visa-applications-25b31b23",
+      "publishedAt": "2026-08-26T17:22:16.000Z",
+      "summary": "wsj.com: U.S. State Department pauses immigrant visa applications."
+    },
+    {
+      "title": "Tailcat – Like netcat, but over Tailscale’s data plane",
+      "url": "https://github.com/tailscale/tailcat",
+      "publishedAt": "2026-08-26T17:42:22.000Z",
+      "summary": "like netcat, but over Tailscale's data plane, without Tailscale's control plane - tailscale/tailcat",
+      "thumbnailUrl": "https://opengraph.githubassets.com/e8ffef4bee77aa714eaee93f530493a1ca357a3f60303ea59bc255031e3e19bc/tailscale/tailcat"
+    },
+    {
+      "title": "Asahi Linux Progress Report: Linux 7.2",
+      "url": "https://asahilinux.org/2026/08/progress-report-7-2/",
+      "publishedAt": "2026-08-26T22:35:02.000Z",
+      "summary": "Linux 7.2 has been released! That was fast. Let&rsquo;s dive in to yet another Asahi Linux progress report. We&rsquo;ve got a lot of interesting developments for you today, so make yourself a cuppa and enjoy.",
+      "thumbnailUrl": "https://asahilinux.org/img/AsahiLinux_logomark_256px.png"
+    },
+    {
+      "title": "An ongoing 3D-printer AGPL violation",
+      "url": "https://lwn.net/SubscriberLink/1089390/46116614cc74b814/",
+      "publishedAt": "2026-08-26T17:41:40.000Z",
+      "summary": "At FOSSY 2026, several people from the Software Freedom Conservancy (SFC), which organizes the [...]",
+      "thumbnailUrl": "https://static.lwn.net/images/logo/barepenguin-70.webp"
+    },
+    {
+      "title": "Worst-case glacial lake flood scenarios in a transboundary Himalayan basin 2022",
+      "url": "https://nhess.copernicus.org/articles/22/3765/2022/nhess-22-3765-2022.html",
+      "publishedAt": "2026-08-26T22:44:03.000Z",
+      "summary": "Abstract. Glacial lake outburst floods (GLOFs) are a major concern throughout High Mountain Asia, where societal impacts can extend far downstream. This is particularly true for transboundary Himalayan basins, where risks are expected to further increase as new lakes develop. Given the need for anticipatory approaches to disaster risk reduction, this study aims to demonstrate how the threat from a future lake can be feasibly assessed alongside that of worst-case scenarios from current lakes, as well as how this information is relevant for disaster risk management. We have focused on two previously identified dangerous lakes (Galongco and Jialongco), comparing the timing and magnitude of simulated worst-case outburst events from these lakes both in the Tibetan town of Nyalam and downstream at the border with Nepal. In addition, a future scenario has been assessed, whereby an avalanche-triggered GLOF was simulated for a potential large new lake forming upstream of Nyalam. Results show that large (>20×106 m3) rock and/or ice avalanches could generate GLOF discharges at the border with Nepal that are more than 15 times larger than what has been observed previously or anticipated based on more gradual breach simulations. For all assessed lakes, warning times in Nyalam would be only 5–11 min and 30 min at the border. Recent remedial measures undertaken to lower the water level at Jialongco would have little influence on downstream impacts resulting from a very large-magnitude GLOF, particularly in Nyalam where there has been significant development of infrastructure directly within the high-intensity flood zone. Based on these findings, a comprehensive approach to disaster risk management is called for, combining early warning systems with effective land use zoning and programmes to build local response capacities. Such approaches would address the current drivers of GLOF risk in the basin while remaining robust in the face of worst-case, catastrophic outburst events that become more likely under a warming climate.",
+      "thumbnailUrl": "https://nhess.copernicus.org/articles/22/3765/2022/nhess-22-3765-2022-avatar-web.png"
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "IQ Routing",
+      "tagline": "Trajectory-aware LLM routing that cuts agent cost",
+      "url": "https://www.producthunt.com/products/iq-routing",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-08-27T05:23:00-07:00"
+    },
+    {
+      "name": "Ojin",
+      "tagline": "Talk to an AI Agent with a real face and voice, in real time",
+      "url": "https://www.producthunt.com/products/ojin",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-08-27T05:22:48-07:00"
+    },
+    {
+      "name": "SpacebarX",
+      "tagline": "A keyboard-first outliner for notes, tasks and projects",
+      "url": "https://www.producthunt.com/products/spacebarx",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-08-27T05:08:30-07:00"
+    },
+    {
+      "name": "Enter Pro",
+      "tagline": "The AI-native platform to build and scale your apps",
+      "url": "https://www.producthunt.com/products/enter-pro",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-08-27T05:23:52-07:00"
+    },
+    {
+      "name": "Wondering Canvas",
+      "tagline": "Visual ChatGPT in Parallel",
+      "url": "https://www.producthunt.com/products/wondering-2",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-08-27T05:11:05-07:00"
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "News and markets",
+      "sentences": [
+        "Global headlines: Rescuers race to find survivors after Himalayan floods kill at least 300 (Hundreds of people, including more than 640 tourists, remain missing after the floods hit the Nepal-China border); U.S. intervened in criminal probe of oilman helping Trump in Venezuela (Swiss prosecutors asked the U.S. Justice Department to arrest Alejandro Betancourt. Instead, he was given a multi-entry visa and allowed to travel to the United States); and She made history as a trans Indigenous chief. Then addiction cost her the job. (Majur Traytowu is struggling to hold on to influence and authority amid a devastating alcohol epidemic ravaging her territory — and her own life).",
+        "Markets leaned lower, with 7 of 7 tracked indexes down; S&P BSE SENSEX down 0.70% was the largest move.",
+        "Benchmarks tracked: S&P 500, NASDAQ Composite, Euronext 100 Index, and Public Joint-Stock Company Moscow Exchange MICEX-RTS plus 3 more indexes."
+      ]
+    },
+    {
+      "title": "Hacker News and Product Hunt",
+      "sentences": [
+        "Hacker News: Nvidia agrees to acquire Hugging Face for $13B (Nvidia has held talks to acquire Hugging Face for more than $13 billion as the chip giant expands its AI dealmaking); Air Conditioning Is Not a Luxury, It Is a Necessity (Documenting the improving state of the world with charts, graphs and maps); and Pollen Robotics (Hugging Face) Microduck (Microduck is a 25 cm biped robot with 15 motors, a camera, LiDAR and a grasping beak. Playable out of the box, and its open-source stack...).",
+        "Product Hunt features IQ Routing (Trajectory-aware LLM routing that cuts agent cost), Ojin (Talk to an AI Agent with a real face and voice, in real time), and SpacebarX (A keyboard-first outliner for notes, tasks and projects)."
+      ]
+    }
+  ],
+  "sourceNotes": {
+    "generatedAt": "2026-08-27T12:24:30.015Z",
+    "timeZone": "Asia/Kolkata",
+    "successfulSources": [
+      "Washington Post",
+      "Al Jazeera",
+      "NPR",
+      "China Daily",
+      "The Hindu",
+      "Reuters"
+    ],
+    "marketSessionLabel": "Latest market sessions as of 2026-08-27",
+    "warnings": []
+  }
+}
