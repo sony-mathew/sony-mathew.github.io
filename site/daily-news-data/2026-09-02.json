@@ -1,0 +1,505 @@
+{
+  "headlines": [
+    {
+      "title": "U.S. carries out new military strikes in Iran",
+      "url": "https://www.washingtonpost.com/national-security/2026/09/01/us-carries-out-new-military-strikes-iran/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Wed, 02 Sep 2026 06:05:21 +0000",
+      "summary": "The American strikes were in response to attempted attacks by Iran on commercial shipping in the Strait of Hormuz and U.S. service members in the Middle East, military officials at Central Command said.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "Germany blames Russia for drone attack on airport, announces countermeasures",
+      "url": "https://www.washingtonpost.com/world/2026/09/01/germany-blames-russia-drone-attack-airport-announces-countermeasures/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Tue, 01 Sep 2026 22:23:57 +0000",
+      "summary": "Officials said the Aug. 4 attempt was part of a campaign aimed at undermining European support for Ukraine against Russia.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "Trump said his deal with Venezuela would lower gas prices. Will it?",
+      "url": "https://www.washingtonpost.com/business/2026/09/01/why-trumps-venezuela-oil-deal-will-not-bring-quick-relief-us/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Tue, 01 Sep 2026 21:22:18 +0000",
+      "summary": "It is likely to be years before oil production meaningfully ramps up, industry experts say, and there are many risks involved.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "Putin pledges support to Iran, rallies leaders to challenge U.S.",
+      "url": "https://www.washingtonpost.com/world/2026/09/01/putin-pledges-support-iran-rallies-leaders-challenge-us/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Tue, 01 Sep 2026 17:23:09 +0000",
+      "summary": "A regional security meeting in Kyrgyzstan highlighted the increasingly close military and political alliance between Moscow and Tehran.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "This dog raced across the backs of 56 people to set a world record",
+      "url": "https://www.washingtonpost.com/lifestyle/2026/09/01/australian-shepherd-raced-across-backs-56-people-set-world-record/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Tue, 01 Sep 2026 16:30:00 +0000",
+      "summary": "The Australian shepherd, Chardonnay, jumped around with excitement after her feat.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "As US seeks Gaza donor’s extradition, wife warns of ‘terrifying precedent’",
+      "url": "https://www.aljazeera.com/news/2026/9/2/as-us-seeks-gaza-donors-extradition-wife-warns-of-terrifying-precedent",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-09-02",
+      "summary": "Imprisoned in Spain, James 'Fergie' Chambers has supported charities but is accused of aiding Hamas.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/09/Fergie-Chambers1-1788295416.png?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Mark Ruffalo comments cause pushback against anti-Semitism ‘smear campaign’",
+      "url": "https://www.aljazeera.com/news/2026/9/2/mark-ruffalo-comments-spark-pushback-against-antisemitism-smear-campaign",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-09-02",
+      "summary": "The actor criticised Paramount-Warner Bros merger, linking it to Oracle's ties with Israeli military amid Gaza genocide.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/08/getty_6a92da0f09-1788008975.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Faster homework, poor exam results: What AI is doing to students’ learning",
+      "url": "https://www.aljazeera.com/news/2026/9/2/faster-homework-poor-exam-results-what-ai-is-doing-to-students-learning",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-09-02",
+      "summary": "AI is spreading in classrooms, but its impact on learning depends less on the technology than on how students use it.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/09/GettyImages-2054257980-1788284813.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Palestinian artist Saint Levant delays tour amid US visa complications",
+      "url": "https://www.aljazeera.com/news/2026/9/2/palestinian-artist-saint-levant-delays-tour-amid-us-visa-complications",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-09-02",
+      "summary": "Visa cancellations or delays have forced international artists to rethink US tours under President Donald Trump.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/09/GettyImages-2236634888-1-1788328588.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Hong Kong activist Joshua Wong pleads guilty in national security case",
+      "url": "https://www.aljazeera.com/news/2026/9/2/hong-kong-activist-joshua-wong-pleads-guilty-in-national-security-case",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-09-02",
+      "summary": "Pro-democracy activist faces life sentence in second case under Beijing's national security law.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/09/afp_6a979c953016-1788320917.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "U.S. military strikes Iran, while Trump vows more for Tehran's retaliation",
+      "url": "https://www.npr.org/2026/09/02/g-s1-141500/us-iran-war",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Wed, 02 Sep 2026 02:15:11 -0400",
+      "summary": "The U.S. military hit targets in Iran on Tuesday and Tehran fired missiles and drones at various sites across the region in response as hostilities flare once again in an intermittent war.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6000x4000+0+0/resize/6000x4000!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fac%2F60%2F2d5a0d4f4f18a8aaeae286dffd65%2Fap26243261413105.jpg"
+    },
+    {
+      "title": "Incumbent Sen. Ed Markey wins Massachusetts' Democratic primary for US Senate",
+      "url": "https://www.npr.org/2026/09/01/nx-s1-5953111/ed-markey-wins-massachusetts-democratic-primary-us-senate-seth-moulton",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Tue, 01 Sep 2026 20:38:46 -0400",
+      "summary": "Bucking a push for younger leadership this election season, Sen. Ed Markey, 80, won the Democratic nomination against Rep. Seth Moulton, 47, who said that his party needed new leaders.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6000x4000+0+0/resize/6000x4000!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F74%2F30%2Fa1955bcd432fa60039de23c1f732%2Fgettyimages-2206451078.jpg"
+    },
+    {
+      "title": "North Carolina Rep. Chuck Edwards is formally censured over harassment allegations",
+      "url": "https://www.npr.org/2026/09/01/nx-s1-5951561/chuck-edwards-house-censure-vote",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Tue, 01 Sep 2026 18:18:20 -0400",
+      "summary": "The censure vote drew bipartisan support, and followed an investigation by the House Ethics Committee into allegations of sexual harassment against two young female staff members.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4506x3004+0+0/resize/4506x3004!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Ffe%2F52%2F179496f743818662229b7f9fcd78%2Fap26239625128302.jpg"
+    },
+    {
+      "title": "Congress averts a government shutdown ahead of the midterms",
+      "url": "https://www.npr.org/2026/09/01/nx-s1-5951536/house-government-funding-vote-midterms",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Tue, 01 Sep 2026 14:06:33 -0400",
+      "summary": "With just a few weeks to spare, the House approved legislation extending funding through mid-December.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2602x1740+0+0/resize/2602x1740!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F5f%2F44%2F041874aa4b1cabf0d0543de0b91f%2Fap26242750369174.jpg"
+    },
+    {
+      "title": "ICE says it has enough body cameras now, after series of deadly shootings",
+      "url": "https://www.npr.org/2026/09/01/g-s1-141408/ice-body-cameras-immigration",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Tue, 01 Sep 2026 13:52:37 -0400",
+      "summary": "Cameras could help alleviate some concerns about ICE transparency and accountability after immigration officers were involved in over two dozen shootings under the Trump administration.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6000x4000+0+0/resize/6000x4000!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F33%2F52%2F3c72c1db4b44bdbee5ac106b1bdd%2Fgettyimages-2264772966.jpg"
+    },
+    {
+      "title": "Sino-European trade looks beyond goods",
+      "url": "https://www.chinadaily.com.cn/a/202609/02/WS6a978331e4b06d4aa055be11.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-09-02",
+      "summary": "Trade relations between China and the European Union are feeling the heat following the release of the latest customs data in mid-July.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202609/02/6a978331e4b06d4a392b3492.png"
+    },
+    {
+      "title": "Iran urges US to honor June deal",
+      "url": "https://www.chinadaily.com.cn/a/202609/02/WS6a977c0ae4b06d4aa055bda6.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-09-02",
+      "summary": "Iran said on Tuesday it would \"immediately\" reciprocate if the United States returned to the June deal aimed at ending the conflict, after US President Donald Trump threatened to hit the foe \"hard\" following the exchange of fire between both sides for the first time in weeks and his treasury chief pledged to keep the pressure on Iran's economy.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202609/02/6a977c09e4b06d4a392b3296.png"
+    },
+    {
+      "title": "Senegal eyes processed goods exports to China",
+      "url": "https://www.chinadaily.com.cn/a/202609/01/WS6a962b47e4b06d4aa055b944.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-09-01",
+      "summary": "DAKAR — Taking a hypothetical order for five containers of moringa tea as an example, Oulimata Sarr, former Senegalese minister of economy, planning and cooperation, highlighted the production and financing challenges that a small or medium-sized enterprise could face.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202609/01/6a962b47e4b06d4a392b17ab.png"
+    },
+    {
+      "title": "Tehran responds with tit-for-tat strikes to Washington's attack",
+      "url": "https://www.chinadaily.com.cn/a/202609/01/WS6a9631bfe4b06d4aa055b9a5.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-09-01",
+      "summary": "Iran struck military targets of the United States in the Middle East on Monday in retaliation for the first US strikes on Iranian territory in a month. The exchange marked a major escalation as the protracted conflict entered its seventh month.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202609/01/6a9631bfe4b06d4a392b1958.jpeg"
+    },
+    {
+      "title": "China, Egypt poised 'for new future focus'",
+      "url": "https://www.chinadaily.com.cn/a/202609/02/WS6a976517e4b06d4aa055bcb6.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-09-02",
+      "summary": "President Xi Jinping's visit to Egypt is a landmark moment in the development of the long-standing relationship between the two countries and an opportunity for the partnership to enter a new phase focused on shaping the future, said Essam Sharaf, former Egyptian prime minister.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202609/02/6a976517e4b06d4a392b2ed9.jpeg"
+    },
+    {
+      "title": "Mamata Banerjee’s niece found dead at home in Birbhum",
+      "url": "https://www.thehindu.com/news/national/west-bengal/former-west-bengal-cm-mamata-banerjees-niece-found-dead-at-birbhum-residence/article71414708.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-09-01T11:24:04.000Z",
+      "summary": "Mamata Banerjee’s niece, 31, found dead in Birbhum; family cites long-term depression and ongoing divorce stress.",
+      "thumbnailUrl": "https://www.thehindu.com/theme/images/og-image.png"
+    },
+    {
+      "title": "BJP chief meets Russian Ambassador Denis Alipov, discusses India-Russia ties",
+      "url": "https://www.thehindu.com/news/national/bjp-chief-meets-russian-ambassador-denis-alipov-discusses-india-russia-ties/article71415691.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-09-01T15:12:18.000Z",
+      "summary": "BJP chief Nitin Nabin meets Russian Ambassador Denis Alipov to discuss strengthening India-Russia relations and future collaborations.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/lsn0zg/article71416283.ece/alternates/LANDSCAPE_1200/20260901425L.jpg"
+    },
+    {
+      "title": "Congress attacks BJP over exclusion of over 2 crore voters in Maharashtra SIR",
+      "url": "https://www.thehindu.com/news/national/votes-being-added-deleted-to-make-bjp-win-says-congress-citing-maharashtra-delhi-sir/article71415541.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-09-01T15:06:10.000Z",
+      "summary": "Congress accuses BJP of manipulating voter rolls in Maharashtra and Delhi to secure election victories, undermining democracy.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/e02dn2/article71416209.ece/alternates/LANDSCAPE_1200/03_RAHUL_GANDHI_PC_29_08_DELHI.jpg"
+    },
+    {
+      "title": "Supreme Court to hear bail plea of Bhima Koregaon accused Surendra Gadling on October 14",
+      "url": "https://www.thehindu.com/news/national/supreme-court-to-hear-bail-plea-of-bhima-koregaon-accused-surendra-gadling-on-october-14/article71415815.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-09-01T16:39:33.000Z",
+      "summary": "Supreme Court to review Surendra Gadling's bail plea related to the 2016 Surjagarh arson case on October 14.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/5p64cf/article71416753.ece/alternates/LANDSCAPE_1200/17police_raid_nagpur.jpg"
+    },
+    {
+      "title": "7,229 CBI cases under Corruption Prevention Act pending trial; 409 for over 20 years: CVC report",
+      "url": "https://www.thehindu.com/news/national/cbi-investigations-corruption-cases-pending-trials-central-vigilance-commission-report/article71415055.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-09-01T12:11:55.000Z",
+      "summary": "CBI faces backlog of over 7,200 corruption cases, with many pending trials for decades, according to a CVC report.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/6wlu9u/article71415108.ece/alternates/LANDSCAPE_1200/Untitled%20design%204.jpg"
+    },
+    {
+      "title": "US and Iran exchange attacks as lull in war appears over",
+      "url": "https://www.reuters.com/world/middle-east/us-iran-exchange-attacks-lull-war-appears-over-2026-09-02/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Wed, 02 Sep 2026 02:41:00 GMT",
+      "summary": "Washington threatened more devastating strikes ‌while Iran protested an attack that it said killed five and wounded dozens of civilians at a wedding.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/7ZPYNZ5OTJKD5DJL7S7RB6HUFY.jpg?auth=f19a1c73ccd0641a10d5d1f48748bf38ee948c2730b0389fc3d52af57a0813eb&height=1920&width=1920&quality=80&smart=true"
+    },
+    {
+      "title": "Bond selloff deepens as inflation risks, oil prices jolt markets",
+      "url": "https://www.reuters.com/world/asia-pacific/bond-selloff-deepens-inflation-oil-prices-jolt-markets-2026-09-02/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Wed, 02 Sep 2026 03:11:00 GMT",
+      "summary": "Global bonds extended a rout that is raising borrowing costs to multi-decade highs as the Middle East conflict pushes up energy prices, playing into investor fears about inflation and ballooning government debt.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/3APORMPKSVMHLFY6ODKG2NUJXA.jpg?auth=339bab555838b5ff6877d6b982e458af6322b44bbf46efa1b3ea47193d115dd8&height=1920&width=1920&quality=80&smart=true"
+    },
+    {
+      "title": "Gold hits over 3-week low as Mideast tensions fan rate-hike fears",
+      "url": "https://www.reuters.com/world/india/gold-hits-over-3-week-low-mideast-tensions-fan-rate-hike-fears-2026-09-02/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Wed, 02 Sep 2026 02:18:00 GMT",
+      "summary": "Gold fell to its lowest in more than ‌three weeks on Wednesday as the escalating Middle East conflict lifted oil prices, stoking inflation and rate-hike fears, while investors focused on upcoming U.S. jobs data.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/WO3YH5EW3VKQFM3CO53BYCO6JQ.jpg?auth=d87e4e88448c0101e057acba2d3cd7da09c251c0f73067d474cab27d26c92e2e&width=1920&quality=80"
+    },
+    {
+      "title": "US military says it completed latest wave of strikes on Iran",
+      "url": "https://www.reuters.com/world/middle-east/us-military-says-it-completed-latest-wave-strikes-iran-2026-09-02/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Wed, 02 Sep 2026 01:56:00 GMT",
+      "summary": "The U.S. military said late on ​Tuesday it completed its latest wave of strikes on Iran, saying it struck ‌Islamic Revolutionary Guard Corps targets as the Iran war escalated following a weekend exchange of fire.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/D23FF2L77BOYTMEPHEMYZ7VCZY.jpg?auth=39269e74a24b5edb8da043a57b71862b05e4f0ec26c28cb75290a6ddb22610f6&height=1500&width=1200&quality=80&smart=true"
+    },
+    {
+      "title": "Hong Kong activist Joshua Wong pleads guilty to collusion with foreign entities",
+      "url": "https://www.reuters.com/world/hong-kong-activist-joshua-wong-pleads-guilty-collusion-with-foreign-entities-2026-09-02/",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Wed, 02 Sep 2026 02:06:00 GMT",
+      "summary": "Prominent Hong Kong democracy activist Joshua Wong pleaded guilty on Wednesday to a charge of collusion with ​foreign entities, a national security crime that carries a maximum sentence of life in prison.",
+      "thumbnailUrl": "https://www.reuters.com/resizer/v2/CXQKH4KP5JMLHIDJV6EFR6ADVE.jpg?auth=b7ece6cb02b40ac60c030c0017fed4f5adbf314bb6e07c285c99fbf42d017f8f&width=1080&quality=80"
+    }
+  ],
+  "markets": [
+    {
+      "id": "sp-500",
+      "label": "S&P 500",
+      "region": "US",
+      "symbol": "^GSPC",
+      "value": 7631.47,
+      "previousClose": 7686.1399200000005,
+      "change": -54.66992,
+      "percentChange": -0.7112793,
+      "direction": "down",
+      "sessionDate": "2026-09-02"
+    },
+    {
+      "id": "nasdaq-composite",
+      "label": "NASDAQ Composite",
+      "region": "US",
+      "symbol": "^IXIC",
+      "value": 26099.77,
+      "previousClose": 26370.88523,
+      "change": -271.11523,
+      "percentChange": -1.0280854,
+      "direction": "down",
+      "sessionDate": "2026-09-02"
+    },
+    {
+      "id": "euronext-100",
+      "label": "Euronext 100 Index",
+      "region": "Europe",
+      "symbol": "^N100",
+      "value": 1906.03,
+      "previousClose": 1915.310029,
+      "change": -9.280029,
+      "percentChange": -0.48451838,
+      "direction": "down",
+      "sessionDate": "2026-09-02"
+    },
+    {
+      "id": "moex",
+      "label": "Public Joint-Stock Company Moscow Exchange MICEX-RTS",
+      "region": "Europe",
+      "symbol": "MOEX.ME",
+      "value": 85.2,
+      "previousClose": 85.31000061,
+      "change": -0.11000061,
+      "percentChange": -0.12894222,
+      "direction": "down",
+      "sessionDate": "2026-09-02"
+    },
+    {
+      "id": "hang-seng",
+      "label": "HANG SENG INDEX",
+      "region": "Asia",
+      "symbol": "^HSI",
+      "value": 25255.02,
+      "previousClose": 25329.73094,
+      "change": -74.71094,
+      "percentChange": -0.29495355,
+      "direction": "down",
+      "sessionDate": "2026-09-02"
+    },
+    {
+      "id": "nikkei-225",
+      "label": "Nikkei 225",
+      "region": "Asia",
+      "symbol": "^N225",
+      "value": 64325.64,
+      "previousClose": 66215.3431,
+      "change": -1889.7031,
+      "percentChange": -2.8565733,
+      "direction": "down",
+      "sessionDate": "2026-09-02"
+    },
+    {
+      "id": "sensex",
+      "label": "S&P BSE SENSEX",
+      "region": "India",
+      "symbol": "^BSESN",
+      "value": 76264.15,
+      "previousClose": 76944.2828,
+      "change": -680.1328,
+      "percentChange": -0.88397336,
+      "direction": "down",
+      "sessionDate": "2026-09-02"
+    }
+  ],
+  "hackerNews": [
+    {
+      "title": "Claude Fable 5.1 and Claude Mythos 5.1",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+      "publishedAt": "2026-09-01T17:53:53.000Z",
+      "summary": "Our most advanced models for coding and knowledge work. Their research capabilities also offer an early glimpse of how AI models will contribute to scientific progress.",
+      "thumbnailUrl": "https://cdn.sanity.io/images/4zrzovbb/website/932ca7d6f414ca22fd5a26dcc131410575b9b3e5-1200x630.jpg"
+    },
+    {
+      "title": "The Emergent Symbolic Structure of Artificial Neural Networks",
+      "url": "https://arxiv.org/abs/2608.29530",
+      "publishedAt": "2026-09-02T04:15:56.000Z",
+      "summary": "Modern systems in artificial intelligence (AI) somehow excel in domains for which they seem poorly suited. Intelligence has traditionally been modeled as operating over structured combinations of symbols, such as logical formulas. However, the strongest modern AI systems are based on neural networks, which instead represent information in continuous vectors. Vectors seem inadequate for capturing the structure of language, logic, and other cognitive domains, yet neural networks achieve impressive performance in these areas. How do they do it? In this work, we propose a potential answer: Despite appearances, perhaps the internal representations of neural networks implicitly realize symbolic structure. In support of this hypothesis, we show that the vector representations of a variety of neural networks can be closely approximated with symbolic structures: we can replace the network's entire representation-generating process with a closed-form equation instantiating a symbolic structure, and the network's behavior remains largely unchanged. This finding holds for both small-scale neural networks trained to manipulate lists as well as large language models (LLMs) operating in four domains that are central in symbolic traditions: arithmetic, logic, computer code, and language. Further, our symbolic approximation allows us to modify an LLM's behavior in targeted ways via precise interventions on its internal representations, showing that the LLM's behavior is reliant on the symbolic structures we have identified. This work provides a potential way to reconcile longstanding symbolic conceptions of intelligence with the vector-based nature of modern AI.",
+      "thumbnailUrl": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    },
+    {
+      "title": "True Rate of Unemployment",
+      "url": "https://www.lisep.org/tru",
+      "publishedAt": "2026-09-02T02:21:10.000Z",
+      "summary": "LISEP’s mission is to help achieve shared economic prosperity for all Americans, particularly for middle- and low-income families. Our focus is fact-based economic and policy research.",
+      "thumbnailUrl": "https://cdn.prod.website-files.com/63b9f524e7d3d45006f3a418/641ded42b81e30b43bc149e4_LISEP%20Mark%20Isolated.svg"
+    },
+    {
+      "title": "How accurate have Ed Zitron's AI skeptic predictions been?",
+      "url": "https://danluu.com/zitron/",
+      "publishedAt": "2026-09-01T18:35:15.000Z",
+      "summary": "I was curious how well the predictions of the most widely cited AI skeptic I've seen (Ed Zitron) have done, so I looked at how his predictions panned out. To disclose my own biases, I've never had a particularly strong pro or anti AI progress position. For example, in 2022, I did a comprehensive look at predictions Futurists made, including well-respected folks like Kurzweil and found them to be generally wrong on both the prediction results as well as the reasoning. On the flip side, in 2015, I wrote about how people were underestimating AI's ability to displace humans in jobs and have repeatedly been on the record as saying that many people are underestimating AI's ability to displace humans from jobs. My position on AI has been extremely boring and is basically, \"if something is currently happening, the people who are saying that it's impossible that it will ever happen are probably wrong\".",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "WebFPGA",
+      "url": "https://webfpga.io/",
+      "publishedAt": "2026-09-02T03:54:58.000Z",
+      "summary": "Our distributor has confirmed shipment of new parts. We will update our store stock after manufacturing is complete. We estimate this to be completed 2-3 weeks from today.",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
+      "url": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
+      "publishedAt": "2026-09-01T23:17:43.000Z",
+      "summary": "A new identity theft service launched on the dark web this week is selling digital scans of more than 153 million drivers licenses from people in the United States and Canada. Based on interviews with individuals whose licenses are available for purchase on this service, it appears to be siphoning images collected by a widely-used identity verification company based in Louisiana. KrebsOnSecurity also has learned that the New Orleans field office of the Federal Bureau of Investigation (FBI) today launched an official inquiry into the source of the images.",
+      "thumbnailUrl": "https://krebsonsecurity.com/b-flashpoint/1.png"
+    },
+    {
+      "title": "My local model setup on an M4 Pro Mac Mini",
+      "url": "https://lws.io/blog/my-local-model-setup/",
+      "publishedAt": "2026-09-01T22:30:52.000Z",
+      "summary": "I run a local LLM server on my M4 Pro Mac mini with 48 GB of RAM.",
+      "thumbnailUrl": "https://lws.io/open-graph/blog/my-local-model-setup.png"
+    },
+    {
+      "title": "Introducing Ad Blocker for Firefox on iOS",
+      "url": "https://blog.mozilla.org/en/firefox/ad-blocker-on-ios/",
+      "publishedAt": "2026-09-01T13:46:49.000Z",
+      "summary": "There's only so much room on your screen. Pop-ups, overlays, and ads can take over fast, getting between you and what you came to do. That’s where",
+      "thumbnailUrl": "https://blog.mozilla.org/wp-content/blogs.dir/278/files/2026/08/iOS-AdBlocker-1-1080x720.png"
+    },
+    {
+      "title": "Show HN: Weedout – Safari extension that hides YouTube AI-labeled videos",
+      "url": "https://masteranza.github.io/weedout/",
+      "publishedAt": "2026-09-01T22:06:57.000Z",
+      "summary": "A Safari extension that pulls videos YouTube labels “Made with AI” out of your feed.",
+      "thumbnailUrl": "https://masteranza.github.io/weedout/screenshot.png"
+    },
+    {
+      "title": "The efficient frontier of LLM inference",
+      "url": "https://www.baseten.co/blog/the-efficient-frontier-of-llm-inference/",
+      "publishedAt": "2026-09-01T23:48:05.000Z",
+      "summary": "Inference techniques either move a deployment along the latency–throughput frontier or push the entire frontier out, creating more efficiency to allocate.",
+      "thumbnailUrl": "https://www.datocms-assets.com/104802/1788302073-efficient-frontier-image3.png?auto=compress%2Cformat&fit=crop&h=630&q=75&w=1200"
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "Creatium Coach",
+      "tagline": "Your multimedia mentor that takes you from mid to great",
+      "url": "https://www.producthunt.com/products/creatium",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-09-01T23:49:20-07:00"
+    },
+    {
+      "name": "EAS Observe",
+      "tagline": "Performance monitoring built for Expo and React Native",
+      "url": "https://www.producthunt.com/products/expo",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-09-01T23:49:26-07:00"
+    },
+    {
+      "name": "Keiki",
+      "tagline": "Build one customer-facing AI agent and launch it everywhere",
+      "url": "https://www.producthunt.com/products/keiki",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-09-01T23:50:19-07:00"
+    },
+    {
+      "name": "Computable GPU Index (CGI)",
+      "tagline": "The first open-source price index for GPU compute",
+      "url": "https://www.producthunt.com/products/computable-gpu-index-cgi",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-09-01T23:45:21-07:00"
+    },
+    {
+      "name": "Murmell",
+      "tagline": "Google docs for AI agents, and you can close your laptop",
+      "url": "https://www.producthunt.com/products/murmell",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-09-01T23:44:55-07:00"
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "News and markets",
+      "sentences": [
+        "Global headlines: U.S. carries out new military strikes in Iran (The American strikes were in response to attempted attacks by Iran on commercial shipping in the Strait of Hormuz and U.S. service members in the Middle East, military officials at Central Command said); Germany blames Russia for drone attack on airport, announces countermeasures (Officials said the Aug. 4 attempt was part of a campaign aimed at undermining European support for Ukraine against Russia); and Trump said his deal with Venezuela would lower gas prices. Will it? (It is likely to be years before oil production meaningfully ramps up, industry experts say, and there are many risks involved).",
+        "Markets leaned lower, with 7 of 7 tracked indexes down; Nikkei 225 down 2.86% was the largest move.",
+        "Benchmarks tracked: S&P 500, NASDAQ Composite, Euronext 100 Index, and Public Joint-Stock Company Moscow Exchange MICEX-RTS plus 3 more indexes."
+      ]
+    },
+    {
+      "title": "Hacker News and Product Hunt",
+      "sentences": [
+        "Hacker News: Claude Fable 5.1 and Claude Mythos 5.1 (Our most advanced models for coding and knowledge work. Their research capabilities also offer an early glimpse of how AI models will...); The Emergent Symbolic Structure of Artificial Neural Networks (Modern systems in artificial intelligence (AI) somehow excel in domains for which they seem poorly suited. Intelligence has traditionally...); and True Rate of Unemployment (LISEP’s mission is to help achieve shared economic prosperity for all Americans, particularly for middle- and low-income families. Our...).",
+        "Product Hunt features Creatium Coach (Your multimedia mentor that takes you from mid to great), EAS Observe (Performance monitoring built for Expo and React Native), and Keiki (Build one customer-facing AI agent and launch it everywhere)."
+      ]
+    }
+  ],
+  "sourceNotes": {
+    "generatedAt": "2026-09-02T06:52:14.476Z",
+    "timeZone": "Asia/Kolkata",
+    "successfulSources": [
+      "Washington Post",
+      "Al Jazeera",
+      "NPR",
+      "China Daily",
+      "The Hindu",
+      "Reuters"
+    ],
+    "marketSessionLabel": "Latest market sessions as of 2026-09-02",
+    "warnings": []
+  }
+}
