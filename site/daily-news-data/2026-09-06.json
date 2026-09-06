@@ -1,0 +1,508 @@
+{
+  "headlines": [
+    {
+      "title": "U.S. military says it hit 3 Iranian tankers after Navy ships targeted",
+      "url": "https://www.washingtonpost.com/world/2026/09/05/us-says-it-hit-3-iranian-oil-tankers-including-one-near-kharg-island/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Sat, 05 Sep 2026 23:14:32 +0000",
+      "summary": "U.S. Central Command said it struck an Iranian oil tanker off the coast of Kharg Island, as well as off Jask and the Gulf of Oman.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "U.S. envoys meet Putin in Moscow, pressing Russia-Ukraine peace talks",
+      "url": "https://www.washingtonpost.com/world/2026/09/05/witkoff-kushner-arrive-moscow-talks-with-putin/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Sat, 05 Sep 2026 22:29:37 +0000",
+      "summary": "The visit by Steve Witkoff and Jared Kushner was aimed at reviving negotiations that have been in a deep freeze for nearly eight months.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "After nine months at sea, a muted stay in Thailand for crew of USS Abraham Lincoln",
+      "url": "https://www.washingtonpost.com/world/2026/09/05/crew-uss-abraham-lincoln-spends-few-days-thailand-after-nine-months-sea/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Sat, 05 Sep 2026 12:23:56 +0000",
+      "summary": "The aircraft carrier’s record-long Iran war deployment, which some of the crew described as a grueling odyssey, is winding down at last.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "The U.N. backed a map that shows Africa true to size. The U.S. was sole objector.",
+      "url": "https://www.washingtonpost.com/world/2026/09/05/un-endorses-map-change-represent-africa-more-accurately/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Sat, 05 Sep 2026 12:20:14 +0000",
+      "summary": "The U.S. was the only country to vote against the U.N. resolution, which encourages the use of an “Equal Earth” map. The U.S. described it as a “radical ideological project.”",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "Trove of documents reveals alleged chemical weapons stockpile in Sudan",
+      "url": "https://www.washingtonpost.com/world/2026/09/05/trove-documents-reveals-alleged-chemical-weapons-stockpile-sudan/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Sat, 05 Sep 2026 09:00:00 +0000",
+      "summary": "A text message to a military officer involved in airstrikes included video of an apparent victim with charred skin, with the words: “Your cooking.”",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "Yemeni forces claim strategic district amid intensified Houthi clashes",
+      "url": "https://www.aljazeera.com/news/2026/9/6/yemeni-forces-claim-strategic-district-amid-intensified-houthi-clashes",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-09-06",
+      "summary": "More than 60 people, including civilians, killed as clashes between Yemeni forces and Houthis intensify in Taiz.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/09/ap_6a9ce93846c3e-1788668216.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "South Africa’s chrome riches fuel a deadly underground economy",
+      "url": "https://www.aljazeera.com/news/2026/9/6/south-africas-chrome-riches-fuel-a-deadly-underground-economy",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-09-06",
+      "summary": "Behind South Africa’s chrome riches lies a shadow economy where migrants and unemployed workers face deadly conditions.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/08/illegal-chrome-workers-at-work-pic-credit-Tsitsi-Bhobo-1786979291.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Germans vote in eastern state as far-right AfD eyes power",
+      "url": "https://www.aljazeera.com/news/2026/9/6/german-voters-head-to-polls-as-far-right-afd-party-eyes-historic-state-win",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-09-06",
+      "summary": "Saxony-Anhalt elections could see AfD become the first far-right party to take power at a state level since WWII.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/09/afp_6a9cd6e1ec30-1788663521.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Indonesia’s main airport suspends flights due to Anak Krakatau eruption",
+      "url": "https://www.aljazeera.com/news/2026/9/6/indonesias-main-airport-suspends-flights-due-to-anak-krakatoa-eruption",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-09-06",
+      "summary": "Volcanic ash from Mount Anak Krakatau disrupts flights at Soekarno-Hatta International airport, near Jakarta.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/09/ap_6a9cc78f613ee-1788659599.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Nearly 9,000 killed in Israeli attacks on Lebanon since 2023",
+      "url": "https://www.aljazeera.com/news/2026/9/6/nearly-9000-killed-in-israeli-attacks-on-lebanon-since-2023",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-09-06",
+      "summary": "More than 179 attacks on ambulance crews recorded since March 2, killing 179 healthcare workers.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/09/ap_6a9cbcfbe0b64-1788656891.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Jazz legend John Coltrane's Philadelphia house to become a cultural heritage site",
+      "url": "https://www.npr.org/2026/09/05/nx-s1-5955500/saxophone-legend-john-coltranes-philadelphia-house-to-become-a-cultural-heritage-site",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Sat, 05 Sep 2026 17:01:10 -0400",
+      "summary": "On the centennial of father's birth, Ravi Coltrane talks about turning the home where the jazz legend spent a crucial period in the 1950s into a cultural heritage and community space.",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "U.S. strikes Iranian oil tankers in retaliation for missile attacks on Navy ships",
+      "url": "https://www.npr.org/2026/09/05/nx-s1-5959159/us-iran-warships-targeted",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Sat, 05 Sep 2026 11:05:08 -0400",
+      "summary": "One of the Iranian tankers struck was near a key area in Iran's oil-export system, according to U.S. Central Command.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6000x4000+0+0/resize/6000x4000!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F65%2Fec%2F64938f1741d199aebbc31393fde3%2Fap26247569143031.jpg"
+    },
+    {
+      "title": "Opinion: A sculpture in perpetual motion, removed",
+      "url": "https://www.npr.org/2026/09/05/nx-s1-5948663/opinion-a-sculpture-in-perpetual-motion-removed",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Sat, 05 Sep 2026 08:00:00 -0400",
+      "summary": "\"Blue,\" a statue that's been on the grounds of the Kennedy Center in Washington, D.C. for 7 years has been dismantled and removed.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8555x5703+0+0/resize/8555x5703!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F9d%2F2a%2F93fb40af4882aa112834d3bbe809%2Fap26245513976733.jpg"
+    },
+    {
+      "title": "Trump administration to dig at triumphal arch site despite no final federal approvals",
+      "url": "https://www.npr.org/2026/09/05/nx-s1-5957875/trump-administration-to-dig-at-triumphal-arch-site-despite-no-final-federal-approvals",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Sat, 05 Sep 2026 07:43:24 -0400",
+      "summary": "The Trump administration says it will break ground on a 250-foot triumphal arch in Washington, D.C., without final federal approval and despite an ongoing lawsuit.",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "U.S.-Venezuela oil deal puts opposition in a political bind",
+      "url": "https://www.npr.org/2026/09/05/nx-s1-5954177/venezuelan-opposition-slams-new-u-s-oil-deal-warning-it-delays-democracy",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Sat, 05 Sep 2026 07:43:14 -0400",
+      "summary": "Venezuelan opposition members are uneasy with new oil deals with the U.S., worried that agreements with authoritarian regime in Caracas could undermine democratic progress.",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "Shenzhen gears up for Asia‑Pacific cooperation after decades of transformation",
+      "url": "https://www.chinadaily.com.cn/a/202609/04/WS6a9a2af1e4b06d4aa055c59d.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-09-04",
+      "summary": "What began as a modest coastal fishing village has evolved into one of the world's most dynamic tech hubs. Now, Shenzhen in South China's Guangdong province is ready to share its decades‑long transformation journey. Scheduled for Sept 5, the main forum of the Asia‑Pacific Media Forum will gather diverse perspectives across the region to explore fresh‑growth opportunities, laying the groundwork for the 33rd Asia-Pacific Economic Cooperation Economic Leaders' Meeting and advancing shared prosperity across the Asia‑Pacific.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202609/04/6a9a2af1e4b06d4a392b637e.jpeg"
+    },
+    {
+      "title": "Nepal rules out compensation from China",
+      "url": "https://www.chinadaily.com.cn/a/202609/04/WS6a9a1848e4b06d4aa055c4d0.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-09-04",
+      "summary": "Nepal's Foreign Minister Shisir Khanal said on Thursday that the country has no intention of seeking \"climate justice compensation\" from any specific country, including China, according to a news release issued by the Chinese embassy in Kathmandu.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202609/04/6a9a1848e4b06d4a392b5f28.jpeg"
+    },
+    {
+      "title": "Alibaba expands cloud footprint with Brazil region",
+      "url": "https://www.chinadaily.com.cn/a/202609/04/WS6a9a1743e4b06d4aa055c4bf.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-09-04",
+      "summary": "Alibaba Cloud, a provider of AI infrastructure and the intelligence backbone of Chinese tech giant Alibaba Group, has announced the launch of a cloud region in Brazil.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202609/05/6a9b6039e4b06d4a392b724b.jpeg"
+    },
+    {
+      "title": "US and Iran resume strikes, sparking alarm",
+      "url": "https://www.chinadaily.com.cn/a/202609/04/WS6a9a0499e4b06d4aa055c462.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-09-04",
+      "summary": "United Nations Secretary-General Antonio Guterres has appealed for maximum restraint after the US and Iran resumed strikes in recent days, leaving 18 dead and over 140 injured in Iran, with the casualties including women and children.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202609/04/6a9a0499e4b06d4a392b5df2.jpeg"
+    },
+    {
+      "title": "Putin's talks with US envoys constructive, extremely frank: Kremlin",
+      "url": "https://www.chinadaily.com.cn/a/202609/06/WS6a9ca1f2e4b06d4aa055c8de.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-09-06",
+      "summary": "MOSCOW -- Russian President Vladimir Putin had substantive, constructive and extremely frank talks with US envoys Steve Witkoff and Jared Kushner in a trusting atmosphere in Moscow, Kremlin aide Yury Ushakov said early Sunday morning.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202609/06/6a9ca1f2e4b06d4a392b790a.jpeg"
+    },
+    {
+      "title": "Eight High Court judges appointed as Chief Justices",
+      "url": "https://www.thehindu.com/news/national/eight-high-court-judges-appointed-as-chief-justices/article71433268.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-09-05T18:59:54.000Z",
+      "summary": "President Droupadi Murmu appoints eight High Court judges as Chief Justices amid controversy in Rajasthan's judiciary.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/cmu9b0/article71433328.ece/alternates/LANDSCAPE_1200/iStock-1666778610.jpg"
+    },
+    {
+      "title": "PM Modi lauds SRCC for nurturing generations of leaders in business, public life",
+      "url": "https://www.thehindu.com/news/national/pm-modi-lauds-srcc-for-nurturing-generations-of-leaders-in-business-public-life/article71432623.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-09-05T14:52:57.000Z",
+      "summary": "PM Modi celebrates SRCC's centenary, highlighting its role in developing leaders and releasing a commemorative ₹100 coin.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/vdw0b2/article71432720.ece/alternates/LANDSCAPE_1200/PTI09_05_2026_000320B.jpg"
+    },
+    {
+      "title": "Supreme Court wants affidavit on IPS postings in CAPFs, continues oversight of 2025 judgment",
+      "url": "https://www.thehindu.com/news/national/supreme-court-wants-affidavit-on-ips-postings-in-capfs-continues-oversight-of-2025-judgment/article71433084.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-09-05T17:52:35.000Z",
+      "summary": "Supreme Court demands affidavit on IPS postings in CAPFs, maintaining oversight of its 2025 judgment amid ongoing legal challenges.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/3ua3mv/article71433253.ece/alternates/LANDSCAPE_1200/6744_19_8_2025_16_9_6_4_18_08_2025_SUPREME_COURT01.JPG"
+    },
+    {
+      "title": "News in Frames | Where the mountains narrate stories",
+      "url": "https://www.thehindu.com/news/national/jammu-and-kashmir/news-in-frames-where-the-mountainsnarrate-stories/article71434468.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-09-06T02:52:22.000Z",
+      "summary": "The Hindu's News in Frames on September 6, 2026",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/yy5w5q/article71434479.ece/alternates/LANDSCAPE_1200/NEWS%20IN%20FRAMES_%2028.jpg"
+    },
+    {
+      "title": "Spotlight on illegal coal trade in Meghalaya after truck accident",
+      "url": "https://www.thehindu.com/news/national/meghalaya/spotlight-on-illegal-coal-trade-in-meghalaya-after-truck-accident/article71432293.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-09-05T20:41:52.000Z",
+      "summary": "Meghalaya's illegal coal trade under scrutiny after a truck accident prompts inquiry into mining legality and transportation compliance.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/nr8jsp/article71433369.ece/alternates/LANDSCAPE_1200/2150_10-1-2019_15-12-35_1_COAL_GROUNDZERO_04.JPG"
+    },
+    {
+      "title": "Germany's far-right AfD seeks landmark state victory as Saxony-Anhalt votes",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTHlKLTRObzFSci1rMWZ6aTRzcFhXUGtKc0JQakJVb1FBUmdNTFowMHU4X0tiRkdFUkVnbWhremU0V05zSUtYVzBxUkZ0bHdPZjhadEF4T3lZLXdrajlidkQ2b05OVTdydG1va0NjbGp4TEVHXzJNUmI2dkF5ZEJneUtta19hT0tnTDE2OEZiS2V0SFh6VFE0YVpXOFhqS3pENV9idTd6V0lwd0lOcEdCV3J2UQ?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Sun, 06 Sep 2026 00:06:00 GMT",
+      "summary": "Reuters: Germany's far-right AfD seeks landmark state victory as Saxony-Anhalt votes.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "Berlin launches crisis response after hackers publish stolen data",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMWpiamMtMTlEdUI0amU3Wjk2Rkt1SGdtVkFOZXRtVDY0ZXhXNTJFQVJBZnB0WEowZjFtM1luUUl5dnZnODFCTEV1ai1fR2dMZ1VmWl9BaUhOM2NNakhQWDVaV291ejU4YXpZcy1hMHVaZksydW90c25HOFp2UHlLbXU0SlVMcGJMTzF0VzBNZlZack40WjJUaGREY3g3TVBuZm5EWHFaNTRxdk0?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Sat, 05 Sep 2026 16:45:43 GMT",
+      "summary": "Reuters: Berlin launches crisis response after hackers publish stolen data.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "Putin says US-Russia contacts beneficial as talks begin with Witkoff and Kushner",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPM3NpSzg5T0lwZ2VwSkh6VjJtLUF5N0U2TWZoM2dhSW1sUDRsUk5nRWJpNkZPaXNhWkNQNFl3S25QVkRNcUxWRno0SU1uVU84NzczVzhWODl0UXZBWkoxNGlwbjU3eGxIV3R4MGhRS1d0ZVN1bDBFWTRDRmU5ZlZvQXM3a2gycDZ2cWoxR2ZtTUFkUWRBR1otODM1Z010SkY3NGMxRjVVakxINXdDT2VRLVdoN3NFSGxuUWowS1FaOA?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Sat, 05 Sep 2026 18:57:45 GMT",
+      "summary": "Reuters: Putin says US-Russia contacts beneficial as talks begin with Witkoff and Kushner.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "Israeli military says it strikes southern Lebanon after Hezbollah launched drones",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNi1QZjVMMzI3QlpNZ2pKMVNjZFNqU2RWb093aGtUS3ZmZWdBNHNjbXFMdVZZS2NkMnd3cWlQZlVqenBlRGpQdkFJSjNuMU5wVlNCa1pqNXVzV0NIRVFGc3Z6bGpMZXp3dzc1Y3dfM2xTNnZCSi0weHFlMUtaZG0yS2p6S2ZhWXRUeS0xYkFOOE5vLUlYaFJnMy1KdGh0ejFDbEpzOFRlaEs2ZG1ZY09hUW05WjhYYVBndHBtVjFIQ0szMVVOVzc4?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Sun, 06 Sep 2026 04:15:00 GMT",
+      "summary": "Reuters: Israeli military says it strikes southern Lebanon after Hezbollah launched drones.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "NATO will not tolerate hybrid actions against members, US envoy says",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxONmp2OVoyb1pVeGE3MTBrbjBIbXlFMHJKNFNGWGVvcldOZGNjTmt4cEI2V1IxMmduNF9Fc29NVmlMbjBLV2ExY2g2VzlBenY5aGt6Ri1QdTEtaDVUZC1vN2Nvbk9vX29UR0Zka2I3T0ZKSVpKeVhJNTRScWFRVl9XZmhHelpwMmVoNnRzY1NOcTNCSlJwcDNrNDY1ekNYTlRQMC1Gendnd1luUVF2WEE?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Sat, 05 Sep 2026 15:16:10 GMT",
+      "summary": "Reuters: NATO will not tolerate hybrid actions against members, US envoy says.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    }
+  ],
+  "markets": [
+    {
+      "id": "sp-500",
+      "label": "S&P 500",
+      "region": "US",
+      "symbol": "^GSPC",
+      "value": 7718.6,
+      "previousClose": 7747.709863,
+      "change": -29.109863,
+      "percentChange": -0.37572217,
+      "direction": "down",
+      "sessionDate": "2026-09-06"
+    },
+    {
+      "id": "nasdaq-composite",
+      "label": "NASDAQ Composite",
+      "region": "US",
+      "symbol": "^IXIC",
+      "value": 26506.99,
+      "previousClose": 26584.099375,
+      "change": -77.109375,
+      "percentChange": -0.29005826,
+      "direction": "down",
+      "sessionDate": "2026-09-06"
+    },
+    {
+      "id": "euronext-100",
+      "label": "Euronext 100 Index",
+      "region": "Europe",
+      "symbol": "^N100",
+      "value": 1910.53,
+      "previousClose": 1906.819917,
+      "change": 3.710083,
+      "percentChange": 0.19456913,
+      "direction": "up",
+      "sessionDate": "2026-09-06"
+    },
+    {
+      "id": "moex",
+      "label": "Public Joint-Stock Company Moscow Exchange MICEX-RTS",
+      "region": "Europe",
+      "symbol": "MOEX.ME",
+      "value": 85.2,
+      "previousClose": 85.31000061,
+      "change": -0.11000061,
+      "percentChange": -0.12894222,
+      "direction": "down",
+      "sessionDate": "2026-09-06"
+    },
+    {
+      "id": "hang-seng",
+      "label": "HANG SENG INDEX",
+      "region": "Asia",
+      "symbol": "^HSI",
+      "value": 25650.87,
+      "previousClose": 25213.301639999998,
+      "change": 437.56836,
+      "percentChange": 1.7354664,
+      "direction": "up",
+      "sessionDate": "2026-09-06"
+    },
+    {
+      "id": "nikkei-225",
+      "label": "Nikkei 225",
+      "region": "Asia",
+      "symbol": "^N225",
+      "value": 65020.94,
+      "previousClose": 64214.4986,
+      "change": 806.4414,
+      "percentChange": 1.2558556,
+      "direction": "up",
+      "sessionDate": "2026-09-06"
+    },
+    {
+      "id": "sensex",
+      "label": "S&P BSE SENSEX",
+      "region": "India",
+      "symbol": "^BSESN",
+      "value": 76515.43,
+      "previousClose": 76152.89875,
+      "change": 362.53125,
+      "percentChange": 0.47605705,
+      "direction": "up",
+      "sessionDate": "2026-09-06"
+    }
+  ],
+  "hackerNews": [
+    {
+      "title": "Cloud in a Bottle: making self-hosting accessible to everyone",
+      "url": "https://cloudinabottle.org/blog/launch-post",
+      "publishedAt": "2026-09-06T00:03:29.000Z",
+      "summary": "Your open-source personal cloud: containerized apps, unified auth, good UX. Self-hosting should feel like using a smartphone that serves webapps, not a sysadmin side job.",
+      "thumbnailUrl": "https://cloudinabottle.org/static/img/social-card.png"
+    },
+    {
+      "title": "The revolt of the reader",
+      "url": "https://bcantrill.dtrace.org/2026/09/05/the-revolt-of-the-reader/",
+      "publishedAt": "2026-09-05T21:37:49.000Z",
+      "summary": "Reading is important to me. While I’m not a quick reader nor an especially voracious one, I have found that long-form reading has had a profound influence on me over my life. And because reading is important to me, writing is too: writing not only allows us to convey our ideas, but the very act forces us to test and distill them — at once making our ideas more robust while providing the vehicle by which to share them.",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "GPT-6 Astra on robot arms",
+      "url": "https://openai.robocurve.org/gpt-6-astra/",
+      "publishedAt": "2026-09-06T01:52:45.000Z",
+      "summary": "OpenAI",
+      "thumbnailUrl": "https://openai.robocurve.org/gpt-6-astra/og.jpg"
+    },
+    {
+      "title": "Chrome again exempts Google from user site data settings",
+      "url": "https://lapcatsoftware.com/articles/2026/9/1.html",
+      "publishedAt": "2026-09-05T23:39:47.000Z",
+      "summary": "lapcatsoftware.com: Chrome again exempts Google from user site data settings."
+    },
+    {
+      "title": "Learn Programming with OCaml",
+      "url": "https://usr.lmf.cnrs.fr/lpo/",
+      "publishedAt": "2026-09-05T16:45:02.000Z",
+      "summary": "This book on OCaml is an English translation (by Urmila Nair ) of this book in French . The translation was funded by The OCaml Software Foundation . The book is openly licensed via CC BY SA 4.0 .",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "The \"$60 Gaming PC\" – AMD BC-250 (2025)",
+      "url": "https://devquasar.com/hardware/the-60-gaming-pc-amd-bc-250/",
+      "publishedAt": "2026-09-05T13:36:38.000Z",
+      "summary": "Ok it's not exactly $60 but you can get the board itself for that amount of money on eBay if you're lucky, but on average the price is around $70-$100 (as of November 2025) which is still very cheap considering you can play Cyberpunk 2077 on this.",
+      "thumbnailUrl": "https://devquasar.com/wp-content/uploads/2023/12/Black-logo-no-background.png"
+    },
+    {
+      "title": "Private German rocket makes history, reaches orbit from European soil",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/isar-aerospace-second-launch-norway-andoya-spaceport-spectrum-rocket",
+      "publishedAt": "2026-09-05T20:31:38.000Z",
+      "summary": "Isar Aerospace",
+      "thumbnailUrl": "https://cdn.mos.cms.futurecdn.net/CQvDAjNriBWKJva9TUiy4Z-2560-80.jpg"
+    },
+    {
+      "title": "AMD Based FreeBSD Desktop Reloaded",
+      "url": "https://vermaden.wordpress.com/2026/09/06/amd-based-freebsd-desktop-reloaded/",
+      "publishedAt": "2026-09-06T02:24:57.000Z",
+      "summary": "vermaden.wordpress.com: AMD Based FreeBSD Desktop Reloaded."
+    },
+    {
+      "title": "AI, Tools and Transformation",
+      "url": "https://www.ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation",
+      "publishedAt": "2026-09-06T02:12:46.000Z",
+      "summary": "It’s very tempting to imagine that AI turns everyone into a tool-builder - now everyone can just ask the model to make the software they need, and apps as we know them are dead. I think that misunderstands how most people think and where software actually comes from, and more importantly, it isn’t",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "Actively exploited sandbox RCE in all Chromium versions",
+      "url": "https://nvd.nist.gov/vuln/detail/cve-2026-85046",
+      "publishedAt": "2026-09-04T21:52:01.000Z",
+      "summary": "nvd.nist.gov: Actively exploited sandbox RCE in all Chromium versions.",
+      "thumbnailUrl": null
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "at8pm",
+      "tagline": "Your honest journal",
+      "url": "https://www.producthunt.com/products/at8pm",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-09-05T23:29:10-07:00"
+    },
+    {
+      "name": "Hyperprobe",
+      "tagline": "Lets your AI agents debug production without redeploying",
+      "url": "https://www.producthunt.com/products/hyperprobe",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-09-05T23:53:40-07:00"
+    },
+    {
+      "name": "dif.sh",
+      "tagline": "Markdown feature flags your coding agent installs for you",
+      "url": "https://www.producthunt.com/products/dif-sh",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-09-05T23:44:30-07:00"
+    },
+    {
+      "name": "Reflexio",
+      "tagline": "Behavioral learning that makes AI agents better over time",
+      "url": "https://www.producthunt.com/products/reflexio-2",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-09-05T23:49:06-07:00"
+    },
+    {
+      "name": "BrickForgerAI",
+      "tagline": "Turn any prompt into a brick set you can actually build",
+      "url": "https://www.producthunt.com/products/brickforgerai",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-09-05T23:09:28-07:00"
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "News and markets",
+      "sentences": [
+        "Global headlines: U.S. military says it hit 3 Iranian tankers after Navy ships targeted (U.S. Central Command said it struck an Iranian oil tanker off the coast of Kharg Island, as well as off Jask and the Gulf of Oman); U.S. envoys meet Putin in Moscow, pressing Russia-Ukraine peace talks (The visit by Steve Witkoff and Jared Kushner was aimed at reviving negotiations that have been in a deep freeze for nearly eight months); and After nine months at sea, a muted stay in Thailand for crew of USS Abraham Lincoln (The aircraft carrier’s record-long Iran war deployment, which some of the crew described as a grueling odyssey, is winding down at last).",
+        "Markets leaned higher, with 4 of 7 tracked indexes up; HANG SENG INDEX up 1.74% was the largest move.",
+        "Benchmarks tracked: S&P 500, NASDAQ Composite, Euronext 100 Index, and Public Joint-Stock Company Moscow Exchange MICEX-RTS plus 3 more indexes."
+      ]
+    },
+    {
+      "title": "Hacker News and Product Hunt",
+      "sentences": [
+        "Hacker News: Cloud in a Bottle: making self-hosting accessible to everyone (Your open-source personal cloud: containerized apps, unified auth, good UX. Self-hosting should feel like using a smartphone that serves...); The revolt of the reader (Reading is important to me. While I’m not a quick reader nor an especially voracious one, I have found that long-form reading has had a...); and GPT-6 Astra on robot arms (OpenAI).",
+        "Product Hunt features at8pm (Your honest journal), Hyperprobe (Lets your AI agents debug production without redeploying), and dif.sh (Markdown feature flags your coding agent installs for you)."
+      ]
+    }
+  ],
+  "sourceNotes": {
+    "generatedAt": "2026-09-06T06:54:36.307Z",
+    "timeZone": "Asia/Kolkata",
+    "successfulSources": [
+      "Washington Post",
+      "Al Jazeera",
+      "NPR",
+      "China Daily",
+      "The Hindu",
+      "Reuters"
+    ],
+    "marketSessionLabel": "Latest market sessions as of 2026-09-06",
+    "warnings": []
+  }
+}
