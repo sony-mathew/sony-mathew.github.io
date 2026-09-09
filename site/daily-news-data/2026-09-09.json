@@ -1,0 +1,509 @@
+{
+  "headlines": [
+    {
+      "title": "Rubio enjoyed major support among Venezuelans. Then came Trump’s oil deal.",
+      "url": "https://www.washingtonpost.com/national-security/2026/09/08/rubios-tour-will-herald-latin-americas-right-venezuela-remains-problem/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Wed, 09 Sep 2026 00:27:00 +0000",
+      "summary": "Secretary of State Marco Rubio will visit friendly governments in Colombia, Ecuador and Peru. But his support for the Venezuela oil deal is rankling some in the region.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "U.S. launches strikes on 5 Iranian oil tankers after latest attacks on warship",
+      "url": "https://www.washingtonpost.com/national-security/2026/09/08/us-launches-strikes-5-iranian-oil-tankers-after-latest-attacks-warships/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Tue, 08 Sep 2026 23:04:26 +0000",
+      "summary": "The engagement follows similar violence last week, as Iranian and U.S. forces have continued to trade fire amid stunted diplomatic efforts to end the war.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "As Canada’s tariffs take effect, Trump’s trade war complicates GOP election pitch",
+      "url": "https://www.washingtonpost.com/business/2026/09/08/trump-threatens-ban-bombardier-jet-sales-canadas-tariffs-take-effect/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Tue, 08 Sep 2026 21:56:00 +0000",
+      "summary": "Republicans pushed back against Trump's call to ban sales by Québec-based aerospace giant Bombardier.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "Renewed fighting in southern Lebanon strains U.S.-backed ceasefire",
+      "url": "https://www.washingtonpost.com/world/2026/09/08/renewed-fighting-southern-lebanon-strains-us-backed-ceasefire/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Tue, 08 Sep 2026 21:44:24 +0000",
+      "summary": "In war-weary Lebanon, Israeli strikes have intensified in response to Hezbollah drone attacks.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "Israel boosted Europe’s right wing — and recoils at German party’s gains",
+      "url": "https://www.washingtonpost.com/world/2026/09/08/israel-boosted-europes-right-wing-recoils-german-partys-gains/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Tue, 08 Sep 2026 20:58:52 +0000",
+      "summary": "Alternative for Germany is the first far-right party to win a state election in Germany since the Holocaust, one Jewish group noted.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "Why US-Iran war over Hormuz is threatening the Gulf’s waters",
+      "url": "https://www.aljazeera.com/news/2026/9/9/why-us-iran-war-over-hormuz-is-threatening-the-gulfs-waters",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-09-09",
+      "summary": "US-Iran attacks on tankers around Hormuz are raising fears of devastating oil spills across the Gulf.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/09/interactive-Where-have-ships-been-attacked-in-the-Strait-of-Hormuz-cover-sep-8-2026-copy-1788872794.png?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Why Nepal is demanding climate justice and compensation after deadly floods",
+      "url": "https://www.aljazeera.com/news/2026/9/9/why-nepal-is-demanding-climate-justice-and-compensation-after-deadly-floods",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-09-09",
+      "summary": "Nepal's politicians have said the country is bearing the brunt for climate change caused by other nations.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/09/reuters_6a992f96-1788424086.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "US strikes 5 Iranian oil tankers; Tehran targets Jordan base, US warships",
+      "url": "https://www.aljazeera.com/news/2026/9/9/us-destroys-five-iranian-tankers-iran-retaliates-with-attacks-on-jordan-base",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-09-09",
+      "summary": "US military says it struck the five Iranian tankers after the IRGC targeted a US warship twice in two days.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/09/2026-09-08T230056Z_1478579696_RC2AFNAQJA7C_RTRMADP_3_IRAN-CRISIS-USA-NAVY-CARRIERS-1788908805.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "New Hampshire primary results: Key takeaways for US midterm elections",
+      "url": "https://www.aljazeera.com/news/2026/9/9/us-midterm-elections-key-takeaways-from-new-hampshire-primaries",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-09-09",
+      "summary": "The GOP aims to gain a New England foothold as Democrats strive to retain the Senate seat.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/09/afp_6aa0e28c5415-1788928652.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Gambian leader pledges halt to rolling blackouts as protests turn violent",
+      "url": "https://www.aljazeera.com/news/2026/9/9/gambian-leader-pledges-halt-to-rolling-blackouts-as-protests-turn-violent",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-09-09",
+      "summary": "Barrow pledges new power infrastructure, including a 24-megawatt plant, to tackle the worsening electricity crisis.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/09/ap_6aa0b22b00927-1788916267.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "TSA brings back gate access for some people without plane tickets 25 years after 9/11",
+      "url": "https://www.npr.org/2026/09/09/g-s1-142480/tsa-gate-access-25-years-after-9-11",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Wed, 09 Sep 2026 01:41:56 -0400",
+      "summary": "The move is a start toward reviving a tradition that largely disappeared after the Sept. 11, 2001, attacks 25 years ago this week.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8195x5464+0+0/resize/8195x5464!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fa9%2Fdf%2F519a6b70440f888200196dbb7208%2Fap26251667827834.jpg"
+    },
+    {
+      "title": "U.S. military says it destroyed 5 Iranian oil tankers after attacks on Navy warship",
+      "url": "https://www.npr.org/2026/09/09/nx-s1-5962641/us-destroy-iranian-oil-tankers",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Wed, 09 Sep 2026 01:20:45 -0400",
+      "summary": "The U.S. military said it destroyed five Iranian oil tankers on Tuesday in response to the latest attacks on its warships. Iran hit American targets in Jordan.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6000x4000+0+0/resize/6000x4000!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F84%2Fe6%2Fdc86f5694b4688a8373a0b341360%2Fap26250323129749.jpg"
+    },
+    {
+      "title": "New report shows the economic toll of ICE raids",
+      "url": "https://www.npr.org/2026/09/08/nx-s1-5955787/new-report-shows-the-economic-toll-of-ice-raids",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Tue, 08 Sep 2026 16:17:22 -0400",
+      "summary": "A new study shows the steep economic cost of 2025's ICE raids in Chicago. Fear kept many immigrants home, draining the area of more than $1.26 billion in lost retail, restaurant, and sales-tax revenue.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3393x2262+0+0/resize/3393x2262!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fc4%2F34%2F17b1505d4cc59148d1455d7d8606%2Fgettyimages-2195368241.jpg"
+    },
+    {
+      "title": "Kenya's foreign trader crackdown sparks fear among migrant communities",
+      "url": "https://www.npr.org/2026/09/08/nx-s1-5958636/kenya-immigration-foreign-xenophobia-africa",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Tue, 08 Sep 2026 15:55:43 -0400",
+      "summary": "Kenya's president orders a crackdown on foreigners running small businesses, amid accusations of xenophobia.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4200x2800+0+0/resize/4200x2800!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fee%2F9d%2Fffa8dc4f4921a0a00da5c4b51ed7%2Fgettyimages-2293565639.jpg"
+    },
+    {
+      "title": "Australian social media users to be offered choice to opt out of algorithms",
+      "url": "https://www.npr.org/2026/09/08/g-s1-142311/australian-social-media-users-to-be-offered-choice-to-opt-out-of-algorithms",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Tue, 08 Sep 2026 09:24:00 -0400",
+      "summary": "A government statement said on Tuesday social media platforms would be required to send a notification to new and existing users offering them a choice over their default feed.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8640x5760+0+0/resize/8640x5760!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fad%2F19%2F1066f4d349758e4c2810ab5bf49d%2Fap26251328181339.jpg"
+    },
+    {
+      "title": "81st session of UN General Assembly opens",
+      "url": "https://www.chinadaily.com.cn/a/202609/09/WS6aa0b37ce4b06d4aa055d0ac.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-09-09",
+      "summary": "UNITED NATIONS - The 81st session of the UN General Assembly (UNGA) was declared open by Khalilur Rahman, the new president of the General Assembly, on Tuesday.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202609/09/6aa0b37ce4b06d4a392ba3cf.jpeg"
+    },
+    {
+      "title": "Over 1,000 flights cancelled in UK due to technical issue",
+      "url": "https://www.chinadaily.com.cn/a/202609/09/WS6aa08898e4b06d4aa055cfc2.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-09-09",
+      "summary": "LONDON -- Over 1,000 flights were cancelled in Britain on Tuesday due to a technical failure at the country's air traffic control services.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202609/09/6aa08897e4b06d4a392b9f2a.jpeg"
+    },
+    {
+      "title": "China, Qatar pledge closer ties, deeper collaboration",
+      "url": "https://www.chinadaily.com.cn/a/202609/08/WS6a9f4650e4b06d4aa055ccff.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-09-08",
+      "summary": "Premier Li Qiang has called on China and Qatar to strengthen alignment of their development strategies, advance high-quality Belt and Road cooperation, and deepen collaboration in traditional energy, new energy, infrastructure, artificial intelligence and finance to pursue win-win outcomes at a higher level.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202609/08/6a9f4650e4b06d4a392b90e9.jpeg"
+    },
+    {
+      "title": "Cultural ambassador",
+      "url": "https://www.chinadaily.com.cn/a/202609/08/WS6a9f64cae4b06d4aa055cdea.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-09-08",
+      "summary": "Egyptian tour guide Abbas Sayed has been traveling between China and Egypt for more than two decades, promoting cultural exchanges between the two countries.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202609/08/6a9f64cae4b06d4a392b9323.png"
+    },
+    {
+      "title": "Calls grow for reopening of key waterway",
+      "url": "https://www.chinadaily.com.cn/a/202609/09/WS6aa0b415e4b06d4aa055d0ba.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-09-09",
+      "summary": "Qatar said on Monday that opening the Strait of Hormuz remains a \"priority\" and warned the world faces an \"industrial catastrophe\" if the regional crisis continues, as Iran threatened a maritime \"exclusion zone\" amid the United States' economic warfare and blockade.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202609/09/6aa0b415e4b06d4a392ba408.png"
+    },
+    {
+      "title": "India’s cleanest city Indore slips from top spot in clean air survey; Mayor assures anti-pollution steps",
+      "url": "https://www.thehindu.com/news/national/madhya-pradesh/indias-cleanest-city-indore-slips-from-top-spot-in-clean-air-survey-mayor-assures-anti-pollution-steps/article71445717.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-09-09T05:18:12.000Z",
+      "summary": "Indore slips to second in clean air survey; Mayor promises intensified anti-pollution measures to improve air quality.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/sdtpyv/article71445788.ece/alternates/LANDSCAPE_1200/iStock-1270402354.jpg"
+    },
+    {
+      "title": "The concerns over the Census questions",
+      "url": "https://www.thehindu.com/news/national/the-concerns-over-the-census-questions/article71444351.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-09-09T01:30:00.000Z",
+      "summary": "The questionnaire for the population enumeration phase of the 2027 Census comprises 40 questions and seek details such as nationality, number of bank accounts and mobile, Aadhaar and voter ID numbers, if available, raising concerns over its potential digression from the purpose of collecting data for policy and planning",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/f5ndkw/article71444360.ece/alternates/LANDSCAPE_1200/9712_1_8_2026_12_20_45_2__DSC0305.JPG"
+    },
+    {
+      "title": "Orangutans rescued from Odisha forest: State begins probe; great apes quarantined at Nandankanan Zoo",
+      "url": "https://www.thehindu.com/news/national/odisha/orangutans-rescued-from-odisha-forest-state-begins-probe-great-apes-quarantined-at-nandankanan-zoo/article71446071.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-09-09T06:53:56.000Z",
+      "summary": "Odisha investigates the rescue of five orangutans, quarantined at Nandankanan Zoo, amid concerns of illegal wildlife trafficking.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/g0i7hp/article71446093.ece/alternates/LANDSCAPE_1200/Screenshot%202233.png"
+    },
+    {
+      "title": "India condemns Houthi attacks on Saudi oil installations",
+      "url": "https://www.thehindu.com/news/national/india-condemns-houthi-attacks-on-saudi-oil-installations/article71446021.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-09-09T06:29:11.000Z",
+      "summary": "India condemns Houthi attacks on Saudi oil facilities, deeming them a threat to regional security and stability.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/n8n0aw/article71446027.ece/alternates/LANDSCAPE_1200/2026-09-08T143927Z_1220219609_RC22FNAI7A3Q_RTRMADP_3_SAUDI-YEMEN-HOUTHIS.JPG"
+    },
+    {
+      "title": "Call to create adequate jobs in Rajasthan, as youth eager to work",
+      "url": "https://www.thehindu.com/news/national/rajasthan/call-to-create-adequate-jobs-in-rajasthan-as-youth-eager-to-work/article71443022.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-09-09T06:11:32.000Z",
+      "summary": "Rajasthan's youth seek better job opportunities as unemployment rises; a new report highlights urgent employment policy needs.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/9n2sbr/article71445959.ece/alternates/LANDSCAPE_1200/PTI06_17_2026_000850A.jpg"
+    },
+    {
+      "title": "Iran attacks US base in Jordan, ships near Hormuz after tankers sunk - reuters.com",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZ2FPaUNRYjRBWnd2cmxkT044cmZYbENZYnhTWXAzUGxadUpEZ3N3aHpVSEtodVVsWUt6djBaeFhjUm5JOGVrNEE1SXlaUkxoSzBVaUpaWjZTdkdXZzItRTFOaGtMZWVtbEhpdUFSUWgwczNXa2VqZ3ktdzVhajBmYllFNVJIaUxnMDBLazE4S0VSTzZSbVFxMDZSUVY4aHIxVmhkcUpZeF85TzZYV2tqWkE5bVNWM29qWlE?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Wed, 09 Sep 2026 04:07:00 GMT",
+      "summary": "Reuters: Iran attacks US base in Jordan, ships near Hormuz after tankers sunk - reuters.com.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "Mao, Cultural Revolution cast long shadow over China 50 years on - reuters.com",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMlBTbF9DRW05WUVNSkg2MmJJclhIbEg0dFEtUDB4UDVMX3BCZFhGU0tuRXdPbHZCMXA2WTFiZUE2SGdGZzE1ZE9Wei1qblREbE85QTlNWnRJdGw2SFpNM2RMLXh6VUdCLVV6VGxocHlQTnZCZE1ENGROQTBOUWktUVVaUEwwSHZjYXdQdzl5T0hxNFRCRjk3bWN3X0hsdnBSdHhEU3haTjZrS1VU?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Wed, 09 Sep 2026 04:35:00 GMT",
+      "summary": "Reuters: Mao, Cultural Revolution cast long shadow over China 50 years on - reuters.com.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "EXCLUSIVE: China's DeepSeek taps CITIC Securities for domestic IPO, sources say - reuters.com",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNek1sMFNoNUdTTkFsT0lPdmU1dTIweFppQjJhZ2lBWDV4VTFkTmdDbGpmVDlCQW1pRkpIZWpzNC04S2tKNlZReGdKdzhlclc2dUZnelBTN0RxSmV5X1JXU3J6cU9WaWc3UHJRejVIc2ZxODRzVXByMk00LTE1WHg1SUZNSWstNU1Wazgzcjk4YjU5b3BWRGJGNnBYTFgwb0I1ZFJxR2U3Yw?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Wed, 09 Sep 2026 06:11:00 GMT",
+      "summary": "Reuters: EXCLUSIVE: China's DeepSeek taps CITIC Securities for domestic IPO, sources say - reuters.com.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "Russian drones kill two at Ukraine-Moldova border crossing, authorities say - reuters.com",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNel9TelVvajNuRnZKSjZnck5pUmxRbzU5N1hPeTBUSUpEQ04tMEpTUENVMEc4bHRfbGFfZTlNYWpLZFE3allZSkFoX0NZZm1FT0owekhQZEViLTd0SHVZb2NneWFiS19xMnhtd1JCenkwelFKRV81LVU3R2lrT2tXMV93Y1NOeHJ1cU1XRFYtMThLZHBYUWYydjBVbDF1LUl4M1ZtYlI4QWxTeElZOHFLbEx4bmc?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Wed, 09 Sep 2026 04:35:00 GMT",
+      "summary": "Reuters: Russian drones kill two at Ukraine-Moldova border crossing, authorities say - reuters.com.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "Rising energy costs lift China's producer, consumer inflation in August - reuters.com",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZDFLd1BDaVVNS01JdGxKYmQ5QVNtYlh3QlJEMTRUaWRHUUw1OTJqWnNTME94LUFkZk1BQU1GcnlaRmswN2gtTDYzeUduZjF3bi03QUlYUGRJR2Zqd1ptR0Ftek5kNGVXaFRZSE5HTE90YnA1ZDM4T0FPN2VOeDVfeDBzQVdaRjI4ajhEUFp2dHdnVXRWejYtLTBQOE8tSTNxcW1iTlU3MA?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Wed, 09 Sep 2026 01:43:00 GMT",
+      "summary": "Reuters: Rising energy costs lift China's producer, consumer inflation in August - reuters.com.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    }
+  ],
+  "markets": [
+    {
+      "id": "sp-500",
+      "label": "S&P 500",
+      "region": "US",
+      "symbol": "^GSPC",
+      "value": 7673.52,
+      "previousClose": 7718.60008,
+      "change": -45.08008,
+      "percentChange": -0.58404475,
+      "direction": "down",
+      "sessionDate": "2026-09-09"
+    },
+    {
+      "id": "nasdaq-composite",
+      "label": "NASDAQ Composite",
+      "region": "US",
+      "symbol": "^IXIC",
+      "value": 26421.41,
+      "previousClose": 26506.988125,
+      "change": -85.578125,
+      "percentChange": -0.32285115,
+      "direction": "down",
+      "sessionDate": "2026-09-09"
+    },
+    {
+      "id": "euronext-100",
+      "label": "Euronext 100 Index",
+      "region": "Europe",
+      "symbol": "^N100",
+      "value": 1921.17,
+      "previousClose": 1921.17,
+      "change": 0,
+      "percentChange": 0,
+      "direction": "up",
+      "sessionDate": "2026-09-09"
+    },
+    {
+      "id": "moex",
+      "label": "Public Joint-Stock Company Moscow Exchange MICEX-RTS",
+      "region": "Europe",
+      "symbol": "MOEX.ME",
+      "value": 85.2,
+      "previousClose": 85.31000061,
+      "change": -0.11000061,
+      "percentChange": -0.12894222,
+      "direction": "down",
+      "sessionDate": "2026-09-09"
+    },
+    {
+      "id": "hang-seng",
+      "label": "HANG SENG INDEX",
+      "region": "Asia",
+      "symbol": "^HSI",
+      "value": 25231.81,
+      "previousClose": 25317.17914,
+      "change": -85.36914,
+      "percentChange": -0.33719847,
+      "direction": "down",
+      "sessionDate": "2026-09-09"
+    },
+    {
+      "id": "nikkei-225",
+      "label": "Nikkei 225",
+      "region": "Asia",
+      "symbol": "^N225",
+      "value": 65142.78,
+      "previousClose": 65269.326875,
+      "change": -126.546875,
+      "percentChange": -0.19388413,
+      "direction": "down",
+      "sessionDate": "2026-09-09"
+    },
+    {
+      "id": "sensex",
+      "label": "S&P BSE SENSEX",
+      "region": "India",
+      "symbol": "^BSESN",
+      "value": 74962.4,
+      "previousClose": 75577.57969999999,
+      "change": -615.1797,
+      "percentChange": -0.81397694,
+      "direction": "down",
+      "sessionDate": "2026-09-09"
+    }
+  ],
+  "hackerNews": [
+    {
+      "title": "Copyright does more harm than good and should be abolished",
+      "url": "https://grapheneos.social/@GrapheneOS/117231186011306184",
+      "publishedAt": "2026-09-09T06:31:28.000Z",
+      "summary": "@ailurocrat@scicomm.xyz @wod0bow@mastodon.social @aphedges@hachyderm.io @paulshryock@phpc.social Copyright does far more harm than good and should be abolished. It doesn't protect the livelihood of individuals and small businesses in practice. Instead, it's a weapon wielded by large corporations to protect their monopolies. It's abused to take down content that's not in violation of copyright and to restrict people being able to use/repair/modify/backup their property. Large corporations getting special exceptions from it didn't start with LLMs.",
+      "thumbnailUrl": "https://grapheneos.social/packs/assets/logo-DXQkHAe5.svg"
+    },
+    {
+      "title": "The Navier–Stokes Millennium Prize Problem",
+      "url": "https://simonwillison.net/2026/Sep/8/on-navier-stokes/",
+      "publishedAt": "2026-09-09T05:55:39.000Z",
+      "summary": "Impressive result from OpenAI, who used an unreleased model to produce a resolution to the Navier–Stokes existence and smoothness problem, one of the seven Millennium Prize Problems that have been …",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "Muse – Meta’s personal AI agent",
+      "url": "https://ai.meta.com/muse/",
+      "publishedAt": "2026-09-08T19:25:00.000Z",
+      "summary": "ai.meta.com: Muse – Meta’s personal AI agent."
+    },
+    {
+      "title": "Navier-Stokes – Tristan Buckmaster [pdf]",
+      "url": "https://cims.nyu.edu/~tristanb/statement.pdf",
+      "publishedAt": "2026-09-08T05:42:28.000Z",
+      "summary": "cims.nyu.edu: Navier-Stokes – Tristan Buckmaster [pdf].",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "How to build a printer",
+      "url": "https://nishantjosh.dev/blogs/how-to-build-a-fking-printer/",
+      "publishedAt": "2026-09-08T21:22:11.000Z",
+      "summary": "If you",
+      "thumbnailUrl": "https://nishantjosh.dev/blogs/how-to-build-a-fking-printer/og.png"
+    },
+    {
+      "title": "AlphaGenome Atlas: a high-resolution map of human DNA",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/",
+      "publishedAt": "2026-09-08T14:55:45.000Z",
+      "summary": "We’re introducing AlphaGenome Atlas, a database predicting the effects of every possible single nucleotide variant in the human genome.",
+      "thumbnailUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AlphaGenome_Atlas_herosocial.width-1300.png"
+    },
+    {
+      "title": "A Biography of Lee Holloway, the Architect of Cloudflare's Technology (Part 1)",
+      "url": "https://note.com/masakazu_urabe/n/n7815f5b64fab?hl=en",
+      "publishedAt": "2026-09-09T04:43:46.000Z",
+      "summary": "Cloudflare's rapid growth as a cloud service is due in part to its many unique technologies. Technologies like Anycast and same-IP access are just a few examples, and it was CTO and co-founder Lee Holloway who created these mechanisms. However, he was forced to step down due to a serious brain d",
+      "thumbnailUrl": "https://assets.st-note.com/production/uploads/images/211399559/rectangle_large_type_2_0afb5758524b089668a848e8c8cd4cc6.png?fit=bounds&quality=85&width=1280"
+    },
+    {
+      "title": "Large language models develop novel social biases through adaptive exploration",
+      "url": "https://openreview.net/challenge?redirect=%2Fforum%3Fid%3Dpc7fqaOcAH",
+      "publishedAt": "2026-09-08T21:47:38.000Z",
+      "summary": "Have an OpenReview account? Sign in to skip this check.",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "Mercury 2.5",
+      "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-2-5",
+      "publishedAt": "2026-09-08T20:14:52.000Z",
+      "summary": "Mercury 2.5 is the most capable diffusion LLM on the market. It runs at 1,107 tokens/sec and offers a 40% increase in intelligence over Mercury 2, comparable to cost-optimized frontier models.",
+      "thumbnailUrl": "https://framerusercontent.com/images/StpomiRW6u7bqHNL4kgj4yVQ8Ck.png?width=1200&height=630"
+    },
+    {
+      "title": "AI Has a Discovery Problem",
+      "url": "https://mhacevedo.com/posts/the-discovery-problem",
+      "publishedAt": "2026-09-09T04:59:26.000Z",
+      "summary": "The biggest bottleneck to AI adoption isn't intelligence. It's discovery. The system can do almost anything, but it still requires you to already know what to ask for.",
+      "thumbnailUrl": "https://mhacevedo.com/posts/ant-rim.png"
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "Ass Auction",
+      "tagline": "Brands outbid each other to put their logo on my ass",
+      "url": "https://www.producthunt.com/products/ass-auction",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-09-09T00:06:38-07:00"
+    },
+    {
+      "name": "Muse",
+      "tagline": "Your personal AI agent that gets things done",
+      "url": "https://www.producthunt.com/products/muse-22",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-09-09T00:06:49-07:00"
+    },
+    {
+      "name": "Frigade Assist API",
+      "tagline": "Give your AI agent guides that show users where to click",
+      "url": "https://www.producthunt.com/products/frigade",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-09-09T00:06:49-07:00"
+    },
+    {
+      "name": "Harden",
+      "tagline": "A security layer for AI coding agents",
+      "url": "https://www.producthunt.com/products/agent-integrity-foundation-aif",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-09-09T00:06:47-07:00"
+    },
+    {
+      "name": "GoModel",
+      "tagline": "Open-source OpenRouter",
+      "url": "https://www.producthunt.com/products/gomodel",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-09-09T00:06:47-07:00"
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "News and markets",
+      "sentences": [
+        "Global headlines: Rubio enjoyed major support among Venezuelans. Then came Trump’s oil deal. (Secretary of State Marco Rubio will visit friendly governments in Colombia, Ecuador and Peru. But his support for the Venezuela oil deal is rankling some in the region); U.S. launches strikes on 5 Iranian oil tankers after latest attacks on warship (The engagement follows similar violence last week, as Iranian and U.S. forces have continued to trade fire amid stunted diplomatic efforts to end the war); and As Canada’s tariffs take effect, Trump’s trade war complicates GOP election pitch (Republicans pushed back against Trump's call to ban sales by Québec-based aerospace giant Bombardier).",
+        "Markets leaned lower, with 6 of 7 tracked indexes down; S&P BSE SENSEX down 0.81% was the largest move.",
+        "Benchmarks tracked: S&P 500, NASDAQ Composite, Euronext 100 Index, and Public Joint-Stock Company Moscow Exchange MICEX-RTS plus 3 more indexes."
+      ]
+    },
+    {
+      "title": "Hacker News and Product Hunt",
+      "sentences": [
+        "Hacker News: Copyright does more harm than good and should be abolished (@ailurocrat@scicomm.xyz @wod0bow@mastodon.social @aphedges@hachyderm.io @paulshryock@phpc.social Copyright does far more harm than good...); The Navier–Stokes Millennium Prize Problem (Impressive result from OpenAI, who used an unreleased model to produce a resolution to the Navier–Stokes existence and smoothness problem,...); and Muse – Meta’s personal AI agent (ai.meta.com: Muse – Meta’s personal AI agent).",
+        "Product Hunt features Ass Auction (Brands outbid each other to put their logo on my ass), Muse (Your personal AI agent that gets things done), and Frigade Assist API (Give your AI agent guides that show users where to click)."
+      ]
+    }
+  ],
+  "sourceNotes": {
+    "generatedAt": "2026-09-09T07:07:45.095Z",
+    "timeZone": "Asia/Kolkata",
+    "successfulSources": [
+      "Washington Post",
+      "Al Jazeera",
+      "NPR",
+      "China Daily",
+      "The Hindu",
+      "Reuters"
+    ],
+    "marketSessionLabel": "Latest market sessions as of 2026-09-09",
+    "warnings": []
+  }
+}
