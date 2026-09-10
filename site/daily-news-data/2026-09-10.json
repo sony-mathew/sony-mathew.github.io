@@ -1,0 +1,510 @@
+{
+  "headlines": [
+    {
+      "title": "Plane carrying Zelensky threatened by drone in Moldova, Norway’s premier says",
+      "url": "https://www.washingtonpost.com/world/2026/09/09/plane-carrying-zelensky-threatened-by-drone-moldova-norways-premier-says/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Wed, 09 Sep 2026 23:03:39 +0000",
+      "summary": "The Ukrainian president was on his way to the funeral of Norway’s King Harald.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "See how Canada is shifting its trade beyond the U.S.",
+      "url": "https://www.washingtonpost.com/us-policy/2026/09/09/see-how-canada-is-shifting-its-trade-beyond-us/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Wed, 09 Sep 2026 22:04:52 +0000",
+      "summary": "Strife with the U.S., including Trump’s tariffs, has pushed Canada to find new trading partners. That could ultimately raise prices for U.S. businesses.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "Peter Thiel-backed firm to make low-cost missiles amid U.S. shortage",
+      "url": "https://www.washingtonpost.com/technology/2026/09/09/peter-thiel-backed-firm-make-low-cost-missiles-amid-us-shortage/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Wed, 09 Sep 2026 21:25:00 +0000",
+      "summary": "Defense start-up Covenant said it has inked about $150 million in orders to start being delivered in 2027.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "Israel ramps up strikes in southern Lebanon",
+      "url": "https://www.washingtonpost.com/world/2026/09/08/renewed-fighting-southern-lebanon-strains-us-backed-ceasefire/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Wed, 09 Sep 2026 21:23:07 +0000",
+      "summary": "In war-weary Lebanon, Israeli strikes have intensified in response to Hezbollah drone attacks.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "TPS expires for an immigrant group shielded from deportation for decades",
+      "url": "https://www.washingtonpost.com/immigration/2026/09/09/they-were-given-refuge-us-decades-now-their-benefit-is-expiring/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Wed, 09 Sep 2026 20:59:41 +0000",
+      "summary": "Immigrants from El Salvador were the first group granted temporary protected status. The Trump administration has been canceling it for scores of immigrants fleeing war and disaster.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "Fighting escalates in Yemen; Houthi attacks trigger alerts in Saudi Arabia",
+      "url": "https://www.aljazeera.com/news/2026/9/10/fighting-escalates-in-yemen-houthi-attacks-trigger-alerts-in-saudi-arabia",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-09-10",
+      "summary": "Yemen's government accuses Houthis of killing three children as rebels claim Saudi forces launched 54 air raids in 12 hours.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/09/afp_6aa18c010e16-1788972033.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Five dead, dozens missing in Philippines ferry fire",
+      "url": "https://www.aljazeera.com/news/2026/9/10/five-dead-dozens-missing-in-philippines-ferry-fire",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-09-10",
+      "summary": "Coastguard says the ferry had 134 listed passengers and crew when it sank off the coast of Palawan.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/09/AFP__20260909__C7UR9VL__v1__HighRes__PhilippinesTransportAccidentFerry-1789005424.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Thousands protest as Slovenia opens Israel’s first embassy",
+      "url": "https://www.aljazeera.com/news/2026/9/10/thousands-protest-in-ljubljana-as-slovenia-opens-israels-first-embassy",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-09-10",
+      "summary": "Nationalist Prime Minister Janez Jansa resets ties with Israel, sparking protests and an impeachment bid.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/09/2026-09-09T191830Z_2079566820_RC2TFNA1Q8A7_RTRMADP_3_SLOVENIA-ISRAEL-PROTEST-1789001209.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Netanyahu to sue Haaretz over claims UAE warned him before October 7 attack",
+      "url": "https://www.aljazeera.com/news/2026/9/10/netanyahu-to-sue-haaretz-over-claims-uae-warned-him-before-october-7-attack",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-09-10",
+      "summary": "Israeli prime minister denies claim that UAE president warned him of Hamas plans before the 2023 attacks.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/08/2026-04-21T114147Z_1363276551_RC2NTKAU10KA_RTRMADP_3_ISRAEL-PALESTINIANS-MEMORIAL-DAY-1786372140.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Spain’s spy agency warned of mass crossings into Ceuta before border crisis",
+      "url": "https://www.aljazeera.com/news/2026/9/10/spains-spy-agency-warned-of-mass-migrant-crossing-to-ceuta-before-crisis",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-09-10",
+      "summary": "Declassified documents show Madrid and Morocco were warned of plans by migrants to breach the Ceuta border.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/09/ap_6aa1ff39af2a9-1789001529.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "A pilot of the Amazon cargo plane in Miami crash warned it was coming in too fast",
+      "url": "https://www.npr.org/2026/09/10/g-s1-142664/cargo-plane-miami-crash",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Thu, 10 Sep 2026 01:45:00 -0400",
+      "summary": "For nearly two minutes, one of the pilots of the Amazon cargo plane that careened off a Miami runway repeatedly warned his counterpart they were going too fast, according to flight information.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2048x1366+0+0/resize/2048x1366!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F82%2F59%2F296fb6254fea893dc07b1f53416d%2Fap26251843234935.jpg"
+    },
+    {
+      "title": "Fetterman, already at odds with his party, makes surprise video for GOP convention",
+      "url": "https://www.npr.org/2026/09/09/nx-s1-5963916/john-fetterman-gop-midterm-convention-trump",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Wed, 09 Sep 2026 21:17:28 -0400",
+      "summary": "The Pennsylvania Democrat has already had a strained relationship with many inside his party. In the video, he spoke about working with Trump but did not outright praise him.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6917x4611+0+0/resize/6917x4611!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Feb%2F54%2F0ca505f7471f9c08b8fb254d0c9a%2Fgettyimages-2293866466.jpg"
+    },
+    {
+      "title": "Conductor Julian Wachner receives suspended sentence for possession of child sex abuse material",
+      "url": "https://www.npr.org/2026/09/09/nx-s1-5962805/conductor-julian-wachner-suspended-sentence-for-possession-of-child-sex-abuse-material",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Wed, 09 Sep 2026 16:42:19 -0400",
+      "summary": "The formerly prominent, widely recorded conductor was sentenced Wednesday to nearly six years of probation for five counts of possession of child sex abuse material in Indianapolis.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4272x2848+0+0/resize/4272x2848!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F20%2F06%2F7d191a4e4aaa8443b34561669b01%2Fgettyimages-456627065.jpg"
+    },
+    {
+      "title": "Fold the phone: Apple's new CEO unveils a foldable iPhone",
+      "url": "https://www.npr.org/2026/09/09/nx-s1-5961487/apple-duo-foldable-iphone-john-ternus",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Wed, 09 Sep 2026 14:39:57 -0400",
+      "summary": "New Apple CEO John Ternus announces the iPhone Duo, which folds like a passport and is the most radical iPhone design update in nearly 20 years.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6000x4000+0+0/resize/6000x4000!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fa4%2Fcd%2F6e994550499194d7a2ce7c6f094a%2Fgettyimages-2294367943.jpg"
+    },
+    {
+      "title": "Special education head at Education Department abruptly resigns",
+      "url": "https://www.npr.org/2026/09/09/nx-s1-5962899/special-education-kelly-rogers-resigns",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Wed, 09 Sep 2026 13:48:56 -0400",
+      "summary": "The leader of the Education Department's special education office told employees she is resigning after less than four months in the role and as the agency overall is morphing and shrinking.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4950x3444+53+15/resize/4950x3444!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fa6%2Ffa%2F04b915a249d8829ae3b10e7cbf41%2Fgettyimages-1298372564.jpg"
+    },
+    {
+      "title": "US' record-breaking $40t national debt raises global concern",
+      "url": "https://www.chinadaily.com.cn/a/202609/10/WS6aa1f086e4b06d4aa055d365.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-09-10",
+      "summary": "The US Department of the Treasury must find immediate ways to reduce the record-breaking national debt of over $40 trillion, or \"feel the pain\" of dealing with it later on, warned economists, who said if it remains high it will affect generations of Americans, lead to more borrowing and could weaken international trust in the world's largest economy.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202609/10/6aa20c7be4b06d4a392bba89.jpeg"
+    },
+    {
+      "title": "Israeli settlements draw tougher trade restrictions",
+      "url": "https://www.chinadaily.com.cn/a/202609/10/WS6aa20890e4b06d4aa055d431.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-09-10",
+      "summary": "BRUSSELS/JERUSALEM — The foreign ministers of 12 countries moved on Tuesday to tighten restrictions on trade with Israeli settlements in the occupied West Bank, as mounting settlement expansion and violence fuel growing concerns over the viability of a two-state solution.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202609/10/6aa2088fe4b06d4a392bb995.png"
+    },
+    {
+      "title": "Kenyan student's China trip opens new doors",
+      "url": "https://www.chinadaily.com.cn/a/202609/10/WS6aa200b7e4b06d4aa055d39c.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-09-10",
+      "summary": "For years, Miriam Achieng Kenyatta experienced China through the small screen of her phone, watching Chinese films, following Chinese media and turning her digital world into an improvised classroom because she could not afford to live in China.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202609/10/6aa20a2ee4b06d4a392bb9db.png"
+    },
+    {
+      "title": "81st session of UN General Assembly opens",
+      "url": "https://www.chinadaily.com.cn/a/202609/09/WS6aa0b37ce4b06d4aa055d0ac.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-09-09",
+      "summary": "UNITED NATIONS - The 81st session of the UN General Assembly (UNGA) was declared open by Khalilur Rahman, the new president of the General Assembly, on Tuesday.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202609/09/6aa0b37ce4b06d4a392ba3cf.jpeg"
+    },
+    {
+      "title": "Mideast braces for fresh round of turbulence",
+      "url": "https://www.chinadaily.com.cn/a/202609/10/WS6aa18d90e4b06d4aa055d312.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-09-10",
+      "summary": "The Islamic Revolutionary Guard Corps of Iran announced on Wednesday that its \"new maritime restricted zone\" would extend beyond the Strait of Hormuz into the Gulf of Oman and the Arabian Sea, and any vessel that attempted to cross the prohibited corridor without coordination with Iran would be sanctioned. It added that the precise coordinates would be announced later.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202609/10/6aa1e5f9e4b06d4a392bb4b6.jpeg"
+    },
+    {
+      "title": "Cabinet approves eight railway multi-tracking projects costing ₹20,804 crore",
+      "url": "https://www.thehindu.com/news/national/cabinet-approves-eight-railway-multi-tracking-projects-costing-20804-crore/article71447167.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-09-09T13:11:02.000Z",
+      "summary": "Cabinet approves ₹20,804 crore for eight railway multi-tracking projects to enhance connectivity and boost freight capacity across several states.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/8xk6j6/article71447309.ece/alternates/LANDSCAPE_1200/6702_31_7_2025_16_41_13_1_TRACKDOUBLINGPROJECT.JPG"
+    },
+    {
+      "title": "Congress alleges ₹10,000 crore tax evasion through unregistered political parties, seeks JPC",
+      "url": "https://www.thehindu.com/news/national/congress-alleges-10000-crore-tax-evasion-through-unregistered-political-parties-seeks-jpc/article71448034.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-09-09T16:42:05.000Z",
+      "summary": "Congress alleges ₹10,000 crore tax evasion by unregistered parties under BJP's patronage, demanding a JPC probe into the scandal.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/f9b5t9/article71448181.ece/alternates/LANDSCAPE_1200/PTI09_09_2026_000156B.jpg"
+    },
+    {
+      "title": "Rahul Gandhi’s ‘Goonj’ impact will not extend beyond Congress workers: Nitin Nabin",
+      "url": "https://www.thehindu.com/news/national/rahul-gandhis-goonj-impact-will-not-extend-beyond-congress-workers-nitin-nabin/article71447617.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-09-09T15:37:16.000Z",
+      "summary": "BJP president Nitin Nabin dismisses Rahul Gandhi's 'Goonj' program, asserting youth support lies with Modi and his governance.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/pp6skz/article71448009.ece/alternates/LANDSCAPE_1200/BJP%20PC%20NITIN%20BABIN%2009-09-%2044.JPG"
+    },
+    {
+      "title": "Solicitor General orally marks intention to challenge HC’s scathing decision against NSA detention of student",
+      "url": "https://www.thehindu.com/news/national/uttar-pradesh/solicitor-general-orally-marks-intention-to-challenge-hcs-scathing-decision-against-nsa-detention-of-student/article71446762.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-09-09T10:40:16.000Z",
+      "summary": "Solicitor General plans to challenge the Allahabad High Court's ruling quashing NSA detention of Delhi University student activist Akriti Chaudhary.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/d24u2w/article71446878.ece/alternates/LANDSCAPE_1200/Nearby_Shape-wiGUOGEQHGR.3.jpg.jpg"
+    },
+    {
+      "title": "Supreme Court dismisses gangster Abu Salem’s plea claiming completion of 25-year prison term",
+      "url": "https://www.thehindu.com/news/national/supreme-court-dismisses-gangster-abu-salems-plea-claiming-completion-of-25-year-prison-term/article71450267.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-09-10T06:11:21.000Z",
+      "summary": "Supreme Court denies gangster Abu Salem's plea for early release, ruling his 25-year sentence starts from extradition in 2005.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/pw6xzj/article71450424.ece/alternates/LANDSCAPE_1200/PTI9_7_2017_000018B.JPEG-0929e.jpg"
+    },
+    {
+      "title": "EXCLUSIVE: NATO allies foil Russian subsea cable sabotage plot",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNU3Q2VEQ1enJFNFBHbkNBMXh5dDdIZng0MGdmb1NKY0FFWVN3Q2RqWnA1UWtjMjRXcEZ5UjRfRXZZRVpnOWNqamRtM0hUalFUZHppRHlqQlZ6b19pTHRNTjJ6NVlMeHdmbExSS2pjZUVRV1E1TWpBT19weWtYN3p1dzNTVjZzUjk2eEtNazFYd0xXS19VTnZIbkN1V2NNYlFva2c?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Thu, 10 Sep 2026 06:03:00 GMT",
+      "summary": "Reuters: EXCLUSIVE: NATO allies foil Russian subsea cable sabotage plot.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "EXCLUSIVE: US grant for MAGA-aligned groups in Europe excludes French applicants over election fears",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOckxmYUk4UllYMlI0YWMtOEc5MkxMMW1QNjRLbDlMTUNPWkcyb0hCYmxyUEt4RXhQSEZGejF4TkRERGNXRjU3YmRNdUctX0M4YjJVUTFibTl3bWI3cGFKR29oNnNuNGRXZWR5UmNwOVZ4X2ZvUlc4UFVXM01qS2szNTJISWMyV09LNkVlZmFMcE5ZeDlKd2FNWXp3M3VybVViUHFJWEJZZGhjaFdoUTRDRHpFalFVQmI3T1FPRHdLQWt1dDg?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Thu, 10 Sep 2026 05:04:00 GMT",
+      "summary": "Reuters: EXCLUSIVE: US grant for MAGA-aligned groups in Europe excludes French applicants over election fears.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "Trump says activity seen at Iran's Pickaxe Mountain, urges Tehran 'not to get cute'",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQd2tWN0QxamFYdDVZNTZaaGFfa09OdmlPSVdBdWZYeElkZVgzeEZSTE5BdDR0R1pzR24yLU5CTXdqZVZmTUZHNlRIazNCdldxSXRTLUthV0lTS2NvRHRuWjVFTHp5UUtTRGFRZ2twWlYzdGlXQ1JmWnRrLS1UT1NaZjdYajEwcExlczVLWU55VVRSQjhsQm9aQTA4SnhrUE1SMmJaRUttMEs5T1B0OXAwR0NxZngtZw?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Thu, 10 Sep 2026 02:25:00 GMT",
+      "summary": "Reuters: Trump says activity seen at Iran's Pickaxe Mountain, urges Tehran 'not to get cute'.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "Multiple US military aircraft suffered damage in overnight strikes on Jordan air base, CBS says",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOYThzMWZWYWVaeVkzaGR4Z3AxbHpidm9CMTFNSTVKWmNvVGZoRkg5MjJRV1RvdW9wWWtWS3R6V1dNWmFQUEl1Y0Q4dWdYY19EMUk3RkE4aUlsYVRLbkxmemVJM1gxVzlSNGs5a24wbjg5dWxBZ2tRallJTTV0UExCUFZXWGxYZXhsZHA4clFtT2JPa3IxbHpnVnZnU2RMTnpsZDVLU0RMYW9RM0x6TlY5aUtXRU9tZzJRZ0hV?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Thu, 10 Sep 2026 01:42:00 GMT",
+      "summary": "Reuters: Multiple US military aircraft suffered damage in overnight strikes on Jordan air base, CBS says.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "Xi's India visit to help diplomatic thaw, but business ties bound by suspicion",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPTE5zWFZ4Z2JRY1VhbF94Z01fZFlvRDRvVFFjMHpwQnN3RnpUN1RHZW1kSFJiWDM2RnZadHhRVy0yOS1xcU85UEZucEN0ZHZ1YXdtYzE1WW9NQ2lQcEtZZEN0VW5qQTk1emRJT2hNSXV1SmRkdGVScHQwX1p2NkpiRlVpZ2kxYVJtbF96U2NjVC05Nmg0TEhBa1lJUVUyX3QyOWQzdVd0S1g5UjZibVNHODRyNDdLSGli?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Thu, 10 Sep 2026 02:20:00 GMT",
+      "summary": "Reuters: Xi's India visit to help diplomatic thaw, but business ties bound by suspicion.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    }
+  ],
+  "markets": [
+    {
+      "id": "sp-500",
+      "label": "S&P 500",
+      "region": "US",
+      "symbol": "^GSPC",
+      "value": 7636.36,
+      "previousClose": 7673.520156,
+      "change": -37.160156,
+      "percentChange": -0.4842648,
+      "direction": "down",
+      "sessionDate": "2026-09-10"
+    },
+    {
+      "id": "nasdaq-composite",
+      "label": "NASDAQ Composite",
+      "region": "US",
+      "symbol": "^IXIC",
+      "value": 26253.34,
+      "previousClose": 26421.41227,
+      "change": -168.07227,
+      "percentChange": -0.63612145,
+      "direction": "down",
+      "sessionDate": "2026-09-10"
+    },
+    {
+      "id": "euronext-100",
+      "label": "Euronext 100 Index",
+      "region": "Europe",
+      "symbol": "^N100",
+      "value": 1896.69,
+      "previousClose": 1921.1701030000002,
+      "change": -24.480103,
+      "percentChange": -1.2742288,
+      "direction": "down",
+      "sessionDate": "2026-09-10"
+    },
+    {
+      "id": "moex",
+      "label": "Public Joint-Stock Company Moscow Exchange MICEX-RTS",
+      "region": "Europe",
+      "symbol": "MOEX.ME",
+      "value": 85.2,
+      "previousClose": 85.31000061,
+      "change": -0.11000061,
+      "percentChange": -0.12894222,
+      "direction": "down",
+      "sessionDate": "2026-09-10"
+    },
+    {
+      "id": "hang-seng",
+      "label": "HANG SENG INDEX",
+      "region": "Asia",
+      "symbol": "^HSI",
+      "value": 24950.97,
+      "previousClose": 25274.96023,
+      "change": -323.99023,
+      "percentChange": -1.2818625,
+      "direction": "down",
+      "sessionDate": "2026-09-10"
+    },
+    {
+      "id": "nikkei-225",
+      "label": "Nikkei 225",
+      "region": "Asia",
+      "symbol": "^N225",
+      "value": 65270.95,
+      "previousClose": 65142.782029999995,
+      "change": 128.16797,
+      "percentChange": 0.1967493,
+      "direction": "up",
+      "sessionDate": "2026-09-10"
+    },
+    {
+      "id": "sensex",
+      "label": "S&P BSE SENSEX",
+      "region": "India",
+      "symbol": "^BSESN",
+      "value": 74843.36,
+      "previousClose": 74764.22719,
+      "change": 79.13281,
+      "percentChange": 0.10584073,
+      "direction": "up",
+      "sessionDate": "2026-09-10"
+    }
+  ],
+  "hackerNews": [
+    {
+      "title": "iPhone Duo",
+      "url": "https://www.apple.com/iphone-duo/",
+      "publishedAt": "2026-09-09T18:15:43.000Z",
+      "summary": "iPhone Duo. The largest iPhone display ever. In a thin, foldable design. 48MP Dual Fusion camera system. A20 Pro chip. All-day battery life.",
+      "thumbnailUrl": "https://www.apple.com/v/iphone-duo/a/images/meta/iphone-duo_overview__bmsaaq50eyaa_og.png?202609092000"
+    },
+    {
+      "title": "Show HN: What if the speed of light was 5 km/h?",
+      "url": "https://rivendell.dmitrybrant.com/relativity/",
+      "publishedAt": "2026-09-10T01:58:00.000Z",
+      "summary": "Special relativity simulator in which light crawls along at a human speed, so Lorentz contraction, aberration and Doppler shift happen at walking pace.",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "Larger Pacific Striped Octopus",
+      "url": "https://en.wikipedia.org/wiki/Larger_Pacific_striped_octopus",
+      "publishedAt": "2026-09-09T04:32:22.000Z",
+      "summary": "The larger Pacific striped octopus ( LPSO ), or Harlequin octopus, is a species of octopus known for its intelligence and gregarious nature. [ 1 ] The species was first documented in the 1970s and, being fairly new to scientific observation, has yet to be scientifically described. Because of this, LPSO has no official scientific name. [ 2 ] [ 3 ] Unlike other octopus species which are normally solitary, the LPSO has been reported as forming groups of up to 40 individuals. [ 4 ] [ 5 ] [ 6 ] While most octopuses are cannibalistic and have to exercise extreme caution while mating, these octopuses mate with their ventral sides touching, pressing their beaks and suckers together in an intimate embrace. [ 7 ] The LPSO has presented many behaviors that differ from most species of octopus, including intimate mating behaviors, formation of social communities, unusual hunting behavior, and the ability to reproduce multiple times throughout their life. [ 8 ] The LPSO has been found to favor the tropical waters of the Eastern Pacific. [ 2 ]",
+      "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Larger_Pacific_Striped_Octopus.jpg/1280px-Larger_Pacific_Striped_Octopus.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail"
+    },
+    {
+      "title": "All grown-ups were once children… but only few of them remember it",
+      "url": "https://mathstodon.xyz/@tao/117244102901892965",
+      "publishedAt": "2026-09-10T04:04:38.000Z",
+      "summary": "\"Toutes les grandes personnes ont d'abord été des enfants. (Mais peu d'entre elles s'en souviennent.)\" [All grown-ups were once children... but only few of them remember it.] Antoine de Saint-Exupéry, \"Le Petit Prince.\" An impromptu game of \"who can name the largest number?\" is an example I often point to as a way in which young children teach each other about non-trivial mathematical ideas and facts, such as infinity and the concept of proof by contradiction (embodied in this case by one child eventually realizing that they can defeat any other child's guess by adding \"plus one\" to that guess, thus demonstrating by contradiction* that there is no largest natural number). Prematurely putting such games to an end by immediately providing the nominal goal --- for instance, providing these children with a brief lecture on infinity and the unbounded nature of the natural numbers --- defeats the entire \"purpose\" of such curiosity-driven play, insofar as play *has* a purpose: to explore, to learn, to develop, and to simply have fun. * - to be pedantic, this is a proof by negation rather than a proof by contradiction, but that distinction is not the point of the anecdote I wish to make. (1/3)",
+      "thumbnailUrl": "https://mathstodon.xyz/packs/assets/logo-DXQkHAe5.svg"
+    },
+    {
+      "title": "Shopify acquires Tailwind",
+      "url": "https://tailwindcss.com/blog/tailwind-is-joining-shopify",
+      "publishedAt": "2026-09-09T13:27:11.000Z",
+      "summary": "We're joining Shopify to give Tailwind a stable long-term home where it will be actively maintained for the millions of people who depend on it.",
+      "thumbnailUrl": "https://tailwindcss.com/_next/static/media/og-image.103kpqahmns2b.jpg"
+    },
+    {
+      "title": "Growing proof that autonomous cars save lives",
+      "url": "https://spectrum.ieee.org/are-self-driving-cars-safe",
+      "publishedAt": "2026-09-09T17:14:59.000Z",
+      "summary": "Self-driving tech could prevent 580,000 deaths every year",
+      "thumbnailUrl": "https://spectrum.ieee.org/media-library/image.png?id=67724498&width=1200&height=600&coordinates=0%2C91%2C0%2C92"
+    },
+    {
+      "title": "Training a 3.8B LLM to 0.384 CORE for $998 – Hugo Vergnes",
+      "url": "https://hugovergnes.github.io/little-lm-3-8b/",
+      "publishedAt": "2026-09-10T02:04:11.000Z",
+      "summary": "A 3.8B model pretrained from scratch to 0.384 CORE on 65B tokens in 43 hours, for $998.",
+      "thumbnailUrl": "https://hugovergnes.github.io/assets/img/fig_core_vs_loss.svg"
+    },
+    {
+      "title": "AirPods 5",
+      "url": "https://www.apple.com/newsroom/2026/09/apple-introduces-airpods-5-with-best-in-class-open-ear-active-noise-cancellation/",
+      "publishedAt": "2026-09-09T17:39:24.000Z",
+      "summary": "Apple today announced AirPods 5, delivering the industry’s best Active Noise Cancellation in an open-ear design and even better sound quality.",
+      "thumbnailUrl": "https://www.apple.com/newsroom/images/2026/09/apple-introduces-airpods-5-with-best-in-class-open-ear-active-noise-cancellation/tile/Apple-AirPods-5-hero-260909-lp.jpg.og.jpg?202609091908"
+    },
+    {
+      "title": "No Man's Sky Cosmos",
+      "url": "https://www.nomanssky.com/cosmos-update/",
+      "publishedAt": "2026-09-09T15:47:42.000Z",
+      "summary": "Become director of a space station, join a galactic alliance, construct a space base and discover deep-space marvels in No Man's Sky Cosmos. Navigate space with a new star system map, strip colossal hulks for parts before hull integrity fails, recover and haul physical salvage to remote space outposts, celebrate 10 years of No Man&#x2019;s Sky in the Our Journey Continues expedition, and much, much more",
+      "thumbnailUrl": "https://www.nomanssky.com/media/mi2dimzv/homepage-next-2560-1180.jpg"
+    },
+    {
+      "title": "Show HN: Compute polynomials twice as fast",
+      "url": "https://thomasahle.com/fast-polynomials/",
+      "publishedAt": "2026-09-09T08:53:58.000Z",
+      "summary": "Evaluate a degree-n polynomial with about n/2 multiplications. Type a polynomial, pick ℚ, ℝ, ℂ, a Mersenne prime or a binary field, and get the preprocessed evaluation chain as math, C code or a circuit — everything runs in your browser.",
+      "thumbnailUrl": null
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "Thousand",
+      "tagline": "Git-backed docs for humans and agents",
+      "url": "https://www.producthunt.com/products/thousand",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-09-10T00:03:02-07:00"
+    },
+    {
+      "name": "AirPods 5",
+      "tagline": "1.5x Active Noise Cancellation, AI Siri, Live Translation",
+      "url": "https://www.producthunt.com/products/apple",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-09-10T00:03:02-07:00"
+    },
+    {
+      "name": "Suno v6",
+      "tagline": "The first Suno model built with the music industry",
+      "url": "https://www.producthunt.com/products/suno",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-09-10T00:03:02-07:00"
+    },
+    {
+      "name": "hob",
+      "tagline": "The professional workspace for your whole agent stack",
+      "url": "https://www.producthunt.com/products/hob-2",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-09-10T00:03:03-07:00"
+    },
+    {
+      "name": "Desert Ant Labs",
+      "tagline": "Small specialized AI models for speech, text, vision",
+      "url": "https://www.producthunt.com/products/desert-ant-labs",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-09-10T00:03:02-07:00"
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "News and markets",
+      "sentences": [
+        "Global headlines: Plane carrying Zelensky threatened by drone in Moldova, Norway’s premier says (The Ukrainian president was on his way to the funeral of Norway’s King Harald); See how Canada is shifting its trade beyond the U.S. (Strife with the U.S., including Trump’s tariffs, has pushed Canada to find new trading partners. That could ultimately raise prices for U.S. businesses); and Peter Thiel-backed firm to make low-cost missiles amid U.S. shortage (Defense start-up Covenant said it has inked about $150 million in orders to start being delivered in 2027).",
+        "Markets leaned lower, with 5 of 7 tracked indexes down; HANG SENG INDEX down 1.28% was the largest move.",
+        "Benchmarks tracked: S&P 500, NASDAQ Composite, Euronext 100 Index, and Public Joint-Stock Company Moscow Exchange MICEX-RTS plus 3 more indexes."
+      ]
+    },
+    {
+      "title": "Hacker News and Product Hunt",
+      "sentences": [
+        "Hacker News: iPhone Duo (iPhone Duo. The largest iPhone display ever. In a thin, foldable design. 48MP Dual Fusion camera system. A20 Pro chip. All-day battery life); Show HN: What if the speed of light was 5 km/h? (Special relativity simulator in which light crawls along at a human speed, so Lorentz contraction, aberration and Doppler shift happen at...); and Larger Pacific Striped Octopus (The larger Pacific striped octopus ( LPSO ), or Harlequin octopus, is a species of octopus known for its intelligence and gregarious...).",
+        "Product Hunt features Thousand (Git-backed docs for humans and agents), AirPods 5 (1.5x Active Noise Cancellation, AI Siri, Live Translation), and Suno v6 (The first Suno model built with the music industry)."
+      ]
+    }
+  ],
+  "sourceNotes": {
+    "generatedAt": "2026-09-10T07:04:00.361Z",
+    "timeZone": "Asia/Kolkata",
+    "successfulSources": [
+      "Washington Post",
+      "Al Jazeera",
+      "NPR",
+      "China Daily",
+      "The Hindu",
+      "Reuters"
+    ],
+    "marketSessionLabel": "Latest market sessions as of 2026-09-10",
+    "warnings": []
+  }
+}
