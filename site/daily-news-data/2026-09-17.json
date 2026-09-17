@@ -1,0 +1,510 @@
+{
+  "headlines": [
+    {
+      "title": "Gas prices are about to take a big jump, analysts say, with the worst still to come",
+      "url": "https://www.washingtonpost.com/world/2026/09/16/analysts-predict-gas-price-jump-long-disruption-damaged-pipeline/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Wed, 16 Sep 2026 18:59:22 +0000",
+      "summary": "The forecast of economic impacts beyond November’s midterms contrast with the Trump administration’s optimistic messaging.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "Battle with Trump is sending Canada into the arms of the E.U.",
+      "url": "https://www.washingtonpost.com/world/2026/09/16/canada-builds-ties-europe-asia-turning-away-us-amid-trade-war/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Wed, 16 Sep 2026 14:08:45 +0000",
+      "summary": "The head of the E.U.’s executive branch is proposing “associate membership” for Canada, as Ottawa also pursues new trade deals with China.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "The surprising reason there have been no Atlantic hurricanes this year",
+      "url": "https://www.washingtonpost.com/weather/2026/09/16/surprising-reason-there-have-been-no-atlantic-hurricanes-this-year/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Wed, 16 Sep 2026 09:00:00 +0000",
+      "summary": "El Niño isn’t the only factor. Another force could be contributing to fewer storms and a later peak in the season.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "Turkey expands arrests after LGBTQ+ crackdown",
+      "url": "https://www.washingtonpost.com/world/2026/09/15/turkey-expands-arrests-after-lgbtq-crackdown/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Tue, 15 Sep 2026 21:07:43 +0000",
+      "summary": "Turkey’s Justice Minister Akin Gurlek launched the crackdown, saying it was part of an initiative to protect children and family values.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "Trump’s planned sale of controversial bombs to Israel is largest in years",
+      "url": "https://www.washingtonpost.com/national-security/2026/09/15/trump-preparing-send-massive-shipment-2000-pound-bombs-israel/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Tue, 15 Sep 2026 20:41:45 +0000",
+      "summary": "The pending transfer of the 2,000-pound munition, involved in scores of incidents resulting in civilian casualties, sets up a potential litmus test for Democrats.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "Trump says US is nearing end of war and claims direct talks with Tehran",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/9/17/iran-war-live-trump-says-us-nearing-end-of-war-claims-tehran-direct-talks",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-09-17",
+      "summary": "President Trump says the US is nearing the end of the conflict with Iran and claims direct talks with Tehran.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/09/2026-09-16T233057Z_1114597402_RC2NKNA941HX_RTRMADP_3_USA-TRUMP-1789602223.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "US extends visa ban on Palestinian officials before UN General Assembly",
+      "url": "https://www.aljazeera.com/news/2026/9/17/us-extends-visa-ban-on-palestinian-officials-before-un-general-assembly",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-09-17",
+      "summary": "Palestinian President Mahmoud Abbas is among those barred for the second year in a row.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/09/getty_6aab3e7ccd-1789607548.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Israel weaponises AI for West Bank demolitions",
+      "url": "https://www.aljazeera.com/news/2026/9/17/israel-weaponises-ai-for-west-bank-demolitions",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-09-17",
+      "summary": "AI tools push forced evictions of Palestinians, automating demolitions in occupied territories under Israeli control.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2019/07/bbf6df8386e74e3cadf9e3f2a252de2c_18.jpeg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "What are the biggest AI companies and how much are they worth?",
+      "url": "https://www.aljazeera.com/news/2026/9/17/what-are-the-biggest-ai-companies-and-how-much-are-they-worth",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-09-17",
+      "summary": "As AI firms push for greater controls on the industry, Al Jazeera unpacks the value of the main companies in the sector.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/09/afp_6aaa935d9111-1789563741.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Argentinian judge orders suspension of Falklands oil project",
+      "url": "https://www.aljazeera.com/news/2026/9/17/argentinian-judge-orders-suspension-of-falklands-oil-project",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-09-17",
+      "summary": "The symbolic move comes as Argentina escalates its claim over the British-administered territory.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/09/AP26226825372155-1789608528.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "OpenAI flags new concerning AI behavior, to track model misalignment regularly",
+      "url": "https://www.npr.org/2026/09/17/g-s1-143774/openai-concerning-ai-behavior",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Thu, 17 Sep 2026 02:44:49 -0400",
+      "summary": "OpenAI has disclosed six reports on unexpected or concerning behavior in artificial-intelligence models. This includes models acting without authorization or evading oversight.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4000x2667+0+0/resize/4000x2667!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F67%2Ff6%2F206a984d4091bab7e26bfc0edfa6%2Fap26260139104766.jpg"
+    },
+    {
+      "title": "Here's why an Arizona medical examiner is working to track heat-related deaths",
+      "url": "https://www.npr.org/2024/05/30/nx-s1-4854224/death-heat-arizona-climate-change-medical-examiner",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Wed, 16 Sep 2026 19:07:40 -0400",
+      "summary": "No one across the U.S. is consistently tracking climate-fueled deaths. One medical examiner has a new protocol on heat-deaths.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x2251+0+0/resize/3000x2251!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F0d%2F18%2Fa352fcd141f49138bc6be686189d%2Fhess.jpg"
+    },
+    {
+      "title": "House passes Russia sanctions, sending bill named for Lindsey Graham to Trump's desk",
+      "url": "https://www.npr.org/2026/09/16/nx-s1-5971289/russia-sanctions-house-vote-lindsey-graham",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Wed, 16 Sep 2026 18:30:46 -0400",
+      "summary": "The legislation was named for the late South Carolina Republican. It gives the president authority to impose tariffs on top importers of oil and natural gas from Russia, such as China and India.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4689x3126+0+0/resize/4689x3126!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fe8%2F68%2F585e55424da9b4a2b3209c190254%2Fap26257630971825.jpg"
+    },
+    {
+      "title": "You'd expect homeowners to save their stuff. Federal policy pays them to leave it",
+      "url": "https://www.npr.org/2026/09/16/g-s1-143708/video-houses-collapse-north-carolina-ocean",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Wed, 16 Sep 2026 17:20:59 -0400",
+      "summary": "NPR dug into the upside-down world of FEMA flood insurance in coastal areas, and found many homeowners have no financial choice but to let their homes collapse.",
+      "thumbnailUrl": "https://feeds.npr.org/1001/undefined"
+    },
+    {
+      "title": "Committee investigating Epstein holds billionaire Leon Black in contempt of Congress",
+      "url": "https://www.npr.org/2026/09/16/nx-s1-5954258/leon-black-jeffrey-epstein-contempt-congress",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Wed, 16 Sep 2026 17:12:27 -0400",
+      "summary": "Billionaire investor Leon Black refused to appear before the committee investigating convicted sex offender Jeffrey Epstein for a deposition. Now it's up to the Department of Justice whether to pursue criminal charges.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5000x3333+0+0/resize/5000x3333!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Faf%2Faf%2Fe4fdd78147b0b7d6039d0c83fcbc%2Fap26177625649644.jpg"
+    },
+    {
+      "title": "Jordan looks to cooperation with China on green energy",
+      "url": "https://www.chinadaily.com.cn/a/202609/17/WS6aab4dbae4b06d4aa055e88a.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-09-17",
+      "summary": "China and Jordan have stepped up their efforts to deepen cooperation in fields such as green energy as the recent visit by Jordan's King Abdullah II to China opened new avenues for practical bilateral cooperation.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202609/17/6aab4dbae4b06d4a392c74c6.jpeg"
+    },
+    {
+      "title": "EU eyes special status for Canada",
+      "url": "https://www.chinadaily.com.cn/a/202609/17/WS6aab4d3fe4b06d4aa055e876.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-09-17",
+      "summary": "European Commission President Ursula von der Leyen on Wednesday proposed opening the door for Canada to become the first \"associate member\" of the European Union, as she unveiled plans for closer security cooperation and stricter bans on children's social media use.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202609/17/6aab4d3fe4b06d4a392c7489.png"
+    },
+    {
+      "title": "Kenyan students experience Chinese Mid-Autumn traditions",
+      "url": "https://www.chinadaily.com.cn/a/202609/16/WS6aaab031e4b06d4aa055e6f9.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-09-16",
+      "summary": "Kenyan teachers and students put their own touch on traditional Chinese Mid-Autumn customs at the Confucius Institute at Kenyatta University on Wednesday, making peony-shaped lanterns, painting round fans, and practicing paper-cutting and calligraphy as part of an event themed \"Full Moon, Full Bloom\". Participants also tasted mooncakes and tried on traditional Chinese hanfu clothing.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202609/16/6aaab031e4b06d4a392c6c78.png"
+    },
+    {
+      "title": "America New Silk Road Fashion Show held",
+      "url": "https://www.chinadaily.com.cn/a/202609/17/WS6aab2681e4b06d4aa055e734.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-09-17",
+      "summary": "Coinciding with the closing day of New York Fashion Week, the 2026 America New Silk Road Fashion Show was held on Sunday in New Jersey.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202609/17/6aab3d2ae4b06d4a392c7130.png"
+    },
+    {
+      "title": "China ready to boost AI cooperation with Brazil",
+      "url": "https://www.chinadaily.com.cn/a/202609/16/WS6aaab07be4b06d4aa055e6fb.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-09-16",
+      "summary": "China is ready to work with Brazil to promote the development of artificial intelligence, or AI, in a beneficial and inclusive way and ensure the technology benefits humanity, China's top diplomat Wang Yi said on Wednesday.",
+      "thumbnailUrl": "https://www.chinadaily.com.cn/image_e/2020/logo21.jpg"
+    },
+    {
+      "title": "Encounter breaks out amid anti-terror operation in J&K's Udhampur",
+      "url": "https://www.thehindu.com/news/national/jammu-and-kashmir/encounter-breaks-out-amid-anti-terror-operation-in-jks-udhampur/article71475233.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-09-17T03:48:44.000Z",
+      "summary": "An encounter erupts in Udhampur, J&K, as security forces engage terrorists during an ongoing anti-terror operation.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/b1j37y/article71475240.ece/alternates/LANDSCAPE_1200/08-Migrant%20worker%20killed-KULGAM-01-08-2026.JPG"
+    },
+    {
+      "title": "ED raids ex-Haryana Minister Gopal Kanda in PMLA case linked to real estate 'fraud'",
+      "url": "https://www.thehindu.com/news/national/haryana/ed-raids-ex-haryana-minister-gopal-kanda-in-pmla-case-linked-to-real-estate-fraud/article71475431.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-09-17T05:27:53.000Z",
+      "summary": "ED raids former Haryana Minister Gopal Kanda's properties over alleged real estate fraud involving ₹248.46 crore from investors.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/7h5hv0/article71475435.ece/alternates/LANDSCAPE_1200/IMG_Gopal_Kanda_during_t_6_1_SFDBACMS.jpg"
+    },
+    {
+      "title": "Exercise restraint: Mirwaiz on reported drone attack near Mecca",
+      "url": "https://www.thehindu.com/news/national/jammu-and-kashmir/exercise-restraint-mirwaiz-on-reported-drone-attack-near-mecca/article71473097.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-09-17T05:26:33.000Z",
+      "summary": "Mirwaiz urges restraint and dialogue following disturbing drone attack reports near Mecca, emphasizing the need for peace in the region.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/p4thbw/article71475422.ece/alternates/LANDSCAPE_1200/20260220190L.jpg"
+    },
+    {
+      "title": "Death penalty for all 10 convicts in 2013 Jhiram Valley Maoist attack case",
+      "url": "https://www.thehindu.com/news/national/chhattisgarh/death-penalty-for-all-10-convicts-in-2013-jhiram-valley-maoist-attack-case/article71472537.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-09-16T15:58:27.000Z",
+      "summary": "NIA court sentences all 10 convicts to death in 2013 Jhiram Valley Maoist attack that killed 27, including Congress leaders.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/9juoj3/article71473701.ece/alternates/LANDSCAPE_1200/North-India-briGK2GG98F4.3.jpg.jpg"
+    },
+    {
+      "title": "MEA ‘monitoring developments’ of Russia sanctions bill in U.S. Congress",
+      "url": "https://www.thehindu.com/news/national/mea-monitoring-developments-of-russia-sanctions-bill-in-us-congress/article71475348.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-09-17T05:09:57.000Z",
+      "summary": "MEA monitors U.S. sanctions on Russia and Iran, highlighting potential impacts on bilateral relations and global energy security.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/news/national/6qs13e/article70702517.ece/alternates/LANDSCAPE_1200/iStock-1394947049.jpg"
+    },
+    {
+      "title": "Trump hopes Iran war nearing end as Houthi-Saudi fighting escalates",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPdUdfN2t1cTlMdHJXa1FQN0ZiU1M1dklpd2llNGtrTW1ndEEwSjZqc2VNcjY0VkFOQXFmLVUzNXFYUHdQTUU1Tm1leURSclhSajZPS29nZng3Sl83eUs2clpyMS1XbW0tNXpnbDdDc25SMVB6cHYtMWY2aFdYRzZsSEtPS1FBSHpQSGp6dFF6NV9mSkJBbXM4UnNWSDYyRzJjc0RtMkZod3l0Q0ZYSzljc3JPYmVFMlVZUGc?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Thu, 17 Sep 2026 04:23:00 GMT",
+      "summary": "Reuters: Trump hopes Iran war nearing end as Houthi-Saudi fighting escalates.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "Gold rises as investors digest Fed hike, oil rally stalls",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdmRrQzlscmZjQ08wVi1BSUZCTEU4d0xkdFpFelAzQURMS0VyS21Gb1VWUkV2OEIzRTVUWmJQTXkxRXJnTEltLXR6dWJiWW9UV1pzZWJQOEdJRGpkMnhXV0lIWUlHUEdHNVIzYmU2UTY3OHAwczNsVmpuRDNUVlpkeVl5emEtTlJoWFJrUnhWSUxFTkZqMGxSYUd5M05GVHA0bGZ6eWZ5YWpLWFMy?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Thu, 17 Sep 2026 02:27:00 GMT",
+      "summary": "Reuters: Gold rises as investors digest Fed hike, oil rally stalls.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "US allies fret over how Trump might play his Taiwan hand with Xi",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQY3hVM1dFSVFMbUpibXh4OWtYdWFBRnNkN0JhREtSNFZ0R2hVMnN1T0lUTHlneVdReE1kd1YzSENaY2xpWXh5SGVjY09qSXNack9RQkN2VFBYQUxCcE5sUExGNzJxRDJzRXYzX0pZU3NTX3RNOTZ0WEZWZ01oSUp2dHh3SkNZSERMc0tFempuV3RSaXF6OXlGaUhCZGNUZlRvMEhaRWRKcUVMSVN6aVJRcmZ3?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Thu, 17 Sep 2026 02:18:00 GMT",
+      "summary": "Reuters: US allies fret over how Trump might play his Taiwan hand with Xi.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "Shares edge up after Fed hike, dollar firm on short-term yields",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQUnBManB6Nl9tbnMzaXhPbHh4RmJVX0xWNmdaeENoNW50NGxxanVfMHFMaWVENklmQ09OSzdDVnFtSFhiXzJ0YTE5RVgzSHYtekRVZHU2QXE0LVNWeS1nalgyNldtV3l1X3FUc3NudktmOWZJVVZORXFNbWloZzlOZkdRWQ?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Thu, 17 Sep 2026 02:05:00 GMT",
+      "summary": "Reuters: Shares edge up after Fed hike, dollar firm on short-term yields.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "China's Huawei sets 2027 launch for new AI chips as it targets Nvidia",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQUUF2NV9DeFExYkFNQS1hQnZfTjFBY05sRjRmN3hMQkxoTmo0aEYtMnNyU3BnRUZPUzVtZGt6ZjE1ZWVsRldkWG1RMVUyaWpFWTg1Q3paeENVblNJUi1ITktZemVWRy1tbGc3OHd5QkFLT0Zya1UyOE13LW1XbTN4d002Zi1ReXJHRlZDNTZlUmh5cmFEcmhlNk9ET2JWZw?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Thu, 17 Sep 2026 02:40:00 GMT",
+      "summary": "Reuters: China's Huawei sets 2027 launch for new AI chips as it targets Nvidia.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    }
+  ],
+  "markets": [
+    {
+      "id": "sp-500",
+      "label": "S&P 500",
+      "region": "US",
+      "symbol": "^GSPC",
+      "value": 7551.81,
+      "previousClose": 7585.729920000001,
+      "change": -33.91992,
+      "percentChange": -0.44715434,
+      "direction": "down",
+      "sessionDate": "2026-09-17"
+    },
+    {
+      "id": "nasdaq-composite",
+      "label": "NASDAQ Composite",
+      "region": "US",
+      "symbol": "^IXIC",
+      "value": 25978.42,
+      "previousClose": 25981.5664844,
+      "change": -3.1464844,
+      "percentChange": -0.0121104475,
+      "direction": "down",
+      "sessionDate": "2026-09-17"
+    },
+    {
+      "id": "euronext-100",
+      "label": "Euronext 100 Index",
+      "region": "Europe",
+      "symbol": "^N100",
+      "value": 1887.08,
+      "previousClose": 1887.08,
+      "change": 0,
+      "percentChange": 0,
+      "direction": "up",
+      "sessionDate": "2026-09-17"
+    },
+    {
+      "id": "moex",
+      "label": "Public Joint-Stock Company Moscow Exchange MICEX-RTS",
+      "region": "Europe",
+      "symbol": "MOEX.ME",
+      "value": 85.2,
+      "previousClose": 85.31000061,
+      "change": -0.11000061,
+      "percentChange": -0.12894222,
+      "direction": "down",
+      "sessionDate": "2026-09-17"
+    },
+    {
+      "id": "hang-seng",
+      "label": "HANG SENG INDEX",
+      "region": "Asia",
+      "symbol": "^HSI",
+      "value": 24570.33,
+      "previousClose": 24713.77922,
+      "change": -143.44922,
+      "percentChange": -0.58044225,
+      "direction": "down",
+      "sessionDate": "2026-09-17"
+    },
+    {
+      "id": "nikkei-225",
+      "label": "Nikkei 225",
+      "region": "Asia",
+      "symbol": "^N225",
+      "value": 64136.25,
+      "previousClose": 63923,
+      "change": 213.25,
+      "percentChange": 0.33360448,
+      "direction": "up",
+      "sessionDate": "2026-09-17"
+    },
+    {
+      "id": "sensex",
+      "label": "S&P BSE SENSEX",
+      "region": "India",
+      "symbol": "^BSESN",
+      "value": 74649.61,
+      "previousClose": 74336.45375,
+      "change": 313.15625,
+      "percentChange": 0.42127442,
+      "direction": "up",
+      "sessionDate": "2026-09-17"
+    }
+  ],
+  "hackerNews": [
+    {
+      "title": "Keys Not Included: recovering the signing keys for US driver's license barcodes",
+      "url": "https://ryan.science/blog/keys-not-included",
+      "publishedAt": "2026-09-17T03:03:23.000Z",
+      "summary": "My personal website, portfolio, and blog.",
+      "thumbnailUrl": "https://ryan.science/tessa.png"
+    },
+    {
+      "title": "Nvidia announces native GPU programming in Rust",
+      "url": "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/",
+      "publishedAt": "2026-09-16T11:15:53.000Z",
+      "summary": "In September 2026, NVIDIA announced it is leaning into native GPU programming in Rust. CUDA C++ and CUDA Python are mature, enterprise&#x2d;grade toolchains, and NVIDIA will be growing and maturing CUDA&#8230;",
+      "thumbnailUrl": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/09/image1-1.webp"
+    },
+    {
+      "title": "My temporary PHP fix from 2014 has nearly 20M installs. Today I'm deprecating it",
+      "url": "https://jakeasmith.com/blog/http-build-url/",
+      "publishedAt": "2026-09-15T20:53:36.000Z",
+      "summary": "In 2014 I wrote http_build_url, a temporary PHP polyfill for AOL",
+      "thumbnailUrl": "https://jakeasmith.com/blog/http-build-url/og.png"
+    },
+    {
+      "title": "Training a 4B model to produce 81% faster query plans than Postgres",
+      "url": "https://rohanbansal.com/qorl",
+      "publishedAt": "2026-09-16T18:50:00.000Z",
+      "summary": "...or how to make Qwen learn query optimization via agentic reinforcement learning",
+      "thumbnailUrl": "https://rohanbansal.com/og/qorl-20260916.png"
+    },
+    {
+      "title": "Xiaomi Mimo 2.6 live post-training dashboard",
+      "url": "https://mimo.xiaomi.com/rl/",
+      "publishedAt": "2026-09-16T20:09:18.000Z",
+      "summary": "Training metrics of the mimo-v2.6-pro and mimo-v2.6-flash reinforcement-learning runs, live from the trainer",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "Backups Aren't Simple",
+      "url": "https://filipovski.net/2026/09/16/backups-arent-simple.html",
+      "publishedAt": "2026-09-16T20:27:16.000Z",
+      "summary": "Aleksandar Filipovski, 2026-09-16",
+      "thumbnailUrl": "https://filipovski.net/assets/oak.jpg"
+    },
+    {
+      "title": "Small programming tricks",
+      "url": "https://will-keleher.com/posts/small-programming-tricks-matter/",
+      "publishedAt": "2026-09-16T15:56:47.000Z",
+      "summary": "A lot of effective engineering comes from the accumulation of small nuggets of knowledge.",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "A 32-year-old bug walks into a Telnet server",
+      "url": "https://labs.watchtowr.com/a-32-year-old-bug-walks-into-a-telnet-server-gnu-inetutils-telnetd-cve-2026-32746/",
+      "publishedAt": "2026-09-16T02:01:27.000Z",
+      "summary": "A long, long time ago, in a land free of binary exploit mitigations, when Unix still roamed the Earth, there lived a pre-authentication Telnetd vulnerability. In fact, this vulnerability was born so long ago (way back in 1994) that it may even be older than you. To put the",
+      "thumbnailUrl": "https://storage.ghost.io/c/a0/dc/a0dcbbe4-0ae7-4d7e-90f7-ebbc3a0f5a84/content/images/2026/03/Group-8730.png"
+    },
+    {
+      "title": "Breaking the 1.58-bit Barrier for Ternary LLMs",
+      "url": "https://arxiv.org/abs/2609.16338",
+      "publishedAt": "2026-09-16T20:59:24.000Z",
+      "summary": "Ternary Large Language Models (LLM) store every weight as one of three symbols $\\{-1,0,+1\\}$, so the cost of a ternary model is conventionally referenced to the information-theoretic $\\log_2 3 \\approx 1.585$ bits per weight. The prevailing deployment format packs five ternary weights into one byte (five-trit packing), and due to the power-of-two group sizes used in practice this rounds up to $1.625$ bits per weight. This effective storage bit-width treats the three symbols $\\{-1,0,+1\\}$ as equiprobable. We measure the actual symbol distribution of 29 ternary LLM models and find that zeros account for up to $51.5\\%$ of all weights. Motivated by this finding, we introduce BITCOS, a simple distribution-adaptive layout comprised of a dense presence bitmap plus a compacted sign vector, and costs $2 - z$ bits per weight element given a zero density $z$ in the model's weights. BITCOS stores weights more compactly than the five-trit packing in 26 of the 29 tested models, and reaches $1.485$ bits per weight on the sparsest of them. BITCOS is amenable to efficient unpacking on modern processors and GPUs, and we present optimized unpacking sequences for AVX-512, AVX2 and Intel Xe2 GPUs. Measured against production state-of-the-art ternary matrix-vector multiplication kernels, at the zero densities real-world ternary models exhibit, the realized gain with our proposed layout is up to $1.28\\times$. Finally, we illustrate end-to-end LLM inference results on 5 different platforms (client and server CPUs, integrated and discrete Xe2 GPUs) where decode throughput improves by up to $1.18\\times$ on CPUs and $1.27\\times$ on GPUs.",
+      "thumbnailUrl": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    },
+    {
+      "title": "The engineering behind the US Strategic Petroleum Reserve",
+      "url": "https://johnjwang.com/post/2026/09/15/engineering-behind-us-strategic-petroleum-reserve",
+      "publishedAt": "2026-09-15T22:15:25.000Z",
+      "summary": "One of the most fascinating things I&rsquo;ve learned about recently is the engineering behind the US Strategic Petroleum Reserve. Here are the key requirements it&rsquo;s designed to meet: Store …",
+      "thumbnailUrl": "https://johnjwang.com/og-image.jpg"
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "Text Agent Store",
+      "tagline": "A marketplace for AI agents you can text",
+      "url": "https://www.producthunt.com/products/text-agent-store",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-09-17T00:14:16-07:00"
+    },
+    {
+      "name": "Zella",
+      "tagline": "Video recorder that edits itself on Mac and iPhone",
+      "url": "https://www.producthunt.com/products/zella",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-09-17T00:14:16-07:00"
+    },
+    {
+      "name": "The Forge by Bob's Workshop",
+      "tagline": "Describe your idea & your team builds, deploys & operates it",
+      "url": "https://www.producthunt.com/products/the-forge-by-bob-s-workshop",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-09-17T00:14:16-07:00"
+    },
+    {
+      "name": "Modaal for Android",
+      "tagline": "Ship on both stores from one project using Swift + Kotlin",
+      "url": "https://www.producthunt.com/products/modaal-ai-agent-for-ios-android-native",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-09-17T00:14:15-07:00"
+    },
+    {
+      "name": "Amy by Jellyfish",
+      "tagline": "Your AI sourcing employee for recruiting teams",
+      "url": "https://www.producthunt.com/products/amy-by-jellyfish",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-09-17T00:14:15-07:00"
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "News and markets",
+      "sentences": [
+        "Global headlines: Gas prices are about to take a big jump, analysts say, with the worst still to come (The forecast of economic impacts beyond November’s midterms contrast with the Trump administration’s optimistic messaging); Battle with Trump is sending Canada into the arms of the E.U. (The head of the E.U.’s executive branch is proposing “associate membership” for Canada, as Ottawa also pursues new trade deals with China); and The surprising reason there have been no Atlantic hurricanes this year (El Niño isn’t the only factor. Another force could be contributing to fewer storms and a later peak in the season).",
+        "Markets leaned lower, with 4 of 7 tracked indexes down; HANG SENG INDEX down 0.58% was the largest move.",
+        "Benchmarks tracked: S&P 500, NASDAQ Composite, Euronext 100 Index, and Public Joint-Stock Company Moscow Exchange MICEX-RTS plus 3 more indexes."
+      ]
+    },
+    {
+      "title": "Hacker News and Product Hunt",
+      "sentences": [
+        "Hacker News: Keys Not Included: recovering the signing keys for US driver's license barcodes (My personal website, portfolio, and blog); Nvidia announces native GPU programming in Rust (In September 2026, NVIDIA announced it is leaning into native GPU programming in Rust. CUDA C++ and CUDA Python are mature,...); and My temporary PHP fix from 2014 has nearly 20M installs. Today I'm deprecating it (In 2014 I wrote http_build_url, a temporary PHP polyfill for AOL).",
+        "Product Hunt features Text Agent Store (A marketplace for AI agents you can text), Zella (Video recorder that edits itself on Mac and iPhone), and The Forge by Bob's Workshop (Describe your idea & your team builds, deploys & operates it)."
+      ]
+    }
+  ],
+  "sourceNotes": {
+    "generatedAt": "2026-09-17T07:14:31.002Z",
+    "timeZone": "Asia/Kolkata",
+    "successfulSources": [
+      "Washington Post",
+      "Al Jazeera",
+      "NPR",
+      "China Daily",
+      "The Hindu",
+      "Reuters"
+    ],
+    "marketSessionLabel": "Latest market sessions as of 2026-09-17",
+    "warnings": []
+  }
+}
