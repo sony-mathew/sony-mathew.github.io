@@ -6,10 +6,11 @@ const EXTERNAL_LINK_PROPS = {
   rel: "nofollow noopener noreferrer",
 };
 const HEADLINE_SOURCE_ORDER = ["Washington Post", "Al Jazeera", "NPR", "China Daily", "The Hindu", "Reuters"];
+
 const LIST_PANEL_CLASS_NAME =
-  "overflow-hidden rounded-lg border border-slate-200 bg-white shadow-sm ring-1 ring-slate-100 dark:border-white/10 dark:bg-slate-900/80 dark:shadow-[0_18px_60px_-30px_rgba(0,0,0,0.65)] dark:ring-white/5";
+  "overflow-hidden rounded-md border border-slate-200 bg-white shadow-sm ring-1 ring-slate-100 dark:border-white/10 dark:bg-slate-900/80 dark:shadow-[0_12px_40px_-20px_rgba(0,0,0,0.5)] dark:ring-white/5";
 const NOTE_PANEL_CLASS_NAME =
-  "rounded-lg border border-slate-200 bg-slate-50 p-5 shadow-sm ring-1 ring-slate-100 dark:border-white/10 dark:bg-slate-900/70 dark:ring-white/5";
+  "rounded-md border border-slate-200 bg-slate-50/70 p-5 shadow-sm ring-1 ring-slate-100 dark:border-white/10 dark:bg-slate-900/70 dark:ring-white/5";
 
 export function isDateOnlyValue(value = "") {
   return /^\d{4}-\d{2}-\d{2}$/.test(String(value).trim());
@@ -105,10 +106,15 @@ function getHostnameLabel(url) {
   }
 }
 
-function SectionHeader({ id, title, subtitle }) {
+function SectionHeader({ id, title, subtitle, categoryTag = null }) {
   return (
-    <div className="space-y-2">
-      <h2 id={id} className="mb-0 text-2xl font-semibold text-slate-950 dark:text-slate-50 md:text-3xl">
+    <div className="space-y-1.5">
+      {categoryTag && (
+        <span className="inline-flex items-center rounded-sm bg-indigo-50 px-2 py-0.5 text-xs font-bold uppercase tracking-wider text-indigo-700 dark:bg-indigo-500/10 dark:text-indigo-300">
+          {categoryTag}
+        </span>
+      )}
+      <h2 id={id} className="mb-0 text-2xl font-bold text-slate-950 dark:text-slate-50 md:text-3xl">
         {title}
       </h2>
       {subtitle ? (
@@ -139,7 +145,7 @@ function RelativeTime({ value }) {
       dateTime={value}
       title={title}
       data-relative-time-granularity={granularity}
-      className="whitespace-nowrap"
+      className="whitespace-nowrap font-medium"
     >
       {label}
     </time>
@@ -165,7 +171,9 @@ function MetaLine({ segments = [], timeValue = null }) {
               &bull;
             </span>
           ) : null}
-          <span>{entry.type === "time" ? <RelativeTime value={entry.value} /> : entry.value}</span>
+          <span className={index === 0 ? "font-semibold text-slate-700 dark:text-slate-300" : ""}>
+            {entry.type === "time" ? <RelativeTime value={entry.value} /> : entry.value}
+          </span>
         </Fragment>
       ))}
     </div>
@@ -188,6 +196,20 @@ function resolveSourceIconSrc(item) {
   return item.sourceIconUrl || null;
 }
 
+function ExternalLinkIcon() {
+  return (
+    <svg
+      className="ml-1 inline-block h-3.5 w-3.5 shrink-0 transition-transform group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+      strokeWidth="2"
+    >
+      <path strokeLinecap="round" strokeLinejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+    </svg>
+  );
+}
+
 function ListRowCard({
   href,
   title,
@@ -200,13 +222,13 @@ function ListRowCard({
   secondaryText = null,
 }) {
   return (
-    <article className="group border-t border-slate-200 first:border-t-0 transition duration-150 hover:bg-slate-50/80 dark:border-white/10 dark:hover:bg-white/[0.04]">
+    <article className="group border-t border-slate-100 first:border-t-0 transition duration-150 hover:bg-slate-50/80 dark:border-white/10 dark:hover:bg-white/[0.04]">
       <div className="flex flex-col gap-3 px-4 py-4 md:flex-row md:items-start md:gap-4 md:px-5">
         {thumbnailSrc ? (
           <a
             href={href}
             {...EXTERNAL_LINK_PROPS}
-            className="block overflow-hidden rounded-md border border-slate-200 bg-slate-100 opacity-100 md:w-40 md:shrink-0 dark:border-white/10 dark:bg-slate-800"
+            className="block overflow-hidden rounded-sm border border-slate-200 bg-slate-100 md:w-44 md:shrink-0 dark:border-white/10 dark:bg-slate-800"
           >
             <img
               src={thumbnailSrc}
@@ -218,7 +240,7 @@ function ListRowCard({
           <a
             href={href}
             {...EXTERNAL_LINK_PROPS}
-            className="flex h-24 w-full items-center justify-center rounded-md border border-slate-200 bg-slate-50 opacity-100 md:w-40 md:shrink-0 dark:border-white/10 dark:bg-slate-800"
+            className="flex h-24 w-full items-center justify-center rounded-sm border border-slate-200 bg-slate-50 md:w-44 md:shrink-0 dark:border-white/10 dark:bg-slate-800"
           >
             <img
               src={sourceIconSrc}
@@ -227,14 +249,15 @@ function ListRowCard({
             />
           </a>
         ) : null}
-        <div className="min-w-0 flex-1 space-y-1">
-          <h3 className="mb-0 mt-0 text-base font-semibold leading-snug text-slate-950 md:text-lg">
+        <div className="min-w-0 flex-1 space-y-1.5">
+          <h3 className="mb-0 mt-0 text-base font-bold leading-snug text-slate-950 md:text-lg">
             <a
               href={href}
               {...EXTERNAL_LINK_PROPS}
-              className="text-sky-700 opacity-100 transition hover:text-slate-950 dark:text-sky-300 dark:hover:text-white"
+              className="group/link inline-flex items-baseline text-slate-900 transition hover:text-indigo-600 dark:text-slate-100 dark:hover:text-indigo-400"
             >
-              {title}
+              <span>{title}</span>
+              <ExternalLinkIcon />
             </a>
           </h3>
           <MetaLine segments={metaSegments} timeValue={timeValue} />
@@ -279,24 +302,48 @@ function sortHeadlineItems(items = []) {
 }
 
 function MarketSection({ items = [] }) {
+  const gainerCount = items.filter((item) => item.direction === "up").length;
+  const loserCount = items.length - gainerCount;
+
   return (
-    <section data-daily-news-section="markets" className="daily-news-section space-y-6">
+    <section data-daily-news-section="markets" className="daily-news-section space-y-5">
       <SectionHeader
         id="market-snapshot"
+        categoryTag="FINANCIAL MARKETS"
         title="Market Snapshot"
-        subtitle="Latest completed sessions across the selected benchmark indexes."
+        subtitle="Latest completed trading sessions across global benchmark equity indexes."
       />
+
+      {items.length > 0 && (
+        <div className="flex flex-wrap items-center justify-between gap-4 rounded-sm border border-slate-200 bg-slate-50/80 px-4 py-2.5 text-xs font-semibold text-slate-600 dark:border-white/10 dark:bg-slate-900/60 dark:text-slate-300">
+          <div className="flex items-center gap-3">
+            <span className="flex items-center gap-1.5 text-emerald-600 dark:text-emerald-400">
+              <span className="h-2 w-2 rounded-sm bg-emerald-500" />
+              {gainerCount} Gainers
+            </span>
+            <span className="text-slate-300 dark:text-slate-700">|</span>
+            <span className="flex items-center gap-1.5 text-rose-600 dark:text-rose-400">
+              <span className="h-2 w-2 rounded-sm bg-rose-500" />
+              {loserCount} Losers
+            </span>
+          </div>
+          <span className="text-slate-400 dark:text-slate-500">
+            {items.length} Benchmark Indexes Tracked
+          </span>
+        </div>
+      )}
+
       <div className={LIST_PANEL_CLASS_NAME}>
         <div className="overflow-x-auto">
           <table className="daily-news-market-table min-w-[760px] border-separate border-spacing-0">
-            <thead className="bg-slate-100 text-left text-xs font-semibold uppercase text-slate-600 dark:bg-slate-950/70 dark:text-slate-300">
+            <thead className="bg-slate-100/90 text-left text-xs font-bold uppercase tracking-wider text-slate-600 dark:bg-slate-950/80 dark:text-slate-300">
               <tr>
-                <th className="px-4 py-3">Index</th>
+                <th className="px-5 py-3">Index</th>
                 <th className="w-24 whitespace-nowrap px-4 py-3">Region</th>
                 <th className="w-36 whitespace-nowrap px-4 py-3">Session Date</th>
                 <th className="w-28 whitespace-nowrap px-4 py-3 text-right">Value</th>
-                <th className="w-40 whitespace-nowrap px-4 py-3 text-right">Change</th>
-                <th className="w-24 whitespace-nowrap px-4 py-3 text-right">Direction</th>
+                <th className="w-44 whitespace-nowrap px-4 py-3 text-right">Change</th>
+                <th className="w-28 whitespace-nowrap px-5 py-3 text-right">Direction</th>
               </tr>
             </thead>
             <tbody className="bg-white dark:bg-transparent">
@@ -307,30 +354,41 @@ function MarketSection({ items = [] }) {
                     key={item.id}
                     className="border-t border-slate-100 transition-colors first:border-t-0 hover:bg-slate-50/80 dark:border-white/10 dark:hover:bg-white/[0.04]"
                   >
-                    <td className="px-4 py-4 align-top">
-                      <div className="font-semibold text-slate-950 dark:text-slate-100">{item.label}</div>
+                    <td className="px-5 py-3.5 align-top">
+                      <div className="font-bold text-slate-950 dark:text-slate-100">{item.label}</div>
                     </td>
-                    <td className="whitespace-nowrap px-4 py-4 text-sm text-slate-500 dark:text-slate-400">{item.region}</td>
-                    <td className="whitespace-nowrap px-4 py-4 text-sm text-slate-500 dark:text-slate-400">{item.sessionDate}</td>
-                    <td className="whitespace-nowrap px-4 py-4 text-right text-sm font-medium tabular-nums text-slate-950 dark:text-slate-100">
+                    <td className="whitespace-nowrap px-4 py-3.5 text-sm font-medium text-slate-500 dark:text-slate-400">
+                      {item.region}
+                    </td>
+                    <td className="whitespace-nowrap px-4 py-3.5 text-sm text-slate-500 dark:text-slate-400">
+                      {item.sessionDate}
+                    </td>
+                    <td className="whitespace-nowrap px-4 py-3.5 text-right text-sm font-semibold tabular-nums text-slate-950 dark:text-slate-100">
                       {Number(item.value).toFixed(2)}
                     </td>
                     <td
-                      className={`whitespace-nowrap px-4 py-4 text-right text-sm font-semibold tabular-nums ${
-                        isUp ? "text-emerald-600 dark:text-emerald-300" : "text-rose-600 dark:text-rose-300"
+                      className={`whitespace-nowrap px-4 py-3.5 text-right text-sm font-bold tabular-nums ${
+                        isUp ? "text-emerald-600 dark:text-emerald-400" : "text-rose-600 dark:text-rose-400"
                       }`}
                     >
-                      {`${Number(item.change).toFixed(2)} (${Number(item.percentChange).toFixed(2)}%)`}
+                      {`${Number(item.change) > 0 ? "+" : ""}${Number(item.change).toFixed(2)} (${Number(item.percentChange) > 0 ? "+" : ""}${Number(item.percentChange).toFixed(2)}%)`}
                     </td>
-                    <td className="whitespace-nowrap px-4 py-4 text-right">
+                    <td className="whitespace-nowrap px-5 py-3.5 text-right">
                       <span
-                        className={`inline-flex rounded-full px-2.5 py-1 text-xs font-semibold ring-1 ring-inset ${
+                        className={`inline-flex items-center gap-1 rounded-sm px-2.5 py-0.5 text-xs font-bold ring-1 ring-inset ${
                           isUp
-                            ? "bg-emerald-50 text-emerald-700 ring-emerald-200 dark:bg-emerald-400/10 dark:text-emerald-200 dark:ring-emerald-300/25"
-                            : "bg-rose-50 text-rose-700 ring-rose-200 dark:bg-rose-400/10 dark:text-rose-200 dark:ring-rose-300/25"
+                            ? "bg-emerald-50 text-emerald-700 ring-emerald-200 dark:bg-emerald-500/10 dark:text-emerald-300 dark:ring-emerald-500/20"
+                            : "bg-rose-50 text-rose-700 ring-rose-200 dark:bg-rose-500/10 dark:text-rose-300 dark:ring-rose-500/20"
                         }`}
                       >
-                        {isUp ? "Up" : "Down"}
+                        <svg className="h-3 w-3" fill="currentColor" viewBox="0 0 20 20">
+                          {isUp ? (
+                            <path fillRule="evenodd" d="M12 7a1 1 0 01-1 1H5a1 1 0 01-1-1V1a1 1 0 112 0v4.586l4.293-4.293a1 1 0 011.414 0l4 4a1 1 0 01-1.414 1.414L11 3.414V7z" clipRule="evenodd" />
+                          ) : (
+                            <path fillRule="evenodd" d="M12 13a1 1 0 01-1-1V7.414l-4.293 4.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0L15 10.586V13a1 1 0 01-1 1h-2z" clipRule="evenodd" />
+                          )}
+                        </svg>
+                        <span>{isUp ? "Up" : "Down"}</span>
                       </span>
                     </td>
                   </tr>
@@ -346,11 +404,12 @@ function MarketSection({ items = [] }) {
 
 function HackerNewsSection({ items = [] }) {
   return (
-    <section data-daily-news-section="hacker-news" className="daily-news-section space-y-6">
+    <section data-daily-news-section="hacker-news" className="daily-news-section space-y-5">
       <SectionHeader
         id="hacker-news"
+        categoryTag="TECH COMMUNITY"
         title="Hacker News"
-        subtitle="Ten notable links from the last day in the Hacker News ecosystem."
+        subtitle="Top discussions and links trending in the tech & developer ecosystem over the last 24 hours."
       />
       <div className={LIST_PANEL_CLASS_NAME}>
         {items.map((item, index) => (
@@ -358,7 +417,7 @@ function HackerNewsSection({ items = [] }) {
             key={`${item.url}-${index}`}
             href={item.url}
             title={item.title}
-            metaSegments={[getHostnameLabel(item.url) || "External link"]}
+            metaSegments={["Hacker News", getHostnameLabel(item.url) || "External link"]}
             timeValue={item.publishedAt}
             secondaryText={item.summary}
           />
@@ -370,14 +429,15 @@ function HackerNewsSection({ items = [] }) {
 
 function ProductHuntSection({ items = [] }) {
   return (
-    <section data-daily-news-section="product-hunt" className="daily-news-section space-y-6">
+    <section data-daily-news-section="product-hunt" className="daily-news-section space-y-5">
       <SectionHeader
         id="product-hunt"
+        categoryTag="NEW PRODUCTS"
         title="Product Hunt"
-        subtitle="Featured products from the latest public Product Hunt listings."
+        subtitle="Curated products and software tools featured in recent Product Hunt listings."
       />
       {items.length === 0 ? (
-        <div className="rounded-lg border border-dashed border-slate-300 bg-slate-50 p-6 text-sm text-slate-500 dark:border-white/15 dark:bg-slate-900/60 dark:text-slate-400">
+        <div className="rounded-sm border border-dashed border-slate-300 bg-slate-50 p-5 text-sm text-slate-500 dark:border-white/15 dark:bg-slate-900/60 dark:text-slate-400">
           Product Hunt data was unavailable for this edition.
         </div>
       ) : (
@@ -389,7 +449,7 @@ function ProductHuntSection({ items = [] }) {
               title={item.name}
               thumbnailSrc={resolveThumbnailSrc(item)}
               thumbnailAlt={item.name}
-              metaSegments={["Product Hunt"]}
+              metaSegments={["Product Hunt Launch"]}
               timeValue={item.publishedAt}
               secondaryText={item.tagline}
             />
@@ -402,41 +462,58 @@ function ProductHuntSection({ items = [] }) {
 
 function SourceNotesSection({ sourceNotes = {} }) {
   return (
-    <section data-daily-news-section="source-notes" className="daily-news-section space-y-6">
+    <section data-daily-news-section="source-notes" className="daily-news-section space-y-5">
       <SectionHeader
         id="source-notes"
+        categoryTag="METADATA & DIAGNOSTICS"
         title="Source Notes"
-        subtitle="Generation details, data coverage, and any partial-source warnings for this edition."
+        subtitle="Generation parameters, data coverage statistics, and automated pipeline execution details."
       />
       <div className={NOTE_PANEL_CLASS_NAME}>
-        <div className="grid gap-4 md:grid-cols-2">
+        <div className="grid gap-6 md:grid-cols-2">
           <div className="space-y-1">
-            <div className="text-xs font-semibold uppercase text-slate-500 dark:text-slate-400">Generated At</div>
-            <div className="text-sm text-slate-700 dark:text-slate-200">
-              {formatAbsoluteTimestamp(sourceNotes.generatedAt) || sourceNotes.generatedAt}
+            <div className="text-xs font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400">
+              Generated Timestamp
+            </div>
+            <div className="text-sm font-semibold text-slate-800 dark:text-slate-200">
+              {formatAbsoluteTimestamp(sourceNotes.generatedAt) || sourceNotes.generatedAt || "N/A"}
             </div>
           </div>
           <div className="space-y-1">
-            <div className="text-xs font-semibold uppercase text-slate-500 dark:text-slate-400">Time Zone</div>
-            <div className="text-sm text-slate-700 dark:text-slate-200">{sourceNotes.timeZone || DAILY_NEWS_TIME_ZONE}</div>
+            <div className="text-xs font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400">
+              Pipeline Time Zone
+            </div>
+            <div className="text-sm font-semibold text-slate-800 dark:text-slate-200">
+              {sourceNotes.timeZone || DAILY_NEWS_TIME_ZONE}
+            </div>
           </div>
           <div className="space-y-1">
-            <div className="text-xs font-semibold uppercase text-slate-500 dark:text-slate-400">
-              News Sources With Data
+            <div className="text-xs font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400">
+              Active Data Feeds
             </div>
-            <div className="text-sm text-slate-700 dark:text-slate-200">
+            <div className="text-sm font-semibold text-slate-800 dark:text-slate-200">
               {sourceNotes.successfulSources?.join(", ") || "None"}
             </div>
           </div>
           <div className="space-y-1">
-            <div className="text-xs font-semibold uppercase text-slate-500 dark:text-slate-400">Market Session Label</div>
-            <div className="text-sm text-slate-700 dark:text-slate-200">{sourceNotes.marketSessionLabel || "No market data available"}</div>
+            <div className="text-xs font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400">
+              Market Session Tag
+            </div>
+            <div className="text-sm font-semibold text-slate-800 dark:text-slate-200">
+              {sourceNotes.marketSessionLabel || "No market session label"}
+            </div>
           </div>
         </div>
+
         {sourceNotes.warnings?.length ? (
-          <div className="mt-5 rounded-lg border border-amber-200 bg-amber-50 p-4 dark:border-amber-300/20 dark:bg-amber-300/10">
-            <div className="text-xs font-semibold uppercase text-amber-700 dark:text-amber-200">Warnings</div>
-            <ul className="mt-3 space-y-2 text-sm text-amber-900 dark:text-amber-100">
+          <div className="mt-5 rounded-sm border border-amber-200 bg-amber-50/90 p-4 dark:border-amber-500/20 dark:bg-amber-500/10">
+            <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-amber-700 dark:text-amber-300">
+              <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 20 20">
+                <path fillRule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clipRule="evenodd" />
+              </svg>
+              <span>Pipeline Warnings</span>
+            </div>
+            <ul className="mt-2.5 space-y-1.5 pl-5 text-sm text-amber-900 dark:text-amber-100">
               {sourceNotes.warnings.map((warning, index) => (
                 <li key={`${warning}-${index}`}>{warning}</li>
               ))}
@@ -455,11 +532,12 @@ export function DailyNewsPayloadRenderer({ payload }) {
 
   return (
     <div className="daily-news-body space-y-10">
-      <section data-daily-news-section="headlines" className="daily-news-section space-y-6">
+      <section data-daily-news-section="headlines" className="daily-news-section space-y-5">
         <SectionHeader
           id="global-headlines"
+          categoryTag="WORLD NEWS"
           title="Global Headlines"
-          subtitle="Top stories across selected outlets, presented in a fast daily brief format."
+          subtitle="Top international news stories aggregated across world outlets in a fast daily briefing."
         />
         <div className={LIST_PANEL_CLASS_NAME}>
           {sortHeadlineItems(payload.headlines).map((item, index) => (
