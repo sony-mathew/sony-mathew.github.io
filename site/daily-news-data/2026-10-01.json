@@ -1,0 +1,510 @@
+{
+  "headlines": [
+    {
+      "title": "Pilot on Tel Aviv-bound flight tried to crash plane after cockpit stabbing, Netanyahu says",
+      "url": "https://www.washingtonpost.com/world/2026/09/30/flydubai-flight-tel-aviv-diverted-saudi-arabia-after-onboard-altercation/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Wed, 30 Sep 2026 21:43:37 +0000",
+      "summary": "Flydubai Flight 1073 was carrying about 180 passengers to Tel Aviv from Dubai when it made the emergency landing in Saudi Arabia.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "U.K. sees ‘strong indications’ that Iran played role in air base incident",
+      "url": "https://www.washingtonpost.com/world/2026/09/30/no-explosives-found-vans-near-raf-fairford-uk-counterterrorism-police-say/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Wed, 30 Sep 2026 20:34:20 +0000",
+      "summary": "Police did not detect explosives in vans found near Royal Air Force Fairford, adding uncertainty around a suspected terrorism plot.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "U.K. accuses China of operating institute as front for espionage",
+      "url": "https://www.washingtonpost.com/world/2026/09/30/uk-accuses-china-operating-institute-front-espionage/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Wed, 30 Sep 2026 19:59:44 +0000",
+      "summary": "The “espionage alert” issued by MI5 is part of an extraordinary shift by the British government to raise public alarms about the scale and threat of Chinese espionage.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "U.S. withdraws forces in Iraq as balance of power shifts to Iran",
+      "url": "https://www.washingtonpost.com/world/2026/09/29/us-withdraws-forces-iraq-balance-power-shifts-iran/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Wed, 30 Sep 2026 13:45:12 +0000",
+      "summary": "U.S. military forces departed from bases in Iraq on Wednesday, a milestone in two bloody decades of American involvement.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "Senate blocks measure requiring report on Israeli violence in West Bank",
+      "url": "https://www.washingtonpost.com/politics/2026/10/01/senate-blocks-measure-requiring-report-israeli-violence-west-bank/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Wed, 30 Sep 2026 12:45:00 +0000",
+      "summary": "Nearly all Senate Democrats voted to require the State Department to report on Israeli settler violence in the West Bank.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "Iran forces kill 6 ‘terrorists’ planning bomb attack in raid near Tehran",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/1/iran-war-live-trump-hints-us-could-strike-iran-warns-time-coming",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-10-01",
+      "summary": "Revolutionary Guard says explosives found in home in Manjilabad town as plot foiled during deadly operation.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/09/AP26261331274287-1789928452.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Pakistan says 22 fighters killed in air attacks on Afghanistan",
+      "url": "https://www.aljazeera.com/news/2026/10/1/afghanistan-says-nine-killed-in-pakistani-air-raids-on-kunar-helmand",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-10-01",
+      "summary": "Kabul says the strikes on Kunar and Helmand provinces killed nine women and children.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/10/2026-10-01T071140Z_501348126_RC26UNANQ45L_RTRMADP_3_AFGHANISTAN-PAKISTAN-1790839358.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Netanyahu calls stabbed Indian pilot a hero; Flydubai halts Israel flights",
+      "url": "https://www.aljazeera.com/news/2026/9/30/netanyahu-praises-indian-pilot-for-saving-lives-on-flydubai-flight",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-09-30",
+      "summary": "Israeli prime minister thanks Captain Smit Machchhar for saving the lives of 174 people on board Tel Aviv-bound flight.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/09/AP26273667107772-1790807217.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Tennessee death-row prisoner Christa Pike survives lethal injections",
+      "url": "https://www.aljazeera.com/news/2026/10/1/us-supreme-court-clears-way-for-christa-pikes-execution-in-tennessee",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-10-01",
+      "summary": "Lawyers say Pike was taken away from the prison in an ambulance and is being treated in hospital.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/09/reuters_6abd35f7-1790785015.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Gunmen kill 7 on bus in Syria as pipeline blast knocks out 3 power plants",
+      "url": "https://www.aljazeera.com/news/2026/9/30/gas-pipeline-explodes-in-syria-knocks-three-power-plants-offline",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-09-30",
+      "summary": "Gunmen attack bus in Homs province hours after a pipeline explosion knocked out three power plants near Damascus.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/09/getty_6abd6c878a-1790798983.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Tennessee governor halts executions after Christa Gail Pike survives lethal injection",
+      "url": "https://www.npr.org/2026/10/01/nx-s1-5986822/tennessee-governor-halts-executions",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Thu, 01 Oct 2026 01:43:24 -0400",
+      "summary": "Tennessee officials were unable to put Christa Gail Pike to death Wednesday for a 1995 murder after administering two doses of a lethal drug. Tennessee Gov. Bill Lee halted the remaining execution for the year.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8640x5760+0+0/resize/8640x5760!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F3b%2Ff3%2F120df3d342878c8c9ae39c616c09%2Fap26274087312825.jpg"
+    },
+    {
+      "title": "Swiss glaciers suffer another year of record ice loss",
+      "url": "https://www.npr.org/2026/09/30/nx-s1-5981403/swiss-glaciers-climate-change",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Wed, 30 Sep 2026 19:00:00 -0400",
+      "summary": "Switzerland's glaciers are disappearing at a record pace. More than 5% of their ice has vanished this year alone — threatening water supplies, ecosystems and communities across Europe.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2000x1429+0+0/resize/2000x1429!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fd7%2F06%2F92fb3d454823b47041801337f49b%2F03-clariden-mhuss.jpg"
+    },
+    {
+      "title": "Leaning into culture war flashpoints, Hegseth says he has transformed U.S. military",
+      "url": "https://www.npr.org/2026/09/30/nx-s1-5986304/hegseth-troops-address",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Wed, 30 Sep 2026 17:51:20 -0400",
+      "summary": "Secretary of Defense Pete Hegseth told hundreds of junior military officers and enlisted leaders on Wednesday that the Trump administration has achieved a cultural shift in the military.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5467x3645+0+0/resize/5467x3645!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fd5%2F72%2F7a6d5650409787e3d3aa85f45059%2Fgettyimages-2297938762.jpg"
+    },
+    {
+      "title": "Greetings from Syria, where time seems to melt as a glassmaker braves scorching temps",
+      "url": "https://www.npr.org/2026/09/30/nx-s1-5983516/damascus-syria-glass",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Wed, 30 Sep 2026 13:51:42 -0400",
+      "summary": "As a Syrian glassmaker created his wares in Damascus, watching his craft reminded this reporter to slow down and enjoy the moment.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1920x1080+0+0/resize/1920x1080!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fe5%2F7c%2Fa4d053f446749491f915fc9bc529%2Ffarflungpostcard-syria.jpg"
+    },
+    {
+      "title": "Police questioning can shape a sexual assault case. Their approach is often wrong",
+      "url": "https://www.npr.org/2026/09/30/nx-s1-5983868/cornell-rape-police-interview-investigation-victim-trauma-informed",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Wed, 30 Sep 2026 13:19:24 -0400",
+      "summary": "The Cornell lawsuit filed by a woman alleging a brutal rape raises questions on how police handle such cases. The majority of police lack adequate training on trauma-informed approaches, experts say.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5184x3456+0+0/resize/5184x3456!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fa5%2F71%2Fe81662bc46088d42ea1e7ecd8392%2Fap21082458440500.jpg"
+    },
+    {
+      "title": "Washington blames UK base incident on a 'foreign actor'",
+      "url": "https://www.chinadaily.com.cn/a/202609/30/WS6abc60d3e4b06d4aa0560ee2.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-09-30",
+      "summary": "US Secretary of State Marco Rubio said the \"hands of a foreign actor\" were involved in an incident in which five men were arrested on suspected explosives and terrorism offenses near a British air base used by US forces.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202609/30/6abc60d2e4b06d4a392d5e5f.png"
+    },
+    {
+      "title": "Chancay Port rides a new trade current",
+      "url": "https://www.chinadaily.com.cn/a/202609/30/WS6abc5eb3e4b06d4aa0560ec1.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-09-30",
+      "summary": "For Santos Javier Gonzales, the deep-water mega port taking shape in his hometown of Chancay, Peru, has become part of his own story — enabling him to build a career without leaving his family behind.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202609/30/6abc5eb3e4b06d4a392d5e01.png"
+    },
+    {
+      "title": "Landmark Chinese garden takes root in England",
+      "url": "https://www.chinadaily.com.cn/a/202609/28/WS6ab9bb13e4b06d4aa0560728.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-09-28",
+      "summary": "SALFORD, England — After nearly eight years in the making, a Chinese garden that authorities describe as the largest of its kind in Europe has opened in Salford, bringing a distinctive Chinese presence to the horticultural landscape of northern England.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202609/28/6ab9bb13e4b06d4a392d345d.png"
+    },
+    {
+      "title": "Ukraine's provocations fuel tensions, Putin says",
+      "url": "https://www.chinadaily.com.cn/a/202609/28/WS6ab9bc5ae4b06d4aa056073a.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-09-28",
+      "summary": "MOSCOW/KYIV — Russian President Vladimir Putin said on Friday that an escalation of tensions would not achieve the outcome sought by Kyiv and could only worsen the situation in Ukraine.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202609/28/6ab9bc5ae4b06d4a392d34c1.png"
+    },
+    {
+      "title": "Beijing urges Japan to honor joint political commitments",
+      "url": "https://www.chinadaily.com.cn/a/202609/30/WS6abc49ade4b06d4aa0560e86.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-09-30",
+      "summary": "Foreign Ministry spokesman Guo Jiakun urged the Japanese authorities to seriously reflect on and correct their wrongdoings and take real actions to return to the purpose and mission of the four key political documents shared by China and Japan.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202609/30/6abc49ace4b06d4a392d5d6c.jpeg"
+    },
+    {
+      "title": "Who at EC ordered TCS to make 'illegal' change in Form 6, asks Rahul",
+      "url": "https://www.thehindu.com/news/national/congress-accuses-ec-ordered-tcs-change-in-form-6-as-illegal/article71531741.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-10-01T07:04:30.000Z",
+      "summary": "Congress accuses EC-ordered TCS change in Form 6 as illegal, questions who approved it, amid INDIA bloc protests and CEC controversy.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/xvsr64/article71531789.ece/alternates/LANDSCAPE_1200/PTI09_29_2026_000402B.jpg"
+    },
+    {
+      "title": "Supreme Court dismisses plea by Mamata Banerjee-led TMC faction to operate four debit-frozen bank accounts",
+      "url": "https://www.thehindu.com/news/national/west-bengal/supreme-court-dismisses-plea-by-mamata-banerjee-led-tmc-faction-to-operate-four-debit-frozen-bank-accounts/article71531780.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-10-01T07:11:02.000Z",
+      "summary": "Supreme Court dismisses TMC faction plea to operate four debit-frozen bank accounts; ruling cites EC symbol freeze and pending adjudication of funds.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/jr6c30/article71531824.ece/alternates/LANDSCAPE_1200/IMG_Suprem_Court_3_1_EFGIQVEC.jpg"
+    },
+    {
+      "title": "Mamata backs Rahul as PM, Kharge seeks Opposition unity",
+      "url": "https://www.thehindu.com/news/national/mamata-backs-rahul-as-pm-kharge-seeks-opposition-unity/article71529842.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-09-30T17:23:58.000Z",
+      "summary": "INDIA bloc leaders back Rahul Gandhi with Mamata Banerjee’s support, urging unity to defend democracy and the Constitution.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/py1w5x/article71530058.ece/alternates/LANDSCAPE_1200/PTI09_30_2026_000476B.jpg"
+    },
+    {
+      "title": "ECI meets for second time in 4 days, extends SIR dates for Andhra Pradesh and Meghalaya",
+      "url": "https://www.thehindu.com/news/national/eci-meets-for-second-time-in-4-days-extends-sir-dates-for-andhra-pradesh-and-meghalaya/article71529452.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-09-30T16:01:08.000Z",
+      "summary": "ECI extends final electoral roll dates for Andhra Pradesh and Meghalaya, reviews recent SIR measures and ECINet concerns in a second four-day meeting.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/8jk0ty/article71529819.ece/alternates/LANDSCAPE_1200/20260930305L.jpg"
+    },
+    {
+      "title": "President Murmu, PM Modi praise Indian pilot Smit Machchhar for saving Israel-bound flight from crash",
+      "url": "https://www.thehindu.com/news/national/president-murmu-pm-modi-praise-indian-pilot-smit-machchhar-for-saving-flydubai-flight-from-crash/article71531524.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-10-01T05:43:39.000Z",
+      "summary": "Indian leaders praise pilot Smit Machchhar for saving hundreds of lives after averting a Dubai flight crash.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/7s2ki3/article71531541.ece/alternates/LANDSCAPE_1200/2026-10-01T041756Z_780811303_RC22UNAS3SOF_RTRMADP_3_ISRAEL-GULF-FLIGHT-PILOT.JPG"
+    },
+    {
+      "title": "EXCLUSIVE: US sees Chinese invasion of Taiwan unlikely next year despite 2027 timeline, sources say",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPUndXVDZTcEFDQWtURXgyY2xhOUh2OTYyQml2YWNSTVN0Unh0cVZfMElHOFo4RnRSZG9OTzR6QzhySElfendhdnVYZDlkM0pwZXd3RkJaaFhjbm95RVBZWHZ1TExod3JUZFZ5WVVrUnBQZ2ZSanZ3cHVla3A2XzZqdGZ2MUtGejNZcG8xczFER2JraHFyUV84RGd2SmxWOEFhYm9vdnI5RkZnSkQzTGhKcEpfUWpCbWp6TTVFbE5KbTNXd19SOUxn?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Thu, 01 Oct 2026 05:02:00 GMT",
+      "summary": "Reuters: EXCLUSIVE: US sees Chinese invasion of Taiwan unlikely next year despite 2027 timeline, sources say.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "Pakistani airstrikes kill 9 in Afghanistan, Taliban say",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSGp6T0Fnd0RMa2ZWYnF6RUI1ZEVPeUpCQWRaQ28xLXAwOVBpcDZwWTBzMDlIRlFyWUNhUi04ZzlMNDhVYmJqTEY1QmtGVkJmR0szZm1sRFhCNlVPQnRaNkxOZlFfTWhrOFk4RC1zdEwxWWNoVVdzVmtVbnJwN2x4V0o5aWtGRGM1ZHoxZnpfbFloQ1FGd1cwXzcyZHd3NGR4OUY0eEZxc2lDX2xf?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Thu, 01 Oct 2026 03:23:00 GMT",
+      "summary": "Reuters: Pakistani airstrikes kill 9 in Afghanistan, Taliban say.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "Philippines sends largest ship, aircraft to drive away Chinese vessel in waters near Taiwan",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZzlLX25COVBLRHlnTXRZZHprdGpjU09lOXN4eUdTSml4b0thZTFEbkpVR0tkU2ladnlTUkNSWTE1UW83Q2MtMXRTa1g4QTNSZmNzTnpwQ0t6OU9SanhPcEl5bG1MdzF1ZmR4QmRKR2FGWHNtczZNLVFrN3pEb2MzZ2ZMM0d2MWNvUlRrQjBkaTZ2MUVPckJtMmxUanduU2VRM2RMcG9UTG0zNFd6RVl5MUJhcTFVV2s3cUlHYzh3d0lmcTA?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Thu, 01 Oct 2026 05:48:00 GMT",
+      "summary": "Reuters: Philippines sends largest ship, aircraft to drive away Chinese vessel in waters near Taiwan.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "EU questions Binance over continued operations despite wind-down order, FT reports",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQNWlsX1poVEVrNHo4UjVaak1FdFcwR05aOUxUcHRHSjYyRmVBY2FDdy1MZGZ0NVlvTVNkMHlzWDE4RFRnWGpRQVQ5UmxCTkx5Z0RLM0lFbnVteUdUdHNkRUR2U2s1QmpfajQ3LTNxMWl6WldHUWN5Nk1lWG9SUVdYUGVwWlI0ejJwbWNDdDVoOHI5MVdwUDhndUNSdFlYTEdnMTAzYTQtUzFwZm1od1hsMV9SZFZKVFMxMGFnVUVn?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Thu, 01 Oct 2026 04:15:00 GMT",
+      "summary": "Reuters: EU questions Binance over continued operations despite wind-down order, FT reports.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "China’s Tencent leases 100,000 chips from Oracle to accelerate AI push, FT reports",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNR3F1ZTMtVFZsOVNXOEU4X09jTTI0RDVYNUJmQUNVVUhJQkV6YlRmdldFaWwyVzU1UnZLQl9Ia0tqTHlBZ09SUXZ6VC1kcEx6bjQyQlgxXzI1YVpwYldSV3NwNXZRRkFPSWQzclhFbE04anBtbnRZV2FwRUlIMmU2eVV3M0VscEE1Znd5bU5rNEhwWVVXdlR0c2tIbnlnald3VVBJdVFiTDZMUmhqV0x1bE1jVVR2STZ5bHdF?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Thu, 01 Oct 2026 03:12:00 GMT",
+      "summary": "Reuters: China’s Tencent leases 100,000 chips from Oracle to accelerate AI push, FT reports.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    }
+  ],
+  "markets": [
+    {
+      "id": "sp-500",
+      "label": "S&P 500",
+      "region": "US",
+      "symbol": "^GSPC",
+      "value": 7651.54,
+      "previousClose": 7670.839805,
+      "change": -19.299805,
+      "percentChange": -0.25159964,
+      "direction": "down",
+      "sessionDate": "2026-10-01"
+    },
+    {
+      "id": "nasdaq-composite",
+      "label": "NASDAQ Composite",
+      "region": "US",
+      "symbol": "^IXIC",
+      "value": 26861.06,
+      "previousClose": 26797.536562,
+      "change": 63.523438,
+      "percentChange": 0.2370495,
+      "direction": "up",
+      "sessionDate": "2026-10-01"
+    },
+    {
+      "id": "euronext-100",
+      "label": "Euronext 100 Index",
+      "region": "Europe",
+      "symbol": "^N100",
+      "value": 1862.69,
+      "previousClose": 1884.9201030000002,
+      "change": -22.230103,
+      "percentChange": -1.179322,
+      "direction": "down",
+      "sessionDate": "2026-10-01"
+    },
+    {
+      "id": "moex",
+      "label": "Public Joint-Stock Company Moscow Exchange MICEX-RTS",
+      "region": "Europe",
+      "symbol": "MOEX.ME",
+      "value": 85.2,
+      "previousClose": 85.31000061,
+      "change": -0.11000061,
+      "percentChange": -0.12894222,
+      "direction": "down",
+      "sessionDate": "2026-10-01"
+    },
+    {
+      "id": "hang-seng",
+      "label": "HANG SENG INDEX",
+      "region": "Asia",
+      "symbol": "^HSI",
+      "value": 24613.27,
+      "previousClose": 24523.570780000002,
+      "change": 89.69922,
+      "percentChange": 0.36576736,
+      "direction": "up",
+      "sessionDate": "2026-10-01"
+    },
+    {
+      "id": "nikkei-225",
+      "label": "Nikkei 225",
+      "region": "Asia",
+      "symbol": "^N225",
+      "value": 68956.72,
+      "previousClose": 66753.72,
+      "change": 2203,
+      "percentChange": 3.3001907,
+      "direction": "up",
+      "sessionDate": "2026-10-01"
+    },
+    {
+      "id": "sensex",
+      "label": "S&P BSE SENSEX",
+      "region": "India",
+      "symbol": "^BSESN",
+      "value": 71654.96,
+      "previousClose": 72480.2881,
+      "change": -825.3281,
+      "percentChange": -1.1388116,
+      "direction": "down",
+      "sessionDate": "2026-10-01"
+    }
+  ],
+  "hackerNews": [
+    {
+      "title": "Gemini 4 Argon",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+      "publishedAt": "2026-09-30T20:04:37.000Z",
+      "summary": "Announcing Gemini 4 Argon, our frontier model for real-world coding, enterprise knowledge work, and cyber defense, rolling out soon.",
+      "thumbnailUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/g4_30-09-26_key-art_blog.width-1300.png"
+    },
+    {
+      "title": "The top secret URSALA, RAQUEL, and FARRAH satellites (2025)",
+      "url": "https://www.thespacereview.com/article/4951/1",
+      "publishedAt": "2026-09-30T22:03:04.000Z",
+      "summary": "In 1963, the Air Force launched the first &#8220;hitchhiker&#8221; off the side of a larger satellite. This began a secretive program that lasted more than 40 years under a variety of names and designations. The satellites, about the size of a large suitcase, were festooned with antennas and spun rapidly as they orbited the Earth, sweeping their antennas over the ground and gathering radar and other signals, so-called electronic intelligence, or ELINT. They usually recorded the signals for later transmission to the ground, but occasionally directly re-transmitted them to a ground station.",
+      "thumbnailUrl": "https://www.thespacereview.com/images/logo-tsr-1.gif"
+    },
+    {
+      "title": "OpenDLSS: A Vulkan Reimplementation of Nvidia's DLSS 5 Neural Rendering Network",
+      "url": "https://github.com/maanHimself/OpenDLSS-NR",
+      "publishedAt": "2026-09-30T08:43:21.000Z",
+      "summary": "A Vulkan reimplementation of NVIDIA's DLSS 5 Neural Rendering network, bit-exact against the original. - maanHimself/OpenDLSS-NR",
+      "thumbnailUrl": "https://opengraph.githubassets.com/ac0b1e62f598e301fe5e2bbbf6c7bdda05c1ba082d0366980b154432edc750bc/maanHimself/OpenDLSS-NR"
+    },
+    {
+      "title": "Surprisingly complex waves reveal the brain's inner workings",
+      "url": "https://www.quantamagazine.org/surprisingly-complex-waves-reveal-the-brains-inner-workings-20260930/",
+      "publishedAt": "2026-09-30T19:04:50.000Z",
+      "summary": "Unexpected patterns traveling across the human brain may be reorganizing its activity in real time.",
+      "thumbnailUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/09/Thought-Geometry-cr.Mark-Belan-Social.jpg"
+    },
+    {
+      "title": "Launch HN: Magnitude (YC S25) – Self-optimizing inference engine for agents",
+      "url": "https://github.com/magnitudedev/magnitude",
+      "publishedAt": "2026-09-30T17:37:40.000Z",
+      "summary": "Open source inference engine for agents that optimizes itself for your exact hardware. Compiles and tunes its kernels on your device, so open models run up to 2x faster than llama.cpp. Works on App...",
+      "thumbnailUrl": "https://opengraph.githubassets.com/e61001788a2a58fe60404894f1a9c2c8c46b9bcb4b4150f7bee2868d2d9b8686/magnitudedev/magnitude"
+    },
+    {
+      "title": "Halfspace experimental IDE for solid modeling with distance fields",
+      "url": "https://www.mattkeeter.com/projects/halfspace/",
+      "publishedAt": "2026-09-30T19:44:37.000Z",
+      "summary": "An IDE for solid modelling with distance fields",
+      "thumbnailUrl": "https://mattkeeter.com/projects/halfspace/hero@2x.png"
+    },
+    {
+      "title": "Before pixels: Modular industrial dashboards",
+      "url": "https://unsung.aresluna.org/before-pixels-modular-industrial-dashboards/",
+      "publishedAt": "2026-09-30T18:49:06.000Z",
+      "summary": "A blog about software craft and quality",
+      "thumbnailUrl": "https://unsung.aresluna.org/_media/before-pixels-modular-industrial-dashboards/ogimage.jpg"
+    },
+    {
+      "title": "A brief history of the Bloomberg terminal",
+      "url": "https://spectrum.ieee.org/bloomberg-terminal",
+      "publishedAt": "2026-09-30T14:34:07.000Z",
+      "summary": "It gave Wall Street traders and analysts an unprecedented window on global markets",
+      "thumbnailUrl": "https://spectrum.ieee.org/media-library/image.jpg?id=67857174&width=1200&height=600&coordinates=0%2C50%2C0%2C50"
+    },
+    {
+      "title": "EDG C++ front-end goes public",
+      "url": "https://edgcpp.org/#transition",
+      "publishedAt": "2026-09-30T19:26:37.000Z",
+      "summary": "On September 30, 2026, EDG",
+      "thumbnailUrl": "https://edgcpp.org/assets/img/logo.gif"
+    },
+    {
+      "title": "5x faster Edge Functions: V8 isolates to Firecracker MicroVMs",
+      "url": "https://www.netlify.com/blog/edge-functions-firecracker-microvms/",
+      "publishedAt": "2026-09-30T18:17:45.000Z",
+      "summary": "See how Netlify rebuilt Edge Functions on MicroVMs to deliver lower latency, greater reliability, and faster log delivery.",
+      "thumbnailUrl": "https://www.netlify.com/images/blog/edge-functions-firecracker-microvms.png"
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "Phare C1®",
+      "tagline": "A smoke alarm that detects fire, not toast.",
+      "url": "https://www.producthunt.com/products/phare-c1",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-10-01T01:20:38-07:00"
+    },
+    {
+      "name": "Chat.sh",
+      "tagline": "The help center I built after Intercom's search broke",
+      "url": "https://www.producthunt.com/products/chat-sh",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-10-01T01:22:12-07:00"
+    },
+    {
+      "name": "Omnia Agent",
+      "tagline": "The AI Agent that does 95% of your GEO work",
+      "url": "https://www.producthunt.com/products/omnia-2",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-10-01T01:22:04-07:00"
+    },
+    {
+      "name": "Bracket",
+      "tagline": "The memory layer for your business",
+      "url": "https://www.producthunt.com/products/bracket-2027",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-10-01T01:22:04-07:00"
+    },
+    {
+      "name": "Vitra.ai",
+      "tagline": "Agentic content platform to create and localize content",
+      "url": "https://www.producthunt.com/products/vitra-ai-agentic-content-platform",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-10-01T01:21:24-07:00"
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "News and markets",
+      "sentences": [
+        "Global headlines: Pilot on Tel Aviv-bound flight tried to crash plane after cockpit stabbing, Netanyahu says (Flydubai Flight 1073 was carrying about 180 passengers to Tel Aviv from Dubai when it made the emergency landing in Saudi Arabia); U.K. sees ‘strong indications’ that Iran played role in air base incident (Police did not detect explosives in vans found near Royal Air Force Fairford, adding uncertainty around a suspected terrorism plot); and U.K. accuses China of operating institute as front for espionage (The “espionage alert” issued by MI5 is part of an extraordinary shift by the British government to raise public alarms about the scale and threat of Chinese espionage).",
+        "Markets leaned lower, with 4 of 7 tracked indexes down; Nikkei 225 up 3.30% was the largest move.",
+        "Benchmarks tracked: S&P 500, NASDAQ Composite, Euronext 100 Index, and Public Joint-Stock Company Moscow Exchange MICEX-RTS plus 3 more indexes."
+      ]
+    },
+    {
+      "title": "Hacker News and Product Hunt",
+      "sentences": [
+        "Hacker News: Gemini 4 Argon (Announcing Gemini 4 Argon, our frontier model for real-world coding, enterprise knowledge work, and cyber defense, rolling out soon); The top secret URSALA, RAQUEL, and FARRAH satellites (2025) (In 1963, the Air Force launched the first &#8220;hitchhiker&#8221; off the side of a larger satellite. This began a secretive program that...); and OpenDLSS: A Vulkan Reimplementation of Nvidia's DLSS 5 Neural Rendering Network (A Vulkan reimplementation of NVIDIA's DLSS 5 Neural Rendering network, bit-exact against the original. - maanHimself/OpenDLSS-NR).",
+        "Product Hunt features Phare C1® (A smoke alarm that detects fire, not toast), Chat.sh (The help center I built after Intercom's search broke), and Omnia Agent (The AI Agent that does 95% of your GEO work)."
+      ]
+    }
+  ],
+  "sourceNotes": {
+    "generatedAt": "2026-10-01T08:23:22.413Z",
+    "timeZone": "Asia/Kolkata",
+    "successfulSources": [
+      "Washington Post",
+      "Al Jazeera",
+      "NPR",
+      "China Daily",
+      "The Hindu",
+      "Reuters"
+    ],
+    "marketSessionLabel": "Latest market sessions as of 2026-10-01",
+    "warnings": []
+  }
+}
