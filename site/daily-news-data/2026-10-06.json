@@ -1,0 +1,510 @@
+{
+  "headlines": [
+    {
+      "title": "U.S. says Coast Guard came under fire near the border. Mexico wants evidence.",
+      "url": "https://www.washingtonpost.com/world/2026/10/05/us-says-coast-guard-came-under-fire-near-border-mexico-wants-evidence/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Mon, 05 Oct 2026 23:29:44 +0000",
+      "summary": "Hundreds of troops have been deployed to a southern border area where the U.S. Coast Guard was fired upon, U.S. officials said.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "Trump kept silent in Brazil’s election. It might have helped his ally.",
+      "url": "https://www.washingtonpost.com/world/2026/10/05/trump-kept-silent-brazils-election-it-might-have-helped-his-ally/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Mon, 05 Oct 2026 22:40:09 +0000",
+      "summary": "A White House adviser said the uncharacteristic reticence was a strategic decision as Flávio Bolsonaro takes the lead heading into the next round.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "U.S. officials seeking details of reported Russian plague death, quarantines",
+      "url": "https://www.washingtonpost.com/politics/2026/10/05/us-officials-seeking-details-reported-russian-plague-death-quarantines/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Mon, 05 Oct 2026 20:40:14 +0000",
+      "summary": "Officials said they need to learn more about the evolving situation before determining the potential threat to the United States.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "Relocation of U.S. bombers in U.K. highlights new risks for military bases",
+      "url": "https://www.washingtonpost.com/world/2026/10/05/relocation-us-bombers-uk-highlights-new-risks-military-bases/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Mon, 05 Oct 2026 19:10:26 +0000",
+      "summary": "Technological advances in warfare have heightened concerns about the vulnerability of air bases and other hard-to-protect military facilities in populated areas.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "Hundreds of French schools shut as students revolt against poor conditions",
+      "url": "https://www.washingtonpost.com/world/2026/10/05/hundreds-french-schools-shut-students-revolt-against-poor-conditions/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Mon, 05 Oct 2026 18:52:19 +0000",
+      "summary": "More than 400 high schools in France were closed or faced disruptions Monday as nationwide protests continued.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "Houthi sites bombed in Yemen; injuries as Saudi airports attacked",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/6/iran-war-live-yemen-forces-reclaim-strategic-port-city-mocha-from-houthis",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-10-06",
+      "summary": "Injuries and damage inflicted after two Saudi airports hit as coalition warplanes pound Houthi positions in Yemen.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/10/2026-10-05T233824Z_1829208458_RC2BXNAQHTRX_RTRMADP_3_IRAN-CRISIS-SAUDI-YEMEN-1791275107.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "UN rights council condemns attacks on civilians in Sudan, calls for truce",
+      "url": "https://www.aljazeera.com/news/2026/10/6/un-rights-council-condemns-attacks-on-civilians-in-sudan-calls-for-truce",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-10-06",
+      "summary": "Resolution demands an immediate ceasefire and extends the mandate of the mission investigating abuses in Sudan.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/10/afp_6ac446fc5b93-1791248124.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Secessionist party wins Quebec election in Canada",
+      "url": "https://www.aljazeera.com/news/2026/10/6/secessionist-parti-quebecois-wins-quebec-election-in-canada",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-10-06",
+      "summary": "Parti Quebecois returns to power, promising a third referendum on Quebec's independence from Canada.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/10/AFP__20261006__D2BT363__v1__HighRes__CanadaPoliticsVote-1791249677.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Ethiopian PM Abiy demands Red Sea access as tensions with neighbours rise",
+      "url": "https://www.aljazeera.com/news/2026/10/5/ethiopias-pm-insists-on-access-to-red-sea-despite-regional-conflict-threat",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-10-05",
+      "summary": "Neighbouring countries say coastal states must govern Red Sea as fighting escalates in northern Ethiopia.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/10/2026-10-05T203347Z_237506659_RC28XNAVC8K2_RTRMADP_3_ETHIOPIA-POLITICS-1791247531.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Police clash with Kosovo protesters over bid to curb Hague war crimes court",
+      "url": "https://www.aljazeera.com/news/2026/10/6/police-clash-with-kosovo-protesters-over-bid-to-curb-hague-war-crimes-court",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-10-06",
+      "summary": "The political dispute over the court has become a factor in negotiations to hold a new presidential election.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/10/2026-10-05T195910Z_874423340_RC26XNAA2MRF_RTRMADP_3_WARCRIMES-KOSOVO-THACI-PROTEST-1791238190.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Jim Bakker, who built 'PTL Club' televangelism empire, has died at 86",
+      "url": "https://www.npr.org/2026/10/06/g-s1-146603/obit-jim-bakker",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Tue, 06 Oct 2026 01:57:34 -0400",
+      "summary": "Jim Bakker, along with his first wife Tammy Faye built an evangelical empire around the hugely successful \"The PTL Club\" TV show, only to lose it all over a sex scandal and financial crimes.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2998x1974+0+0/resize/2998x1974!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F12%2F9a%2F98bae10248a2901609630324c210%2Fap23166671048388.jpg"
+    },
+    {
+      "title": "The iconic Arthur Read made his TV debut 30 years ago",
+      "url": "https://www.npr.org/2026/10/05/g-s1-146052/arthur-read-tv-debut-30-anniversary",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Mon, 05 Oct 2026 14:26:01 -0400",
+      "summary": "The animated series \"Arthur\" premiered on PBS Kids on Oct. 7, 1996.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/501x376+0+0/resize/501x376!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F70%2Ffa%2Fa9f7161142f1a169a39031021f12%2Fscreenshot-387.png"
+    },
+    {
+      "title": "Dennis Hastert, longtime Republican House speaker who went to prison, dies at age 84",
+      "url": "https://www.npr.org/2026/10/05/g-s1-146452/dennis-hastert-republican-house-speaker-dies-obit",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Mon, 05 Oct 2026 10:24:31 -0400",
+      "summary": "ennis Hastert, whose political legacy as Congress' longest-serving Republican House speaker was later fouled by allegations that he had molested high school athletes during his prior career as a teacher and wrestling coach, has died, a coroner said Monday. He was 84.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2724x1744+0+0/resize/2724x1744!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F4e%2F79%2F2c2202e745269dab217ee172104c%2Fap26278491443200.jpg"
+    },
+    {
+      "title": "Drones buzz overhead, troops hunker underground in Ukraine's hellish kill zone",
+      "url": "https://www.npr.org/2026/10/05/nx-s1-5925803/drones-buzz-overhead-troops-hunker-underground-in-ukraines-hellish-kill-zone",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Mon, 05 Oct 2026 08:33:20 -0400",
+      "summary": "The front line in the Russia-Ukraine war stretches more than 700 miles and has barely moved in four years. Yet straddling this line is the kill zone, dominated by constantly evolving drone technology.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6000x4000+0+0/resize/6000x4000!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F5e%2Fb3%2Fac2906f348dbafe598d23a182540%2Fkill-zone-1-ap26256289085734.jpg"
+    },
+    {
+      "title": "FBI arrests a woman accused of spying on Taiwan leader's family for China",
+      "url": "https://www.npr.org/2026/10/05/g-s1-146410/fbi-arrests-a-woman-accused-of-spying-on-taiwan-leaders-family-for-china",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Mon, 05 Oct 2026 07:47:36 -0400",
+      "summary": "The FBI and U.S. prosecutors say Wanying Zhang, also know as Heather, surveilled the Taiwanese president's son and his family.",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "Washington blames UK base incident on a 'foreign actor'",
+      "url": "https://www.chinadaily.com.cn/a/202609/30/WS6abc60d3e4b06d4aa0560ee2.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-09-30",
+      "summary": "US Secretary of State Marco Rubio said the \"hands of a foreign actor\" were involved in an incident in which five men were arrested on suspected explosives and terrorism offenses near a British air base used by US forces.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202609/30/6abc60d2e4b06d4a392d5e5f.png"
+    },
+    {
+      "title": "Chancay Port rides a new trade current",
+      "url": "https://www.chinadaily.com.cn/a/202609/30/WS6abc5eb3e4b06d4aa0560ec1.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-09-30",
+      "summary": "For Santos Javier Gonzales, the deep-water mega port taking shape in his hometown of Chancay, Peru, has become part of his own story — enabling him to build a career without leaving his family behind.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202609/30/6abc5eb3e4b06d4a392d5e01.png"
+    },
+    {
+      "title": "Landmark Chinese garden takes root in England",
+      "url": "https://www.chinadaily.com.cn/a/202609/28/WS6ab9bb13e4b06d4aa0560728.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-09-28",
+      "summary": "SALFORD, England — After nearly eight years in the making, a Chinese garden that authorities describe as the largest of its kind in Europe has opened in Salford, bringing a distinctive Chinese presence to the horticultural landscape of northern England.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202609/28/6ab9bb13e4b06d4a392d345d.png"
+    },
+    {
+      "title": "Ukraine's provocations fuel tensions, Putin says",
+      "url": "https://www.chinadaily.com.cn/a/202609/28/WS6ab9bc5ae4b06d4aa056073a.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-09-28",
+      "summary": "MOSCOW/KYIV — Russian President Vladimir Putin said on Friday that an escalation of tensions would not achieve the outcome sought by Kyiv and could only worsen the situation in Ukraine.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202609/28/6ab9bc5ae4b06d4a392d34c1.png"
+    },
+    {
+      "title": "Japan protests to US over alleged robbery-murder by Marine in Okinawa",
+      "url": "https://www.chinadaily.com.cn/a/202610/04/WS6ac20d5be4b06d4aa056156b.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-10-04",
+      "summary": "TOKYO - A 20-year-old US Marine stationed in Japan's southernmost prefecture of Okinawa was arrested by local police on Sunday on suspicion of robbing and murdering a woman, local media reported.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202610/04/6ac20d5be4b06d4a392d8b41.jpeg"
+    },
+    {
+      "title": "Why are States divided over the mining amendment?",
+      "url": "https://www.thehindu.com/news/national/why-are-states-divided-over-the-mining-amendment/article71547351.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-10-06T03:00:00.000Z",
+      "summary": "Centre-State tensions rise over the Mines and Minerals Amendment Act, redefining fiscal powers and challenging state taxation amid political divides.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/news/national/11ogzp/article71548719.ece/alternates/LANDSCAPE_1200/iStock-2261738209.jpg"
+    },
+    {
+      "title": "Set up 24-hour monitoring cells to prevent sexual offences, Supreme Court tells Delhi Police",
+      "url": "https://www.thehindu.com/news/national/set-up-24-hour-monitoring-cells-to-prevent-sexual-offences-supreme-court-tells-delhi-police/article71547571.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-10-05T11:47:06.000Z",
+      "summary": "The Supreme Court said there was a need to create fear in the minds of goons committing crimes against women, while hearing a suo motu case on Delhi-NCR rapes.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/iaqo3q/article71547086.ece/alternates/LANDSCAPE_1200/6744_19_8_2025_16_9_6_4_18_08_2025_SUPREME_COURT01.JPG"
+    },
+    {
+      "title": "Congress slams BJP for ‘wrecking’ economy, claims foreign investors withdrew ₹4.03 lakh crore in 2026",
+      "url": "https://www.thehindu.com/news/national/congress-slams-bjp-for-wrecking-economy-claims-foreign-investors-withdrew-403-lakh-crore-in-2026/article71548150.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-10-05T16:11:24.000Z",
+      "summary": "Congress blames BJP for outflows, claiming ₹4.03 lakh crore FIIs pulled out and equity exposure hit a 17-year low.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/okt09u/article71548544.ece/alternates/LANDSCAPE_1200/PTI09_09_2026_000155B.jpg"
+    },
+    {
+      "title": "Voting under way for high-stakes bypolls in three States, one U.T. | LIVE",
+      "url": "https://www.thehindu.com/news/national/byelection-bypoll-voting-nandigram-rejinagar-madurantakam-dharapuram-thattanchavady-nagaon-live-updates-october-6-2026/article71549585.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-10-05T23:42:07.000Z",
+      "summary": "Byelection Live: Follow The Hindu's latest updates as voting takes place in 5 Assembly constituencies in West Bengal, Tamil Nadu, and Puducherry, and 1 Lok Sabha constituency in Assam",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/lmgaev/article71550466.ece/alternates/LANDSCAPE_1200/PTI10_06_2026_000071B.jpg"
+    },
+    {
+      "title": "CEC row LIVE updates: INDIA bloc to hold protest march to ECI headquarters against 'vote chori'; security heightened",
+      "url": "https://www.thehindu.com/news/national/cec-row-protest-against-gyanesh-kumar-india-bloc-march-election-commission-sir-issue-live-updates-october-6-2026/article71549790.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-10-06T02:28:19.000Z",
+      "summary": "CEC row LIVE: The Hindu brings the latest updates as Opposition INDIA bloc MPs march from Parliament to the Election Commission headquarters against alleged “vote theft” and the SIR of electoral rolls.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/news/national/nvl8e9/article71550287.ece/alternates/LANDSCAPE_1200/rahul%20gandhi%20priyanka%20gandhi%20cec%20protest.jpeg"
+    },
+    {
+      "title": "BOJ may signal underlying inflation has hit 2% goal, sources say",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOM2EwSzZ0dnlrOEY4dFNVczAzNlBqamI4eUwzWFByN0VVZU9qOFExTGJfLXNCRS1HN0hza0JwdXJuNUNpeExJMk9IMkI5R2gzbktldlBVejF6VWp6aG5DaVdldGdGRVVUTU4zeXBETHZJQVpobGh5RlZxTS0wQWI4WXRvcGNhQmVmdXNpd3RNT2o1aENxMmhEU2FFa25oVHJpSXRoQmR1MXd1WC02ZVQ4S1NlQnA2LWdh?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Tue, 06 Oct 2026 04:28:00 GMT",
+      "summary": "Reuters: BOJ may signal underlying inflation has hit 2% goal, sources say.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "Morning Bid - Spain to France: hold my cerveza",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBRdWpPbExlRFlGenpGdkFJXzE0VXJCT25fSUQ4U3VwY3pXbzNadWF6alI0dVMxMm9sR3VianV5SF9qZWpzZFd6dl93c2g1UnBSbENESVd2MmxWUlBQUnEyaUI4bW40UjYzd1Y4Wjd2Qjd2TW02UGdFRXViSVh0azQ?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Tue, 06 Oct 2026 04:32:00 GMT",
+      "summary": "Reuters: Morning Bid - Spain to France: hold my cerveza.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "Gold inches lower as firmer dollar, higher yields weigh",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNS3Z3SEV1TFdScWdiaHBPbEVUTjFEYWV0WjJSQjRPRkl2LTZsNHJoNzU1RGEyM0V2bE5LYk9KUDUtZ0tNMGFKYWw3NWFoUEdkQU5MaklVVy1lUmNMRlJQOUk3VjFjNmJZWGk1bzZtRkpLVWxmTUMzZ0NadVJsZUs3TWNlY0JrdGNubHpXOWNTRXEyVXM0YkUxWGd2UDQ2dkJi?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Tue, 06 Oct 2026 02:15:00 GMT",
+      "summary": "Reuters: Gold inches lower as firmer dollar, higher yields weigh.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "South Korea says preparing response to force North Korean apology over DMZ blast",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQNnBqSFo2M3NQNVdQc1lVZWtHNmcydm5hTzg5ZHBtZWhWdkxiaDFpRGFsUmVTVVJDeWNReHlZY3ltUkhWZk5FZTRhc3RyWXpnbUlaUldGVFZsMFM5RmkxT3pNX21aNWROcGlLc2tra1REWklvVXVTLWtyZkg2QTRFMndLbVlwX1h5TTFwMUQyWTRtSlBFODlsYlpMWWVvWHJ5TjdfQ1B5cHVBY1BsMGJXcWhQVExqWXpEbWMxbjlQYXM3cG9TV1pJRGxudzY?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Tue, 06 Oct 2026 03:05:00 GMT",
+      "summary": "Reuters: South Korea says preparing response to force North Korean apology over DMZ blast.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "South Korea's Lee says AI appears to have been used in bank hacks",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPWlNMcGlRUHRDdG9PMTZVVHBHWllVblNzOFJqQXZDZDFUQUFkR0R6eGFOUmwzZE1rMEhqc0VUdkY2Z2RBaXlBaHMyTkZqQnBTdGNhUC1JbnlEcmZsQ1pEdE1RODRReXdXcmJQQmxWOURfVGJCNkQwcHRsS2FDZFBpYTRmWEowcjV5ai1uSl9DcXFXMnczZ0xHN19HR21rTE4zVmc?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Tue, 06 Oct 2026 02:13:00 GMT",
+      "summary": "Reuters: South Korea's Lee says AI appears to have been used in bank hacks.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    }
+  ],
+  "markets": [
+    {
+      "id": "sp-500",
+      "label": "S&P 500",
+      "region": "US",
+      "symbol": "^GSPC",
+      "value": 7773.95,
+      "previousClose": 7722.72002,
+      "change": 51.22998,
+      "percentChange": 0.66336703,
+      "direction": "up",
+      "sessionDate": "2026-10-06"
+    },
+    {
+      "id": "nasdaq-composite",
+      "label": "NASDAQ Composite",
+      "region": "US",
+      "symbol": "^IXIC",
+      "value": 27477.31,
+      "previousClose": 27190.86273,
+      "change": 286.44727,
+      "percentChange": 1.0534688,
+      "direction": "up",
+      "sessionDate": "2026-10-06"
+    },
+    {
+      "id": "euronext-100",
+      "label": "Euronext 100 Index",
+      "region": "Europe",
+      "symbol": "^N100",
+      "value": 1892.03,
+      "previousClose": 1876.609956,
+      "change": 15.420044,
+      "percentChange": 0.8217056,
+      "direction": "up",
+      "sessionDate": "2026-10-06"
+    },
+    {
+      "id": "moex",
+      "label": "Public Joint-Stock Company Moscow Exchange MICEX-RTS",
+      "region": "Europe",
+      "symbol": "MOEX.ME",
+      "value": 85.2,
+      "previousClose": 85.31000061,
+      "change": -0.11000061,
+      "percentChange": -0.12894222,
+      "direction": "down",
+      "sessionDate": "2026-10-06"
+    },
+    {
+      "id": "hang-seng",
+      "label": "HANG SENG INDEX",
+      "region": "Asia",
+      "symbol": "^HSI",
+      "value": 24280.56,
+      "previousClose": 24040.3393,
+      "change": 240.2207,
+      "percentChange": 0.99924004,
+      "direction": "up",
+      "sessionDate": "2026-10-06"
+    },
+    {
+      "id": "nikkei-225",
+      "label": "Nikkei 225",
+      "region": "Asia",
+      "symbol": "^N225",
+      "value": 70683.98,
+      "previousClose": 69946.8628,
+      "change": 737.1172,
+      "percentChange": 1.0538245,
+      "direction": "up",
+      "sessionDate": "2026-10-06"
+    },
+    {
+      "id": "sensex",
+      "label": "S&P BSE SENSEX",
+      "region": "India",
+      "symbol": "^BSESN",
+      "value": 72906.38,
+      "previousClose": 72382.46594000001,
+      "change": 523.91406,
+      "percentChange": 0.7238042,
+      "direction": "up",
+      "sessionDate": "2026-10-06"
+    }
+  ],
+  "hackerNews": [
+    {
+      "title": "Beam: Reflection's 501B open-weight model",
+      "url": "https://reflection.ai/blog/introducing-beam",
+      "publishedAt": "2026-10-05T19:16:35.000Z",
+      "summary": "Make intelligence open and accessible to all",
+      "thumbnailUrl": "https://cdn.sanity.io/images/sp40emik/production/771cfe201a3d24d7a340c3372e6a1654ec1a6e42-1800x1013.png"
+    },
+    {
+      "title": "Find the flattest route between any two points in SF",
+      "url": "https://flattensf.com/",
+      "publishedAt": "2026-10-05T21:40:50.000Z",
+      "summary": "The flattest walking or cycling route between any two places in San Francisco, and every route between it and the shortest one.",
+      "thumbnailUrl": "https://www.flattensf.com/preview.jpg"
+    },
+    {
+      "title": "Dust: Pretraining Transformers Without Backpropagation",
+      "url": "https://qlabs.sh/research/dust",
+      "publishedAt": "2026-10-05T21:15:07.000Z",
+      "summary": "Samip Dahal, Bishwas Mandal, Serdar Gülbahar, Akshay Vegesna",
+      "thumbnailUrl": "https://qlabs.sh/research/dust/figures/x-method.gif"
+    },
+    {
+      "title": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates",
+      "url": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
+      "publishedAt": "2026-10-05T21:00:21.000Z",
+      "summary": "We are sharing two candidate magnets for next-generation computer memory, found by a team of Claude Opus 5.5 agents. Both are predicted to have zero net magnetism yet still sort electrons by spin: one a new compound we designed, the other a material first made in 1999. We",
+      "thumbnailUrl": "https://www.vals.ai/blogs/2026-10-04-room-temperature-magnetic-semiconductors/hero.png"
+    },
+    {
+      "title": "Resurrecting iChat Audio and Video Conferencing",
+      "url": "https://blog.pipetogrep.org/2026/09/11/resurrecting-ichat-audio-and-video-conferencing/",
+      "publishedAt": "2026-10-06T03:39:01.000Z",
+      "summary": "Bringing back mid-2000s Video conferencing in Apple iChat",
+      "thumbnailUrl": "https://blog.pipetogrep.org/images/ichatav_screen_marketing.png"
+    },
+    {
+      "title": "Example.com just launched the biggest redesign in decades",
+      "url": "https://www.debugbear.com/blog/example-dot-com-redesign-history",
+      "publishedAt": "2026-10-05T22:55:11.000Z",
+      "summary": "A look at the history of visual changes to example.com.",
+      "thumbnailUrl": "https://www.debugbear.com/dimg/1f8c2ab20c69e5a4a3fb996aebed6b0d.png"
+    },
+    {
+      "title": "Friendship ended with Deno, now Node is my best friend",
+      "url": "https://dbushell.com/2026/10/03/deno-to-node/",
+      "publishedAt": "2026-10-05T22:30:02.000Z",
+      "summary": "The one where I go crawling back.",
+      "thumbnailUrl": "https://dbushell.com/images/articles/2026-10-03-deno-to-node.png"
+    },
+    {
+      "title": "Web Search API",
+      "url": "https://developers.cloudflare.com/changelog/post/2026-10-02-introducing-web-search-api/",
+      "publishedAt": "2026-10-05T10:47:06.000Z",
+      "summary": "Search the web from your AI agents and applications through AI Gateway with Ceramic.ai, Exa, and Linkup.",
+      "thumbnailUrl": "https://developers.cloudflare.com/changelog/post/2026-10-02-introducing-web-search-api/og.png?v=1deaa8fb09156b56"
+    },
+    {
+      "title": "Why Common Lisp is now the best programming language",
+      "url": "https://www.vivienhenz.com/common-lisp",
+      "publishedAt": "2026-10-06T02:51:51.000Z",
+      "summary": "just a diary",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "Global Solar Atlas: summary of solar power potential globally",
+      "url": "https://globalsolaratlas.info/",
+      "publishedAt": "2026-10-05T22:37:58.000Z",
+      "summary": "The Global Solar Atlas provides a summary of solar power potential and solar resources globally. It is provided by the World Bank Group as a free service to governments, developers and the general public, and allows users to quickly obtain data and carry out a simple electricity output calculation for any location covered by the solar resource database.",
+      "thumbnailUrl": null
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "Pheebs",
+      "tagline": "Measure how engineers and teams actually work with AI",
+      "url": "https://www.producthunt.com/products/pheebs",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-10-06T01:36:43-07:00"
+    },
+    {
+      "name": "Ari Helper 7",
+      "tagline": "Private AI assistant, now with photo and film studios",
+      "url": "https://www.producthunt.com/products/ari-helper",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-10-06T01:36:42-07:00"
+    },
+    {
+      "name": "NoteWorthy",
+      "tagline": "Notes supercharged with AI, all on-device",
+      "url": "https://www.producthunt.com/products/noteworthy",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-10-06T01:36:42-07:00"
+    },
+    {
+      "name": "Patchcord",
+      "tagline": "Studio sound for your mic in every Mac meeting with EQ",
+      "url": "https://www.producthunt.com/products/patchcord-2",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-10-06T01:36:42-07:00"
+    },
+    {
+      "name": "MeetNote",
+      "tagline": "AI meeting notes for Google Meet, no bot joins your call",
+      "url": "https://www.producthunt.com/products/meetnote-3",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-10-06T01:36:42-07:00"
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "News and markets",
+      "sentences": [
+        "Global headlines: U.S. says Coast Guard came under fire near the border. Mexico wants evidence. (Hundreds of troops have been deployed to a southern border area where the U.S. Coast Guard was fired upon, U.S. officials said); Trump kept silent in Brazil’s election. It might have helped his ally. (A White House adviser said the uncharacteristic reticence was a strategic decision as Flávio Bolsonaro takes the lead heading into the next round); and U.S. officials seeking details of reported Russian plague death, quarantines (Officials said they need to learn more about the evolving situation before determining the potential threat to the United States).",
+        "Markets leaned higher, with 6 of 7 tracked indexes up; Nikkei 225 up 1.05% was the largest move.",
+        "Benchmarks tracked: S&P 500, NASDAQ Composite, Euronext 100 Index, and Public Joint-Stock Company Moscow Exchange MICEX-RTS plus 3 more indexes."
+      ]
+    },
+    {
+      "title": "Hacker News and Product Hunt",
+      "sentences": [
+        "Hacker News: Beam: Reflection's 501B open-weight model (Make intelligence open and accessible to all); Find the flattest route between any two points in SF (The flattest walking or cycling route between any two places in San Francisco, and every route between it and the shortest one); and Dust: Pretraining Transformers Without Backpropagation (Samip Dahal, Bishwas Mandal, Serdar Gülbahar, Akshay Vegesna).",
+        "Product Hunt features Pheebs (Measure how engineers and teams actually work with AI), Ari Helper 7 (Private AI assistant, now with photo and film studios), and NoteWorthy (Notes supercharged with AI, all on-device)."
+      ]
+    }
+  ],
+  "sourceNotes": {
+    "generatedAt": "2026-10-06T08:37:42.486Z",
+    "timeZone": "Asia/Kolkata",
+    "successfulSources": [
+      "Washington Post",
+      "Al Jazeera",
+      "NPR",
+      "China Daily",
+      "The Hindu",
+      "Reuters"
+    ],
+    "marketSessionLabel": "Latest market sessions as of 2026-10-06",
+    "warnings": []
+  }
+}
