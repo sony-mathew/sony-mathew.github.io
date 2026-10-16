@@ -1,0 +1,458 @@
+{
+  "headlines": [
+    {
+      "title": "Trump says ground troops unlikely in Iran; Saudi downs drone",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/16/iran-war-live-saudi-blasts-houthi-war-crimes-us-warns-on-saudi-airports",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-10-16",
+      "summary": "President Trump says deployment of ground troops to Iran unlikely as Saudi Arabia downs drone in its Eastern Province.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/10/ap_6ad198635e2f9-1792120931.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Myanmar’s coup leader-turned-president wins back neighbours despite war",
+      "url": "https://www.aljazeera.com/news/2026/10/16/as-war-rages-myanmars-coup-leader-turned-president-wins-back-neighbours",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-10-16",
+      "summary": "ASEAN leaders are embracing Min Aung Hlaing, but critics warn it emboldens a military still bombing civilians.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/10/2026-10-08T020751Z_22596828_RC2OYNAMA7HM_RTRMADP_3_MALAYSIA-MYANMAR-1792058776.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Poll shows Bolsonaro with slight lead over Lula ahead of Brazilian run-off",
+      "url": "https://www.aljazeera.com/news/2026/10/15/poll-shows-bolsonaro-with-slight-lead-over-lula-ahead-of-brazilian-run-off",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-10-15",
+      "summary": "Poll shows right-wing candidate with two percent advantage over Lula going into second round of voting on October 25.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/10/reuters_6ad123a0-1792091040.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "China tells Israel to stop ‘forced establishment’ of West Bank settlements",
+      "url": "https://www.aljazeera.com/news/2026/10/16/china-tells-israel-to-stop-forced-establishment-of-west-bank-settlements",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-10-16",
+      "summary": "'The Palestinian question is the greatest historical injustice of this century,' China's foreign minister said.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/09/getty_6aaa7e7bce-1789558395.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Argentine students protest on campus over Milei’s austerity",
+      "url": "https://www.aljazeera.com/news/2026/10/16/argentine-students-protest-on-campus-over-mileis-austerity",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-10-16",
+      "summary": "Judge fines the government for failing to fund universities as protests over Milei's cuts turn violent.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/10/DDD9A9EB-2406-4A43-857E-28D4E8ED7B5B_1_102_o-1792110589.jpeg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "A rare family of barn owls moved into Manhattan's Upper West Side. New Yorkers are captivated",
+      "url": "https://www.npr.org/2026/10/16/g-s1-148366/owl-family-manhattan",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Fri, 16 Oct 2026 02:27:30 -0400",
+      "summary": "Manhattan's Upper West Side has been reveling in the company of its latest celebrities: A family of barn owls nested in a water tower atop a building near Central Park.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3851x2567+0+0/resize/3851x2567!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F6a%2F71%2Ff7175ee9427ba61a914c9eb16fb9%2Fap26288102891335.jpg"
+    },
+    {
+      "title": "Brewers sweep the Dodgers to reach the World Series for the first time since 1982",
+      "url": "https://www.npr.org/2026/10/16/nx-s1-6004787/brewers-sweep-dodgers-mlb",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Fri, 16 Oct 2026 02:12:04 -0400",
+      "summary": "Propelled by a lockdown bullpen and repeated comebacks, the Brewers swept the two-time defending champion LA Dodgers out of the playoffs Thursday in Game 4 of the National League Championship Series.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/7609x5073+0+0/resize/7609x5073!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F40%2F7f%2F762fbc144028894ad9a1e5113b85%2Fap26289134478142.jpg"
+    },
+    {
+      "title": "Hit a midlife wall? This test identifies your strengths and what matters to you",
+      "url": "https://www.npr.org/2026/10/15/nx-s1-5996678/midlife-wall-reset-test-guide",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Thu, 15 Oct 2026 16:50:53 -0400",
+      "summary": "As part of her new podcast and newsletter Your Turn with Allison Aubrey, NPR's Allison Aubrey went in search of tools to help navigate midlife — starting with this survey to rank one's character strengths.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8000x5500+0+0/resize/8000x5500!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F7f%2Ff7%2F0ddb92474dcfaf1e888d3bc33c4e%2Fgettyimages-2157078711.jpg"
+    },
+    {
+      "title": "Suspicious mailings to election officials, congressional offices under investigation",
+      "url": "https://www.npr.org/2026/10/15/nx-s1-6003857/suspicious-mailings-election-congressional-offices",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Thu, 15 Oct 2026 15:54:15 -0400",
+      "summary": "The FBI and U.S. Postal Inspection Service are looking into the mailings, some of which included an unidentified powdery white substance.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8003x5336+0+0/resize/8003x5336!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F08%2F37%2F7c03adfa4e89b7205dea8dcf1056%2Fgettyimages-2295968526.jpg"
+    },
+    {
+      "title": "U.S. historic preservation law faces the most serious threat in its 60-year history",
+      "url": "https://www.npr.org/2026/10/15/nx-s1-6001504/section-106-historic-preservation-act-threats-anniversary",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Thu, 15 Oct 2026 14:38:05 -0400",
+      "summary": "Congress and a federal agency are threatening to weaken the country's historic preservation law, fueling a backlash that critics say is as fiery as the one that led to the law's creation 60 years ago.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6249x4687+0+0/resize/6249x4687!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F73%2F41%2Fea2324b44f9d8e5609e0966bc460%2F1.jpg"
+    },
+    {
+      "title": "China, Togo to deepen cooperation",
+      "url": "https://www.chinadaily.com.cn/a/202610/16/WS6ad15cd6e4b06d4aa056311a.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-10-16",
+      "summary": "Premier Li Qiang stressed on Thursday that China stands ready to deepen cooperation with Togo in various fields to better serve the modernization drive of both countries, as the two countries issued a joint statement on building a China-Togo community with a shared future in the new era.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202610/16/6ad15cd6e4b06d4a392e31de.jpeg"
+    },
+    {
+      "title": "Chinese desert fighter honored by FAO",
+      "url": "https://www.chinadaily.com.cn/a/202610/15/WS6ad0f296e4b06d4aa05630c6.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-10-15",
+      "summary": "Three Chinese women, including Yin Yuzhen, who has devoted more than four decades to combating desertification in northern China, were among 100 women heroes in agrifood systems and rural development honored by the Food and Agriculture Organization of the United Nations in Rome, Italy, on Thursday.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202610/16/6ad16a37e4b06d4a392e3295.jpeg"
+    },
+    {
+      "title": "Brands need more than quality goods to go global, forum says",
+      "url": "https://www.chinadaily.com.cn/a/202610/16/WS6ad0ffa4e4b06d4aa05630ca.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-10-16",
+      "summary": "Chinese companies are increasingly establishing themselves as global brands, but their long-term international success will depend not only on technological innovation and competitive products, but also on their ability to engage consumers, forge emotional connections, and adapt to local markets, business leaders and experts said at a forum in London on Wednesday.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202610/16/6ad0ffa4e4b06d4a392e309a.jpeg"
+    },
+    {
+      "title": "3 children, 1 adult killed in US school shooting: media",
+      "url": "https://www.chinadaily.com.cn/a/202610/16/WS6ad15e4ce4b06d4aa0563122.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-10-16",
+      "summary": "SAN FRANCISCO -- At least three children and one adult were killed Thursday in a shooting at Silver Rail Elementary School in Bend, US state of Oregon, CBS News reported, citing law enforcement sources.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202610/16/6ad16c69e4b06d4a392e32f5.jpeg"
+    },
+    {
+      "title": "Moderating shift in US views still underway",
+      "url": "https://www.chinadaily.com.cn/a/202610/15/WS6ad0f1e4e4b06d4aa05630c2.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-10-15",
+      "summary": "A shift in public sentiment in the United States toward China, particularly among younger people, could open more room for a less confrontational approach to bilateral relations, experts said, while cautioning that US public opinion is still evolving and its ultimate impact on policy remains to be seen.",
+      "thumbnailUrl": "https://www.chinadaily.com.cn/image_e/2020/logo21.jpg"
+    },
+    {
+      "title": "PM Modi to visit to Canada on December 11 and 12",
+      "url": "https://www.thehindu.com/news/national/pm-modi-to-visit-to-canada-on-december-11-and-12/article71591003.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-10-16T03:04:00.000Z",
+      "summary": "Prime Minister Modi will visit Canada December 11-12, 2026, ahead of a U.S. G20 trip, with broader India-Canada ties and trade talks highlighted.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/l1izvs/article71591009.ece/alternates/LANDSCAPE_1200/8th_mukunth_GBPG3BFMCMGI.3.jpg.jpg"
+    },
+    {
+      "title": "Escalation in hostilities in West Asia deeply worrying: India tells UNSC",
+      "url": "https://www.thehindu.com/news/national/escalation-in-hostilities-in-west-asia-deeply-worrying-india-tells-unsc/article71590978.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-10-16T02:43:26.000Z",
+      "summary": "India calls for immediate de-escalation, dialogue, and protection of seafarers as West Asia tensions escalate and threaten regional stability.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/k29wv3/article71590982.ece/alternates/LANDSCAPE_1200/20260624157L.jpg"
+    },
+    {
+      "title": "No SoPs shared regarding auto-generated Form 7s with State Electoral Officers",
+      "url": "https://www.thehindu.com/news/national/no-sops-shared-regarding-auto-generated-form-7s-with-state-electoral-officers/article71588755.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-10-15T17:29:45.000Z",
+      "summary": "Auto-generated Form 7 deletions by EROs lack formal SOPs, raising concerns over unshared procedures amid mass electoral roll edits.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/o8c80i/article71589771.ece/alternates/LANDSCAPE_1200/DSC_1622.JPG"
+    },
+    {
+      "title": "Fresh talks between MHA, Ladakh groups remain ‘inconclusive’; next round in Delhi on October 22",
+      "url": "https://www.thehindu.com/news/national/ladakh/fresh-talks-between-mha-ladakh-groups-remain-inconclusive-next-round-in-delhi-on-october-22/article71589227.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-10-15T16:45:02.000Z",
+      "summary": "In Ladakh, fresh MHA talks with LAB and KDA remain inconclusive, with drafts exchanged ahead of October 22 Delhi talks.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/mgijag/article71589658.ece/alternates/LANDSCAPE_1200/TH09-Vijiata-MHGAAGGRUFG.3.jpg.jpg"
+    },
+    {
+      "title": "CJP Tiranga march LIVE | Delhi Police allows flag-waving by select group, urges public to stay away",
+      "url": "https://www.thehindu.com/news/national/cjp-delhi-tiranga-march-oct-16-2026-live-updates/article71590925.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-10-16T02:00:32.000Z",
+      "summary": "CJP Delhi Tiranga March Oct 16 updates: Catch all live updates from the flag-march",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/xu77nh/article71590929.ece/alternates/LANDSCAPE_1200/STUDENT%20PROTEST%20TIRANGA%20MARCH%20DELHI%20CEC%2023.JPG"
+    },
+    {
+      "title": "EXCLUSIVE: US holds more secret talks with Myanmar's military-backed rulers in Tokyo, sources say",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPUWpMVGJHdmxrQnR6QTZzWnBsTEk1VldyRmdLdmloMFBfYnNNZTg2YmxIMm02OXlTWTRsNkkxUDRONmJoLXc1bHMxcnloRS10dDJwdDg2SmMyN04xRTdmU1JUYzRBa2ZTNmI3aDlWc08zMTRGbnh0NWMwbmdYeElFNEtFdUxuUmxGMGNORVFfZmNGazNlaTFMa0FzcHJ4S01WMWZEQ3F6Rk1GeUJLVFBFNjdHSXJOdmprZURzYzQxTG11NTIzdFFXN1h0cEM?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Fri, 16 Oct 2026 04:35:00 GMT",
+      "summary": "Reuters: EXCLUSIVE: US holds more secret talks with Myanmar's military-backed rulers in Tokyo, sources say.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "Most Asian stocks rise as calm returns after CoreWeave shock; Indonesia faces market downgrade",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPMUpLRUNwWEpRNVpNVWJPOWQyQXdKRjkzdTU5RjFiOUxpUFZGU1ZBa1VaS3ctN0xlc0lSMkptbUVMRlprcFFtZ3B6Z2ZFTG5XX2FBUHBoSk4xRTdiQm1ucERORXE4ZzNFZ09ySlpvUDlzb0tGUjFQZ3c0UmotdEstMEZCUQ?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Fri, 16 Oct 2026 02:52:00 GMT",
+      "summary": "Reuters: Most Asian stocks rise as calm returns after CoreWeave shock; Indonesia faces market downgrade.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "Indonesia stocks sink most since 1998 after MSCI flags 'standalone' downgrade",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPTGZDclBEV0w3ZFJ3bE8tckwwTE1YTXBXTG1GdGNfN2Vkb1BsaXFoZVo1QUF4YUhzanBOM05HNmR6X1gyalBGR05HQk5NM1VhY0VGbUhqb0dIN2txQklscWtMaVd3MVE3QTdISTRVbDZXdEpXa25EUHpZejdrZ1ozdFlOOTBBT2VfT3VFcmh5UmpjRWFoelZTUEZKOTl5UEhrc1dpWVQ3ZUpMd1NmVE8ybA?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Fri, 16 Oct 2026 02:40:00 GMT",
+      "summary": "Reuters: Indonesia stocks sink most since 1998 after MSCI flags 'standalone' downgrade.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "Philippines hits back at Chinese envoy over 'thinly veiled threat' of force",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOc2tlX3dZcElfRjZUcE1UaXAyWEZ5T2k5R1lXeHNnVUU4TUxlNDNJckdzTnFVRk9nMmc2SVk0UFdTdkItQ29OZ25sNDhzR1VkcFNmTldhVWJadXVnMnhicmJOU2xCaGhVU3VjbFFxd3M3YTJXTkt5ZF84UGFVaW1NYjdpMzNjSFBBTm5kUWtlUllVQTZKMmd6bTJ5cEZUT2VBLVpFTE5qUVRXMFVpZHFaV1RwZnpFZw?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Fri, 16 Oct 2026 03:14:00 GMT",
+      "summary": "Reuters: Philippines hits back at Chinese envoy over 'thinly veiled threat' of force.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "Trump says he is talking to Russia and China about denuclearization",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUW1idXlSVm1fUVQtdFk1T0pYTU8tcEx2YTBiQnQ4M0ZmeDFDeGpXUUpqMEZRbC0zT0g4dkoySTlXM05fbkNRZE5RbzFZcEktTHpBYlJxcklTaHpkRHgzRnAyakp4cGVIQjRITGtWZG1XZTlNdF9LcmlVRjJIaDQweHRxR0NUQS1jeUYtc0NsWWlEMTNTcEd3dUhFZjZMYnhWbU9CZVNKWS1TTjBz?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Fri, 16 Oct 2026 01:04:00 GMT",
+      "summary": "Reuters: Trump says he is talking to Russia and China about denuclearization.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    }
+  ],
+  "markets": [
+    {
+      "id": "sp-500",
+      "label": "S&P 500",
+      "region": "US",
+      "symbol": "^GSPC",
+      "value": 7744.06,
+      "previousClose": 7718.939883,
+      "change": 25.120117,
+      "percentChange": 0.3254348,
+      "direction": "up",
+      "sessionDate": "2026-10-16"
+    },
+    {
+      "id": "nasdaq-composite",
+      "label": "NASDAQ Composite",
+      "region": "US",
+      "symbol": "^IXIC",
+      "value": 26713.03,
+      "previousClose": 26692.87375,
+      "change": 20.15625,
+      "percentChange": 0.07551174,
+      "direction": "up",
+      "sessionDate": "2026-10-16"
+    },
+    {
+      "id": "euronext-100",
+      "label": "Euronext 100 Index",
+      "region": "Europe",
+      "symbol": "^N100",
+      "value": 1862.72,
+      "previousClose": 1867.5000293,
+      "change": -4.7800293,
+      "percentChange": -0.25595874,
+      "direction": "down",
+      "sessionDate": "2026-10-16"
+    },
+    {
+      "id": "moex",
+      "label": "Public Joint-Stock Company Moscow Exchange MICEX-RTS",
+      "region": "Europe",
+      "symbol": "MOEX.ME",
+      "value": 85.2,
+      "previousClose": 85.31000061,
+      "change": -0.11000061,
+      "percentChange": -0.12894222,
+      "direction": "down",
+      "sessionDate": "2026-10-16"
+    },
+    {
+      "id": "hang-seng",
+      "label": "HANG SENG INDEX",
+      "region": "Asia",
+      "symbol": "^HSI",
+      "value": 24155.24,
+      "previousClose": 24062.72047,
+      "change": 92.51953,
+      "percentChange": 0.38448682,
+      "direction": "up",
+      "sessionDate": "2026-10-16"
+    },
+    {
+      "id": "nikkei-225",
+      "label": "Nikkei 225",
+      "region": "Asia",
+      "symbol": "^N225",
+      "value": 65349.89,
+      "previousClose": 64425.948599999996,
+      "change": 923.9414,
+      "percentChange": 1.4341137,
+      "direction": "up",
+      "sessionDate": "2026-10-16"
+    },
+    {
+      "id": "sensex",
+      "label": "S&P BSE SENSEX",
+      "region": "India",
+      "symbol": "^BSESN",
+      "value": 74658.22,
+      "previousClose": 74315.61062,
+      "change": 342.60938,
+      "percentChange": 0.4610159,
+      "direction": "up",
+      "sessionDate": "2026-10-16"
+    }
+  ],
+  "hackerNews": [
+    {
+      "title": "Muse Spark Open",
+      "url": "https://research.meta.ai/blog/muse-spark-open",
+      "publishedAt": "2026-10-15T17:47:39.000Z",
+      "summary": "Muse Spark Open is the most capable US open-weight model to date, and brings leading agentic capabilities to your desktop on Apple M5 Ultra Mac Studios.",
+      "thumbnailUrl": "https://research.meta.ai/articles/muse-spark-open/social/muse-spark-1-2-open-weights-social-v2.webp"
+    },
+    {
+      "title": "Meta’s new commercial terms will allow the scraping of news sites: experts",
+      "url": "https://www.niemanlab.org/2026/10/metas-new-commercial-terms-will-allow-the-scraping-of-news-sites-legal-experts-say/",
+      "publishedAt": "2026-10-15T23:37:42.000Z",
+      "summary": "niemanlab.org: Meta’s new commercial terms will allow the scraping of news sites: experts."
+    },
+    {
+      "title": "RPKI now protects 70% of internet routes",
+      "url": "https://ipinfo.io/blog/rpki-protects-70-internet-routes",
+      "publishedAt": "2026-10-16T00:52:35.000Z",
+      "summary": "RPKI now protects 70% of Internet routes. See what drove the 2026 jump, how well it stops invalid routes, and where gaps remain.",
+      "thumbnailUrl": "https://storage.ghost.io/c/b1/57/b157bf7f-0fe2-447f-a945-12d7951755b3/content/images/2026/10/ipinfo-rpki-social-share-2400x1256-1.png"
+    },
+    {
+      "title": "Neural networks are clean",
+      "url": "https://already-clean.goodfire.com/",
+      "publishedAt": "2026-10-15T16:04:01.000Z",
+      "summary": "A working hypothesis about neurons, generalization, and the ecology of circuits.",
+      "thumbnailUrl": "https://already-clean.goodfire.com/assets/social/city-and-knot-20261015.png"
+    },
+    {
+      "title": "What I self-host",
+      "url": "https://viceconsole.fyi/blog/2026/10/10/what-i-self-host/",
+      "publishedAt": "2026-10-15T20:23:25.000Z",
+      "summary": "viceconsole.fyi: What I self-host."
+    },
+    {
+      "title": "Any window from your Mac, on your iPhone and iPad",
+      "url": "https://github.com/Saffsanity/sill",
+      "publishedAt": "2026-10-16T01:43:17.000Z",
+      "summary": "Any window from your Mac, live on your iPhone or iPad. Touch, Apple Pencil, trackpad and keys. Free, open source, no servers. - Saffsanity/sill",
+      "thumbnailUrl": "https://repository-images.githubusercontent.com/1381093165/b456f715-a301-4b82-a109-a5c6dfe34815"
+    },
+    {
+      "title": "New Withings Users Must Pay $99/Year for Apple Health Syncing",
+      "url": "https://support.withings.com/hc/en-us/community/posts/51887047154577-Unacceptable-Apple-Health-Sync-is-now-behind-a-99-year-paywall-for-new-accounts",
+      "publishedAt": "2026-10-15T19:55:49.000Z",
+      "summary": "support.withings.com: New Withings Users Must Pay $99/Year for Apple Health Syncing."
+    },
+    {
+      "title": "Wayland desktop for Linux with skeuomorphic design",
+      "url": "https://github.com/fyzugx/DEsk",
+      "publishedAt": "2026-10-15T13:23:44.000Z",
+      "summary": "Contribute to fyzugx/DEsk development by creating an account on GitHub.",
+      "thumbnailUrl": "https://opengraph.githubassets.com/4a1d59f6c9672ee2a9a3d312514a9a7a9110ff48eb03507d9b1267e79506db3d/fyzugx/DEsk"
+    },
+    {
+      "title": "Jev meets the Trolley Problem",
+      "url": "https://zachlandes.com/trolley-problem/",
+      "publishedAt": "2026-10-15T16:24:52.000Z",
+      "summary": "I asked Jev and 13 other decision models the Trolley Problem.",
+      "thumbnailUrl": "https://zachlandes.com/assets/og/trolley-problem.jpg"
+    },
+    {
+      "title": "BIPM decides to stop adding leap seconds to UTC",
+      "url": "https://www.bipm.org/en/cgpm-2026/resolution-5",
+      "publishedAt": "2026-10-15T16:11:36.000Z",
+      "summary": "Working together to promote and advance the global comparability of measurements",
+      "thumbnailUrl": "https://www.bipm.org/o/bipm-theme/images/logo.png"
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "Afterparty",
+      "tagline": "Automated actions for meeting deliverables",
+      "url": "https://www.producthunt.com/products/afterparty",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-10-15T23:05:35-07:00"
+    },
+    {
+      "name": "Apple HomeView",
+      "tagline": "A new way to stay connected, and manage the home",
+      "url": "https://www.producthunt.com/products/apple",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-10-15T23:45:56-07:00"
+    },
+    {
+      "name": "Superdraft",
+      "tagline": "Automatically identify opportunities to email your customers",
+      "url": "https://www.producthunt.com/products/superdraft",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-10-15T23:03:30-07:00"
+    },
+    {
+      "name": "Actually Asked",
+      "tagline": "A self-improving branded AI FAQ page",
+      "url": "https://www.producthunt.com/products/actually-asked",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-10-15T23:37:23-07:00"
+    },
+    {
+      "name": "Dreamscale Labs",
+      "tagline": "Run the best robot AI models over the cloud",
+      "url": "https://www.producthunt.com/products/dreamscale-labs",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-10-15T23:03:30-07:00"
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "News and markets",
+      "sentences": [
+        "Global headlines: Trump says ground troops unlikely in Iran; Saudi downs drone (President Trump says deployment of ground troops to Iran unlikely as Saudi Arabia downs drone in its Eastern Province); Myanmar’s coup leader-turned-president wins back neighbours despite war (ASEAN leaders are embracing Min Aung Hlaing, but critics warn it emboldens a military still bombing civilians); and Poll shows Bolsonaro with slight lead over Lula ahead of Brazilian run-off (Poll shows right-wing candidate with two percent advantage over Lula going into second round of voting on October 25).",
+        "Markets leaned higher, with 5 of 7 tracked indexes up; Nikkei 225 up 1.43% was the largest move.",
+        "Benchmarks tracked: S&P 500, NASDAQ Composite, Euronext 100 Index, and Public Joint-Stock Company Moscow Exchange MICEX-RTS plus 3 more indexes."
+      ]
+    },
+    {
+      "title": "Hacker News and Product Hunt",
+      "sentences": [
+        "Hacker News: Muse Spark Open (Muse Spark Open is the most capable US open-weight model to date, and brings leading agentic capabilities to your desktop on Apple M5...); Meta’s new commercial terms will allow the scraping of news sites: experts (niemanlab.org: Meta’s new commercial terms will allow the scraping of news sites: experts); and RPKI now protects 70% of internet routes (RPKI now protects 70% of Internet routes. See what drove the 2026 jump, how well it stops invalid routes, and where gaps remain).",
+        "Product Hunt features Afterparty (Automated actions for meeting deliverables), Apple HomeView (A new way to stay connected, and manage the home), and Superdraft (Automatically identify opportunities to email your customers)."
+      ]
+    }
+  ],
+  "sourceNotes": {
+    "generatedAt": "2026-10-16T06:47:12.847Z",
+    "timeZone": "Asia/Kolkata",
+    "successfulSources": [
+      "Al Jazeera",
+      "NPR",
+      "China Daily",
+      "The Hindu",
+      "Reuters"
+    ],
+    "marketSessionLabel": "Latest market sessions as of 2026-10-16",
+    "warnings": [
+      "Washington Post: HTTP 502 for https://feeds.washingtonpost.com/rss/world"
+    ]
+  }
+}
