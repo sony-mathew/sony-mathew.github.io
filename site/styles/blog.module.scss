@@ -1,40 +1,19 @@
 .archiveHeader {
-  position: relative;
-  overflow: hidden;
-  margin: 0 0 2.75rem;
-  padding: 0.4rem 0 1.75rem;
-  border-bottom: 1px solid var(--light-gray-color);
-}
-
-.archiveHeader::after {
-  position: absolute;
-  bottom: -1px;
-  left: 0;
-  width: min(11rem, 38%);
-  height: 3px;
-  border-radius: 999px;
-  content: "";
-  background: var(--brand-color);
+  margin: 0 0 2.5rem;
+  padding: 0 0 1.5rem;
+  border-bottom: 1px solid var(--border-color);
 }
 
 .eyebrow {
   display: inline-flex;
   align-items: center;
-  gap: 0.55rem;
-  color: var(--secondary-text-color);
-  font-size: 0.72rem;
+  gap: 0.5rem;
+  color: var(--brand-color);
+  font-family: var(--font-body);
+  font-size: 0.75rem;
   font-weight: 700;
-  letter-spacing: 0.13em;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
-}
-
-.eyebrow::before {
-  width: 0.45rem;
-  height: 0.45rem;
-  border-radius: 999px;
-  content: "";
-  background: var(--brand-color);
-  box-shadow: 0 0 0 0.25rem rgba(255, 87, 47, 0.12);
 }
 
 .titleRow {
@@ -45,49 +24,32 @@
 }
 
 .title {
-  margin: 0.6rem 0 0;
-  color: var(--darker-gray-color);
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: clamp(3.2rem, 8vw, 5.5rem);
-  font-weight: 700;
-  letter-spacing: -0.065em;
-  line-height: 0.95;
-}
-
-.title span {
-  color: var(--brand-color);
+  margin: 0.5rem 0 0;
+  color: var(--heading-color);
+  font-family: var(--font-display);
+  font-size: clamp(2.25rem, 5vw, 3.5rem);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
 }
 
 .postCount {
-  flex: 0 0 auto;
-  margin-bottom: 0.35rem;
-  padding: 0.45rem 0.7rem;
-  border: 1px solid var(--light-gray-color);
-  border-radius: 999px;
-  background: var(--lighter-gray-color);
+  display: inline-flex;
+  align-items: center;
+  padding: 0.35rem 0.65rem;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  background: var(--bg-subtle);
   color: var(--secondary-text-color);
-  font-size: 0.76rem;
-  font-weight: 650;
-  letter-spacing: 0.01em;
-  white-space: nowrap;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 600;
 }
 
 @media (max-width: 520px) {
-  .archiveHeader {
-    margin-bottom: 2rem;
-    padding-top: 0.15rem;
-  }
-
   .titleRow {
-    display: block;
-  }
-
-  .title {
-    font-size: clamp(3rem, 17vw, 4.3rem);
-  }
-
-  .postCount {
-    display: inline-flex;
-    margin-top: 1.15rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
   }
 }

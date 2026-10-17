@@ -27,6 +27,12 @@ class MyDocument extends Document {
               })();`,
             }}
           />
+          <link rel="preconnect" href="https://fonts.googleapis.com" />
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:ital,wght@0,400;0,500;1,400&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap"
+            rel="stylesheet"
+          />
           <link rel="icon" href="/favicon.ico" />
           <link href="/styles/custom.css" rel="stylesheet" />
           <link

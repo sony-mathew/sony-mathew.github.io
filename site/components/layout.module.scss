@@ -1,37 +1,37 @@
 .container,
 .headerContainer,
 .footerContainer {
-  max-width: 1088px;
-  padding: 0 1rem;
-}
-
-.container {
-  margin: 1rem auto 1rem;
+  max-width: 1080px;
+  padding: 0 1.25rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .headerContainer {
-  margin: 1.25rem auto 3rem;
+  margin-top: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.container {
+  min-height: calc(100vh - 240px);
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 
 .footerContainer {
-  margin: 3rem auto 1.25rem;
-}
-
-.backToHome {
-  margin: 3rem 0 0;
-}
-
-.icon {
-  width: 1.125rem;
-  height: 1.125rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
 }
 
 @media (max-width: 760px) {
-  .headerContainer {
-    margin: 0.75rem auto 2rem;
+  .container,
+  .headerContainer,
+  .footerContainer {
+    padding: 0 1rem;
   }
 
-  .footerContainer {
-    margin: 2rem auto 0.75rem;
+  .headerContainer {
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
   }
 }
