@@ -1,0 +1,460 @@
+{
+  "headlines": [
+    {
+      "title": "Iran to hold security talks with Saudi Arabia, Turkiye and Pakistan",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/26/iran-war-live-trump-rules-out-strikes-today-israeli-forces-raid-hebron",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-10-26",
+      "summary": "Iran's security chief to meet defence officials from the Mecca Defence Alliance in Tehran as fighting rages in Yemen.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/10/AP26294590512305-1792993048.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Jordan arrests three suspects in deadly church attack",
+      "url": "https://www.aljazeera.com/news/2026/10/26/jordan-arrests-three-suspects-in-deadly-church-attack",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-10-26",
+      "summary": "Suspects refuse to surrender and attack security forces, who return fire, wound and arrest them, authorities say.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/10/ap_6adeedf700d45-1792994807.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "China’s political elite gather for talks on Communist Party discipline",
+      "url": "https://www.aljazeera.com/news/2026/10/26/chinas-political-elite-gather-for-talks-on-communist-party-discipline",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-10-26",
+      "summary": "The four-day meeting is being watched closely for clues as to the country's direction and future leadership.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/10/2026-09-30T031457Z_497103776_RC2DTNAHPEY5_RTRMADP_3_CHINA-ANNIVERSARY-1792987682.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "World reacts to Lula’s victory in Brazil’s presidential election",
+      "url": "https://www.aljazeera.com/news/2026/10/26/world-reacts-to-lulas-victory-in-brazilian-presidential-race",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-10-26",
+      "summary": "International leaders and politicians congratulate the Brazilian president on his re-election.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/10/AP26299155828378-1792993297.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Israel’s election: Five key things to know",
+      "url": "https://www.aljazeera.com/news/2026/10/26/israels-election-five-key-things-to-know",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-10-26",
+      "summary": "Vote comes as Israel is embroiled in multiple wars, faces international criticism and grapples with domestic divisions.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/10/epa_6ac7339d5de8-1791439773.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Brazil's left-wing President Lula elected for fourth term",
+      "url": "https://www.npr.org/2026/10/25/nx-s1-6016299/brazil-lula-bolsonaro-election",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Sun, 25 Oct 2026 20:35:00 -0400",
+      "summary": "Brazil's 80-year-old left-wing leader President Lula defeats Flávio Bolsonaro in a bitterly contested runoff.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/7690x5127+0+0/resize/7690x5127!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F6d%2F46%2F3b8586734e2997734a0ed801605d%2Fap26299000355395.jpg"
+    },
+    {
+      "title": "U.S. measles cases more than double what they were last year as outbreak spreads",
+      "url": "https://www.npr.org/2026/10/25/nx-s1-6016205/measles-outbreak-pennsylvania",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Sun, 25 Oct 2026 16:35:35 -0400",
+      "summary": "Pennsylvania is the worst hit state, with at least 1,338 cases of measles confirmed in 44 counties so far this year, according to the Pennsylvania Department of Health.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6000x4000+0+0/resize/6000x4000!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F8a%2Fbf%2F2699c46147fa95cba58e55610dd4%2Fap26293778686476.jpg"
+    },
+    {
+      "title": "Blanche defends DOJ lawsuit blocking Alaska Senate results if Republican loses",
+      "url": "https://www.npr.org/2026/10/25/nx-s1-6016212/blanche-defends-doj-lawsuit-blocking-alaska-senate-results-if-republican-loses",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Sun, 25 Oct 2026 13:50:35 -0400",
+      "summary": "Attorney General Todd Blanche defended the Justice Department's suit over Alaska's Senate race in an interview on CNN.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4247x2832+0+0/resize/4247x2832!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fce%2F4f%2Ff29bb039483ea9e51572e8f660d8%2Fap26294709681244.jpg"
+    },
+    {
+      "title": "Venezuela's opposition leader María Corina Machado returns after months in exile",
+      "url": "https://www.npr.org/2026/10/25/nx-s1-6016222/venezuela-maria-corina-machado-leader-returns-exile",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Sun, 25 Oct 2026 12:18:41 -0400",
+      "summary": "Machado announced her arrival on social media, writing \"I am here. With you.\"",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3444x2296+0+0/resize/3444x2296!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F81%2F38%2Ff836682f46fe8096fba08f6afe40%2Fap26298690326838.jpg"
+    },
+    {
+      "title": "Israelis have changed. Will they change their leadership?",
+      "url": "https://www.npr.org/2026/10/25/g-s1-149563/israel-election-war-netanyahu",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Sun, 25 Oct 2026 12:00:00 -0400",
+      "summary": "Israel is holding a general election this week after years of war. For many Israelis, shaken by the Oct. 7, 2023, attacks and years of war, it is the most consequential in decades.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5007x3338+0+0/resize/5007x3338!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F69%2Ffa%2F7b23b0984f658a11dcb117c174a6%2Fgettyimages-2300594386.jpg"
+    },
+    {
+      "title": "Europe on high alert after weekend riots",
+      "url": "https://www.chinadaily.com.cn/a/202610/26/WS6ade6656e4b06d4aa0564ae6.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-10-26",
+      "summary": "Law enforcement agencies across Europe are braced for more trouble after cost-of-living protests turned violent again on the weekend, leading to more than 1,300 arrests in France, mass unrest in Spain, and turmoil in many other countries.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202610/26/6ade6697e4b06d4a392ebe3c.jpeg"
+    },
+    {
+      "title": "Lula wins reelection in Brazil",
+      "url": "https://www.chinadaily.com.cn/a/202610/26/WS6adea567e4b06d4aa0564b5b.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-10-26",
+      "summary": "Brazilians reelected President Luiz Inacio Lula da Silva on Sunday, handing him 51.75 percent of the votes, compared to 48.25 percent for challenger Flavio Bolsonaro.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202610/26/6adeb510e4b06d4a392ec510.jpeg"
+    },
+    {
+      "title": "Local plates, global bites",
+      "url": "https://www.chinadaily.com.cn/a/202610/23/WS6adb1c59e4b06d4aa05647ba.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-10-23",
+      "summary": "At Mt. ShooTao in Midtown Manhattan, two young entrepreneurs are testing how far a distinctly Sichuan way of eating can travel in New York — and what, if anything, needs to change along the way.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202610/23/6adb1c59e4b06d4a392eaa39.jpeg"
+    },
+    {
+      "title": "Chinese technology takes center court at Brooklyn Nets home opener",
+      "url": "https://www.chinadaily.com.cn/a/202610/23/WS6adac1e8e4b06d4aa0564604.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-10-23",
+      "summary": "A long line of Brooklyn Nets fans snaked toward an interactive experience inside Barclays Center on Wednesday night, as the team hosted its 2026-27 home opener.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202610/23/6adac440e4b06d4a392e9f9a.png"
+    },
+    {
+      "title": "Anniversary observance, Kim's visit cement ties",
+      "url": "https://www.chinadaily.com.cn/a/202610/26/WS6ade441ce4b06d4aa0564ad4.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-10-26",
+      "summary": "The latest high-level engagement between China and the Democratic People's Republic of Korea took place on Saturday, when DPRK top leader Kim Jong-un visited the Chinese border city of Dandong in Liaoning province, one day ahead of the 76th anniversary of the Chinese People's Volunteers' entry into the DPRK to fight in the War to Resist US Aggression and Aid Korea (1950-53).",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202610/26/6ade901ee4b06d4a392ec0c4.jpeg"
+    },
+    {
+      "title": "BJP to hold nationwide protest on October 26 against Kharge’s remark on Modi",
+      "url": "https://www.thehindu.com/news/national/bjp-to-hold-nationwide-protest-on-october-26-against-kharges-baap-remark-for-modi/article71624386.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-10-25T16:59:41.000Z",
+      "summary": "BJP to hold nationwide protests Oct 26 against Kharge’s “Modi’s father” remark targeting Modi, across state HQs.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/tchhkq/article71624409.ece/alternates/LANDSCAPE_1200/20261025253L.jpg"
+    },
+    {
+      "title": "Uttar Pradesh CEO orders reverification of all forms submitted through computer operators",
+      "url": "https://www.thehindu.com/news/national/uttar-pradesh/uttar-pradesh-ceo-orders-reverification-of-all-forms-submitted-through-computer-operators/article71624427.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-10-25T18:55:00.000Z",
+      "summary": "UP CEO orders reverification of all entries by computer operators after SIR errors, mandating BLO-only digitisation, daily ERO reviews, and strict action for violations.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/nmfbmf/article71624573.ece/alternates/LANDSCAPE_1200/iStock-1867869313%201.jpg"
+    },
+    {
+      "title": "Depression over Bay of Bengal set to become ‘very severe cyclonic storm’, cross A.P. coast by October 28",
+      "url": "https://www.thehindu.com/news/national/odisha/depression-over-bay-of-bengal-set-to-become-very-severe-cyclonic-storm-cross-ap-coast-by-october-28/article71623850.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-10-25T16:40:13.000Z",
+      "summary": "Cyclone expected to intensify into a very severe storm and cross Andhra Pradesh and Yanam on October 28, prompting evacuations and disaster preparations.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/iarpk7/article71624334.ece/alternates/LANDSCAPE_1200/9604_25_10_2026_21_10_56_3_VSP26_FISHERMEN_4.JPG"
+    },
+    {
+      "title": "Lakhimpur Kheri killings case: Supreme Court allows ex-Minister’s son to come home for Deepavali",
+      "url": "https://www.thehindu.com/news/national/lakhimpur-kheri-killings-case-supreme-court-allows-ex-ministers-son-to-come-home-for-deepavali/article71625885.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-10-26T06:47:55.000Z",
+      "summary": "Supreme Court allows ex-Minister’s son to return home for Deepavali as trial judge is transferred and a Special Prosecutor appointed in the Lakhimpur Kheri case.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/news/national/p0g9w/article67415686.ece/alternates/LANDSCAPE_1200/IMG_IMG_SUPREMECOURT-NKV_2_1_2OBPIUSL.jpg"
+    },
+    {
+      "title": "Cyclone 'Arnab' LIVE updates",
+      "url": "https://www.thehindu.com/news/national/cyclone-arnab-andhra-pradesh-odisha-live-updates-imd-weather-forecast-rain-warnings-bay-of-bengal-october-26-2026/article71625447.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-10-26T01:41:30.000Z",
+      "summary": "Follow the Hindu's LIVE updates as Odisha and Andhra Pradesh step up preparedness for Cyclone Arnab, which is set to cross Andhra coast on October 28.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/news/international/iey3tk/article71625630.ece/alternates/LANDSCAPE_1200/Rains.jpg"
+    },
+    {
+      "title": "Jordan arrests three suspects in deadly church attack, state media says",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMHVaa0dtU1RzeGQ3ZEhYLUVIV1ZpY092c1JBdE9tVE5xbk8tNDZpbF9GZDkzdG9mUUxOaVV1ZjBvYnFCV1V5WVFsa19xdnp4Tmc5anppU1pVbGhwYjdyeE9ybGFnc0x0MDZHVHA2SndrNnRyQWdhZFlRQXJwREh0S042cG1SeHpjUHJaWnNkcHdMODMyeUNacDN4aGZob2hhcUYzM2tJdGVpNF9wRG8yc2tRUQ?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Mon, 26 Oct 2026 03:35:00 GMT",
+      "summary": "Reuters: Jordan arrests three suspects in deadly church attack, state media says.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "Six injured in Russian strikes on Ukraine's Zaporizhzhia, Chernihiv, officials say",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPcFB2N0FmQzU4ZUhMRTdFc1lVazh3YUNhcWYwdGt6ZGlzb25sLVdDZV9YeHROcGZkZ0VuUTA5WVBNMktrOFl4V1YzRWRwVHBxWmJzalljbXF4TEE4R1JDcXM5cXRrTVo3c1EwSnVGdGVjMlJwNlBYMTBPM3k5NkxMZnAtY0drQ1Z4NC1SSWZWaW5OM0FtQ0N6ZGZLc2JQYXhWakQtYV9wV1JQNGliem5nLVU0N2ZXdVBqVlhITmZiMA?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Mon, 26 Oct 2026 05:32:00 GMT",
+      "summary": "Reuters: Six injured in Russian strikes on Ukraine's Zaporizhzhia, Chernihiv, officials say.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "Houthis say they attacked Saudi oil pumping stations, Riyadh airport as fighting intensifies",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxORlYwOVl3Z1hlOFdacWVmeXZVNnVhejFlWDVOR0toczJ2MWNjT1FMRWZjVU0xd1hGaGtzNU9VcGdYSnR1Z2NVQjFfRVpKallEcEVuTzNweldmeEdYOE05UXFOejl1ekR1ZjlxUlhHT1NLa3J0cmZYWUxhSEs2eXNGb2xNNUJycVNWci1ZVzZUOXBSNGc0bzRJNWVTTnVlWHhXRlBrLWRTOV9HbmlJTmVfZk95N0FIQnBLQTlTa3N3eFBaVDJMWGptVU1VN3A?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Mon, 26 Oct 2026 03:48:00 GMT",
+      "summary": "Reuters: Houthis say they attacked Saudi oil pumping stations, Riyadh airport as fighting intensifies.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "Officials from Mecca pact countries to meet Iranian officials in Tehran on Monday",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxORnpERmd3Z1pYM2xFeTBMOEVnY21scU00QlNJOTdFdE5wbFhmcjdQU1ljTk9vWlJmd1JKdDRvT1p1LVZLT2hpM3h4UmVKYTRhTkJnVmJKZFhkRmFuUF9CZzA1YXNON1VmQ0ZOODVVTkJDZndUUzUzRUxEZmdDa2YyZlA4N1IyVGVCaVlNN2lGRnVXZWxQeTVlYTZnMmRJOHhrRGxYVTFNSXNEZTZfOGhWRGQ4RVlGSWNyTXZoSi1Zb1N0VW1EODBSdFBn?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Mon, 26 Oct 2026 03:20:00 GMT",
+      "summary": "Reuters: Officials from Mecca pact countries to meet Iranian officials in Tehran on Monday.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "Bolsonaro refuses to concede, says he will seek annulment of Brazil vote",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNG5KM0VBMzF5NW95Y3Z3U2FjOG5GNnhmUmlpSXhzOWJPSUk4MmtsSjhQQXNDZGVGdzNieUUzQ3pDUDVqcUx3aVc5RWlvRWFZTTUzbTBlWXBNMzdnVURJYm9RUkItbXFjbG5xd21kZGlZNEw5M3BYUzllMlpSWjlKSU04MFlxSXdRYUtTRGNTTUN5Q3dUUzI0bnVqSGI0X3UxOW1hdUo1aUNONlZ3WG5rQllWWG12WW8?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Mon, 26 Oct 2026 01:55:00 GMT",
+      "summary": "Reuters: Bolsonaro refuses to concede, says he will seek annulment of Brazil vote.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    }
+  ],
+  "markets": [
+    {
+      "id": "sp-500",
+      "label": "S&P 500",
+      "region": "US",
+      "symbol": "^GSPC",
+      "value": 7623.68,
+      "previousClose": 7663.43,
+      "change": -39.75,
+      "percentChange": -0.5186972,
+      "direction": "down",
+      "sessionDate": "2026-10-26"
+    },
+    {
+      "id": "nasdaq-composite",
+      "label": "NASDAQ Composite",
+      "region": "US",
+      "symbol": "^IXIC",
+      "value": 25955.34,
+      "previousClose": 26008.898594,
+      "change": -53.558594,
+      "percentChange": -0.2059241,
+      "direction": "down",
+      "sessionDate": "2026-10-26"
+    },
+    {
+      "id": "euronext-100",
+      "label": "Euronext 100 Index",
+      "region": "Europe",
+      "symbol": "^N100",
+      "value": 1844.49,
+      "previousClose": 1844.410043945,
+      "change": 0.079956055,
+      "percentChange": 0.0043350477,
+      "direction": "up",
+      "sessionDate": "2026-10-26"
+    },
+    {
+      "id": "moex",
+      "label": "Public Joint-Stock Company Moscow Exchange MICEX-RTS",
+      "region": "Europe",
+      "symbol": "MOEX.ME",
+      "value": 85.2,
+      "previousClose": 85.31000061,
+      "change": -0.11000061,
+      "percentChange": -0.12894222,
+      "direction": "down",
+      "sessionDate": "2026-10-26"
+    },
+    {
+      "id": "hang-seng",
+      "label": "HANG SENG INDEX",
+      "region": "Asia",
+      "symbol": "^HSI",
+      "value": 23209.24,
+      "previousClose": 23093.36891,
+      "change": 115.87109,
+      "percentChange": 0.50175047,
+      "direction": "up",
+      "sessionDate": "2026-10-26"
+    },
+    {
+      "id": "nikkei-225",
+      "label": "Nikkei 225",
+      "region": "Asia",
+      "symbol": "^N225",
+      "value": 62189.65,
+      "previousClose": 62693.161720000004,
+      "change": -503.51172,
+      "percentChange": -0.8031366,
+      "direction": "down",
+      "sessionDate": "2026-10-26"
+    },
+    {
+      "id": "sensex",
+      "label": "S&P BSE SENSEX",
+      "region": "India",
+      "symbol": "^BSESN",
+      "value": 73211.48,
+      "previousClose": 73123.83155999999,
+      "change": 87.64844,
+      "percentChange": 0.11986339,
+      "direction": "up",
+      "sessionDate": "2026-10-26"
+    }
+  ],
+  "hackerNews": [
+    {
+      "title": "Show HN: TitleArt – Make text like it's 1997",
+      "url": "https://titleart.dvy.io/",
+      "publishedAt": "2026-10-26T03:23:57.000Z",
+      "summary": "Every classic WordArt style, shape and 3-D effect, in your browser.",
+      "thumbnailUrl": "https://titleart.dvy.io/social-preview.png"
+    },
+    {
+      "title": "PaperPilot – Zero-Cloud, Pure-Rust PDF Engine with WASM and MCP",
+      "url": "https://github.com/KrushnaVardhanReddy/PaperPilot",
+      "publishedAt": "2026-10-26T03:29:05.000Z",
+      "summary": "Your local AI copilot for documents. Contribute to KrushnaVardhanReddy/PaperPilot development by creating an account on GitHub.",
+      "thumbnailUrl": "https://opengraph.githubassets.com/86566652a40908e92973fc35024d7b82540790be77fe075925c3e8916d809801/KrushnaVardhanReddy/PaperPilot"
+    },
+    {
+      "title": "Dolly Parton's Imagination Library",
+      "url": "https://imaginationlibrary.com/",
+      "publishedAt": "2026-10-25T18:23:54.000Z",
+      "summary": "Dolly Parton’s Imagination Library is a book gifting program that mails free books to children from birth until they begin school in participating areas.",
+      "thumbnailUrl": "https://imaginationlibrary.com/ilData/usrFiles/2022/05/DPIL-Logo-195.png"
+    },
+    {
+      "title": "Show HN: A Truly Modular Keyboard",
+      "url": "https://github.com/notaroomba/keybytes",
+      "publishedAt": "2026-10-25T03:47:56.000Z",
+      "summary": "A truly modular keyboard. Contribute to notaroomba/keybytes development by creating an account on GitHub.",
+      "thumbnailUrl": "https://opengraph.githubassets.com/823f134819deefd901fb630d430b938328ccade8cb3824ec88c3ba0717002f89/notaroomba/keybytes"
+    },
+    {
+      "title": "Behind the scenes at the NeXT Computer office",
+      "url": "https://exhibits.stanford.edu/menuez/browse/next-computer-inc?per_page=96&sort=pub_year_isi+asc%2C+title_sort+asc&view=masonry",
+      "publishedAt": "2026-10-26T03:31:11.000Z",
+      "summary": "exhibits.stanford.edu: Behind the scenes at the NeXT Computer office.",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "Lula wins election after final votes tallied",
+      "url": "https://www.reuters.com/live/brazil-election-live-lula-bolsonaro-face-off-presidential-runoff-2026-10-25/",
+      "publishedAt": "2026-10-26T00:31:07.000Z",
+      "summary": "reuters.com: Lula wins election after final votes tallied."
+    },
+    {
+      "title": "Attention Is Not What You Need (2025)",
+      "url": "https://arxiv.org/abs/2512.19428",
+      "publishedAt": "2026-10-25T23:52:05.000Z",
+      "summary": "We revisit a basic question in sequence modeling: is explicit self-attention actually necessary for strong performance and reasoning? We argue that standard multi-head attention is best seen as a form of tensor lifting: hidden vectors are mapped into a high-dimensional space of pairwise interactions, and learning proceeds by constraining this lifted tensor through gradient descent. This mechanism is extremely expressive but mathematically opaque, because after many layers it becomes very hard to describe the model with a small family of explicit invariants. To explore an alternative, we propose an attention-free architecture based on Grassmann flows. Instead of forming an L by L attention matrix, our Causal Grassmann layer (i) linearly reduces token states, (ii) encodes local token pairs as two-dimensional subspaces on a Grassmann manifold via Plucker coordinates, and (iii) fuses these geometric features back into the hidden states through gated mixing. Information therefore propagates by controlled deformations of low-rank subspaces over multi-scale local windows, so the core computation lives on a finite-dimensional manifold rather than in an unstructured tensor space. On the Wikitext-2 language modeling benchmark, purely Grassmann-based models with 13 to 18 million parameters achieve validation perplexities within about 10 to 15 percent of size-matched Transformers. On the SNLI natural language inference task, a Grassmann-Plucker head on top of DistilBERT slightly outperforms a Transformer head, with best validation and test accuracies of 0.8550 and 0.8538 compared to 0.8545 and 0.8511. We analyze the complexity of Grassmann mixing, show linear scaling in sequence length for fixed rank, and argue that such manifold-based designs offer a more structured route toward geometric and invariant-based interpretations of neural reasoning.",
+      "thumbnailUrl": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    },
+    {
+      "title": "IBM CEO says open weight models are now good and cheap on-prem",
+      "url": "https://www.theregister.com/systems/2026/10/22/ibm-ceo-says-open-weight-models-are-now-irresistibly-good-and-cheap-on-prem/5304640",
+      "publishedAt": "2026-10-26T01:47:46.000Z",
+      "summary": "90 percent of the performance at ten percent of the price, in just two or three racks, is hard to beat",
+      "thumbnailUrl": "https://image.theregister.com/4091853.jpg?imageId=4091853&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683"
+    },
+    {
+      "title": "Microsoft Decision-1: 9B Qwen Model Launch Explained",
+      "url": "https://shattered.io/microsoft-decision-1-qwen3-5-9b-model-2026/",
+      "publishedAt": "2026-10-26T03:12:05.000Z",
+      "summary": "Microsoft launched Decision-1, a 9B Qwen3.5-based model for AI decision scoring. See pricing, benchmarks, and how it compares to rivals.",
+      "thumbnailUrl": "https://shattered.io/wp-content/uploads/2026/10/microsoft-decision-1-qwen3-5-9b-model-2026-gen.jpg"
+    },
+    {
+      "title": "Cognitive Mercantilism: AI panic resembles fears of early capitalism",
+      "url": "https://contraptions.venkateshrao.com/p/cognitive-mercantilism",
+      "publishedAt": "2026-10-26T04:11:40.000Z",
+      "summary": "AI panic weirdly resembles the anxiety that accompanied early capitalism",
+      "thumbnailUrl": "https://substackcdn.com/image/fetch/$s_!0-U5!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcafd3438-ef0d-41c0-83cf-bcc7e1c995be_1536x1024.png"
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "Standfast",
+      "tagline": "Know if your Mac's GitHub Actions runners will get work",
+      "url": "https://www.producthunt.com/products/standfast",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-10-26T00:27:51-07:00"
+    },
+    {
+      "name": "Flipcorder",
+      "tagline": "A 1991 camcorder for your iPhone, one tape a day",
+      "url": "https://www.producthunt.com/products/flipcorder",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-10-26T00:27:42-07:00"
+    },
+    {
+      "name": "Strawberry 1.0",
+      "tagline": "AI Browser that saves your team >100h/week",
+      "url": "https://www.producthunt.com/products/strawberry",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-10-26T00:27:38-07:00"
+    },
+    {
+      "name": "N8N Chat UI",
+      "tagline": "Beautiful, no-code, on-brand AI chat widgets for n8n",
+      "url": "https://www.producthunt.com/products/n8n-chat-ui-2",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-10-26T00:27:45-07:00"
+    },
+    {
+      "name": "CloudKnife",
+      "tagline": "Cut your cloud bill, not your performance",
+      "url": "https://www.producthunt.com/products/cloudknife",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-10-26T00:27:48-07:00"
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "News and markets",
+      "sentences": [
+        "Global headlines: Iran to hold security talks with Saudi Arabia, Turkiye and Pakistan (Iran's security chief to meet defence officials from the Mecca Defence Alliance in Tehran as fighting rages in Yemen); Jordan arrests three suspects in deadly church attack (Suspects refuse to surrender and attack security forces, who return fire, wound and arrest them, authorities say); and China’s political elite gather for talks on Communist Party discipline (The four-day meeting is being watched closely for clues as to the country's direction and future leadership).",
+        "Markets leaned lower, with 4 of 7 tracked indexes down; Nikkei 225 down 0.80% was the largest move.",
+        "Benchmarks tracked: S&P 500, NASDAQ Composite, Euronext 100 Index, and Public Joint-Stock Company Moscow Exchange MICEX-RTS plus 3 more indexes."
+      ]
+    },
+    {
+      "title": "Hacker News and Product Hunt",
+      "sentences": [
+        "Hacker News: Show HN: TitleArt – Make text like it's 1997 (Every classic WordArt style, shape and 3-D effect, in your browser); PaperPilot – Zero-Cloud, Pure-Rust PDF Engine with WASM and MCP (Your local AI copilot for documents. Contribute to KrushnaVardhanReddy/PaperPilot development by creating an account on GitHub); and Dolly Parton's Imagination Library (Dolly Parton’s Imagination Library is a book gifting program that mails free books to children from birth until they begin school in...).",
+        "Product Hunt features Standfast (Know if your Mac's GitHub Actions runners will get work), Flipcorder (A 1991 camcorder for your iPhone, one tape a day), and Strawberry 1.0 (AI Browser that saves your team >100h/week)."
+      ]
+    }
+  ],
+  "sourceNotes": {
+    "generatedAt": "2026-10-26T07:28:44.447Z",
+    "timeZone": "Asia/Kolkata",
+    "successfulSources": [
+      "Al Jazeera",
+      "NPR",
+      "China Daily",
+      "The Hindu",
+      "Reuters"
+    ],
+    "marketSessionLabel": "Latest market sessions as of 2026-10-26",
+    "warnings": [
+      "Washington Post: HTTP 502 for https://feeds.washingtonpost.com/rss/world"
+    ]
+  }
+}
