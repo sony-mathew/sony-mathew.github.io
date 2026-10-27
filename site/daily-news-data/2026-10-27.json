@@ -1,0 +1,460 @@
+{
+  "headlines": [
+    {
+      "title": "Netanyahu faces tough battle as Israel votes in high-stakes election",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/27/israel-election-2026-live-netanyahu-faces-tough-test-in-high-stakes-polls",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-10-27",
+      "summary": "Millions to cast ballots in election widely billed as the most consequential in Israel's history.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/10/2026-10-27T051806Z_1423455932_RC2HBOACJU99_RTRMADP_3_ISRAEL-ELECTION-1793079375.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Iran says US is ‘not serious’ about talks; vessel on fire off Iraq’s coast",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/27/iran-war-live-iran-says-us-not-serious-on-talks-ship-on-fire-off-iraq",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-10-27",
+      "summary": "Iran says the United States is \"not serious\" about negotiations as UKMTO reports a ship on fire off the coast of Iraq.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/10/AFP__20261026__D4F36DJ__v1__HighRes__IranIsraelUsWarEconomy-1793006653.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Jordan strikes Syria after church attack, killing at least seven people",
+      "url": "https://www.aljazeera.com/news/2026/10/26/jordan-launches-air-strikes-in-syria-in-response-to-a-fatal-church-shooting",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-10-26",
+      "summary": "Syria closes border crossings with Jordan after air strikes kill seven people in Deraa and Suweyda, including children.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/10/reuters_6ae020c4-1793073348.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Bolsonaro’s party accepts Brazil election after Trump calls vote ‘rigged’",
+      "url": "https://www.aljazeera.com/news/2026/10/27/bolsonaros-party-accepts-result-after-trump-suggests-vote-was",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-10-27",
+      "summary": "Trump pushes unsubstantiated claims about Brazil's presidential vote but says he 'didn't take sides' in the race.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/10/afp_6adfbfd58a75-1793048533.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "UN panel accuses Israel of ‘extermination’ in West Bank, genocide in Gaza",
+      "url": "https://www.aljazeera.com/news/2026/10/26/israel-committing-crimes-against-humanity-in-occupied-west-bank-un",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-10-26",
+      "summary": "Report finds extermination, torture and rape in the West Bank and says genocide in Gaza is continuing despite ceasefire.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/10/afp_6ade0192c04a-1792934290.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Harry Kane becomes first Englishman in 25 years to win Ballon d'Or",
+      "url": "https://www.npr.org/2026/10/27/nx-s1-6019097/harry-kane-alexia-putellas-ballon-dor",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Tue, 27 Oct 2026 02:30:54 -0400",
+      "summary": "Kane was followed in the voting by Kylian Mbappé. Spain star Alexia Putellas won her third women's Ballon d'Or. Outside, fans packed the streets and climbed light poles near the London Palladium.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8287x5525+0+0/resize/8287x5525!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F94%2Fe3%2Fb5a8cc5f42d9b7be982457f52bda%2Fap26299809937762.jpg"
+    },
+    {
+      "title": "Jay-Z picks himself to headline the Super Bowl halftime show in Southern California",
+      "url": "https://www.npr.org/2026/10/27/g-s1-150043/super-bowl-halftime-jay-z",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Tue, 27 Oct 2026 01:46:18 -0400",
+      "summary": "The NFL, Apple Music and Roc Nation announced Monday night that Jay-Z will be the featured performer for the halftime festivities on Feb. 14 at SoFi Stadium in Inglewood, California.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1490x993+0+0/resize/1490x993!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F84%2F11%2F6d3ba5b34694acc9050a1ee6526b%2Fap26300053956965.jpg"
+    },
+    {
+      "title": "Brewers rout the Rays 10-1 to move within a win of their first World Series title",
+      "url": "https://www.npr.org/2026/10/27/nx-s1-6019094/mlb-world-series-tuesday",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Tue, 27 Oct 2026 01:45:44 -0400",
+      "summary": "The Milwaukee Brewers are one victory from their first World Series title after routing the Tampa Bay Rays 10-1 on Monday night thanks to a trio of young players who have shined in October.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5643x3762+0+0/resize/5643x3762!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fa6%2F3b%2F7af236a74c8ea8e48ad2280c8e6d%2Fap26300068621772.jpg"
+    },
+    {
+      "title": "Local ceasefire brokered by Melania Trump starts in southern Ukraine",
+      "url": "https://www.npr.org/2026/10/27/g-s1-150037/russia-ukraine-war",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Tue, 27 Oct 2026 01:26:58 -0400",
+      "summary": "A localized ceasefire between Ukraine and Russia took effect early Tuesday ahead of a humanitarian mission brokered by U.S. first lady Melania Trump, as missile attacks resumed in Kyiv.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3228x2152+0+0/resize/3228x2152!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F9e%2Fc5%2Ff2474865439294dcfc51ebea89a5%2Fap26287677889466.jpg"
+    },
+    {
+      "title": "Trump campaigns in Mississippi, highlighting Republicans' challenges",
+      "url": "https://www.npr.org/2026/10/27/nx-s1-6019090/trump-campaign-mississippi",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Tue, 27 Oct 2026 01:22:24 -0400",
+      "summary": "President Trump campaigned Monday in Mississippi, as he continued a closing midterm rally blitz that has highlighted Republicans' challenges ahead of an election that could drastically shift power in Washington.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5438x3625+0+0/resize/5438x3625!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F39%2F61%2F0838e35b43c6b376fed3b33fb522%2Fap26300007326103.jpg"
+    },
+    {
+      "title": "Zero tariffs boost South Africa's exports",
+      "url": "https://www.chinadaily.com.cn/a/202610/27/WS6ae000f2e4b06d4aa0564f2c.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-10-27",
+      "summary": "South African officials have welcomed the increase in trade with China following the operationalization of China's zero-tariff treatment of the country.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202610/27/6ae000f1e4b06d4a392ed5ca.jpeg"
+    },
+    {
+      "title": "Serbia's Vucic concedes defeat in polls",
+      "url": "https://www.chinadaily.com.cn/a/202610/27/WS6ae000d5e4b06d4aa0564f26.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-10-27",
+      "summary": "Former Serbian president Aleksandar Vucic conceded defeat in Sunday's snap parliamentary election, as independent projections and leaders of a student-backed movement born out of anti-corruption protests confirmed an outright parliamentary majority that ends the ruling party's 14-year grip on power.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202610/27/6ae000d5e4b06d4a392ed5bc.jpeg"
+    },
+    {
+      "title": "UK's Burnham open to EU free movement",
+      "url": "https://www.chinadaily.com.cn/a/202610/27/WS6adfafe3e4b06d4aa0564e02.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-10-27",
+      "summary": "United Kingdom Prime Minister Andy Burnham has signaled openness to discussing a return to free movement between the UK and the European Union, which was a key issue in the 2016 Brexit referendum that led to the UK leaving the bloc.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202610/27/6adfafe3e4b06d4a392ed009.png"
+    },
+    {
+      "title": "Europe on high alert after weekend riots",
+      "url": "https://www.chinadaily.com.cn/a/202610/26/WS6ade6656e4b06d4aa0564ae6.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-10-26",
+      "summary": "Law enforcement agencies across Europe are braced for more trouble after cost-of-living protests turned violent again on the weekend, leading to more than 1,300 arrests in France, mass unrest in Spain, and turmoil in many other countries.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202610/26/6ade6697e4b06d4a392ebe3c.jpeg"
+    },
+    {
+      "title": "Iran holds ground as war fears mount",
+      "url": "https://www.chinadaily.com.cn/a/202610/27/WS6ae00792e4b06d4aa0564f50.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-10-27",
+      "summary": "As fears mount of a full-scale regional war ahead of pivotal elections in Israel and the United States, Iran has said it is prepared for \"any scenario\" while keeping diplomatic channels open.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202610/27/6ae00792e4b06d4a392ed690.jpeg"
+    },
+    {
+      "title": "Rape and murder accused killed in encounter in West Bengal’s Bongaon",
+      "url": "https://www.thehindu.com/news/national/west-bengal/rape-and-murder-accused-killed-in-encounter-in-west-bengals-bongaon/article71629772.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-10-27T04:25:11.000Z",
+      "summary": "Second such encounter in West Bengal: 23-year-old rape-and-murder prime accused shot dead in Bongaon after police confrontation.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/xppvox/article71629783.ece/alternates/LANDSCAPE_1200/TH08-Shiv-SahayG6GG7LCCH.3.jpg.jpg"
+    },
+    {
+      "title": "17 remand prisoners escape from a sub-jail in Theni district; combing operations lead to arrest of four persons: IGP",
+      "url": "https://www.thehindu.com/news/national/tamil-nadu/17-remand-prisoners-escape-from-a-sub-jail-in-theni-district-combing-operations/article71629593.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-10-27T01:56:43.000Z",
+      "summary": "17 Theni sub-jail inmates escape; 4 arrested as police deploy 17 teams and intensify combing across districts.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/news/national/dztpda/article71629608.ece/alternates/LANDSCAPE_1200/TheniSubjail.jpg"
+    },
+    {
+      "title": "Cyclone ‘Arnab’ hurtling towards Andhra Pradesh coast",
+      "url": "https://www.thehindu.com/news/national/odisha/cyclone-arnab-hurtling-towards-andhra-pradesh-coast/article71629610.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-10-27T02:14:43.000Z",
+      "summary": "Very severe cyclonic storm Arnab threatens Andhra Pradesh as Odisha records heavy rain and IMD forecasts 115-140 km/h winds and extensive rainfall.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/news/international/3r6d7l/article71629642.ece/alternates/LANDSCAPE_1200/CycloneArnab.jpg"
+    },
+    {
+      "title": "Cyclone Arnab: Odisha announces evacuation 48,000 in eight districts",
+      "url": "https://www.thehindu.com/news/national/odisha/cyclone-arnab-odisha-announces-evacuation-48000-in-eight-districts/article71630044.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-10-27T06:30:02.000Z",
+      "summary": "Odisha evacuates 48,000 across eight districts as Cyclone Arnab threatens with strong winds and heavy rain.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/42khsb/article71630073.ece/alternates/LANDSCAPE_1200/90092_27_10_2026_9_37_28_1_CYCLONE_ARNAB_1.JPG"
+    },
+    {
+      "title": "New privacy law will shut down news rooms, change the concept of news: Digital News Publishers Association",
+      "url": "https://www.thehindu.com/news/national/new-privacy-law-will-shut-down-news-rooms-change-the-concept-of-news-digital-news-publishers-association/article71630056.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-10-27T06:44:38.000Z",
+      "summary": "DNPA warns India’s new privacy law threatens newsroom freedom and raises constitutional concerns, urging stay as SC schedules detailed hearing.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/hindi/editorial/u2c2px/article71630130.ece/alternates/LANDSCAPE_1200/PrivacyLaw.jpg"
+    },
+    {
+      "title": "Taiwan rebuffs China's commemorations for post-World War Two 'restoration' of island",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPZjdsQURjQ0MxQmgtQVEyTGZiNzFRd1QtY0dsRXowVHhQRVNObEJLV0Vhc0tKQVZDbVp2a2Rmbklod1hURHFhUGVZb2JKRUdxMGxtSmxtcW55aV9fdG40eUhJNHZmUC1HLWlUWTVtekVVYTZqdGsxeEJtbEh5VkVQdFBYRS1rYzBoVVBVOUZtaEtWQ2FEQ3dpYmZyOENnRmZoRFVUT2h3MW9tNXE4a3JYZTY1RjhGUlA0ak5ENHRqTQ?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Tue, 27 Oct 2026 03:42:00 GMT",
+      "summary": "Reuters: Taiwan rebuffs China's commemorations for post-World War Two 'restoration' of island.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "Saudi-led coalition says it intercepted Houthi missiles, drones attacking kingdom",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQbkE2MkVyd2dKcU5mTWp1VmY5c0pENUN0WjhPTHJDTXZQRENZU2JQa09JbWJaTUpicnN0RkFuTllzRHE0bUtOSjdrSDBiZ3FMYVVhdjVtVFRZLXJoRmRmNldVWXg0SjUxVFppSjQyYXhVajhydnFRRS0yRmNEcW9XWjJZWWpUYjBUR1NCSWFFa3AzNFhDWDVYeVU2VHdQd2ZMcHM1NDhLM3RrTnY5MVlPU0szSWN4ZUlVRmN1OERpcFM3UTBtNGxUNXBVNzltalU?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Tue, 27 Oct 2026 02:17:00 GMT",
+      "summary": "Reuters: Saudi-led coalition says it intercepted Houthi missiles, drones attacking kingdom.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "Russia, Ukraine begin Oleshky ceasefire but keep up strikes elsewhere",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNcmNDbG5UNU9BQktvTmJ4MW8yYWptYlVPd2ZRYUhZakItODJtZ2l1RHhOeFJEbGZfbDAxYVI3aGpYU3RyVEtLLWZHNHE2SkZnYUk0V1VsWHAtR0p5TkhBNENFMmpJTmU5OHI0bld6VEtuV3VCU29CdVVSOE1aRGFOLUVyVEhSMXNUbGdoS2tqdHl6RElKajZmbUd4S3RHSmNqdTFhSTJiTTZUcDc3YV9QNXdsT2oyS1ZfeU9VaDhjMzhPRHAx?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Tue, 27 Oct 2026 02:00:00 GMT",
+      "summary": "Reuters: Russia, Ukraine begin Oleshky ceasefire but keep up strikes elsewhere.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "Asian stocks rise as AI enthusiasm returns ahead of earnings, central bank decisions",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQdEdzTDdxbEtNX1l6VDJMdF9NTGpUNEJPYy1jaUo2SkllaGhJZnZvNzZOOTd5MkZHV3p5T2ZhcjlkcWduOXp5elFKREQ0bFBib0pXUzNKdGI2QmE3eWZxRlktZXhSZG0tQzQ4U1dXNWxOZktiZVZvc1pNUERsYUFLVUJYSQ?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Tue, 27 Oct 2026 01:46:00 GMT",
+      "summary": "Reuters: Asian stocks rise as AI enthusiasm returns ahead of earnings, central bank decisions.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "EU seeks to widen market access to counter trade restrictions, Germany's Merz says",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQSkZSOUw3U0tLdEdHZUF4ckFzWXBYOTVzSThCRFU4a1B5dWFXSG9jLTNZanJGOXo1Q0ktS3FFeUpJMEpUMkhPOVl0RTVPalVrYlZOS0hGM09ISWxyMmZuVUE0dmp6RTEzZHA1N3BiUHRYbUw4eUw5WTdOZm9ZdWo3ZjBoQ1B4WlVqbVdMYW85TkFSSFY2SFI4MHA1OS1ZX0t6Z191MGEwRUkwOHRxQmtlYQ?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Tue, 27 Oct 2026 04:07:00 GMT",
+      "summary": "Reuters: EU seeks to widen market access to counter trade restrictions, Germany's Merz says.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    }
+  ],
+  "markets": [
+    {
+      "id": "sp-500",
+      "label": "S&P 500",
+      "region": "US",
+      "symbol": "^GSPC",
+      "value": 7676.77,
+      "previousClose": 7623.680156,
+      "change": 53.089844,
+      "percentChange": 0.6963808,
+      "direction": "up",
+      "sessionDate": "2026-10-27"
+    },
+    {
+      "id": "nasdaq-composite",
+      "label": "NASDAQ Composite",
+      "region": "US",
+      "symbol": "^IXIC",
+      "value": 26169.38,
+      "previousClose": 25955.340940000002,
+      "change": 214.03906,
+      "percentChange": 0.8246436,
+      "direction": "up",
+      "sessionDate": "2026-10-27"
+    },
+    {
+      "id": "euronext-100",
+      "label": "Euronext 100 Index",
+      "region": "Europe",
+      "symbol": "^N100",
+      "value": 1857.2,
+      "previousClose": 1844.490039,
+      "change": 12.709961,
+      "percentChange": 0.68907726,
+      "direction": "up",
+      "sessionDate": "2026-10-27"
+    },
+    {
+      "id": "moex",
+      "label": "Public Joint-Stock Company Moscow Exchange MICEX-RTS",
+      "region": "Europe",
+      "symbol": "MOEX.ME",
+      "value": 85.2,
+      "previousClose": 85.31000061,
+      "change": -0.11000061,
+      "percentChange": -0.12894222,
+      "direction": "down",
+      "sessionDate": "2026-10-27"
+    },
+    {
+      "id": "hang-seng",
+      "label": "HANG SENG INDEX",
+      "region": "Asia",
+      "symbol": "^HSI",
+      "value": 23023.03,
+      "previousClose": 23211.81125,
+      "change": -188.78125,
+      "percentChange": -0.8132951,
+      "direction": "down",
+      "sessionDate": "2026-10-27"
+    },
+    {
+      "id": "nikkei-225",
+      "label": "Nikkei 225",
+      "region": "Asia",
+      "symbol": "^N225",
+      "value": 63268.37,
+      "previousClose": 62189.647300000004,
+      "change": 1078.7227,
+      "percentChange": 1.7345694,
+      "direction": "up",
+      "sessionDate": "2026-10-27"
+    },
+    {
+      "id": "sensex",
+      "label": "S&P BSE SENSEX",
+      "region": "India",
+      "symbol": "^BSESN",
+      "value": 73592.17,
+      "previousClose": 73606.748125,
+      "change": -14.578125,
+      "percentChange": -0.019805051,
+      "direction": "down",
+      "sessionDate": "2026-10-27"
+    }
+  ],
+  "hackerNews": [
+    {
+      "title": "Three new discoveries in mathematics, computer science, and physics",
+      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+      "publishedAt": "2026-10-26T21:35:28.000Z",
+      "summary": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
+      "thumbnailUrl": "https://images.ctfassets.net/kftzwdyauwt9/5HKwJOTURosg0IoKJA21s8/88eefd210a578266fca1a9d9454daadc/from-ai-results-to-scientific-understanding-social.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "title": "The Exponential Time Hypothesis Is False [pdf]",
+      "url": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf",
+      "publishedAt": "2026-10-26T21:59:15.000Z",
+      "summary": "Contribute to openai/math development by creating an account on GitHub.",
+      "thumbnailUrl": "https://opengraph.githubassets.com/37c7110a6f2f02de41fd7e4468b87aaf67142b2819437e0580a9d30713e9ccc5/openai/math"
+    },
+    {
+      "title": "Sebastian Raschka's from-scratch video course on building reasoning models",
+      "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
+      "publishedAt": "2026-10-26T15:11:59.000Z",
+      "summary": "Over 11 hours of coding videos on evaluation, inference-time scaling, reinforcement learning, and distillation, with Python and PyTorch.",
+      "thumbnailUrl": "https://substackcdn.com/image/fetch/$s_!1SoS!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F519db120-1320-411b-adec-a88865345f2c_4083x2916.jpeg"
+    },
+    {
+      "title": "Oldest GUI application that still runs on Windows 11",
+      "url": "https://blog.enlyth.com/posts/oldest-windows-gui-app-win-11/",
+      "publishedAt": "2026-10-26T17:56:55.000Z",
+      "summary": "A blog post about finding the oldest Windows application with a GUI that still runs on Windows 11",
+      "thumbnailUrl": "https://blog.enlyth.com/_astro/image.Bg57xYSH_1uh08L.webp"
+    },
+    {
+      "title": "The Mythical Man-Month in the Age of AI",
+      "url": "https://j11g.com/the-mythical-man-month-in-the-age-of-ai",
+      "publishedAt": "2026-10-27T06:25:37.000Z",
+      "summary": "An update to Brooks's Law in the age of AI.",
+      "thumbnailUrl": "https://j11g.com/content/images/cern-resized.jpg"
+    },
+    {
+      "title": "16-bit Windows (Windows 1.x, 2.x, 3.0, 3.1, etc.) on 64-bit Windows",
+      "url": "https://github.com/otya128/winevdm",
+      "publishedAt": "2026-10-27T01:15:04.000Z",
+      "summary": "16-bit Windows (Windows 1.x, 2.x, 3.0, 3.1, etc.) on 64-bit Windows - otya128/winevdm",
+      "thumbnailUrl": "https://opengraph.githubassets.com/9f308c5377300708ffdaddfeb717a151f2b08977cabd609dc734b6cd40c66010/otya128/winevdm"
+    },
+    {
+      "title": "I still teach OpenGL ES 3.0",
+      "url": "https://eliasfarhan.ch/graphics/cpp/2026/01/27/why-i-teach-opengles.html",
+      "publishedAt": "2026-10-27T02:15:10.000Z",
+      "summary": "eliasfarhan.ch: I still teach OpenGL ES 3.0."
+    },
+    {
+      "title": "Type Server Protocol",
+      "url": "https://github.com/microsoft/pylance-release/blob/main/docs/tsp/type-server-protocol.md",
+      "publishedAt": "2026-10-26T18:14:49.000Z",
+      "summary": "Documentation and issues for Pylance. Contribute to microsoft/pylance-release development by creating an account on GitHub.",
+      "thumbnailUrl": "https://opengraph.githubassets.com/f8f3b7f29688c80b0b5bac057d28f056ce77499febc134d72d4df27c3517e4e4/microsoft/pylance-release"
+    },
+    {
+      "title": "A simplified proof of ETH is False [pdf]",
+      "url": "https://shivakintali.github.io/papers/ETH.pdf",
+      "publishedAt": "2026-10-27T06:45:30.000Z",
+      "summary": "shivakintali.github.io: A simplified proof of ETH is False [pdf].",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)",
+      "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
+      "publishedAt": "2026-10-26T22:41:48.000Z",
+      "summary": "A configuration mismatch in GLM 5.3 on Workers AI triggered an SGLang bug that exposed KV cache pages across requests. Here is how we addressed the issue.",
+      "thumbnailUrl": "https://blog.cloudflare.com/_emdash/api/media/file/01M5X2YJT16K16BFFJGEMCAXRS.01M5X2YM62P3YQRBGRP96FS4P6.png"
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "Revix AI",
+      "tagline": "AI code review that learns your repo's own rules",
+      "url": "https://www.producthunt.com/products/revix-ai-2",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-10-27T00:21:53-07:00"
+    },
+    {
+      "name": "Nuvio 5.0",
+      "tagline": "Hand your financial admin to your AI agent",
+      "url": "https://www.producthunt.com/products/nuvio",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-10-27T00:21:50-07:00"
+    },
+    {
+      "name": "NuPlay",
+      "tagline": "AI transformation, run on one self-improving platform",
+      "url": "https://www.producthunt.com/products/nuplay",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-10-27T00:21:40-07:00"
+    },
+    {
+      "name": "Overmind",
+      "tagline": "Open-source platform for continuous learning",
+      "url": "https://www.producthunt.com/products/overmind-2",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-10-27T00:21:37-07:00"
+    },
+    {
+      "name": "Off Grid AI",
+      "tagline": "Private AI on your phone and computer. Free, open source.",
+      "url": "https://www.producthunt.com/products/off-grid-ai",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-10-27T00:21:30-07:00"
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "News and markets",
+      "sentences": [
+        "Global headlines: Netanyahu faces tough battle as Israel votes in high-stakes election (Millions to cast ballots in election widely billed as the most consequential in Israel's history); Iran says US is ‘not serious’ about talks; vessel on fire off Iraq’s coast (Iran says the United States is \"not serious\" about negotiations as UKMTO reports a ship on fire off the coast of Iraq); and Jordan strikes Syria after church attack, killing at least seven people (Syria closes border crossings with Jordan after air strikes kill seven people in Deraa and Suweyda, including children).",
+        "Markets leaned higher, with 4 of 7 tracked indexes up; Nikkei 225 up 1.73% was the largest move.",
+        "Benchmarks tracked: S&P 500, NASDAQ Composite, Euronext 100 Index, and Public Joint-Stock Company Moscow Exchange MICEX-RTS plus 3 more indexes."
+      ]
+    },
+    {
+      "title": "Hacker News and Product Hunt",
+      "sentences": [
+        "Hacker News: Three new discoveries in mathematics, computer science, and physics (OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can...); The Exponential Time Hypothesis Is False [pdf] (Contribute to openai/math development by creating an account on GitHub); and Sebastian Raschka's from-scratch video course on building reasoning models (Over 11 hours of coding videos on evaluation, inference-time scaling, reinforcement learning, and distillation, with Python and PyTorch).",
+        "Product Hunt features Revix AI (AI code review that learns your repo's own rules), Nuvio 5.0 (Hand your financial admin to your AI agent), and NuPlay (AI transformation, run on one self-improving platform)."
+      ]
+    }
+  ],
+  "sourceNotes": {
+    "generatedAt": "2026-10-27T07:22:50.095Z",
+    "timeZone": "Asia/Kolkata",
+    "successfulSources": [
+      "Al Jazeera",
+      "NPR",
+      "China Daily",
+      "The Hindu",
+      "Reuters"
+    ],
+    "marketSessionLabel": "Latest market sessions as of 2026-10-27",
+    "warnings": [
+      "Washington Post: HTTP 502 for https://feeds.washingtonpost.com/rss/world"
+    ]
+  }
+}
