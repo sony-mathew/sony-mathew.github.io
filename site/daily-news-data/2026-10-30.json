@@ -1,0 +1,460 @@
+{
+  "headlines": [
+    {
+      "title": "Saudi coalition says its air defences downed Houthi drone over Mecca region",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/30/iran-war-live-irgc-says-four-tankers-struck-mines-in-strait-of-hormuz",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-10-30",
+      "summary": "Saudi-led coalition air defences intercept and destroy a Houthi drone over the Mecca region.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/10/AFP__20261026__D4GV6L2__v1__HighRes__YemenSaudiIsranUsIsraelWar-1793336077.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "‘Arab voice doesn’t count’: Jewish Israeli blocs reject Palestinian support",
+      "url": "https://www.aljazeera.com/news/2026/10/29/arab-voice-doesnt-count-jewish-israeli-blocs-reject-palestinian-support",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-10-29",
+      "summary": "Palestinian voters could decide Israel’s future, but its political class refuses to accept their mandate",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/10/afp_6ae10a5446ad-1793133140.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Trump says won’t ‘take sides’ in Brazil election, but calls it a ‘disgrace’",
+      "url": "https://www.aljazeera.com/news/2026/10/29/trump-says-wont-take-sides-in-brazil-election-but-calls-it-a-disgrace",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-10-29",
+      "summary": "Comments come after Trump ally Flavio Bolsonaro fled to Miami in US and claimed, without evidence, that vote was stolen.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/10/afp_6ae36e31a9e2-1793289777.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "US judge blocks Trump’s Medicaid rule forcing ill to prove impairment",
+      "url": "https://www.aljazeera.com/news/2026/10/30/us-judge-blocks-trumps-medicaid-rule-forcing-ill-to-prove-impairment",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-10-30",
+      "summary": "A US district judge sided with 25 states and the District of Columbia, which sued the administration.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/10/ap_6ae40b7042f6b-1793330032.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Salvadoran ex-president Saca released after 10-year sentence for corruption",
+      "url": "https://www.aljazeera.com/news/2026/10/30/salvadoran-ex-president-saca-released-after-serving-a-10-year-sentence-for-corruption",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-10-30",
+      "summary": "Elias Antonio Saca confessed to diverting more than $300m in public funds during his presidency and accepted a plea barg",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/10/reuters_6ae3f498-1793324184.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Justice Department issues subpoenas to California election workers",
+      "url": "https://www.npr.org/2026/10/29/nx-s1-6022560/doj-subpoenas-california-election",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Thu, 29 Oct 2026 21:35:54 -0400",
+      "summary": "Grand jury subpoenas sent to election workers in Los Angeles come amid escalating tensions between the Trump administration and California election officials over the state's voter rolls.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/8256x5504+0+0/resize/8256x5504!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F09%2Ffc%2Fd4ca16f24853b57a60be0622c0f5%2Fgettyimages-2278798144.jpg"
+    },
+    {
+      "title": "Alaska's all-important Senate race is roiled by a report on alleged spoiler candidate",
+      "url": "https://www.npr.org/2026/10/29/nx-s1-6022069/alaskas-all-important-senate-race-is-roiled-by-report-on-alleged-spoiler-candidate",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Thu, 29 Oct 2026 18:23:38 -0400",
+      "summary": "New reporting alleging Democratic efforts to prop up a spoiler candidate has roiled Alaska's all-important U.S. Senate race.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x2000+0+0/resize/3000x2000!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Ff7%2F1a%2Fc97b4483418a9b95444c9b8028d1%2Fap26296659159433.jpg"
+    },
+    {
+      "title": "Patrick Stewart, a perceptive patriarch in 'Star Trek' and 'X-Men,' dies at 86",
+      "url": "https://www.npr.org/2026/10/29/1230906945/patrick-stewart-dead",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Thu, 29 Oct 2026 16:29:13 -0400",
+      "summary": "Stewart was raised by an abusive father but became best known for playing kind, paternal leaders who united families of misfits.",
+      "thumbnailUrl": "https://media.npr.org/assets/img/2024/03/18/gettyimages-1031207830_custom-042dbfafa81fc5d44df2dbee660d3a3ffa1f37c3.jpg"
+    },
+    {
+      "title": "Some rural Republicans in California say redistricting has left them without a voice",
+      "url": "https://www.npr.org/2026/10/29/nx-s1-5902139/some-rural-republicans-in-california-say-redistricting-has-left-them-without-a-voice",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Thu, 29 Oct 2026 16:19:31 -0400",
+      "summary": "California's far northeastern corner used to be a reliably red congressional district. But Proposition 50 carved it up, meaning many voters there may soon have a Democrat representing them in D.C.",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "What killed 500-plus penguins? How scientists solved the mystery",
+      "url": "https://www.npr.org/2026/10/29/nx-s1-6020451/avian-flu-penguins-pathogen-antarctica-cholera",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Thu, 29 Oct 2026 16:03:26 -0400",
+      "summary": "The penguins that perished lived on the Danger Islands in Antarctica. The prime suspect was avian flu. Researchers were surprised by what they found.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5472x3648+0+0/resize/5472x3648!/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F63%2F04%2Fc5dc45604e3b8d741917e4b6b3ec%2Fadelie-penguins-c-ralph-vanstreels-uc-davis-12.jpg"
+    },
+    {
+      "title": "Chinese audiovisual exhibitors take center stage at African event",
+      "url": "https://www.chinadaily.com.cn/a/202610/30/WS6ae3f8a1e4b06d4aa0566065.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-10-30",
+      "summary": "CAPE TOWN — The China Pavilion took center stage on Wednesday at MIP Africa 2026, a major film and television industry event in Africa, showcasing a diverse range of Chinese audiovisual content and promoting cultural exchange and industry cooperation between China and the continent.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202610/30/6ae3f8a1e4b06d4a392f1425.png"
+    },
+    {
+      "title": "Iran pushes 7-day peace plan",
+      "url": "https://www.chinadaily.com.cn/a/202610/30/WS6ae3facfe4b06d4aa0566085.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-10-30",
+      "summary": "Iranian Foreign Minister Abbas Araghchi said Iran remained in close contact with intermediaries about its seven-day plan, which would involve reopening the Strait of Hormuz, while the United States is reportedly mulling fresh strikes against Iran after US midterm elections.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202610/30/6ae3facfe4b06d4a392f14cc.jpeg"
+    },
+    {
+      "title": "ECB leaves interest rates unchanged",
+      "url": "https://www.chinadaily.com.cn/a/202610/29/WS6ae3608be4b06d4aa0565f0d.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-10-29",
+      "summary": "FRANKFURT -- The European Central Bank (ECB) announced on Thursday that it would leave its key interest rates unchanged.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202610/29/6ae3608be4b06d4a392f0e8a.jpeg"
+    },
+    {
+      "title": "UK budget offers relief but outlook 'grim'",
+      "url": "https://www.chinadaily.com.cn/a/202610/30/WS6ae3afe7e4b06d4aa0565f23.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-10-30",
+      "summary": "Pledging relief from \"global economic storms\", the United Kingdom's finance minister, Chancellor of the Exchequer John Healey, unveiled measures on Wednesday to ease living costs for households in the first budget under UK Prime Minister Andy Burnham.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202610/30/6ae3afe7e4b06d4a392f0f1b.jpeg"
+    },
+    {
+      "title": "Wang Yi meets with Iceland's foreign minister",
+      "url": "https://www.chinadaily.com.cn/a/202610/29/WS6ae364d6e4b06d4aa0565f0f.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-10-29",
+      "summary": "Foreign Minister Wang Yi held talks with his Icelandic counterpart Thorgerdur Katrin Gunnarsdottir in Beijing on Thursday and called for bilateral ties to be elevated to new heights as the two countries mark the 55th anniversary of diplomatic relations.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202610/30/6ae3fbc6e4b06d4a392f14ed.jpeg"
+    },
+    {
+      "title": "KG Basin gas migration dispute: Supreme Court appoints Justice Ranjana Desai as sole mediator",
+      "url": "https://www.thehindu.com/news/national/kg-basin-gas-migration-dispute-supreme-court-appoints-justice-ranjana-desai-as-sole-mediator/article71643966.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-10-30T07:02:38.000Z",
+      "summary": "Supreme Court appoints Justice Ranjana Desai as sole mediator, with two domain experts, to resolve KG Basin gas migration dispute involving RIL and the Centre.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/tg3n3g/article71644026.ece/alternates/LANDSCAPE_1200/Book_Release_F.jpg"
+    },
+    {
+      "title": "PM Modi begins two-day Gujarat visit; inaugurates ₹325-crore bovine breeding centre in Banaskantha",
+      "url": "https://www.thehindu.com/news/national/gujarat/prime-minister-narendra-modi-two-day-gujarat-visit-unveil-various-projects/article71643499.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-10-30T03:34:46.000Z",
+      "summary": "Modi kicks off two-day Gujarat visit, inaugurating a ₹325-crore Bovine Breeding Centre and Bharat Parv 2026 at Ekta Nagar.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/yq6xd4/article71643943.ece/alternates/LANDSCAPE_1200/PTI10_30_2026_000053B.jpg"
+    },
+    {
+      "title": "‘Unavailable in India’: Why are social media posts being blocked amid protests? | Explained",
+      "url": "https://www.thehindu.com/news/national/why-are-social-media-posts-being-blocked-in-india-amid-protests-explained/article71643710.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-10-30T05:24:32.000Z",
+      "summary": "Explains India’s tighter takedown rules, MeitY advisories to Meta, and how faster, platform-driven content removals affect users’ recourse.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/luuuzt/article71643733.ece/alternates/LANDSCAPE_1200/2026-01-27T094908Z_1686426464_RC2QCIAJZZAQ_RTRMADP_3_INDIA-SOCIALMEDIA-CHILDREN.JPG"
+    },
+    {
+      "title": "CEC row LIVE updates: INDIA bloc's 'public impeachment' of CEC Gyanesh Kumar postponed",
+      "url": "https://www.thehindu.com/news/national/cec-row-india-bloc-sir-protest-delhi-gyanesh-kumar-october-30-2026-live-updates/article71644149.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-10-30T07:46:33.000Z",
+      "summary": "Follow The Hindu's live updates on the CEC Gyanesh Kumar row and anti-SIR protests by the Opposition and INDIA bloc on October 30, 2026",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/g21dqt/article71644176.ece/alternates/LANDSCAPE_1200/TH26-Phukan-MalG9NGNEPFV.3.jpg.jpg"
+    },
+    {
+      "title": "Supreme Court directs expelled JD(U) MLA Anant Singh to surrender by December 1",
+      "url": "https://www.thehindu.com/news/national/supreme-court-directs-expelled-jdu-mla-anant-singh-to-surrender-by-december-1/article71643970.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-10-30T06:49:46.000Z",
+      "summary": "Supreme Court orders expelled JD(U) MLA Anant Singh to surrender by December 1; Bihar Police to complete probe in four months.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/1r185k/article71643982.ece/alternates/LANDSCAPE_1200/20261017153L.jpg"
+    },
+    {
+      "title": "Qatari mediators return to Tehran to push for US-Iran deal, official says",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxORnF1OHJuNjZ6ekdJU25nLXhCNGFUaXB0V2FHRktTVWo0bjBETVRCSTJLM0tnWm5CaXI1TGV5enRhcUxIOEc1Y0dlcXNTMmd6NWdxWVFGa3BNbi1uazdEeG9ZSmR5QWVPdW5hRzVxek12RlgySGc2MTJ2Wlo0SkVzcmc5ZmRXRnVCYjlXeW9ZUGlwalAxdWJJUUpSUDRhdDEwX0RnMlE4eGlkSlBrY21VbWs2Smw3NkE?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Fri, 30 Oct 2026 07:25:07 GMT",
+      "summary": "Reuters: Qatari mediators return to Tehran to push for US-Iran deal, official says.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "Aid convoy sets off for Russian-held town of Oleshky in Ukraine, Izvestia says",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdWRLMEk4OWxzWDJXa0ZLLTBMVFFicnVjZ2lKV3QzUENDOWdPakJtUG1MT2RnMTN1Nm1hWV9qVUxES0JkQ0xISU9qUkljbDc0NElkUkNHREQxM3NSdERlSy0xSDJRZTExSjVNMWc0T3NQdVo1YkRadTg3QVlwZ3RlZFlTT05aTmcxTURZUmE5S3pyUTN3dF9TNkVnLWFVM2NqZmN4V3VYOTZLZlJGNE11d2psTV9yeGM?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Fri, 30 Oct 2026 04:32:00 GMT",
+      "summary": "Reuters: Aid convoy sets off for Russian-held town of Oleshky in Ukraine, Izvestia says.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "Gold slips as higher oil, US inflation data bolster Fed hike bets",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOMFY2WEZOWHhyVDVPMkM2ZVUxM01TR09lcUZ0RlBWNF96QkJzWXhUZWpIbmlRSUlxN3FiZ0pEYWVXOW1YcVBQcHQ4cjU1NFpCQVlnS3pneWlKeTZIRjJzWkJuek9OeDhNSGxTU1ozV1g0czltbldNNkJORWRWS0ZBU25WdURjNWNpREdpdmZoV1c2ZzBnUmM5cm5HTG16OFpEdVhLWC13RkxHM3IxX1E?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Fri, 30 Oct 2026 03:24:00 GMT",
+      "summary": "Reuters: Gold slips as higher oil, US inflation data bolster Fed hike bets.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "BOJ keeps interest rates steady, signals further rate hikes",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPckM0NUFNY0hHSVN5Y3Z2OWR6Zk9yLTVIdEtxX1JIMkR2Sjd2c2VCY01BT3QzOWQ5WmF5QmNyTC03X1VsV2V1SVZRbk9mc2lxZG9FNnBaVm1fSWVpeFdJRUxnTXJTbFdxZnFNUEtBMjRxc2FpTFJVdk0yTkxmSFM2a3Njek9JcExYRldGRFVXSEpTY1hRam1CMVBpZ3Vrc1h1MGQ2UXdScnR4dUNlUzBOamEzcw?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Fri, 30 Oct 2026 03:15:00 GMT",
+      "summary": "Reuters: BOJ keeps interest rates steady, signals further rate hikes.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "North Korea denounces South Korea-US air defence drills, KCNA reports",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOdWhOYkNXR0pZemFlN2RQejdzZ2tBQWlkZnN5OG55a1FBSk0xMGh1TWRZRG9CZGw1TWhFQWVVb3RfeS1mVllFZ2JmcWZXWHUyZENfTFg4WkRmZ2UzUmtsLTJiRDdjWHBTakJxbHFUNllpZE9BSWEzQS15NEFubWxtczBZem5tZXRzOTBXYk0yVnBTbm1tLUlVUW9ocWZmbGY3YWJOamN1Tm11S0tZRExiR2piN2RLVGFlWDJuamRVQ24?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Fri, 30 Oct 2026 03:40:00 GMT",
+      "summary": "Reuters: North Korea denounces South Korea-US air defence drills, KCNA reports.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    }
+  ],
+  "markets": [
+    {
+      "id": "sp-500",
+      "label": "S&P 500",
+      "region": "US",
+      "symbol": "^GSPC",
+      "value": 7720.39,
+      "previousClose": 7743.979844,
+      "change": -23.589844,
+      "percentChange": -0.3046217,
+      "direction": "down",
+      "sessionDate": "2026-10-30"
+    },
+    {
+      "id": "nasdaq-composite",
+      "label": "NASDAQ Composite",
+      "region": "US",
+      "symbol": "^IXIC",
+      "value": 26184.72,
+      "previousClose": 26549.846950000003,
+      "change": -365.12695,
+      "percentChange": -1.3752505,
+      "direction": "down",
+      "sessionDate": "2026-10-30"
+    },
+    {
+      "id": "euronext-100",
+      "label": "Euronext 100 Index",
+      "region": "Europe",
+      "symbol": "^N100",
+      "value": 1889.65,
+      "previousClose": 1875.680029,
+      "change": 13.969971,
+      "percentChange": 0.74479496,
+      "direction": "up",
+      "sessionDate": "2026-10-30"
+    },
+    {
+      "id": "moex",
+      "label": "Public Joint-Stock Company Moscow Exchange MICEX-RTS",
+      "region": "Europe",
+      "symbol": "MOEX.ME",
+      "value": 85.2,
+      "previousClose": 85.31000061,
+      "change": -0.11000061,
+      "percentChange": -0.12894222,
+      "direction": "down",
+      "sessionDate": "2026-10-30"
+    },
+    {
+      "id": "hang-seng",
+      "label": "HANG SENG INDEX",
+      "region": "Asia",
+      "symbol": "^HSI",
+      "value": 23310.21,
+      "previousClose": 22958.64945,
+      "change": 351.56055,
+      "percentChange": 1.5312865,
+      "direction": "up",
+      "sessionDate": "2026-10-30"
+    },
+    {
+      "id": "nikkei-225",
+      "label": "Nikkei 225",
+      "region": "Asia",
+      "symbol": "^N225",
+      "value": 63290.11,
+      "previousClose": 64659.4694,
+      "change": -1369.3594,
+      "percentChange": -2.1178017,
+      "direction": "down",
+      "sessionDate": "2026-10-30"
+    },
+    {
+      "id": "sensex",
+      "label": "S&P BSE SENSEX",
+      "region": "India",
+      "symbol": "^BSESN",
+      "value": 74653.65,
+      "previousClose": 74151.04062,
+      "change": 502.60938,
+      "percentChange": 0.67780834,
+      "direction": "up",
+      "sessionDate": "2026-10-30"
+    }
+  ],
+  "hackerNews": [
+    {
+      "title": "Binance-hacker-1029 – $5.6B stolen from Binance",
+      "url": "https://arkm.com/explorer/entity/21a94755-f604-45e5-9501-6542e23005e8",
+      "publishedAt": "2026-10-29T21:38:59.000Z",
+      "summary": "arkm.com: Binance-hacker-1029 – $5.6B stolen from Binance."
+    },
+    {
+      "title": "We're releasing the weights of Mistral Large 4",
+      "url": "https://mistral.ai/news/mistral-large-4-oss/",
+      "publishedAt": "2026-10-29T14:13:21.000Z",
+      "summary": "The weights of Mistral Large 4 (Le Chonk) are now open. A 1T parameter multimodal model, and best open-weight model for coding, trained in Europe.",
+      "thumbnailUrl": "https://mistral.ai/cms-media/api/media/file/cover-mistral-sovereign%20copie.webp"
+    },
+    {
+      "title": "Herdr has released native app",
+      "url": "https://github.com/herdrdev/herdr-app",
+      "publishedAt": "2026-10-30T00:42:41.000Z",
+      "summary": "herdr desktop app. Contribute to herdrdev/herdr-app development by creating an account on GitHub.",
+      "thumbnailUrl": "https://opengraph.githubassets.com/70fd91a17b0e21b9d596505dda7174d6061109e674d6d6886e5d8ccad8ac557c/herdrdev/herdr-app"
+    },
+    {
+      "title": "We ran AI agent swarms in Minecraft and Mindustry",
+      "url": "https://labs.ycombinator.com/projects/games/index.html",
+      "publishedAt": "2026-10-29T21:40:28.000Z",
+      "summary": "Swarms of Claude and GPT agents in Minecraft and Mindustry.",
+      "thumbnailUrl": "https://labs.ycombinator.com/og.png"
+    },
+    {
+      "title": "A tiny world model running games on a Raspberry Pi Pico 2 W",
+      "url": "https://github.com/SheepSeb/tinyworldformer",
+      "publishedAt": "2026-10-29T20:32:28.000Z",
+      "summary": "Tiny world model generates games and stream ac plays them all on Pico 2W - SheepSeb/tinyworldformer",
+      "thumbnailUrl": "https://opengraph.githubassets.com/4fb8fce4d0ebfb9927242fb0233e1b00ecfd8cd341ae6b0fbb1067a01602415f/SheepSeb/tinyworldformer"
+    },
+    {
+      "title": "H.264 Is Magic (2016)",
+      "url": "https://sidbala.com/h-264-is-magic/",
+      "publishedAt": "2026-10-29T15:53:03.000Z",
+      "summary": "A high level walkthrough of the basics of video compression techniques used in MPEG, AVC/H.264, codecs.",
+      "thumbnailUrl": "https://storage.ghost.io/c/55/d9/55d91d94-f430-41c7-b2da-d3e4e9822c0b/content/images/size/w1200/2016/11/Artboard.jpg"
+    },
+    {
+      "title": "Show HN: I Turned DOOM into a Transformer",
+      "url": "https://github.com/mottopanikeiku/doomformer",
+      "publishedAt": "2026-10-29T23:25:46.000Z",
+      "summary": "Compile an integer neural network into a DOOM map. Voodoo dolls do the arithmetic, light levels and plane heights hold the values, and every value is checked against NumPy with tolerance 0. - motto...",
+      "thumbnailUrl": "https://opengraph.githubassets.com/40aa9ea6aa78a3dacc94c27f651641683d1b158fe9310b12a08758a0fac3a5c4/mottopanikeiku/doomformer"
+    },
+    {
+      "title": "LLM Voice",
+      "url": "https://martinfowler.com/bliki/LLM-Voice.html",
+      "publishedAt": "2026-10-29T14:57:55.000Z",
+      "summary": "Sometimes when I read a post, I get the growing feeling that I'm reading the output of an LLM. I can't necessarily define why, although there are the common tells (it's not the em-dashes, it's the load-bearing tapestries). As I do this my desire to read on atrophies, sometimes to the point of revulsion",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "A Pig, the State, and War: Porco Rosso (Kurenai No Buta) (2014)",
+      "url": "https://journal.animationstudies.org/article/id/66/",
+      "publishedAt": "2026-10-29T22:26:38.000Z",
+      "summary": "Keywords: animation, militarism, Miyazaki, nationalism, non-killing policy, war",
+      "thumbnailUrl": "https://journal.animationstudies.org/media/cover_images/32a1852c-fcda-4630-b063-f82dd00354b3.jpeg"
+    },
+    {
+      "title": "Pico CSS is no longer maintained",
+      "url": "https://github.com/picocss/pico/discussions/754",
+      "publishedAt": "2026-10-30T01:58:44.000Z",
+      "summary": "v2.1.1 is the final release. Why Today, AI can generate lightweight, standalone, accessible HTML with just the CSS it needs, so a Minimal CSS Framework for Semantic HTML matters less than it used t...",
+      "thumbnailUrl": "https://opengraph.githubassets.com/3a6d74ffc646cd0aef45becc597592b9912ffb260ae8ee5d318d49d43eb92f14/picocss/pico/discussions/754"
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "Canva Brush",
+      "tagline": "Canva Brush: a vision-language model that edits your designs",
+      "url": "https://www.producthunt.com/products/canva",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-10-30T01:07:27-07:00"
+    },
+    {
+      "name": "Vaani Developer Platform",
+      "tagline": "The only voice AI harness that you'll ever need",
+      "url": "https://www.producthunt.com/products/vaani-developer-platfrom",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-10-30T01:07:26-07:00"
+    },
+    {
+      "name": "SparkBots AI (Powered by Jev)",
+      "tagline": "Instantly extract key details and analyze any webpage or PDF",
+      "url": "https://www.producthunt.com/products/sparkbots-ai-analyze-pages-and-pdfs",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-10-30T01:07:23-07:00"
+    },
+    {
+      "name": "StepGrab",
+      "tagline": "Now on Windows, with redaction and a real editor",
+      "url": "https://www.producthunt.com/products/stepgrab",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-10-30T01:07:15-07:00"
+    },
+    {
+      "name": "Nocto",
+      "tagline": "Your MacBook notch, finally useful",
+      "url": "https://www.producthunt.com/products/nocto",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-10-30T01:07:14-07:00"
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "News and markets",
+      "sentences": [
+        "Global headlines: Saudi coalition says its air defences downed Houthi drone over Mecca region (Saudi-led coalition air defences intercept and destroy a Houthi drone over the Mecca region); ‘Arab voice doesn’t count’: Jewish Israeli blocs reject Palestinian support (Palestinian voters could decide Israel’s future, but its political class refuses to accept their mandate); and Trump says won’t ‘take sides’ in Brazil election, but calls it a ‘disgrace’ (Comments come after Trump ally Flavio Bolsonaro fled to Miami in US and claimed, without evidence, that vote was stolen).",
+        "Markets leaned lower, with 4 of 7 tracked indexes down; Nikkei 225 down 2.12% was the largest move.",
+        "Benchmarks tracked: S&P 500, NASDAQ Composite, Euronext 100 Index, and Public Joint-Stock Company Moscow Exchange MICEX-RTS plus 3 more indexes."
+      ]
+    },
+    {
+      "title": "Hacker News and Product Hunt",
+      "sentences": [
+        "Hacker News: Binance-hacker-1029 – $5.6B stolen from Binance (arkm.com: Binance-hacker-1029 – $5.6B stolen from Binance); We're releasing the weights of Mistral Large 4 (The weights of Mistral Large 4 (Le Chonk) are now open. A 1T parameter multimodal model, and best open-weight model for coding, trained in...); and Herdr has released native app (herdr desktop app. Contribute to herdrdev/herdr-app development by creating an account on GitHub).",
+        "Product Hunt features Canva Brush (Canva Brush: a vision-language model that edits your designs), Vaani Developer Platform (The only voice AI harness that you'll ever need), and SparkBots AI (Powered by Jev) (Instantly extract key details and analyze any webpage or PDF)."
+      ]
+    }
+  ],
+  "sourceNotes": {
+    "generatedAt": "2026-10-30T08:08:16.430Z",
+    "timeZone": "Asia/Kolkata",
+    "successfulSources": [
+      "Al Jazeera",
+      "NPR",
+      "China Daily",
+      "The Hindu",
+      "Reuters"
+    ],
+    "marketSessionLabel": "Latest market sessions as of 2026-10-30",
+    "warnings": [
+      "Washington Post: HTTP 502 for https://feeds.washingtonpost.com/rss/world"
+    ]
+  }
+}
