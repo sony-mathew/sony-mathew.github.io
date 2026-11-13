@@ -19,6 +19,10 @@ const generateSitemap = (posts, projects = []) => `
       <changefreq>monthly</changefreq>
     </url>
     <url>
+      <loc>${DEFAULT_CONFIG.baseUrl}/books</loc>
+      <changefreq>monthly</changefreq>
+    </url>
+    <url>
       <loc>${DEFAULT_CONFIG.baseUrl}/blog</loc>
       <lastmod>${new Date(posts[0].date).toISOString().slice(0,10)}</lastmod>
       <changefreq>weekly</changefreq>
