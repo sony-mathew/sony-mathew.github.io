@@ -1,120 +1,95 @@
 .headerShell {
   position: relative;
-  overflow: hidden;
-  border: 1px solid var(--light-gray-color);
-  border-radius: 1.25rem;
-  background:
-    radial-gradient(circle at 0 0, rgba(255, 87, 47, 0.1), transparent 14rem),
-    var(--lighter-gray-color);
-  box-shadow: 0 1rem 2.5rem rgba(27, 32, 40, 0.07);
-}
-
-.headerShell::after {
-  position: absolute;
-  right: 1.25rem;
-  bottom: 0;
-  left: 1.25rem;
-  height: 2px;
-  content: "";
-  background: linear-gradient(
-    90deg,
-    var(--brand-color),
-    rgba(255, 87, 47, 0)
-  );
-  opacity: 0.75;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  background: var(--bg-color);
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.04);
 }
 
 .masthead {
   display: flex;
-  min-height: 6.25rem;
+  min-height: 4rem;
   align-items: center;
   justify-content: space-between;
-  gap: 2rem;
-  padding: 1.15rem 1.25rem;
+  gap: 1.5rem;
+  padding: 0.75rem 1.25rem;
 }
 
 .brand {
   display: inline-flex;
   min-width: 0;
   align-items: center;
-  gap: 0.9rem;
-  color: var(--darker-gray-color);
+  gap: 0.85rem;
+  color: var(--heading-color);
   opacity: 1;
+  text-decoration: none;
 }
 
 .brand:hover {
-  color: var(--darker-gray-color);
-}
-
-.brand:focus-visible {
-  border-radius: 0.75rem;
-  outline: 3px solid rgba(0, 147, 233, 0.35);
-  outline-offset: 0.35rem;
+  color: var(--brand-color);
 }
 
 .brandMark {
   display: inline-grid;
-  width: 3.15rem;
-  height: 3.15rem;
+  width: 2.25rem;
+  height: 2.25rem;
   flex: 0 0 auto;
   place-items: center;
-  border-radius: 1rem 1rem 1rem 0.35rem;
-  background: var(--brand-color);
-  box-shadow: 0 0.45rem 1rem rgba(255, 87, 47, 0.24);
-  color: #fff;
-  font-size: 0.72rem;
+  border-radius: var(--radius-sm);
+  background: var(--heading-color);
+  color: var(--bg-color);
+  font-family: var(--font-display);
+  font-size: 0.75rem;
   font-weight: 800;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.05em;
 }
 
 .brandCopy {
   display: flex;
   min-width: 0;
   flex-direction: column;
-  gap: 0.1rem;
+  gap: 0.05rem;
 }
 
 .eyebrow {
   color: var(--secondary-text-color);
-  font-size: 0.68rem;
+  font-size: 0.65rem;
   font-weight: 700;
-  letter-spacing: 0.12em;
-  line-height: 1.2;
+  letter-spacing: 0.1em;
+  line-height: 1;
   text-transform: uppercase;
 }
 
 .title {
-  color: var(--darker-gray-color);
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: clamp(1.45rem, 2.4vw, 1.85rem);
+  color: var(--heading-color);
+  font-family: var(--font-display);
+  font-size: 1.15rem;
   font-weight: 700;
-  letter-spacing: -0.035em;
-  line-height: 1.08;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
   white-space: nowrap;
 }
 
 .title span {
-  color: var(--brand-color);
-  font-style: italic;
-  font-weight: 600;
+  color: var(--heading-color);
+  font-weight: 700;
 }
 
 .title b {
   color: var(--brand-color);
-  font-style: normal;
 }
 
 .actions {
   display: flex;
   flex: 0 0 auto;
   align-items: center;
-  gap: 0.85rem;
+  gap: 1rem;
 }
 
 .desktopNavigation ul {
   display: flex;
   align-items: center;
-  gap: 0.2rem;
+  gap: 0.25rem;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -125,97 +100,46 @@
 }
 
 .navLink {
-  position: relative;
   display: inline-flex;
-  min-height: 2.5rem;
   align-items: center;
-  padding: 0.55rem 0.8rem;
-  border-radius: 0.65rem;
+  padding: 0.4rem 0.75rem;
+  border-radius: var(--radius-sm);
   color: var(--secondary-text-color);
-  font-size: 0.88rem;
-  font-weight: 650;
-  letter-spacing: 0.01em;
-  opacity: 1;
-  transition:
-    color 150ms var(--animation-base),
-    background-color 150ms var(--animation-base);
+  font-family: var(--font-body);
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.15s ease;
 }
 
 .navLink:hover {
-  background: var(--white-color);
-  color: var(--darker-gray-color);
-}
-
-.navLink:focus-visible,
-.menuButton:focus-visible,
-.mobileNavLink:focus-visible {
-  outline: 3px solid rgba(0, 147, 233, 0.35);
-  outline-offset: 2px;
+  background: var(--bg-subtle);
+  color: var(--heading-color);
 }
 
 .navLink.activeNavLink {
-  background: var(--white-color);
-  box-shadow: 0 0.3rem 0.9rem rgba(27, 32, 40, 0.06);
-  color: var(--darker-gray-color);
-}
-
-.navLink.activeNavLink::after {
-  position: absolute;
-  right: 0.8rem;
-  bottom: 0.35rem;
-  left: 0.8rem;
-  height: 2px;
-  border-radius: 999px;
-  content: "";
-  background: var(--brand-color);
+  background: var(--bg-subtle);
+  color: var(--brand-color);
+  font-weight: 700;
 }
 
 .themeControl {
   display: inline-flex;
-  padding-left: 0.85rem;
-  border-left: 1px solid var(--light-gray-color);
-}
-
-.themeButton {
-  color: var(--secondary-text-color);
+  padding-left: 0.75rem;
+  border-left: 1px solid var(--border-color);
 }
 
 .menuButton {
   display: none;
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 2.25rem;
+  height: 2.25rem;
   appearance: none;
   place-items: center;
-  border: 1px solid var(--light-gray-color);
-  border-radius: 0.75rem;
-  background: var(--white-color);
-  color: var(--darker-gray-color);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  background: var(--bg-color);
+  color: var(--heading-color);
   cursor: pointer;
-}
-
-.menuButton span {
-  grid-area: 1 / 1;
-  width: 1rem;
-  height: 2px;
-  border-radius: 999px;
-  background: currentColor;
-  transition: transform 150ms var(--animation-base);
-}
-
-.menuButton span:first-child {
-  transform: translateY(-0.2rem);
-}
-
-.menuButton span:last-child {
-  transform: translateY(0.2rem);
-}
-
-.menuButton[aria-expanded="true"] span:first-child {
-  transform: rotate(45deg);
-}
-
-.menuButton[aria-expanded="true"] span:last-child {
-  transform: rotate(-45deg);
 }
 
 .mobileNavigation {
@@ -223,52 +147,13 @@
 }
 
 @media (max-width: 760px) {
-  .headerShell {
-    border-radius: 1rem;
-  }
-
-  .headerShell::after {
-    right: 1rem;
-    left: 1rem;
-  }
-
   .masthead {
-    min-height: 5rem;
-    gap: 0.75rem;
-    padding: 0.85rem 1rem;
-  }
-
-  .brand {
-    gap: 0.7rem;
-  }
-
-  .brandMark {
-    width: 2.65rem;
-    height: 2.65rem;
-    border-radius: 0.85rem 0.85rem 0.85rem 0.3rem;
-    font-size: 0.63rem;
-  }
-
-  .eyebrow {
-    font-size: 0.59rem;
-    letter-spacing: 0.09em;
-  }
-
-  .title {
-    font-size: clamp(1.08rem, 5.1vw, 1.35rem);
-  }
-
-  .actions {
-    gap: 0.45rem;
+    min-height: 3.5rem;
+    padding: 0.65rem 1rem;
   }
 
   .desktopNavigation {
     display: none;
-  }
-
-  .themeControl {
-    padding-left: 0;
-    border-left: 0;
   }
 
   .menuButton {
@@ -277,18 +162,18 @@
 
   .mobileNavigation {
     display: block;
-    padding: 0.25rem 1rem 1.2rem;
-    border-top: 1px solid var(--light-gray-color);
-    animation: reveal-navigation 160ms var(--animation-base);
+    padding: 0.75rem 1rem 1rem;
+    border-top: 1px solid var(--border-color);
+    background: var(--bg-subtle);
   }
 
   .mobileNavigationLabel {
     display: block;
-    margin: 0.85rem 0 0.55rem;
+    margin-bottom: 0.5rem;
     color: var(--secondary-text-color);
-    font-size: 0.65rem;
+    font-size: 0.7rem;
     font-weight: 700;
-    letter-spacing: 0.12em;
+    letter-spacing: 0.08em;
     text-transform: uppercase;
   }
 
@@ -301,97 +186,21 @@
     list-style: none;
   }
 
-  .mobileNavigation li {
-    margin: 0;
-  }
-
   .mobileNavLink {
     display: flex;
-    min-height: 3.1rem;
     align-items: center;
     justify-content: space-between;
-    gap: 0.4rem;
-    padding: 0.7rem;
-    border: 1px solid var(--light-gray-color);
-    border-radius: 0.75rem;
-    background: var(--white-color);
-    color: var(--primary-text-color);
-    font-size: 0.85rem;
-    font-weight: 650;
-    opacity: 1;
-  }
-
-  .mobileNavLink span {
-    color: var(--secondary-text-color);
-    font-size: 0.7rem;
+    padding: 0.6rem 0.75rem;
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-sm);
+    background: var(--bg-color);
+    color: var(--heading-color);
+    font-size: 0.875rem;
+    font-weight: 600;
   }
 
   .mobileNavLink.activeNavLink {
     border-color: var(--brand-color);
-    color: var(--darker-gray-color);
-  }
-
-  .mobileSocials {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    margin-top: 1rem;
-    padding: 0.85rem 0.15rem 0;
-    border-top: 1px solid var(--light-gray-color);
-  }
-
-  .mobileSocials a {
-    opacity: 0.7;
-  }
-}
-
-@media (max-width: 390px) {
-  .eyebrow {
-    display: none;
-  }
-
-  .masthead {
-    gap: 0.45rem;
-  }
-
-  .brand {
-    gap: 0.5rem;
-  }
-
-  .brandMark {
-    width: 2.4rem;
-    height: 2.4rem;
-  }
-
-  .title {
-    font-size: 0.96rem;
-  }
-
-  .actions {
-    gap: 0.3rem;
-  }
-}
-
-@media (max-width: 340px) {
-  .brandMark {
-    display: none;
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .mobileNavigation {
-    animation: none;
-  }
-}
-
-@keyframes reveal-navigation {
-  from {
-    opacity: 0;
-    transform: translateY(-0.35rem);
-  }
-
-  to {
-    opacity: 1;
-    transform: translateY(0);
+    color: var(--brand-color);
   }
 }

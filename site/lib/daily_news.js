@@ -60,7 +60,12 @@ export async function getDailyNewsData(id) {
     const payloadPath = path.join(PAYLOAD_DIRECTORY, entry.payloadFile);
 
     if (fs.existsSync(payloadPath)) {
-      dailyNewsPayload = JSON.parse(fs.readFileSync(payloadPath, "utf8"));
+      try {
+        dailyNewsPayload = JSON.parse(fs.readFileSync(payloadPath, "utf8"));
+      } catch (err) {
+        console.error(`Failed to parse daily news payload at ${payloadPath}:`, err);
+        dailyNewsPayload = null;
+      }
     }
   }
 
