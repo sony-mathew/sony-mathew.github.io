@@ -14,6 +14,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: site-deployment
+  cancel-in-progress: false
+
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
@@ -51,7 +55,7 @@ jobs:
           echo "Installing package.json dependencies..."
           pwd
           cd ./site
-          npm install
+          npm ci
           cd ..
 
       # Runs a set of commands using the runners shell

@@ -57,7 +57,7 @@ $ npm run generate:daily-news -- --date 2026-04-19 --overwrite
 * The scheduled GitHub Actions workflow in `.github/workflows/daily-news.yml` runs daily at `02:00 UTC` and opens or updates a PR against `master` with the generated edition. Add `OPENROUTER_API_KEY` as a GitHub Actions secret to enable AI-written metadata during the build.
 
 ### How does this work?
-The deploy script will automatically checkout the `deploy` branch (This is set as branch to be served for GitHub Pages in the repo settings). It will then merge the `master` branch into `deploy` and build and export the static website to the root of the repo. After that it will  stage all the changes, commit automatically, push the commit to the remote and checkout `master` branch.
+The deploy script builds and exports the checked-out source, then copies the exported files into a temporary worktree of the `deploy` branch served by GitHub Pages. It commits and pushes only that deployment worktree, preserving existing files such as `CNAME`. It leaves the source branch checked out and stops if any build or Git command fails. CI installs the locked dependencies with `npm ci` before deploying.
 
 Take a look at the `deploy.sh` file in the root of the repo to understand how this is done.
 
