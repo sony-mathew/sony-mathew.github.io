@@ -109,3 +109,5 @@ What appeals to me is having more control over each step: choosing the bank for 
 The main caveat for me is tax filing. I couldn’t find ready-made Indian tax reports in [IBKR’s published reporting options](https://www.interactivebrokers.co.in/en/support/reports-and-dates.php). It provides account statements and relevant tax forms, but I’d need to work through those records myself or with my CA to prepare the Indian tax return.
 
 That’s a trade-off I’m willing to make. For me, the broader market access and control are worth the extra work at tax time.
+
+I’ll also keep an eye on newer brokers entering this space. As more platforms offer access to global markets, there may be options that combine that flexibility with easier funding and Indian tax reporting. IBKR would be my choice today, but I’m open to revisiting it as those options develop.
