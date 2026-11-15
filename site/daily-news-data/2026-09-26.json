@@ -1,0 +1,508 @@
+{
+  "headlines": [
+    {
+      "title": "Pentagon quietly adds dozens to tally of troops wounded amid Iran war",
+      "url": "https://www.washingtonpost.com/national-security/2026/09/25/pentagon-quietly-adds-dozens-tally-troops-wounded-amid-iran-war/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Fri, 25 Sep 2026 19:50:18 +0000",
+      "summary": "With the addition of 29 U.S. sailors and eight Marines, the total number of personnel wounded since the start of hostilities has risen to 861, a Pentagon database shows.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "Saudis have not ruled out developing nuclear weapons, U.S. intelligence assesses",
+      "url": "https://www.washingtonpost.com/national-security/2026/09/25/saudis-have-not-ruled-out-developing-nuclear-weapons-us-intelligence-assesses/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Fri, 25 Sep 2026 17:12:04 +0000",
+      "summary": "The sobering outlook has compounded concerns from some U.S. lawmakers about President Donald Trump’s agreement to assist the kingdom with establishing a civilian nuclear program.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "Pope Leo visits secular France as surge of converts jolts a flagging faith",
+      "url": "https://www.washingtonpost.com/world/2026/09/25/pope-leo-visits-secular-france-surge-converts-jolts-flagging-faith/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Fri, 25 Sep 2026 09:17:11 +0000",
+      "summary": "TikTok-savvy Catholic priests and candlelight Masses ending with recruiters sharing QR codes are helping the unbaptized connect with their grandparents’ faith.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "As Houthis capitalize on U.S.-led war with Iran, fighting engulfs Yemen",
+      "url": "https://www.washingtonpost.com/world/2026/09/25/houthis-capitalize-us-led-war-with-iran-fighting-engulfs-yemen/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Fri, 25 Sep 2026 09:00:00 +0000",
+      "summary": "As a brutal civil war reignites in Yemen between Iran-backed Houthi rebels and the government coalition backed by Saudi Arabia, a humanitarian disaster seems inevitable.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "Ukraine weighs legalizing pornography to raise tax revenue and buy drones",
+      "url": "https://www.washingtonpost.com/world/2026/09/25/ukraine-weighs-legalizing-pornography-raise-taxes-buy-more-drones/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Fri, 25 Sep 2026 09:00:00 +0000",
+      "summary": "Decriminalizing porn would help close a huge budget gap but is a fraught step in a nation long stained by a reputation for exploiting its women.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "Iran says Hormuz can reopen within 7 days if US accepts proposal",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/9/26/iran-war-live-tehran-offers-us-plan-to-reopen-hormuz-within-seven-days",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-09-26",
+      "summary": "Iran's FM says the \"choice rests with the US\" to approve the proposed seven-day proposal to reopen Hormuz.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/09/AP26268736231155-1790403008.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Iran says it awaits US response on seven-day roadmap to end war",
+      "url": "https://www.aljazeera.com/news/2026/9/25/iran-says-it-awaits-us-response-on-seven-day-roadmap-to-end-war",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-09-25",
+      "summary": "Tehran says the plan would reopen the Strait of Hormuz and resume nuclear talks within a week if Washington agrees.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/09/ap_6ab6ed9c4927c-1790373276.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Pope Leo XIV warns AI could undermine humanity during France visit",
+      "url": "https://www.aljazeera.com/news/2026/9/25/pope-leo-xiv-warns-ai-could-undermine-humanity-during-france-visit",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-09-25",
+      "summary": "Thousands gather in Paris as the pope warns against a 'paradise of machines' at the Elysee Palace.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/09/afp_6ab6f342b1d9-1790374722.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "DR Congo’s Ebola outbreak spreads to two new health zones, WHO says",
+      "url": "https://www.aljazeera.com/news/2026/9/25/dr-congos-ebola-outbreak-spreads-to-two-new-health-zones-who-says",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-09-25",
+      "summary": "Health workers struggle as new Ebola cases are found in border regions of South Ubangi and Haut-Uele.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/09/reuters_6ab6e4f3-1790371059.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Houthi attack on Mecca, Medina would cross ‘red line’, Pakistan PM tells UN",
+      "url": "https://www.aljazeera.com/news/2026/9/25/houthi-attack-on-mecca-medina-would-cross-red-line-pakistan-pm-tells-un",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-09-25",
+      "summary": "Shehbaz Sharif speaks as Islamabad, Riyadh and Ankara army chiefs meet to discuss Mecca pact, closer military ties.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/09/afp_6ab6d2e0682b-1790366432.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Pope warns a 'paradise of machines' could undermine humanity as he opens France trip",
+      "url": "https://www.npr.org/2026/09/26/g-s1-145150/pope-warns-a-paradise-of-machines-could-undermine-humanity",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Sat, 26 Sep 2026 02:59:45 -0400",
+      "summary": "Pope Leo XIV has warned that a \"paradise of machines\" could undermine humanity. He raises concerns about artificial intelligence, nuclear arms, and human rights during his visit to France.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6177x4118+0+0/resize/6177x4118!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F01%2F6f%2Fea296ca441689fb4d8f64f62c5f6%2Fap26268410442066.jpg"
+    },
+    {
+      "title": "Roads flood in New Jersey, inundate some homes, as first major signs of nor'easter take shape",
+      "url": "https://www.npr.org/2026/09/26/g-s1-145146/roads-flood-in-new-jersey",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Sat, 26 Sep 2026 01:43:38 -0400",
+      "summary": "Thousands are without power on the U.S. East Coast, while roads are flooding in some coastal New Jersey communities.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5608x3739+0+0/resize/5608x3739!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Ff4%2F61%2F28390f60467cb27fa5776d64bf57%2Fap26268625770334.jpg"
+    },
+    {
+      "title": "CNN left off Air Force One for Trump's upcoming trip, White House signals in new media restriction",
+      "url": "https://www.npr.org/2026/09/26/g-s1-145142/cnn-left-off-air-force-one",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Sat, 26 Sep 2026 00:42:17 -0400",
+      "summary": "The White House has signaled that CNN will be left off Air Force One for President Donald Trump's Saturday trip in the latest media restriction in an ongoing dispute with First Amendment implications.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6000x4000+0+0/resize/6000x4000!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F01%2F7f%2Fc3c8dbcc46688eb6c5bf94a3406f%2Fap26268639286662.jpg"
+    },
+    {
+      "title": "Supreme Court blocks Trump-backed Missouri congressional map",
+      "url": "https://www.npr.org/2026/09/25/nx-s1-5978875/midterms-redistricting-trump-missouri",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Fri, 25 Sep 2026 18:06:16 -0400",
+      "summary": "The ruling is a defeat for Republicans seeking to give their party an edge in the midterms for control of the House. It means voters will face a different map than the one used in the primaries.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4032x2688+0+0/resize/4032x2688!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Ff3%2Fe0%2F005ed3b84eeabe3d931eac08f76f%2Fap26245625342453.jpg"
+    },
+    {
+      "title": "The Pacific is churning with hurricanes. The Atlantic is quiet. Blame El Niño",
+      "url": "https://www.npr.org/2026/09/25/nx-s1-5980351/hurricane-nolo-pacific-el-nino",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Fri, 25 Sep 2026 16:08:40 -0400",
+      "summary": "The Pacific Ocean has had an unusual number of storms this year, while the Atlantic hasn't recorded a single full-blown hurricane. Scientists point to an exceptionally strong El Niño.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2244x1320+0+0/resize/2244x1320!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F51%2F04%2Fb54976eb449884ae16d1b815aa30%2Fap26267781548857.jpg"
+    },
+    {
+      "title": "Legacy of flying tigers lives on",
+      "url": "https://www.chinadaily.com.cn/a/202609/24/WS6ab47c56e4b06d4aa055feb8.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-09-24",
+      "summary": "For those living Flying Tigers — a group of volunteer US pilots who came to China as early as 1941 to help fight against the invading Japanese troops — traveling back to China for this year's events marking the 85th anniversary of their great deeds is demanding due to their advanced age.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202609/24/6ab4a375e4b06d4a392d00f8.png"
+    },
+    {
+      "title": "Guterres calls for unity in UNGA address",
+      "url": "https://www.chinadaily.com.cn/a/202609/24/WS6ab4792fe4b06d4aa055fe7b.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-09-24",
+      "summary": "UNITED NATIONS — UN Secretary-General Antonio Guterres pleaded for \"a world built on interdependence\" in his address on Tuesday to a yearly gathering of world leaders convening to face a formidable menu of challenges — from climate change and war to inequality and artificial intelligence.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202609/24/6ab4792fe4b06d4a392cf8aa.png"
+    },
+    {
+      "title": "Inside an Indiana soybean farm: How important is the Chinese market?",
+      "url": "https://www.chinadaily.com.cn/a/202609/22/WS6ab1fd67e4b06d4aa055f79c.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-09-22",
+      "summary": "Over the past several years, from tariff hikes to China-US leaders' summits, trade relations between the two countries have been rocky — and soybeans have repeatedly become a focal point in bilateral trade talks. But what does the Chinese market really mean for the US soybean industry?",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202609/22/6ab1fd67e4b06d4a392cd669.png"
+    },
+    {
+      "title": "UN General Assembly begins general debate",
+      "url": "https://www.chinadaily.com.cn/a/202609/23/WS6ab3327fe4b06d4aa055fb17.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-09-23",
+      "summary": "UNITED NATIONS -- The General Debate of the 81st session of the UN General Assembly opened at the UN headquarters in New York on Tuesday.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202609/23/6ab3327fe4b06d4a392ce6e6.jpeg"
+    },
+    {
+      "title": "Hopes raised in US for new traction of ties",
+      "url": "https://www.chinadaily.com.cn/a/202609/24/WS6ab458a0e4b06d4aa055fdee.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-09-24",
+      "summary": "President Xi Jinping left Beijing for Washington on Wednesday as people from various circles in the United States expressed expectations that the visit would give strong impetus to building stable, sound and sustainable bilateral relations.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202609/24/6ab47bf6e4b06d4a392cf9de.jpeg"
+    },
+    {
+      "title": "Kharge remembers ex-PM Manmohan Singh for landmark economic reforms on his birth anniversary",
+      "url": "https://www.thehindu.com/news/national/kharge-remembers-ex-pm-manmohan-singh-for-landmark-economic-reforms-on-his-birth-anniversary/article71511708.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-09-26T05:07:04.000Z",
+      "summary": "Congress president Kharge honors Manmohan Singh on his birth anniversary, praising his visionary reforms, humility, and inclusive growth.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/v5hc7f/article71511716.ece/alternates/LANDSCAPE_1200/TH01-Phukan-MalGKJGFMIGV.3.jpg.jpg"
+    },
+    {
+      "title": "Union Minister and NDA ally Jitan Ram Manjhi says Scheduled Castes, Scheduled Tribes MPs not given enough time to speak in Parliament",
+      "url": "https://www.thehindu.com/news/national/scst-mps-not-given-enough-time-to-speak-in-parliament-says-nda-ally-and-minister-jitan-ram-manjhi/article71509412.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-09-25T17:10:26.000Z",
+      "summary": "NDA ally Manjhi seeks more floor time for SC/ST MPs in Parliament, urging Speaker Birla to address perceived speaking-time disparities.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/nlx0o9/article71510094.ece/alternates/LANDSCAPE_1200/20260807161L.jpg"
+    },
+    {
+      "title": "Declaration part of Form 6 changed since SIR in Bihar",
+      "url": "https://www.thehindu.com/news/national/declaration-part-of-form-6-changed-since-sir-in-bihar/article71509555.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-09-25T17:07:39.000Z",
+      "summary": "ECI says a separate declaration for Form 6 and 8 was approved during Bihar’s SIR and ratified in phases two and three, with changes lasting from birth-date proof to online submission nuances.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/u6cngu/article71510154.ece/alternates/LANDSCAPE_1200/BIHAR%20ELECTION%20SPECIAL%20INVESTIGATION%20REVISIONSIR%20%20to%20electoral%20roll%20%205.JPG"
+    },
+    {
+      "title": "Plea in Supreme Court seeks SIT probe against CEC Gyanesh Kumar, audit of poll body databases",
+      "url": "https://www.thehindu.com/news/national/plea-in-supreme-court-says-cec-gyanesh-kumar-can-be-probed-and-tried-like-an-ordinary-accused/article71507762.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-09-25T08:52:07.000Z",
+      "summary": "A Supreme Court plea seeks to subject CEC Gyanesh Kumar to police investigation and trial like an \"ordinary accused\" over electoral roll tampering allegations.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/ah28i8/article71507923.ece/alternates/LANDSCAPE_1200/6744_19_8_2025_16_15_17_3_18_08_2025_SUPREME_COURT08.JPG"
+    },
+    {
+      "title": "What is Compulsory Muslim marriage registration Assam? | Explained",
+      "url": "https://www.thehindu.com/news/national/assam/what-is-compulsory-muslim-marriage-registration-assam-explained/article71511645.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-09-26T04:33:29.000Z",
+      "summary": "Explains Assam's 2024 Act mandating Muslim marriage/divorce registration, procedures, eligibility, objections, penalties, and reception.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/pk87ug/article71511661.ece/alternates/LANDSCAPE_1200/iStock-1399663184.jpg"
+    },
+    {
+      "title": "Six big takeaways from a turbulent week of UN diplomacy",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOOFZoZDdKM2NZd3RrRFBLRGQ3VWoteUxkRFFtemw1RGVqbXdBWEdDR3FNazZ6MERQMWdCMThtVnJ5dnpmYjU0WWgzZW03OU5vWVZKLXRmS0s2c3BKV2lKbTlGLTJDRThYRW96eGJNVEhDZ3VEVVhPNGxpSkszTFc5WXNNQWh4dVRYWEJIZkhPTGN3ZDJXeW5FV2dYT3M?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Sat, 26 Sep 2026 05:11:44 GMT",
+      "summary": "Reuters: Six big takeaways from a turbulent week of UN diplomacy.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "Saudi coalition says it intercepts Houthi missiles, drones",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdndqUFdtd2J6b19yZlhhZjlOZXVBYkNvYjVtTjQzYUxlRTVldkZHbjdQdDQtMGI0ZFEwSEY2MTc1OHNTcWJHUXJCbFJjSlpFb0o3blUxMTRBQWZncEVZaEZiMEdJbU9ZOGZIbUFxQzB3SGduZFZ2ZGFDYWNoZEtqVTd0QXRVZUc2UHRXMnpjUi1XM0d0a3dXcDg3ZFRqd2xsWHdzVXlhOXhMMDlQeHlpcEFXWjNncEZWbnBxZ0NaLXI?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Sat, 26 Sep 2026 01:25:00 GMT",
+      "summary": "Reuters: Saudi coalition says it intercepts Houthi missiles, drones.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "Brazil's Lula bans online betting, unveils debt relief plan as reelection race tightens",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQYnNWTkRFTmhMWF9BQTl3aTFRaDRuR2hqZF9YcHdRSlpHdUFoanQ1NmJTV0RHa1g0SUxtdHJpSV9ubTdLSk1MLVl2cXNHaHJGRGtKOVJGcXJFUGZxU3J0WFhEOVFkanU4dVdKNWhZS0o4OTFINjlrMHd5UnNnWHlTcm5vTkU1NGxkbzZ5bUtTMmxTSGxRTmlpaXRfdi15X0JSclZqeGdRZENTSnh0YTc3dXVZRVVjclhUbm9r?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Fri, 25 Sep 2026 23:31:19 GMT",
+      "summary": "Reuters: Brazil's Lula bans online betting, unveils debt relief plan as reelection race tightens.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "Venezuela's promised elections face long delays, sources say",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOSkRwTTlfWE50T0VGMVkzczI1U25HVGwzY3hYdDFROHFNQ0U3ZlY1cUJSeGNaZ3hNQzRCa0h5R3l3TFR1TkVkN2dGcldUblV4MU14b1k5N05WakU4RWZRNm8yNUFENENoTkFmN3JQOElLdmdvbTdqVVROYkNzd1J0aU9ieThra1ljUWpFcjFwX25pWFRwanVkM01qQk5DSDBlcTFPa1dLMGZhOFUxNUE?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Fri, 25 Sep 2026 22:42:03 GMT",
+      "summary": "Reuters: Venezuela's promised elections face long delays, sources say.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "EXCLUSIVE: OpenAI works to understand full scope of agent activity as user data leak emerges",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZUEtbWlTaWtWX0dYU2dvc0dCT3c4TW8wQS1nOWFVUWp4NU1nNFVxZXMybmhIWTlLVWlUalRVVk5JUVNrdVRfQVVRTlVtNWtwTndFTWlpOEZ1WW9OZi1peUNJNFZMRHdVWXQ1VkhNNkxkS1dVNjFNWGtPenNtYjJyVkdnZzF1ZXNzUWsxbjlPbm5EcDNTVkdaYkN6ckdlTkRrTmJqWUFQOXUtVTJTWGVTYnZlUzM?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Fri, 25 Sep 2026 20:37:00 GMT",
+      "summary": "Reuters: EXCLUSIVE: OpenAI works to understand full scope of agent activity as user data leak emerges.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    }
+  ],
+  "markets": [
+    {
+      "id": "sp-500",
+      "label": "S&P 500",
+      "region": "US",
+      "symbol": "^GSPC",
+      "value": 7743.41,
+      "previousClose": 7704.129727,
+      "change": 39.280273,
+      "percentChange": 0.50986,
+      "direction": "up",
+      "sessionDate": "2026-09-26"
+    },
+    {
+      "id": "nasdaq-composite",
+      "label": "NASDAQ Composite",
+      "region": "US",
+      "symbol": "^IXIC",
+      "value": 27068.717,
+      "previousClose": 26939.37325,
+      "change": 129.34375,
+      "percentChange": 0.48012903,
+      "direction": "up",
+      "sessionDate": "2026-09-26"
+    },
+    {
+      "id": "euronext-100",
+      "label": "Euronext 100 Index",
+      "region": "Europe",
+      "symbol": "^N100",
+      "value": 1895.33,
+      "previousClose": 1889.8800489999999,
+      "change": 5.449951,
+      "percentChange": 0.28837553,
+      "direction": "up",
+      "sessionDate": "2026-09-26"
+    },
+    {
+      "id": "moex",
+      "label": "Public Joint-Stock Company Moscow Exchange MICEX-RTS",
+      "region": "Europe",
+      "symbol": "MOEX.ME",
+      "value": 85.2,
+      "previousClose": 85.31000061,
+      "change": -0.11000061,
+      "percentChange": -0.12894222,
+      "direction": "down",
+      "sessionDate": "2026-09-26"
+    },
+    {
+      "id": "hang-seng",
+      "label": "HANG SENG INDEX",
+      "region": "Asia",
+      "symbol": "^HSI",
+      "value": 24510.09,
+      "previousClose": 24761.13102,
+      "change": -251.04102,
+      "percentChange": -1.0138512,
+      "direction": "down",
+      "sessionDate": "2026-09-26"
+    },
+    {
+      "id": "nikkei-225",
+      "label": "Nikkei 225",
+      "region": "Asia",
+      "symbol": "^N225",
+      "value": 66364.2,
+      "previousClose": 65513.98516,
+      "change": 850.21484,
+      "percentChange": 1.2977607,
+      "direction": "up",
+      "sessionDate": "2026-09-26"
+    },
+    {
+      "id": "sensex",
+      "label": "S&P BSE SENSEX",
+      "region": "India",
+      "symbol": "^BSESN",
+      "value": 73895.74,
+      "previousClose": 73580.53688,
+      "change": 315.20312,
+      "percentChange": 0.42837837,
+      "direction": "up",
+      "sessionDate": "2026-09-26"
+    }
+  ],
+  "hackerNews": [
+    {
+      "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
+      "url": "https://swarmtraces.org/",
+      "publishedAt": "2026-09-25T21:09:27.000Z",
+      "summary": "When a swarm of 700 OpenAI agents hacked Hugging Face in July, they left behind a public trail of evidence.",
+      "thumbnailUrl": "https://swarmtraces.org/assets/opengraph-preview.jpg?v=77a1f50796"
+    },
+    {
+      "title": "A single function Jev-like wrapper for LLMs, including vision models",
+      "url": "http://allanrbo.blogspot.com/2026/09/a-jev-like-wrapper-for-llms-including.html",
+      "publishedAt": "2026-09-26T04:20:58.000Z",
+      "summary": "I was intrigued by Jev and the self-hostable projects appearing around it, such as OpenJev and SemIf . Reading about them introduced me ...",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "Plan mode is dead",
+      "url": "https://www.aymannadeem.com/artificial/intelligence,/developer/tools/2026/09/24/plan-mode-is-dead.html",
+      "publishedAt": "2026-09-25T03:59:11.000Z",
+      "summary": "Earlier this year, I believed planning was going to become the most important part of building software with AI.",
+      "thumbnailUrl": "https://www.aymannadeem.com/assets/images/plan-mode-is-dead/code-generation-vs-interfaces.png"
+    },
+    {
+      "title": "Ollaya – Ollama for open-source, Jev-style decision models",
+      "url": "https://ollaya.dev/",
+      "publishedAt": "2026-09-25T18:33:50.000Z",
+      "summary": "Ollaya downloads and serves open decision models on your own machine. Typed, calibrated answers in milliseconds, private and open source.",
+      "thumbnailUrl": "https://ollaya.dev/static/og.png?v=7bd2eae221"
+    },
+    {
+      "title": "Show HN: Jev Plays Pokémon Red",
+      "url": "https://jev-pokemon.vercel.app/",
+      "publishedAt": "2026-09-25T14:28:07.000Z",
+      "summary": "Watch the AI decision model Jev play Pokémon Red in its entirety, live.",
+      "thumbnailUrl": "https://jev-pokemon.vercel.app/og.png?v=2"
+    },
+    {
+      "title": "What even is an OS now?",
+      "url": "https://sockpuppet.org/blog/2026/09/25/what-even-is-an-os-now/",
+      "publishedAt": "2026-09-25T21:36:56.000Z",
+      "summary": "Computers now work the way I thought they did when I was 8. What does computing look like when most applications have an audience of 1-2 people? I'm leaving Fly.io to build a phone for that world.",
+      "thumbnailUrl": "https://sockpuppet.org/images/og-default.png"
+    },
+    {
+      "title": "The Murky History of Soviet-Born Tetris",
+      "url": "https://thereader.mitpress.mit.edu/the-bizarre-murky-history-of-soviet-born-tetris/",
+      "publishedAt": "2026-09-24T23:11:45.000Z",
+      "summary": "thereader.mitpress.mit.edu: The Murky History of Soviet-Born Tetris."
+    },
+    {
+      "title": "Postgres SELECT DISTINCT Does Not Scale",
+      "url": "https://www.dbos.dev/blog/postgres-select-distinct-does-not-scale",
+      "publishedAt": "2026-09-24T18:43:52.000Z",
+      "summary": "Postgres SELECT DISTINCT performs surprisingly poorly. We explain why and how we mitigated it.",
+      "thumbnailUrl": "https://cdn.prod.website-files.com/672411cbf038560468c9e68f/6a7a0f12442b7d3cceb98f2e_Postgres-SELECT-DISTINCT-does-not-scale2.jpg"
+    },
+    {
+      "title": "Jury finds Facebook liable for deceiving users in Cambridge Analytica case",
+      "url": "https://www.cbsnews.com/news/facebook-liable-deceiving-users-cambridge-analytica/",
+      "publishedAt": "2026-09-26T01:36:50.000Z",
+      "summary": "The two-week trial in New Mexico centered on accusations Facebook deceived users about a data breach.",
+      "thumbnailUrl": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/07/15/75086901-0979-4c15-bff8-e08d099a0d48/thumbnail/1200x630/dd6c3a2164e3ba2fd68f4b4a7fde49d9/gettyimages-2272777092.jpg"
+    },
+    {
+      "title": "How I changed teaching after AI managed to do all my homework assignments",
+      "url": "https://thelastsoftwareengineer.substack.com/p/how-i-changed-teaching-after-ai-managed",
+      "publishedAt": "2026-09-24T20:51:50.000Z",
+      "summary": "thelastsoftwareengineer.substack.com: How I changed teaching after AI managed to do all my homework assignments."
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "Fewer",
+      "tagline": "The launcher that counts how often you pick up your phone",
+      "url": "https://www.producthunt.com/products/fewer",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-09-26T00:07:18-07:00"
+    },
+    {
+      "name": "Lisen",
+      "tagline": "Free Read Aloud with Cartesia Voices",
+      "url": "https://www.producthunt.com/products/lisen",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-09-26T00:07:18-07:00"
+    },
+    {
+      "name": "Psst",
+      "tagline": "A shared shopping list that remembers what things cost",
+      "url": "https://www.producthunt.com/products/psst-3",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-09-26T00:07:18-07:00"
+    },
+    {
+      "name": "Eclatira",
+      "tagline": "Conversational Video Agent That Plugs Into Any Stack",
+      "url": "https://www.producthunt.com/products/eclatira",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-09-26T00:07:18-07:00"
+    },
+    {
+      "name": "Kleanly",
+      "tagline": "One tap in the notch locks your keyboard and trackpad",
+      "url": "https://www.producthunt.com/products/kleanly",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-09-26T00:07:18-07:00"
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "News and markets",
+      "sentences": [
+        "Global headlines: Pentagon quietly adds dozens to tally of troops wounded amid Iran war (With the addition of 29 U.S. sailors and eight Marines, the total number of personnel wounded since the start of hostilities has risen to 861, a Pentagon database shows); Saudis have not ruled out developing nuclear weapons, U.S. intelligence assesses (The sobering outlook has compounded concerns from some U.S. lawmakers about President Donald Trump’s agreement to assist the kingdom with establishing a civilian nuclear program); and Pope Leo visits secular France as surge of converts jolts a flagging faith (TikTok-savvy Catholic priests and candlelight Masses ending with recruiters sharing QR codes are helping the unbaptized connect with their grandparents’ faith).",
+        "Markets leaned higher, with 5 of 7 tracked indexes up; Nikkei 225 up 1.30% was the largest move.",
+        "Benchmarks tracked: S&P 500, NASDAQ Composite, Euronext 100 Index, and Public Joint-Stock Company Moscow Exchange MICEX-RTS plus 3 more indexes."
+      ]
+    },
+    {
+      "title": "Hacker News and Product Hunt",
+      "sentences": [
+        "Hacker News: Revealing the details of how OpenAI agents hacked Hugging Face (When a swarm of 700 OpenAI agents hacked Hugging Face in July, they left behind a public trail of evidence); A single function Jev-like wrapper for LLMs, including vision models (I was intrigued by Jev and the self-hostable projects appearing around it, such as OpenJev and SemIf . Reading about them introduced me ...); and Plan mode is dead (Earlier this year, I believed planning was going to become the most important part of building software with AI).",
+        "Product Hunt features Fewer (The launcher that counts how often you pick up your phone), Lisen (Free Read Aloud with Cartesia Voices), and Psst (A shared shopping list that remembers what things cost)."
+      ]
+    }
+  ],
+  "sourceNotes": {
+    "generatedAt": "2026-09-26T07:07:32.268Z",
+    "timeZone": "Asia/Kolkata",
+    "successfulSources": [
+      "Washington Post",
+      "Al Jazeera",
+      "NPR",
+      "China Daily",
+      "The Hindu",
+      "Reuters"
+    ],
+    "marketSessionLabel": "Latest market sessions as of 2026-09-26",
+    "warnings": []
+  }
+}

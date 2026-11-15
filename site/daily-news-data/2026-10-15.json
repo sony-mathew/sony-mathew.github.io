@@ -1,0 +1,459 @@
+{
+  "headlines": [
+    {
+      "title": "Trump administration seeks to strip Ilhan Omar of US citizenship: WSJ",
+      "url": "https://www.aljazeera.com/news/2026/10/15/trump-administration-seeks-to-strip-ilhan-omar-of-us-citizenship-wsj",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-10-15",
+      "summary": "Investigators have subpoenaed relatives and examined immigration records, the newspaper reports.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/10/afp_6acd05bae07a-1791821242.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Iran war updates: Cargo ships sunk in Hormuz, Houthis claim Riyadh attack",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/14/iran-war-live-saudi-coalition-hits-houthi-sites-aramco-office-hit-in-east",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-10-14",
+      "summary": "These were the updates on the US-Israel war on Iran from Wednesday, October 14, 2026.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/10/2026-10-13T175311Z_185260809_RC2F2OA0G1PC_RTRMADP_3_IRAN-CRISIS-HORMUZ-1-1791998155.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Teenager dies as heavy rain floods Istanbul",
+      "url": "https://www.aljazeera.com/news/2026/10/15/teenager-dies-as-heavy-rain-floods-istanbul",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-10-15",
+      "summary": "Roads collapse and hospitals take in water as floods swamp Turkiye's largest city, shutting schools and halting traffic.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/10/ap_6ad031dc14c4e-1792029148.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "North Korea tests two submarine-launched missiles, state media reports",
+      "url": "https://www.aljazeera.com/news/2026/10/15/north-korea-tests-two-submarine-launched-missiles-state-media-reports",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-10-15",
+      "summary": "The tests showcase North Korea's war deterrent capabilities in the region, KCNA says.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/10/afp_6ad01c58e25e-1792023640.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Israel has detained more than 2,000 Palestinian children since 2023: report",
+      "url": "https://www.aljazeera.com/news/2026/10/15/israel-has-detained-more-than-2000-palestinian-children-since-2023-report",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-10-15",
+      "summary": "At least 350 Palestinian children currently face 'harsh conditions' in Israeli prisons.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/10/reuters_6ad03444-1792029764.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Aboard an icebreaker, a writer got a closer look at the Arctic's 'Sea Change'",
+      "url": "https://www.npr.org/2026/10/14/nx-s1-6001592/arctic-sea-change-rana-foroohar",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Wed, 14 Oct 2026 15:42:03 -0400",
+      "summary": "As polar ice melts in the Arctic, shipping lanes are opening up, making the region a new zone of superpower competition. Writer Rana Foroohar explains the stakes in Sea Change.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1536x864+0+592/resize/1536x864!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F91%2F64%2F667fda7e425eba94a43332b55381%2Fimg-2932.JPEG"
+    },
+    {
+      "title": "Inflation sizzled in September — and Social Security benefits will get a boost",
+      "url": "https://www.npr.org/2026/10/14/nx-s1-6000593/inflation-consumer-prices-cpi-social-security-benefits",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Wed, 14 Oct 2026 09:33:44 -0400",
+      "summary": "Consumer prices in September jumped 3.7% from a year ago. The Social Security Administration said benefits will increase next year to help keep pace with the rising cost of living.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5000x3333+0+0/resize/5000x3333!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F56%2F61%2Fc0ae826a434f85125c7d6ab98c31%2Fgettyimages-2298003777.jpg"
+    },
+    {
+      "title": "Hands-on with the Ocarina of Time remake, the most ornate Zelda game ever made",
+      "url": "https://www.npr.org/2026/10/14/nx-s1-5961483/preview-zelda-ocarina-of-time-remake-switch-2",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Wed, 14 Oct 2026 09:00:00 -0400",
+      "summary": "We got to play The Legend of Zelda: Ocarina of Time early. Here are our impressions of the remake and its elaborate new style.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3840x2160+0+0/resize/3840x2160!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fbc%2F68%2Fcae527114c97a9cdea6377147af2%2Fns2-thelegendofzeldaocarinaoftime-scrn-11.png"
+    },
+    {
+      "title": "Zelenskyy sits down with NPR. And, Pope Leo diagnosed with lung cancer",
+      "url": "https://www.npr.org/2026/10/14/g-s1-148040/up-first-newsletter-volodymyr-zelenskyy-pope-leo-kimberly-guilfoyle-media-free-speech",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Wed, 14 Oct 2026 07:38:51 -0400",
+      "summary": "Ukrainian President Volodymyr Zelenskyy has a sit-down interview with NPR as Russia's full-scale invasion nears the 5-year mark. And, Pope Leo XIV has been diagnosed with lung cancer.",
+      "thumbnailUrl": "https://feeds.npr.org/1001/undefined"
+    },
+    {
+      "title": "These workers help train robots who could one day steal their jobs",
+      "url": "https://www.npr.org/2026/10/14/g-s1-146907/these-workers-help-train-robots-who-could-one-day-steal-their-jobs",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Wed, 14 Oct 2026 05:28:47 -0400",
+      "summary": "Factory workers in India are being asked to wear GoPro cameras to record the way they do their jobs. The ultimate goal is to train robots to take over. Will it work?",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3703x2084+0+0/resize/3703x2084!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F04%2Fc6%2Fd28dafef4d61ba6cc03148fd71ef%2Fai-robots-final.jpeg"
+    },
+    {
+      "title": "UK rules out tax on Chinese EV exports",
+      "url": "https://www.chinadaily.com.cn/a/202610/15/WS6ad03585e4b06d4aa0562ea7.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-10-15",
+      "summary": "The United Kingdom has no plans to yield to pressure from the European Union and start taxing electric vehicles, or EVs, imported from China, its business minister has said.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202610/15/6ad03585e4b06d4a392e2295.jpeg"
+    },
+    {
+      "title": "Assembly helps put reindeer herders in spotlight",
+      "url": "https://www.chinadaily.com.cn/a/202610/15/WS6ad03589e4b06d4aa0562ead.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-10-15",
+      "summary": "Representatives from China's only reindeer herding people have shared their stories of climate change for the first time at the Arctic Circle Assembly in Reykjavik, Iceland.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202610/15/6ad03589e4b06d4a392e22a7.png"
+    },
+    {
+      "title": "'Golden Week' boosts Australian tourism",
+      "url": "https://www.chinadaily.com.cn/a/202610/15/WS6ad03d30e4b06d4aa0562ed5.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-10-15",
+      "summary": "China's latest peak travel period helped Australia's pillar tourism sector reach new highs, reflecting the rising importance of the Chinese market as businesses and other stakeholders look to tap growth trends.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202610/15/6ad03d30e4b06d4a392e2364.jpeg"
+    },
+    {
+      "title": "China urges action on climate change",
+      "url": "https://www.chinadaily.com.cn/a/202610/15/WS6ad01350e4b06d4aa0562d9d.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-10-15",
+      "summary": "China's former vice-foreign minister Fu Ying called for greater international cooperation on scientific research and environmental protection in the Arctic, saying climate change, rather than imagined security threats, is the real challenge facing the region.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202610/15/6ad01350e4b06d4a392e1e19.png"
+    },
+    {
+      "title": "China calls for breakthrough in Libya's political deadlock",
+      "url": "https://www.chinadaily.com.cn/a/202610/15/WS6ad03684e4b06d4aa0562ebd.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-10-15",
+      "summary": "China called for an end to Libya's prolonged political deadlock and warned that renewed armed conflict could undermine efforts to achieve peace and stability, as the North African country continues to grapple with divided institutions, security risks and economic pressures.",
+      "thumbnailUrl": "https://www.chinadaily.com.cn/image_e/2020/logo21.jpg"
+    },
+    {
+      "title": "October 10 detainees provided ‘hot, fresh, good meals’, only cellular internet was suspended: Delhi Police to SC",
+      "url": "https://www.thehindu.com/news/national/oct-10-detainees-provided-hot-fresh-good-meals-only-cellular-internet-was-suspended-delhi-police-to-sc/article71586610.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-10-15T04:35:09.000Z",
+      "summary": "Delhi Police justify Oct 10 preventive measures for public order, detailing detainee care, internet suspension, and event context before SC petitions.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/p45aby/article71586640.ece/alternates/LANDSCAPE_1200/6744_11_10_2026_16_20_12_1_A16_65155.JPEG"
+    },
+    {
+      "title": "India asks when UN body will report on PoK human rights concerns",
+      "url": "https://www.thehindu.com/news/national/india-asks-when-un-body-will-report-on-pok-human-rights-concerns/article71586551.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-10-15T03:42:21.000Z",
+      "summary": "India questions UN OHCHR’s forthcoming PoK report, urging prompt investigations and access to rights amid Kashmir unrest.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/aho45u/article71586587.ece/alternates/LANDSCAPE_1200/Screenshot%202026-10-15%20091038.png"
+    },
+    {
+      "title": "Bihar records over 52 deaths in boat capsize incidents over three years",
+      "url": "https://www.thehindu.com/news/national/bihar/bihar-records-over-52-deaths-in-boat-capsize-incidents-over-three-years/article71586731.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-10-15T05:40:14.000Z",
+      "summary": "Bihar records 52+ deaths from 18 country-made boat capsize tragedies over three years, with 2026 peak monthwise tolls and inquiries.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/tu3q7c/article71586777.ece/alternates/LANDSCAPE_1200/PTI10_14_2026_000051B.jpg"
+    },
+    {
+      "title": "What is Ankita Bhandari murder case? Timeline of events and ‘VIP’ angle explained",
+      "url": "https://www.thehindu.com/news/national/uttarakhand/ankita-bhandari-murder-case-explained-timeline-of-events/article71586611.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-10-15T05:16:06.000Z",
+      "summary": "Ankita Bhandari murder case: What is the case, timeline of events, and 'VIP' angle explained",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/cil9td/article71586676.ece/alternates/LANDSCAPE_1200/image%206.jpeg"
+    },
+    {
+      "title": "Supreme Court upholds Madras HC order quashing Tamil Nadu reservation notification for converts to Islam",
+      "url": "https://www.thehindu.com/news/national/supreme-court-upholds-madras-hc-order-quashing-tamil-nadu-reservation-notification-for-converts-to-islam/article71586768.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-10-15T05:41:42.000Z",
+      "summary": "Supreme Court rejects Tamil Nadu's bid to extend reservation benefits to Muslim converts, deeming conversion creates an artificial group lacking statutory backing.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/1mvuu3/article71586839.ece/alternates/LANDSCAPE_1200/6744_19_8_2025_16_15_17_3_18_08_2025_SUPREME_COURT08.JPG"
+    },
+    {
+      "title": "Zelenskiy says Ukraine will resume strikes on Russian refineries, FT reports",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSmt3MmNHZWJGNkVUMEV6MS00VmdnZ3U4LXpGVE5PUk1ZYXA2TjhQWm9lMUtObEVyZTlqejdpeDhKZlV5QVI0dWV6VUE3cXFtSmd3WUQyTldneXBQZjB0dU5lRTItQTc3YWZJRXB6NjRfOGZaVzhYUjExQmhYQ2lWUFlkXzc0TkdNWUl6S0xrMkZBZmNCYWpLUldwVDdsTGh5ZnkxSlFPWEdKWXhzZ2FLRVI3LWk?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Thu, 15 Oct 2026 06:03:00 GMT",
+      "summary": "Reuters: Zelenskiy says Ukraine will resume strikes on Russian refineries, FT reports.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "Seventeen students, one teacher killed in school roof collapse in Pakistan",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPei15OEJPSlpiaEF6a1V6MzN5dWFvNmQzZnFaZUVIbEpWREFXSG5kQzlpTDVyS3lST1g3Tk9XdXFzbTd2UEV5THZMcWdBSUw3LWpWX25mcW95Ui0tYk01RWxNNl85a01TRUdVUnpxV3g5WlA1MEU1eGZ1bGQ1eUl1WnRUaGhyRDd1UC1DcWhOcjQxcGMwZHhGb2hzTGpuQ3dmcTNkcGhmZkdxQlplQndkYm5hdGVEalFEMkFYSkJNYw?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Thu, 15 Oct 2026 06:10:00 GMT",
+      "summary": "Reuters: Seventeen students, one teacher killed in school roof collapse in Pakistan.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "US military weighs use of ‘mother of all bombs’ in potential future strikes on Iran, CNN says",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbkE2TjhWV0FPQU53YTl2bDFSaHNWVDBnMkFlekJxWTZ0RTFMTDRxa2czR0F4alduTnIzN2JBRkxlS1ZIb2I2Wk56WXE5OFBDQ0Z3cVNkcmpXWkNjc01JZm9hLWtqSFZHUktvUUt4S2hVTENQOXJ5Wk5mam93SjgxcW15SkttV2s0bU1TeFotalEtQXJ3M0MwSGtGd3FtdWp4eUlJSm1ubGJmT1ktai1YRk9fMGJPWmpaVDBBMA?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Thu, 15 Oct 2026 04:23:00 GMT",
+      "summary": "Reuters: US military weighs use of ‘mother of all bombs’ in potential future strikes on Iran, CNN says.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "Gold rebounds from one-week low as dollar slips",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNUGo4bEV3TDlUV2I1Nkg3dzNpODBCZ0hBWXJtWHR2OWwxWGVGZlRVcDZINFJqdmQ5QXJRNk5aUVVtZDhZSUlzUEJNWmpUcm9oSmtrNldYLWZEWTl6NDNueFY4VlQyby1oYnBKcnFSaHBQR1BWZXZ1NVg5LXZReXc5UjlWTXFzd2pDSEpBVTljTjk?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Thu, 15 Oct 2026 03:18:00 GMT",
+      "summary": "Reuters: Gold rebounds from one-week low as dollar slips.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "EXCLUSIVE: SK Hynix conditions new US factory on more US chip equipment exports to China, sources say",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNZExZLWRBZUo2NlJPaFhzSWxERFdkcGl1bklYWTFfQ1NrRG01WWtmQjhlT3g5OEtvT3c2SjNlbHVlcEhVelBtVk5RVHR2ckU4VFZTV1J1S3ZpOENaT1dibXQ3cXdsbFd3Rk43N1lFWEZBVC00NFJiSlU5TlpEbEVsWi1RakhQYmpwN2xlMGRlakZqdFRnaEJpQkZaRllTMFVhbUJmaWt3d2NRclJvRFZ1VG5jNWpSZ2dWZ3l1bEhHUnBWajR4YVB6S3hEamlMMzA?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Thu, 15 Oct 2026 02:02:00 GMT",
+      "summary": "Reuters: EXCLUSIVE: SK Hynix conditions new US factory on more US chip equipment exports to China, sources say.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    }
+  ],
+  "markets": [
+    {
+      "id": "sp-500",
+      "label": "S&P 500",
+      "region": "US",
+      "symbol": "^GSPC",
+      "value": 7718.94,
+      "previousClose": 7805.450253999999,
+      "change": -86.510254,
+      "percentChange": -1.1083313,
+      "direction": "down",
+      "sessionDate": "2026-10-15"
+    },
+    {
+      "id": "nasdaq-composite",
+      "label": "NASDAQ Composite",
+      "region": "US",
+      "symbol": "^IXIC",
+      "value": 26692.87,
+      "previousClose": 27204.381719999998,
+      "change": -511.51172,
+      "percentChange": -1.880255,
+      "direction": "down",
+      "sessionDate": "2026-10-15"
+    },
+    {
+      "id": "euronext-100",
+      "label": "Euronext 100 Index",
+      "region": "Europe",
+      "symbol": "^N100",
+      "value": 1867.5,
+      "previousClose": 1858.589966,
+      "change": 8.910034,
+      "percentChange": 0.4793975,
+      "direction": "up",
+      "sessionDate": "2026-10-15"
+    },
+    {
+      "id": "moex",
+      "label": "Public Joint-Stock Company Moscow Exchange MICEX-RTS",
+      "region": "Europe",
+      "symbol": "MOEX.ME",
+      "value": 85.2,
+      "previousClose": 85.31000061,
+      "change": -0.11000061,
+      "percentChange": -0.12894222,
+      "direction": "down",
+      "sessionDate": "2026-10-15"
+    },
+    {
+      "id": "hang-seng",
+      "label": "HANG SENG INDEX",
+      "region": "Asia",
+      "symbol": "^HSI",
+      "value": 23999.82,
+      "previousClose": 24314.1696,
+      "change": -314.3496,
+      "percentChange": -1.2928659,
+      "direction": "down",
+      "sessionDate": "2026-10-15"
+    },
+    {
+      "id": "nikkei-225",
+      "label": "Nikkei 225",
+      "region": "Asia",
+      "symbol": "^N225",
+      "value": 64425.95,
+      "previousClose": 67744.2898,
+      "change": -3318.3398,
+      "percentChange": -4.8983316,
+      "direction": "down",
+      "sessionDate": "2026-10-15"
+    },
+    {
+      "id": "sensex",
+      "label": "S&P BSE SENSEX",
+      "region": "India",
+      "symbol": "^BSESN",
+      "value": 73977.02,
+      "previousClose": 72781.8872,
+      "change": 1195.1328,
+      "percentChange": 1.6420782,
+      "direction": "up",
+      "sessionDate": "2026-10-15"
+    }
+  ],
+  "hackerNews": [
+    {
+      "title": "Things to know when you get cancer",
+      "url": "https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/",
+      "publishedAt": "2026-10-14T19:26:30.000Z",
+      "summary": "Personal website and portfolio",
+      "thumbnailUrl": "https://jjmaxwell4.com/open-graph/things-to-know-when-you-get-cancer.png"
+    },
+    {
+      "title": "OpenCode 2.0",
+      "url": "https://anoma.ly/notes/opencode-2-0/",
+      "publishedAt": "2026-10-14T20:48:24.000Z",
+      "summary": "OpenCode 2.0.",
+      "thumbnailUrl": "https://anoma.ly/notes/og/opencode-2-0.png"
+    },
+    {
+      "title": "Tiny Little Office",
+      "url": "https://tinylittleoffice.com/",
+      "publishedAt": "2026-10-14T22:10:08.000Z",
+      "summary": "A tiny office suite where the link is the document. No accounts. Nothing is saved anywhere unless you choose to keep it on this device.",
+      "thumbnailUrl": "https://tinylittleoffice.com/og.png"
+    },
+    {
+      "title": "LFM2.5-24B-A2B: Built for fast on-device agents",
+      "url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
+      "publishedAt": "2026-10-14T23:59:37.000Z",
+      "summary": "LFM2.5-24B-A2B: an open-weight 24B reasoning model with 2B active parameters, built for fast, private on-device agents. Beats Qwen3.6-35B-A3B on LiveClaw.",
+      "thumbnailUrl": "https://aypchzzf9pftwuto.public.blob.vercel-storage.com/image%20(3)-oOdUn61bDRSykk4H951SoDOHzqoOe1.png"
+    },
+    {
+      "title": "Donaldson Futuro House in Idyllwild, California, USA",
+      "url": "https://www.wowhaus.co.uk/2026/10/12/donaldson-futuro-house-in-idyllwild-california-usa/",
+      "publishedAt": "2026-10-13T19:55:41.000Z",
+      "summary": "wowhaus.co.uk: Donaldson Futuro House in Idyllwild, California, USA."
+    },
+    {
+      "title": "Americans' social activity has steeply declined in the past 30 years",
+      "url": "https://www.dataforprogress.org/blog/2026/9/29/americans-social-activity-has-steeply-declined-in-the-past-30-years",
+      "publishedAt": "2026-10-14T16:09:00.000Z",
+      "summary": "Our survey finds significant, double-digit declines in Americans’ participation in key social activities from 1995 to 2026.",
+      "thumbnailUrl": "http://static1.squarespace.com/static/5aa9be92f8370a24714de593/t/6aba933e8ee596665cfd1976/1790612286756/Copy+of+Poll_+Personally+Knowing+a+Transgender+Person+Correlates+With+Increased+Sympathy+for+Transgender+People+and+Support+for+LGBTQ%2B+Issues.png?format=1500w"
+    },
+    {
+      "title": "The Double Headed Stack Allocator",
+      "url": "https://blog.demofox.org/2026/10/03/the-double-headed-stack-allocator/",
+      "publishedAt": "2026-10-15T02:06:36.000Z",
+      "summary": "blog.demofox.org: The Double Headed Stack Allocator."
+    },
+    {
+      "title": "Show HN: Flipflop, iroh-powered persistent tunnels for filesharing",
+      "url": "https://github.com/andunieee/flipflop",
+      "publishedAt": "2026-10-15T04:25:28.000Z",
+      "summary": "filesharing for the meatspace era. Contribute to andunieee/flipflop development by creating an account on GitHub.",
+      "thumbnailUrl": "https://opengraph.githubassets.com/dffa59d92686b06dbb6ea7d590b17bc89390c27b31103cf136be95a49d272613/andunieee/flipflop"
+    },
+    {
+      "title": "Better HTTP/1 connection reuse in Go 1.27",
+      "url": "https://go.dev/blog/http-connection-reuse",
+      "publishedAt": "2026-10-14T16:29:33.000Z",
+      "summary": "Go 1.27 includes a change to the HTTP client that can make programs sending many sequential HTTP/1 requests significantly faster.",
+      "thumbnailUrl": "https://go.dev/doc/gopher/gopher5logo.jpg"
+    },
+    {
+      "title": "We’re releasing Jev 1.14.0 along with experimental features for dreamers",
+      "url": "https://typesafe.ai/blog/jev-1-14",
+      "publishedAt": "2026-10-14T21:11:03.000Z",
+      "summary": "TypeSafe AI is an AI lab building machine-native intelligence infrastructure for automation, designed to make decisions within software. Try our first System One Model, Jev, in early access.",
+      "thumbnailUrl": "https://framerusercontent.com/images/KBTvCTXoQaZeABcI7te5PTQw7Q.png?width=1574&height=996"
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "Talanoa",
+      "tagline": "Email that feels like chat.",
+      "url": "https://www.producthunt.com/products/talanoa-2",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-10-15T00:01:33-07:00"
+    },
+    {
+      "name": "withHuman",
+      "tagline": "A human approval layer for AI Agents",
+      "url": "https://www.producthunt.com/products/withhuman",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-10-15T00:01:40-07:00"
+    },
+    {
+      "name": "Actually Asked",
+      "tagline": "A self-improving branded AI FAQ page",
+      "url": "https://www.producthunt.com/products/actually-asked",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-10-15T00:01:40-07:00"
+    },
+    {
+      "name": "Rushilo",
+      "tagline": "Edit video by talking to Claude Code or Codex",
+      "url": "https://www.producthunt.com/products/rushilo",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-10-15T00:01:40-07:00"
+    },
+    {
+      "name": "Backdrop",
+      "tagline": "Build AI coworkers for any workflow, any industry",
+      "url": "https://www.producthunt.com/products/backdrop",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-10-15T00:01:45-07:00"
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "News and markets",
+      "sentences": [
+        "Global headlines: Trump administration seeks to strip Ilhan Omar of US citizenship: WSJ (Investigators have subpoenaed relatives and examined immigration records, the newspaper reports); Iran war updates: Cargo ships sunk in Hormuz, Houthis claim Riyadh attack (These were the updates on the US-Israel war on Iran from Wednesday, October 14, 2026); and Teenager dies as heavy rain floods Istanbul (Roads collapse and hospitals take in water as floods swamp Turkiye's largest city, shutting schools and halting traffic).",
+        "Markets leaned lower, with 5 of 7 tracked indexes down; Nikkei 225 down 4.90% was the largest move.",
+        "Benchmarks tracked: S&P 500, NASDAQ Composite, Euronext 100 Index, and Public Joint-Stock Company Moscow Exchange MICEX-RTS plus 3 more indexes."
+      ]
+    },
+    {
+      "title": "Hacker News and Product Hunt",
+      "sentences": [
+        "Hacker News: Things to know when you get cancer (Personal website and portfolio); OpenCode 2.0 (OpenCode 2.0); and Tiny Little Office (A tiny office suite where the link is the document. No accounts. Nothing is saved anywhere unless you choose to keep it on this device).",
+        "Product Hunt features Talanoa (Email that feels like chat), withHuman (A human approval layer for AI Agents), and Actually Asked (A self-improving branded AI FAQ page)."
+      ]
+    }
+  ],
+  "sourceNotes": {
+    "generatedAt": "2026-10-15T07:01:58.606Z",
+    "timeZone": "Asia/Kolkata",
+    "successfulSources": [
+      "Al Jazeera",
+      "NPR",
+      "China Daily",
+      "The Hindu",
+      "Reuters"
+    ],
+    "marketSessionLabel": "Latest market sessions as of 2026-10-15",
+    "warnings": [
+      "Washington Post: HTTP 502 for https://feeds.washingtonpost.com/rss/world"
+    ]
+  }
+}

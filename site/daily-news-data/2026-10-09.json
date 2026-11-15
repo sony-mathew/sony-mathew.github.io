@@ -1,0 +1,503 @@
+{
+  "headlines": [
+    {
+      "title": "Iran scales up Hormuz attacks, raising pressure on Trump as midterms near",
+      "url": "https://www.washingtonpost.com/world/2026/10/08/iran-scales-up-hormuz-attacks-raising-pressure-trump-midterms-near/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Thu, 08 Oct 2026 21:03:29 +0000",
+      "summary": "Oil shipments have slowed in the face of Iranian attacks after President Donald Trump celebrated restored flows. Such a level of violence has not been seen for months.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/ITFHS2QZMTB4Q5KJCU7N3E7JXA.JPG&w=1440"
+    },
+    {
+      "title": "U.S. backtracked on critical mineral, data demands in health deal with Zambia",
+      "url": "https://www.washingtonpost.com/national-security/2026/10/08/us-backtracked-critical-mineral-data-demands-health-deal-with-zambia/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Thu, 08 Oct 2026 20:11:22 +0000",
+      "summary": "The administration signed a $1.5 billion agreement with Zambia, but only after being forced to abandon controversial data-sharing and resource-access provisions.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/3FET7RKJH7JO4P46FYEFF277GI_size-normalized.jpg&w=1440"
+    },
+    {
+      "title": "No new attack on Iran before the midterm elections, Trump says",
+      "url": "https://www.washingtonpost.com/politics/2026/10/08/no-new-attack-iran-before-midterm-elections-trump-says/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Thu, 08 Oct 2026 17:30:00 +0000",
+      "summary": "The president has acknowledged sometimes using public statements about negotiations and military planning to keep adversaries off guard.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/OAFAT62XN5ICLSSIKRXSFLNLGQ_size-normalized.jpg&w=1440"
+    },
+    {
+      "title": "U.S. officials charge Maduro, wife with torturing dissidents",
+      "url": "https://www.washingtonpost.com/national-security/2026/10/08/us-officials-charge-maduro-wife-with-torturing-dissidents/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Thu, 08 Oct 2026 16:14:22 +0000",
+      "summary": "The Justice Department filed a new indictment against deposed Venezuelan president Nicolás Maduro and his wife, who have been in federal prison since January.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/YFILNMWDAAI7DALQNAKBTLY4ZE.jpg&w=1440"
+    },
+    {
+      "title": "At least 30 dead in Russian bus strike as Moscow closes in on Ukraine’s ‘fortress belt’",
+      "url": "https://www.washingtonpost.com/world/2026/10/08/least-30-dead-russian-bus-strike-moscow-closes-ukraines-fortress-belt/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Thu, 08 Oct 2026 15:41:18 +0000",
+      "summary": "Russia has increasingly hit civilian targets, but the Thursday strike, which ripped through two buses, was reminiscent of larger strikes earlier in the war.",
+      "thumbnailUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/X6JZQUCBKTXLZ3IOSQT5DK72L4.JPG&w=1440"
+    },
+    {
+      "title": "Three Saudi citizens killed in Thursday’s attacks on Riyadh airport",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/9/iran-war-live-iranian-media-reports-massive-explosions-in-hormuz-strait",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-10-09",
+      "summary": "Civil Aviation Authority says King Khalid International Airport subjected to two attacks on Thursday.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2021/06/AP468490053472.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Northern Ireland’s Sinn Fein faces police probe as protest tensions fester",
+      "url": "https://www.aljazeera.com/news/2026/10/9/northern-irelands-sinn-fein-faces-police-probe-as-protest-tensions-fester",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-10-09",
+      "summary": "The Democratic Unionist Party calls for the prosecution of Sinn Fein lawmakers who participated in the protest.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/10/getty_6ac84c4ccb-1791511628.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "ICE shooting of New York man in car with five-year-old sparks protests",
+      "url": "https://www.aljazeera.com/news/2026/10/9/ice-agent-shoots-man-in-car-with-five-year-old-child-in-new-york-mayor",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-10-09",
+      "summary": "Mayor, governor and US lawmakers condemn the shooting by immigration officers.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/10/afp_6ac8493f2f1b-1791510847.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Key takeaways from US Senate debate in Michigan between El-Sayed, Rogers",
+      "url": "https://www.aljazeera.com/news/2026/10/9/key-takeaways-from-us-senate-debate-in-michigan-between-el-sayed-rogers",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-10-09",
+      "summary": "Democrat Abdul El-Sayed and Republican Mike Rogers are locked in a toss-up race for the US Senate.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/10/ap_6ac8223627367-1791500854.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "UN extends Darfur arms embargo, blocks broader Sudan sanctions proposal",
+      "url": "https://www.aljazeera.com/news/2026/10/9/un-extends-darfur-arms-embargo-blocks-broader-sudan-sanctions-proposal",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-10-09",
+      "summary": "Russia and China block US efforts to expand the Darfur arms embargo to cover all of Sudan amid ongoing conflict.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/08/afp_6a8e5fbf41d6-1787715519.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "NEWSBRIEF: HURRICANE ISAIAS, UKRAINE WAR LATEST, POLITICS OF IRAN WAR",
+      "url": "https://www.npr.org/2026/10/09/nx-s1-5988274/newsbrief-hurricane-isaias-ukraine-war-latest-politics-of-iran-war",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Fri, 09 Oct 2026 04:28:16 -0400",
+      "summary": "Gulf Coast Preps for Isaias, Ukraine expects Russian winter offensive, and Trump's Iran War in focus as Midterms approach.",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "Christa Pike is walking with help and eating after failed execution attempt",
+      "url": "https://www.npr.org/2026/10/09/nx-s1-5996402/christa-pike-updates",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Fri, 09 Oct 2026 01:52:50 -0400",
+      "summary": "Pike has begun walking and eating again at a hospital a week after surviving Tennessee's attempt to execute her with lethal drugs, her attorneys said Thursday.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5060x3373+0+0/resize/5060x3373!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F01%2F97%2Faef5f81d4712b66cdce4001fc3b6%2Fap26280677262297.jpg"
+    },
+    {
+      "title": "Pentagon says the firing squad execution of Fort Hood shooter will be livestreamed",
+      "url": "https://www.npr.org/2026/10/09/g-s1-147419/fort-hood-shooter-execution",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Fri, 09 Oct 2026 01:35:41 -0400",
+      "summary": "The Pentagon says the firing squad execution of Fort Hood shooter Nidal Malik Hasan will be livestreamed after Defense Secretary Pete Hegseth said the execution would be \"public.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4286x2996+0+0/resize/4286x2996!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F1d%2F2d%2Fd7830f0647c0b2b37b4075a00557%2Fap26279659849146.jpg"
+    },
+    {
+      "title": "Isaias strengthens into Category 2 hurricane on collision course with the Gulf Coast",
+      "url": "https://www.npr.org/2026/10/09/nx-s1-5996396/hurricane-isaias-updates",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Fri, 09 Oct 2026 01:20:03 -0400",
+      "summary": "The first hurricane of the Atlantic season was forecast to intensify rapidly and cause dangerous conditions in the Florida Panhandle, southern Alabama and southern Mississippi when it makes landfall late Friday or early Saturday.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1788x1754+0+0/resize/1788x1754!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Ffe%2F5c%2Fb9d992f643e597cfafb2fae051c6%2Fap26281529295134.jpg"
+    },
+    {
+      "title": "OpenAI caught Russians and Iranians using ChatGPT for influence campaigns",
+      "url": "https://www.npr.org/2026/10/08/nx-s1-5995576/openai-russia-iran-influence-operations-chatgpt",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Thu, 08 Oct 2026 20:25:15 -0400",
+      "summary": "The company says Russian operatives used its AI chatbot to update their bosses, shedding light on influence campaigns previously not attributed to Russia.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5163x3442+0+0/resize/5163x3442!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fe8%2Fc7%2F6cccc55c4e25a530dc16749b37cb%2Fap26272792510419.jpg"
+    },
+    {
+      "title": "Experts point to more scope for enhancing ties",
+      "url": "https://www.chinadaily.com.cn/a/202610/08/WS6ac7b143e4b06d4aa0561bf3.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-10-08",
+      "summary": "The summit between China and the United States in Washington, DC, last month has helped stabilize bilateral ties in the near term at least, with new agreements on trade and dialogue mechanisms offering room for further cooperation, analysts said.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202610/09/6ac8526fe4b06d4a392dbc6a.jpeg"
+    },
+    {
+      "title": "Africa launches rating agency to strengthen financial system",
+      "url": "https://www.chinadaily.com.cn/a/202610/09/WS6ac846a0e4b06d4aa0561d4b.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-10-09",
+      "summary": "The African Union launched the Africa Credit Rating Agency on Wednesday in Port Louis, Mauritius, seeking to strengthen the continent's financial architecture and provide investors with independent assessments that better reflect African economic conditions.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202610/09/6ac8469fe4b06d4a392dbab8.jpeg"
+    },
+    {
+      "title": "Seeking new ways forward",
+      "url": "https://www.chinadaily.com.cn/a/202610/09/WS6ac7c4b7e4b06d4aa0561c0c.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-10-09",
+      "summary": "Ever since European Commission President Ursula von der Leyen suggested on Sept 16 that Canada considers becoming an \"associate member\" of the European Union, the two sides have worked rapidly to explore the possibility.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202610/09/6ac7c88ce4b06d4a392db316.jpeg"
+    },
+    {
+      "title": "Saudi airports come under Houthi's fire",
+      "url": "https://www.chinadaily.com.cn/a/202610/09/WS6ac83eb3e4b06d4aa0561ca1.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-10-09",
+      "summary": "Amid a broadening multifront crisis roiling the Middle East, Yemen's Houthi militia claimed a ballistic missile struck King Khalid International Airport in Riyadh on Thursday, a day after Saudi authorities confirmed attacks on two main airports had killed three people and wounded dozens.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202610/09/6ac84af9e4b06d4a392dbb36.png"
+    },
+    {
+      "title": "China urges stronger arms control cooperation",
+      "url": "https://www.chinadaily.com.cn/a/202610/09/WS6ac86e42e4b06d4aa0561e4b.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-10-09",
+      "summary": "China on Thursday called for stronger multilateral arms control efforts and greater international cooperation on the peaceful use of technology, as global military spending reached a record high last year.",
+      "thumbnailUrl": "https://www.chinadaily.com.cn/image_e/2020/logo21.jpg"
+    },
+    {
+      "title": "Counting begins for Bengal bypolls, BJP's first electoral test after coming to power",
+      "url": "https://www.thehindu.com/news/national/west-bengal/counting-begins-for-bengal-bypolls-as-bjp-faces-first-electoral-test/article71562480.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-10-09T03:14:10.000Z",
+      "summary": "Counting begins for Bengal bypolls as BJP faces first electoral test; bypolls at Nandigram and Rejinagar amid tight security and high turnout.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/f1f485/article71562485.ece/alternates/LANDSCAPE_1200/PTI10_06_2026_000071B.jpg"
+    },
+    {
+      "title": "Assam bypoll: Counting of votes begins for Nagaon Lok Sabha seat",
+      "url": "https://www.thehindu.com/news/national/assam/assam-nagaon-lok-sabha-constituency-bypoll-byelection-congress-bjp-aiudf-results/article71562486.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-10-09T03:27:26.000Z",
+      "summary": "Counting of votes begins for Assam's Nagaon bypoll as BJP, Congress, and AIUDF compete; security tight, 15 candidates, 19 lakh electors.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/4fhww9/article71562498.ece/alternates/LANDSCAPE_1200/20261006353L.jpg"
+    },
+    {
+      "title": "Government rejects ‘omnibus’ claims of enrolment of NEET-UG protestors’ biometrics on criminal database",
+      "url": "https://www.thehindu.com/news/national/government-rejects-omnibus-claims-of-enrolment-of-neet-ug-protestors-biometrics-on-criminal-database/article71562578.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-10-09T05:08:18.000Z",
+      "summary": "Government rebuts claims that NEET-UG protesters’ biometrics were enrolled in national criminal databases, citing lack of specific evidence.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/x3uxgq/article71562668.ece/alternates/LANDSCAPE_1200/2026-08-17T142132Z_836377428_RC2HLMACXWKN_RTRMADP_3_INDIA-POLITICS-SOCIALMEDIA.JPG"
+    },
+    {
+      "title": "Bypoll results LIVE: Vote counting to start soon for five Assembly seats, one Lok Sabha constituency",
+      "url": "https://www.thehindu.com/news/national/byelection-bypoll-results-nandigram-rejinagar-madurantakam-dharapuram-thattanchavady-nagaon-live-updates-october-9-2026/article71562394.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-10-09T00:31:00.000Z",
+      "summary": "Byelection results Live: Follow The Hindu's latest updates as vote counting takes place for bypolls to 5 Assembly constituencies in West Bengal, Tamil Nadu, and Puducherry, and 1 Lok Sabha constituency in Assam",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/g78q9g/article71563214.ece/alternates/LANDSCAPE_1200/20261009034L.jpg"
+    },
+    {
+      "title": "PM under 'GyaneshGate' siege, will not retaliate to U.S. visa crackdown: Congress",
+      "url": "https://www.thehindu.com/news/national/congress-says-pm-under-gyaneshgate-siege/article71562610.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-10-09T05:07:00.000Z",
+      "summary": "Congress says Modi’s government won’t retaliate against US visa crackdown amid “GyaneshGate” siege",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/lsor6/article71562650.ece/alternates/LANDSCAPE_1200/20261005425L.jpg"
+    },
+    {
+      "title": "India withdraws bank tax benefit on gold, silver, platinum imports",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQRmU4eF9SMk8zdTl4VlRfT0phZUl0UW5aeUxMUkV4RGsyU1BFcllDV3NMYVBhYVpORUU0dU5OZzdnMFlIRDVqLS1TUVJVbG5UX1dPSjltYkh3U19lZmx5UnI3dzdzMmhhZzEtYXExTHNqSlFseDl6SlZvYkhBYVIwcUdPRzBTazBGb3JnZ0JnRUl4a0ViZERFeHp6UTJQZGw3TFVrRlF1dE0xNmJhOHc?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Fri, 09 Oct 2026 05:10:00 GMT",
+      "summary": "Reuters: India withdraws bank tax benefit on gold, silver, platinum imports.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "Wealthy French quit failing state schools squeezed by pensions and austerity",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOQ3hSM1pvQkJXcDQ3MEtnLXVOejBYSUVHVXFwbWRMV0ZwRGdkd1JST0VGclVTc01uUS1JcmVJczhlU1Nabms2a3k5anNQaG5aSW5NRDNGSmFOeXRYVHlnNjFtUzF4a3R6Wk1pYlhzREZ5NDQwSVRmb0Z6TVRqMVhQR2JaYUd1Q0RibE1lQkw1b29LbWh0elB3U0VvbWNyMVMtTHI1cHpQNFBIN3RuVFJqRFRySXcyME1NYjdXQzd3?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Fri, 09 Oct 2026 05:03:00 GMT",
+      "summary": "Reuters: Wealthy French quit failing state schools squeezed by pensions and austerity.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "Morning Bid: Feeding the AI beast",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1SU3lNd0l2bXdXNXN6Vks2OXhwb3NaYlNpQWQwNUVXRmxxR2p4SWhvVTlKWVFXQ1VBbndBRkY0dGJhOGdyRGszWVVoR0pEalJzUFpKblY5WlZsajZZdXR6eHRXNVQ2eFhIdTE0cEhTcng2QmhEMlpfY19pODhXTWc?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Fri, 09 Oct 2026 04:31:00 GMT",
+      "summary": "Reuters: Morning Bid: Feeding the AI beast.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "Gold rises more than 1%, Fed outlook in focus",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVl80MTVLVXR1WWd1MGxyNFRNN1VaNlJ2WFNIeGlrLS1HTGwzc1pZZ3FqaFZyOFBZcDk0VGRnMzVvSUtiSGFyR3c2Z29Fa25XZk1xX0JlWGpJZVlNaEJhWXhoenc3enFGZGZ3QnVUaGg1U2ZTNE9GZGxfTDIyb3hoMl9ycTNsOHpHeWdKRXk1VmdZZ1VITnhMR29NQ3JYUmV4TXJpemVRaw?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Fri, 09 Oct 2026 01:58:00 GMT",
+      "summary": "Reuters: Gold rises more than 1%, Fed outlook in focus.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "Stocks meander as AI spending worries, elevated yields weigh",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBmemlrTzkxS0ZGNW4xVC1Bb0FYNmR0MWNHMnFtYXl6Wmg2UHFSVWwwUEQ0MEI5dmY0VGVtR1RURVc2aHlZRjBnVS0yQzdJaDVqNWVnSGFOZkh6SHdTSTJVUDBjd0tFdFhrbjFHa3ExVzFNN0FvOXFpOTZ2QQ?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Fri, 09 Oct 2026 01:56:00 GMT",
+      "summary": "Reuters: Stocks meander as AI spending worries, elevated yields weigh.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    }
+  ],
+  "markets": [
+    {
+      "id": "sp-500",
+      "label": "S&P 500",
+      "region": "US",
+      "symbol": "^GSPC",
+      "value": 7765.36,
+      "previousClose": 7801.770156,
+      "change": -36.410156,
+      "percentChange": -0.46669096,
+      "direction": "down",
+      "sessionDate": "2026-10-09"
+    },
+    {
+      "id": "nasdaq-composite",
+      "label": "NASDAQ Composite",
+      "region": "US",
+      "symbol": "^IXIC",
+      "value": 27193.34,
+      "previousClose": 27538.69156,
+      "change": -345.35156,
+      "percentChange": -1.2540594,
+      "direction": "down",
+      "sessionDate": "2026-10-09"
+    },
+    {
+      "id": "euronext-100",
+      "label": "Euronext 100 Index",
+      "region": "Europe",
+      "symbol": "^N100",
+      "value": 1860.72,
+      "previousClose": 1849.99002,
+      "change": 10.72998,
+      "percentChange": 0.57998323,
+      "direction": "up",
+      "sessionDate": "2026-10-09"
+    },
+    {
+      "id": "moex",
+      "label": "Public Joint-Stock Company Moscow Exchange MICEX-RTS",
+      "region": "Europe",
+      "symbol": "MOEX.ME",
+      "value": 85.2,
+      "previousClose": 85.31000061,
+      "change": -0.11000061,
+      "percentChange": -0.12894222,
+      "direction": "down",
+      "sessionDate": "2026-10-09"
+    },
+    {
+      "id": "hang-seng",
+      "label": "HANG SENG INDEX",
+      "region": "Asia",
+      "symbol": "^HSI",
+      "value": 24211.35,
+      "previousClose": 23785.78945,
+      "change": 425.56055,
+      "percentChange": 1.7929972,
+      "direction": "up",
+      "sessionDate": "2026-10-09"
+    },
+    {
+      "id": "nikkei-225",
+      "label": "Nikkei 225",
+      "region": "Asia",
+      "symbol": "^N225",
+      "value": 69030.92,
+      "previousClose": 69042.1075,
+      "change": -11.1875,
+      "percentChange": -0.016203878,
+      "direction": "down",
+      "sessionDate": "2026-10-09"
+    },
+    {
+      "id": "sensex",
+      "label": "S&P BSE SENSEX",
+      "region": "India",
+      "symbol": "^BSESN",
+      "value": 72471.53,
+      "previousClose": 71593.24094,
+      "change": 878.28906,
+      "percentChange": 1.2267765,
+      "direction": "up",
+      "sessionDate": "2026-10-09"
+    }
+  ],
+  "hackerNews": [
+    {
+      "title": "OTel-Native by Design – Building Products That Export to Any Observability Stack",
+      "url": "https://opentelemetry.io/blog/2026/otel-native-by-design/",
+      "publishedAt": "2026-10-09T06:54:45.000Z",
+      "summary": "With contributions from Dan Gomez Blanco (New Relic). If you’re building self-hosted software or a SaaS product, your users will eventually ask to send logs, traces, and metrics to their own observability stack, whether to satisfy compliance, manage costs, or centralize all their observability data in one place. Locking them into your built-in dashboards or limiting exports to certain vendors creates unnecessary friction. Instead, supporting export to any OpenTelemetry (OTel)-compatible backend is a vendor-neutral, future-proof practice that gives users the freedom to choose their observability stack.",
+      "thumbnailUrl": "https://opentelemetry.io/blog/2026/otel-native-by-design/cover.png"
+    },
+    {
+      "title": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
+      "url": "https://www.dgt.is/blog/2026-10-07-deepseek-freek-out/",
+      "publishedAt": "2026-10-08T00:14:48.000Z",
+      "summary": "thoughts, talks, docs and unpopular opinions",
+      "thumbnailUrl": "https://www.dgt.is/blog/2026-10-07-deepseek-freek-out/sln317APDv-369.png"
+    },
+    {
+      "title": "Whistle: Speech to Text in 16.9 MB",
+      "url": "https://cactuscompute.com/blog/whistle",
+      "publishedAt": "2026-10-08T16:59:39.000Z",
+      "summary": "An open speech recognition model that runs on the same CPU engine as Needle. It transcribes seven languages, reaches the first token in 11 ms, and loads beside Needle so one binary turns a clip straight into tool calls.",
+      "thumbnailUrl": "https://cactuscompute.com/assets/cactus_white.png"
+    },
+    {
+      "title": "Keyboard differences between Windows and Macs",
+      "url": "https://unsung.aresluna.org/deeper-dive-keyboard-differences-between-windows-and-macs/",
+      "publishedAt": "2026-10-09T03:08:05.000Z",
+      "summary": "A blog about software craft and quality",
+      "thumbnailUrl": "https://unsung.aresluna.org/_media/deeper-dive-keyboard-differences-between-windows-and-macs/ogimage.jpg"
+    },
+    {
+      "title": "MXC - a sandboxed code execution system",
+      "url": "https://github.com/microsoft/mxc",
+      "publishedAt": "2026-10-09T05:51:29.000Z",
+      "summary": "Policy-driven, layered isolation and containment . Contribute to microsoft/mxc development by creating an account on GitHub.",
+      "thumbnailUrl": "https://opengraph.githubassets.com/17dca159ed530062bec435649b6110e3995f61c8d4a8216791e6e2cfe41c9c85/microsoft/mxc"
+    },
+    {
+      "title": "Theranos.world",
+      "url": "https://www.theranos.world/",
+      "publishedAt": "2026-10-08T17:51:49.000Z",
+      "summary": "An interactive simulation of Elizabeth Holmes",
+      "thumbnailUrl": "https://www.theranos.world/assets/theranos-world-social-v1.jpg"
+    },
+    {
+      "title": "Yes, and",
+      "url": "https://htmx.org/essays/yes-and/",
+      "publishedAt": "2026-10-08T09:48:18.000Z",
+      "summary": "htmx.org: Yes, and."
+    },
+    {
+      "title": "Show HN: Quake ported to safe Rust, playable in browser",
+      "url": "https://quake-srp.pages.dev/",
+      "publishedAt": "2026-10-09T05:22:58.000Z",
+      "summary": "Quake (1996), faithfully ported to dependency-free safe Rust and compiled to WebAssembly — play the shareware episode in your browser.",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "Programming Isn't Special",
+      "url": "https://blog.glyph.im/2026/10/programming-isnt-special.html",
+      "publishedAt": "2026-10-09T07:44:36.000Z",
+      "summary": "Artists understand that AI is bad for art. Why don’t programmers understand that we are artists?",
+      "thumbnailUrl": "https://en.gravatar.com/userimage/4935940/3f36deb2aefc09c0bcd985db2458f2b5.png"
+    },
+    {
+      "title": "OpenAI, the Partition Principle, and Mathematics",
+      "url": "https://karagila.org/2026/openai-pp/",
+      "publishedAt": "2026-10-08T23:29:43.000Z",
+      "summary": "karagila.org: OpenAI, the Partition Principle, and Mathematics."
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "Rune",
+      "tagline": "Write it down on one Mac, find it on the other",
+      "url": "https://www.producthunt.com/products/rune",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-10-09T01:32:29-07:00"
+    },
+    {
+      "name": "Sorted",
+      "tagline": "Your private AI file organizer for Mac",
+      "url": "https://www.producthunt.com/products/sorted-6",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-10-09T01:32:28-07:00"
+    },
+    {
+      "name": "Comcent",
+      "tagline": "AI-ready voice infrastructure on your own SIP trunk",
+      "url": "https://www.producthunt.com/products/comcent",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-10-09T01:32:27-07:00"
+    },
+    {
+      "name": "De Stash",
+      "tagline": "See, search and clean up your Mac storage, 100% private",
+      "url": "https://www.producthunt.com/products/de-stash",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-10-09T01:32:26-07:00"
+    },
+    {
+      "name": "iwant",
+      "tagline": "Find available GPUs and host open models in one command",
+      "url": "https://www.producthunt.com/products/iwant",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-10-09T01:32:25-07:00"
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "News and markets",
+      "sentences": [
+        "Global headlines: Iran scales up Hormuz attacks, raising pressure on Trump as midterms near (Oil shipments have slowed in the face of Iranian attacks after President Donald Trump celebrated restored flows. Such a level of violence has not been seen for months); U.S. backtracked on critical mineral, data demands in health deal with Zambia (The administration signed a $1.5 billion agreement with Zambia, but only after being forced to abandon controversial data-sharing and resource-access provisions); and No new attack on Iran before the midterm elections, Trump says (The president has acknowledged sometimes using public statements about negotiations and military planning to keep adversaries off guard).",
+        "Markets leaned lower, with 4 of 7 tracked indexes down; HANG SENG INDEX up 1.79% was the largest move.",
+        "Benchmarks tracked: S&P 500, NASDAQ Composite, Euronext 100 Index, and Public Joint-Stock Company Moscow Exchange MICEX-RTS plus 3 more indexes."
+      ]
+    },
+    {
+      "title": "Hacker News and Product Hunt",
+      "sentences": [
+        "Hacker News: OTel-Native by Design – Building Products That Export to Any Observability Stack (With contributions from Dan Gomez Blanco (New Relic). If you’re building self-hosted software or a SaaS product, your users will...); Why isn't the industry freaking out about DeepSeek 4.1 Flash? (thoughts, talks, docs and unpopular opinions); and Whistle: Speech to Text in 16.9 MB (An open speech recognition model that runs on the same CPU engine as Needle. It transcribes seven languages, reaches the first token in 11...).",
+        "Product Hunt features Rune (Write it down on one Mac, find it on the other), Sorted (Your private AI file organizer for Mac), and Comcent (AI-ready voice infrastructure on your own SIP trunk)."
+      ]
+    }
+  ],
+  "sourceNotes": {
+    "generatedAt": "2026-10-09T08:32:50.876Z",
+    "timeZone": "Asia/Kolkata",
+    "successfulSources": [
+      "Washington Post",
+      "Al Jazeera",
+      "NPR",
+      "China Daily",
+      "The Hindu",
+      "Reuters"
+    ],
+    "marketSessionLabel": "Latest market sessions as of 2026-10-09",
+    "warnings": []
+  }
+}

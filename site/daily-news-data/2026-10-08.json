@@ -1,0 +1,509 @@
+{
+  "headlines": [
+    {
+      "title": "He said looking like Trump would get him elected. He got 161 votes.",
+      "url": "https://www.washingtonpost.com/world/2026/10/07/he-said-looking-like-trump-would-get-him-elected-he-got-161-votes/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Wed, 07 Oct 2026 18:57:09 +0000",
+      "summary": "Plínio Vicentin Júnior, who ran for Congress in Brazil as “Plinio Trump,” came in 626th place.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "Israeli settlers beat AFP photographer covering violence in West Bank",
+      "url": "https://www.washingtonpost.com/world/2026/10/06/israeli-settlers-beat-afp-photographer-covering-violence-west-bank/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Wed, 07 Oct 2026 13:01:27 +0000",
+      "summary": "Jaafar Ashityeh, 58, was attacked while reporting the same story — settler attacks during the Palestinian olive harvest — last year, too.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "Woman’s killing stirs a long-simmering rage over U.S. military in Okinawa",
+      "url": "https://www.washingtonpost.com/world/2026/10/07/womans-killing-stirs-long-simmering-rage-over-us-military-okinawa/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Wed, 07 Oct 2026 10:58:58 +0000",
+      "summary": "The arrest of a Marine has provoked impassioned protest at a time when the two countries are seeking to bolster security in the region.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "AI-powered robots are next in war tech, Ukraine’s former defense minister says",
+      "url": "https://www.washingtonpost.com/world/2026/10/07/ai-powered-robots-are-next-war-tech-ukraines-former-defense-minister-says/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Wed, 07 Oct 2026 09:00:00 +0000",
+      "summary": "Mykhailo Fedorov, an architect of Ukraine’s drone program, says his country needs to deploy AI on the battlefield to defend against Russia — no matter the risks.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "Right-wing surge could give Flávio Bolsonaro power his father never had",
+      "url": "https://www.washingtonpost.com/world/2026/10/07/right-wing-surge-could-give-flvio-bolsonaro-power-his-father-never-had/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Wed, 07 Oct 2026 09:00:00 +0000",
+      "summary": "The favorite to win Brazil’s election has promised to free his imprisoned father, former president Jair Bolsonaro, grant amnesty to supporters and impeach Supreme Court justices.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "Yemeni forces claim key heights in Taiz amid Houthi attacks",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/10/8/yemen-war-live-yemeni-forces-claim-key-heights-as-houthi-attacks-go-on",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-10-08",
+      "summary": "Saudi-backed Yemeni forces claim advances in western Taiz's mountain belt overlooking the coast.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/10/AA-20260923-42554079-42554067-YEMENI_GOVERNMENT_FORCES_SAY_THEY_HAVE_TAKEN_CONTROL_OF_STRATEGIC_HILL_IN_TAIZ-1791268351_ad143d-1791272685.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Yemeni government forces claim 1,860 Houthis ‘neutralised’",
+      "url": "https://www.aljazeera.com/news/2026/10/8/yemeni-government-forces-claim-1860-houthis-neutralised",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-10-08",
+      "summary": "Yemeni government forces say in a social media post they carried out 2,103 'precise targeting operations'.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/10/AFP__20261006__D2CY4N6__v3__HighRes__TopshotYemenSaudiIranUsIsraelWar-1791304735.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "South Korea pledges legal action over alleged fuel exports to Russia",
+      "url": "https://www.aljazeera.com/news/2026/10/8/south-korea-pledges-legal-action-over-alleged-fuel-exports-to-russia",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-10-08",
+      "summary": "Ukrainian reports of South Korean fuel exports to Russia come amid strained tensions between Seoul and Kyiv.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/09/2026-05-08T070131Z_1905822413_RC2S4LADQ929_RTRMADP_3_IRAN-CRISIS-SOUTHKOREA-TANKER-1788401778.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "US bars Fiji-based man over corruption tied to China",
+      "url": "https://www.aljazeera.com/news/2026/10/8/us-bars-fiji-based-man-over-corruption-tied-to-china",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-10-08",
+      "summary": "The State Department has accused the man of paying bribes to Fijian citizens to advance Chinese interests.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/10/getty_6ac6f66c78-1791424108.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Tanker hit by multiple projectiles off north coast of Qatar, UKMTO says",
+      "url": "https://www.aljazeera.com/news/2026/10/8/tanker-hit-by-multiple-projectiles-off-north-coast-of-qatar-ukmto-says",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-10-08",
+      "summary": "The UK maritime agency has reported a rise in attacks on vessels in the vital Strait of Hormuz.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/10/GettyImages-2293771658-1791423375.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Trump proposes Camp David-style presidential retreat at his private Florida golf club",
+      "url": "https://www.npr.org/2026/10/08/g-s1-147101/trump-presidential-retreat-golf-club",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Thu, 08 Oct 2026 02:27:50 -0400",
+      "summary": "President Trump said he wants to develop one of his Florida golf courses into a presidential retreat where his successors can spend quiet weekends, describing it as \"sort of a Camp David.\"",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5318x3545+0+0/resize/5318x3545!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fc5%2Fc0%2F68e313894c3db025110475a1ca35%2Fap26280620021291.jpg"
+    },
+    {
+      "title": "Maricarmen, the 87-year-old woman whose eviction shook Spain, has died",
+      "url": "https://www.npr.org/2026/10/08/nx-s1-5994868/maricarmen-eviction-spain-dies",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Thu, 08 Oct 2026 01:56:02 -0400",
+      "summary": "María del Carmen Abascal, the 87-year-old woman whose eviction from her Madrid home sparked nationwide protests across Spain and unleashed a political crisis, died on Wednesday while hospitalized.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6000x4000+0+0/resize/6000x4000!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fd9%2Fe3%2F66af4f7948a4b6e93ba9b6b9d200%2Fap26280754981902.jpg"
+    },
+    {
+      "title": "Isaias strengthens into the first hurricane of the Atlantic season",
+      "url": "https://www.npr.org/2026/10/08/g-s1-147095/weather-hurricane-season",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Thu, 08 Oct 2026 01:22:15 -0400",
+      "summary": "The National Hurricane Center said late Wednesday that the hurricane was on track to strike the U.S. Gulf Coast later in the week. It's expected to bring heavy rains and potentially flash flooding.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2278x2242+0+0/resize/2278x2242!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F0d%2F77%2F9aa0cdf848b8be594dcf756ab962%2Fap26280555166570.jpg"
+    },
+    {
+      "title": "The WHO seeks more details on the death of a plague research lab employee in Russia",
+      "url": "https://www.npr.org/2026/10/07/nx-s1-5993873/russia-death-plague-research-institute",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Wed, 07 Oct 2026 17:53:47 -0400",
+      "summary": "The World Health Organization says it wants more information on what caused the death of an employee at a Russian plague research lab. Russia says the woman died of pneumonia of unknown origin.",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "What is the pneumonic plague?",
+      "url": "https://www.npr.org/2026/10/07/g-s1-146952/pneumonic-plague-russia-siberia-lab-death",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Wed, 07 Oct 2026 17:06:31 -0400",
+      "summary": "The ancient disease of plague is back in the headlines after the death this month of a Russian lab worker.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2880x1920+0+0/resize/2880x1920!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F1f%2F76%2Fb8746ff340d5984bafb43f99a66f%2Fsciencesourceimages-1066890.jpg"
+    },
+    {
+      "title": "Beijing and Canberra broaden services trade",
+      "url": "https://www.chinadaily.com.cn/a/202610/08/WS6ac6f961e4b06d4aa0561a7e.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-10-08",
+      "summary": "Australia's services trade with China, its largest export market, reached a new high last year, with experts identifying the digital economy, professional services and AI as potential new growth areas.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202610/08/6ac6f961e4b06d4a392da6ab.jpeg"
+    },
+    {
+      "title": "Heat strains California infrastructure",
+      "url": "https://www.chinadaily.com.cn/a/202610/08/WS6ac6ed0fe4b06d4aa056197b.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-10-08",
+      "summary": "An October heat wave continues to bake California, pushing the mercury well above average and putting schools, homes and other infrastructure to the test as the state grapples with extreme temperatures.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202610/08/6ac6ed0fe4b06d4a392da3b2.png"
+    },
+    {
+      "title": "Middle East conflict flares on more fronts",
+      "url": "https://www.chinadaily.com.cn/a/202610/08/WS6ac6edd4e4b06d4aa0561993.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-10-08",
+      "summary": "The Middle East conflict flared on multiple fronts on Wednesday as indirect talks between the United States and Iran remained deadlocked. Meanwhile, Israelis mourned on the anniversary of the Oct 7 attack as Palestinians live in devastated Gaza.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202610/08/6ac6f225e4b06d4a392da551.png"
+    },
+    {
+      "title": "Protests sweep France as students, teachers walk out",
+      "url": "https://www.chinadaily.com.cn/a/202610/08/WS6ac67dcbe4b06d4aa05618f0.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-10-08",
+      "summary": "Demonstrations swept across France on Tuesday as teachers and parents took to the streets with high school pupils on the biggest day of what Prime Minister Sebastien Lecornu described as ​the most violent student protest in decades.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202610/08/6ac6dbb9e4b06d4a392da192.jpeg"
+    },
+    {
+      "title": "China calls for upholding the UN Charter and international law",
+      "url": "https://www.chinadaily.com.cn/a/202610/08/WS6ac6f0e1e4b06d4aa05619f2.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-10-08",
+      "summary": "At the Sixth Committee of the 81st Session of the UN General Assembly on Wednesday, China delivered a joint statement on behalf of the \"Group of Friends of Global Governance\", calling for upholding the UN Charter and international law, respecting sovereign equality, peacefully resolving disputes, and strengthening global governance in emerging areas including AI, cyberspace and outer space. (Video Mingmei Li)",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202610/08/6ac6f0e1e4b06d4a392da4ee.jpeg"
+    },
+    {
+      "title": "Ekadasi Udayasthamana Pooja: Supreme court directs Guruvayoor temple to follow traditional practice",
+      "url": "https://www.thehindu.com/news/national/ekadasi-udayasthamana-pooja-supreme-court-directs-guruvayoor-temple-to-follow-traditional-practice/article71558814.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-10-08T07:35:25.000Z",
+      "summary": "SC orders Udayasthamana Pooja at Guruvayoor on Ekadasi per traditional practice; main appeal to be heard in December.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/wjzqcu/article71558822.ece/alternates/LANDSCAPE_1200/PTI12_2_2014_000255B.JPEG-05cff.jpg"
+    },
+    {
+      "title": "IAF has grown into exceptional, network-centric force: Air Chief Marshal Amar Preet Singh",
+      "url": "https://www.thehindu.com/news/national/air-force-day-air-chief-marshal-amar-preet-singh/article71558533.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-10-08T05:45:50.000Z",
+      "summary": "IAF grows into a network-centric, multi-domain force; chief praises readiness, honors fallen, and highlights rapid operations and upcoming leadership transition.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/ydbtft/article71558548.ece/alternates/LANDSCAPE_1200/20260920147L.jpg"
+    },
+    {
+      "title": "SC adjourns Punjab appeal against HC ruling directing CBI probe into corruption allegations linked to CM office",
+      "url": "https://www.thehindu.com/news/national/sc-adjourns-punjab-appeal-against-hc-ruling-directing-cbi-probe-into-corruption-allegations-linked-to-cm-office/article71558561.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-10-08T05:56:08.000Z",
+      "summary": "SC adjourns Punjab appeal against HC probe order into CM office corruption allegations as CBI expands FIR against CM OSD and associates.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/news/national/p0g9w/article67415686.ece/alternates/LANDSCAPE_1200/IMG_IMG_SUPREMECOURT-NKV_2_1_2OBPIUSL.jpg"
+    },
+    {
+      "title": "The Rahul Gandhi show and the Congress’s alliance dilemma: Analysis",
+      "url": "https://www.thehindu.com/news/national/news-analysis-on-rahul-gandhi-show-resignation-of-gyanesh-kumar/article71558304.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-10-08T04:09:45.000Z",
+      "summary": "Congress faces an INDIA bloc balancing act: Rahul Gandhi’s campaign dominance vs. keeping rivals from becoming sidelined.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/uc9fz1/article71558328.ece/alternates/LANDSCAPE_1200/PRIYANKA%20RAHUL%20MARCH%20CEC%2032.JPG"
+    },
+    {
+      "title": "CEC row LIVE: CJP, Dhruv Rathee to participate in Bengaluru's ‘People’s Tribunal’ against SIR; Rahul Gandhi says 'won't stop' till Gyanesh Kumar resigns",
+      "url": "https://www.thehindu.com/news/national/cec-gyanesh-kumar-india-bloc-congress-jantar-mantar-rahul-priyanka-gandhi-detention-cjp-protest-live-updates/article71558244.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-10-08T03:08:51.000Z",
+      "summary": "Follow The Hindu’s LIVE blog for the latest updates on the row over CEC Gyanesh Kumar’s resignation, as INDIA bloc MPs step up protests and CJP gears up for its October 10 Jantar Mantar demonstration.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/news/national/karnataka/7habex/article71558824.ece/alternates/LANDSCAPE_1200/WhatsApp%20Image%202026-10-08%20at%2013.02.40.jpeg"
+    },
+    {
+      "title": "People in Russian-occupied Ukrainian town risk 'road of death' to get food",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQM1E5SlFRTWo3Q3FCRUNveHR2SGFfalhoMzJXTkdNUXhMRlc4VkhNUkpaMzRuMnNKTzNDa2FmYjRCdG5KQ0hqdm1DTGotSFJUdkhKNW9qN2tlLUhmN3pnQkhqMTlqUlBKSHBsNUZoeVZIbF85S2tIb24zVy11VVZhcXYxMlVsVVlEakJVbXNJMFBlTjVjYlNFVHlKV014X2hhUjFoVFd6dXdETDJxTU1kdTFB?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Thu, 08 Oct 2026 06:01:00 GMT",
+      "summary": "Reuters: People in Russian-occupied Ukrainian town risk 'road of death' to get food.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "EXCLUSIVE: US opens direct talks with Myanmar's generals, reversing years of isolation",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQWUxEZlpiNGZBRjlsN09mekh5ejJPUnpVYjFXckJic1FDekdBRzd6dzBxZDFKdG5xZ1dsSF9Tc1hyQ1NKRnFkeXVBNXY3REhpeEo5YlBuWFpSN2EzMTFvZ2pkYS1fMTA3dVM3clYxZnJRNldtb0pZSTFncHRVcGRNMVdiVG9RWFNoclZaSUtKYTlHR3d3Mlk2bXo1OWxxTm1ZVjQ4TWVxcEtTRHFOUjN2a3V2Tm9Sc3VHeWJmRlVpVFRDNlk?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Thu, 08 Oct 2026 04:12:00 GMT",
+      "summary": "Reuters: EXCLUSIVE: US opens direct talks with Myanmar's generals, reversing years of isolation.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "British diplomats to remain at renamed consulate in Jerusalem",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNVUg1YkxrX0dOY19KSDkyWmR0VWJWSFhkWVhvZ3FYdE1kNG5iZG9GMEdQOXpwNHkyc2FlQW1TTnRpRDhnOVhST3VJM1FZUTlJd3pUNURSNHJjMFljaWl0ak1hR0JNdzNQdDBJQk16X2VlVjVYMDlfM0JRR1doVEhUdEpreVNxSkN5WlYtbmI0NUUxMlExMmRiOEx0RjR5R1JLSDI0ZXhxeXRZOEZPdmZ0VjhJTEJjQmVDTlVlRkxuV2tPTmtBazV0ZGdoeWdfUQ?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Thu, 08 Oct 2026 04:13:00 GMT",
+      "summary": "Reuters: British diplomats to remain at renamed consulate in Jerusalem.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "TSMC's third-quarter revenue surges to record, beating market forecast",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNeVBYZ3dYR1hTREs5alJLQ2RsTHl3d3NMRVhKVVpQb1pYem92N1ZDdWl6MjNpWmswZWZfa1h2ak5NSjRUS0QyVHBaUDBZdmRvOTBTYjc5WktHT29IZV9KQXdiMVlnTDY5Q2VNNEJMbHZXREJxMW9xdUM5TWdna1JURW45Y2pTMlNhc1JWZ09DUWU0MXlFUlpOcDRmRWJweV9ISGNNeWh1RjdRdDNNZ3VEM0g3ZGpFd0J1U3Iw?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Thu, 08 Oct 2026 05:39:00 GMT",
+      "summary": "Reuters: TSMC's third-quarter revenue surges to record, beating market forecast.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "Yemen's Houthis say they attacked Riyadh airport with ballistic missile",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPREc3b1M4OVVFbEtXWE45ZWpjeDNiNGpGVnZIdEJQSUU2R2dmdzF4V3hFZ1RMSlgyX0Fmc295aXo3bGtsbHpYSlM5MUVjLXJsM1ZISFV4NVFQN04wY0M4ZFRud3pzVUd2ZjN4S1dRSzNkenVacC1naWFmdUMtRUVYUlQ3MWY4dHRyOHRkTThCcUYxV0NFOU9qNE5fUW92RmlfYmk3Z0ZqWDlfc2VmNVhHS0tPX2k2Ql94SHlCeThTUzJBUQ?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Thu, 08 Oct 2026 03:03:00 GMT",
+      "summary": "Reuters: Yemen's Houthis say they attacked Riyadh airport with ballistic missile.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    }
+  ],
+  "markets": [
+    {
+      "id": "sp-500",
+      "label": "S&P 500",
+      "region": "US",
+      "symbol": "^GSPC",
+      "value": 7801.77,
+      "previousClose": 7818.930156,
+      "change": -17.160156,
+      "percentChange": -0.21946937,
+      "direction": "down",
+      "sessionDate": "2026-10-08"
+    },
+    {
+      "id": "nasdaq-composite",
+      "label": "NASDAQ Composite",
+      "region": "US",
+      "symbol": "^IXIC",
+      "value": 27538.69,
+      "previousClose": 27599.885312,
+      "change": -61.195312,
+      "percentChange": -0.22172305,
+      "direction": "down",
+      "sessionDate": "2026-10-08"
+    },
+    {
+      "id": "euronext-100",
+      "label": "Euronext 100 Index",
+      "region": "Europe",
+      "symbol": "^N100",
+      "value": 1840.5,
+      "previousClose": 1857.430054,
+      "change": -16.930054,
+      "percentChange": -0.9115264,
+      "direction": "down",
+      "sessionDate": "2026-10-08"
+    },
+    {
+      "id": "moex",
+      "label": "Public Joint-Stock Company Moscow Exchange MICEX-RTS",
+      "region": "Europe",
+      "symbol": "MOEX.ME",
+      "value": 85.2,
+      "previousClose": 85.31000061,
+      "change": -0.11000061,
+      "percentChange": -0.12894222,
+      "direction": "down",
+      "sessionDate": "2026-10-08"
+    },
+    {
+      "id": "hang-seng",
+      "label": "HANG SENG INDEX",
+      "region": "Asia",
+      "symbol": "^HSI",
+      "value": 23785.79,
+      "previousClose": 24130.50094,
+      "change": -344.71094,
+      "percentChange": -1.4310888,
+      "direction": "down",
+      "sessionDate": "2026-10-08"
+    },
+    {
+      "id": "nikkei-225",
+      "label": "Nikkei 225",
+      "region": "Asia",
+      "symbol": "^N225",
+      "value": 69042.11,
+      "previousClose": 70035.71156,
+      "change": -993.60156,
+      "percentChange": -1.418707,
+      "direction": "down",
+      "sessionDate": "2026-10-08"
+    },
+    {
+      "id": "sensex",
+      "label": "S&P BSE SENSEX",
+      "region": "India",
+      "symbol": "^BSESN",
+      "value": 71709.75,
+      "previousClose": 72638.7031,
+      "change": -928.9531,
+      "percentChange": -1.27886,
+      "direction": "down",
+      "sessionDate": "2026-10-08"
+    }
+  ],
+  "hackerNews": [
+    {
+      "title": "“Math 2.0” will need to value mathematical progress more holistically",
+      "url": "https://mathstodon.xyz/@tao/117395269325940185",
+      "publishedAt": "2026-10-08T05:14:14.000Z",
+      "summary": "\"Math 1.0\" placed a premium on being the first to solve an open problem, even if the solution was not initially well understood. Now that this goal has been optimized to the point of unsustainability, \"Math 2.0\" will need to decenter the role of raw problem solving and value mathematical progress more holistically - for instance by elevating the role of exposition, but also that of community building and opening up new directions of study. I believe that AI can contribute positively in all of these directions as well; but it will require more imagination and ambition than the \"Math 1.0\" mindset of simply pointing one's favorite AI agent at some set of open problems and asking for a solution. And our community will need to explicitly re-evaluate its criteria for education, publication, and career advancement, to reflect the \"Math 2.0\" era. (4/4)",
+      "thumbnailUrl": "https://mathstodon.xyz/packs/assets/logo-DXQkHAe5.svg"
+    },
+    {
+      "title": "Claude Haiku 5.5",
+      "url": "https://www.anthropic.com/claude-haiku-5-5",
+      "publishedAt": "2026-10-07T18:01:32.000Z",
+      "summary": "Claude Haiku 5.5 is our fastest, most capable small model. Built for high-volume work like summarization, subagents, and browser use.",
+      "thumbnailUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/89e9b0fbfe0181f6ca565d913686ce8e49b5e9c2-1200x630.jpg"
+    },
+    {
+      "title": "Margaret Hamilton has died",
+      "url": "https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007",
+      "publishedAt": "2026-10-07T21:16:18.000Z",
+      "summary": "Margaret H. Hamilton, a profoundly influential computer scientist best known for leading the software engineering team at MIT’s Instrumentation Lab during NASA’s Apollo program, died at age 90.",
+      "thumbnailUrl": "https://news.mit.edu/sites/default/files/images/202610/margaret-hamilton-portrait-toan-trinh-mit-technology-review-A1_1.png"
+    },
+    {
+      "title": "GPT‑6 and Intelligent UI for everyone",
+      "url": "https://openai.com/index/gpt-6-for-everyone/",
+      "publishedAt": "2026-10-07T18:00:58.000Z",
+      "summary": "GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly.",
+      "thumbnailUrl": "https://images.ctfassets.net/kftzwdyauwt9/5frqtUAWccstAbVrCFraH6/5ae9b6bfbc3f3dff8001ed249812f97d/Intelligent-UI_Art-Card_16x9.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "title": "Classic PC demoscene productions running natively in the browser",
+      "url": "https://treylorswift.github.io/demoscene-recomp/web/",
+      "publishedAt": "2026-10-08T06:29:25.000Z",
+      "summary": "Classic PC demoscene productions running natively in the browser.",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "'Jonathan' is the oldest land animal on Earth",
+      "url": "https://www.404media.co/oldest-living-land-animal-jonathan-the-tortoise/",
+      "publishedAt": "2026-10-07T20:01:37.000Z",
+      "summary": "Jonathan, a 194-year-old Aldabra giant tortoise, was born before the Civil War. Scientists have now sequenced his genome to reveal what’s behind his extreme longevity, so we can live longer too.",
+      "thumbnailUrl": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/size/w1200/2026/10/jonathan.png"
+    },
+    {
+      "title": "Cleo (Mathematician)",
+      "url": "https://en.wikipedia.org/wiki/Cleo_(mathematician)",
+      "publishedAt": "2026-10-06T18:49:45.000Z",
+      "summary": "Vladimir Reshetnikov (born 1979) is an Uzbekistani-American software developer and mathematician who became known for providing precise answers to complex mathematical integration problems without showing any intermediate steps under the pseudonym Cleo . Due to the extraordinary accuracy and speed of the provided solutions, it was debated online whether Cleo was an individual genius or a collective pseudonym system.",
+      "thumbnailUrl": "https://en.wikipedia.org/static/images/icons/enwiki-25.svg"
+    },
+    {
+      "title": "Shipping JPEG XL in Chrome",
+      "url": "https://developer.chrome.com/blog/jpeg-xl-in-chrome",
+      "publishedAt": "2026-10-07T11:25:02.000Z",
+      "summary": "JPEG XL offers better compression than JPEG, built-in HDR support, lossless JPEG transcoding, and more.",
+      "thumbnailUrl": "https://developer.chrome.com/static/blog/jpeg-xl-in-chrome/images/cover.png"
+    },
+    {
+      "title": "The Mathocalypse",
+      "url": "https://scottaaronson.blog/?p=10169",
+      "publishedAt": "2026-10-07T19:33:40.000Z",
+      "summary": "scottaaronson.blog: The Mathocalypse."
+    },
+    {
+      "title": "Show HN: Bigwords.page – Turn any screen into a sign. The URL is the app",
+      "url": "https://bigwords.page/",
+      "publishedAt": "2026-10-07T15:44:21.000Z",
+      "summary": "Turn a phone, tablet or TV into a sign. Type a message and it fills the screen: welcome signs, timers, Wi-Fi passwords and more. No app, no account, free.",
+      "thumbnailUrl": "https://bigwords.page/og.png"
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "Claude for Google Workspace",
+      "tagline": "Bring Claude directly into Google Docs, Sheets & Slides",
+      "url": "https://www.producthunt.com/products/claude-for-google-workspace",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-10-08T01:28:17-07:00"
+    },
+    {
+      "name": "aegis",
+      "tagline": "Smart personal safety app connected to 24/7 dispatch",
+      "url": "https://www.producthunt.com/products/aegis-14",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-10-08T01:28:17-07:00"
+    },
+    {
+      "name": "Mailwell",
+      "tagline": "Native Mac mail for IMAP, JMAP and Microsoft 365",
+      "url": "https://www.producthunt.com/products/mailwell-2",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-10-08T01:28:17-07:00"
+    },
+    {
+      "name": "Polylane for Vercel",
+      "tagline": "Wake up to fixes for your Vercel apps",
+      "url": "https://www.producthunt.com/products/polylane",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-10-08T01:28:17-07:00"
+    },
+    {
+      "name": "Drunken Penguins",
+      "tagline": "Party card games on everyone's phone. No app.",
+      "url": "https://www.producthunt.com/products/drunken-penguins",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-10-08T01:28:17-07:00"
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "News and markets",
+      "sentences": [
+        "Global headlines: He said looking like Trump would get him elected. He got 161 votes. (Plínio Vicentin Júnior, who ran for Congress in Brazil as “Plinio Trump,” came in 626th place); Israeli settlers beat AFP photographer covering violence in West Bank (Jaafar Ashityeh, 58, was attacked while reporting the same story — settler attacks during the Palestinian olive harvest — last year, too); and Woman’s killing stirs a long-simmering rage over U.S. military in Okinawa (The arrest of a Marine has provoked impassioned protest at a time when the two countries are seeking to bolster security in the region).",
+        "Markets leaned lower, with 7 of 7 tracked indexes down; HANG SENG INDEX down 1.43% was the largest move.",
+        "Benchmarks tracked: S&P 500, NASDAQ Composite, Euronext 100 Index, and Public Joint-Stock Company Moscow Exchange MICEX-RTS plus 3 more indexes."
+      ]
+    },
+    {
+      "title": "Hacker News and Product Hunt",
+      "sentences": [
+        "Hacker News: “Math 2.0” will need to value mathematical progress more holistically (\"Math 1.0\" placed a premium on being the first to solve an open problem, even if the solution was not initially well understood. Now that...); Claude Haiku 5.5 (Claude Haiku 5.5 is our fastest, most capable small model. Built for high-volume work like summarization, subagents, and browser use); and Margaret Hamilton has died (Margaret H. Hamilton, a profoundly influential computer scientist best known for leading the software engineering team at MIT’s...).",
+        "Product Hunt features Claude for Google Workspace (Bring Claude directly into Google Docs, Sheets & Slides), aegis (Smart personal safety app connected to 24/7 dispatch), and Mailwell (Native Mac mail for IMAP, JMAP and Microsoft 365)."
+      ]
+    }
+  ],
+  "sourceNotes": {
+    "generatedAt": "2026-10-08T08:29:05.279Z",
+    "timeZone": "Asia/Kolkata",
+    "successfulSources": [
+      "Washington Post",
+      "Al Jazeera",
+      "NPR",
+      "China Daily",
+      "The Hindu",
+      "Reuters"
+    ],
+    "marketSessionLabel": "Latest market sessions as of 2026-10-08",
+    "warnings": []
+  }
+}

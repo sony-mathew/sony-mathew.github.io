@@ -9,6 +9,7 @@ const navigationItems = [
   { href: "/tools", label: "Tools" },
   { href: "/daily-news", label: "News" },
   { href: "/blog", label: "Blog" },
+  { href: "/books", label: "Books" },
   { href: "/about", label: "About" },
 ];
 
