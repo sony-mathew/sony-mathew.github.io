@@ -110,4 +110,4 @@ The main caveat for me is tax filing. I couldn’t find ready-made Indian tax re
 
 That’s a trade-off I’m willing to make. For me, the broader market access and control are worth the extra work at tax time.
 
-I’ll also keep an eye on newer brokers entering this space. As more platforms offer access to global markets, there may be options that combine that flexibility with easier funding and Indian tax reporting. IBKR would be my choice today, but I’m open to revisiting it as those options develop.
+Zerodha has already started [rolling out US stock and ETF investing in beta](https://zerodha.com/us-stocks/), and is [exploring UCITS ETFs and access to other markets](https://tradingqna.com/t/us-stocks-etfs-on-kite-beta-is-live/198922). I’ll be watching how that develops, especially around broader market access, funding, and Indian tax reporting. IBKR would still be my choice today, but this is a comparison I’d revisit as those offerings mature.
