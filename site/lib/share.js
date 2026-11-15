@@ -12,7 +12,7 @@ export default function Share() {
 
   return (
     <>
-      <div className="flex a2a_kit a2a_kit_size_32 a2a_default_style gap-1 pt-8">
+      <div className="flex a2a_kit a2a_kit_size_32 a2a_default_style gap-1 py-8">
         <a className="a2a_button_facebook" alt="Share on Facebook">&nbsp;</a>
         <a className="a2a_button_twitter">&nbsp;</a>
         <a className="a2a_button_linkedin">&nbsp;</a>
