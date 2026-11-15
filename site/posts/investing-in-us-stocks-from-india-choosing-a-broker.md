@@ -98,6 +98,14 @@ The amount matters, but so do transfer frequency, order size, the bank’s excha
 
 For smaller, regular investments, I would give considerable weight to convenient funding and useful tax reports. For larger transfers or access to particular overseas markets, I would compare IBKR closely against the other options using actual quotes. An existing banking relationship could also make a traditional broker worth considering.
 
-Before choosing, I’d put together one realistic year of activity: the transfers I expect to make, the purchases I expect to place, and the reporting help I’ll need. Then I’d calculate the total cost for each platform.
+For my own investing, I would choose **IBKR**.
 
-That would give me a choice I can explain in rupees, time, and access to the investments I want to own.
+The main reason is flexibility. I want access to markets beyond the US, with room to explore other stocks, ETFs, and bonds as my investing needs change. IBKR’s [overseas account for Indian residents](https://www.interactivebrokers.co.in/en/accounts/individual-account-india.php) gives me that broader access.
+
+I’d also be comfortable starting with smaller amounts once I’ve set up the first wire transfer and understood the funding process. There’s some work upfront, but I’d expect subsequent transfers to be more familiar. I’d still pay attention to fixed transfer charges and how often I send money, since those costs matter more on small remittances.
+
+What appeals to me is having more control over each step: choosing the bank for the transfer, comparing its currency conversion quote, deciding when to fund the account, and placing my own orders. I’m comfortable doing that setup if it gives me more flexibility over time.
+
+The main caveat for me is tax filing. I couldn’t find ready-made Indian tax reports in [IBKR’s published reporting options](https://www.interactivebrokers.co.in/en/support/reports-and-dates.php). It provides account statements and relevant tax forms, but I’d need to work through those records myself or with my CA to prepare the Indian tax return.
+
+That’s a trade-off I’m willing to make. For me, the broader market access and control are worth the extra work at tax time.
