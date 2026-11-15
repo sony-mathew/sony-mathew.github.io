@@ -1,4 +1,5 @@
 #!/bin/bash
+set -euo pipefail
 
 # move to site folder
 echo CD-ing to site folder..
