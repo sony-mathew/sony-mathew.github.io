@@ -11,11 +11,10 @@
     "test": "node --test ./test/*.test.mjs"
   },
   "dependencies": {
-    "@fullhuman/postcss-purgecss": "^4.0.3",
+    "@fullhuman/postcss-purgecss": "^8.0.0",
     "date-fns": "^2.24.0",
-    "eslint-config-next": "^14.1.0",
     "gray-matter": "^4.0.3",
-    "next": "^16.3.4",
+    "next": "^16.4.6",
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-preset-env": "^9.3.0",
     "prismjs": "^1.30.0",
@@ -31,7 +30,9 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.17",
-    "postcss": "^8.5.10",
-    "tailwindcss": "^3.4.1"
+    "eslint": "^9.39.5",
+    "postcss": "^8.5.23",
+    "tailwindcss": "^3.4.1",
+    "eslint-config-next": "^16.4.6"
   }
 }
