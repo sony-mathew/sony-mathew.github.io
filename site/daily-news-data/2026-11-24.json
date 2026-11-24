@@ -1,0 +1,508 @@
+{
+  "headlines": [
+    {
+      "title": "Spooked by hackers and heat waves, the British become proper preppers",
+      "url": "https://www.washingtonpost.com/world/2026/11/24/spooked-by-hackers-heat-waves-british-become-proper-preppers/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Tue, 24 Nov 2026 11:00:00 +0000",
+      "summary": "The government’s “Be Ready” campaign advises that Britons be set to fend for themselves for at least three days. Sales show they’re heeding the call.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "The temptation of Pope Francis: Private diary reveals torment, visions of Devil",
+      "url": "https://www.washingtonpost.com/world/2026/11/24/pope-francis-private-diary-reveals-torment-visions-devil/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Tue, 24 Nov 2026 06:00:00 +0000",
+      "summary": "A new book chronicles the pope’s inner turmoil and his encounters with darkness, including a glimpse of “the entrance to hell.”",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "Mexico used U.S. drones to arrest alleged drug trafficker ‘El Chapo Isidro’",
+      "url": "https://www.washingtonpost.com/world/2026/11/23/mexico-used-us-drones-arrest-alleged-drug-trafficker-el-chapo-isidro/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Mon, 23 Nov 2026 23:18:29 +0000",
+      "summary": "Mexico and the United States have long worked together against drug trafficking, but such collaboration can be controversial.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "Collapse of U.N. summit intensifies calls for new approach to climate talks",
+      "url": "https://www.washingtonpost.com/world/2026/11/23/collapse-un-summit-intensifies-calls-new-approach-climate-talks/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Mon, 23 Nov 2026 22:21:28 +0000",
+      "summary": "The failure of COP31 after a dispute about whether a fossil fuel phaseout could even be mentioned has prompted calls for a system that relies less heavily on consensus.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "NATO calls urgent meeting as string of incidents escalates Russia tensions",
+      "url": "https://www.washingtonpost.com/world/2026/11/23/nato-calls-urgent-meeting-string-incidents-escalates-russia-tensions/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Mon, 23 Nov 2026 18:58:51 +0000",
+      "summary": "“We are not in war, but we are certainly not in peace anymore, either,” Germany’s foreign minister said after Russian missiles crashed onto Polish territory.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "Land blockade of Iran ‘virtually impossible’, says Araghchi; 2 tankers hit",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/24/iran-war-live-iran-says-three-ships-catch-fire-after-hitting-hormuz-mines",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-11-24",
+      "summary": "Abbas Araghchi cites country’s 'vast territory' and 'large number of provinces' as helping to counter US sanctions.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/11/epa_6b0577ad8fb2-1795520429.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Iraq orders takeover of oilfields in areas under Kurdish control",
+      "url": "https://www.aljazeera.com/news/2026/11/24/iraq-orders-takeover-of-oilfields-in-areas-under-kurdish-control",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-11-24",
+      "summary": "PM Ali al-Zaidi also orders his government to seize all crossings in the Kurdish region after an oil smuggling inquiry.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/07/reuters_6a5d64f3-1784505587.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Russian strike kills two in Ukraine, days after ship attack off Libya",
+      "url": "https://www.aljazeera.com/news/2026/11/24/russian-attack-kills-two-people-in-ukraines-zaporizhzhia",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-11-24",
+      "summary": "Russian attack on Zaporizhzhia destroyed a house and damaged a five-storey apartment building, Ukrainian officials said.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6b054d95ca5e-1795509653.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Israeli air strikes in Gaza kill 7 as doctors warn of meningitis outbreak",
+      "url": "https://www.aljazeera.com/news/2026/11/24/israeli-air-strikes-in-gaza-kill-7-as-doctors-warn-of-meningitis-outbreak",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-11-24",
+      "summary": "Gaza health officials say meningitis cases rose to 272 in October, more than eight times the typical monthly rate.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6b055927c071-1795512615.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Sheikh Hasina plans to return to Bangladesh from exile on December 16",
+      "url": "https://www.aljazeera.com/news/2026/11/24/sheikh-hasina-plans-to-return-to-bangladesh-from-exile-on-december-16",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-11-24",
+      "summary": "Hasina urges Dhaka to arrange her return on the national airline, as government says she can only be extradited.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/07/reuters_6a50b40e-1783673870-e1785862654761.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "What should it cost to insure a home in wildfire country?",
+      "url": "https://www.npr.org/sections/planet-money/2026/11/24/g-s1-154477/what-should-it-cost-to-insure-a-home-in-wildfire-country",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Tue, 24 Nov 2026 06:30:00 -0500",
+      "summary": "Some California homeowners have spent thousands making their homes safer from wildfires. Yet all that work has barely made a dent in their insurance bills. Should they be getting a bigger break?",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2000x1332+0+0/resize/2000x1332!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F17%2F88%2Fb622011245bda7751114fb3a3e34%2Fimage.png"
+    },
+    {
+      "title": "Doctors struggle to save babies after parents refuse vitamin K",
+      "url": "https://www.npr.org/2026/11/24/nx-s1-6001723/vitamin-k-deficiency-refusal-vaccine-misinformation-newborn-bleeding",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Tue, 24 Nov 2026 05:00:00 -0500",
+      "summary": "Doctors are fighting an uphill battle against disinformation about routine vitamin K shots given to newborns in the hospital. It helps prevent a rare but devastating bleeding disorder.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3840x2880+0+0/resize/3840x2880!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F7b%2F03%2Feee970f64e34a9a38cece517b242%2Fvitamink-02.jpg"
+    },
+    {
+      "title": "They attended Trump's meme coin dinner. It didn't go well",
+      "url": "https://www.npr.org/2026/11/24/nx-s1-6051604/trump-crypto-corruption-meme-coin-dinner",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Tue, 24 Nov 2026 05:00:00 -0500",
+      "summary": "Trump's meme coin dinners have sparked intense controversy. These two guests attended his latest on Sunday — and agreed to provide NPR inside access.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1600x1200+0+0/resize/1600x1200!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F9d%2F7d%2F9d4396f94cba811d52d367d83999%2Fwhatsapp-image-2026-11-22-at-17-16-55.jpeg"
+    },
+    {
+      "title": "Democrats probe whether Trump Jr.-aligned businesses benefit from government access",
+      "url": "https://www.npr.org/2026/11/24/nx-s1-6051028/jamie-raskin-donald-trump-jr-1789-capital-democrats-investigation",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Tue, 24 Nov 2026 05:00:00 -0500",
+      "summary": "Investigators say companies with ties to Donald Trump Jr's investment firm, 1789 Capital, have profited since his father's reelection.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4032x2688+0+0/resize/4032x2688!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F7e%2F27%2Ffa34b3e8414fb6ab4f04c32a76b2%2Fgettyimages-2294598329.jpg"
+    },
+    {
+      "title": "Black travelers on Route 66 weren't welcome at most gas stations — except this one",
+      "url": "https://www.npr.org/2026/11/24/nx-s1-5928337/threatt-filling-station-oklahoma-route-66",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Tue, 24 Nov 2026 05:00:00 -0500",
+      "summary": "Threatt Filling Station in Luther, Okla., was the first Black-owned gas station on Route 66. At a time when Black families needed the Green Book to find places to stay, eat, use the bathroom, it provided fuel and respite.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4500x3000+0+0/resize/4500x3000!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F68%2F78%2F4df9b7cd4db681a4bb755b82a466%2Fthreattfillingstation-1.jpg"
+    },
+    {
+      "title": "Students share China trips through language, videos",
+      "url": "https://www.chinadaily.com.cn/a/202611/24/WS6b04e48de4b03ebf8519e347.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-11-24",
+      "summary": "Students in the United States shared their experiences in China at an event on Saturday in San Francisco, building stronger cultural ties and fostering mutual understanding between the two countries.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202611/24/6b04e48de4b03ebf74644648.jpeg"
+    },
+    {
+      "title": "Damaged Russian vessel returns to St Petersburg: governor",
+      "url": "https://www.chinadaily.com.cn/a/202611/24/WS6b04ea55e4b03ebf8519e3ba.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-11-24",
+      "summary": "ST. PETERSBURG -- The crew of a Russian vessel, which was hit by a drone in international waters of the Gulf of Finland on Saturday, returned to St Petersburg, Leningrad Region Governor Alexander Drozdenko said Monday.",
+      "thumbnailUrl": "https://www.chinadaily.com.cn/image_e/2020/logo21.jpg"
+    },
+    {
+      "title": "US stocks surge as Nvidia reinstates Jensen Huang",
+      "url": "https://www.chinadaily.com.cn/a/202611/24/WS6b046e0de4b03ebf8519e243.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-11-24",
+      "summary": "NEW YORK -- US stocks surged on Monday morning after chipmaker Nvidia announced that it had reinstated Jensen Huang as its chief executive.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202611/24/6b04e529e4b03ebf74644697.jpeg"
+    },
+    {
+      "title": "Poet's Nobel win shines light on new approach",
+      "url": "https://www.chinadaily.com.cn/a/202611/24/WS6b04f09ce4b03ebf8519e429.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-11-24",
+      "summary": "Canadian poet Anne Carson's Nobel Prize in literature has renewed attention on her unconventional approach to poetry, which challenges traditional literary forms and pushes the boundaries of language, Chinese scholars and translators say.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202611/24/6b04f09ce4b03ebf74644977.jpeg"
+    },
+    {
+      "title": "Eisenkot decries settler violence",
+      "url": "https://www.chinadaily.com.cn/a/202611/24/WS6b04e5a4e4b03ebf8519e374.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-11-24",
+      "summary": "Israeli opposition leader Gadi Eisenkot, who is tasked with forming Israel's next government, has condemned arson attacks and vandalism against Palestinian homes and vehicles in the occupied West Bank as \"Jewish terrorism\", the latest escalation since the Gaza conflict erupted in 2023.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202611/24/6b04e5a4e4b03ebf746446b6.png"
+    },
+    {
+      "title": "President Murmu to inaugurate Bali Jatra in Cuttack during two-day Odisha visit",
+      "url": "https://www.thehindu.com/news/national/odisha/president-murmu-to-inaugurate-bali-jatra-in-cuttack-during-two-day-odisha-visit/article71737522.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-11-24T07:07:49.000Z",
+      "summary": "President Murmu to inaugurate Bali Jatra in Cuttack and attend a National Scientific Convention on Homoeopathy during a two-day Odisha visit.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/toyl4b/article71737572.ece/alternates/LANDSCAPE_1200/20260312114L.jpg"
+    },
+    {
+      "title": "Bisleri controversy: Goa FDA steps up surveillance of packaged water brands",
+      "url": "https://www.thehindu.com/news/national/bisleri-controversy-goa-fda-steps-up-surveillance-of-packaged-water-brands/article71737184.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-11-24T04:32:06.000Z",
+      "summary": "Goa FDA tightens surveillance on packaged water after Bisleri safety dispute; ongoing checks follow a prosecuted batch and market withdrawals.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/1at4c2/article71737201.ece/alternates/LANDSCAPE_1200/2026-11-23T095039Z_1215877291_RC2JTOAH0WUG_RTRMADP_3_INDIA-FOOD-BISLERI.JPG"
+    },
+    {
+      "title": "SC to hear on November 25 pleas of Sharjeel Imam, Umar Khalid seeking bail in UAPA case",
+      "url": "https://www.thehindu.com/news/national/sc-to-hear-on-november-25-pleas-of-sharjeel-imam-umar-khalid-seeking-bail-in-uapa-case/article71737363.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-11-24T06:07:25.000Z",
+      "summary": "SC to hear Sharjeel Imam, Umar Khalid bail pleas in UAPA case over northeast Delhi riots, citing protected witnesses and one-year embargo.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/ho49zd/article71737400.ece/alternates/LANDSCAPE_1200/05th-AARATRIKA-GH0FDBK3F.3.jpg.jpg"
+    },
+    {
+      "title": "Congress slams renaming of Jewar airport after PM Modi, recalls how Nehru turned down such proposals",
+      "url": "https://www.thehindu.com/news/national/congress-slams-renaming-of-jewar-airport-after-pm-modi-recalls-how-nehru-turned-down-such-proposals/article71737210.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-11-24T04:52:54.000Z",
+      "summary": "Congress mocks renaming Jewar airport after Modi, recalls Nehru’s opposition to name changes, questions the project’s flight traffic and timings.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/vxs4ui/article71737226.ece/alternates/LANDSCAPE_1200/TH20-Phukan-ConG7NGQUFP8.3.jpg.jpg"
+    },
+    {
+      "title": "Uttar Pradesh Assembly elections: 26 seats offered to Congress, says Samajwadi Party",
+      "url": "https://www.thehindu.com/news/national/uttar-pradesh/uttar-pradesh-assembly-elections-samajwadi-party-congress-alliance/article71737686.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-11-24T08:04:57.000Z",
+      "summary": "Samajwadi Party offers 26 UP 2027 seats to Congress as seat-sharing talks continue, amid criticism from a UP minister.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/5nwfdz/article71737720.ece/alternates/LANDSCAPE_1200/PTI11_01_2026_000476B.jpg"
+    },
+    {
+      "title": "Norway says there is dialogue with Ukraine regarding 'need for stability in our near areas'",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQM2ZZQnd0c3JtbHl5NFozeGhRRUotLUVZODlvQTVHT2ZmdVBoQ2lnanJyNVFkM0RaSXdCT3BncnMtRVdLdjM4UTVpS2JZeHNwbWlKSnhoZ0NQcmd3N1Mtd2hZaGxkZDBoUW80TXpVMHVtS0ctNmlWTE5nYlZXZXpqb2kxcW85VzRCTlFEWGprbTlhYnFpUFhiN3RzYW5MQU9GcTR2NVd6SHhSRTN3VWV2bjktWHRkdnY0djdRdlJXRG5VUEU?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Tue, 24 Nov 2026 10:21:24 GMT",
+      "summary": "Reuters: Norway says there is dialogue with Ukraine regarding 'need for stability in our near areas'.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "Iraqi PM orders ministry to manage oilfields in areas under Kurdish control",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQT0ttY1ZZa0d3ajhmMUVZYmhrdHNGd0E4aC0wQWswZzc0UkFrcndsZ3pJUkJQMVF3Rlp0cjdGdkc2bG5XY093OWx6QWdtQVlJMVpRN2QzUUZicGRBZEROT2JUZEdQUTRpWHBpYzNXMVVwN1FQbmZpVmZfTm1leHQzclpZSkdsRk9MWHBzZEpaSlFoVjd0QzZQMnl2SDladHhlTzFmYkhmT2xPSlRTc2o2VmY2ZThoQ0dxbl94NXAxaXFWTHBNb1V6bzhXRTFPQQ?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Tue, 24 Nov 2026 11:38:53 GMT",
+      "summary": "Reuters: Iraqi PM orders ministry to manage oilfields in areas under Kurdish control.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "EU sets limits on hybrid vehicle imports from China and other countries",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPckRyU2g2M08tN1IyMGlVTkhPcnYxVkpQRjR6Ymw3ck5sWW03ZVpEcmxsT1E5YTczaWZvRS1Ea09HWVB5cTFFMEI3TXZQOFlGaFpVd0ZRa0NmV2w5T2otX1NpSzFrT0xRQ3hLQmEzdzA4dERMbm8wazRjbHZXY2t0N1VkcTAwNHc4X3R3ZTlndFE4NHBrRW1qV1RNa1J6RmVaMGJZQmhaWmVVNXc?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Tue, 24 Nov 2026 09:30:10 GMT",
+      "summary": "Reuters: EU sets limits on hybrid vehicle imports from China and other countries.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "Pope Francis had visions of the Devil and Hell, diaries reveal",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPVFlscTNmWlJ1S3pkN001MmdFX0dkVGtOcGRfVi1TTndmbEhweDNiNlFZNWJ2cHdGNXZlXzJhdkM2MmNOUFdGb3UxSXEyUkRBQ3hOZlN1SkN3TVJYMndWVjlJTlRjNWh3RnRHN01Ec2ltMkxyYzZZU21oRHo3dGhuMWMyS2JfaEkwUVgzckU2RUczcnBnWElJ?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Tue, 24 Nov 2026 06:02:00 GMT",
+      "summary": "Reuters: Pope Francis had visions of the Devil and Hell, diaries reveal.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "Explosion kills 6, injures 10 in Vietnam capital Hanoi",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZldRdngyRk9qdWlNdVBkYlFrTnBtV3M3WU45al9qVVp6OE9VRktQTWVKRWY0aWlfNjBhTVFNVlhaYkp4aEJVeVItSlpIUjAwd2I5RGh5MV9wZHVnNkc5c3F1MzA0elVvZ2x2bVFrMUM3NHgwVjJYaHpPRS0xa25Tb0VIUVBySTd5blMxNXhQYlVWMkh5bG0tbHRNN3hvck8zQnI3SG4tdGg?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Tue, 24 Nov 2026 07:52:00 GMT",
+      "summary": "Reuters: Explosion kills 6, injures 10 in Vietnam capital Hanoi.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    }
+  ],
+  "markets": [
+    {
+      "id": "sp-500",
+      "label": "S&P 500",
+      "region": "US",
+      "symbol": "^GSPC",
+      "value": 0,
+      "previousClose": 0,
+      "change": 0,
+      "percentChange": 0,
+      "direction": "up",
+      "sessionDate": "2026-11-24"
+    },
+    {
+      "id": "nasdaq-composite",
+      "label": "NASDAQ Composite",
+      "region": "US",
+      "symbol": "^IXIC",
+      "value": 0,
+      "previousClose": 0,
+      "change": 0,
+      "percentChange": 0,
+      "direction": "up",
+      "sessionDate": "2026-11-24"
+    },
+    {
+      "id": "euronext-100",
+      "label": "Euronext 100 Index",
+      "region": "Europe",
+      "symbol": "^N100",
+      "value": 0,
+      "previousClose": 0,
+      "change": 0,
+      "percentChange": 0,
+      "direction": "up",
+      "sessionDate": "2026-11-24"
+    },
+    {
+      "id": "moex",
+      "label": "Public Joint-Stock Company Moscow Exchange MICEX-RTS",
+      "region": "Europe",
+      "symbol": "MOEX.ME",
+      "value": 0,
+      "previousClose": 0,
+      "change": 0,
+      "percentChange": 0,
+      "direction": "up",
+      "sessionDate": "2026-11-24"
+    },
+    {
+      "id": "hang-seng",
+      "label": "HANG SENG INDEX",
+      "region": "Asia",
+      "symbol": "^HSI",
+      "value": 0,
+      "previousClose": 0,
+      "change": 0,
+      "percentChange": 0,
+      "direction": "up",
+      "sessionDate": "2026-11-24"
+    },
+    {
+      "id": "nikkei-225",
+      "label": "Nikkei 225",
+      "region": "Asia",
+      "symbol": "^N225",
+      "value": 0,
+      "previousClose": 0,
+      "change": 0,
+      "percentChange": 0,
+      "direction": "up",
+      "sessionDate": "2026-11-24"
+    },
+    {
+      "id": "sensex",
+      "label": "S&P BSE SENSEX",
+      "region": "India",
+      "symbol": "^BSESN",
+      "value": 0,
+      "previousClose": 0,
+      "change": 0,
+      "percentChange": 0,
+      "direction": "up",
+      "sessionDate": "2026-11-24"
+    }
+  ],
+  "hackerNews": [
+    {
+      "title": "Investigation of Polymarket Insider Trading on the Reinstatement of Jensen Huang",
+      "url": "https://deucalionn.vercel.app/polymarket-delit-initie-jensen-huang-nvidia/",
+      "publishedAt": "2026-11-24T11:13:55.000Z",
+      "summary": "Enquête forensic on-chain : 4 648 $ injectés à 6,5 ¢, 89 minutes avant le post de Donald Trump et 11h avant le communiqué officiel de NVIDIA (+1 438 % ROI).",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "2035 Came Early",
+      "url": "https://fzakaria.com/2026/11/23/2035-came-early",
+      "publishedAt": "2026-11-24T06:30:33.000Z",
+      "summary": "tl;dr trynix.dev boots GUI programs now. Try solitaire, GL gears, xeyes, a voice, the weather over curl, or Firefox. I remember watching the talk The Birth & Death of JavaScript by Gary Bernhardt and falling in love with the whimsical yet dreadfully serious unfolding of the story of how JavaScript will come to dominate all software. Others have noted the inevitability of JavaScript’s dominance, so perhaps it was not surprising that Atwood’s Law holds true. Atwood’s LawAny application that can be written in JavaScript, will eventually be written in JavaScript. — Jeff Atwood, 2009 I highly recommend watching the talk…",
+      "thumbnailUrl": "https://fzakaria.com/assets/images/derived/domen_discord_unkernel-1404w.png"
+    },
+    {
+      "title": "Worshipping at the Altar of Brendan Gregg",
+      "url": "https://fzakaria.com/2026/11/12/worshipping-at-the-altar-of-brendan-gregg",
+      "publishedAt": "2026-11-24T10:50:14.000Z",
+      "summary": "Okay, I am the first to admit that I’m a bit manic with AI. When you are working on a problem that has endless possibilities, it is difficult to constrain yourself to a limited set of features.",
+      "thumbnailUrl": "https://fzakaria.com/assets/images/rewind_time_hypno_gregg.png"
+    },
+    {
+      "title": "Ladybird is now in alpha",
+      "url": "https://ladybird.org/posts/alpha/",
+      "publishedAt": "2026-11-23T16:13:12.000Z",
+      "summary": "Alpha builds of Ladybird are available today for macOS and Linux. They",
+      "thumbnailUrl": "https://ladybird.org/assets/img/logo-new.webp"
+    },
+    {
+      "title": "Stalwart is now a drop-in replacement for Microsoft Exchange",
+      "url": "https://stalw.art/blog/microsoft-exchange-replacement/",
+      "publishedAt": "2026-11-23T22:32:29.000Z",
+      "summary": "Stalwart 1.2.0 speaks MAPI over HTTP, Exchange Web Services, ActiveSync and Autodiscover, so Outlook, Apple Mail and mobile devices connect to it as they would to an Exchange server. Also in this release: mail rules, read receipts, working hours, room and equipment booking, and the new Stalwart CLI 2.0 with an interactive console.",
+      "thumbnailUrl": "https://stalw.art/og/blog/microsoft-exchange-replacement.png"
+    },
+    {
+      "title": "AMD EPYC Zen 6 vs. Zen 1 Performance: 12.1x Geo Mean in Less Than 10 Years",
+      "url": "https://www.phoronix.com/review/amd-epyc-9006-7601",
+      "publishedAt": "2026-11-24T05:15:22.000Z",
+      "summary": "phoronix.com: AMD EPYC Zen 6 vs. Zen 1 Performance: 12.1x Geo Mean in Less Than 10 Years."
+    },
+    {
+      "title": "Nvidia Reinstates Jensen Huang as CEO",
+      "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
+      "publishedAt": "2026-11-23T14:00:18.000Z",
+      "summary": "The Nvidia board said it had input from senior levels of the U.S. government.",
+      "thumbnailUrl": "https://image.cnbcfm.com/api/v1/image/108353993-1787677585886-108353993-1787675816989-gettyimages-2266718431-NVIDIA_GTC.jpg?v=1795450778&w=1920&h=1080"
+    },
+    {
+      "title": "Drone Maps of Salvage Yards",
+      "url": "https://salvageyarddrone.wordpress.com/",
+      "publishedAt": "2026-11-24T04:00:28.000Z",
+      "summary": "salvageyarddrone.wordpress.com: Drone Maps of Salvage Yards."
+    },
+    {
+      "title": "Modernizing iperf/iperf3 and introducing fireperf",
+      "url": "https://blog.daniel-baumann.ch/posts/20261122-1.html",
+      "publishedAt": "2026-11-22T22:37:51.000Z",
+      "summary": "Daniel Baumann",
+      "thumbnailUrl": "https://blog.daniel-baumann.ch/_images/20261122-1a.png"
+    },
+    {
+      "title": "Just a Few Bugs",
+      "url": "https://www.justafewbugs.xyz/",
+      "publishedAt": "2026-11-24T09:47:59.000Z",
+      "summary": "Ninety-five reports to the Android and Google Devices Vulnerability Reward Program, and $250 paid in total.",
+      "thumbnailUrl": "https://www.justafewbugs.xyz/evidence/ev-7f3a.png"
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "frwrd.to",
+      "tagline": "Your link in bio, sorted by your AI in one message",
+      "url": "https://www.producthunt.com/products/frwrd-to",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-11-24T04:03:04-08:00"
+    },
+    {
+      "name": "Finseo",
+      "tagline": "Company brain + outreach to get your brand mentioned by AI",
+      "url": "https://www.producthunt.com/products/finseo-ai",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-11-24T04:03:12-08:00"
+    },
+    {
+      "name": "Claude Ship",
+      "tagline": "Ship code as fast as you can write it",
+      "url": "https://www.producthunt.com/products/claude-code",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-11-24T04:03:11-08:00"
+    },
+    {
+      "name": "Kodak SlideTag",
+      "tagline": "A 1935 film-slide E-Ink frame that tracks like an AirTag",
+      "url": "https://www.producthunt.com/products/kodak-slidetag",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-11-24T04:03:10-08:00"
+    },
+    {
+      "name": "distribution.dev",
+      "tagline": "Advertise to developers on many sites with one campaign",
+      "url": "https://www.producthunt.com/products/distribution-dev",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-11-24T04:03:01-08:00"
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "News and markets",
+      "sentences": [
+        "Global headlines: Spooked by hackers and heat waves, the British become proper preppers (The government’s “Be Ready” campaign advises that Britons be set to fend for themselves for at least three days. Sales show they’re heeding the call); The temptation of Pope Francis: Private diary reveals torment, visions of Devil (A new book chronicles the pope’s inner turmoil and his encounters with darkness, including a glimpse of “the entrance to hell.”); and Mexico used U.S. drones to arrest alleged drug trafficker ‘El Chapo Isidro’ (Mexico and the United States have long worked together against drug trafficking, but such collaboration can be controversial).",
+        "Markets leaned higher, with 7 of 7 tracked indexes up; S&P 500 up 0.00% was the largest move.",
+        "Benchmarks tracked: S&P 500, NASDAQ Composite, Euronext 100 Index, and Public Joint-Stock Company Moscow Exchange MICEX-RTS plus 3 more indexes."
+      ]
+    },
+    {
+      "title": "Hacker News and Product Hunt",
+      "sentences": [
+        "Hacker News: Investigation of Polymarket Insider Trading on the Reinstatement of Jensen Huang (Enquête forensic on-chain : 4 648 $ injectés à 6,5 ¢, 89 minutes avant le post de Donald Trump et 11h avant le communiqué officiel de...); 2035 Came Early (tl;dr trynix.dev boots GUI programs now. Try solitaire, GL gears, xeyes, a voice, the weather over curl, or Firefox. I remember watching...); and Worshipping at the Altar of Brendan Gregg (Okay, I am the first to admit that I’m a bit manic with AI. When you are working on a problem that has endless possibilities, it is...).",
+        "Product Hunt features frwrd.to (Your link in bio, sorted by your AI in one message), Finseo (Company brain + outreach to get your brand mentioned by AI), and Claude Ship (Ship code as fast as you can write it)."
+      ]
+    }
+  ],
+  "sourceNotes": {
+    "generatedAt": "2026-11-24T12:03:14.254Z",
+    "timeZone": "Asia/Kolkata",
+    "successfulSources": [
+      "Washington Post",
+      "Al Jazeera",
+      "NPR",
+      "China Daily",
+      "The Hindu",
+      "Reuters"
+    ],
+    "marketSessionLabel": "Latest market sessions as of 2026-11-24",
+    "warnings": []
+  }
+}
