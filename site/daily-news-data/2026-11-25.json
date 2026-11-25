@@ -1,0 +1,510 @@
+{
+  "headlines": [
+    {
+      "title": "Eisenkot, pushing to oust Netanyahu, sharpens warnings over new Iran strikes",
+      "url": "https://www.washingtonpost.com/world/2026/11/25/eisenkot-pushing-oust-netanyahu-sharpens-warnings-over-new-strikes-iran/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Wed, 25 Nov 2026 10:00:00 +0000",
+      "summary": "The ex-military chief's options to form a government include a partnership with religious parties, a unity coalition with Likud, and a fallback deal with Arab parties.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "In backing Nvidia’s Huang, Trump deals his China hawks a setback",
+      "url": "https://www.washingtonpost.com/politics/2026/11/25/backing-jensen-huang-trump-delivers-setback-china-hawks/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Wed, 25 Nov 2026 10:00:00 +0000",
+      "summary": "The administration is facing growing bipartisan calls to be tougher on U.S. chip exports and China.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "Top Nvidia chips are still on offer in China, despite U.S. ban",
+      "url": "https://www.washingtonpost.com/world/2026/11/25/top-nvidia-chips-are-still-offer-china-despite-us-ban/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Wed, 25 Nov 2026 10:00:00 +0000",
+      "summary": "Though black-market prices have surged amid the turmoil around Nvidia CEO Jensen Huang, traders in Shenzhen persist in hawking the company’s best chips.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "Israel kills Hamas internal security chief in Gaza",
+      "url": "https://www.washingtonpost.com/world/2026/11/24/israel-kills-hamas-internal-security-chief-gaza/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Tue, 24 Nov 2026 19:31:57 +0000",
+      "summary": "Attacks in Gaza continue under Israeli Prime Minister Benjamin Netanyahu’s caretaker government as former army chief Gadi Eisenkot tries to form a new one.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "Two men arrested in suspected burglary at Prince William’s country home",
+      "url": "https://www.washingtonpost.com/the-seven/2026/11/24/two-men-arrested-possible-burglary-home-prince-william-princess-kate/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Tue, 24 Nov 2026 17:20:00 +0000",
+      "summary": "The property on the Sandringham Estate was unoccupied at the time of the incident, U.K. police said.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "Iran accuses US of ‘strategic ambiguity’; army ready to ‘push enemy back’",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/25/iran-war-live-houthis-threaten-saudi-ports-over-coalitions-hodeidah-order",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-11-25",
+      "summary": "Revolutionary Guard chief says forces prepared to 'push enemy back considerably'; highlights 'major strategic setback'.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/11/ap_6afbfc9370a59-1794899091.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Pakistan rejoices as country’s first astronaut enters orbit",
+      "url": "https://www.aljazeera.com/news/2026/11/25/pakistan-rejoices-as-countrys-first-astronaut-enters-orbit",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-11-25",
+      "summary": "Zeeshan Ali makes history as the first foreign national to board China's space station",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6b067e9c711c-1795587740.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "After weeks of protests, Bangladesh garment workers win 36% pay rise",
+      "url": "https://www.aljazeera.com/news/2026/11/25/bangladesh-garment-workers-win-36-pay-rise-after-weeks-of-protest",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-11-25",
+      "summary": "The protests have cost Bangladesh hundreds of millions, but workers are yet to accept the offer.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/11/reuters_6b06799f-1795586463.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "UK warns companies of potential Russian sabotage threat",
+      "url": "https://www.aljazeera.com/news/2026/11/25/uk-warns-companies-of-potential-russian-sabotage-threat",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-11-25",
+      "summary": "Britain's Defence Ministry and security service warn of the threat in unusual public announcement.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/11/2024-11-17T142342Z_505293507_RC227BANRU6A_RTRMADP_3_UKRAINE-CRISIS-ANNIVERSARY-BRITAIN-PROTEST-1795573872.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Kilmar Abrego Garcia self-deports to Spain after lengthy US legal battle",
+      "url": "https://www.aljazeera.com/news/2026/11/25/kilmar-abrego-garcia-self-deports-to-spain-after-lengthy-us-legal-battle",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-11-25",
+      "summary": "US Senator Chris Van Hollen hails Kilmar Abrego Garcia's safe departure to Spain as a 'free man'.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/11/ap_6b063b0ec3078-1795570446.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Buying new things feels wonderful. But it can also be a trap",
+      "url": "https://www.npr.org/2026/11/25/nx-s1-6052361/buying-new-things-feels-wonderful-can-be-trap-break-the-cycle",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Wed, 25 Nov 2026 05:02:00 -0500",
+      "summary": "Constantly buying new things can be problematic, says journalist Eric Athas, author of the new book \"Saying No to New.\" Here's how to break the cycle and find joy in what you already have.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5333x3000+0+0/resize/5333x3000!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F58%2Fd6%2Fbb0752e54021b462287041746e6b%2F261124-lk-saynotonew-hedimg-16x9.jpg"
+    },
+    {
+      "title": "A quintessential Route 66 diner has been serving up Americana for nearly 100 years",
+      "url": "https://www.npr.org/2026/11/25/nx-s1-5983717/ariston-cafe-route-66-diner-litchfield-illinois",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Wed, 25 Nov 2026 05:00:00 -0500",
+      "summary": "The Ariston Cafe opened its doors in 1924 to serve travelers along Route 66 and has dished up classic American road fare ever since.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6953x4593+0+0/resize/6953x4593!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fdc%2Ff4%2F8d8a889f48009045a421aa5a5ec9%2Fhigh-res-route66-cafe-4.jpg"
+    },
+    {
+      "title": "In a time of rising costs, one Thanksgiving commodity is cheaper: cannabis",
+      "url": "https://www.npr.org/2026/11/25/nx-s1-6046173/cannabis-marijuana-prices-retailers-discounts",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Wed, 25 Nov 2026 05:00:00 -0500",
+      "summary": "Steep discounts for \"Green Wednesday,\" one of the highest-selling days for cannabis, help customers keep costs down. But experts say retailers are feeling the pinch.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3264x1836+0+247/resize/3264x1836!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fea%2Fa6%2F390bdd1e4a02a0ddda45c30c7d42%2Fap685592876001.jpg"
+    },
+    {
+      "title": "China investigates Politburo member and Shanghai party chief Chen Jining",
+      "url": "https://www.npr.org/2026/11/25/nx-s1-6053801/china-investigation-politburo-shanghai-party",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Wed, 25 Nov 2026 04:44:13 -0500",
+      "summary": "The Politburo member is the latest senior official targeted in President Xi Jinping's long-running anti-corruption campaign, which has shown no signs of letting up in scope or depth.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2667x1778+0+0/resize/2667x1778!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fed%2F04%2Fc2d2c607448da009076d8f5d01e4%2Fap26328447661060.jpg"
+    },
+    {
+      "title": "Kilmar Abrego Garcia leaves U.S. voluntarily for Spain",
+      "url": "https://www.npr.org/2026/11/25/nx-s1-6053203/abrego-garcia-leaves-us",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Wed, 25 Nov 2026 04:19:50 -0500",
+      "summary": "Abrego Garcia, a Salvadoran immigrant who became a symbol of Trump's mass deportation campaign, voluntarily left the country on Tuesday after nearly two years of legal battles.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4504x3003+0+0/resize/4504x3003!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fbc%2F1e%2F8e147ce34a51b529ad1587eb88e5%2Fgettyimages-2253180407.jpg"
+    },
+    {
+      "title": "Joint vocational workshops build skills across C. Asia",
+      "url": "https://www.chinadaily.com.cn/a/202611/25/WS6b0638d4e4b03ebf8519e842.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-11-25",
+      "summary": "BISHKEK — Across Central Asia, students are learning to operate power systems, manage smart logistics and master railway technologies — skills increasingly coveted as the region's industries evolve.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202611/25/6b0638d4e4b03ebf74645d0b.png"
+    },
+    {
+      "title": "Chinese envoy calls for protecting Black Sea shipping",
+      "url": "https://www.chinadaily.com.cn/a/202611/25/WS6b063a83e4b03ebf8519e866.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-11-25",
+      "summary": "China called for the protection of civilian infrastructure and commercial shipping on Monday amid escalating hostilities in the Ukraine conflict, warning that disruptions to grain and energy exports through the Black Sea have imposed high costs on developing countries.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202611/25/6b063a83e4b03ebf74645d8e.png"
+    },
+    {
+      "title": "Africa looks to APEC for growth",
+      "url": "https://www.chinadaily.com.cn/a/202611/25/WS6b063315e4b03ebf8519e7dc.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-11-25",
+      "summary": "With Asia-Pacific economies accounting for about 60 percent of global output and nearly half of international trade, their discussions on economic cooperation, supply chains and technology could have far-reaching implications for African countries seeking investment and markets to accelerate industrialization, experts said.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202611/25/6b063314e4b03ebf74645b30.jpeg"
+    },
+    {
+      "title": "Germans 'want govt to pursue cautious foreign policy'",
+      "url": "https://www.chinadaily.com.cn/a/202611/25/WS6b064effe4b03ebf8519e93c.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-11-25",
+      "summary": "Rising fears of international conflict are pushing voters in Germany to favor a more cautious foreign policy, according to an annual survey of public attitudes commissioned by the Koerber Foundation.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202611/25/6b064effe4b03ebf74646197.png"
+    },
+    {
+      "title": "Australia explores more apple exports to China",
+      "url": "https://www.chinadaily.com.cn/a/202611/25/WS6b063700e4b03ebf8519e815.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-11-25",
+      "summary": "Australia's horticulture sector, one of the nation's top agricultural industries, is banking on the expanding Chinese market, with apple growers and exporters especially eyeing opportunities for shipments targeting affluent consumers in more cities.",
+      "thumbnailUrl": "https://www.chinadaily.com.cn/image_e/2020/logo21.jpg"
+    },
+    {
+      "title": "SC defers Umar Khalid, Sharjeel Imam’s interim bail pleas pending larger Bench ruling on UAPA bail curbs",
+      "url": "https://www.thehindu.com/news/national/sharjeel-imam-umar-khalid-bail-supreme-court-notice-to-delhi-police-on-pleas-in-uapa-delhi-riots-case/article71741295.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-11-25T06:22:11.000Z",
+      "summary": "SC notices bail pleas of Umar Khalid, Sharjeel Imam in UAPA Delhi riots case; hearing on interim bail after protected-witness issue.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/e52unt/article71741302.ece/alternates/LANDSCAPE_1200/doc7d2j62t90awg32fx7st.jpg"
+    },
+    {
+      "title": "Congress to hold ‘Samvidhan Raksha’ marches across States on Constitution Day, Kharge to join programme in Lucknow",
+      "url": "https://www.thehindu.com/news/national/congress-to-hold-samvidhan-raksha-marches-across-states-on-constitution-day-kharge-to-join-programme-in-lucknow/article71741430.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-11-25T07:11:40.000Z",
+      "summary": "Congress to organize nationwide Samvidhan Raksha Marches on Constitution Day, urging voter rights protection amid electoral roll concerns.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/6eowx3/article71741432.ece/alternates/LANDSCAPE_1200/10258_27_8_2026_15_16_56_2_MALLIKARJUN_KHARGE_2.JPG"
+    },
+    {
+      "title": "Behind Ramdev-Dhirendra Shastri exchange, a jockeying for relevance in poll-bound U.P.",
+      "url": "https://www.thehindu.com/news/national/uttar-pradesh/behind-ramdev-dhirendra-shastri-exchange-a-jockeying-for-relevance-in-poll-bound-up/article71741070.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-11-25T04:31:28.000Z",
+      "summary": "Two BJP-linked religious figures, Dhirendra Shastri and Baba Ramdev, clash over Ram-Krishna comparisons amid UP poll maneuvering.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/news/national/uttar-pradesh/uaufe/article71741078.ece/alternates/LANDSCAPE_1200/Ramdev-Shastri.jpg"
+    },
+    {
+      "title": "Days before Jharkhand High Court Chief Justice’s retirement, Supreme Court Collegium proposes successor",
+      "url": "https://www.thehindu.com/news/national/jharkhand/days-before-jharkhand-high-court-chief-justices-retirement-supreme-court-collegium-proposes-successor/article71739924.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-11-24T18:06:53.000Z",
+      "summary": "Supreme Court Collegium proposes Jharkhand HC successor to Chief Justice Sonak days before retirement, amid CM Soren’s concerns.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/b751l6/article71739943.ece/alternates/LANDSCAPE_1200/10258_6_7_2026_17_18_40_1_JUSTICE_VIBHU_BAKHRU_1.JPG"
+    },
+    {
+      "title": "NSA Doval calls for closer regional security cooperation to counter challenges in Indian Ocean",
+      "url": "https://www.thehindu.com/news/national/nsa-doval-calls-for-closer-regional-security-cooperation-to-counter-challenges-in-indian-ocean/article71741299.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-11-25T06:54:51.000Z",
+      "summary": "NSA Doval urges closer Indian Ocean security cooperation at Colombo Security Conclave to counter evolving threats and boost regional security.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/2ael38/article71741391.ece/alternates/LANDSCAPE_1200/20261125014L.jpg"
+    },
+    {
+      "title": "Israeli strike kills Hamas official, his wife and children",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOYjNlV0dRZTd0cDZJZVBnNFl6VUpTMDFlQlFIY0tJQzR5ZmNrYm9lNS1kMTRYbEpyM2FNMWp6Qms1NGh4VTU0YkxQN0NaY1FRV1diOENoQmdIQjJ0eU12VGZfamhNWHpsZUQ0MXczanBWZW1uWUZsVXpwcElhR2RXdG80RTBIcjZ1WjVHYW94MUhfUDI5dTA0ODZWRlBiVkFYNlhwR1RSaW1OZ2M?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Wed, 25 Nov 2026 09:09:44 GMT",
+      "summary": "Reuters: Israeli strike kills Hamas official, his wife and children.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "Iran says it is prepared to withstand US blockade, seeks to curb price rises",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOQUtreFI1ZkdfaWRTMFJZWElnOFJtM2E1ZlZ6OVhiSDlVTnFOLVQtZTExQWZjbWRvRjR0SFJ3ZUotcEV5Z3RFaE5Wb1RsUEFSdUVoVUhvaXU1bFFNckhHcHdDZjdkRTNMUVlzR0ZVcUx1VWRLeV9DSnFtQjJrOUU1NjJSM1VyTEc3QUltV2p6bFpvSGVLd3dKMXRkaXpnVEJrUWcycHI5UVBNOTAwWTIzTTloYlZSeXpiUjJIcS1HOWQ?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Wed, 25 Nov 2026 08:29:22 GMT",
+      "summary": "Reuters: Iran says it is prepared to withstand US blockade, seeks to curb price rises.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "Yemen's Houthis say they attacked Saudi Arabia's Ras Tanura refinery",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOakM0aVEtei1RVzZkTUVZYlFabWlDYWpzTktyaGU2WHZqaGRkU0hJOHdsNDFUdU5GYzNOYzdZYnkwWnFYZ2daNlNvYkJ3ZWNjeDNTRm5HOUFtNW5nRjNYSVpaaGF0SF9xbjN6S1FpbVJ6MmFBYkdUeF9CMTZKRUdJT2RITmVSelAzWUJtTEIxQTN5Ry1YZEczX29iOHVuc0Q1bllidlBoN0VDNWVzYzZqU2RaNm5JRUctRDdsdGt2ZkEydWRVMV9wQUdHYw?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Wed, 25 Nov 2026 07:24:00 GMT",
+      "summary": "Reuters: Yemen's Houthis say they attacked Saudi Arabia's Ras Tanura refinery.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "US shelves plans for business deals with Russia to end Ukraine war, FT says",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPZFZhN2w2ckJtVC03TWJPb2FwbDlrZzdDd0tRUWRmeGh0WXJBeWZjelhNMFNlMjNPTzJZVjB2MVhtZzhqSE9rdzZkbE5kZW5HbDdxeVVhd1g0aUExaHZGMm5oVy1YTkcyMmdaN0s5aG9kNERVZWl0OHpVaFRNVkFaNVQwTnFKMjAwWFMtenFJU002WlBIbWVqRVZHTWlWa19BXzNDaDJVVmUyRExDUXBHZnVmTHMwV01iSHRPallncHNkT09hNnc?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Wed, 25 Nov 2026 05:16:00 GMT",
+      "summary": "Reuters: US shelves plans for business deals with Russia to end Ukraine war, FT says.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "EU plans €50 billion tech fund to challenge US and China, FT reports",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOUUNwSjZLMGhnbjRUT3dCanR4NUNvbFlkOHpleklINGJuU3p4X1dqQlpTZHYtYm85OTBLSlQ2ZjVudXJrQ2xvazBWN3lydjZXOUdzdjJ0amJ0Ulh5X3dXVEszdTM5QTdlMU9PbkszRmd4djFaLWh1M0FxQ1E5NzJQeDY5QTdSN2lvSGJpNUlUTGlSeVJjeGFzX0xpdlFzbS1GNzlfdDZLMTIwY0E?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Wed, 25 Nov 2026 05:19:00 GMT",
+      "summary": "Reuters: EU plans €50 billion tech fund to challenge US and China, FT reports.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    }
+  ],
+  "markets": [
+    {
+      "id": "sp-500",
+      "label": "S&P 500",
+      "region": "US",
+      "symbol": "^GSPC",
+      "value": 0,
+      "previousClose": 0,
+      "change": 0,
+      "percentChange": 0,
+      "direction": "up",
+      "sessionDate": "2026-11-25"
+    },
+    {
+      "id": "nasdaq-composite",
+      "label": "NASDAQ Composite",
+      "region": "US",
+      "symbol": "^IXIC",
+      "value": 0,
+      "previousClose": 0,
+      "change": 0,
+      "percentChange": 0,
+      "direction": "up",
+      "sessionDate": "2026-11-25"
+    },
+    {
+      "id": "euronext-100",
+      "label": "Euronext 100 Index",
+      "region": "Europe",
+      "symbol": "^N100",
+      "value": 0,
+      "previousClose": 0,
+      "change": 0,
+      "percentChange": 0,
+      "direction": "up",
+      "sessionDate": "2026-11-25"
+    },
+    {
+      "id": "moex",
+      "label": "Public Joint-Stock Company Moscow Exchange MICEX-RTS",
+      "region": "Europe",
+      "symbol": "MOEX.ME",
+      "value": 0,
+      "previousClose": 0,
+      "change": 0,
+      "percentChange": 0,
+      "direction": "up",
+      "sessionDate": "2026-11-25"
+    },
+    {
+      "id": "hang-seng",
+      "label": "HANG SENG INDEX",
+      "region": "Asia",
+      "symbol": "^HSI",
+      "value": 0,
+      "previousClose": 0,
+      "change": 0,
+      "percentChange": 0,
+      "direction": "up",
+      "sessionDate": "2026-11-25"
+    },
+    {
+      "id": "nikkei-225",
+      "label": "Nikkei 225",
+      "region": "Asia",
+      "symbol": "^N225",
+      "value": 0,
+      "previousClose": 0,
+      "change": 0,
+      "percentChange": 0,
+      "direction": "up",
+      "sessionDate": "2026-11-25"
+    },
+    {
+      "id": "sensex",
+      "label": "S&P BSE SENSEX",
+      "region": "India",
+      "symbol": "^BSESN",
+      "value": 0,
+      "previousClose": 0,
+      "change": 0,
+      "percentChange": 0,
+      "direction": "up",
+      "sessionDate": "2026-11-25"
+    }
+  ],
+  "hackerNews": [
+    {
+      "title": "Matrix Multiplication is Θ(n^2.25) [pdf]",
+      "url": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
+      "publishedAt": "2026-11-25T01:19:26.000Z",
+      "summary": "Contribute to openai/math development by creating an account on GitHub.",
+      "thumbnailUrl": "https://opengraph.githubassets.com/2f44cb8fb008530aa360cae44f6126c0a2a515528efacdda46897ca874d852c0/openai/math"
+    },
+    {
+      "title": "Button Sounds – collection of professionally-recorded button clicks and presses",
+      "url": "https://buttons.joshwcomeau.com/",
+      "publishedAt": "2026-11-25T03:23:07.000Z",
+      "summary": "A free collection of 50+ professionally-recorded multi-sampled clicks and toggles. Distributed via NPM.",
+      "thumbnailUrl": "https://buttons.joshwcomeau.com/og-button-sounds.png"
+    },
+    {
+      "title": "Models Can Communicate via Inference Servers Despite Being Sandboxed",
+      "url": "https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being",
+      "publishedAt": "2026-11-25T02:34:21.000Z",
+      "summary": "TL;DR * Two agents running on the same inference server can reliably communicate, even if they cannot send each other messages or access the same fi…",
+      "thumbnailUrl": "https://res.cloudinary.com/lesswrong-2-0/image/upload/c_limit,w_1200,q_auto,f_jpg/f_auto,q_auto/v1/mirroredImages/7wzWuLP3HhyBLmKfo/ilkdsamuxja1dvu4uah2"
+    },
+    {
+      "title": "Show HN: Old Nvidia and ATI tech demos, running again in the browser",
+      "url": "https://gpu-demo-gallery.pages.dev/",
+      "publishedAt": "2026-11-25T04:31:48.000Z",
+      "summary": "Twenty-three graphics card demos by 3dfx, NVIDIA and ATI from 1998 to 2006, running in the browser.",
+      "thumbnailUrl": "https://gpu-demo-gallery.pages.dev/img/borg.jpg"
+    },
+    {
+      "title": "Bypassing iOS Safari's 60 FPS Limit to Build Web Applications That Feel Native",
+      "url": "https://rida.dev/blog/bypassing-ios-safari-60-fps-limit",
+      "publishedAt": "2026-11-25T03:04:37.000Z",
+      "summary": "Getting iOS Safari web apps to a full 120 Hz, input and rendering, using native scroll containers and OffscreenCanvas.",
+      "thumbnailUrl": "https://rida.dev/og/blog/bypassing-ios-safari-60-fps-limit.png"
+    },
+    {
+      "title": "Ternary Bonsai 2.5 27B",
+      "url": "https://prismml.com/news/bonsai-2-5-27b",
+      "publishedAt": "2026-11-24T20:08:03.000Z",
+      "summary": "Ternary Bonsai 2.5 27B brings substantially stronger agentic coding, multi-turn tool use, and multi-step task execution to the same 5.9 GB footprint.",
+      "thumbnailUrl": "https://cdn.prod.website-files.com/699604cc2b9dd89bdbda0608/6a6d0e0bc0d5f9a97a5164c0_69cc089669ab0df26e921aac_prism-og-img%2520(2).png"
+    },
+    {
+      "title": "Getting old Java phones online again",
+      "url": "https://antcating.github.io/2026/11/23/getting-old-java-phones-online-again.html",
+      "publishedAt": "2026-11-24T13:14:37.000Z",
+      "summary": "Sony Ericsson S500i accessing FrogFind.",
+      "thumbnailUrl": "https://antcating.github.io/assets/images/s500i/hero.jpg"
+    },
+    {
+      "title": "PenGPT: A Generative Transformer for Handwriting and Sketches",
+      "url": "https://greydanus.github.io/2026/11/12/pengpt/",
+      "publishedAt": "2026-11-25T00:54:49.000Z",
+      "summary": "A small transformer that writes and sketches from text. The effort was 80% data, 15% speed and 5% architecture: my first project that follows the Bitter Lesson.",
+      "thumbnailUrl": "https://greydanus.github.io/assets/pengpt/thumbnail.png"
+    },
+    {
+      "title": "Taking over US Treasury subdomains for $3 each",
+      "url": "https://www.intruder.io/research/taking-over-us-treasury-subdomains-for-3-each",
+      "publishedAt": "2026-11-25T04:27:55.000Z",
+      "summary": "We took over five US Treasury subdomains for about $3 each by cycling through AWS Elastic IPs. Here’s how it works, and what to check in your own DNS.",
+      "thumbnailUrl": "https://cdn.prod.website-files.com/61dd9339d05701829d0b3241/6afdc01d62cd6e97b94540b6_Elastic%20IP%20adresses%20(1).jpg"
+    },
+    {
+      "title": "The algebra of dependent types (2025)",
+      "url": "https://dotat.at/@/2025-05-28-types.html",
+      "publishedAt": "2026-11-24T04:49:58.000Z",
+      "summary": "TIL (or this week-ish I learned) why big-sigma and big-pi turn up in the notation of dependent type theory.",
+      "thumbnailUrl": "https://dotat.at/graphics/dotat-64.png"
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "VibeCode.surf",
+      "tagline": "AI code editor where agents build, run and test your app",
+      "url": "https://www.producthunt.com/products/vibecode-surf",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-11-25T02:55:42-08:00"
+    },
+    {
+      "name": "Continual-ARC",
+      "tagline": "OpenClaw doesn't learn from experience. Does your agent?",
+      "url": "https://www.producthunt.com/products/unify-5",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-11-25T02:55:41-08:00"
+    },
+    {
+      "name": "Fompi",
+      "tagline": "Personal security & privacy companion that calls out risks",
+      "url": "https://www.producthunt.com/products/fompi",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-11-25T02:55:35-08:00"
+    },
+    {
+      "name": "file.spot",
+      "tagline": "File transfer for creative professionals",
+      "url": "https://www.producthunt.com/products/file-spot",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-11-25T02:55:35-08:00"
+    },
+    {
+      "name": "PartGenie 2.0",
+      "tagline": "The AI workspace for hardware engineering",
+      "url": "https://www.producthunt.com/products/partgenie",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-11-25T02:55:34-08:00"
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "News and markets",
+      "sentences": [
+        "Global headlines: Eisenkot, pushing to oust Netanyahu, sharpens warnings over new Iran strikes (The ex-military chief's options to form a government include a partnership with religious parties, a unity coalition with Likud, and a fallback deal with Arab parties); In backing Nvidia’s Huang, Trump deals his China hawks a setback (The administration is facing growing bipartisan calls to be tougher on U.S. chip exports and China); and Top Nvidia chips are still on offer in China, despite U.S. ban (Though black-market prices have surged amid the turmoil around Nvidia CEO Jensen Huang, traders in Shenzhen persist in hawking the company’s best chips).",
+        "Markets leaned higher, with 7 of 7 tracked indexes up; S&P 500 up 0.00% was the largest move.",
+        "Benchmarks tracked: S&P 500, NASDAQ Composite, Euronext 100 Index, and Public Joint-Stock Company Moscow Exchange MICEX-RTS plus 3 more indexes."
+      ]
+    },
+    {
+      "title": "Hacker News and Product Hunt",
+      "sentences": [
+        "Hacker News: Matrix Multiplication is Θ(n^2.25) [pdf] (Contribute to openai/math development by creating an account on GitHub); Button Sounds – collection of professionally-recorded button clicks and presses (A free collection of 50+ professionally-recorded multi-sampled clicks and toggles. Distributed via NPM); and Models Can Communicate via Inference Servers Despite Being Sandboxed (TL;DR * Two agents running on the same inference server can reliably communicate, even if they cannot send each other messages or access...).",
+        "Product Hunt features VibeCode.surf (AI code editor where agents build, run and test your app), Continual-ARC (OpenClaw doesn't learn from experience. Does your agent), and Fompi (Personal security & privacy companion that calls out risks)."
+      ]
+    }
+  ],
+  "sourceNotes": {
+    "generatedAt": "2026-11-25T10:55:58.641Z",
+    "timeZone": "Asia/Kolkata",
+    "successfulSources": [
+      "Washington Post",
+      "Al Jazeera",
+      "NPR",
+      "China Daily",
+      "The Hindu",
+      "Reuters"
+    ],
+    "marketSessionLabel": "Latest market sessions as of 2026-11-25",
+    "warnings": []
+  }
+}
