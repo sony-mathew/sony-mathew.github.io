@@ -1,0 +1,510 @@
+{
+  "headlines": [
+    {
+      "title": "Mexico condemns DEA tip line asking people to report corrupt officials in Sinaloa",
+      "url": "https://www.washingtonpost.com/world/2026/11/27/mexico-condemns-dea-tip-line-asking-people-report-corrupt-officials-sinaloa/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Fri, 27 Nov 2026 20:47:01 +0000",
+      "summary": "The Mexican president described the tip line as a form of U.S. “interference.”",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "After heavy strikes by Iran, U.S. naval base in Bahrain faces uncertain future",
+      "url": "https://www.washingtonpost.com/world/2026/11/27/after-heavy-strikes-by-iran-major-us-naval-base-bahrain-faces-uncertain-future/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Fri, 27 Nov 2026 20:07:19 +0000",
+      "summary": "Neighborhoods around a major American naval facility are deserted, and the nearby businesses are wondering what comes next.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "‘GTA VI’ release has swept PlayStation 5 off the shelves worldwide",
+      "url": "https://www.washingtonpost.com/world/2026/11/27/gta-vi-release-has-swept-playstation-5-off-shelves-worldwide/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Fri, 27 Nov 2026 18:57:17 +0000",
+      "summary": "The highly anticipated game landed in an already strained market, where console manufacturers have been hit hard by a global memory chip shortage.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "How Israel’s odd-couple politics could be close to toppling Netanyahu",
+      "url": "https://www.washingtonpost.com/world/2026/11/27/how-israels-odd-couple-politics-could-be-close-toppling-netanyahu/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Fri, 27 Nov 2026 18:24:12 +0000",
+      "summary": "Alliances that seemed unthinkable before the Oct. 27 election are now possible or even likely, as campaign trail taboos give way to realpolitik coalition talks.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "Political novice turns kingmaker after New Zealand’s deadlocked election",
+      "url": "https://www.washingtonpost.com/world/2026/11/27/opportunity-qiulae-wong-turns-kingmaker-after-new-zealand-election/",
+      "source": "Washington Post",
+      "region": "Global",
+      "publishedAt": "Fri, 27 Nov 2026 18:15:00 +0000",
+      "summary": "A former consultant who answered a job advertisement to lead a political party has secured a powerful position in an extremely close election race.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.washingtonpost.com&sz=128"
+    },
+    {
+      "title": "Iran says ready to respond to any attack ‘from anywhere in the world’",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/28/iran-war-live-italy-says-drone-in-deadly-kuwait-attack-was-made-in-iran",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-11-28",
+      "summary": "Deputy chief of Iran's armed forces says military in a state of absolute readiness to respond to any 'misstep by enemy'.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/11/AP26313685235897-1-1794303255.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Yemen government forces hit Houthi positions as UN warns of hunger crisis",
+      "url": "https://www.aljazeera.com/news/2026/11/28/yemen-governmen-forces-hit-houthi-positions-as-un-warns-of-hunger-crisis",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-11-28",
+      "summary": "About 1.8 million people face emergency levels of hunger in government-held areas, according to the UN.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-11-26T161010Z_1023982243_RC2OVOATOQZJ_RTRMADP_3_IRAN-CRISIS-YEMEN-AFTERMATH-1795854548.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "At least six students killed in blast beside school in Afghanistan’s Kunar",
+      "url": "https://www.aljazeera.com/news/2026/11/28/students-killed-injured-in-school-explosion-in-afghanistans-kunar-region",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-11-28",
+      "summary": "Official says the figures were preliminary and the casualty numbers could change as more information becomes available.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2025/09/WEBMAP_AFGHANISTAN_KUNAR-1756709855.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "UN’s Albanese leaves Costa Rica airport after constitutional court verdict",
+      "url": "https://www.aljazeera.com/news/2026/11/28/uns-albanese-leaves-costa-rica-airport-after-constitutional-court-verdict",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-11-28",
+      "summary": "Albanese leaves the Costa Rican airport where she has been held after the court orders her to be released from the premises.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/11/reuters_6b0a91b9-1795854777.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Uganda starts mRNA Ebola vaccine trial in first for Africa",
+      "url": "https://www.aljazeera.com/news/2026/11/28/uganda-starts-mrna-ebola-vaccine-trial-in-first-for-africa",
+      "source": "Al Jazeera",
+      "region": "Middle East",
+      "publishedAt": "2026-11-28",
+      "summary": "The trial targets the less common Bundibugyo strain behind the Ebola outbreak in neighbouring DRC.",
+      "thumbnailUrl": "https://www.aljazeera.com/wp-content/uploads/2026/11/AP26329472525576-1795846807.jpg?resize=770%2C513&amp;quality=80"
+    },
+    {
+      "title": "Sudan's lost generation: War is stealing the childhood of millions",
+      "url": "https://www.npr.org/2026/11/27/nx-s1-6053049/sudans-lost-generation-war-is-stealing-a-generation-of-childhood",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Fri, 27 Nov 2026 17:54:53 -0500",
+      "summary": "Three years of war have stolen childhood from millions of children in Sudan, leaving them displaced, hungry and fighting for survival instead of learning in a classroom.",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "Thanksgiving storm batters East Coast. And, Black Friday sales to hit record levels",
+      "url": "https://www.npr.org/2026/11/27/g-s1-156004/up-first-newsletter-thanksgiving-storm-black-friday-shopping-asylum-supreme-court",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Fri, 27 Nov 2026 06:59:02 -0500",
+      "summary": "A powerful storm knocked out power for nearly 1 million customers and flooded streets. And, experts predict inflation will not dampen American spending for the holidays",
+      "thumbnailUrl": "https://feeds.npr.org/1001/undefined"
+    },
+    {
+      "title": "French cinema star Gérard Depardieu ordered to stand trial for rape and sexual assault",
+      "url": "https://www.npr.org/2026/11/27/nx-s1-6055559/gerard-depardieu-trial-rape-france",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Fri, 27 Nov 2026 06:49:50 -0500",
+      "summary": "The case has become one of the most prominent in France's reckoning with sexual violence, as the #MeToo movement has faced resistance in the country, particularly in the arts.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2888x1926+0+0/resize/2888x1926!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fa9%2Fea%2Ff523d8f84dfa9012828ba7f8a0e5%2Fap26330526061869.jpg"
+    },
+    {
+      "title": "From Thanksgiving blackouts to Black Friday, a holiday hit by wild weather and economic woes",
+      "url": "https://www.npr.org/2026/11/27/nx-s1-6054884/thanksgiving-weather-black-friday",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Fri, 27 Nov 2026 05:59:36 -0500",
+      "summary": "A storm battered much of the country on Thursday, knocking out power to thousands of homes and disrupting travel. Today, Black Friday shopping deals kick off, and on Saturday New York City will hold the postponed Macy's Thanksgiving Day Parade.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4496x3000+0+0/resize/4496x3000!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2Ff2%2Fe6%2F842c0c584574bebf383c85a84897%2Fap26330589214672.jpg"
+    },
+    {
+      "title": "Can luxury save Macy's?",
+      "url": "https://www.npr.org/2026/11/27/nx-s1-6026486/macys-tries-to-reinvent-with-luxury",
+      "source": "NPR",
+      "region": "US",
+      "publishedAt": "Fri, 27 Nov 2026 05:01:00 -0500",
+      "summary": "This week's celebration of Macy's 100th Thanksgiving parade finds the department store at a turning point. After years of losing sales, the retailer is reimagining itself — as a higher-end destination.",
+      "thumbnailUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6192x4128+0+0/resize/6192x4128!/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fce%2F42%2Fe92e56684604ba12db67369743e2%2Fgettyimages-2305985820.jpg"
+    },
+    {
+      "title": "Trump keeps options open on Iran as tensions mount, peace talks stall",
+      "url": "https://www.chinadaily.com.cn/a/202611/27/WS6b08d676e4b03ebf8519eee7.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-11-27",
+      "summary": "United States special envoy Jared Kushner said President Donald Trump is keeping \"all options\" open on Iran amid reports that Washington was mulling assassinating the hard-liners in Tehran.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202611/27/6b08d676e4b03ebf74647fb9.png"
+    },
+    {
+      "title": "Major economies balk at new US tariffs",
+      "url": "https://www.chinadaily.com.cn/a/202611/27/WS6b08edfce4b03ebf8519eff9.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-11-27",
+      "summary": "WASHINGTON — Major economies from the European Union to Japan hit out at proposed US tariffs after Washington concluded its monthslong probe into alleged excess production, potentially opening a new phase in trade tensions with trade partners.",
+      "thumbnailUrl": "http://img2.chinadaily.com.cn/images/202611/27/6b08edfce4b03ebf746482b0.jpeg"
+    },
+    {
+      "title": "Russia, Ukraine exchange bodies of fallen soldiers in Belarus",
+      "url": "https://www.chinadaily.com.cn/a/202611/27/WS6b08e03be4b03ebf8519ef8b.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-11-27",
+      "summary": "MINSK -- Russia and Ukraine exchanged the bodies of fallen military personnel at the Nova Guta border crossing between Belarus and Ukraine on Thursday, BelTA news agency reported.",
+      "thumbnailUrl": "https://www.chinadaily.com.cn/image_e/2020/logo21.jpg"
+    },
+    {
+      "title": "Africa urged to accelerate health sector's self-reliance",
+      "url": "https://www.chinadaily.com.cn/a/202611/27/WS6b08e02be4b03ebf8519ef88.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-11-27",
+      "summary": "African leaders have called for a decisive shift toward greater health self-reliance, warning that the continent's dependence on external financing and imported medical supplies leaves its health systems vulnerable to changing global funding priorities and public health emergencies.",
+      "thumbnailUrl": "https://www.chinadaily.com.cn/image_e/2020/logo21.jpg"
+    },
+    {
+      "title": "Experts call for AI safety cooperation",
+      "url": "https://www.chinadaily.com.cn/a/202611/27/WS6b08e987e4b03ebf8519efe3.html",
+      "source": "China Daily",
+      "region": "China",
+      "publishedAt": "2026-11-27",
+      "summary": "China and the United States have opportunities to deepen cooperation on artificial intelligence safety, building on recent high-level understandings and shared concerns about the risks of increasingly powerful AI systems, experts said at a Brookings Institution webinar on Monday.",
+      "thumbnailUrl": "https://www.chinadaily.com.cn/image_e/2020/logo21.jpg"
+    },
+    {
+      "title": "What is the Indraprastha Communique issued after SCO Civilizational Forum in New Delhi? | Explained",
+      "url": "https://www.thehindu.com/news/national/what-is-the-indraprastha-communique-issued-after-sco-civilizational-forum-in-new-delhi-explained/article71753482.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-11-28T02:13:05.000Z",
+      "summary": "INDRA: A concise overview of the Indraprastha Communique from the SCO Civilisational Forum in Delhi, outlining its nine-point charter, cultural collaboration, and proposed biannual dialogue.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/uipj1/article71753485.ece/alternates/LANDSCAPE_1200/20261120426L.jpg"
+    },
+    {
+      "title": "Ten pillars of Nepal-India vision statement issued during Prime Minister Balendra Shah’s visit",
+      "url": "https://www.thehindu.com/news/national/ten-pillars-of-nepal-india-vision-statement-issued-during-prime-minister-balendra-shahs-visit/article71753492.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-11-28T02:36:00.000Z",
+      "summary": "India-Nepal unveil a ten-pillar forward-looking vision document to redefine economic, energy, governance, and border collaboration post-uprising.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/32s10m/article71753493.ece/alternates/LANDSCAPE_1200/TH23-Kallol-IndG64GRA4H0.3.jpg.jpg"
+    },
+    {
+      "title": "Centre proposes freeze on Lok Sabha seat proportions for States until 2051",
+      "url": "https://www.thehindu.com/news/national/centre-proposes-freeze-on-lok-sabha-seat-proportions-for-states-until-2051/article71752150.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-11-27T17:25:39.000Z",
+      "summary": "Centre proposes 25-year freeze on inter-State Lok Sabha seat distribution, plus 50% seat rise and 33% women reservation by 2051.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/zarshs/article71747086.ece/alternates/LANDSCAPE_1200/Uncertainty-oveGDHGRKK49.4.jpg.jpg"
+    },
+    {
+      "title": "Congress reaches out to DMK, other Opposition parties to stall passage of delimitation Bill",
+      "url": "https://www.thehindu.com/news/national/congress-reaches-out-to-dmk-other-opposition-parties-to-stall-passage-of-delimitation-bill/article71751727.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-11-27T17:49:20.000Z",
+      "summary": "Congress seeks opposition unity to stall delimitation bills, plans press conferences and nationwide campaign against the move.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/oh6x0/article71752274.ece/alternates/LANDSCAPE_1200/20261127321L.jpg"
+    },
+    {
+      "title": "Constitution Amendment Bill: April to November what changed",
+      "url": "https://www.thehindu.com/news/national/constitution-amendment-bill-april-to-november-what-changed/article71753750.ece",
+      "source": "The Hindu",
+      "region": "India",
+      "publishedAt": "2026-11-28T06:35:33.000Z",
+      "summary": "Outlines how the revised 132nd Amendment Bill tightens delimitations, freezes population to 2051, expands presidential definition, and narrows Parliament’s latitude.",
+      "thumbnailUrl": "https://th-i.thgim.com/public/incoming/z8rndg/article71753753.ece/alternates/LANDSCAPE_1200/TH27-Varghese-AG90GS0HH5.3.jpg.jpg"
+    },
+    {
+      "title": "US military repelled drones at UK airbase this month, FT reports",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPLVBLa19DdUlDcGg5RVY2bjFfYS1QYXJRQmE0Z1ZfNm02WmI5RnBhcEhKSGdRR01XdUJhandJSzQ0SEF5bWRlZlBUbUJPbVJLbjROSUozYnJseGhLekl6bEhTTU5tbEVQMWtCU3Z1YzJiTTZNcnBrdVNYQ3ZudHpLVFREbWhkcUNWSVQ0bHdCVUF5RU0?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Sat, 28 Nov 2026 05:18:00 GMT",
+      "summary": "Reuters: US military repelled drones at UK airbase this month, FT reports.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "Iran's flogging of singer was warning from anxious hardliners, insiders say",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPdHEwNVJXaUs1bXFUR0FoQUQ2TTJWNThDakwyUkMxZk41VlYwYUthWVdNck1vT3pIY1BZdjQ4S3RIOFZuUlRjRUZoRUxxTmRaOVI1ZjU2RURfVzJMSGo0RVpnZ29XTmlXeV9zbExvOWMwdEZ6a0ozQzBZNkhsQWpsamFrTnlLMUgwTnpHd2htUTdrRUw3a0F5V1lTUDI2dDRTbjQ1UjBObzdKUm50N2hfTHNzVE1hSDNGMng0?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Sat, 28 Nov 2026 07:14:00 GMT",
+      "summary": "Reuters: Iran's flogging of singer was warning from anxious hardliners, insiders say.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "Explosion reported at school in Afghanistan, official says",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNcVRKa09nUTkyZHR6Tnp6aTFwNzFYOHd0WGRtWjFEU2Z4RmFvRzVETWJwbEF4WHROdnpCVU9NMVBYYUJtbVU5NzVqNEVkaEVhNUtmMHFrbFE0cW5OQmdXYkpiV0JvbGoteXRYamR6Mjl0clR1cmp2elB5LU9IOUFjZzcwSXFjTXVxcy1XbmJHdGQwbjZMREhfNzRwS29Jck8zbURsQkdoTXMtZw?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Sat, 28 Nov 2026 08:05:25 GMT",
+      "summary": "Reuters: Explosion reported at school in Afghanistan, official says.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "India's bottled-water crackdown widens as new Bisleri sample found with bacteria",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVVo0MmV3VWE5bkFxdlExTW5Qa1VRUm4tcHZnbmJKbmNwSjJiNjVuRFlwbHZqcFJYR2pHekJKdFptbDJlekZ0Z0VSRTV3bm5ydUNNNmdLMU5sZkFMLU95SVpnNW9MaXNPNllyZFJleUFWcHEteFZGczZzNHdBY1o3bERlTVp6a3lvd0E1RjFZNXNmRVFpdVVkNVR3MVpJa1dsVW0zcGVTM1I5UmRBVU5icmdB?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Sat, 28 Nov 2026 05:09:00 GMT",
+      "summary": "Reuters: India's bottled-water crackdown widens as new Bisleri sample found with bacteria.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    },
+    {
+      "title": "Taiwan votes in local elections as China sends warplanes, lambastes Taipei candidate",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPd0hYazFSNFdJenpCQmdWUUh0cUZOTHhJWm5hYnB4ampiMXJRamNxVGtST2NuTV9rS2hjUHFUWElIUjhtX3VlZFlWTkpBOWh5SmJkNGdJd1VFVFFWSmR4LURfQUx0ZDVmWnk3MEpuc3hMN0QwaXFwYnZMc3kteEJpWUduWWNITVkwNTJGaGVRSWdHNVNyNjhn?oc=5",
+      "source": "Reuters",
+      "region": "Global",
+      "publishedAt": "Sat, 28 Nov 2026 00:01:00 GMT",
+      "summary": "Reuters: Taiwan votes in local elections as China sends warplanes, lambastes Taipei candidate.",
+      "thumbnailUrl": null,
+      "sourceIconUrl": "https://www.google.com/s2/favicons?domain=www.reuters.com&sz=128"
+    }
+  ],
+  "markets": [
+    {
+      "id": "sp-500",
+      "label": "S&P 500",
+      "region": "US",
+      "symbol": "^GSPC",
+      "value": 0,
+      "previousClose": 0,
+      "change": 0,
+      "percentChange": 0,
+      "direction": "up",
+      "sessionDate": "2026-11-28"
+    },
+    {
+      "id": "nasdaq-composite",
+      "label": "NASDAQ Composite",
+      "region": "US",
+      "symbol": "^IXIC",
+      "value": 0,
+      "previousClose": 0,
+      "change": 0,
+      "percentChange": 0,
+      "direction": "up",
+      "sessionDate": "2026-11-28"
+    },
+    {
+      "id": "euronext-100",
+      "label": "Euronext 100 Index",
+      "region": "Europe",
+      "symbol": "^N100",
+      "value": 0,
+      "previousClose": 0,
+      "change": 0,
+      "percentChange": 0,
+      "direction": "up",
+      "sessionDate": "2026-11-28"
+    },
+    {
+      "id": "moex",
+      "label": "Public Joint-Stock Company Moscow Exchange MICEX-RTS",
+      "region": "Europe",
+      "symbol": "MOEX.ME",
+      "value": 0,
+      "previousClose": 0,
+      "change": 0,
+      "percentChange": 0,
+      "direction": "up",
+      "sessionDate": "2026-11-28"
+    },
+    {
+      "id": "hang-seng",
+      "label": "HANG SENG INDEX",
+      "region": "Asia",
+      "symbol": "^HSI",
+      "value": 0,
+      "previousClose": 0,
+      "change": 0,
+      "percentChange": 0,
+      "direction": "up",
+      "sessionDate": "2026-11-28"
+    },
+    {
+      "id": "nikkei-225",
+      "label": "Nikkei 225",
+      "region": "Asia",
+      "symbol": "^N225",
+      "value": 0,
+      "previousClose": 0,
+      "change": 0,
+      "percentChange": 0,
+      "direction": "up",
+      "sessionDate": "2026-11-28"
+    },
+    {
+      "id": "sensex",
+      "label": "S&P BSE SENSEX",
+      "region": "India",
+      "symbol": "^BSESN",
+      "value": 0,
+      "previousClose": 0,
+      "change": 0,
+      "percentChange": 0,
+      "direction": "up",
+      "sessionDate": "2026-11-28"
+    }
+  ],
+  "hackerNews": [
+    {
+      "title": "Unkernel: Real Linux kernel, compiled to WebAssembly",
+      "url": "https://unkernel.dev",
+      "publishedAt": "2026-11-28T03:19:20.000Z",
+      "summary": "A real Linux kernel, compiled to WebAssembly. It boots to a shell in less than a second.",
+      "thumbnailUrl": "https://unkernel.dev/og.png"
+    },
+    {
+      "title": "Google's DeepCrossAttention achieves comparable model quality up to 3x faster",
+      "url": "https://research.google/blog/supercharging-transformer-residual-connections/",
+      "publishedAt": "2026-11-27T23:06:29.000Z",
+      "summary": "Kyriakos Axiotis, Staff Research Scientist, and Thomas Fu, Principal Engineer, Google Research",
+      "thumbnailUrl": "https://storage.googleapis.com/gweb-research2023-media/images/HO_previewImage1.width-800.format-jpeg.jpg"
+    },
+    {
+      "title": "Knuth: Moratorium on Error Reports",
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/moratorium.html",
+      "publishedAt": "2026-11-28T03:49:21.000Z",
+      "summary": "For more than fifty years I've been welcoming reports from readers of errors in my books, so that I can correct them before new copies are printed.",
+      "thumbnailUrl": "https://www-cs-faculty.stanford.edu/~knuth/books-thumb.jpg"
+    },
+    {
+      "title": "Paolo Soleri built a utopian eco-city in the Arizona desert",
+      "url": "https://www.worldofinteriors.com/story/paolo-soleri-arconsati-arizona",
+      "publishedAt": "2026-11-27T13:30:20.000Z",
+      "summary": "In 1970 Paolo Soleri constructed an experimental city in the Arizona desert to counter suburban sprawl. But if living in an ecological utopia sounds easy, think again...",
+      "thumbnailUrl": "https://media.worldofinteriors.com/photos/6983747e3716c62ad0934a48/16:9/w_1280,c_limit/03-26-WELL-Arcosanti-1.jpg"
+    },
+    {
+      "title": "Credit card skimming scripts using WebRTC found on popular shopping sites",
+      "url": "https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer",
+      "publishedAt": "2026-11-27T15:40:31.000Z",
+      "summary": "A card-skimming script was planted on the online stores of Lascana, Samsonite, American Tourister, Revolve and FWRD in the week before Black Friday. After our reports to affected companies, all have had the script removed (on November 24th or 25th) ahead of Black Friday. We observed it in action on one of the five websites: Lascana, where it sent our test card",
+      "thumbnailUrl": "https://www.infohawk.com/_app/immutable/assets/2026-11-27-black-friday-webrtc-skimmer.BQAmEGg5.png"
+    },
+    {
+      "title": "Convex skills send the user's app idea to a remote server without telling them",
+      "url": "https://github.com/convex/convex-backend-skill/issues/64",
+      "publishedAt": "2026-11-27T18:02:45.000Z",
+      "summary": "Three skills in this plugin (listed in Anthropic's claude-plugins-official marketplace) raised the same concern for me: skills/quickstart/SKILL.md lines 48 to 56 POST the user's one-sentence projec...",
+      "thumbnailUrl": "https://opengraph.githubassets.com/3bab1fc02c27fc66062351262031e2cc267eb653253c5aab513f719685775f1c/convex/convex-backend-skill/issues/64"
+    },
+    {
+      "title": "Citroën Hydraulic System",
+      "url": "https://www.citroenet.org.uk/miscellaneous/hydraulics/hydraulics-1.html",
+      "publishedAt": "2026-11-27T03:10:19.000Z",
+      "summary": "Citro�n's hydropneumatic* suspension, despite a reputation for complexity, complication and unreliability is actually very simple in operation and very reliable and furthermore, offers an unrivalled level of comfort coupled with excellent handling and grip.",
+      "thumbnailUrl": "https://www.citroenet.org.uk/index/images/logo.gif"
+    },
+    {
+      "title": "Show HN: bouncemarket – a live prediction market game for a bouncing ball",
+      "url": "https://bouncemarket.minhanhday.com/",
+      "publishedAt": "2026-11-27T15:01:50.000Z",
+      "summary": "a ball will fall. trade on where it lands.",
+      "thumbnailUrl": null
+    },
+    {
+      "title": "9/UX: a Macintosh-inspired desktop for 9front",
+      "url": "https://progrium.github.io/9ux/",
+      "publishedAt": "2026-11-27T21:48:14.000Z",
+      "summary": "[ demo | about | screenshots | design | docs | code | warning! | contact | credits | links ]",
+      "thumbnailUrl": "https://progrium.github.io/9ux/images/docs/desktop.png"
+    },
+    {
+      "title": "Tabernetes: A Kubernetes cluster whose nodes are browser tabs",
+      "url": "https://tabernet.es/",
+      "publishedAt": "2026-11-27T23:00:30.000Z",
+      "summary": "Open a page and your phone is a node. The scheduler sends it a pod, and the pod runs on a Linux kernel booted in the tab.",
+      "thumbnailUrl": "https://tabernet.es/card.png"
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "Dex Telemetry",
+      "tagline": "Open-source Datadog for analytics",
+      "url": "https://www.producthunt.com/products/dex-by-exmergo",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-11-28T01:51:29-08:00"
+    },
+    {
+      "name": "GrayPass",
+      "tagline": "Verify who’s in control before agents make sensitive actions",
+      "url": "https://www.producthunt.com/products/graypass",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-11-28T01:51:22-08:00"
+    },
+    {
+      "name": "gutcheck",
+      "tagline": "Check your gut against the internet, inside Claude Code",
+      "url": "https://www.producthunt.com/products/gutcheck-2",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-11-28T01:51:17-08:00"
+    },
+    {
+      "name": "Microsoft-Decision-1.1",
+      "tagline": "Microsoft's decision model: calibrated, 2x faster, now GA",
+      "url": "https://www.producthunt.com/products/microsoft-decision-1-1",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-11-28T01:51:17-08:00"
+    },
+    {
+      "name": "RetainIQ",
+      "tagline": "Know which customers need attention, why & what to do next",
+      "url": "https://www.producthunt.com/products/retainiq-2",
+      "thumbnailUrl": null,
+      "publishedAt": "2026-11-28T01:51:25-08:00"
+    }
+  ],
+  "summarySections": [
+    {
+      "title": "News and markets",
+      "sentences": [
+        "Global headlines: Mexico condemns DEA tip line asking people to report corrupt officials in Sinaloa (The Mexican president described the tip line as a form of U.S. “interference.”); After heavy strikes by Iran, U.S. naval base in Bahrain faces uncertain future (Neighborhoods around a major American naval facility are deserted, and the nearby businesses are wondering what comes next); and ‘GTA VI’ release has swept PlayStation 5 off the shelves worldwide (The highly anticipated game landed in an already strained market, where console manufacturers have been hit hard by a global memory chip shortage).",
+        "Markets leaned higher, with 7 of 7 tracked indexes up; S&P 500 up 0.00% was the largest move.",
+        "Benchmarks tracked: S&P 500, NASDAQ Composite, Euronext 100 Index, and Public Joint-Stock Company Moscow Exchange MICEX-RTS plus 3 more indexes."
+      ]
+    },
+    {
+      "title": "Hacker News and Product Hunt",
+      "sentences": [
+        "Hacker News: Unkernel: Real Linux kernel, compiled to WebAssembly (A real Linux kernel, compiled to WebAssembly. It boots to a shell in less than a second); Google's DeepCrossAttention achieves comparable model quality up to 3x faster (Kyriakos Axiotis, Staff Research Scientist, and Thomas Fu, Principal Engineer, Google Research); and Knuth: Moratorium on Error Reports (For more than fifty years I've been welcoming reports from readers of errors in my books, so that I can correct them before new copies are...).",
+        "Product Hunt features Dex Telemetry (Open-source Datadog for analytics), GrayPass (Verify who’s in control before agents make sensitive actions), and gutcheck (Check your gut against the internet, inside Claude Code)."
+      ]
+    }
+  ],
+  "sourceNotes": {
+    "generatedAt": "2026-11-28T09:51:39.510Z",
+    "timeZone": "Asia/Kolkata",
+    "successfulSources": [
+      "Washington Post",
+      "Al Jazeera",
+      "NPR",
+      "China Daily",
+      "The Hindu",
+      "Reuters"
+    ],
+    "marketSessionLabel": "Latest market sessions as of 2026-11-28",
+    "warnings": []
+  }
+}
